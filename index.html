@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>平置き3cm 推定チェッカー｜100 ASIN</title>
+  <title>ネコポス・クリックポスト 寸法チェッカー</title>
   <style>
     :root { color-scheme: light; --ink:#16243a; --muted:#607086; --line:#dfe5eb; --paper:#f5f7fa; --white:#fff; --blue:#164f8a; --blue-soft:#eaf3fb; --teal:#117666; --teal-soft:#e5f5f0; --amber:#9d6517; --amber-soft:#fff4df; --red:#ae464a; --red-soft:#fff0f0; }
     * { box-sizing:border-box; }
@@ -79,39 +79,56 @@
     @media(max-width:850px) { .filters { grid-template-columns:repeat(2,minmax(0,1fr)); } .filters .search { grid-column:1/-1; } .card { grid-template-columns:1fr; gap:13px; } .estimate { border-left:0; border-top:1px solid var(--line); padding:13px 0 0; } }
     @media(max-width:560px) { .hero { padding:28px 18px 62px; } main { padding:0 12px 35px; } .stats { grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin-top:-39px; } .stat { padding:12px; } .stat strong { font-size:23px; } .panel { padding:14px; } .filters { grid-template-columns:1fr; } .filters .search { grid-column:auto; } .toolbar { align-items:flex-start; } .toolbar h2 { font-size:16px; } .card { padding:15px; } .notice { display:block; } .notice b { display:block; margin-bottom:4px; } .measurement-fields { grid-template-columns:1fr; } }
   </style>
-  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="theme.css?v=11">
 </head>
 <body>
-  <header class="hero"><div class="hero-inner">
-    <div class="eyebrow">SMALL & LIGHT · RESEARCH TOOL</div>
-    <h1>その袋、平らにしたら<br><em>3cm</em> に収まるかも。</h1>
-    <p>カタログの厚みだけでは見つからない、小型軽量の候補を探す。袋のサイズ・内容量・中身の特徴から、平置き後の厚みを推定します。</p>
-    <div class="hero-note"><span aria-hidden="true">✦</span> 100商品を調査中 <span class="hero-note-divider">/</span> 推定値は実測前の目安です</div>
-  </div></header>
+  <aside class="side-nav" aria-label="ページ内ナビゲーション">
+    <div class="side-brand"><span class="side-brand-mark" aria-hidden="true">◇</span><div><strong>小型発送リサーチ</strong><small>商品サイズを見極める</small></div></div>
+    <nav>
+      <a href="#candidates"><span aria-hidden="true">⌂</span>商品一覧</a>
+      <a href="acquisition.html"><span aria-hidden="true">◉</span>データ取得状況</a>
+      <a href="#search-panel"><span aria-hidden="true">⌕</span>絞り込み</a>
+      <a href="#method"><span aria-hidden="true">◌</span>推定方法</a>
+    </nav>
+    <button id="sideExport" type="button"><span aria-hidden="true">↧</span>CSVを書き出す</button>
+    <p>商品袋から外装を推定。実測値を入れると発送判定を更新。</p>
+  </aside>
+  <header class="app-topbar">
+    <div class="topbar-search"><span aria-hidden="true">⌕</span><label for="search" class="visually-hidden">ASIN・商品名で検索</label><input id="search" type="search" placeholder="ASIN・商品名で検索"></div>
+    <button id="searchGo" class="topbar-search-button" type="button">分析を見る</button>
+    <span class="topbar-count"><span id="heroCount">—</span>商品を調査</span>
+  </header>
   <main>
-    <section class="stats" aria-label="候補の集計">
-      <div class="stat"><span class="stat-icon" aria-hidden="true">◎</span><strong id="totalCount">100</strong><span>調査した候補</span></div>
-      <div class="stat"><span class="stat-icon" aria-hidden="true">↘</span><strong id="likelyCount">—</strong><span>3cm以内の可能性</span></div>
-      <div class="stat"><span class="stat-icon" aria-hidden="true">◌</span><strong id="borderlineCount">—</strong><span>境界・情報不足</span></div>
-      <div class="stat"><span class="stat-icon" aria-hidden="true">×</span><strong id="unlikelyCount">—</strong><span>3cm以内は難しい</span></div>
-    </section>
-    <section class="panel" aria-label="検索と絞り込み">
-      <div class="notice"><b>判定の前提</b><span>Amazonの掲載寸法は平置き後の厚みとは異なります。下の厚さは内容量÷推定かさ密度÷袋の有効面積に、薄い外装分を加えた概算です。袋のマチ、シール部、硬い付属品の影響で変わります。ネコポスは梱包後に厚さ3cm以内、長辺34cm以内、3辺合計60cm以内、重量1kg以内です。送り状用に縦23cm・横11.5cm以上も必要です。<a href="https://faq.kuronekoyamato.co.jp/app/answers/detail/a_id/8984/p/366" target="_blank" rel="noopener noreferrer">ヤマト運輸の規格</a></span></div>
+    <div class="page-heading visual-heading"><div><span class="page-kicker">PRODUCT ANALYSIS</span><h1>商品サイズ・配送可否の判定</h1><p>商品袋を平らにしたときの外寸から、配送規格との適合を調べる</p></div><div class="page-actions"><a class="btn" href="acquisition.html">データ取得状況 ↗</a><button id="export" class="btn" type="button">CSVを書き出す</button></div></div>
+    <section id="search-panel" class="panel" aria-label="検索と絞り込み">
+      <details class="notice"><summary>判定の見方・配送規格</summary><span>「概算で規格内」は推定値との照合結果です。梱包後の外寸と重量を実測して確認してください。商品袋の幅・長さと発送用外装の寸法は別に表示しています。配送規格は <a href="https://business.kuronekoyamato.co.jp/service/lineup/nekoposu/index.html" target="_blank" rel="noopener noreferrer">ネコポス ↗</a> <a href="https://www.post.japanpost.jp/service/send/domestic/delivery/clickpost/" target="_blank" rel="noopener noreferrer">クリックポスト ↗</a> を参照してください。</span></details>
       <div class="filters">
-        <div class="field search"><label for="search">ASIN・商品名で検索</label><input id="search" type="search" placeholder="例：B07BBMLGVJ、きき湯、コーヒー"></div>
-        <div class="field"><label for="category">分類</label><select id="category"><option value="all">すべて</option><option>観賞魚・ペット</option><option>コーヒー</option><option>入浴剤・バスソルト</option><option>サプリ・粉末食品など</option></select></div>
+        <div class="field"><label for="category">分類</label><select id="category"><option value="all">すべて</option></select></div>
         <div class="field"><label for="dimension">Amazon寸法</label><select id="dimension"><option value="all">すべて</option><option value="confirmed">3cm超を確認</option><option value="unconfirmed">寸法未確認</option></select></div>
         <div class="field"><label for="forecast">平置き3cm予測</label><select id="forecast"><option value="all">すべて</option><option value="likely">収まりそう</option><option value="borderline">境界・情報不足</option><option value="unlikely">難しい</option></select></div>
+        <div class="field"><label for="shippingFilter">配送規格の判定</label><select id="shippingFilter"><option value="all">すべて</option><option value="both">両方とも規格内見込み</option><option value="nekopos">ネコポス規格内見込み</option><option value="clickpost">クリックポスト規格内見込み</option><option value="check">要実測</option><option value="over">両方とも規格外</option></select></div>
       </div>
-      <details class="method"><summary>推定方法と注意点</summary><p>質量を内容物のかさ密度で体積に換算し、袋の表面積からシール部と余白を引いた面に均した場合の厚さを計算しています。かさ密度に幅を持たせ、薄い外装・凹凸として0.3cmを仮に加算しています。Amazonの梱包寸法や他商品の袋寸法しかない場合、計算値が薄くても「境界・情報不足」にしています。個包装や硬い付属品も別途確認が必要です。</p><p>参考：<a href="https://product.gex-fp.co.jp/fish/?cid=373&amp;id=1749&amp;m=ProductListDetail" target="_blank" rel="noopener noreferrer">GEXの袋寸法</a>、<a href="https://agf.ajinomoto.co.jp/product/detail/59595" target="_blank" rel="noopener noreferrer">AGFの詰め替え袋寸法</a>、<a href="https://pure.ug.edu.gh/en/publications/effects-of-oilseed-meals-on-pellet-characteristics-faecal-matter-/" target="_blank" rel="noopener noreferrer">沈下性の魚餌のかさ密度</a>、<a href="https://eprints.lmu.edu.ng/3377/" target="_blank" rel="noopener noreferrer">魚餌の別の密度例</a>、<a href="https://www.univarsolutions.com/mag-sulfate-epsom-salt-usp-kshr-501784" target="_blank" rel="noopener noreferrer">エプソムソルトのかさ密度</a>。</p><p>個別の寸法や密度は各商品カードの「根拠と仮定」で確認できます。厚さ以外の長辺・重量・3辺合計は別途確認が必要です。</p></details>
+      <details id="method" class="method"><summary>推定方法と注意点</summary><p>同一商品のメーカー公表「個装・単品寸法」を最優先します。それ以外はAmazon・Keepaの「商品寸法」、同系品の袋、画像、カタログの「パッケージ寸法」を個別に照合し、仮定として表示します。パッケージ寸法はFBA納品用の大箱を意味するとは限らず、販売単位の包装寸法ですが、商品袋の実寸と一致する保証はありません。出典の弱い寸法だけで「入る」とは判定しません。</p><p>粉・粒は内容量を仮定のかさ密度で体積に直し、袋の有効面積に広げて厚さを概算します。液体のmL表示はすでに体積なので密度では割りません。縦横は商品袋に対して外装余白を各0〜2cm、重量は梱包材100gを仮に加えて確認します。複数個セット、マチ、硬い注ぎ口やスプーンは誤差要因です。ネコポスは宛名面23×11.5cm以上、クリックポストは14×9cm以上の外装が必要です。クリックポストは投函口の実寸にも左右されます。</p><p>参考：<a href="https://product.gex-fp.co.jp/fish/?cid=373&amp;id=1749&amp;m=ProductListDetail" target="_blank" rel="noopener noreferrer">GEXの個装寸法</a>、<a href="https://agf.ajinomoto.co.jp/product/detail/59595" target="_blank" rel="noopener noreferrer">AGFの単品寸法</a>、<a href="https://business.kuronekoyamato.co.jp/service/lineup/nekoposu/index.html" target="_blank" rel="noopener noreferrer">ネコポス規格</a>、<a href="https://www.post.japanpost.jp/service/send/domestic/delivery/clickpost/" target="_blank" rel="noopener noreferrer">クリックポスト規格</a>。</p></details>
     </section>
-    <div class="toolbar"><div><h2>候補一覧</h2><span id="visibleCount">100件を表示</span></div><div class="actions"><button id="export" class="btn" type="button">CSVを開く</button></div></div>
-    <section id="list" class="list" aria-label="候補一覧"></section>
-    <dialog id="csvDialog"><h2>100件のCSV</h2><p>予測、根拠、出典、実測記録を含みます。下の内容をコピーするか、ファイルに保存できます。</p><textarea id="csvText" aria-label="CSVデータ" readonly></textarea><div class="dialog-actions"><button id="closeCsv" class="btn" type="button">閉じる</button><button id="saveCsv" class="btn" type="button">ファイルに保存</button></div></dialog>
-    <footer>元の例 <a href="https://www.amazon.co.jp/dp/B00TXC7RBG" target="_blank" rel="noopener noreferrer">B00TXC7RBG</a> は100件に含めていません。<a href="https://product.gex-fp.co.jp/fish/?cid=373&amp;id=708&amp;m=ProductListDetail" target="_blank" rel="noopener noreferrer">GEX公表の220g・袋15×24cm</a>と浮上性フードのかさ密度から、約2.2〜3.1cmで境界と推定します。</footer>
+    <div id="candidates" class="toolbar"><div><h2>候補を選ぶ</h2><span id="visibleCount">読み込み中</span></div><div class="actions"><span>左の一覧で比較、右で寸法と根拠を確認</span></div></div>
+    <div class="workspace">
+      <div class="candidate-picker"><section id="list" class="list" aria-label="候補一覧"></section><div class="more-wrap"><button id="more" class="btn" type="button" hidden>さらに20件表示</button></div></div>
+      <section id="featured" class="featured" aria-label="選択中の商品の詳細"></section>
+    </div>
+    <section class="stats" aria-label="候補の集計">
+      <div class="stat"><span class="stat-icon" aria-hidden="true">◎</span><strong id="totalCount">—</strong><span>調査した候補</span></div>
+      <div class="stat"><span class="stat-icon" aria-hidden="true">◯</span><strong id="likelyCount">—</strong><span>両方とも規格内見込み</span></div>
+      <div class="stat"><span class="stat-icon" aria-hidden="true">◌</span><strong id="borderlineCount">—</strong><span>要実測・一部規格外</span></div>
+      <div class="stat"><span class="stat-icon" aria-hidden="true">×</span><strong id="unlikelyCount">—</strong><span>両方とも規格外</span></div>
+    </section>
+    <dialog id="csvDialog"><h2 id="csvTitle">CSV</h2><p>予測、根拠、出典、実測記録を含みます。下の内容をコピーするか、ファイルに保存できます。</p><textarea id="csvText" aria-label="CSVデータ" readonly></textarea><div class="dialog-actions"><button id="closeCsv" class="btn" type="button">閉じる</button><button id="saveCsv" class="btn" type="button">ファイルに保存</button></div></dialog>
+    <footer>元の例 <a href="https://www.amazon.co.jp/dp/B00TXC7RBG" target="_blank" rel="noopener noreferrer">B00TXC7RBG</a> は候補に含めていません。<a href="https://product.gex-fp.co.jp/fish/?cid=373&amp;id=708&amp;m=ProductListDetail" target="_blank" rel="noopener noreferrer">GEX公表の220g・袋15×24cm</a>と浮上性フードのかさ密度から、約2.2〜3.1cmで境界と推定します。</footer>
   </main>
   <script src="data.js"></script>
   <script src="predictions.js"></script>
-  <script src="app.js"></script>
+  <script src="product_images.js"></script>
+  <script src="api_dimensions.js"></script>
+  <script src="shipping_fit.js"></script>
+  <script src="app.js?v=12"></script>
 </body>
 </html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>データ取得状況 | 小型発送リサーチ</title>
+  <link rel="stylesheet" href="theme.css?v=11">
+  <link rel="stylesheet" href="acquisition.css?v=2">
+</head>
+<body>
+  <aside class="side-nav" aria-label="ページナビゲーション">
+    <div class="side-brand"><span class="side-brand-mark" aria-hidden="true">◇</span><div><strong>小型発送リサーチ</strong><small>商品サイズを見極める</small></div></div>
+    <nav>
+      <a href="index.html"><span aria-hidden="true">⌂</span>商品分析</a>
+      <a href="acquisition.html" aria-current="page"><span aria-hidden="true">◉</span>データ取得状況</a>
+    </nav>
+    <p>表示しているのは保存済みデータの最終状態です。</p>
+  </aside>
+  <header class="app-topbar status-topbar"><a href="index.html" class="back-link">← 商品分析へ戻る</a><span>データ取得状況</span></header>
+  <main>
+    <div class="page-heading"><div><span class="page-kicker">DATA ACQUISITION</span><h1>データ取得状況</h1><p>新規商品、調査の進み具合、各データ源の取得結果</p></div><a class="btn" href="index.html">商品分析を見る ↗</a></div>
+    <div id="statusError" class="status-error" hidden>取得状況の保存データを読み込めませんでした。</div>
+    <div id="statusContent" hidden>
+      <section class="snapshot-banner" aria-label="データの時点"><div><span class="snapshot-label">保存済みの最終調査</span><strong id="researchDate">—</strong><p>このページは保存された結果を表示します。Amazonの新規検索やAPI取得を、ページ表示だけで実行するものではありません。</p></div><span class="snapshot-tag">リアルタイム監視ではありません</span></section>
+      <section class="status-metrics" aria-label="調査の集計">
+        <div class="status-metric"><span>登録中の商品</span><strong id="catalogCount">—</strong><small>商品一覧にある件数</small></div>
+        <div class="status-metric accent"><span>前回の調査で追加</span><strong id="addedCount">—</strong><small id="addedCheck">—</small></div>
+        <div class="status-metric"><span>検索で発見</span><strong id="discoveredCount">—</strong><small id="queryCount">—</small></div>
+        <div class="status-metric"><span>商品ページを確認</span><strong id="checkedCount">—</strong><small id="uncheckedCount">—</small></div>
+      </section>
+      <section class="status-card pipeline-card" aria-labelledby="pipelineTitle"><div class="section-heading"><div><span class="section-kicker">RESEARCH</span><h2 id="pipelineTitle">前回の新規商品調査</h2></div><span id="researchScope" class="subtle">—</span></div><div class="pipeline" id="pipeline"></div><p class="status-note">「ページ未確認」は検索結果に出た商品ページをまだ開いていない件数です。残り全件の取得を予定・実行中という意味ではありません。</p></section>
+      <section class="source-grid" aria-label="データ源ごとの状態" id="sourceGrid"></section>
+      <div class="status-columns">
+        <section class="status-card" aria-labelledby="newProductsTitle"><div class="section-heading"><div><span class="section-kicker">NEW PRODUCTS</span><h2 id="newProductsTitle">前回追加した商品 <span id="newProductsCount">—</span></h2></div></div><label class="status-search">商品名・ASINで絞る<input id="newProductSearch" type="search" placeholder="例：B0DJB9RC19、コーヒー"></label><div class="scroll-list" id="newProducts"></div></section>
+        <section class="status-card" aria-labelledby="queriesTitle"><div class="section-heading"><div><span class="section-kicker">SEARCH QUERIES</span><h2 id="queriesTitle">検索語ごとの記録</h2></div></div><p class="status-note">各検索語の結果1ページ目のみ。複数の検索語で見つかった同じ商品は、それぞれに計上しています。</p><div class="query-head"><span>検索語</span><span>発見</span><span>ページ確認</span><span>追加</span></div><div class="scroll-list" id="queryRows"></div></section>
+      </div>
+      <footer>数値は保存済みデータの状態です。新規調査の結果を保存すると、このページの集計も更新できます。</footer>
+    </div>
+  </main>
+  <script src="data.js"></script>
+  <script src="predictions.js"></script>
+  <script src="product_images.js"></script>
+  <script src="api_dimensions.js"></script>
+  <script src="acquisition_status.js"></script>
+  <script src="acquisition.js?v=3"></script>
+</body>
+</html>
