@@ -807,6 +807,7 @@ main { max-width:none; padding:0 24px 50px 0; }
 .gauge-minor-tick { stroke:#6f8b98; stroke-width:1; }
 .gauge-tick-label { fill:#173b52; font-size:12px; font-weight:850; }
 .gauge-range { fill:#eb7474 !important; opacity:.75; }
+.thickness-gauge.within .gauge-range { fill:#3eabc1 !important; }
 .gauge-limit-line { stroke:#d23636; stroke-width:2.5; stroke-dasharray:7 5; }
 .gauge-limit-text { fill:#b42525; font-size:13px; font-weight:900; paint-order:stroke; stroke:#f2f6f8; stroke-width:4; }
 .gauge-value-line,.thickness-gauge.over .gauge-value-line { stroke:#236b85; stroke-width:2; stroke-dasharray:4 4; }
