@@ -796,6 +796,26 @@ main { max-width:none; padding:0 24px 50px 0; }
 .thickness-gauge.over .gauge-value-line { stroke:#bc6c18; }
 .gauge-value-text { fill:#177489; font-size:11px; font-weight:750; }
 .gauge-disclaimer { padding:9px; border:1px solid #d5ebef; border-radius:8px; background:#f1fbfd; color:#40677c !important; font-size:10px !important; line-height:1.5; }
+.gauge-stage { fill:#f2f6f8; stroke:#e0e9ed; }
+.gauge-schematic-tag { fill:#fff; stroke:#b7c9d3; }
+.gauge-schematic-label { fill:#284b61; font-size:11px; font-weight:850; }
+.gauge-mailer { fill:url(#mailer-side); stroke:#ad9265; stroke-width:1.2; }
+.gauge-pouch { fill:url(#pouch-side); stroke:#7c929e; stroke-width:1.6; }
+.gauge-pouch-fold { fill:none; stroke:#fff; stroke-width:2; opacity:.65; }
+.gauge-body { fill:#fff; stroke:#8ca2ad; stroke-width:1.4; }
+.gauge-major-tick { stroke:#263f4c; stroke-width:1.5; }
+.gauge-minor-tick { stroke:#6f8b98; stroke-width:1; }
+.gauge-tick-label { fill:#173b52; font-size:12px; font-weight:850; }
+.gauge-range { fill:#eb7474 !important; opacity:.75; }
+.gauge-limit-line { stroke:#d23636; stroke-width:2.5; stroke-dasharray:7 5; }
+.gauge-limit-text { fill:#b42525; font-size:13px; font-weight:900; paint-order:stroke; stroke:#f2f6f8; stroke-width:4; }
+.gauge-value-line,.thickness-gauge.over .gauge-value-line { stroke:#236b85; stroke-width:2; stroke-dasharray:4 4; }
+.gauge-bottom-note { fill:#607789; font-size:9px; font-weight:700; }
+.gauge-result { display:grid; gap:5px; padding:12px 5px 5px; text-align:center; }
+.gauge-result strong { color:#173650; font-size:clamp(15px,1.2vw,20px); line-height:1.35; }
+.thickness-gauge.over .gauge-result strong { color:#ae2b2b; }
+.gauge-result span { color:#4a6576; font-size:13px; font-weight:800; }
+.thickness-gauge .gauge-disclaimer { margin:7px 0 0; padding:8px 10px; border-color:#e1e8ed; background:#f6f9fb; color:#526d7e !important; font-size:10px !important; }
 .decision-fit { padding:12px; border:1px solid #dcebf0; background:#eef8fb; }
 .decision-fit .rail-eyebrow { margin:2px 0 3px; font-size:17px; }
 .decision-fit .shipping-row { display:grid; grid-template-columns:1fr auto; gap:8px 5px; min-height:229px; padding:14px; border:1px solid #dfebef; border-radius:11px; background:#fff; }
@@ -869,3 +889,23 @@ main { max-width:none; padding:0 24px 50px 0; }
 .supplier-quick.is-unconfirmed { border-color:#d5e3e8; background:#f1f7f9; }
 .supplier-quick.is-unconfirmed .supplier-quick-label { background:#66899b; }
 @media(max-width:580px) { .supplier-quick { grid-template-columns:auto minmax(0,1fr); grid-template-areas:'label name' 'cost cost' 'meta meta'; gap:7px 10px; padding:12px; } .supplier-quick-cost { justify-self:start; text-align:left; } .supplier-quick-name { white-space:normal; } }
+.packing-layout { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.packing-layout > .evidence-panel:last-child { grid-column:1/-1; min-height:0; }
+.packing-layout > .evidence-panel:last-child .evidence-intro { min-height:0; margin-bottom:4px; }
+.thickness-gauge { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(190px,.85fr); grid-template-areas:'picture result' 'picture note'; align-items:center; gap:4px 20px; padding:7px 5px; }
+.thickness-gauge .gauge-svg { grid-area:picture; width:100%; max-width:480px; max-height:none; margin:0 auto; }
+.thickness-gauge .gauge-result { grid-area:result; align-self:end; padding:4px; }
+.thickness-gauge .gauge-disclaimer { grid-area:note; align-self:start; }
+@media(max-width:580px) {
+  .packing-layout { grid-template-columns:1fr; }
+  .packing-layout > .evidence-panel:last-child { grid-column:auto; }
+  .thickness-gauge { grid-template-columns:1fr; grid-template-areas:'picture' 'result' 'note'; gap:4px; }
+  .thickness-gauge .gauge-svg { max-width:430px; }
+}
+.size-callout > .size-callout-main { display:grid; grid-template-columns:auto minmax(0,1fr); justify-content:initial; gap:6px 10px; white-space:normal; }
+@media(max-width:580px) {
+  .size-callout { grid-template-columns:1fr; }
+  .size-callout > .size-callout-main { min-width:0; }
+  .size-callout .size-values { padding-left:0; gap:5px; }
+  .size-callout > p { padding:8px 0 0; border:0; border-top:1px solid #cfe6e6; }
+}

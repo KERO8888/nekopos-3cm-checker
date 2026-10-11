@@ -288,34 +288,47 @@
   function thicknessGauge(values, actual) {
     const low = Math.max(0, Number(Array.isArray(values) ? values[0] : values) || 0);
     const high = Math.max(low, Number(Array.isArray(values) ? values[1] : values) || 0);
-    const max = Math.max(3.5, Math.ceil((high + 0.2) * 2) / 2);
-    const bottom = 390;
-    const scale = 345 / max;
+    const max = Math.max(4, Math.ceil(high + 0.5));
+    const bottom = 354;
+    const scale = 315 / max;
     const yFor = cm => bottom - cm * scale;
     const ticks = Array.from({ length: Math.round(max * 10) + 1 }, (_, index) => {
       const cm = index / 10;
       const y = yFor(cm).toFixed(2);
       const half = index % 5 === 0;
-      const label = half && (max <= 5 || index % 10 === 0)
-        ? `<text x="66" y="${Number(y) + 4}" text-anchor="end" class="gauge-tick-label">${cm.toFixed(1)}</text>`
+      const label = index % 10 === 0
+        ? `<text x="274" y="${Number(y) + 4}" class="gauge-tick-label">${cm.toFixed(0)}</text>`
         : '';
-      return `<line x1="${half ? 103 : 110}" y1="${y}" x2="124" y2="${y}" class="${half ? 'gauge-major-tick' : 'gauge-minor-tick'}"/>${label}`;
+      return `<line x1="242" y1="${y}" x2="${half ? 267 : 257}" y2="${y}" class="${half ? 'gauge-major-tick' : 'gauge-minor-tick'}"/>${label}`;
     }).join('');
     const limitY = yFor(3).toFixed(2);
     const lowY = yFor(low).toFixed(2);
     const highY = yFor(high).toFixed(2);
     const tone = high > 3 ? 'over' : 'within';
-    return `<div class="thickness-gauge ${tone}" role="group" aria-label="${actual ? '梱包後の実測最大厚' : '梱包前の計算上の厚み'}${low.toFixed(1)}${low === high ? '' : `から${high.toFixed(1)}`}センチと3センチの上限目安を比較した模式図">
-      <svg class="gauge-svg" viewBox="0 0 330 430" role="img" aria-label="縦の定規で3センチの線と${actual ? '入力実測値' : '計算上の範囲'}を比較。画面上の実寸ではありません">
-        <rect x="88" y="40" width="37" height="356" rx="5" class="gauge-body"/>
+    const result = actual
+      ? high > 3 ? '入力値は3cmを超えています' : '入力値は3cm以内です'
+      : low > 3 ? '計算上は3cmを超える見込み' : high > 3 ? '計算上は3cmを超える可能性' : '計算上は3cm以内の見込み';
+    const amount = `${low.toFixed(1)}${low === high ? '' : `〜${high.toFixed(1)}`}cm`;
+    const pouchTop = Math.max(43, Math.min(327, Number(highY)));
+    const pouchMid = pouchTop + (bottom - pouchTop) * 0.43;
+    return `<div class="thickness-gauge ${tone}" role="group" aria-label="${actual ? '入力された梱包後の実測最大厚' : '計算上の厚み'}${low.toFixed(1)}${low === high ? '' : `から${high.toFixed(1)}`}センチと3センチ上限の比較。図は実寸ではありません">
+      <svg class="gauge-svg" viewBox="0 0 330 380" role="img" aria-label="袋の側面模式図と縦の定規。赤い破線が3センチ上限、${actual ? '入力実測値' : '計算値'}は${amount}。画面上の実寸ではありません">
+        <defs><linearGradient id="pouch-side" x1="0" y1="0" x2="0.15" y2="1"><stop offset="0" stop-color="#f4f8fa"/><stop offset=".55" stop-color="#b4c1c7"/><stop offset="1" stop-color="#73828d"/></linearGradient><linearGradient id="mailer-side" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ead7b1"/><stop offset="1" stop-color="#c9ad7a"/></linearGradient></defs>
+        <rect x="1" y="1" width="328" height="378" rx="15" class="gauge-stage"/>
+        <rect x="13" y="14" width="52" height="24" rx="6" class="gauge-schematic-tag"/><text x="39" y="30" text-anchor="middle" class="gauge-schematic-label">模式図</text>
+        <path d="M 11 352 Q 85 348 219 351 L 224 363 Q 112 369 11 363 Z" class="gauge-mailer"/>
+        <path d="M 12 347 Q 9 ${pouchMid.toFixed(1)} 66 ${(pouchTop + 25).toFixed(1)} Q 128 ${(pouchTop - 10).toFixed(1)} 207 ${(pouchTop + 15).toFixed(1)} Q 231 ${(pouchTop + 26).toFixed(1)} 225 ${pouchMid.toFixed(1)} Q 228 338 211 346 Q 112 359 12 347 Z" class="gauge-pouch"/>
+        <path d="M 21 ${(pouchMid + 6).toFixed(1)} Q 85 ${(pouchTop + 18).toFixed(1)} 199 ${(pouchTop + 27).toFixed(1)}" class="gauge-pouch-fold"/>
+        <rect x="240" y="33" width="31" height="325" rx="3" class="gauge-body"/>
         ${ticks}
-        <rect x="135" y="${highY}" width="95" height="${Math.max(5, Number(lowY)-Number(highY))}" rx="8" class="gauge-range"/>
-        <line x1="124" y1="${limitY}" x2="312" y2="${limitY}" class="gauge-limit-line"/>
-        <text x="139" y="${Number(limitY)-9}" class="gauge-limit-text">3.0 cm 上限</text>
-        <line x1="135" y1="${highY}" x2="230" y2="${highY}" class="gauge-value-line"/>
-        <text x="137" y="${Math.min(422, Number(lowY)+21)}" class="gauge-value-text">${actual ? '実測最大厚' : '計算上の範囲'} ${low.toFixed(1)}${low === high ? '' : `〜${high.toFixed(1)}`} cm</text>
+        <rect x="278" y="${highY}" width="11" height="${Math.max(3, Number(lowY)-Number(highY))}" rx="4" class="gauge-range"/>
+        <line x1="10" y1="${limitY}" x2="318" y2="${limitY}" class="gauge-limit-line"/>
+        <text x="318" y="${Number(limitY)-8}" text-anchor="end" class="gauge-limit-text">3cm 上限</text>
+        <line x1="13" y1="${highY}" x2="221" y2="${highY}" class="gauge-value-line"/>
+        <text x="12" y="372" class="gauge-bottom-note">袋と外装を重ねた側面イメージ</text>
       </svg>
-      <p class="gauge-disclaimer">${actual ? '入力された梱包後最大厚です。測り方を再確認してください。' : '梱包後の最大厚は未測定です。この範囲は発送可否を示しません。'}</p>
+      <div class="gauge-result"><strong>${result}</strong><span>${actual ? '入力された最大厚' : '厚みの目安'} ${amount}${actual ? '' : ' · 要実測'}</span></div>
+      <p class="gauge-disclaimer">側面は模式図・画面上の実寸ではありません。${actual ? '入力値と測り方を再確認してください。' : '梱包後の最大厚は未測定です。'}</p>
     </div>`;
   }
 
@@ -352,7 +365,7 @@
       <div class="packing-layout">
         <div class="evidence-panel"><div class="evidence-title"><i>1</i><b>商品写真</b></div><p class="evidence-intro">商品全体がわかる写真です。画面上の大きさは実物のサイズではありません。</p><div class="product-photo-stage">${photo}</div><p class="scene-caption">縮尺なし・全体表示。写真から厚みは測れません。</p></div>
         <div class="evidence-panel"><div class="evidence-title"><i>2</i><b>縦横の模式図</b></div><p class="evidence-intro">外装と商品袋の寸法を数値比で比較します。画面上の実寸ではありません。</p>${!knownPouch ? '<div class="evidence-caution">商品袋の実測なし。描いた形は寸法値からの仮定です。</div>' : ''}<div class="footprint-stage">${diagram}</div><p class="scene-caption">${knownPouch ? `${measuredPouch ? '入力実測' : 'メーカー公表'}の袋寸法を使用。平置き後の形状は未確認。` : '商品袋の形・平置き寸法・外装余白は未確認です。'}</p></div>
-        <div class="evidence-panel"><div class="evidence-title"><i>3</i><b>${measuredThickness ? '梱包後の最大厚' : '計算上の厚さ'}</b></div><p class="evidence-intro">3cmの上限と厚みを定規で比較します。${measuredThickness ? '入力した実測値です。' : '色の帯は計算値で、梱包後の実測ではありません。'}</p>${thicknessPanel}</div>
+        <div class="evidence-panel"><div class="evidence-title"><i>3</i><b>3cm定規での厚み確認</b></div><p class="evidence-intro">袋と外装の側面を模式図にし、${measuredThickness ? '入力された実測値' : '計算上の厚みの目安'}を3cmの線と比べます。</p>${thicknessPanel}</div>
       </div>
       <div class="size-callout"><div class="size-callout-main"><span class="size-status">${complete ? '実測' : '仮定'}</span><strong>発送用外装 ${complete ? '入力された実測値' : '計算上の仮置き'}</strong><div class="size-values"><b>${outer.longMax}</b><em>×</em><b>${outer.shortMax}</b><em>×</em><b>${outer.thicknessMax}</b><small>cm</small></div></div><p>${complete ? '入力した実測値です。梱包状態と測り方を再確認してください。' : '未測定の項目に予測値を使用。厚みの数値は最大厚の保証ではありません。'}</p></div>
       <div class="packing-instructions"><b>実測の手順</b><span>① ${instruction}</span><span>② 実際に使う外装に入れ、封をする。</span><span>③ 長辺・短辺・最大厚・重量を測り、詳細に入力する。</span></div>
