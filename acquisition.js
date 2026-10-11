@@ -5,11 +5,13 @@
   const products = window.NEKOPOST_PRODUCTS || [];
   const predictions = window.NEKOPOST_PREDICTIONS || {};
   const imageData = window.NEKOPOST_IMAGES || {};
+  const localImages = window.NEKOPOST_LOCAL_IMAGES || {};
   const apiData = window.NEKOPOST_API_DIMENSIONS || {};
   const $ = selector => document.querySelector(selector);
   const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));
   const productAsins = new Set(products.map(item => item.asin));
   const imageAsins = new Set(Object.keys(imageData.images || {}));
+  const localImageAsins = new Set(Object.keys(localImages));
   const apiItems = apiData.items || {};
 
   if (!research || !products.length) {
@@ -34,7 +36,7 @@
 
   const additions = research.additions || [];
   const registeredAdditions = additions.filter(item => productAsins.has(item.asin));
-  const imageCount = products.filter(item => imageAsins.has(item.asin)).length;
+  const imageCount = products.filter(item => imageAsins.has(item.asin) && localImageAsins.has(item.asin)).length;
   const predictionCount = products.filter(item => predictions[item.asin]).length;
   const keepaCount = products.filter(item => apiItems[item.asin]?.keepa).length;
   const keepaItemCount = products.filter(item => apiItems[item.asin]?.keepa?.item).length;
@@ -42,7 +44,8 @@
   const manufacturerCount = products.filter(item => predictions[item.asin]?.footprintSource === 'manufacturer').length;
   const apiStatus = apiData.sourceStatus || {};
 
-  $('#researchDate').textContent = `${research.searchedOn.replace(/^(\d{4})-(\d{2})-(\d{2})$/, (_, year, month, day) => `${year}年${Number(month)}月${Number(day)}日`)}の検索結果`;
+  const searchDate = research.searchedOn.replace(/^(\d{4})-(\d{2})-(\d{2})$/, (_, year, month, day) => `${year}年${Number(month)}月${Number(day)}日`);
+  $('#researchDate').textContent = `${searchDate}の検索結果・${dateTime(research.researchFileUpdatedAt)}まで商品ページを確認`;
   $('#catalogCount').textContent = products.length;
   $('#addedCount').textContent = additions.length;
   $('#addedCheck').textContent = registeredAdditions.length === additions.length ? `${registeredAdditions.length}件すべて商品一覧に反映` : `${registeredAdditions.length} / ${additions.length}件を商品一覧に反映`;
@@ -65,7 +68,7 @@
   const keepaLatestError = apiStatus.keepa?.status === 'error';
   const predictionComplete = predictionCount === products.length;
   $('#sourceGrid').innerHTML = [
-    sourceCard({ title: 'Amazon商品画像', status: imageComplete ? '取得済み' : '一部未取得', tone: imageComplete ? 'ok' : 'warn', metric: `${imageCount} / ${products.length}`, detail: '登録商品の画像URLを保存。画像本体はAmazonから表示します。', checkedAt: dateTime(imageData.fetchedAt), footnote: imageComplete ? '' : `${products.length - imageCount}件の画像URLがありません。` }),
+    sourceCard({ title: '商品画像', status: imageComplete ? 'ローカル保存済み' : '一部未取得', tone: imageComplete ? 'ok' : 'warn', metric: `${imageCount} / ${products.length}`, detail: '登録商品の画像URLを記録し、表示用の画像本体をサイト内に保存しています。', checkedAt: dateTime(research.researchFileUpdatedAt), footnote: imageComplete ? '' : `${products.length - imageCount}件はURLまたはローカル画像がありません。` }),
     sourceCard({ title: 'Keepa API', status: keepaLatestError ? '再取得に失敗' : keepaComplete ? '応答取得済み' : '一部未取得', tone: keepaLatestError || !keepaComplete ? 'warn' : 'ok', metric: `${keepaCount} / ${products.length}`, detail: `保存済みの商品寸法 ${keepaItemCount}件・包装寸法 ${keepaPackageCount}件。応答があっても寸法が空の商品はあります。`, checkedAt: dateTime(apiStatus.keepa?.checkedAt || apiData.updatedAt), footnote: keepaLatestError ? '件数には以前に取得して保存したデータも含まれます。' : '' }),
     sourceCard({ title: '厚さ予測データ', status: predictionComplete ? '全件作成済み' : '一部欠落', tone: predictionComplete ? 'ok' : 'warn', metric: `${predictionCount} / ${products.length}`, detail: `メーカー公表の袋寸法を採用した商品は${manufacturerCount}件。残りは登録寸法や類似品などを根拠に推定。`, checkedAt: dateTime(research.predictionsUpdatedAt) }),
   ].join('');
@@ -74,11 +77,12 @@
     const query = $('#newProductSearch').value.trim().toLowerCase();
     const filtered = additions.filter(item => !query || `${item.asin} ${item.title} ${item.category}`.toLowerCase().includes(query));
     $('#newProducts').innerHTML = filtered.length ? filtered.map(item => {
-      const hasImage = imageAsins.has(item.asin);
+      const hasImage = imageAsins.has(item.asin) && localImageAsins.has(item.asin);
       const hasPrediction = Boolean(predictions[item.asin]);
       const hasKeepa = Boolean(apiItems[item.asin]?.keepa);
       const ready = item.inCatalog && hasImage && hasPrediction && hasKeepa;
-      return `<div class="new-product"><div><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.asin)} · ${escapeHtml(item.category)}</small><small>発見した検索語：${escapeHtml(item.queries.join('、'))}</small></div><div class="new-product-side"><span class="ready-tag ${ready ? 'ok' : 'warn'}">${ready ? '画像・予測・Keepaあり' : 'データに欠落あり'}</span><a href="index.html?asin=${encodeURIComponent(item.asin)}">分析を見る ↗</a></div></div>`;
+      const status = !item.inCatalog ? '現在は登録対象外' : ready ? '画像・予測・Keepaあり' : hasImage && hasPrediction ? '画像・予測あり、Keepa未取得' : '画像または予測が未取得';
+      return `<div class="new-product"><div><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.asin)} · ${escapeHtml(item.category)}</small><small>発見した検索語：${escapeHtml(item.queries.join('、'))}</small></div><div class="new-product-side"><span class="ready-tag ${ready ? 'ok' : 'warn'}">${status}</span><a href="index.html?asin=${encodeURIComponent(item.asin)}">分析を見る ↗</a></div></div>`;
     }).join('') : '<p class="empty-result">該当する商品はありません。</p>';
   }
   $('#newProductSearch').addEventListener('input', renderAdditions);
