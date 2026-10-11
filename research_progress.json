@@ -1,0 +1,7035 @@
+{
+  "searchedOn": "2026-10-11",
+  "marketplace": "Amazon.co.jp",
+  "method": "Amazon search results, first page per query; individually reviewed product pages. On 2026-10-08, hand-soap search showed 48 first-page ASINs.",
+  "coverageNote": "2026-10-11に自己消費できる入浴剤・ボディソープ・化粧水・粉末食品・ハンドソープを追加検索。調査済み検索結果の残りと後続ページ、未確認ASINが多数あり、Amazon全商品は網羅していない。",
+  "queries": [
+    "入浴剤 詰め替え 袋 500g",
+    "バスソルト 300g 袋",
+    "インスタントコーヒー 袋 100g",
+    "粉末だし 詰め替え 袋 100g",
+    "粉末洗剤 詰め替え 400g",
+    "魚 フード 200g 袋",
+    "ハムスター フード 200g 袋",
+    "猫 ドライフード 300g 袋",
+    "犬 ドライフード 300g 袋",
+    "サプリ 180粒 パウチ",
+    "プロテイン 200g パウチ",
+    "シャンプー 詰め替え 300ml",
+    "ボディソープ 詰め替え 250ml",
+    "柔軟剤 詰め替え 300ml",
+    "洗濯洗剤 詰め替え 300ml",
+    "液体洗剤 詰め替え 250ml",
+    "化粧水 詰め替え 200ml",
+    "レトルト パウチ 200g",
+    "犬 おやつ ジャーキー 100g 袋",
+    "きき湯 詰め替え 400g",
+    "金魚の餌 130g 袋",
+    "ハンドソープ 詰め替え 200ml",
+    "入浴剤 つめかえ 400g 袋",
+    "入浴剤 つめかえ用 360g 袋",
+    "ボディソープ 詰め替え 300ml パウチ",
+    "化粧水 詰め替え 150ml パウチ",
+    "粉末だし 100g 袋 単品",
+    "ハンドソープ 詰め替え 250ml 袋"
+  ],
+  "discoveredCount": 906,
+  "addedCount": 55,
+  "discovered": [
+    {
+      "asin": "B0CDPF8BKZ",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09GRGJTNP",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08J8M8P52",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B09GS4N7LM",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08J8MD3B2",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B00IQ3WGA0",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08J8MHQW7",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g",
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0G3JMKR37",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0G3JGGVC8",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B06Y64511W",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B01M237JCV",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DF68RD4H",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CHJ4RQNB",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B077TNMBKS",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CHJ4CMXZ",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DFPRKGPY",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0H58HPFR2",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g",
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09CPR1MWD",
+      "queries": [
+        "入浴剤 詰め替え 袋 500g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B099846PST",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0H45NTPB5",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DG5LCC2T",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0H45N37MR",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0D5Q61PHG",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CXXRJGF8",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0D8VVVZNT",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0H9852LRZ",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0B3CKMV6T",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B01N39QDLF",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0H45TG4F4",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CL23YPSG",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07QP5TPXS",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B01N6GP658",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B098Q5W21T",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B01N9XGKJW",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GFB4H511",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0F2MD4TTG",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B07SJYHQNS",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H6LK8NQ9",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GW99V26P",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FT7S6L92",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B01N40PE0N",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FZTYGXLZ",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07QLRWNJC",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B017RBDJ6G",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07QQBSXJ1",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GKH9HDHY",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B097SHC731",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0G95MB79P",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FZTWLJ4P",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DDRXZ2FS",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DCMTMB92",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D41Q7ZBP",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FZTWHD93",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HDBSC4JT",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0C935G6Q5",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DB641KCM",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B01MZFOIG9",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09STBB6WM",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D9L7P828",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B00PAOANN0",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DDKK7HZ3",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B000FQVPUS",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DCNDXV2B",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DDT2G3TZ",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CCXZJXQ8",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09YGFZH8W",
+      "queries": [
+        "バスソルト 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DJB9RC19",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0DWCPZSPC",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07NLBWGTJ",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DWCVPBZF",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B003DSHMM0",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B09S3BRQJ1",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0784WYBC1",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DF4SG9LQ",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0C3M7FYHB",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B08HGVLG6W",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0C4NW1HDG",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0C3M7ZZM6",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DVSC76H4",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GL6TYSJR",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08VT9LBLW",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09923GSKR",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0753ZSH9P",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0824JBHK6",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B008SK7L3I",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B002WJIFK4",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B095S5V5ZN",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0H1H94FL9",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0F3W532DC",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0DF4P568K",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0BMNZJJPK",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0DZBPCR2D",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0F51ZVY93",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GTQCZ9V3",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FYLD2VHB",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GNPR17CD",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0G5DQD9SK",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B007AIN80Y",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B00GZJ2UKI",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0754BPPVN",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GXY1Z4GX",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0BS666VRW",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0183P5OU4",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0HCZNKCPD",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DWCSLNBY",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B01C5JMVYQ",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0C5RPW35M",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GVPM35PK",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B003TI4FCO",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D14MWN4K",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B00IBURS9W",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DP4KH51S",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B085KZ6SPD",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DXDDB6GH",
+      "queries": [
+        "インスタントコーヒー 袋 100g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B003QUQ3DE",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CWLBCHWK",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0753M1TP2",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0HJVWJLZP",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B06XNPD1C2",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07NTSFR6W",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "180g×2袋セット"
+    },
+    {
+      "asin": "B0HH4PP4YB",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0HH4SQNWP",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B00J5GG5OU",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B00KFVS40W",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "900gで容量が大きい"
+    },
+    {
+      "asin": "B09QJ1N3NN",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B081YKB2G8",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B08H1X3RHZ",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DT47ZBND",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0DYVGJCLP",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DYVDL2RV",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B00QUHSNEC",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0GZ4CP7BV",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "added",
+      "checkedOn": "2026-10-11",
+      "evidence": "Amazon現行商品ページの梱包サイズ23.1×13.1×5.5cm、200g単品のチャック付き柔軟パウチ画像。商品袋の平置き寸法は未測定。"
+    },
+    {
+      "asin": "B00QUHSSBA",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "6g×24個包装、袋の配置が不明"
+    },
+    {
+      "asin": "B0BT18QZP6",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "掲載梱包寸法の最小辺2.4cm"
+    },
+    {
+      "asin": "B002B9VRE6",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0B2NX76ZV",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B09QJ1YSB3",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0C1G7F3CG",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g",
+        "粉末だし 100g 袋 単品"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "掲載3辺寸法を確認できず"
+    },
+    {
+      "asin": "B07D8Y6J76",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0FVX1QPZD",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GQZBPBNX",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B08K8XGYZV",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0F137KY3D",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0B2PLG2GM",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0DNNCR2L5",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0CNCJ9ZJB",
+      "queries": [
+        "粉末だし 詰め替え 袋 100g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GKP31VZM",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0FLDYF8RQ",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0B5K64XPN",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GNJ63SD3",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B07QTPCVMR",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0CJB4VBR2",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B07PBTN5YK",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0FT3R8YL7",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0CDFZQ896",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07NB9BB24",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DWRP2PPW",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08FC9ZSJK",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07TYYLFLR",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0G2WSMLK9",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B082VXYJKY",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07VFFFY7F",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08TBGC7RN",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F3WPM7V3",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07X1Q7NV3",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FQBYMSTK",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HFRB3391",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CVGWKYL5",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0C9T53NMP",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D5TLTNV3",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0093UOD6K",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0B2R92G1P",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B01NC2Z6XM",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DR4KGNBQ",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FMK2KLZ7",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DFS4CG5B",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CDFZSSVL",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H346TGFT",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0HK2MZYQY",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07CMJPNJX",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DHRP5PV7",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FTS7QR34",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DWRN63DT",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0B1KZJFZS",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DQJD9ZRT",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FH9YMKVT",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FCDC7BMR",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07Y52Y177",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07B8XYBNT",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0B2QR66NF",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GTNJXDTV",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07QPWRLRR",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FSX7ZMTB",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D9LQD5Q3",
+      "queries": [
+        "粉末洗剤 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F37C5L9B",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0D5Y4HSXN",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "魚を入れるビニール袋8枚、内容物が対象外"
+    },
+    {
+      "asin": "B0F7LQB3SS",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0F37KXWSL",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0CTT47KGH",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0F1LGYDBW",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0H26TXSZ6",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DZ6DY7LG",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0H6123THS",
+      "queries": [
+        "魚 フード 200g 袋",
+        "金魚の餌 130g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CK9MFDML",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0H4GFWW9X",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0HJYB62GY",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B00XVP2U2M",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "単品袋で最小辺6cmだが200g浮上粒の計算上限3cm超"
+    },
+    {
+      "asin": "B0CQRRP29Y",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "130g×3個セット"
+    },
+    {
+      "asin": "B0DZ6HF91N",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0G5KLV6H3",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0FL25MZBV",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B09R1LS75G",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "200g×4箱"
+    },
+    {
+      "asin": "B0HJYG19CX",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GXJ19CY4",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B09R1LM5TM",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0FSK82375",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0H99JXLQR",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09R1M5DCR",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GL7ZSWC1",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H99HLBD9",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F31WMP2G",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07MPY16TM",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H99TK73N",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H99RKD9D",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FHQ5CM7Y",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DJB737R2",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09S3KC6FL",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0728PFJ1X",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09R1LVKNS",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D5GHRKZK",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09XMKGYBC",
+      "queries": [
+        "魚 フード 200g 袋",
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B07FDCX7HV",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09R1KRSFL",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F1TBXP8D",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0BX43YBVH",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B01G6RB9R8",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H99JDB31",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DHCF8MRP",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0756ZKTLH",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FF3Z2RPT",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0BX3W1VP9",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H9B1D16N",
+      "queries": [
+        "魚 フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B091QBNG4B",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DWX5S727",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B091QC8JCL",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DWX8B6RL",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0C4P13CTG",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GKY1HZN5",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FPCWSKYF",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0C4NX7R65",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0B3XBFDFP",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0BJV9HXLJ",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FPCQN5HM",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DYMK93J5",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HFM2BY63",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0B3XF6Y4L",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F9KJ4C5H",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07FS6CHSG",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GTYFK7GH",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FH1N5G2N",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0D7THRXM3",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07L5472XN",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D5RDBHP3",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D1XJ2YDG",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07FS6MCMM",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DJNXS5LF",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F27KPQ5J",
+      "queries": [
+        "猫 ドライフード 300g 袋",
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DWMH4C8R",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DK24RDJ1",
+      "queries": [
+        "猫 ドライフード 300g 袋",
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07FSHPDGF",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DVG77G8T",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D7TJ6W2B",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D1X43BRK",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D1XQFV1W",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DCG6168J",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D1XM9CXM",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D1XJJ7G6",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D1XG5M9S",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DCG252KB",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B007F45LKS",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B007F45NP6",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DWWYV2BV",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D1XR25JC",
+      "queries": [
+        "猫 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0G33Y2L2X",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B091QCMXDW",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GZCLDWF5",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DHGWLHHH",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0C6LYSZGW",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B09F9NG1BP",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0FF4KQHV7",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B092VPLQ7Y",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B092VMVGKF",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D7THD53D",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B081JKCTJ5",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B085RLLB9N",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0B184PTSX",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B085RT9CNN",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0F3HTVYZ2",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F3HMDG6R",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DG81LD2X",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D2CRSQXP",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GTNMWMKX",
+      "queries": [
+        "犬 ドライフード 300g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B00I4NW7KQ",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B088RQS7Y5",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0GTQ7NR8V",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DZBJ5GBW",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0BNTMPMW5",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07CSY4PBP",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "掲載商品寸法の最小辺2cm"
+    },
+    {
+      "asin": "B0CGTNY7KL",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B01B74CAB4",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B088RRN3Y6",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "掲載商品寸法の最小辺3cm"
+    },
+    {
+      "asin": "B012VFRTY6",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "掲載3辺寸法を確認できず"
+    },
+    {
+      "asin": "B0G4ZMZ928",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DHL17V3C",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "掲載梱包寸法の最小辺1.7cm"
+    },
+    {
+      "asin": "B09WK73313",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0F665DT81",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0020UONHY",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0CMTHRY22",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B00I4NW7RE",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B000FQS2D6",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0FRFGMBNP",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0CGWVZ7FF",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0F23TBDQ2",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B07H7GDDTX",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B075MDQWM2",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B00BH9PG8O",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HFHBZDYG",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08X1PFSLQ",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GTV58KHX",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GQXTZF1Z",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09PMFBJ9S",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B099NS98T5",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B096KJYXM6",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GLH5RR9T",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DFBWW3YF",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B096HCDDW1",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09DCPNKJK",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HDYDT573",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FPWNBDSG",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D1CG2SD4",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0B2RCKNZC",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GY85BT57",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CLV3QN3Q",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08YFFNJ9L",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DK56JK42",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D24YJHTX",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GG54TL9X",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GYN696T2",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B083N9VNK2",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CV82TB3B",
+      "queries": [
+        "サプリ 180粒 パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B081DZMLYL",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GY7JJBVV",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0CWRBCS79",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0BXSGKZPV",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0H9WVYPT6",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CKS89GTZ",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08P3CN1X6",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B082L1D6VC",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D1QTJC7S",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FRM4WWZP",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B082KZMYY8",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B082J1X997",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H9WZJK3N",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FG2KW13J",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CHY6YLBW",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HCBTP1H8",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H2LQBRDC",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D6HDDTXR",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CVRVMQTD",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B087YJ7JN7",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07SSC1RK6",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H69VP735",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DB5MXCSF",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CVRY9FVR",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CVRW9HX9",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HJG75BD4",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HHHQQKKQ",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FDL1STV3",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GNH8RGFT",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HCC2NC7Y",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CVTXMC5K",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HCC9221B",
+      "queries": [
+        "プロテイン 200g パウチ"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B079J5C59D",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B08X74KG2S",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0G5DXYDXT",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07ZRMTSGG",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0CGH85RYD",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DMCLC8QL",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B074DZR7FV",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B087Z8M9BC",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-07",
+      "exclusionReason": "詰め替え袋だが800mLの大容量品。Amazon商品ページで3辺寸法を確認できず、平置き時の外寸は未確認。"
+    },
+    {
+      "asin": "B0FKS6PXSM",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-07",
+      "exclusionReason": "詰め替え袋だが1690gの大容量品。Amazon商品ページで3辺寸法を確認できず、平置き時の外寸は未確認。"
+    },
+    {
+      "asin": "B0BHH5M5V1",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0DV8XBFRV",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CGJ57X81",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B08CBLRFH2",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-07",
+      "exclusionReason": "詰め替え袋900mL。Amazon掲載は梱包サイズ28.5×27×18cmのみで、単品袋の3辺寸法と平置き時の外寸を確認できず。"
+    },
+    {
+      "asin": "B0DKXM7RBW",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B09QS96P1L",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0FH6JQ8HD",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0BSXKB76G",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0CGHM3WKC",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0DVT1XQFK",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0GQH4JV9D",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0DMW1D4XB",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B09QS9RJ39",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0H96Z53NC",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0BHBP7B37",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0C9ZVGSFF",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0BZYPY2XX",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B09DVPV2Y3",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0D5R3SZW4",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0HKYQDBZR",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DVT44MF8",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0F5MCPL94",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DTJVPP7Y",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08HLGQZJH",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B09M3LDMG1",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0G5CVC9WK",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GXY3HG9R",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B001DCE32U",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0F32HZSSG",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B000FQPCU2",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B075Z4JN5L",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DJBKS4YS",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DJBJZ692",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B086LB6GS7",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0D6MR9V1R",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FD33P2BQ",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0CX8G1THM",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CD6XSF8M",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07WXG2CPF",
+      "queries": [
+        "シャンプー 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DJSLLPSL",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0BKSK844D",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0C9MB8FQ8",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0D1BQYS5Z",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GMJT8WZ5",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DHDBXP8Q",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GK1NGL6M",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B00DAOCI0S",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FMJLLJCB",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0HL8HXPPT",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0FBWVXSN4",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0D7V62N8J",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DHDBJ1KJ",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CKDVQH1T",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FQTVZNSJ",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0GVL3X3KY",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B000FQ51YE",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B077RXKRH9",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0C5RGWZ3Q",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CVVNV4CQ",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B01MYNG5JF",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08KHV6GSL",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DJSKWT7C",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GVL24FN6",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GK26LNN8",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B00RCCTKA0",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07R15XH1V",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09DYGJWTT",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B01NCLVCJR",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0BSWB9PX6",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FM73LF9X",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B00RCCTK5U",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B00NX8LNAC",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F79NMK2S",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GWQPM4GK",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DHW1WPM2",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DVQ8HGX7",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GVL1S829",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0B82SVW41",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DJ6RPST1",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DF763WM4",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09YV19HYJ",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0DF75W57X",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0G38YW2MJ",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H3H522WW",
+      "queries": [
+        "ボディソープ 詰め替え 250ml",
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0FM4396YX",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H36ZVQ91",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B079VBC421",
+      "queries": [
+        "ボディソープ 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0BY8NJHK9",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0BY8P79B4",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09SLCR2GK",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B01N9B03QR",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0BVLQR82R",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DBHLCCJC",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H33C9RKV",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GJRYLGNW",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GLXX5T7M",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08XGD6N16",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DBHJQFGJ",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B099RFZ3JW",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D97D47HY",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DHZ49WTF",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DWDXKX11",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CDK8X9W4",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CG3DW29S",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H335QG3W",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0G6JRS4L2",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CHB2G4RZ",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CFZW67L8",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0BN7FVPVL",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DZ5XNWX3",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FJ1G3HWJ",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CVMZ92KS",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0874S7DS4",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H43XF5L9",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DBHK4MQR",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DJ2F8744",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FJ1PNRL8",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B084578WM7",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09BQS77PQ",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GNZYTF6X",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0G6JS1V5V",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08456ZW7J",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DHZ46TNR",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B085F3JBRB",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GKN5CRKY",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0GLXPYTVK",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08457QN8Q",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B015R1SVFM",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CBG345VX",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H6ZHSKZL",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0DWDRZ7KV",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CVRYHT2J",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08VN6G9XJ",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B085F36GQJ",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HDKT64FC",
+      "queries": [
+        "柔軟剤 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07VV4F1H9",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F3XBGL57",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GWPYMH5H",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0CBB3P48C",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GWQ46JRH",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0CBB4G5F9",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GM6JC7G8",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DV5FCVYV",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0DV5GM2KN",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GM6R2W5Q",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0FFN2QHZG",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DV5H77GS",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07VCDGCSC",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GWQ5JH2Z",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F3XB7MT8",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F1FP4BHK",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CFZTN553",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H7S6CYF5",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0GM6KKQYS",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0G6KKD323",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DGKY7SL3",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CFZL682K",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DGL4J5DY",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0B6H8HB8L",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H44DJC5R",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DYND9D1M",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F6XZRNQ5",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0BXWY13RV",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DVLJ65Q7",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0C4L17BT1",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HFRG2S4X",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08VN648GQ",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CLBXWXNN",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0F6Y6HZ99",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HJYBDBXM",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0FG2JV1L4",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CKL4VHKY",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D4Z7RRLP",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0H99RLCCT",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0GR593M9W",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HFRDDBR5",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GVDSH27J",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FLJ5BRFS",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0HB2T5V6B",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DV5DRK33",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FTYRZGWR",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D4Z7SPGQ",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HKDX214C",
+      "queries": [
+        "洗濯洗剤 詰め替え 300ml",
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B074ZBSYC1",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-07",
+      "exclusionReason": "化粧水そのものではなく空の詰め替え用硬質ボトル。内容物をならせないため除外。"
+    },
+    {
+      "asin": "B0H96DZH66",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-07",
+      "exclusionReason": "空の詰め替え用硬質ボトル2個セット。内容物をならせず複数個のため除外。"
+    },
+    {
+      "asin": "B001K7HWBM",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0BGWRMPJL",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B01KNF2ZJU",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B005FO7HBQ",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CSSVK7V5",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0CBJKQZZG",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-07",
+      "exclusionReason": "化粧水詰め替え170mLの2個セットでサシェット付き。複数個・付属品のため除外。"
+    },
+    {
+      "asin": "B0BCD91Z4M",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0GC3J1CW7",
+      "queries": [
+        "化粧水 詰め替え 200ml",
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B09QCJQZR1",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0C847HY9Q",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0BZTZL9S4",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0BZV25F5K",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B09QCGTN34",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0F23Q4PT8",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0FMWPXY5Q",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GY9B9HRQ",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GY9C6GD5",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0G5WDTCGY",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GFCVXB1Y",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B01D90A3UE",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0DFLSCJK6",
+      "queries": [
+        "化粧水 詰め替え 200ml",
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0B53KY42L",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0H8X47J55",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0CBJLJDVT",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GXY2RD6W",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B01ARKFQB0",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0FRRP21HS",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GZDF7V69",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B09N7P3R8H",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D7BSQ5Y9",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CL3T2D3V",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GYC1MNY1",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D86QSKPY",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0F5PVJ68S",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FRF66Q4S",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CBJM16KF",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F5PVK1H1",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0BWVJVY6J",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0GVY7YP34",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B001R23TP8",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0BXS6XFVB",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07GCBGHCY",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DRSH7LJ5",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0G7DW9V6T",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CSST4Z4H",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B003VUSVKW",
+      "queries": [
+        "化粧水 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DM48JVW6",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0C14H4ZJZ",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H6ZCR3WL",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B084BDBNKP",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HJQV9JHR",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CXXCQZ7Z",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F1FPSJ5X",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DDJW2NXQ",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0GRTZSSH1",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CBPBJJDS",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CCN64CRW",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HJYBJRSZ",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0F4K3DC5M",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CSFMTMMD",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HFFKZPRH",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0GWCZ3W8K",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CVL7M39R",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0FY2GSPBJ",
+      "queries": [
+        "液体洗剤 詰め替え 250ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CVVTLQM6",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0HBTXT1VJ",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CL5DDJLN",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07CKP3SMH",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B00FGL2P4W",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B09SZCJ15Z",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0D1NRL6SD",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B07PB9CS8R",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07GJJWJYC",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DV56HW62",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0D7PNF564",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0CH7PTWXC",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CYC1MVWC",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0GFPGZHVL",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07CKXRT7N",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GWGT5FLH",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B00N4LCIO8",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0B9675MJ6",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07VZ22J4B",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B099JF1KKC",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H1SY2M2G",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FHPTXJNK",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H2S27D9J",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0D1Q4M95Y",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09F6LLTS6",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CGD7Y5TN",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CVVMT27R",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H9W3H4M7",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09R788JY6",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GGYXTQWQ",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HJB6F226",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FH1Y3383",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07W12K2F2",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FKTD58JY",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CVVLZJNJ",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B01EX6E3F4",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B06XHTVH73",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B097DPQGJP",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08YY71QNK",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H5VWYBN3",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0719DJPV1",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B003A3Y6GS",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0B1Q8SHKK",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H9WDC9PB",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0BN86JF2V",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B071LQFSMF",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CN8ZLY4Z",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H5WV39KV",
+      "queries": [
+        "レトルト パウチ 200g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HD625S6H",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0H99FBTWC",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DZGS3ZGK",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B09S37L7H3",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B075T2K8J1",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DV5CB9K7",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0HD69RW7M",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B08PP9Q4SW",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B00EPCFBJO",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B08YF7QMW7",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07LH231LW",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0H4TMCJV8",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09KGCQSL1",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0BX9K8JCT",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0B7HSGQ6H",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07DJJW21N",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0C6P9FFH8",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HBL4VDLN",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0C6R2NC3V",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CQWZGX8J",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07K8WS8Y9",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0833LHV6H",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DKS8RSH9",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FP4S88ZR",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09J4KQ952",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B01N2BBQ0P",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07PNX8C3R",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B001KKUE2S",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B078KJM5LB",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0G1RQ68RP",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09G2QWNG7",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FVL9BK79",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GXMMY9J6",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B00EPCF842",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08BBY6ZLP",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DXPRMJJV",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CTGRPGCZ",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B014QOH9O0",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DCNJNHKH",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09LQ4RTG2",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B078K1TM57",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0B71MMS1G",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GN8TNW1J",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H2RTN1MN",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DTPCGG7H",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DF77NV13",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0BBVDHX1K",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GHSR51GK",
+      "queries": [
+        "犬 おやつ ジャーキー 100g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08P8FCWDX",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B000T8YLKI",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DT9Z6TKB",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B06XCCFDCG",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0BHKRNHK1",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0BHL7XXXB",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0GJT3BNRW",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0H6M968Q9",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0C5LQ24ST",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0DT9WKQPN",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B09TF7VHL3",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0H6M9FNF9",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DT9Z7HVP",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B00KX1PQQO",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07RGT19YC",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CB5798ND",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H99PGP39",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B00KX1K880",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DHTCY28Y",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09TCZDC37",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0772LZ4D8",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0B45R8DHW",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GTYN7Y6Z",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07Q9JKFGR",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0H3C1RR1V",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CT3QL7T4",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09SZ4GVT7",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FCC3X4LT",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B06XDMLW4Z",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B00X552Y0Q",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B085XKH2MW",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CVXH62V5",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GZD5MXTM",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0B45RFHCR",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09MTR2689",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08ZC9TL9F",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F2FPSVLY",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FCC652G6",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GS58WFXH",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07FS5C4D3",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B002RV48L2",
+      "queries": [
+        "ハムスター フード 200g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HB4FNC4B",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08GC2RV61",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CCY3GXQB",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CCY26GWM",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B08GC3ZF2M",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GWXL3GH5",
+      "queries": [
+        "きき湯 詰め替え 400g",
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B074PVFBW1",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0HCJWR9PD",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0093UN578",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B074F16Q9X",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B074PWR5NK",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0093UN6F4",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B00EY1JR1Y",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B074PWFNL3",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B00EY1JKK2",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FKZQ58K1",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CCXYWT9S",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0012SGPUS",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08GCCS2S3",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DNWPLC79",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B074PW6SYT",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B074PW2F6B",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B01M6BOGRK",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DPPLR3M6",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0093UN39I",
+      "queries": [
+        "きき湯 詰め替え 400g"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0015XNJ04",
+      "queries": [
+        "金魚の餌 130g 袋"
+      ],
+      "status": "added",
+      "reviewedOn": "2026-10-06",
+      "evidence": "Amazon商品ページの1袋写真と商品説明「内容量130g」「サイズW135×D35×H165mm」。平置き実測ではない。",
+      "dimensionDiscrepancy": "Amazon商品説明 13.5×3.5×16.5cm / カインズ本体掲載 14×1.5×17cm。理由未確認。",
+      "secondarySource": "https://www.cainz.com/g/9680800009491.html"
+    },
+    {
+      "asin": "B07FS6ZFL2",
+      "queries": [
+        "金魚の餌 130g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-07",
+      "exclusionReason": "Amazon商品ページは130g×10袋のまとめ買い。重ねるセットのため除外。"
+    },
+    {
+      "asin": "B0DD3MX6GV",
+      "queries": [
+        "金魚の餌 130g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-07",
+      "exclusionReason": "Amazon商品ページは130g×3袋のセット。単品バリエーションB0DD3QD82Zも確認したが3辺寸法を確認できず、未登録。"
+    },
+    {
+      "asin": "B0DHZ6MP2Q",
+      "queries": [
+        "金魚の餌 130g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-07",
+      "exclusionReason": "Amazon商品ページは130g×3個とポケットティッシュ付き。複数個・付属品のため除外。"
+    },
+    {
+      "asin": "B0757DWYX4",
+      "queries": [
+        "金魚の餌 130g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-07",
+      "exclusionReason": "Amazon掲載サイズ15.4×5.2×5cm。商品画像は硬い円筒容器で、平らにできないため除外。"
+    },
+    {
+      "asin": "B0HDBQFQNJ",
+      "queries": [
+        "金魚の餌 130g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "登録品と同じ商品写真の別ASINで重複"
+    },
+    {
+      "asin": "B0G9MZV1K1",
+      "queries": [
+        "金魚の餌 130g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "掲載3辺寸法を確認できず"
+    },
+    {
+      "asin": "B0CTX9CBQ8",
+      "queries": [
+        "金魚の餌 130g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HJZGRFSH",
+      "queries": [
+        "金魚の餌 130g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GZPZH6P5",
+      "queries": [
+        "金魚の餌 130g 袋"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-06",
+      "exclusionReason": "掲載3辺寸法を確認できず"
+    },
+    {
+      "asin": "B0C1G32J1F",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0DR2JSK3R",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B071P82D52",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-08",
+      "exclusionReason": "Amazon掲載は梱包サイズ18.7×10.2×2.9cmで最小辺が3cm以下。"
+    },
+    {
+      "asin": "B0DCFNGLJY",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0BY2NZFJR",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B00ABAMJPI",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0DWKHLZF6",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0GYBML2PY",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "checkedOn": "2026-10-11",
+      "rejectionNote": "Amazon現行商品ページで、単品の柔らかい袋・掲載3辺の最小辺3cm超・3cm以下の見込みを同時に確認できず。"
+    },
+    {
+      "asin": "B0C15FQ64V",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B00ABV7NA8",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08R1CP5WJ",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0092JONNK",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "added",
+      "reviewedOn": "2026-10-08",
+      "evidence": "Amazonの商品ページで単品の柔らかい詰め替え袋200ml、梱包サイズ16.8×10.2×5.5cmを確認。袋の実寸と平置き厚は未測定。"
+    },
+    {
+      "asin": "B01DOV7K04",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HFR99B7L",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07B56K68Z",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HG4QCTH7",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08SJP7LC4",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HJYBKR67",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GYCGMBF1",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B087ZCJQMK",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B072PS3474",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "added",
+      "reviewedOn": "2026-10-08",
+      "evidence": "Amazonの商品ページで単品の柔らかい詰め替え袋200ml、製品サイズ5×11×19cmを確認。平置き厚は未測定。"
+    },
+    {
+      "asin": "B0G5FGYC7P",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HK386YM8",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "page_fetched_not_added",
+      "reviewedOn": "2026-10-08",
+      "exclusionReason": "Amazon掲載は梱包サイズ23×20×2cmで最小辺が3cm以下。"
+    },
+    {
+      "asin": "B08H5RBV4F",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DXPBG9WD",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0HBT4VNF6",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07MTGP22Y",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B004F9PJL2",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0BWRX521W",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0030XV4EA",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DZBV8JQ3",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B06XKT5RLJ",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0C3C6WY67",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0G1ZMXCW5",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0FQK2WR4G",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CNK1YGR9",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0C2GR9PZJ",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CW2Q86SC",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07NF9L354",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B00LF5HIVS",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0G5GYD5RR",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B002D197B2",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B00UH9NCVI",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08FQY72GJ",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "added",
+      "reviewedOn": "2026-10-08",
+      "evidence": "Amazonの商品ページで単品の柔らかい詰め替え袋200ml、梱包サイズ18.1×12×4.3cmを確認。袋の実寸と平置き厚は未測定。"
+    },
+    {
+      "asin": "B0GT5VG1WY",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09PY8DB85",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08D2ZMB25",
+      "queries": [
+        "ハンドソープ 詰め替え 200ml"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0C9N21XJX",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B012VFRH3Y",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0G5GCNMKM",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0012SJFO6",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0CK1792SW",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F6K9YM9D",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0F6KF243J",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DS8QQSMT",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09LYGHPPG",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B09QS8395B",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B08GC551BP",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0DCBVQRGV",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0GHSLLMNX",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07JF5LX9S",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B006XANBOS",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B07YTR9CXT",
+      "queries": [
+        "入浴剤 つめかえ用 360g 袋"
+      ],
+      "status": "not_fetched"
+    },
+    {
+      "asin": "B0CCXZFZQ2",
+      "queries": [
+        "入浴剤 つめかえ 400g 袋"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0CCXY9DS5",
+      "queries": [
+        "入浴剤 つめかえ 400g 袋"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0F59N3QNG",
+      "queries": [
+        "ボディソープ 詰め替え 300ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CST1CYGQ",
+      "queries": [
+        "ボディソープ 詰め替え 300ml パウチ"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0HCMW9XWH",
+      "queries": [
+        "ボディソープ 詰め替え 300ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CWKD2X1J",
+      "queries": [
+        "ボディソープ 詰め替え 300ml パウチ"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B013D3TMFY",
+      "queries": [
+        "ボディソープ 詰め替え 300ml パウチ"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B077THVJCP",
+      "queries": [
+        "ボディソープ 詰め替え 300ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B000FQTQLS",
+      "queries": [
+        "ボディソープ 詰め替え 300ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CLQFC841",
+      "queries": [
+        "ボディソープ 詰め替え 300ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0DC725921",
+      "queries": [
+        "ボディソープ 詰め替え 300ml パウチ"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B074Z9G1YT",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B074Z191C3",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B074Z98VQF",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0B5G5ZBGC",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0GC34HP5H",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0C841SZM1",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0D7VHTJT8",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0D3KRLYQM",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0B5XYG47W",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B008AG80RG",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0CFPR63BB",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0DHKWLRY8",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0BR7L97YZ",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B07969F298",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B07GYLD2VR",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "added"
+    },
+    {
+      "asin": "B0DSJ243YK",
+      "queries": [
+        "化粧水 詰め替え 150ml パウチ"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0D5G6N9JP",
+      "queries": [
+        "粉末だし 100g 袋 単品"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0H6HBJPTF",
+      "queries": [
+        "粉末だし 100g 袋 単品"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B08NFHSQ4W",
+      "queries": [
+        "粉末だし 100g 袋 単品"
+      ],
+      "status": "page_fetched_not_added"
+    },
+    {
+      "asin": "B0FYMN964H",
+      "queries": [
+        "粉末だし 100g 袋 単品"
+      ],
+      "status": "page_fetched_not_added"
+    }
+  ],
+  "fetchedProductPageCount": 387,
+  "accessLimitedSearches": {
+    "attemptedOn": "2026-10-05",
+    "queries": [
+      "コンディショナー 詰め替え 300ml",
+      "ボディソープ 詰め替え 300ml",
+      "洗顔 泡 詰め替え 130ml",
+      "化粧水 レフィル 150ml",
+      "コーヒー 粉 袋 200g",
+      "紅茶 茶葉 袋 100g",
+      "ペットフード パウチ 200g",
+      "観賞魚 餌 100g 袋",
+      "スープ 粉末 詰め替え 100g"
+    ],
+    "result": "2026-10-05の自動検索はHTTP 503。10月8日にハンドソープ1語は内蔵ブラウザで再確認済み。残る9語は未探索であり、0件とは扱わない。"
+  },
+  "searchRuns": [
+    {
+      "searchedOn": "2026-10-06",
+      "query": "金魚の餌 130g 袋",
+      "mainResultCountShown": 7,
+      "asinsVisibleIncludingSponsored": 11,
+      "pagesChecked": 1,
+      "laterPagesChecked": false,
+      "note": "Amazon画面で確認。スポンサーを含む11 ASINのうち、条件に合う単品を1件追加。別途既存の未確認ASINも確認。"
+    },
+    {
+      "searchedOn": "2026-10-08",
+      "query": "ハンドソープ 詰め替え 200ml",
+      "mainResultCountShown": 48,
+      "asinsVisibleIncludingSponsored": 48,
+      "pagesChecked": 5,
+      "laterPagesChecked": false,
+      "note": "Amazon画面の検索結果1ページ目48 ASINを記録。商品ページを5件確認し、条件を満たす単品の柔らかい詰め替え袋3件を追加。梱包寸法のみの2件は発送判定を保留。"
+    },
+    {
+      "searchedOn": "2026-10-11",
+      "query": "入浴剤 つめかえ 400g 袋",
+      "mainResultCountShown": 35,
+      "asinsVisibleIncludingSponsored": null,
+      "pagesChecked": 5,
+      "laterPagesChecked": false,
+      "note": "検索結果1ページ目を確認。単品の入浴剤パウチ2件を登録。540g詰替3件は商品ページを再確認したが既存の非登録判断を維持。"
+    },
+    {
+      "searchedOn": "2026-10-11",
+      "query": "入浴剤 つめかえ用 360g 袋",
+      "mainResultCountShown": null,
+      "asinsVisibleIncludingSponsored": 20,
+      "pagesChecked": 2,
+      "laterPagesChecked": false,
+      "note": "検索結果で20 ASINを確認。液体入浴剤の詰め替え袋2件を商品ページで確認して登録。スポンサー・重複を含み、後続ページは未確認。"
+    },
+    {
+      "searchedOn": "2026-10-11",
+      "query": "ボディソープ 詰め替え 300ml パウチ",
+      "mainResultCountShown": null,
+      "asinsVisibleIncludingSponsored": 56,
+      "pagesChecked": 9,
+      "laterPagesChecked": false,
+      "note": "検索結果1ページ目から9商品ページを確認。単品の柔らかい詰め替え袋4件を登録。複数個セット・硬い本体・掲載厚2.1cm・寸法なしを除外。残りは未確認。"
+    },
+    {
+      "searchedOn": "2026-10-11",
+      "query": "化粧水 詰め替え 150ml パウチ",
+      "mainResultCountShown": null,
+      "asinsVisibleIncludingSponsored": 40,
+      "pagesChecked": 18,
+      "laterPagesChecked": false,
+      "note": "検索結果1ページ目から18商品ページを確認。単品の柔らかい詰め替え袋6件を登録。硬いレフィルボトル・キャップ付き・掲載厚3cm以下・寸法なしを除外。残りは未確認。"
+    },
+    {
+      "searchedOn": "2026-10-11",
+      "query": "粉末だし 100g 袋 単品",
+      "mainResultCountShown": null,
+      "asinsVisibleIncludingSponsored": 18,
+      "pagesChecked": 5,
+      "laterPagesChecked": false,
+      "note": "検索結果1ページ目から5商品ページを確認。掲載最小辺3cm以下が4件、残り1件は画像未取得のため登録せず。残りは未確認。"
+    },
+    {
+      "searchedOn": "2026-10-11",
+      "query": "ハンドソープ 詰め替え 250ml 袋",
+      "mainResultCountShown": null,
+      "asinsVisibleIncludingSponsored": 35,
+      "pagesChecked": 0,
+      "laterPagesChecked": false,
+      "note": "検索結果1ページ目を確認。セットと既存商品が多い。商品ページ個別確認は未着手。"
+    }
+  ],
+  "reviewRuns": [
+    {
+      "reviewedOn": "2026-10-07",
+      "scope": "既存検索結果の未確認ASIN（金魚の餌130g袋・シャンプー詰め替え300ml・化粧水詰め替え200ml）",
+      "asinsChecked": [
+        "B07FS6ZFL2",
+        "B0DD3MX6GV",
+        "B0DHZ6MP2Q",
+        "B0757DWYX4",
+        "B087Z8M9BC",
+        "B0FKS6PXSM",
+        "B08CBLRFH2",
+        "B074ZBSYC1",
+        "B0H96DZH66",
+        "B0CBJKQZZG"
+      ],
+      "pagesChecked": 10,
+      "added": 0,
+      "additionalVariationChecked": "B0DD3QD82Z（B0DD3MX6GVの単品バリエーション。3辺寸法なし。集計対象の検索結果ASINには含めない）",
+      "unverifiedRange": "各検索語の残りの未確認ASINと検索結果の後続ページ。追加検索10語も未探索。"
+    },
+    {
+      "reviewedOn": "2026-10-11",
+      "scope": "既存検索結果の未確認ASINをAmazon現行商品ページで追加照合",
+      "asinsChecked": [
+        "B000FQS2D6",
+        "B0020UONHY",
+        "B002B9VRE6",
+        "B002WJIFK4",
+        "B007AIN80Y",
+        "B008SK7L3I",
+        "B00ABAMJPI",
+        "B00GZJ2UKI",
+        "B00J5GG5OU",
+        "B0183P5OU4",
+        "B01D90A3UE",
+        "B01N39QDLF",
+        "B01N6GP658",
+        "B01N9XGKJW",
+        "B0753ZSH9P",
+        "B0754BPPVN",
+        "B07D8Y6J76",
+        "B07H7GDDTX",
+        "B07PBTN5YK",
+        "B07QP5TPXS",
+        "B07QTPCVMR",
+        "B081DZMLYL",
+        "B0824JBHK6",
+        "B08HGVLG6W",
+        "B08K8XGYZV",
+        "B08P8FCWDX",
+        "B095S5V5ZN",
+        "B09923GSKR",
+        "B099846PST",
+        "B09QJ1N3NN",
+        "B09QJ1YSB3",
+        "B09QS96P1L",
+        "B09QS9RJ39",
+        "B09R1LM5TM",
+        "B09WK73313",
+        "B09XMKGYBC",
+        "B0B2NX76ZV",
+        "B0B2PLG2GM",
+        "B0B3CKMV6T",
+        "B0B5K64XPN",
+        "B0BMNZJJPK",
+        "B0BS666VRW",
+        "B0BXSGKZPV",
+        "B0BY2NZFJR",
+        "B0BZTZL9S4",
+        "B0BZV25F5K",
+        "B0C1G32J1F",
+        "B0C5LQ24ST",
+        "B0C9MB8FQ8",
+        "B0CBB3P48C",
+        "B0CBB4G5F9",
+        "B0CGHM3WKC",
+        "B0CJB4VBR2",
+        "B0CL23YPSG",
+        "B0CMTHRY22",
+        "B0CNCJ9ZJB",
+        "B0CVVTLQM6",
+        "B0CWRBCS79",
+        "B0CXXRJGF8",
+        "B0D1BQYS5Z",
+        "B0D1NRL6SD",
+        "B0D5Q61PHG",
+        "B0D5R3SZW4",
+        "B0D7PNF564",
+        "B0D8VVVZNT",
+        "B0DCFNGLJY",
+        "B0DF4P568K",
+        "B0DJSLLPSL",
+        "B0DKXM7RBW",
+        "B0DMW1D4XB",
+        "B0DNNCR2L5",
+        "B0DR2JSK3R",
+        "B0DT47ZBND",
+        "B0DT9WKQPN",
+        "B0DV56HW62",
+        "B0DV5FCVYV",
+        "B0DV5GM2KN",
+        "B0DVSC76H4",
+        "B0DWKHLZF6",
+        "B0DZ6HF91N",
+        "B0DZBPCR2D",
+        "B0F137KY3D",
+        "B0F23TBDQ2",
+        "B0F2MD4TTG",
+        "B0F37KXWSL",
+        "B0F3W532DC",
+        "B0F3XBGL57",
+        "B0F51ZVY93",
+        "B0F665DT81",
+        "B0FL25MZBV",
+        "B0FLDYF8RQ",
+        "B0FMWPXY5Q",
+        "B0FRFGMBNP",
+        "B0FSK82375",
+        "B0FT3R8YL7",
+        "B0FVX1QPZD",
+        "B0FYLD2VHB",
+        "B0G5DQD9SK",
+        "B0G5KLV6H3",
+        "B0G5WDTCGY",
+        "B0GFB4H511",
+        "B0GJT3BNRW",
+        "B0GKP31VZM",
+        "B0GNJ63SD3",
+        "B0GNPR17CD",
+        "B0GQH4JV9D",
+        "B0GQZBPBNX",
+        "B0GWPYMH5H",
+        "B0GWQ46JRH",
+        "B0GXJ19CY4",
+        "B0GXY1Z4GX",
+        "B0GY7JJBVV",
+        "B0GY9B9HRQ",
+        "B0GY9C6GD5",
+        "B0GYBML2PY",
+        "B0GZ4CP7BV",
+        "B0H1H94FL9",
+        "B0H3H522WW",
+        "B0H45N37MR",
+        "B0H45NTPB5",
+        "B0H6M968Q9",
+        "B0H8X47J55",
+        "B0H96Z53NC",
+        "B0H9852LRZ",
+        "B0HH4PP4YB",
+        "B0HH4SQNWP",
+        "B0HJYG19CX"
+      ],
+      "pagesChecked": 127,
+      "added": 1,
+      "unverifiedRange": "検索結果の後続ページと未確認ASIN。Amazon全商品や全パウチを網羅していない。"
+    },
+    {
+      "reviewedOn": "2026-10-11",
+      "scope": "入浴剤の単品袋を優先調査し自己消費対象外の候補を除外",
+      "asinsChecked": [
+        "B0CCXZFZQ2",
+        "B0CCXY9DS5",
+        "B08J8M8P52",
+        "B08J8MD3B2",
+        "B08J8MHQW7",
+        "B012VFRH3Y",
+        "B0012SJFO6"
+      ],
+      "pagesChecked": 7,
+      "added": 4,
+      "excludedFromCatalog": 40,
+      "unverifiedRange": "検索結果の後続ページ、検索語の未確認ASIN、およびAmazon全体。梱包後寸法は未測定。"
+    },
+    {
+      "reviewedOn": "2026-10-11",
+      "scope": "ボディソープ・化粧水・粉末だしの検索結果から単品パウチを追加確認",
+      "asinsChecked": [
+        "B0F59N3QNG",
+        "B0CST1CYGQ",
+        "B0HCMW9XWH",
+        "B0CWKD2X1J",
+        "B013D3TMFY",
+        "B077THVJCP",
+        "B000FQTQLS",
+        "B0CLQFC841",
+        "B0DC725921",
+        "B074Z9G1YT",
+        "B074Z191C3",
+        "B074Z98VQF",
+        "B0DFLSCJK6",
+        "B0B5G5ZBGC",
+        "B0GC3J1CW7",
+        "B0GC34HP5H",
+        "B0C841SZM1",
+        "B0D7VHTJT8",
+        "B0D3KRLYQM",
+        "B0B5XYG47W",
+        "B008AG80RG",
+        "B0CFPR63BB",
+        "B0DHKWLRY8",
+        "B0BR7L97YZ",
+        "B07969F298",
+        "B07GYLD2VR",
+        "B0DSJ243YK",
+        "B0D5G6N9JP",
+        "B0H6HBJPTF",
+        "B08NFHSQ4W",
+        "B0FYMN964H",
+        "B0C1G7F3CG"
+      ],
+      "pagesChecked": 32,
+      "added": 10,
+      "unverifiedRange": "各検索語の残り・後続ページ。ハンドソープ250mlは商品ページ未確認。梱包後外寸と重量も未測定。"
+    }
+  ]
+}

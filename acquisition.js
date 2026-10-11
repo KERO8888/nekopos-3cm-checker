@@ -48,7 +48,7 @@
   $('#researchDate').textContent = `${searchDate}の検索結果・${dateTime(research.researchFileUpdatedAt)}まで商品ページを確認`;
   $('#catalogCount').textContent = products.length;
   $('#addedCount').textContent = additions.length;
-  $('#addedCheck').textContent = registeredAdditions.length === additions.length ? `${registeredAdditions.length}件すべて商品一覧に反映` : `${registeredAdditions.length} / ${additions.length}件を商品一覧に反映`;
+  $('#addedCheck').textContent = `現在の一覧 ${registeredAdditions.length}件・対象外 ${additions.length - registeredAdditions.length}件（調査履歴）`;
   $('#discoveredCount').textContent = research.discoveredCount;
   $('#queryCount').textContent = `${research.queryCount}語の検索結果1ページ目`;
   $('#checkedCount').textContent = research.pageCheckedCount;
@@ -59,7 +59,7 @@
   const pipeline = [
     { label: '検索で発見', count: research.discoveredCount, description: `${research.queryCount}語の検索結果1ページ目`, tone: 'found' },
     { label: '商品ページ確認', count: research.pageCheckedCount, description: `${research.notFetchedCount}件はページ未確認`, tone: 'checked' },
-    { label: '商品一覧に追加', count: research.addedCount, description: `${registeredAdditions.length}件を現在の一覧で確認`, tone: 'added' },
+    { label: '調査履歴上の追加', count: research.addedCount, description: `現在の一覧 ${registeredAdditions.length}件・対象外 ${additions.length - registeredAdditions.length}件`, tone: 'added' },
   ];
   $('#pipeline').innerHTML = pipeline.map(step => `<div class="pipeline-step ${step.tone}"><div><b>${step.label}</b><strong>${step.count}<em>件</em></strong></div><div class="pipeline-bar"><span style="width:${percentage(step.count, research.discoveredCount)}%"></span></div><small>${escapeHtml(step.description)}</small></div>`).join('');
 
@@ -82,7 +82,7 @@
       const hasKeepa = Boolean(apiItems[item.asin]?.keepa);
       const ready = item.inCatalog && hasImage && hasPrediction && hasKeepa;
       const status = !item.inCatalog ? '現在は登録対象外' : ready ? '画像・予測・Keepaあり' : hasImage && hasPrediction ? '画像・予測あり、Keepa未取得' : '画像または予測が未取得';
-      return `<div class="new-product"><div><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.asin)} · ${escapeHtml(item.category)}</small><small>発見した検索語：${escapeHtml(item.queries.join('、'))}</small></div><div class="new-product-side"><span class="ready-tag ${ready ? 'ok' : 'warn'}">${status}</span><a href="index.html?asin=${encodeURIComponent(item.asin)}">分析を見る ↗</a></div></div>`;
+      return `<div class="new-product"><div><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.asin)} · ${escapeHtml(item.category)}</small><small>発見した検索語：${escapeHtml(item.queries.join('、'))}</small></div><div class="new-product-side"><span class="ready-tag ${ready ? 'ok' : 'warn'}">${status}</span>${item.inCatalog ? `<a href="index.html?asin=${encodeURIComponent(item.asin)}">分析を見る ↗</a>` : ''}</div></div>`;
     }).join('') : '<p class="empty-result">該当する商品はありません。</p>';
   }
   $('#newProductSearch').addEventListener('input', renderAdditions);

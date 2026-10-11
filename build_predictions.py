@@ -1,4 +1,4 @@
-"""Create transparent, conservative 3 cm estimates for the 100 candidate ASINs.
+"""Create transparent, conservative 3 cm estimates for candidate ASINs.
 
 This is a screening model, not a measured thickness.  Inputs and exceptions are
 kept here so the assumptions can be audited and revised.
@@ -10,8 +10,12 @@ import re
 from collections import Counter
 from pathlib import Path
 
+from build_acquisition_status import build as build_acquisition_status
+
 ROOT = Path(__file__).parent
 products = json.loads((ROOT / 'data.js').read_text().removeprefix('window.NEKOPOST_PRODUCTS = ').removesuffix(';\n'))
+manufacturer_dimensions = json.loads((ROOT / 'manufacturer_dimensions.json').read_text())
+api_dimensions = json.loads((ROOT / 'api_dimensions.js').read_text().split('= ', 1)[1].removesuffix(';\n'))['items']
 
 SOURCES = {
     'fish_density': 'https://eprints.lmu.edu.ng/3377/',
@@ -25,11 +29,9 @@ SOURCES = {
     'gex_200': 'https://product.gex-fp.co.jp/fish/?cid=373&id=1749&m=ProductListDetail',
     'gex_care': 'https://product.gex-fp.co.jp/fish/?cid=373&id=2628&m=ProductListDetail',
     'agf_80': 'https://agf.ajinomoto.co.jp/product/detail/59595',
-    'kikiyu': 'https://www.earth.jp/products/kikiyu-fineheat-kae-deep-refresh/index.html',
-    'coffee_bag': 'https://www.kalita.co.jp/products/electricmill/2152',
 }
 
-FISH_SINKING = set('B07BBMLGVJ B01GTF98OS B00KPASQ3S B0CVKL9BVN B0H9PFGNS3 B003YKUI32 B078YW4HYG B01FJ2IYN8 B01FEUZPUK B01FEULQK8'.split())
+FISH_SINKING = set('B07BBMLGVJ B01GTF98OS B00KPASQ3S B0CVKL9BVN B0H9PFGNS3 B003YKUI32 B078YW4HYG B01FJ2IYN8 B01FEUZPUK B01FEULQK8 B0015XNJ04'.split())
 FISH_FLOATING = set('B005H7H1JE B06XYGJCHS B086T7WH8Q B004WI1VAE B06XC6NL22 B08W1P5WG7 B01GTF9EME B0H99J2F9T B0FK9XZKH1'.split())
 SMALL_ANIMAL = set('B06XBXLPQ1 B06XCCFDCG B006MIWJT4 B005748T16 B07K57K361'.split())
 DOG_CAT = set('B003VIIAFK B079L4T8BS B07RTLRY22 B079L56FM7 B00ADX5DGA B0GHWC8Z78 B0GHX45K1B B0GHXF9WHG B06VT8GPRW'.split())
@@ -37,7 +39,7 @@ INSTANT = set('B07NLBWGTJ B0983G1QTC B08VT9LBLW B0DVSBJMXM B0D9VBNTKL B0DWD4994X
 BEANS = set('B07CNRNKT5 B07CPSSL44 B0G3PJK8K5'.split())
 GROUND = set('B0GTQCZ9V3 B00I59U9G8'.split())
 KIKIYU = set('B0HB4CZY87 B0HB4FNC4B B08GC3ZF2M B08GCBL7BD B0DQDTBXJ7 B0DCBVNGNB B09DXRGTS8 B093DGHBXC B08Y8C5YDY B08GBYFFDQ'.split())
-SUPPLEMENTS = set('B0CGWZ5J6H B007BJAY6I B08YFP2BVH B0CW8GQS1G B07GSDJ6T2'.split())
+SUPPLEMENTS = set('B0CGWZ5J6H B007BJAY6I B08YFP2BVH B0CW8GQS1G B07GSDJ6T2 B00I4NW7RE'.split())
 
 DENSITIES = {
     '沈下性の魚用粒': (0.37, 0.65, 'sinking_density'),
@@ -66,17 +68,17 @@ MASS_OVERRIDES = {
     'B0H2YF6S9D': 500, 'B08GBYFFDQ': 500, 'B0997R1575': 800,
     'B0FPR27KT7': 400, 'B0CGWZ5J6H': 250, 'B007BJAY6I': 140,
     'B08YFP2BVH': 210, 'B0CW8GQS1G': 180, 'B07GSDJ6T2': 60,
-    'B0H8MNXGKP': 40, 'B077PTNJ29': 400,
+    'B0H8MNXGKP': 40, 'B077PTNJ29': 400, 'B00I4NW7RE': 120,
 }
 
 # Width and height of the likely pouch face, not necessarily Amazon's shipped-box dimensions.
 GEOMETRY_OVERRIDES = {
-    **{asin: (11.0, 21.3, '同シリーズの詰め替えパウチ約11×21.3cm', 'kikiyu') for asin in KIKIYU},
+    **{asin: (11.0, 21.3, 'Amazon掲載の同シリーズ製品寸法から袋面を仮定', None) for asin in KIKIYU},
     'B07BBMLGVJ': (15.0, 24.0, 'GEXメーカー公表の同商品寸法', 'gex_200'),
     'B0DVSBJMXM': (11.0, 15.0, 'AGFメーカー公表の同商品寸法', 'agf_80'),
-    'B07CNRNKT5': (14.0, 23.0, '画像と一般的な200g用コーヒー袋から推定', 'coffee_bag'),
-    'B07CPSSL44': (14.0, 23.0, '画像と一般的な200g用コーヒー袋から推定', 'coffee_bag'),
-    'B0G3PJK8K5': (13.5, 24.0, '画像から1袋の平面を推定', 'coffee_bag'),
+    'B07CNRNKT5': (14.0, 23.0, '画像と一般的な200g用コーヒー袋から推定', None),
+    'B07CPSSL44': (14.0, 23.0, '画像と一般的な200g用コーヒー袋から推定', None),
+    'B0G3PJK8K5': (13.5, 24.0, '画像から1袋の平面を推定', None),
     'B0CVKL9BVN': (15.0, 24.0, 'GEXメーカー公表の同商品寸法', 'gex_care'),
     'B0H9PFGNS3': (12.5, 23.0, '同容量の魚餌パウチから仮定', None),
     'B003YKUI32': (12.5, 23.0, '同容量の魚餌パウチから仮定', None),
@@ -108,14 +110,29 @@ SPECIAL = {
 
 def dimensions_of(item):
     asin = item['asin']
+    official = manufacturer_dimensions.get(asin)
+    if official:
+        return (*official['faceCm'], official['note'], official['url'], 'manufacturer')
     if asin in GEOMETRY_OVERRIDES:
-        return GEOMETRY_OVERRIDES[asin]
+        width, height, note, source = GEOMETRY_OVERRIDES[asin]
+        return width, height, note, SOURCES.get(source), 'analogue'
     dims = item['listedDimensions']
-    if not dims:
-        return None
-    match = re.search(r'(\d+(?:\.\d+)?)\s*[x×X]\s*(\d+(?:\.\d+)?)\s*[x×X]\s*(\d+(?:\.\d+)?)\s*(cm|mm)', dims, re.I)
-    sides = sorted((float(v) / (10 if match.group(4).lower() == 'mm' else 1) for v in match.groups()[:3]), reverse=True)
-    return (sides[1], sides[0], f'Amazon掲載の{item["dimensionType"]}寸法から仮定', None)
+    match = re.search(r'(\d+(?:\.\d+)?)\s*[x×X]\s*(\d+(?:\.\d+)?)\s*[x×X]\s*(\d+(?:\.\d+)?)\s*(cm|mm)', dims or '', re.I)
+    if match and item['dimensionType'] in ('本体', '製品', '商品'):
+        sides = sorted((float(v) / (10 if match.group(4).lower() == 'mm' else 1) for v in match.groups()[:3]), reverse=True)
+        return sides[1], sides[0], f'Amazon掲載の{item["dimensionType"]}寸法。商品袋の実測ではない', None, 'catalog_item'
+    keepa_item = (api_dimensions.get(asin, {}).get('keepa', {}).get('item') or {}).get('cm')
+    if keepa_item and all(isinstance(v, (int, float)) and 1 <= v <= 60 for v in keepa_item):
+        sides = sorted(keepa_item, reverse=True)
+        return sides[1], sides[0], 'Keepa APIの商品寸法。商品袋との一致は未確認', None, 'catalog_item'
+    if match:
+        sides = sorted((float(v) / (10 if match.group(4).lower() == 'mm' else 1) for v in match.groups()[:3]), reverse=True)
+        return sides[1], sides[0], 'Amazon掲載の梱包寸法を仮置き。商品袋と同じとは限らない', None, 'catalog_package'
+    keepa_package = (api_dimensions.get(asin, {}).get('keepa', {}).get('package') or {}).get('cm')
+    if keepa_package and all(isinstance(v, (int, float)) and 1 <= v <= 60 for v in keepa_package):
+        sides = sorted(keepa_package, reverse=True)
+        return sides[1], sides[0], 'Keepa APIのパッケージ寸法を仮置き。商品袋と同じとは限らない', None, 'catalog_package'
+    return None
 
 def material_of(item):
     asin = item['asin']
@@ -130,7 +147,7 @@ def material_of(item):
     if asin in GROUND: return '挽いたコーヒー'
     if asin == 'B0DFW1ML76': return '塩化マグネシウムのフレーク'
     if asin == 'B0GL6TYSJR': return '甘味入り飲料粉末'
-    if asin in KIKIYU: return '入浴剤の粒'
+    if asin in KIKIYU or asin in ('B0CCXZFZQ2', 'B0CCXY9DS5'): return '入浴剤の粒'
     if item['category'] == '入浴剤・バスソルト':
         if any(s in title for s in ('クレイ', 'ベントナイト')): return 'クレイ入り入浴粉末'
         return 'エプソムソルト・バスソルト'
@@ -138,6 +155,7 @@ def material_of(item):
     if asin == 'B0070Q8RQQ': return '紅茶葉'
     if asin == 'B00U5OYT58': return 'ピートモス'
     if asin == 'B077PTNJ29': return '液体詰め替え'
+    if item['category'] == '液体詰め替え': return '液体詰め替え'
     if asin == 'B0H8MNXGKP': return '紅茶葉'
     if item['category'] == '観賞魚・ペット': return '魚用粒（浮沈不明）'
     return '食品粉末'
@@ -155,20 +173,26 @@ for item in products:
     asin = item['asin']
     material = material_of(item)
     mass = mass_of(item)
+    amount_text = f'{mass:g}mL（体積で計算）' if material == '液体詰め替え' else f'{mass:g}g'
     geometry = dimensions_of(item)
     if not geometry: raise ValueError(f'No pouch geometry: {asin}')
-    width, height, geometry_note, geometry_source = geometry
+    width, height, geometry_note, geometry_source, footprint_source = geometry
     density_low, density_high, density_source = DENSITIES[material]
     # 1 cm is withheld from the width for side seals; 3 cm from the height for
     # the top/bottom seals and unfilled headspace. 0.3 cm provisionally allows
     # for the product pouch, a thin mailer and small unevenness.
     usable_area = (width - 1) * (height - 3)
     if usable_area <= 0: raise ValueError(f'Invalid face area: {asin}')
-    thin = round(mass / density_high / usable_area + 0.3, 1)
-    thick = round(mass / density_low / usable_area + 0.3, 1)
+    if material == '液体詰め替え':
+        # The title states milliliters, so this is already volume. Dividing it
+        # by density would incorrectly convert a volume a second time.
+        thin = thick = round(mass / usable_area + 0.3, 1)
+    else:
+        thin = round(mass / density_high / usable_area + 0.3, 1)
+        thick = round(mass / density_low / usable_area + 0.3, 1)
     verdict = 'likely' if thick <= 2.8 else 'unlikely' if thin > 3.0 else 'borderline'
-    confidence = '中' if (geometry_source in ('gex_200', 'gex_care', 'agf_80') or (item['sizeConfirmed'] and item['dimensionType'] in ('本体', '製品', '商品'))) else '低'
-    reason = f'{mass:g}gの{material}を約{width:g}×{height:g}cmの袋に広げる計算。'
+    confidence = '中' if footprint_source == 'manufacturer' else '低'
+    reason = f'{amount_text}の{material}を約{width:g}×{height:g}cmの袋に広げる計算。'
     if asin in SPECIAL:
         verdict, special_reason, confidence = SPECIAL[asin]
         reason += special_reason
@@ -184,39 +208,49 @@ for item in products:
         thin, thick = 2.1, 3.4  # the rigid pour spout is not captured by liquid volume
     if asin in ('B0CBHB12LV', 'B0FWQXZVTF'):
         thick = 3.5  # unknown peak of included measuring spoon
+    thickness_override = asin in {
+        'B079L4T8BS', 'B079L56FM7', 'B07ND8DBVG', 'B0H8MNXGKP',
+        'B077PTNJ29', 'B0CBHB12LV', 'B0FWQXZVTF',
+    }
     if asin == 'B0CVKL9BVN':
         confidence = '中'  # matching manufacturer's package dimensions were found
-    if asin in ('B0CGWZ5J6H', 'B007BJAY6I', 'B08YFP2BVH', 'B0CW8GQS1G', 'B07GSDJ6T2'):
+    if asin in ('B0CGWZ5J6H', 'B007BJAY6I', 'B08YFP2BVH', 'B0CW8GQS1G', 'B07GSDJ6T2', 'B00I4NW7RE'):
         confidence = '低'  # tablet mass and packed density are only indirect estimates
         reason += '質量は粒数からの概算。'
     # A low calculated thickness is not enough for a positive recommendation
     # when the pouch face came from a shipping box or another product.
-    geometry_unverified = geometry_source not in ('gex_200', 'gex_care', 'agf_80') and (
-        not item['sizeConfirmed'] or item['dimensionType'] in ('梱包', '掲載寸法')
-        or geometry_source == 'coffee_bag'
-    )
+    geometry_unverified = footprint_source != 'manufacturer'
     if verdict == 'likely' and geometry_unverified:
         verdict = 'borderline'
         confidence = '低'
         reason += '商品袋の実寸を確認できないため、判定は保留。'
     sources = [f'https://www.amazon.co.jp/dp/{asin}']
-    for key in (geometry_source, density_source):
-        if key and SOURCES[key] not in sources: sources.append(SOURCES[key])
+    if geometry_source and geometry_source not in sources: sources.append(geometry_source)
+    if density_source and SOURCES[density_source] not in sources: sources.append(SOURCES[density_source])
     predictions[asin] = {
         'verdict': verdict,
         'confidence': confidence,
         'roughThicknessCm': [thin, thick],
         'reason': reason,
         'massG': mass,
+        'amountText': amount_text,
         'material': material,
         'assumedPouchCm': [width, height],
         'geometryNote': geometry_note,
+        'footprintSource': footprint_source,
+        'manufacturerGrossWeightG': manufacturer_dimensions.get(asin, {}).get('grossWeightG'),
+        'manufacturerFilledDepthCm': manufacturer_dimensions.get(asin, {}).get('filledDepthCm'),
         'densityRangeGml': [density_low, density_high],
+        'usableAreaCm2': round(usable_area, 1),
+        'thicknessModel': 'special_case' if thickness_override else 'liquid_volume' if material == '液体詰め替え' else 'density_area',
+        'specialReason': SPECIAL[asin][1] if asin in SPECIAL else None,
+        'weightEstimateG': round(mass * density_high) if material == '液体詰め替え' else mass,
         'sources': sources,
     }
 
-assert len(predictions) == 100
+assert len(predictions) == len(products)
 (ROOT / 'predictions.js').write_text('window.NEKOPOST_PREDICTIONS = ' + json.dumps(predictions, ensure_ascii=False, separators=(',', ':')) + ';\n')
+build_acquisition_status()
 print(Counter(p['verdict'] for p in predictions.values()))
 for item in products:
     p = predictions[item['asin']]

@@ -150,7 +150,7 @@
     return unique.sort((a, b) => (a.priceYen + (a.inboundShippingYen ?? Infinity)) - (b.priceYen + (b.inboundShippingYen ?? Infinity)));
   }
   const merchantOfferFor = asin => market.offers?.[asin]?.lowestMerchant || null;
-  const referenceOfferFor = asin => merchantOfferFor(asin) ? null : (market.offers?.[asin]?.featuredOffer?.fulfilledByAmazon ? market.offers[asin].featuredOffer : null);
+  const referenceOfferFor = asin => merchantOfferFor(asin) ? null : (market.offers?.[asin]?.featuredOffer?.fulfilledByAmazon ? market.offers[asin].featuredOffer : market.offers?.[asin]?.lowestAmazonFulfilled || null);
   function saleInputsFor(item, record) {
     const merchant = merchantOfferFor(item.asin);
     const reference = referenceOfferFor(item.asin);
@@ -262,7 +262,7 @@
       : '日時不明';
     const offerNote = amazon
       ? `${offerChecked} SP-API照会の自己発送の最安出品例：商品${yen(amazon.listingYen)}＋購入者送料${yen(amazon.shippingYen)}＝合計${yen(amazon.landedYen)}${amazon.points ? `、付与ポイント${amazon.points}pt` : ''}。${featured ? `おすすめ出品は合計${yen(featured.landedYen)}（${featured.fulfilledByAmazon ? 'FBA' : '自己発送'}）。` : 'おすすめ出品価格は未取得。'}価格は販売成立額ではありません。`
-      : reference ? `${offerChecked} SP-APIで自己発送の新規出品は未確認。FBAおすすめ出品の商品${yen(reference.listingYen)}＋購入者送料${yen(reference.shippingYen)}を自己発送の仮の売価として用い、自己発送手数料を別途見積もりました。実際にその価格で販売できる保証はありません。`
+      : reference ? `${offerChecked} SP-APIで自己発送の新規出品は未確認。${featured?.fulfilledByAmazon ? 'FBAおすすめ出品' : '取得できたFBAの最安出品'}の商品${yen(reference.listingYen)}＋購入者送料${yen(reference.shippingYen)}を自己発送の仮の売価として用い、自己発送手数料を別途見積もりました。実際にその価格で販売できる保証はありません。`
         : 'SP-APIで自己発送の新規出品も、おすすめ出品も確認できません。出品額は手入力が必要です。';
     const searchTerm = suppliers[0]?.identity?.match(/JAN (\d{13})/)?.[1] || item.title.slice(0, 38);
     const supplierRows = suppliers.length ? suppliers.map(s => `<div class="supplier-row"><div><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.name)} ↗</a><small>${escapeHtml(s.identity)} · ${escapeHtml(s.checkedOn)}確認</small></div><b>${yen(s.priceYen)}<small>仕入送料 ${s.inboundShippingYen == null ? '未確認' : yen(s.inboundShippingYen)}</small></b><p>${escapeHtml(s.note)}</p></div>`).join('') : `<p class="supplier-empty">${supplierSearch ? `Yahoo!ショッピングで${supplierSearch.primaryHits + supplierSearch.fallbackHits}件の検索候補を確認しましたが、単品と商品コード・送料が一致する仕入先は未確認です。` : '仕入先は未確認です。'} 検索リンクは仕入先の確認済み記録ではありません。</p>`;
@@ -270,7 +270,7 @@
       <div class="panel-title"><div><span class="page-kicker">SOURCING & PROFIT</span><h4>仕入先と利益の試算</h4></div><small>自社発送・1点あたり</small></div>
       <div class="supplier-list">${supplierRows}<div class="supplier-search"><span>ほかの仕入先を探す</span><a href="https://shopping.yahoo.co.jp/search?p=${encodeURIComponent(searchTerm)}" target="_blank" rel="noopener noreferrer">Yahoo!ショッピング ↗</a><a href="https://search.rakuten.co.jp/search/mall/${encodeURIComponent(searchTerm)}/" target="_blank" rel="noopener noreferrer">楽天市場 ↗</a></div></div>
       <div class="profit-fields">
-        <label>${sale.basis === 'fba_reference' ? 'FBAおすすめ出品の参考価格（税込）' : 'Amazon自己発送の出品価格（税込）'}<input data-profit="saleListing" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(sale.listing)}" placeholder="確認後に入力"></label>
+        <label>${sale.basis === 'fba_reference' ? 'FBA出品の参考価格（税込）' : 'Amazon自己発送の出品価格（税込）'}<input data-profit="saleListing" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(sale.listing)}" placeholder="確認後に入力"></label>
         <label>購入者から受け取る配送料（税込）<input data-profit="saleShipping" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(sale.shipping)}" placeholder="送料無料なら0"></label>
         <label>付与ポイント数（1pt＝1円で控除）<input data-profit="salePoints" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(sale.points)}"></label>
         <label>仕入価格（税込）<input data-profit="buyPrice" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(inputValue(record, 'buyPrice', suppliers[0]?.priceYen ?? ''))}" placeholder="確認後に入力"></label>
