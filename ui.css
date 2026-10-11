@@ -855,8 +855,9 @@ main { max-width:none; padding:0 24px 50px 0; }
 @media(max-width:580px) { .profit-spotlight { align-items:flex-start; flex-wrap:wrap; } .profit-spotlight strong { width:100%; } }
 
 /* The selected source and its landed purchase cost remain visible above the evidence cards. */
-.candidate-ident .candidate-source { display:block; overflow:hidden; margin-top:3px; color:#ffdd8f; font-size:10px; font-weight:800; text-overflow:ellipsis; white-space:nowrap; }
-.candidate-ident .candidate-source.unconfirmed { color:#b3c8d6; }
+.candidate-row { grid-template-areas:'thumb ident arrow' 'thumb measures arrow' 'source source source'; }
+.candidate-row > .candidate-source { grid-area:source; display:block; overflow:hidden; margin-top:6px; padding:4px 7px; border-radius:5px; background:#28506b; color:#ffdd8f; font-size:10px; font-weight:800; text-overflow:ellipsis; white-space:nowrap; }
+.candidate-row > .candidate-source.unconfirmed { color:#b3c8d6; }
 .supplier-quick { display:grid; grid-template-columns:auto minmax(0,1fr) auto; grid-template-areas:'label name cost' 'label meta cost'; align-items:center; gap:3px 13px; margin:0 0 12px; padding:13px 17px; border:1px solid #ead2a0; border-radius:11px; background:#fff8e9; box-shadow:0 3px 14px #4f390a0c; }
 .supplier-quick-label { grid-area:label; align-self:center; padding:6px 9px; border-radius:6px; background:#e9a819; color:#fff; font-size:12px; font-weight:900; white-space:nowrap; }
 .supplier-quick-name { grid-area:name; min-width:0; overflow:hidden; color:#172f43; font-size:clamp(15px,1.3vw,19px); font-weight:900; text-overflow:ellipsis; white-space:nowrap; }

@@ -502,8 +502,9 @@
     const image = imageUrl ? `<img src="${escapeHtml(imageUrl)}" alt="" loading="lazy" decoding="async"><span class="candidate-photo-fallback" hidden>画像なし</span>` : '<span class="candidate-photo-fallback">画像なし</span>';
     return `<button class="candidate-row ${selectedAsin === item.asin ? 'is-selected' : ''}" type="button" data-select-asin="${item.asin}" aria-pressed="${selectedAsin === item.asin}">
       <span class="candidate-thumb">${image}</span>
-      <span class="candidate-ident"><strong title="${escapeHtml(item.title)}">${escapeHtml(listTitle)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small><small class="candidate-source ${supplier ? '' : 'unconfirmed'}" title="${supplier ? escapeHtml(supplier.name) : '仕入先の単品価格・送料は未確認'}">${supplier ? `仕入 ${escapeHtml(supplier.name)} ${sourceTotal == null ? '送料未確認' : yen(sourceTotal)}` : '仕入先 未確認'}</small><small class="candidate-profit ${state === 'price_risk' ? 'price-risk' : state}">${profitText}</small></span>
+      <span class="candidate-ident"><strong title="${escapeHtml(item.title)}">${escapeHtml(listTitle)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small><small class="candidate-profit ${state === 'price_risk' ? 'price-risk' : state}">${profitText}</small></span>
       <span class="candidate-measures">${Number(record.pouchWidth) > 0 && Number(record.pouchHeight) > 0 || prediction.footprintSource === 'manufacturer' ? '袋' : '仮の袋面'} ${escapeHtml(width)}×${escapeHtml(length)} cm <span>厚さ ${escapeHtml(thickness)} cm</span></span>
+      <span class="candidate-source ${supplier ? '' : 'unconfirmed'}" title="${supplier ? `仕入先 ${escapeHtml(supplier.name)}` : '仕入先の単品価格・送料は未確認'}">${supplier ? `仕入先 ${escapeHtml(supplier.name)} · ${sourceTotal == null ? '送料未確認' : yen(sourceTotal)}` : '仕入先 未確認'}</span>
       <span class="candidate-verdict"><span class="pill ${shippingClasses[fit.nekopos.status]}"><b>ネコポス</b> ${shippingLabels[fit.nekopos.status]}</span><span class="pill ${shippingClasses[fit.clickpost.status]}"><b>クリックポスト</b> ${shippingLabels[fit.clickpost.status]}</span></span>
     </button>`;
   }
@@ -537,7 +538,7 @@
     const total = supplier.inboundShippingYen == null ? null : supplier.priceYen + supplier.inboundShippingYen;
     const identity = /^JAN \d{13}/.test(supplier.identity || '') ? 'JAN照合' : '商品名・容量照合';
     const edited = record.buyPrice != null || record.buyShipping != null;
-    return `<section class="supplier-quick" aria-label="仕入先の要約"><span class="supplier-quick-label">仕入先</span><a class="supplier-quick-name" href="${escapeHtml(supplier.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(supplier.name)} ↗</a><strong class="supplier-quick-cost">${total == null ? `${yen(supplier.priceYen)}＋送料未確認` : yen(total)}<small>仕入総額・1点</small></strong><span class="supplier-quick-meta">商品 ${yen(supplier.priceYen)} · 仕入送料 ${supplier.inboundShippingYen == null ? '未確認' : yen(supplier.inboundShippingYen)}<br>${identity} · ${escapeHtml(supplier.checkedOn)}確認${edited ? ' · 利益は入力値で再計算' : ''}</span></section>`;
+    return `<section class="supplier-quick" aria-label="仕入先の要約"><span class="supplier-quick-label">仕入先</span><a class="supplier-quick-name" href="${escapeHtml(supplier.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(supplier.name)} ↗</a><strong class="supplier-quick-cost">${total == null ? `${yen(supplier.priceYen)}＋送料未確認` : yen(total)}<small>${total == null ? '商品代・仕入総額は未確定' : '仕入総額・1点'}</small></strong><span class="supplier-quick-meta">商品 ${yen(supplier.priceYen)} · 仕入送料 ${supplier.inboundShippingYen == null ? '未確認' : yen(supplier.inboundShippingYen)}<br>${identity} · ${escapeHtml(supplier.checkedOn)}確認${edited ? ' · 利益は入力値で再計算' : ''}</span></section>`;
   }
 
   function render() {
