@@ -42,6 +42,9 @@ window.NEKOPOST_SOURCING = {
     ],
     B093DGHBXC: [
       { name: 'ヨドバシ.com', url: 'https://www.yodobashi.com/product/100000001005745264/', priceYen: 770, inboundShippingYen: 0, checkedOn: '2026-10-11', identity: 'きき湯ファインヒート スマートモデル ホットシトラス つめかえ用500g×1袋（商品名・香り・容量照合。商品コード未確認）', note: '商品ページに税込770円・在庫あり・無料配送と表示。Amazon自己発送価格は10月11日にSP-APIで再照会。梱包後3cm以下は未実測。' }
+    ],
+    B0GZ4CP7BV: [
+      { name: 'UMAMI LAB公式', url: 'https://comewo.official.ec/items/117249928', priceYen: 2916, inboundShippingYen: 660, checkedOn: '2026-10-11', identity: '生UMAMI 200g×1袋。メーカー公式の単品表示とAmazon商品名・容量を照合', note: '税込2,916円、国内送料全国一律660円。公式ページはパウチ形態も明記。価格と在庫は仕入時に再確認。' }
     ]
   }
 };

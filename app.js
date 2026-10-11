@@ -62,7 +62,7 @@
       const pa = predictions[a.asin];
       const pb = predictions[b.asin];
       if ($('#sortMode').value === 'profit') {
-        const states = { candidate: 0, reference: 1, price_risk: 2, loss: 3, missing: 4, over: 5 };
+        const states = { candidate: 0, reference: 1, price_risk: 2, loss: 3, sourcing: 4, price_missing: 5, over: 6 };
         const stateDiff = states[profitStateFor(a)] - states[profitStateFor(b)];
         if (stateDiff) return stateDiff;
         const profitDiff = (profitFor(b, 'clickpost')?.profit ?? -Infinity) - (profitFor(a, 'clickpost')?.profit ?? -Infinity);
@@ -87,7 +87,8 @@
     const states = products.map(profitStateFor);
     $('#profitCandidateCount').textContent = states.filter(state => state === 'candidate').length;
     $('#profitReferenceCount').textContent = states.filter(state => state === 'reference').length;
-    $('#profitMissingCount').textContent = states.filter(state => state === 'missing').length;
+    $('#profitSourcingCount').textContent = states.filter(state => state === 'sourcing').length;
+    $('#profitPriceMissingCount').textContent = states.filter(state => state === 'price_missing').length;
     $('#profitAllCount').textContent = products.length;
   }
 
@@ -208,7 +209,7 @@
   function profitStateFor(item, record = recordFor(item.asin)) {
     if (fitFor(item).clickpost.status === 'over') return 'over';
     const result = profitFor(item, 'clickpost', record);
-    if (!result) return 'missing';
+    if (!result) return purchaseCeilingFor(item, record) == null ? 'price_missing' : 'sourcing';
     const sale = saleInputsFor(item, record);
     if (sale.basis === 'fba_reference' || sale.basis === 'manual') return 'reference';
     if (result.profit <= 0) return 'loss';
@@ -489,13 +490,13 @@
     const listTitle = item.asin === 'B09S3BRQJ1' ? 'AGF マキシム 袋 60g' : item.title;
     const profit = profitFor(item, 'clickpost', record);
     const state = profitStateFor(item, record);
-    const ceiling = state === 'missing' ? purchaseCeilingFor(item, record) : null;
+    const ceiling = state === 'sourcing' ? purchaseCeilingFor(item, record) : null;
     const profitText = state === 'candidate' ? `+${yen(profit.profit)} · 要実測`
       : state === 'reference' && profit ? `参考 ${profit.profit < 0 ? '−' : '+'}${yen(Math.abs(profit.profit))}`
         : state === 'price_risk' && profit ? `価格差あり +${yen(profit.profit)}`
           : state === 'loss' && profit ? `−${yen(Math.abs(profit.profit))}`
             : state === 'over' ? '配送規格外'
-              : ceiling != null && ceiling >= 0 ? `仕入上限 ${yen(ceiling)}` : '未計算';
+              : ceiling != null && ceiling >= 0 ? `仕入上限 ${yen(ceiling)}` : '売価未取得';
     const image = imageUrl ? `<img src="${escapeHtml(imageUrl)}" alt="" loading="lazy" decoding="async"><span class="candidate-photo-fallback" hidden>画像なし</span>` : '<span class="candidate-photo-fallback">画像なし</span>';
     return `<button class="candidate-row ${selectedAsin === item.asin ? 'is-selected' : ''}" type="button" data-select-asin="${item.asin}" aria-pressed="${selectedAsin === item.asin}">
       <span class="candidate-thumb">${image}</span>
@@ -514,13 +515,14 @@
     const label = state === 'candidate' ? '黒字候補 · 厚さと重量は要実測'
       : state === 'reference' ? '参考試算 · 自己発送の実売価格は未確認'
         : state === 'price_risk' ? '価格差あり · おすすめ出品より高い'
-          : state === 'missing' ? '仕入先または販売価格を確認してください'
+          : state === 'sourcing' ? '仕入先の単品価格・送料を確認してください'
+            : state === 'price_missing' ? 'Amazonの売価・購入者送料が未取得'
             : state === 'over' ? 'クリックポスト規格外' : '現在の条件では赤字';
     const detail = result ? `売価${yen(Number(sale.listing) + Number(sale.shipping))} · 仕入総額${yen(result.buy + result.inbound)} · 送料・手数料込み`
       : ceiling != null && ceiling >= 0 ? `仕入価格＋仕入送料の収支ゼロ上限 ${yen(ceiling)}` : '確認できた価格だけで計算しています';
     const amount = result ? `${result.profit < 0 ? '−' : '+'}${yen(Math.abs(result.profit))}`
-      : ceiling != null && ceiling >= 0 ? `上限 ${yen(ceiling)}` : '未計算';
-    return `<div class="profit-spotlight ${state === 'reference' ? 'is-reference' : state === 'missing' ? 'is-missing' : ''}" aria-label="選択商品の利益状況"><div><small>${label}</small><b title="${escapeHtml(item.title)}">${escapeHtml(item.title)}</b><small>${detail}</small></div><strong>${amount}</strong></div>`;
+      : ceiling != null && ceiling >= 0 ? `上限 ${yen(ceiling)}` : '売価未取得';
+    return `<div class="profit-spotlight ${state === 'reference' ? 'is-reference' : state === 'sourcing' || state === 'price_missing' ? 'is-missing' : ''}" aria-label="選択商品の利益状況"><div><small>${label}</small><b title="${escapeHtml(item.title)}">${escapeHtml(item.title)}</b><small>${detail}</small></div><strong>${amount}</strong></div>`;
   }
 
   function render() {

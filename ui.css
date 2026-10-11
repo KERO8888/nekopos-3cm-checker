@@ -836,12 +836,13 @@ main { max-width:none; padding:0 24px 50px 0; }
 .profit-nav-buttons button:hover,.profit-nav-buttons button:focus-visible { border-color:#93d8e0; }
 .profit-nav-buttons button.active { border-color:#66d9e4; background:#087e98; color:#fff; }
 .profit-nav-buttons button b { display:grid; place-items:center; flex:none; min-width:22px; height:22px; padding:0 3px; border-radius:11px; background:#83e3ed; color:#10384d; font-size:11px; }
+.profit-nav-buttons button[data-profit-filter="all"] { grid-column:1 / -1; }
 .profit-nav-export { width:100%; padding:7px; border:1px solid #83bdcc; border-radius:7px; background:#d8f4f8; color:#0f5068; font-size:11px; font-weight:850; cursor:pointer; }
 .profit-nav-export:hover,.profit-nav-export:focus-visible { background:#fff; }
 .profit-nav small { color:#c1d3de; font-size:10px; line-height:1.45; }
 .candidate-profit { display:block; width:max-content; max-width:100%; margin-top:3px; padding:2px 5px; border-radius:5px; background:#dcf8f2; color:#006b64 !important; font-size:11px; font-weight:900; }
 .candidate-profit.reference { background:#fff3d9; color:#8c5b0d !important; }
-.candidate-profit.missing { background:#405e75; color:#dceaf2 !important; }
+.candidate-profit.sourcing,.candidate-profit.price_missing { background:#405e75; color:#dceaf2 !important; }
 .candidate-profit.loss { background:#f8e7e3; color:#a3483f !important; }
 .candidate-profit.price-risk { background:#fff3d9; color:#8c5b0d !important; }
 .profit-spotlight { display:flex; align-items:center; gap:13px; margin-bottom:12px; padding:13px 17px; border:1px solid #cfe6eb; border-radius:11px; background:#fff; box-shadow:0 3px 14px #18384c07; }
