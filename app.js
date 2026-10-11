@@ -4,23 +4,29 @@
   const products = window.NEKOPOST_PRODUCTS || [];
   const predictions = window.NEKOPOST_PREDICTIONS || {};
   const productImages = window.NEKOPOST_IMAGES?.images || {};
+  const localProductImages = window.NEKOPOST_LOCAL_IMAGES || {};
   const apiDimensions = window.NEKOPOST_API_DIMENSIONS?.items || {};
   const shipping = window.NEKOPOST_SHIPPING;
+  const sourcing = window.NEKOPOST_SOURCING || { suppliers: {}, amazonPrices: {} };
+  const market = window.NEKOPOST_MARKET || { offers: {}, fees: {}, referenceFees: {}, suppliers: {}, supplierSearch: {} };
+  const finance = window.NEKOPOST_FINANCE;
   const storageKey = 'nekopos-candidates-v1';
   let visibleLimit = 20;
-  let selectedAsin = '';
+  let selectedAsin = products.some(item => item.asin === 'B0DQDTBXJ7') ? 'B0DQDTBXJ7' : '';
+  let profitFilter = 'candidate';
   const verdictLabels = {
     likely: '3cm以内に収まりそう',
     borderline: '境界・情報不足',
     unlikely: '3cm以内は難しい',
   };
   const verdictOrder = { likely: 0, borderline: 1, unlikely: 2 };
-  const shippingLabels = { possible: '概算で規格内', check: '要実測', over: '規格外', measured_ok: '実測で規格内' };
-  const shippingClasses = { possible: 'likely', check: 'borderline', over: 'unlikely', measured_ok: 'likely' };
+  const shippingLabels = { possible: '概算内・要実測', check: '要実測', over: '規格外', measured_ok: '実測値は規格内' };
+  const shippingClasses = { possible: 'borderline', check: 'borderline', over: 'unlikely', measured_ok: 'likely' };
   const footprintLabels = { manufacturer: 'メーカー公表寸法', catalog_item: '登録商品寸法', catalog_package: '登録包装寸法から仮定', analogue: '同系品・画像から仮定' };
   const confidenceOrder = { 高: 0, 中: 1, 低: 2 };
   const $ = selector => document.querySelector(selector);
   const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
+  const imageFor = asin => localProductImages[asin] || productImages[asin] || '';
   let records = {};
   try { records = JSON.parse(localStorage.getItem(storageKey) || '{}') || {}; } catch { records = {}; }
   const recordFor = asin => records[asin] || {};
@@ -37,6 +43,7 @@
   const requestedAsin = new URLSearchParams(window.location?.search || '').get('asin');
   if (requestedAsin && products.some(item => item.asin === requestedAsin)) {
     selectedAsin = requestedAsin;
+    profitFilter = 'all';
     $('#search').value = requestedAsin;
   }
 
@@ -54,6 +61,13 @@
     return [...products].sort((a, b) => {
       const pa = predictions[a.asin];
       const pb = predictions[b.asin];
+      if ($('#sortMode').value === 'profit') {
+        const states = { candidate: 0, reference: 1, price_risk: 2, loss: 3, missing: 4, over: 5 };
+        const stateDiff = states[profitStateFor(a)] - states[profitStateFor(b)];
+        if (stateDiff) return stateDiff;
+        const profitDiff = (profitFor(b, 'clickpost')?.profit ?? -Infinity) - (profitFor(a, 'clickpost')?.profit ?? -Infinity);
+        if (Number.isFinite(profitDiff) && profitDiff) return profitDiff;
+      }
       return fitRank(a) - fitRank(b)
         || verdictOrder[pa.verdict] - verdictOrder[pb.verdict]
         || confidenceOrder[pa.confidence] - confidenceOrder[pb.confidence]
@@ -70,6 +84,11 @@
     $('#likelyCount').textContent = fits.filter(fit => isFit(fit.nekopos.status) && isFit(fit.clickpost.status)).length;
     $('#unlikelyCount').textContent = fits.filter(fit => fit.nekopos.status === 'over' && fit.clickpost.status === 'over').length;
     $('#borderlineCount').textContent = products.length - Number($('#likelyCount').textContent) - Number($('#unlikelyCount').textContent);
+    const states = products.map(profitStateFor);
+    $('#profitCandidateCount').textContent = states.filter(state => state === 'candidate').length;
+    $('#profitReferenceCount').textContent = states.filter(state => state === 'reference').length;
+    $('#profitMissingCount').textContent = states.filter(state => state === 'missing').length;
+    $('#profitAllCount').textContent = products.length;
   }
 
   function filteredProducts() {
@@ -88,6 +107,7 @@
         || (shippingFilter === 'check' && (fit.nekopos.status === 'check' || fit.clickpost.status === 'check'))
         || (shippingFilter === 'over' && fit.nekopos.status === 'over' && fit.clickpost.status === 'over');
       return (!query || `${item.asin} ${item.title} ${item.category} ${prediction.material}`.toLowerCase().includes(query))
+        && (profitFilter === 'all' || profitStateFor(item) === profitFilter)
         && (category === 'all' || item.category === category)
         && (dimension === 'all' || (dimension === 'confirmed') === item.sizeConfirmed)
         && (forecast === 'all' || forecast === prediction.verdict)
@@ -113,19 +133,240 @@
 
   function shippingRow(name, result) {
     const detail = result.reasons.find(reason => /超える|不足|未確認|投函目安|重量は未測定/.test(reason)) || result.reasons[0];
-    const note = result.status === 'possible' ? '※概算。梱包後の外寸・重量を実測' : detail;
-    return `<div class="shipping-row ${shippingClasses[result.status]}"><b>${name}</b><span class="pill ${shippingClasses[result.status]}">${shippingLabels[result.status]}</span><small>${escapeHtml(note)}</small></div>`;
+    const note = result.status === 'possible' ? '発送可否は未確定。梱包後の外寸・重量を実測' : detail;
+    const yamato = name === 'ネコポス';
+    const mark = yamato ? 'assets/yamato-official-logo.png' : 'assets/clickpost-official-brand.png';
+    const carrier = yamato ? 'ヤマト運輸' : '日本郵便';
+    const source = yamato ? 'https://business.kuronekoyamato.co.jp/service/lineup/nekoposu/index.html' : 'https://www.post.japanpost.jp/service/send/domestic/delivery/clickpost/';
+    return `<div class="shipping-row service-${yamato ? 'yamato' : 'clickpost'} ${shippingClasses[result.status]}"><div class="shipping-brand"><span class="service-emblem" aria-hidden="true"><img class="service-mark" src="${mark}" alt=""></span><div class="service-identity"><small>${carrier}</small><b>${name}</b></div></div><a class="shipping-source" href="${source}" target="_blank" rel="noopener noreferrer" aria-label="${name}の公式規格を見る">↗</a><div class="shipping-spec"><span>サイズ上限</span><strong>長辺34cm · 3辺計60cm · 厚さ3cm${yamato ? '以内' : '目安'}</strong><span>重さ上限</span><strong>${yamato ? '1kg' : '2kg'}以内</strong></div><div class="shipping-verdict"><span class="pill ${shippingClasses[result.status]}">${shippingLabels[result.status]}</span><small>${escapeHtml(note)}</small></div></div>`;
+  }
+
+  const yen = value => `¥${Math.round(value).toLocaleString('ja-JP')}`;
+  const inputValue = (record, key, fallback = '') => record[key] == null ? fallback : record[key];
+  function suppliersFor(asin) {
+    const combined = [...(market.suppliers?.[asin] || []), ...(sourcing.suppliers?.[asin] || [])];
+    const unique = [...new Map(combined.map(supplier => [supplier.url, supplier])).values()];
+    return unique.sort((a, b) => (a.priceYen + (a.inboundShippingYen ?? Infinity)) - (b.priceYen + (b.inboundShippingYen ?? Infinity)));
+  }
+  const merchantOfferFor = asin => market.offers?.[asin]?.lowestMerchant || null;
+  const referenceOfferFor = asin => merchantOfferFor(asin) ? null : (market.offers?.[asin]?.featuredOffer?.fulfilledByAmazon ? market.offers[asin].featuredOffer : null);
+  function saleInputsFor(item, record) {
+    const merchant = merchantOfferFor(item.asin);
+    const reference = referenceOfferFor(item.asin);
+    const offer = merchant || reference;
+    const listing = inputValue(record, 'saleListing', inputValue(record, 'salePrice', offer?.listingYen ?? ''));
+    const shipping = inputValue(record, 'saleShipping', record.salePrice == null ? (offer?.shippingYen ?? '') : 0);
+    const points = inputValue(record, 'salePoints', offer?.points ?? 0);
+    const priceEdited = record.saleListing != null || record.saleShipping != null || record.salePrice != null;
+    return { listing, shipping, points, basis: priceEdited ? 'manual' : merchant ? 'mfn' : reference ? 'fba_reference' : 'none' };
+  }
+  function feeEstimateFor(item, sale, record) {
+    const source = merchantOfferFor(item.asin) ? market.fees?.[item.asin] : market.referenceFees?.[item.asin];
+    return source?.status === 'Success'
+      && Number(sale.listing) === source.listingYen
+      && Number(sale.shipping) === source.shippingYen
+      && inputValue(record, 'sellingPlan', 'professional') === 'professional'
+      ? source.totalFeeYen : null;
+  }
+  function profitFor(item, method, record = recordFor(item.asin)) {
+    const supplier = suppliersFor(item.asin)[0];
+    const sale = saleInputsFor(item, record);
+    return finance?.estimate({
+      salePrice: sale.listing === '' || sale.shipping === '' ? null : Number(sale.listing) + Number(sale.shipping),
+      buyPrice: inputValue(record, 'buyPrice', supplier?.priceYen ?? ''),
+      buyShipping: inputValue(record, 'buyShipping', supplier?.inboundShippingYen ?? ''),
+      outboundShipping: method === 'clickpost' ? 240 : inputValue(record, 'nekoposFee'),
+      packagingCost: inputValue(record, 'packagingCost', 20),
+      pointsCost: sale.points,
+      manualReferralRate: inputValue(record, 'manualReferralRate'),
+      observedFeeYen: feeEstimateFor(item, sale, record),
+      profile: finance.profileFor(item.category),
+      plan: inputValue(record, 'sellingPlan', 'professional'),
+    }) || null;
+  }
+  function purchaseCeilingFor(item, record = recordFor(item.asin)) {
+    const sale = saleInputsFor(item, record);
+    if (sale.listing === '' || sale.shipping === '') return null;
+    const result = finance?.estimate({
+      salePrice: Number(sale.listing) + Number(sale.shipping), pointsCost: sale.points,
+      buyPrice: 0, buyShipping: 0, outboundShipping: 240,
+      packagingCost: inputValue(record, 'packagingCost', 20),
+      manualReferralRate: inputValue(record, 'manualReferralRate'),
+      observedFeeYen: feeEstimateFor(item, sale, record),
+      profile: finance.profileFor(item.category),
+      plan: inputValue(record, 'sellingPlan', 'professional'),
+    });
+    return result?.profit ?? null;
+  }
+  function priceGapFor(item, record = recordFor(item.asin)) {
+    const sale = saleInputsFor(item, record);
+    const featured = market.offers?.[item.asin]?.featuredOffer;
+    if (!featured || sale.listing === '' || sale.shipping === '') return 0;
+    const gap = Number(sale.listing) + Number(sale.shipping) - featured.landedYen;
+    return gap >= Math.max(100, featured.landedYen * 0.05) ? gap : 0;
+  }
+  function profitStateFor(item, record = recordFor(item.asin)) {
+    if (fitFor(item).clickpost.status === 'over') return 'over';
+    const result = profitFor(item, 'clickpost', record);
+    if (!result) return 'missing';
+    const sale = saleInputsFor(item, record);
+    if (sale.basis === 'fba_reference' || sale.basis === 'manual') return 'reference';
+    if (result.profit <= 0) return 'loss';
+    return priceGapFor(item, record) ? 'price_risk' : 'candidate';
+  }
+
+  function profitResult(item, method, record) {
+    const shippingStatus = fitFor(item)[method].status;
+    const result = profitFor(item, method, record);
+    const sale = saleInputsFor(item, record);
+    const featured = market.offers?.[item.asin]?.featuredOffer;
+    const gap = priceGapFor(item, record);
+    const priceWarning = gap ? ` · おすすめ出品${yen(featured.landedYen)}より${yen(gap)}高い。販売成立は未確認。` : '';
+    const label = method === 'clickpost' ? 'クリックポスト（送料240円）' : 'ネコポス（契約運賃）';
+    if (shippingStatus === 'over') return `<div class="profit-result pending"><b>${label}</b><strong>規格外</strong><small>この発送方法の運賃では利益を計算しません。</small></div>`;
+    if (!result) {
+      const ceiling = method === 'clickpost' ? purchaseCeilingFor(item, record) : null;
+      const reason = method === 'nekopos' && !inputValue(record, 'nekoposFee') ? '契約運賃を入力してください。'
+        : sale.listing === '' || sale.shipping === '' ? '自己発送価格が未取得。実際の出品条件を入力してください。'
+          : ceiling != null && ceiling >= 0 ? `仕入先が未照合。仕入価格＋仕入送料が${yen(ceiling)}以下なら収支0円以上の計算です。`
+            : '仕入先・仕入送料が未照合です。';
+      return `<div class="profit-result pending"><b>${label}</b><strong>${ceiling != null && ceiling >= 0 && method === 'clickpost' ? `仕入上限 ${yen(ceiling)}` : '未計算'}</strong><small>${reason}${sale.basis === 'fba_reference' ? ' FBA価格を自己発送へ当てはめた参考値です。' : ''}</small></div>`;
+    }
+    const reference = sale.basis === 'fba_reference' || sale.basis === 'manual';
+    const tone = reference || priceWarning ? 'pending' : result.profit >= 0 ? 'positive' : 'negative';
+    const basisLabel = sale.basis === 'fba_reference' ? ' · FBA価格で仮計算' : sale.basis === 'manual' ? ' · 入力価格で試算' : '';
+    return `<div class="profit-result ${tone}"><b>${label}${shippingStatus === 'check' ? ' · サイズ要実測' : ''}${basisLabel}${priceWarning ? ' · 価格差あり' : ''}</b><strong>${result.profit < 0 ? '−' : '+'}${yen(Math.abs(result.profit))}</strong><small>利益率 ${result.margin}% · Amazon自己発送手数料 ${yen(result.fees)}（${result.feeSource === 'sp_api_estimate' ? 'SP-API見積もり＋消費税' : 'カテゴリー料率の概算'}${result.planFee ? `＋小口 ${yen(result.planFee)}` : ''}、FBA配送代行手数料なし）${sale.basis === 'fba_reference' ? ' · 実際の自己発送出品価格は未確認。' : ''}${priceWarning}</small></div>`;
+  }
+
+  function quickBreakdownFor(item, record) {
+    if (fitFor(item).clickpost.status === 'over') return '<p class="profit-empty">クリックポストの規格外です。</p>';
+    const result = profitFor(item, 'clickpost', record);
+    if (!result) {
+      const ceiling = purchaseCeilingFor(item, record);
+      return `<p class="profit-empty">${ceiling != null && ceiling >= 0 ? `仕入価格＋仕入送料の収支ゼロ上限：${yen(ceiling)}。仕入先の単品価格・送料を確認してください。` : '自己発送の出品価格・購入者送料・仕入条件がそろうと概算を表示します。'}</p>`;
+    }
+    const sale = saleInputsFor(item, record);
+    return `<div class="profit-breakdown"><div><span>${sale.basis === 'fba_reference' ? 'FBA価格を転用した仮の売価' : '自己発送の出品価格'}</span><b>${yen(Number(sale.listing))}</b></div><div><span>購入者負担の配送料</span><b>＋${yen(Number(sale.shipping))}</b></div><div><span>付与ポイント（保守的に費用化）</span><b>−${yen(result.points)}</b></div><div><span>仕入価格</span><b>${yen(result.buy)}</b></div><div><span>仕入送料</span><b>${yen(result.inbound)}</b></div><div><span>送料（クリックポスト）</span><b>${yen(result.outbound)}</b></div><div><span>梱包材・Amazon自己発送手数料</span><b>${yen(result.packing + result.fees)}</b></div></div>`;
+  }
+
+  function profitPanel(item, record) {
+    const suppliers = suppliersFor(item.asin);
+    const supplierSearch = market.supplierSearch?.[item.asin];
+    const amazon = merchantOfferFor(item.asin);
+    const reference = referenceOfferFor(item.asin);
+    const sale = saleInputsFor(item, record);
+    const featured = market.offers?.[item.asin]?.featuredOffer;
+    const offerChecked = market.offers?.[item.asin]?.checkedAt
+      ? new Date(market.offers[item.asin].checkedAt).toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' })
+      : '日時不明';
+    const offerNote = amazon
+      ? `${offerChecked} SP-API照会の自己発送の最安出品例：商品${yen(amazon.listingYen)}＋購入者送料${yen(amazon.shippingYen)}＝合計${yen(amazon.landedYen)}${amazon.points ? `、付与ポイント${amazon.points}pt` : ''}。${featured ? `おすすめ出品は合計${yen(featured.landedYen)}（${featured.fulfilledByAmazon ? 'FBA' : '自己発送'}）。` : 'おすすめ出品価格は未取得。'}価格は販売成立額ではありません。`
+      : reference ? `${offerChecked} SP-APIで自己発送の新規出品は未確認。FBAおすすめ出品の商品${yen(reference.listingYen)}＋購入者送料${yen(reference.shippingYen)}を自己発送の仮の売価として用い、自己発送手数料を別途見積もりました。実際にその価格で販売できる保証はありません。`
+        : 'SP-APIで自己発送の新規出品も、おすすめ出品も確認できません。出品額は手入力が必要です。';
+    const searchTerm = suppliers[0]?.identity?.match(/JAN (\d{13})/)?.[1] || item.title.slice(0, 38);
+    const supplierRows = suppliers.length ? suppliers.map(s => `<div class="supplier-row"><div><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.name)} ↗</a><small>${escapeHtml(s.identity)} · ${escapeHtml(s.checkedOn)}確認</small></div><b>${yen(s.priceYen)}<small>仕入送料 ${s.inboundShippingYen == null ? '未確認' : yen(s.inboundShippingYen)}</small></b><p>${escapeHtml(s.note)}</p></div>`).join('') : `<p class="supplier-empty">${supplierSearch ? `Yahoo!ショッピングで${supplierSearch.primaryHits + supplierSearch.fallbackHits}件の検索候補を確認しましたが、単品と商品コード・送料が一致する仕入先は未確認です。` : '仕入先は未確認です。'} 検索リンクは仕入先の確認済み記録ではありません。</p>`;
+    return `<section class="profit-panel" aria-label="仕入先と利益の試算">
+      <div class="panel-title"><div><span class="page-kicker">SOURCING & PROFIT</span><h4>仕入先と利益の試算</h4></div><small>自社発送・1点あたり</small></div>
+      <div class="supplier-list">${supplierRows}<div class="supplier-search"><span>ほかの仕入先を探す</span><a href="https://shopping.yahoo.co.jp/search?p=${encodeURIComponent(searchTerm)}" target="_blank" rel="noopener noreferrer">Yahoo!ショッピング ↗</a><a href="https://search.rakuten.co.jp/search/mall/${encodeURIComponent(searchTerm)}/" target="_blank" rel="noopener noreferrer">楽天市場 ↗</a></div></div>
+      <div class="profit-fields">
+        <label>${sale.basis === 'fba_reference' ? 'FBAおすすめ出品の参考価格（税込）' : 'Amazon自己発送の出品価格（税込）'}<input data-profit="saleListing" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(sale.listing)}" placeholder="確認後に入力"></label>
+        <label>購入者から受け取る配送料（税込）<input data-profit="saleShipping" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(sale.shipping)}" placeholder="送料無料なら0"></label>
+        <label>付与ポイント数（1pt＝1円で控除）<input data-profit="salePoints" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(sale.points)}"></label>
+        <label>仕入価格（税込）<input data-profit="buyPrice" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(inputValue(record, 'buyPrice', suppliers[0]?.priceYen ?? ''))}" placeholder="確認後に入力"></label>
+        <label>仕入送料の按分（税込）<input data-profit="buyShipping" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(inputValue(record, 'buyShipping', suppliers[0]?.inboundShippingYen ?? ''))}" placeholder="0円なら0"></label>
+        <label>梱包資材費（税込）<input data-profit="packagingCost" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(inputValue(record, 'packagingCost', 20))}"></label>
+        <label>ネコポス契約運賃（税込）<input data-profit="nekoposFee" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(inputValue(record, 'nekoposFee'))}" placeholder="契約額を入力"></label>
+        <label>販売手数料率を上書き（%）<input data-profit="manualReferralRate" type="number" min="0" max="100" step="0.1" inputmode="decimal" value="${escapeHtml(inputValue(record, 'manualReferralRate'))}" placeholder="公式区分で自動計算"></label>
+        <label>Amazon出品プラン<select data-profit="sellingPlan"><option value="professional" ${inputValue(record, 'sellingPlan', 'professional') === 'professional' ? 'selected' : ''}>大口（月額は別）</option><option value="individual" ${inputValue(record, 'sellingPlan', 'professional') === 'individual' ? 'selected' : ''}>小口（1点110円税込）</option></select></label>
+      </div>
+      <div class="profit-results" data-profit-results>${profitResult(item, 'clickpost', record)}${profitResult(item, 'nekopos', record)}</div>
+      <p class="profit-note">${escapeHtml(offerNote)} 利益＝出品価格＋購入者送料−付与ポイント−仕入価格−仕入送料−発送運賃−梱包資材−Amazon自己発送手数料。FBA配送代行手数料は引いていません。ネコポスは入力した契約運賃を発送費として引きます。価格がSP-API照会時と同じ場合はこのアカウントの自己発送手数料見積もりを使い、消費税10%を加算します。変更時は<a href="https://sell.amazon.co.jp/pricing" target="_blank" rel="noopener noreferrer">公式料率 ↗</a>から概算。大口の月額、広告・返品費用、仕入税額控除は含めません。実際の販売価格・出品カテゴリー・在庫は再確認してください。</p>
+    </section>`;
+  }
+
+  function thicknessGauge(values, actual) {
+    const low = Math.max(0, Number(Array.isArray(values) ? values[0] : values) || 0);
+    const high = Math.max(low, Number(Array.isArray(values) ? values[1] : values) || 0);
+    const max = Math.max(3.5, Math.ceil((high + 0.2) * 2) / 2);
+    const bottom = 390;
+    const scale = 345 / max;
+    const yFor = cm => bottom - cm * scale;
+    const ticks = Array.from({ length: Math.round(max * 10) + 1 }, (_, index) => {
+      const cm = index / 10;
+      const y = yFor(cm).toFixed(2);
+      const half = index % 5 === 0;
+      const label = half && (max <= 5 || index % 10 === 0)
+        ? `<text x="66" y="${Number(y) + 4}" text-anchor="end" class="gauge-tick-label">${cm.toFixed(1)}</text>`
+        : '';
+      return `<line x1="${half ? 103 : 110}" y1="${y}" x2="124" y2="${y}" class="${half ? 'gauge-major-tick' : 'gauge-minor-tick'}"/>${label}`;
+    }).join('');
+    const limitY = yFor(3).toFixed(2);
+    const lowY = yFor(low).toFixed(2);
+    const highY = yFor(high).toFixed(2);
+    const tone = high > 3 ? 'over' : 'within';
+    return `<div class="thickness-gauge ${tone}" role="group" aria-label="${actual ? '梱包後の実測最大厚' : '梱包前の計算上の厚み'}${low.toFixed(1)}${low === high ? '' : `から${high.toFixed(1)}`}センチと3センチの上限目安を比較した模式図">
+      <svg class="gauge-svg" viewBox="0 0 330 430" role="img" aria-label="縦の定規で3センチの線と${actual ? '入力実測値' : '計算上の範囲'}を比較。画面上の実寸ではありません">
+        <rect x="88" y="40" width="37" height="356" rx="5" class="gauge-body"/>
+        ${ticks}
+        <rect x="135" y="${highY}" width="95" height="${Math.max(5, Number(lowY)-Number(highY))}" rx="8" class="gauge-range"/>
+        <line x1="124" y1="${limitY}" x2="312" y2="${limitY}" class="gauge-limit-line"/>
+        <text x="139" y="${Number(limitY)-9}" class="gauge-limit-text">3.0 cm 上限</text>
+        <line x1="135" y1="${highY}" x2="230" y2="${highY}" class="gauge-value-line"/>
+        <text x="137" y="${Math.min(422, Number(lowY)+21)}" class="gauge-value-text">${actual ? '実測最大厚' : '計算上の範囲'} ${low.toFixed(1)}${low === high ? '' : `〜${high.toFixed(1)}`} cm</text>
+      </svg>
+      <p class="gauge-disclaimer">${actual ? '入力された梱包後最大厚です。測り方を再確認してください。' : '梱包後の最大厚は未測定です。この範囲は発送可否を示しません。'}</p>
+    </div>`;
+  }
+
+  function packingVisual(item, prediction, fit, record, imageUrl) {
+    const outer = fit.nekopos.projected;
+    const measuredPouch = Number(record.pouchWidth) > 0 && Number(record.pouchHeight) > 0;
+    const measuredThickness = Number(record.thickness) > 0;
+    const complete = fit.nekopos.fullyMeasured;
+    const knownPouch = measuredPouch || prediction.footprintSource === 'manufacturer';
+    const pouch = measuredPouch ? [Number(record.pouchWidth), Number(record.pouchHeight)] : prediction.assumedPouchCm;
+    const [pouchLong, pouchShort] = [...pouch].sort((a, b) => b - a);
+    // This diagram is proportional to the cited numbers within the SVG only. It is never 1:1 on screen.
+    const diagram = pouchLong > 0 && pouchShort > 0
+      ? (() => {
+          const chartLong = Math.max(outer.longMax, pouchLong);
+          const chartShort = Math.max(outer.shortMax, pouchShort);
+          const scale = Math.min(250 / chartLong, 170 / chartShort);
+          const boxW = chartShort * scale;
+          const boxH = chartLong * scale;
+          const itemW = pouchShort * scale;
+          const itemH = pouchLong * scale;
+          const x = 165 - boxW / 2;
+          const y = 128 - boxH / 2;
+          const bagSource = measuredPouch ? '入力実測' : knownPouch ? 'メーカー公表' : '掲載値などから仮定';
+          return `<svg class="footprint-svg" viewBox="0 0 330 380" role="img" aria-label="外装${outer.longMax}×${outer.shortMax}cmと商品袋${pouchLong}×${pouchShort}cmの数値比模式図。${bagSource}。画面上の実寸ではありません"><text x="165" y="34" text-anchor="middle" class="footprint-overline">外装の${fit.nekopos.measuredFootprint ? '入力実測' : '仮置き'} ${outer.longMax} × ${outer.shortMax} cm</text><line x1="${x}" y1="72" x2="${x+boxW}" y2="72" class="footprint-measure"/><text x="165" y="64" text-anchor="middle" class="footprint-number">${outer.shortMax} cm</text><rect x="${x}" y="91" width="${boxW}" height="${boxH}" rx="9" class="footprint-outer"/><rect x="${165-itemW/2}" y="${91+(boxH-itemH)/2}" width="${itemW}" height="${itemH}" rx="7" class="footprint-inner ${knownPouch ? '' : 'assumed'}"/><line x1="${x-12}" y1="91" x2="${x-12}" y2="${91+boxH}" class="footprint-measure"/><text x="${Math.max(15,x-22)}" y="${91+boxH/2}" text-anchor="middle" class="footprint-number" transform="rotate(-90 ${Math.max(15,x-22)} ${91+boxH/2})">${outer.longMax} cm</text><text x="165" y="${Math.min(369, 111+boxH)}" text-anchor="middle" class="footprint-label">商品袋 ${pouchLong} × ${pouchShort} cm</text><text x="165" y="${Math.min(385, 129+boxH)}" text-anchor="middle" class="footprint-overline">${bagSource}</text></svg>`;
+        })()
+      : `<div class="footprint-unknown"><strong>商品袋の平置き寸法は未確認</strong><span>掲載された商品・梱包寸法は、平らにした袋の実測値として描きません。</span></div>`;
+    const photo = imageUrl ? `<img class="packing-product-photo" src="${escapeHtml(imageUrl)}" alt="${escapeHtml(item.title)}の商品写真。縮尺なし" loading="eager" decoding="async"><span class="pack-image-fallback" hidden>商品写真を表示できません</span>` : '<span class="photo-empty">商品写真なし</span>';
+    const thicknessPanel = thicknessGauge(measuredThickness ? Number(record.thickness) : prediction.roughThicknessCm, measuredThickness);
+    const instruction = prediction.material === '液体詰め替え' ? '1袋を平置きし、注ぎ口・シール・膨らみを含む最大厚を測る。' : '1袋を平置きし、粒・粉を均等に広げ、硬い部分・マチを含む最大厚を測る。';
+    return `<section class="packing-visual" aria-label="商品写真と寸法の根拠">
+      <div class="visual-heading"><span class="visual-maker">ASIN : ${item.asin}</span><h1 title="${escapeHtml(item.title)}">${escapeHtml(item.title)}</h1><p>${escapeHtml(item.category)} · ${escapeHtml(prediction.material)} · 単品 <a href="https://www.amazon.co.jp/dp/${item.asin}" target="_blank" rel="noopener noreferrer">商品ページ ↗</a></p></div>
+      <div class="evidence-alert"><b>${complete ? '梱包後の数値を実測済み' : '発送可否は未確定'}</b><span>${complete ? '登録した外寸・最大厚・重量を下の規格と照合してください。' : '画面上の画像は実寸大ではありません。梱包した現物の外寸・最大厚・重量を測ってください。'}</span></div>
+      <div class="packing-layout">
+        <div class="evidence-panel"><div class="evidence-title"><i>1</i><b>商品写真</b></div><p class="evidence-intro">商品全体がわかる写真です。画面上の大きさは実物のサイズではありません。</p><div class="product-photo-stage">${photo}</div><p class="scene-caption">縮尺なし・全体表示。写真から厚みは測れません。</p></div>
+        <div class="evidence-panel"><div class="evidence-title"><i>2</i><b>縦横の模式図</b></div><p class="evidence-intro">外装と商品袋の寸法を数値比で比較します。画面上の実寸ではありません。</p>${!knownPouch ? '<div class="evidence-caution">商品袋の実測なし。描いた形は寸法値からの仮定です。</div>' : ''}<div class="footprint-stage">${diagram}</div><p class="scene-caption">${knownPouch ? `${measuredPouch ? '入力実測' : 'メーカー公表'}の袋寸法を使用。平置き後の形状は未確認。` : '商品袋の形・平置き寸法・外装余白は未確認です。'}</p></div>
+        <div class="evidence-panel"><div class="evidence-title"><i>3</i><b>${measuredThickness ? '梱包後の最大厚' : '計算上の厚さ'}</b></div><p class="evidence-intro">3cmの上限と厚みを定規で比較します。${measuredThickness ? '入力した実測値です。' : '色の帯は計算値で、梱包後の実測ではありません。'}</p>${thicknessPanel}</div>
+      </div>
+      <div class="size-callout"><div class="size-callout-main"><span class="size-status">${complete ? '実測' : '仮定'}</span><strong>発送用外装 ${complete ? '入力された実測値' : '計算上の仮置き'}</strong><div class="size-values"><b>${outer.longMax}</b><em>×</em><b>${outer.shortMax}</b><em>×</em><b>${outer.thicknessMax}</b><small>cm</small></div></div><p>${complete ? '入力した実測値です。梱包状態と測り方を再確認してください。' : '未測定の項目に予測値を使用。厚みの数値は最大厚の保証ではありません。'}</p></div>
+      <div class="packing-instructions"><b>実測の手順</b><span>① ${instruction}</span><span>② 実際に使う外装に入れ、封をする。</span><span>③ 長辺・短辺・最大厚・重量を測り、詳細に入力する。</span></div>
+    </section>`;
   }
 
   function card(item) {
     const prediction = predictions[item.asin];
     const record = recordFor(item.asin);
-    const imageUrl = productImages[item.asin];
+    const imageUrl = imageFor(item.asin);
     const api = apiDimensions[item.asin] || {};
     const fit = fitFor(item);
-    const bothFit = isFit(fit.nekopos.status) && isFit(fit.clickpost.status);
+    const bothFit = fit.nekopos.status === 'measured_ok' && fit.clickpost.status === 'measured_ok';
     const anyOver = fit.nekopos.status === 'over' || fit.clickpost.status === 'over';
-    const outcomeDetail = bothFit ? '※概算を含みます。発送前に梱包後の外寸・重量を実測してください。' : anyOver ? '判定理由と実測値を確認してください。' : '商品袋と梱包後の外寸・重量を測ると判定を更新できます。';
+    const outcomeDetail = bothFit ? '入力された実測値は規格の数値条件内です。梱包状態と測り方を再確認してください。' : anyOver ? '判定理由と実測値を確認してください。' : '発送可否は未確定。梱包後の外寸・最大厚・重量を測ってください。';
     const amazonUrl = `https://www.amazon.co.jp/dp/${item.asin}`;
     const keepaUrl = `https://keepa.com/#!product/5-${item.asin}`;
     const graphUrl = `https://graph.keepa.com/pricehistory.png?asin=${item.asin}&domain=co.jp`;
@@ -144,7 +385,7 @@
     const sourceTone = prediction.footprintSource === 'manufacturer' ? 'known' : 'assumed';
     const formatApi = dims => dims ? escapeHtml(dimensionText(dims)) : '寸法なし';
     const sourceRows = [
-      sourceRow('メーカー', prediction.footprintSource === 'manufacturer' ? '商品袋の幅・長さを採用' : '同一商品の袋寸法は未確認', prediction.footprintSource === 'manufacturer' ? 'source-known' : 'source-muted'),
+      sourceRow('メーカー', prediction.footprintSource === 'manufacturer' ? '同一商品の個装寸法を採用（平置き寸法ではない）' : '同一商品の袋寸法は未確認', prediction.footprintSource === 'manufacturer' ? 'source-known' : 'source-muted'),
       sourceRow('Amazon掲載', item.listedDimensions ? `${escapeHtml(item.dimensionType || '種別不明')} ${escapeHtml(item.listedDimensions)}` : '3辺寸法なし', item.listedDimensions ? '' : 'source-muted'),
       sourceRow('Keepa商品', formatApi(api.keepa?.item), api.keepa?.item ? '' : 'source-muted'),
       sourceRow('Keepa包装', formatApi(api.keepa?.package), api.keepa?.package ? '' : 'source-muted'),
@@ -157,7 +398,16 @@
     const photo = imageUrl
       ? `<img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(item.title)}の商品画像" loading="lazy" decoding="async"><span class="product-photo-fallback" hidden>画像を表示できません</span>`
       : '<span class="product-photo-fallback">画像未取得</span>';
+    const quickSupplier = suppliersFor(item.asin)[0];
+    const quickBreakdown = quickBreakdownFor(item, record);
     return `<article class="card detail-card" data-asin="${item.asin}">
+      ${packingVisual(item, prediction, fit, record, imageUrl)}
+      <aside class="decision-rail" aria-label="商品の判定と概算利益">
+        <section class="decision-fit"><span class="rail-eyebrow">配送サイズ判定 <small>${fit.nekopos.fullyMeasured ? '実測' : '予測'}</small></span>${shippingRow('ネコポス', fit.nekopos)}${shippingRow('クリックポスト', fit.clickpost)}</section>
+        <section class="decision-profit"><div class="profit-title"><span class="yen-mark">¥</span><span class="rail-eyebrow">仕入・利益</span><a href="#profit-editor">編集する</a></div>${quickBreakdown}<div data-quick-profit>${profitResult(item, 'clickpost', record)}</div><small>${quickSupplier ? `仕入先：<a href="${escapeHtml(quickSupplier.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(quickSupplier.name)} ↗</a> · ${escapeHtml(quickSupplier.checkedOn)}確認` : '仕入価格は未確認です。詳細で入力できます。'}</small></section>
+        <p class="decision-warning">${outcomeDetail}</p>
+      </aside>
+      <details class="advanced"><summary>利益の内訳・実測入力・判定根拠を見る <span>予測値を編集できます</span></summary><div class="advanced-body">
       <div class="product-main">
         <div class="product-photo-panel">
           <a class="product-photo" href="${amazonUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(item.title)}をAmazonで開く">${photo}</a>
@@ -173,8 +423,8 @@
       <div class="estimate">
         <div class="estimate-head"><span class="estimate-label">サイズの結論</span><small>根拠の確かさ：${prediction.confidence}</small></div>
         <div class="dimension-summary" aria-label="商品袋の幅・長さと梱包時の厚さ">
-          <div class="dimension-item"><span>商品袋の幅</span><strong>${escapeHtml(pouchWidth)}<em>cm</em></strong><small class="source-state ${hasMeasuredWidth ? 'known' : sourceTone}">${hasMeasuredWidth ? '実測' : escapeHtml(pouchSource)}</small></div>
-          <div class="dimension-item"><span>商品袋の長さ</span><strong>${escapeHtml(pouchLength)}<em>cm</em></strong><small class="source-state ${hasMeasuredLength ? 'known' : sourceTone}">${hasMeasuredLength ? '実測' : escapeHtml(pouchSource)}</small></div>
+          <div class="dimension-item"><span>${hasMeasuredWidth || sourceTone === 'known' ? '商品袋の幅' : '袋幅の仮定'}</span><strong>${escapeHtml(pouchWidth)}<em>cm</em></strong><small class="source-state ${hasMeasuredWidth ? 'known' : sourceTone}">${hasMeasuredWidth ? '実測' : escapeHtml(pouchSource)}</small></div>
+          <div class="dimension-item"><span>${hasMeasuredLength || sourceTone === 'known' ? '商品袋の長さ' : '袋長の仮定'}</span><strong>${escapeHtml(pouchLength)}<em>cm</em></strong><small class="source-state ${hasMeasuredLength ? 'known' : sourceTone}">${hasMeasuredLength ? '実測' : escapeHtml(pouchSource)}</small></div>
           <div class="dimension-item"><span>${hasMeasuredThickness ? '梱包後の最大厚' : '梱包時の推定厚さ'}</span><strong>${thicknessText}<em>cm</em></strong><small class="source-state ${hasMeasuredThickness ? 'known' : 'assumed'}">${hasMeasuredThickness ? '実測' : '推定'}</small></div>
         </div>
         ${hasMeasuredWidth !== hasMeasuredLength ? '<small class="partial-note">袋の幅と長さは両方測ると発送判定に反映されます。</small>' : ''}
@@ -223,6 +473,8 @@
           </section>
         </div>
       </div>
+      <div id="profit-editor">${profitPanel(item, record)}</div>
+      </div></details>
     </article>`;
   }
 
@@ -230,51 +482,84 @@
     const prediction = predictions[item.asin];
     const record = recordFor(item.asin);
     const fit = fitFor(item);
-    const imageUrl = productImages[item.asin];
+    const imageUrl = imageFor(item.asin);
     const width = Number(record.pouchWidth) > 0 ? record.pouchWidth : prediction.assumedPouchCm[0];
     const length = Number(record.pouchHeight) > 0 ? record.pouchHeight : prediction.assumedPouchCm[1];
     const thickness = Number(record.thickness) > 0 ? record.thickness : prediction.roughThicknessCm.map(n => n.toFixed(1)).join('〜');
+    const listTitle = item.asin === 'B09S3BRQJ1' ? 'AGF マキシム 袋 60g' : item.title;
+    const profit = profitFor(item, 'clickpost', record);
+    const state = profitStateFor(item, record);
+    const ceiling = state === 'missing' ? purchaseCeilingFor(item, record) : null;
+    const profitText = state === 'candidate' ? `+${yen(profit.profit)} · 要実測`
+      : state === 'reference' && profit ? `参考 ${profit.profit < 0 ? '−' : '+'}${yen(Math.abs(profit.profit))}`
+        : state === 'price_risk' && profit ? `価格差あり +${yen(profit.profit)}`
+          : state === 'loss' && profit ? `−${yen(Math.abs(profit.profit))}`
+            : state === 'over' ? '配送規格外'
+              : ceiling != null && ceiling >= 0 ? `仕入上限 ${yen(ceiling)}` : '未計算';
     const image = imageUrl ? `<img src="${escapeHtml(imageUrl)}" alt="" loading="lazy" decoding="async"><span class="candidate-photo-fallback" hidden>画像なし</span>` : '<span class="candidate-photo-fallback">画像なし</span>';
     return `<button class="candidate-row ${selectedAsin === item.asin ? 'is-selected' : ''}" type="button" data-select-asin="${item.asin}" aria-pressed="${selectedAsin === item.asin}">
       <span class="candidate-thumb">${image}</span>
-      <span class="candidate-ident"><strong>${escapeHtml(item.title)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small></span>
-      <span class="candidate-measures">袋 ${escapeHtml(width)}×${escapeHtml(length)} cm <span>厚さ ${escapeHtml(thickness)} cm</span></span>
+      <span class="candidate-ident"><strong title="${escapeHtml(item.title)}">${escapeHtml(listTitle)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small><small class="candidate-profit ${state === 'price_risk' ? 'price-risk' : state}">${profitText}</small></span>
+      <span class="candidate-measures">${Number(record.pouchWidth) > 0 && Number(record.pouchHeight) > 0 || prediction.footprintSource === 'manufacturer' ? '袋' : '仮の袋面'} ${escapeHtml(width)}×${escapeHtml(length)} cm <span>厚さ ${escapeHtml(thickness)} cm</span></span>
       <span class="candidate-verdict"><span class="pill ${shippingClasses[fit.nekopos.status]}"><b>ネコポス</b> ${shippingLabels[fit.nekopos.status]}</span><span class="pill ${shippingClasses[fit.clickpost.status]}"><b>クリックポスト</b> ${shippingLabels[fit.clickpost.status]}</span></span>
     </button>`;
   }
 
+  function profitSpotlight(item) {
+    const record = recordFor(item.asin);
+    const state = profitStateFor(item, record);
+    const result = profitFor(item, 'clickpost', record);
+    const sale = saleInputsFor(item, record);
+    const ceiling = purchaseCeilingFor(item, record);
+    const label = state === 'candidate' ? '黒字候補 · 厚さと重量は要実測'
+      : state === 'reference' ? '参考試算 · 自己発送の実売価格は未確認'
+        : state === 'price_risk' ? '価格差あり · おすすめ出品より高い'
+          : state === 'missing' ? '仕入先または販売価格を確認してください'
+            : state === 'over' ? 'クリックポスト規格外' : '現在の条件では赤字';
+    const detail = result ? `売価${yen(Number(sale.listing) + Number(sale.shipping))} · 仕入総額${yen(result.buy + result.inbound)} · 送料・手数料込み`
+      : ceiling != null && ceiling >= 0 ? `仕入価格＋仕入送料の収支ゼロ上限 ${yen(ceiling)}` : '確認できた価格だけで計算しています';
+    const amount = result ? `${result.profit < 0 ? '−' : '+'}${yen(Math.abs(result.profit))}`
+      : ceiling != null && ceiling >= 0 ? `上限 ${yen(ceiling)}` : '未計算';
+    return `<div class="profit-spotlight ${state === 'reference' ? 'is-reference' : state === 'missing' ? 'is-missing' : ''}" aria-label="選択商品の利益状況"><div><small>${label}</small><b title="${escapeHtml(item.title)}">${escapeHtml(item.title)}</b><small>${detail}</small></div><strong>${amount}</strong></div>`;
+  }
+
   function render() {
+    const advancedAsin = $('#featured .advanced[open]')?.closest('[data-asin]')?.dataset.asin;
     const matched = filteredProducts();
-    const visible = matched.slice(0, visibleLimit);
     if (!matched.some(item => item.asin === selectedAsin)) selectedAsin = matched[0]?.asin || '';
     const selected = matched.find(item => item.asin === selectedAsin);
-    $('#visibleCount').textContent = `${visible.length} / ${matched.length}件を表示（発送見込み・確信度順）`;
+    const visible = matched.slice(0, visibleLimit);
+    if (selected && !visible.some(item => item.asin === selectedAsin)) visible.unshift(selected);
+    $('#visibleCount').textContent = `${visible.length} / ${matched.length}件（${$('#sortMode').value === 'profit' ? '利益順' : '発送見込み順'}）`;
     $('#list').innerHTML = visible.length ? visible.map(candidateRow).join('') : '<div class="empty">該当する候補がありません。検索・絞り込みを変更してください。</div>';
-    $('#featured').innerHTML = selected ? card(selected) : '';
+    $('#featured').innerHTML = selected ? profitSpotlight(selected) + card(selected) : '<div class="empty">該当商品がありません。利益の条件を変更してください。</div>';
+    if (selected && advancedAsin === selected.asin) $('#featured .advanced').open = true;
     $('#more').hidden = visible.length >= matched.length;
   }
 
   function csvCell(value) { return `"${String(value ?? '').replace(/"/g, '""')}"`; }
 
-  function createCsv() {
-    const header = ['ASIN', '商品名', '分類', '厚さ予測', '概算厚さ下限cm', '概算厚さ上限cm', '確信度', '理由', '計算に使った量', '中身', '仮定袋幅cm', '仮定袋長cm', '袋寸法の根拠', '袋寸法の根拠区分', 'メーカー公表の単品重量g', 'かさ密度下限g/mL', 'かさ密度上限g/mL', 'Amazon寸法確認', '掲載最小辺cm', '掲載寸法', '寸法種別', 'Keepa API商品寸法cm', 'Keepa APIパッケージ寸法cm', 'ネコポス判定', 'ネコポス理由', 'クリックポスト判定', 'クリックポスト理由', '外装の想定長辺上限cm', '外装の想定短辺上限cm', '想定3辺合計上限cm', '実測袋幅cm', '実測袋長cm', '実測外装長辺cm', '実測外装短辺cm', '実測最大厚cm', '実測梱包後重量g', '補足', '出典URL'];
-    const rows = sortedProducts().map(item => {
+  function createCsv(items = sortedProducts()) {
+    const header = ['ASIN', '商品名', '分類', '厚さ予測', '概算厚さ下限cm', '概算厚さ上限cm', '確信度', '理由', '計算に使った量', '中身', '仮定袋幅cm', '仮定袋長cm', '袋寸法の根拠', '袋寸法の根拠区分', 'メーカー公表の単品重量g', 'かさ密度下限g/mL', 'かさ密度上限g/mL', 'Amazon寸法確認', '掲載最小辺cm', '掲載寸法', '寸法種別', 'Keepa API商品寸法cm', 'Keepa APIパッケージ寸法cm', 'ネコポス判定', 'ネコポス理由', 'クリックポスト判定', 'クリックポスト理由', '外装の想定長辺上限cm', '外装の想定短辺上限cm', '想定3辺合計上限cm', '実測袋幅cm', '実測袋長cm', '実測外装長辺cm', '実測外装短辺cm', '実測最大厚cm', '実測梱包後重量g', '仕入先', '仕入先URL', '仕入先確認日', 'Amazon自己発送出品価格円', '購入者負担の配送料円', '付与ポイント数', '仕入価格円', '仕入送料按分円', '梱包資材費円', 'クリックポスト概算利益円', 'ネコポス概算利益円', '利益区分', '売価の根拠', '仕入＋送料の収支ゼロ上限円', 'おすすめ出品の購入者総額円', 'おすすめ出品との価格差円', '補足', '出典URL'];
+    const rows = items.map(item => {
       const p = predictions[item.asin];
       const record = recordFor(item.asin);
       const api = apiDimensions[item.asin] || {};
       const fit = fitFor(item);
       const apiCell = dims => Array.isArray(dims?.cm) ? dims.cm.join(' × ') : '';
-      return [item.asin, item.title, item.category, verdictLabels[p.verdict], ...p.roughThicknessCm, p.confidence, p.reason, p.amountText || `${p.massG}g`, p.material, ...p.assumedPouchCm, p.geometryNote, p.footprintSource, p.manufacturerGrossWeightG, ...p.densityRangeGml, item.sizeConfirmed ? '3cm超' : '未確認', item.listedMinCm, item.listedDimensions, item.dimensionType, apiCell(api.keepa?.item), apiCell(api.keepa?.package), shippingLabels[fit.nekopos.status], fit.nekopos.reasons.join(' / '), shippingLabels[fit.clickpost.status], fit.clickpost.reasons.join(' / '), fit.nekopos.projected.longMax, fit.nekopos.projected.shortMax, fit.nekopos.projected.sumMax, record.pouchWidth, record.pouchHeight, record.shipLength, record.shipWidth, record.thickness, record.shipWeight, item.caution, p.sources.join(' | ')];
+      const supplier = suppliersFor(item.asin)[0];
+      const sale = saleInputsFor(item, record);
+      return [item.asin, item.title, item.category, verdictLabels[p.verdict], ...p.roughThicknessCm, p.confidence, p.reason, p.amountText || `${p.massG}g`, p.material, ...p.assumedPouchCm, p.geometryNote, p.footprintSource, p.manufacturerGrossWeightG, ...p.densityRangeGml, item.sizeConfirmed ? '3cm超' : '未確認', item.listedMinCm, item.listedDimensions, item.dimensionType, apiCell(api.keepa?.item), apiCell(api.keepa?.package), shippingLabels[fit.nekopos.status], fit.nekopos.reasons.join(' / '), shippingLabels[fit.clickpost.status], fit.clickpost.reasons.join(' / '), fit.nekopos.projected.longMax, fit.nekopos.projected.shortMax, fit.nekopos.projected.sumMax, record.pouchWidth, record.pouchHeight, record.shipLength, record.shipWidth, record.thickness, record.shipWeight, supplier?.name, supplier?.url, supplier?.checkedOn, sale.listing, sale.shipping, sale.points, inputValue(record, 'buyPrice', supplier?.priceYen ?? ''), inputValue(record, 'buyShipping', supplier?.inboundShippingYen ?? ''), inputValue(record, 'packagingCost', 20), fit.clickpost.status === 'over' ? '' : profitFor(item, 'clickpost', record)?.profit, fit.nekopos.status === 'over' ? '' : profitFor(item, 'nekopos', record)?.profit, profitStateFor(item, record), sale.basis, purchaseCeilingFor(item, record), market.offers?.[item.asin]?.featuredOffer?.landedYen, priceGapFor(item, record), item.caution, p.sources.join(' | ')];
     });
     return [header, ...rows].map(row => row.map(csvCell).join(',')).join('\r\n');
   }
 
-  function exportCsv() {
-    const csv = '\ufeff' + createCsv();
+  function exportCsv(items = sortedProducts(), name = 'predictions') {
+    const csv = '\ufeff' + createCsv(items);
     const url = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
     const link = document.createElement('a');
     link.href = url;
-    link.download = `nekopos-${products.length}asins-predictions.csv`;
+    link.download = `nekopos-${items.length}asins-${name}.csv`;
     document.body.append(link);
     link.click();
     link.remove();
@@ -282,6 +567,19 @@
   }
 
   $('#featured').addEventListener('input', event => {
+    const profitField = event.target.dataset.profit;
+    if (profitField) {
+      const asin = event.target.closest('[data-asin]')?.dataset.asin;
+      const item = products.find(product => product.asin === asin);
+      if (!item) return;
+      records[asin] = { ...recordFor(asin), [profitField]: event.target.value };
+      saveRecords();
+      renderStats();
+      event.target.closest('[data-asin]').querySelector('[data-profit-results]').innerHTML = profitResult(item, 'clickpost', recordFor(asin)) + profitResult(item, 'nekopos', recordFor(asin));
+      event.target.closest('[data-asin]').querySelector('[data-quick-profit]').innerHTML = profitResult(item, 'clickpost', recordFor(asin));
+      event.target.closest('[data-asin]').querySelector('.decision-profit .profit-breakdown, .decision-profit .profit-empty').outerHTML = quickBreakdownFor(item, recordFor(asin));
+      return;
+    }
     const field = event.target.dataset.measure;
     const asin = event.target.closest('[data-asin]')?.dataset.asin;
     if (!field || !asin) return;
@@ -289,13 +587,19 @@
     saveRecords();
   });
   $('#featured').addEventListener('change', event => {
+    if (event.target.dataset.profit) {
+      const asin = event.target.closest('[data-asin]')?.dataset.asin;
+      const item = products.find(product => product.asin === asin);
+      if (item) { renderStats(); render(); }
+      return;
+    }
     if (event.target.dataset.measure) { renderStats(); render(); }
   });
   $('#featured').addEventListener('error', event => {
     const image = event.target;
-    if (!image.matches('.product-photo img, .keepa-graph img')) return;
+    if (!image.matches('.product-photo img, .decision-thumb img, .packing-product-photo, .keepa-graph img')) return;
     image.hidden = true;
-    const fallback = image.parentElement.querySelector('.product-photo-fallback, .graph-fallback');
+    const fallback = image.parentElement.querySelector('.product-photo-fallback, .pack-image-fallback, .graph-fallback');
     if (fallback) fallback.hidden = false;
   }, true);
   $('#list').addEventListener('click', event => {
@@ -315,6 +619,33 @@
   ['search', 'category', 'dimension', 'forecast', 'shippingFilter'].forEach(id => {
     $(`#${id}`).addEventListener(id === 'search' ? 'input' : 'change', () => { visibleLimit = 20; render(); });
   });
+  function syncProfitButtons() {
+    document.querySelectorAll('[data-profit-filter]').forEach(button => {
+      const active = button.dataset.profitFilter === profitFilter;
+      button.classList.toggle('active', active);
+      button.setAttribute('aria-pressed', String(active));
+    });
+  }
+  document.querySelector('.profit-nav').addEventListener('click', event => {
+    const button = event.target.closest('[data-profit-filter]');
+    if (!button) return;
+    profitFilter = button.dataset.profitFilter;
+    visibleLimit = 20;
+    syncProfitButtons();
+    render();
+  });
+  $('#sortMode').addEventListener('change', () => { visibleLimit = 20; render(); });
+  document.querySelectorAll('[data-category-shortcut]').forEach(button => button.addEventListener('click', () => {
+    const wanted = button.dataset.categoryShortcut;
+    $('#category').value = [...$('#category').options].some(option => option.value === wanted) ? wanted : 'all';
+    document.querySelectorAll('[data-category-shortcut]').forEach(tab => tab.classList.toggle('active', tab === button));
+    visibleLimit = 20;
+    render();
+  }));
+  $('#featured').addEventListener('click', event => {
+    if (!event.target.closest('a[href="#profit-editor"]')) return;
+    $('#featured .advanced').open = true;
+  });
   $('#more').addEventListener('click', () => { visibleLimit += 20; render(); });
   $('#searchGo').addEventListener('click', () => $('#candidates').scrollIntoView({ behavior: 'smooth', block: 'start' }));
   $('#export').addEventListener('click', () => {
@@ -322,9 +653,11 @@
     $('#csvDialog').showModal();
   });
   $('#closeCsv').addEventListener('click', () => $('#csvDialog').close());
-  $('#saveCsv').addEventListener('click', exportCsv);
-  $('#sideExport').addEventListener('click', () => $('#export').click());
-  document.querySelector('.side-nav a[href="#method"]').addEventListener('click', () => { $('#method').open = true; });
+  $('#saveCsv').addEventListener('click', () => exportCsv());
+  $('#exportProfitCandidates').addEventListener('click', () => exportCsv(sortedProducts().filter(item => profitStateFor(item) === 'candidate'), 'profit-candidates'));
+  $('#sideExport')?.addEventListener('click', () => $('#export').click());
+  document.querySelector('.side-nav a[href="#method"]')?.addEventListener('click', () => { $('#method').open = true; });
   renderStats();
+  syncProfitButtons();
   render();
 })();

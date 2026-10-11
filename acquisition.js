@@ -50,7 +50,7 @@
   $('#queryCount').textContent = `${research.queryCount}語の検索結果1ページ目`;
   $('#checkedCount').textContent = research.pageCheckedCount;
   $('#uncheckedCount').textContent = `${research.notFetchedCount}件は商品ページ未確認`;
-  $('#researchScope').textContent = research.scope;
+  $('#researchScope').textContent = research.scope + (research.accessLimitedSearchCount ? ` 追加検索${research.accessLimitedSearchCount}語はアクセス制限で結果未取得。` : '');
   $('#newProductsCount').textContent = `${additions.length}件`;
 
   const pipeline = [

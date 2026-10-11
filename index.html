@@ -3,132 +3,56 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ネコポス・クリックポスト 寸法チェッカー</title>
-  <style>
-    :root { color-scheme: light; --ink:#16243a; --muted:#607086; --line:#dfe5eb; --paper:#f5f7fa; --white:#fff; --blue:#164f8a; --blue-soft:#eaf3fb; --teal:#117666; --teal-soft:#e5f5f0; --amber:#9d6517; --amber-soft:#fff4df; --red:#ae464a; --red-soft:#fff0f0; }
-    * { box-sizing:border-box; }
-    body { margin:0; background:var(--paper); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif; line-height:1.5; }
-    button, input, select { font:inherit; }
-    button { cursor:pointer; }
-    a { color:var(--blue); }
-    .hero { background:#142b46; color:#fff; padding:34px max(22px,calc((100vw - 1200px)/2)); }
-    .hero-inner { max-width:1200px; margin:auto; }
-    .eyebrow { color:#9dd6df; font-size:12px; letter-spacing:.13em; font-weight:750; }
-    h1 { margin:8px 0 10px; font-size:clamp(25px,3.2vw,38px); line-height:1.25; letter-spacing:-.03em; }
-    .hero p { max-width:860px; margin:0; color:#d3e0ec; font-size:14px; }
-    .hero a { color:#b9e6fa; }
-    main { max-width:1244px; margin:auto; padding:24px 22px 50px; }
-    .stats { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin-top:-43px; position:relative; }
-    .stat { background:#fff; border:1px solid var(--line); border-radius:16px; box-shadow:0 8px 20px #142b4611; padding:16px 20px; }
-    .stat strong { display:block; font-size:27px; letter-spacing:-.04em; line-height:1.1; }
-    .stat span { display:block; font-size:12px; color:var(--muted); margin-top:6px; }
-    .panel { background:#fff; border:1px solid var(--line); border-radius:16px; padding:19px; margin-top:18px; }
-    .notice { display:flex; gap:11px; align-items:flex-start; background:var(--amber-soft); color:#684818; border:1px solid #f0d5a2; border-radius:12px; padding:13px 15px; font-size:13px; }
-    .notice b { white-space:nowrap; }
-    .filters { display:grid; grid-template-columns:minmax(260px,2fr) repeat(3,minmax(135px,1fr)); gap:12px; margin-top:17px; }
-    .field label { display:block; margin-bottom:6px; color:var(--muted); font-size:12px; font-weight:700; }
-    .field input, .field select, .edit input, .edit select { width:100%; border:1px solid #cbd6e0; border-radius:9px; background:#fff; color:var(--ink); padding:10px 11px; outline:none; }
-    .field input:focus, .field select:focus, .edit input:focus, .edit select:focus { border-color:var(--blue); box-shadow:0 0 0 3px #164f8a1c; }
-    .toolbar { display:flex; gap:12px; justify-content:space-between; align-items:center; margin:22px 0 12px; }
-    .toolbar h2 { font-size:18px; margin:0; }
-    .toolbar span { font-size:13px; color:var(--muted); }
-    .actions { display:flex; gap:8px; align-items:center; }
-    .btn { border:1px solid #bfd0df; background:#fff; color:var(--blue); padding:9px 13px; border-radius:9px; font-size:13px; font-weight:700; }
-    .btn:hover { background:var(--blue-soft); }
-    .list { display:grid; gap:11px; }
-    .card { background:#fff; border:1px solid var(--line); border-radius:15px; padding:17px 19px; display:grid; grid-template-columns:minmax(0,1fr) 300px; gap:18px; box-shadow:0 2px 8px #142b4608; }
-    .card:hover { border-color:#b8c9d7; }
-    .card-top { display:flex; flex-wrap:wrap; gap:7px; align-items:center; margin-bottom:8px; }
-    .pill { display:inline-block; border-radius:99px; background:#edf1f5; color:#45576a; padding:3px 9px; font-size:11px; font-weight:700; }
-    .pill.confirmed { background:var(--blue-soft); color:var(--blue); }
-    .pill.unconfirmed { background:var(--amber-soft); color:var(--amber); }
-    .pill.likely { background:var(--teal-soft); color:var(--teal); }
-    .pill.borderline { background:var(--amber-soft); color:var(--amber); }
-    .pill.unlikely { background:var(--red-soft); color:var(--red); }
-    .title { margin:0; font-size:16px; font-weight:750; line-height:1.45; }
-    .title a { text-decoration:none; }
-    .title a:hover { text-decoration:underline; }
-    .meta { display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; color:var(--muted); font-size:12px; margin-top:10px; }
-    .asin { color:#36485b; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:12px; }
-    .dim { font-weight:700; color:#314c68; }
-    .caution { margin-top:10px; color:var(--amber); font-size:12px; font-weight:700; }
-    .estimate { border-left:1px solid var(--line); padding-left:18px; align-content:start; }
-    .estimate-head { display:flex; align-items:baseline; justify-content:space-between; gap:8px; }
-    .estimate strong { display:block; font-size:21px; letter-spacing:-.03em; margin-top:8px; }
-    .estimate small { color:var(--muted); font-size:11px; }
-    .estimate p { margin:8px 0 0; font-size:12px; color:#46586c; }
-    .estimate details, .method { margin-top:10px; font-size:12px; color:#46586c; }
-    details summary { cursor:pointer; color:var(--blue); font-weight:700; }
-    .estimate ul { padding-left:17px; margin:7px 0; }
-    .estimate li { margin:3px 0; }
-    .estimate .source-links { display:flex; flex-wrap:wrap; gap:4px 10px; margin-top:7px; }
-    .measurement-fields { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:7px; margin-top:9px; }
-    .measurement-fields label { font-size:11px; font-weight:700; }
-    .measurement-fields input { width:100%; border:1px solid #cbd6e0; border-radius:8px; padding:6px; margin-top:3px; }
-    .method { margin-top:13px; }
-    .method p { margin:7px 0; }
-    .method ul { padding-left:18px; margin:8px 0; }
-    .empty { background:#fff; border:1px dashed #b8c9d7; border-radius:14px; padding:44px 20px; text-align:center; color:var(--muted); }
-    dialog { border:1px solid var(--line); border-radius:15px; box-shadow:0 18px 60px #142b4650; width:min(760px,calc(100vw - 28px)); padding:20px; color:var(--ink); }
-    dialog::backdrop { background:#142b4680; }
-    dialog h2 { font-size:19px; margin:0 0 5px; }
-    dialog p { font-size:13px; color:var(--muted); margin:0 0 12px; }
-    dialog textarea { width:100%; height:min(55vh,430px); resize:vertical; border:1px solid var(--line); border-radius:9px; padding:10px; font:12px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace; }
-    .dialog-actions { display:flex; justify-content:flex-end; gap:8px; margin-top:12px; }
-    footer { color:var(--muted); font-size:12px; margin-top:24px; }
-    @media(max-width:850px) { .filters { grid-template-columns:repeat(2,minmax(0,1fr)); } .filters .search { grid-column:1/-1; } .card { grid-template-columns:1fr; gap:13px; } .estimate { border-left:0; border-top:1px solid var(--line); padding:13px 0 0; } }
-    @media(max-width:560px) { .hero { padding:28px 18px 62px; } main { padding:0 12px 35px; } .stats { grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin-top:-39px; } .stat { padding:12px; } .stat strong { font-size:23px; } .panel { padding:14px; } .filters { grid-template-columns:1fr; } .filters .search { grid-column:auto; } .toolbar { align-items:flex-start; } .toolbar h2 { font-size:16px; } .card { padding:15px; } .notice { display:block; } .notice b { display:block; margin-bottom:4px; } .measurement-fields { grid-template-columns:1fr; } }
-  </style>
-  <link rel="stylesheet" href="theme.css?v=11">
+  <title>発送サイズ研究所｜ネコポス・クリックポスト</title>
+  <link rel="stylesheet" href="ui.css?v=8">
 </head>
 <body>
-  <aside class="side-nav" aria-label="ページ内ナビゲーション">
-    <div class="side-brand"><span class="side-brand-mark" aria-hidden="true">◇</span><div><strong>小型発送リサーチ</strong><small>商品サイズを見極める</small></div></div>
-    <nav>
-      <a href="#candidates"><span aria-hidden="true">⌂</span>商品一覧</a>
-      <a href="acquisition.html"><span aria-hidden="true">◉</span>データ取得状況</a>
-      <a href="#search-panel"><span aria-hidden="true">⌕</span>絞り込み</a>
-      <a href="#method"><span aria-hidden="true">◌</span>推定方法</a>
-    </nav>
-    <button id="sideExport" type="button"><span aria-hidden="true">↧</span>CSVを書き出す</button>
-    <p>商品袋から外装を推定。実測値を入れると発送判定を更新。</p>
-  </aside>
-  <header class="app-topbar">
-    <div class="topbar-search"><span aria-hidden="true">⌕</span><label for="search" class="visually-hidden">ASIN・商品名で検索</label><input id="search" type="search" placeholder="ASIN・商品名で検索"></div>
-    <button id="searchGo" class="topbar-search-button" type="button">分析を見る</button>
-    <span class="topbar-count"><span id="heroCount">—</span>商品を調査</span>
-  </header>
+  <header class="site-header"><div class="site-brand"><strong>発送サイズ研究所</strong><span>商品の写真と寸法の根拠から、配送サイズの目安を確認できます。</span></div><div class="site-actions"><span><b id="heroCount">—</b> 商品を調査</span><a href="acquisition.html">データ取得状況</a><button id="export" class="btn" type="button">CSVを書き出す</button></div></header>
   <main>
-    <div class="page-heading visual-heading"><div><span class="page-kicker">PRODUCT ANALYSIS</span><h1>商品サイズ・配送可否の判定</h1><p>商品袋を平らにしたときの外寸から、配送規格との適合を調べる</p></div><div class="page-actions"><a class="btn" href="acquisition.html">データ取得状況 ↗</a><button id="export" class="btn" type="button">CSVを書き出す</button></div></div>
-    <section id="search-panel" class="panel" aria-label="検索と絞り込み">
-      <details class="notice"><summary>判定の見方・配送規格</summary><span>「概算で規格内」は推定値との照合結果です。梱包後の外寸と重量を実測して確認してください。商品袋の幅・長さと発送用外装の寸法は別に表示しています。配送規格は <a href="https://business.kuronekoyamato.co.jp/service/lineup/nekoposu/index.html" target="_blank" rel="noopener noreferrer">ネコポス ↗</a> <a href="https://www.post.japanpost.jp/service/send/domestic/delivery/clickpost/" target="_blank" rel="noopener noreferrer">クリックポスト ↗</a> を参照してください。</span></details>
+    <details class="rules-toggle"><summary>配送規格を見る <span>ネコポス・クリックポストの公式条件</span></summary><section class="service-guides" aria-label="配送方法の公式規格">
+      <article class="service-guide"><div class="service-guide-heading"><span class="service-icon cat-icon" aria-hidden="true">◧</span><div><b>ネコポス</b><small>ヤマト運輸・契約制</small></div></div><div class="service-limits"><span><strong>34cm</strong> 長辺上限</span><span><strong>60cm</strong> 3辺合計</span><span><strong>3cm</strong> 厚さ上限</span><span><strong>1kg</strong> 重量上限</span></div><p>宛名面は23×11.5cm以上。運賃は契約ごとに決まり、公式上限は385円。</p><a href="https://business.kuronekoyamato.co.jp/service/lineup/nekoposu/index.html" target="_blank" rel="noopener noreferrer">ヤマト運輸の規格 ↗</a></article>
+      <article class="service-guide"><div class="service-guide-heading"><span class="service-icon post-icon" aria-hidden="true">▤</span><div><b>クリックポスト</b><small>日本郵便・全国一律240円</small></div></div><div class="service-limits"><span><strong>34cm</strong> 長辺上限</span><span><strong>60cm</strong> 3辺合計</span><span><strong>3cm</strong> 投函目安</span><span><strong>2kg</strong> 重量上限</span></div><p>最小14×9cm。ポストの投函口を確認。窓口で預かれる例外も厚さ3cm以下。</p><a href="https://www.post.japanpost.jp/service/send/domestic/delivery/clickpost/" target="_blank" rel="noopener noreferrer">日本郵便の規格 ↗</a></article>
+      <small class="guide-date">公式ページを2026年10月6日に確認。発送前に梱包後の外寸と重量を測定。</small>
+    </section></details>
+    <details id="search-panel" class="panel filter-drawer" aria-label="検索と絞り込み"><summary>絞り込み・判定の見方</summary>
+      <details class="notice"><summary>判定の見方・配送規格</summary><span>商品写真と縦横の模式図は画面上の実寸ではありません。概算は発送可否を確定しません。実際に梱包した外装の長辺・短辺・最大厚・重量を測って入力してください。配送規格は <a href="https://business.kuronekoyamato.co.jp/service/lineup/nekoposu/index.html" target="_blank" rel="noopener noreferrer">ネコポス ↗</a> <a href="https://www.post.japanpost.jp/service/send/domestic/delivery/clickpost/" target="_blank" rel="noopener noreferrer">クリックポスト ↗</a> を参照してください。</span></details>
       <div class="filters">
         <div class="field"><label for="category">分類</label><select id="category"><option value="all">すべて</option></select></div>
         <div class="field"><label for="dimension">Amazon寸法</label><select id="dimension"><option value="all">すべて</option><option value="confirmed">3cm超を確認</option><option value="unconfirmed">寸法未確認</option></select></div>
         <div class="field"><label for="forecast">平置き3cm予測</label><select id="forecast"><option value="all">すべて</option><option value="likely">収まりそう</option><option value="borderline">境界・情報不足</option><option value="unlikely">難しい</option></select></div>
         <div class="field"><label for="shippingFilter">配送規格の判定</label><select id="shippingFilter"><option value="all">すべて</option><option value="both">両方とも規格内見込み</option><option value="nekopos">ネコポス規格内見込み</option><option value="clickpost">クリックポスト規格内見込み</option><option value="check">要実測</option><option value="over">両方とも規格外</option></select></div>
       </div>
-      <details id="method" class="method"><summary>推定方法と注意点</summary><p>同一商品のメーカー公表「個装・単品寸法」を最優先します。それ以外はAmazon・Keepaの「商品寸法」、同系品の袋、画像、カタログの「パッケージ寸法」を個別に照合し、仮定として表示します。パッケージ寸法はFBA納品用の大箱を意味するとは限らず、販売単位の包装寸法ですが、商品袋の実寸と一致する保証はありません。出典の弱い寸法だけで「入る」とは判定しません。</p><p>粉・粒は内容量を仮定のかさ密度で体積に直し、袋の有効面積に広げて厚さを概算します。液体のmL表示はすでに体積なので密度では割りません。縦横は商品袋に対して外装余白を各0〜2cm、重量は梱包材100gを仮に加えて確認します。複数個セット、マチ、硬い注ぎ口やスプーンは誤差要因です。ネコポスは宛名面23×11.5cm以上、クリックポストは14×9cm以上の外装が必要です。クリックポストは投函口の実寸にも左右されます。</p><p>参考：<a href="https://product.gex-fp.co.jp/fish/?cid=373&amp;id=1749&amp;m=ProductListDetail" target="_blank" rel="noopener noreferrer">GEXの個装寸法</a>、<a href="https://agf.ajinomoto.co.jp/product/detail/59595" target="_blank" rel="noopener noreferrer">AGFの単品寸法</a>、<a href="https://business.kuronekoyamato.co.jp/service/lineup/nekoposu/index.html" target="_blank" rel="noopener noreferrer">ネコポス規格</a>、<a href="https://www.post.japanpost.jp/service/send/domestic/delivery/clickpost/" target="_blank" rel="noopener noreferrer">クリックポスト規格</a>。</p></details>
-    </section>
-    <div id="candidates" class="toolbar"><div><h2>候補を選ぶ</h2><span id="visibleCount">読み込み中</span></div><div class="actions"><span>左の一覧で比較、右で寸法と根拠を確認</span></div></div>
+      <details id="method" class="method"><summary>推定方法と注意点</summary><p>同一商品のメーカー公表「個装・単品寸法」を最優先します。それ以外はAmazon・Keepaの「商品寸法」、同系品の袋、画像、カタログの「パッケージ寸法」を個別に照合し、仮定として表示します。パッケージ寸法はFBA納品用の大箱を意味するとは限らず、販売単位の包装寸法ですが、商品袋の実寸と一致する保証はありません。出典の弱い寸法だけで「入る」とは判定しません。</p><p>粉・粒は内容量を仮定のかさ密度で体積に直し、袋の有効面積に広げて厚さを概算します。液体のmL表示はすでに体積なので密度では割りません。縦横は商品袋に対して外装余白を各0〜2cm、重量は梱包材100gを仮に加えて確認します。複数個セット、マチ、硬い注ぎ口やスプーンは誤差要因です。ネコポスは宛名面23×11.5cm以上、クリックポストは14×9cm以上の外装が必要です。クリックポストは投函口の実寸にも左右されます。</p><p>参考：<a href="https://product.gex-fp.co.jp/fish/?cid=373&amp;id=1749&amp;m=ProductListDetail" target="_blank" rel="noopener noreferrer">GEXの個装寸法</a>、<a href="https://agf.ajinomoto.co.jp/product/detail/88489" target="_blank" rel="noopener noreferrer">AGF 60gの単品寸法</a>、<a href="https://business.kuronekoyamato.co.jp/service/lineup/nekoposu/index.html" target="_blank" rel="noopener noreferrer">ネコポス規格</a>、<a href="https://www.post.japanpost.jp/service/send/domestic/delivery/clickpost/" target="_blank" rel="noopener noreferrer">クリックポスト規格</a>。</p></details>
+    </details>
     <div class="workspace">
-      <div class="candidate-picker"><section id="list" class="list" aria-label="候補一覧"></section><div class="more-wrap"><button id="more" class="btn" type="button" hidden>さらに20件表示</button></div></div>
+      <aside class="candidate-picker" aria-label="商品候補">
+        <div class="rail-brand"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 3 36 12v17L20 38 4 29V12L20 3Zm0 0v18m16-9-16 9L4 12m16 9v17"/></svg><strong>発送サイズ<br>研究所</strong></div>
+        <div class="sidebar-search"><label for="search" class="visually-hidden">ASIN・商品名で検索</label><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="商品名・ASINで検索"><button id="searchGo" type="button" aria-label="検索した商品を見る">→</button></div>
+        <div class="sidebar-shortcuts" aria-label="主な分類"><button type="button" data-category-shortcut="all" class="active">すべて</button><button type="button" data-category-shortcut="コーヒー">コーヒー</button><button type="button" data-category-shortcut="観賞魚・ペット">ペット</button></div>
+        <nav class="profit-nav" aria-label="利益による絞り込み"><div class="profit-nav-heading"><b>利益品を探す</b><select id="sortMode" aria-label="並び順"><option value="profit">利益順</option><option value="fit">発送見込み順</option></select></div><div class="profit-nav-buttons"><button type="button" data-profit-filter="candidate" class="active" aria-pressed="true">黒字候補 <b id="profitCandidateCount">—</b></button><button type="button" data-profit-filter="reference" aria-pressed="false">参考試算 <b id="profitReferenceCount">—</b></button><button type="button" data-profit-filter="missing" aria-pressed="false">未計算 <b id="profitMissingCount">—</b></button><button type="button" data-profit-filter="all" aria-pressed="false">全商品 <b id="profitAllCount">—</b></button></div><button id="exportProfitCandidates" class="profit-nav-export" type="button">黒字候補をCSV保存 ↗</button><small>黒字候補も発送前に厚さ・重量の実測が必要です。</small></nav>
+        <div id="candidates" class="sidebar-heading"><b>商品候補</b><span id="visibleCount">読み込み中</span></div>
+        <section id="list" class="list" aria-label="候補一覧"></section><div class="more-wrap"><button id="more" class="btn" type="button" hidden>さらに20件表示</button></div>
+      </aside>
       <section id="featured" class="featured" aria-label="選択中の商品の詳細"></section>
     </div>
     <section class="stats" aria-label="候補の集計">
       <div class="stat"><span class="stat-icon" aria-hidden="true">◎</span><strong id="totalCount">—</strong><span>調査した候補</span></div>
-      <div class="stat"><span class="stat-icon" aria-hidden="true">◯</span><strong id="likelyCount">—</strong><span>両方とも規格内見込み</span></div>
+        <div class="stat"><span class="stat-icon" aria-hidden="true">◯</span><strong id="likelyCount">—</strong><span>両方とも概算範囲内・要実測</span></div>
       <div class="stat"><span class="stat-icon" aria-hidden="true">◌</span><strong id="borderlineCount">—</strong><span>要実測・一部規格外</span></div>
       <div class="stat"><span class="stat-icon" aria-hidden="true">×</span><strong id="unlikelyCount">—</strong><span>両方とも規格外</span></div>
     </section>
     <dialog id="csvDialog"><h2 id="csvTitle">CSV</h2><p>予測、根拠、出典、実測記録を含みます。下の内容をコピーするか、ファイルに保存できます。</p><textarea id="csvText" aria-label="CSVデータ" readonly></textarea><div class="dialog-actions"><button id="closeCsv" class="btn" type="button">閉じる</button><button id="saveCsv" class="btn" type="button">ファイルに保存</button></div></dialog>
     <footer>元の例 <a href="https://www.amazon.co.jp/dp/B00TXC7RBG" target="_blank" rel="noopener noreferrer">B00TXC7RBG</a> は候補に含めていません。<a href="https://product.gex-fp.co.jp/fish/?cid=373&amp;id=708&amp;m=ProductListDetail" target="_blank" rel="noopener noreferrer">GEX公表の220g・袋15×24cm</a>と浮上性フードのかさ密度から、約2.2〜3.1cmで境界と推定します。</footer>
   </main>
-  <script src="data.js"></script>
-  <script src="predictions.js"></script>
-  <script src="product_images.js"></script>
+  <script src="data.js?v=2"></script>
+  <script src="predictions.js?v=2"></script>
+  <script src="product_images.js?v=2"></script>
+  <script src="local_product_images.js?v=2"></script>
   <script src="api_dimensions.js"></script>
   <script src="shipping_fit.js"></script>
-  <script src="app.js?v=12"></script>
+  <script src="sourcing.js?v=6"></script>
+  <script src="market_data.js?v=4"></script>
+  <script src="finance.js?v=2"></script>
+  <script src="app.js?v=29"></script>
 </body>
 </html>
