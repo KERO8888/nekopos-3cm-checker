@@ -490,6 +490,8 @@
     const listTitle = item.asin === 'B09S3BRQJ1' ? 'AGF マキシム 袋 60g' : item.title;
     const profit = profitFor(item, 'clickpost', record);
     const state = profitStateFor(item, record);
+    const supplier = suppliersFor(item.asin)[0];
+    const sourceTotal = supplier && supplier.inboundShippingYen != null ? supplier.priceYen + supplier.inboundShippingYen : null;
     const ceiling = state === 'sourcing' ? purchaseCeilingFor(item, record) : null;
     const profitText = state === 'candidate' ? `+${yen(profit.profit)} · 要実測`
       : state === 'reference' && profit ? `参考 ${profit.profit < 0 ? '−' : '+'}${yen(Math.abs(profit.profit))}`
@@ -500,7 +502,7 @@
     const image = imageUrl ? `<img src="${escapeHtml(imageUrl)}" alt="" loading="lazy" decoding="async"><span class="candidate-photo-fallback" hidden>画像なし</span>` : '<span class="candidate-photo-fallback">画像なし</span>';
     return `<button class="candidate-row ${selectedAsin === item.asin ? 'is-selected' : ''}" type="button" data-select-asin="${item.asin}" aria-pressed="${selectedAsin === item.asin}">
       <span class="candidate-thumb">${image}</span>
-      <span class="candidate-ident"><strong title="${escapeHtml(item.title)}">${escapeHtml(listTitle)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small><small class="candidate-profit ${state === 'price_risk' ? 'price-risk' : state}">${profitText}</small></span>
+      <span class="candidate-ident"><strong title="${escapeHtml(item.title)}">${escapeHtml(listTitle)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small><small class="candidate-source ${supplier ? '' : 'unconfirmed'}" title="${supplier ? escapeHtml(supplier.name) : '仕入先の単品価格・送料は未確認'}">${supplier ? `仕入 ${escapeHtml(supplier.name)} ${sourceTotal == null ? '送料未確認' : yen(sourceTotal)}` : '仕入先 未確認'}</small><small class="candidate-profit ${state === 'price_risk' ? 'price-risk' : state}">${profitText}</small></span>
       <span class="candidate-measures">${Number(record.pouchWidth) > 0 && Number(record.pouchHeight) > 0 || prediction.footprintSource === 'manufacturer' ? '袋' : '仮の袋面'} ${escapeHtml(width)}×${escapeHtml(length)} cm <span>厚さ ${escapeHtml(thickness)} cm</span></span>
       <span class="candidate-verdict"><span class="pill ${shippingClasses[fit.nekopos.status]}"><b>ネコポス</b> ${shippingLabels[fit.nekopos.status]}</span><span class="pill ${shippingClasses[fit.clickpost.status]}"><b>クリックポスト</b> ${shippingLabels[fit.clickpost.status]}</span></span>
     </button>`;
@@ -525,6 +527,19 @@
     return `<div class="profit-spotlight ${state === 'reference' ? 'is-reference' : state === 'sourcing' || state === 'price_missing' ? 'is-missing' : ''}" aria-label="選択商品の利益状況"><div><small>${label}</small><b title="${escapeHtml(item.title)}">${escapeHtml(item.title)}</b><small>${detail}</small></div><strong>${amount}</strong></div>`;
   }
 
+  function supplierQuick(item) {
+    const supplier = suppliersFor(item.asin)[0];
+    const record = recordFor(item.asin);
+    if (!supplier) {
+      const ceiling = purchaseCeilingFor(item, record);
+      return `<section class="supplier-quick is-unconfirmed" aria-label="仕入先の要約"><span class="supplier-quick-label">仕入先</span><strong class="supplier-quick-name">未確認</strong><strong class="supplier-quick-cost">${ceiling == null ? '利益未計算' : ceiling >= 0 ? `仕入上限 ${yen(ceiling)}` : '現行売価では採算不可'}</strong><small class="supplier-quick-meta">単品の価格・送料を確認すると利益を計算できます</small></section>`;
+    }
+    const total = supplier.inboundShippingYen == null ? null : supplier.priceYen + supplier.inboundShippingYen;
+    const identity = /^JAN \d{13}/.test(supplier.identity || '') ? 'JAN照合' : '商品名・容量照合';
+    const edited = record.buyPrice != null || record.buyShipping != null;
+    return `<section class="supplier-quick" aria-label="仕入先の要約"><span class="supplier-quick-label">仕入先</span><a class="supplier-quick-name" href="${escapeHtml(supplier.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(supplier.name)} ↗</a><strong class="supplier-quick-cost">${total == null ? `${yen(supplier.priceYen)}＋送料未確認` : yen(total)}<small>仕入総額・1点</small></strong><span class="supplier-quick-meta">商品 ${yen(supplier.priceYen)} · 仕入送料 ${supplier.inboundShippingYen == null ? '未確認' : yen(supplier.inboundShippingYen)}<br>${identity} · ${escapeHtml(supplier.checkedOn)}確認${edited ? ' · 利益は入力値で再計算' : ''}</span></section>`;
+  }
+
   function render() {
     const advancedAsin = $('#featured .advanced[open]')?.closest('[data-asin]')?.dataset.asin;
     const matched = filteredProducts();
@@ -534,7 +549,7 @@
     if (selected && !visible.some(item => item.asin === selectedAsin)) visible.unshift(selected);
     $('#visibleCount').textContent = `${visible.length} / ${matched.length}件（${$('#sortMode').value === 'profit' ? '利益順' : '発送見込み順'}）`;
     $('#list').innerHTML = visible.length ? visible.map(candidateRow).join('') : '<div class="empty">該当する候補がありません。検索・絞り込みを変更してください。</div>';
-    $('#featured').innerHTML = selected ? profitSpotlight(selected) + card(selected) : '<div class="empty">該当商品がありません。利益の条件を変更してください。</div>';
+    $('#featured').innerHTML = selected ? profitSpotlight(selected) + supplierQuick(selected) + card(selected) : '<div class="empty">該当商品がありません。利益の条件を変更してください。</div>';
     if (selected && advancedAsin === selected.asin) $('#featured .advanced').open = true;
     $('#more').hidden = visible.length >= matched.length;
   }
