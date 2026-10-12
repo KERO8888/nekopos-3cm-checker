@@ -982,10 +982,16 @@ main { max-width:none; padding:0 24px 50px 0; }
 .trial-sidebar { margin:12px 0; padding:13px; border:1px solid #e9be75; border-radius:10px; background:#fff5e5; color:#243d50; }
 .trial-sidebar-heading { display:flex; align-items:center; justify-content:space-between; gap:7px; font-size:13px; }
 .trial-sidebar-heading b { flex:none; padding:4px 6px; border-radius:5px; background:#fff; color:#8a570d; font-size:10px; }
+.trial-sidebar-stats { display:grid; gap:5px; margin-top:10px; color:#5e4b33; font-size:11px; font-weight:750; }
+.trial-sidebar-stats span { padding:5px 7px; border-radius:5px; background:#fff; }
+#trialPredictionStatus[hidden] { display:none; }
 #trialToggle { width:100%; min-height:38px; margin-top:10px; border:1px solid #c58930; border-radius:7px; background:#b6741d; color:#fff; font-size:12px; font-weight:850; cursor:pointer; }
 #trialToggle[aria-pressed="true"] { background:#fff; color:#84530e; }
 .trial-sidebar small { display:block; margin-top:8px; color:#705c43; font-size:10px; line-height:1.5; }
 .trial-row-badge { display:inline-block; max-width:100%; margin-top:5px; padding:3px 6px; border-radius:5px; background:#fff0d3; color:#865719; font-size:10px; font-weight:850; white-space:normal; }
+.trial-row-badge.within { background:#d9f6e9; color:#096d50; }
+.trial-row-badge.edge { background:#fff0c9; color:#83560b; }
+.trial-row-badge.over { background:#ffe0dc; color:#a13226; }
 .trial-detail { margin:0 0 14px; padding:17px 20px; border:1px solid #e7d7bc; border-radius:12px; background:#fffaf1; }
 .trial-detail-head { display:flex; justify-content:space-between; align-items:flex-start; gap:15px; }
 .trial-detail-head small { color:#9b6b26; font-size:11px; font-weight:800; }

@@ -128,7 +128,14 @@
     const actualCount = products.filter(item => measurementCount(recordFor(item.asin))).length;
     $('#actualCount').textContent = `${actualCount}件`;
     $('#measuredToggle').disabled = actualCount === 0;
-    $('#trialProgress').textContent = `${trialProducts.filter(trial => measurementCount(recordFor(trial.asin)) > 0).length}/${trialProducts.length}件入力あり`;
+    const measuredThicknesses = trialProducts.filter(trial => isMeasured(recordFor(trial.asin), 'thickness'));
+    const within3cm = measuredThicknesses.filter(trial => Number(recordFor(trial.asin).thickness) <= 3).length;
+    const forecastExceeded = measuredThicknesses.filter(trial => Number(recordFor(trial.asin).thickness) > predictions[trial.asin].roughThicknessCm[1]).length;
+    $('#trialProgress').textContent = `厚さ ${measuredThicknesses.length}/${trialProducts.length}件入力`;
+    $('#trialThicknessStatus').textContent = measuredThicknesses.length ? `厚さ3cm以下 ${within3cm}件・超 ${measuredThicknesses.length - within3cm}件` : '厚さの入力待ち';
+    $('#trialShippingStatus').textContent = `外装4項目 ${trialProducts.filter(trial => hasRealMeasurements(recordFor(trial.asin))).length}/${trialProducts.length}件入力済み`;
+    $('#trialPredictionStatus').hidden = measuredThicknesses.length === 0;
+    $('#trialPredictionStatus').textContent = `実測が予測上限より厚い ${forecastExceeded}/${measuredThicknesses.length}件`;
     const registeredDemos = demoMeasurements.filter(sample => products.some(item => item.asin === sample.asin));
     $('#demoTotalCount').textContent = `${registeredDemos.length}件の表示例`;
     $('#demoWithinCount').textContent = registeredDemos.filter(demoWithin3Cm).length;
@@ -592,9 +599,12 @@
             : state === 'over' ? '配送規格外'
               : ceiling != null && ceiling >= 0 ? `仕入上限 ${yen(ceiling)}` : '売価未取得';
     const image = imageUrl ? `<img src="${escapeHtml(imageUrl)}" alt="" loading="lazy" decoding="async"><span class="candidate-photo-fallback" hidden>画像なし</span>` : '<span class="candidate-photo-fallback">画像なし</span>';
+    const trialThickness = isMeasured(record, 'thickness') ? Number(record.thickness) : null;
+    const trialThicknessText = trialThickness === null ? '厚さ未入力' : trialThickness > 3 ? `最大厚 ${trialThickness}cm · 3cm超` : trialThickness === 3 ? '最大厚 3cm · 境界' : `最大厚 ${trialThickness}cm · 3cm以下`;
+    const trialThicknessClass = trialThickness === null ? '' : trialThickness > 3 ? 'over' : trialThickness === 3 ? 'edge' : 'within';
     return `<button class="candidate-row ${selectedAsin === item.asin ? 'is-selected' : ''}" type="button" data-select-asin="${item.asin}" aria-pressed="${selectedAsin === item.asin}">
       <span class="candidate-thumb">${image}</span>
-      <span class="candidate-ident"><strong title="${escapeHtml(item.title)}">${escapeHtml(listTitle)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small>${trialOnly && trial ? `<span class="trial-row-badge">${trial.order + 1}/10 · ${measurementCount(record) ? `実測入力 ${measurementCount(record)}/6` : '実測待ち'} · 画像参考 ${yen(trial.referencePriceYen)}</span>` : measurementCount(record) ? `<span class="real-row-badge">実測入力 ${measurementCount(record)}/6項目${hasRealMeasurements(record) ? ' · 外装の判定値が揃いました' : ''}</span>` : demo ? `<span class="demo-row-badge ${demoWithin3Cm(demo) ? 'within' : 'over'}">表示例 · ${demoWithin3Cm(demo) ? '3cm以内' : '3cm超'}</span>` : ''}<small class="candidate-profit ${state === 'price_risk' ? 'price-risk' : state}">${profitText}</small></span>
+      <span class="candidate-ident"><strong title="${escapeHtml(item.title)}">${escapeHtml(listTitle)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small>${trialOnly && trial ? `<span class="trial-row-badge ${trialThicknessClass}">${trial.order + 1}/10 · ${trialThicknessText} · ${measurementCount(record)}/6項目 · 画像参考 ${yen(trial.referencePriceYen)}</span>` : measurementCount(record) ? `<span class="real-row-badge">実測入力 ${measurementCount(record)}/6項目${hasRealMeasurements(record) ? ' · 外装の判定値が揃いました' : ''}</span>` : demo ? `<span class="demo-row-badge ${demoWithin3Cm(demo) ? 'within' : 'over'}">表示例 · ${demoWithin3Cm(demo) ? '3cm以内' : '3cm超'}</span>` : ''}<small class="candidate-profit ${state === 'price_risk' ? 'price-risk' : state}">${profitText}</small></span>
       <span class="candidate-measures">${Number(record.pouchWidth) > 0 && Number(record.pouchHeight) > 0 || prediction.footprintSource === 'manufacturer' ? '袋' : '仮の袋面'} ${escapeHtml(width)}×${escapeHtml(length)} cm <span>厚さ ${escapeHtml(thickness)} cm</span></span>
       <span class="candidate-source ${supplier ? '' : 'unconfirmed'}" title="${supplier ? `仕入先 ${escapeHtml(supplier.name)}・仕入送料${sourceInbound === '' ? '未入力' : yen(Number(sourceInbound))}で試算` : '仕入先の単品価格は未確認'}">${supplier ? `${supplierBadge(supplier)}<span class="candidate-source-text">${escapeHtml(supplierDisplayName(supplier))} · ${sourceTotal == null ? '仕入額未入力' : yen(sourceTotal)}</span>` : '仕入先 未確認'}</span>
       <span class="candidate-verdict"><span class="pill ${shippingClasses[fit.nekopos.status]}"><b>ネコポス</b> ${shippingLabelFor(fit.nekopos, record)}</span><span class="pill ${shippingClasses[fit.clickpost.status]}"><b>クリックポスト</b> ${shippingLabelFor(fit.clickpost, record)}</span></span>
@@ -656,7 +666,7 @@
       ['shipLength', '外装の長辺', 'cm', '0.1'], ['shipWidth', '外装の短辺', 'cm', '0.1'],
       ['thickness', '梱包後の最大厚', 'cm', '0.1'], ['shipWeight', '梱包後の重量', 'g', '1'],
     ];
-    return `<section class="trial-detail" data-asin="${item.asin}" aria-label="実測待ちリストの入力欄"><div class="trial-detail-head"><div><small>実測待ちリスト ${trial.order + 1} / ${trialProducts.length}</small><h2>${escapeHtml(item.title)}</h2></div><strong>${measurementCount(record)}/6項目入力</strong></div><p>画像の参考価格 ${yen(trial.referencePriceYen)}。購入・梱包・実測済みとは扱っていません。空欄は未測定です。数値を入れると、このブラウザに保存して下の判定へ反映します。</p><div class="trial-fields">${fields.map(([key, label, unit, step]) => `<label>${label} ${unit}<input data-measure="${key}" type="number" min="0" step="${step}" inputmode="decimal" value="${escapeHtml(record[key] ?? '')}" placeholder="未測定"></label>`).join('')}</div></section>`;
+    return `<section class="trial-detail" data-asin="${item.asin}" aria-label="実測待ちリストの入力欄"><div class="trial-detail-head"><div><small>実測待ちリスト ${trial.order + 1} / ${trialProducts.length}</small><h2>${escapeHtml(item.title)}</h2></div><strong>${measurementCount(record)}/6項目入力</strong></div><p>画像の参考価格 ${yen(trial.referencePriceYen)}。購入・梱包の事実は登録していません。入力済みの値だけを実測として扱い、空欄は未測定です。数値を入れると、このブラウザに保存して下の判定へ反映します。</p><div class="trial-fields">${fields.map(([key, label, unit, step]) => `<label>${label} ${unit}<input data-measure="${key}" type="number" min="0" step="${step}" inputmode="decimal" value="${escapeHtml(record[key] ?? '')}" placeholder="未測定"></label>`).join('')}</div></section>`;
   }
 
   function render() {
