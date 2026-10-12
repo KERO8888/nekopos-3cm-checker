@@ -2427,6 +2427,100 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71KfPZhdfdL._AC_SL1500_.jpg",
       "reviewStatus": "hold_missing_three_dimensions",
       "reviewNote": "Amazon現行ページで掲載3辺寸法を確認できない。Keepaのパッケージ寸法だけでは登録条件のAmazon掲載最小辺3cm超を満たしたと扱えない。"
+    },
+    {
+      "asin": "B0CZXFLQZ5",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CZXFLQZ5",
+      "title": "ふきん キッチンタオル プロ仕様 30x20cm 2枚セット クリーニングクロス マイクロファイバー 日本製 グレー",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81NQkw0CjWL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_multi_unit",
+      "reviewNote": "Keepaの商品名は1枚と読めたが、現行Amazon商品ページは30×20cmの2枚セット。単品条件に不一致。"
+    },
+    {
+      "asin": "B0F5PT8RQ3",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F5PT8RQ3",
+      "title": "大判 食器拭きクロス プロ仕様 60x45cm 1枚 ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 ライトグレー",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81CcQCe+EHL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_amazon_dimensions",
+      "reviewNote": "現行Amazon商品ページの掲載3辺を取得できず、最小辺3cm超を確認できない。"
+    },
+    {
+      "asin": "B0CZXV6R6L",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CZXV6R6L",
+      "title": "大判 食器拭きクロス プロ仕様 60x45cm 1枚 ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 ホワイト",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71IFgdJ5kxL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_amazon_dimensions",
+      "reviewNote": "現行Amazon商品ページの掲載3辺を取得できず、最小辺3cm超を確認できない。"
+    },
+    {
+      "asin": "B083WMT65K",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B083WMT65K",
+      "title": "ダイヤ (Daiya) 洗濯ネット サボるん 手洗いのように洗える ブラジャーネット ハート型 横20cm×縦20cm×厚3cm ホームクリーニング おしゃれ着洗い ねじれ こすれ 型くずれ 毛玉 糸クズ 防止 衝撃吸収 マシュマロ メッシュ 下着 ランジェリー ブラジャー YKKファスナー ドラム式 対応 057940",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51WqmJcscLL._AC_SL1000_.jpg",
+      "reviewStatus": "hold_missing_amazon_dimensions",
+      "reviewNote": "現行Amazon商品ページの掲載3辺を取得できず、最小辺3cm超を確認できない。"
+    },
+    {
+      "asin": "B083WMGQKQ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B083WMGQKQ",
+      "title": "ダイヤ (Daiya) 洗濯ネット サボるん 手洗いのように洗える おしゃれ着ネット ランジェリー 型崩れ 毛玉 糸クズ防止 ホームクリーニング 下着 インナー ブラトップ ブラジャー YKKファスナー 長持ち 衝撃吸収 マシュマロメッシュ ランドリーネット 時短 ピンク 横27cm×縦19cm×厚3cm 057941",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61Vkb63MkjL._AC_SL1378_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B083WMFJB9",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B083WMFJB9",
+      "title": "ダイヤ (Daiya) 洗濯ネット サボるん 手洗いのように洗える おしゃれ着 ネット ボックス 横35×縦20×高さ10cm 型崩れ 毛玉 糸クズ 防止 ホームクリーニング おしゃれ着洗い 大容量 まとめ洗い 衝撃吸収 マシュマロメッシュ セーター ニット ランドリーネット ドラム式 乾燥機 対応 057943",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61sBEsdwZTL._AC_SL1000_.jpg",
+      "reviewStatus": "hold_missing_amazon_dimensions",
+      "reviewNote": "現行Amazon商品ページの掲載3辺を取得できず、最小辺3cm超を確認できない。"
+    },
+    {
+      "asin": "B0CF11R1C3",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CF11R1C3",
+      "title": "フランドリー (FLaundry) 洗濯ネット サボるん まるで手洗い おしゃれ着ネット スクエア 横28×縦35cm 型崩れ 毛玉 糸クズ 防止 おしゃれ着洗い ホームクリーニング 衝撃吸収 無蛍光 マシュマロメッシュ ニット セーター カーディガン ドラム式対応 ランドリーネット ダイヤ Daiya 058136",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51Dv8B1jfbL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_amazon_dimensions",
+      "reviewNote": "現行Amazon商品ページの掲載3辺を取得できず、最小辺3cm超を確認できない。"
+    },
+    {
+      "asin": "B0C36WPNGX",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0C36WPNGX",
+      "title": "フランドリー (Flaundry) 洗濯ネット やさしく洗うサボるん帽子ネット キャップ用 ランドリーネット 細かい網目メッシュ クッション生地 型くずれ防止 肌・環境・衣類にやさしい無蛍光 野球 ゴルフ YKK ダイヤ Daiya 058131",
+      "dimensions": [
+        {
+          "value": "2 x 27 x 31 cm",
+          "context": "ト メーカー ‎ダイヤ(Daiya) 素材 ‎アルミ, ポリエステル 商品重量 ‎91 グラム 製品サイズ ‎2 x 27 x 31 cm; 91 g 梱包重量 ‎0.1 キログラム 電池使用 ‎いいえ 登録"
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61mEPHsZW9L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_min_side_not_over_3cm",
+      "reviewNote": "現行Amazonページの製品サイズ2×27×31cmは最小辺2cmで、登録条件の3cm超に該当しない。"
+    },
+    {
+      "asin": "B0CF131RTQ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CF131RTQ",
+      "title": "フランドリー (FLaundry) 洗濯ネット ブラジャーのねじれ・こすれ・型くずれ・毛玉を防ぐ サボるん ブラネットハートネット ブラジャー用 洗濯ネット 横20cm×縦20cm×厚3cm ホワイト ランドリーネット おしゃれ着洗い ホームクリーニング 無蛍光マシュマロメッシュ ドラム式対応 ダイヤ Daiya 058137",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51QfKo3Z+uL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_amazon_dimensions",
+      "reviewNote": "現行Amazon商品ページの掲載3辺を取得できず、最小辺3cm超を確認できない。"
     }
   ]
 }
