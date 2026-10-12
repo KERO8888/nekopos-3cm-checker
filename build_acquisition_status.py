@@ -24,6 +24,10 @@ def build():
     excluded = {item["asin"]: item for item in json.loads(excluded_file.read_text()).get("items", [])} if excluded_file.exists() else {}
     discovered = research["discovered"]
     status_counts = Counter(item["status"] for item in discovered)
+    review_file = ROOT / "product_page_reviews.json"
+    review_pending_count = (sum(item.get("reviewStatus") == "needs_manual_shape_and_unit_check"
+                                for item in json.loads(review_file.read_text()).get("reviews", []))
+                            if review_file.exists() else 0)
     additions = []
     for item in discovered:
         if item["status"] != "added":
@@ -71,6 +75,7 @@ def build():
         "pageCheckedCount": status_counts["page_fetched_not_added"] + status_counts["added"],
         "notFetchedCount": status_counts["not_fetched"],
         "pageCheckedNotAddedCount": status_counts["page_fetched_not_added"],
+        "manualReviewPendingCount": review_pending_count,
         "addedCount": status_counts["added"],
         "reportedPageCheckedCount": research.get("fetchedProductPageCount"),
         "reportedAddedCount": research.get("addedCount"),

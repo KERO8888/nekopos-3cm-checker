@@ -61,6 +61,7 @@ DENSITIES = {
     '紅茶葉': (0.25, 0.40, None),
     'ピートモス': (0.15, 0.40, 'peat_density'),
     '液体詰め替え': (0.95, 1.05, None),
+    '質量表記の詰め替え': (0.85, 1.15, None),
 }
 
 MASS_OVERRIDES = {
@@ -155,7 +156,10 @@ def material_of(item):
     if asin == 'B0070Q8RQQ': return '紅茶葉'
     if asin == 'B00U5OYT58': return 'ピートモス'
     if asin == 'B077PTNJ29': return '液体詰め替え'
-    if item['category'] == '液体詰め替え': return '液体詰め替え'
+    if item['category'] == '液体詰め替え':
+        if re.search(r'\d+(?:\.\d+)?\s*(?:g|ｇ|グラム)(?![a-zA-Z])', title, re.I):
+            return '質量表記の詰め替え'
+        return '液体詰め替え'
     if asin == 'B0H8MNXGKP': return '紅茶葉'
     if item['category'] == '観賞魚・ペット': return '魚用粒（浮沈不明）'
     return '食品粉末'

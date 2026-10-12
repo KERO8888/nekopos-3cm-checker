@@ -1,5 +1,6 @@
 *,*::before,*::after { box-sizing:border-box; }
 body { margin:0; }
+@media (min-width:1500px) { body { margin-left:220px; } }
 .side-nav nav a:first-child { background:transparent; color:#d6e6ef; }
 .side-nav nav a[aria-current="page"] { background:#245784; color:#fff; }
 .status-topbar { justify-content:space-between; color:#61798e; font-size:13px; font-weight:700; }
