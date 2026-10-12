@@ -1612,7 +1612,105 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B001K7HWBM": {
+      "expectedEans": [
+        "4961989102825"
+      ],
+      "checkedPages": 6,
+      "cumulativeCheckedPages": 6,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 36,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "ピュアナチュラル エッセンスローション UV 詰替え 200mL",
+          "storeName": "健康の森-7　楽天市場支店",
+          "jan": "4961989102825",
+          "priceYen": 547,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T22:37:10.217593+00:00",
+          "url": "https://item.rakuten.co.jp/kenkounomori7/4961989102825/",
+          "store": "健康の森-7　楽天市場支店",
+          "inboundShippingYen": 0,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【ｐｄｃ】 ピュアナチュラル エッセンスローション UV つめかえ用 200mL 【化粧品】",
+          "storeName": "薬のファインズファルマ楽天市場店",
+          "jan": "4961989102825",
+          "priceYen": 589,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T22:36:38.711807+00:00",
+          "url": "https://item.rakuten.co.jp/fines-f/4961989102825/",
+          "store": "薬のファインズファルマ楽天市場店",
+          "inboundShippingYen": 490,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "pdc ピュアナチュナル エッセンスローションUV 詰め替え 200ml",
+          "storeName": "サンドラッグe-shop",
+          "jan": "4961989102825",
+          "priceYen": 520,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T22:37:20.689419+00:00",
+          "url": "https://item.rakuten.co.jp/sundrug/4961989102825/",
+          "store": "サンドラッグe-shop",
+          "inboundShippingYen": 600,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "PDC　Pure NATURAL (ピュアナチュラル) エッセンスローションUV (200ml) つめかえ用 [オールインワン]",
+          "storeName": "コジマ楽天市場店",
+          "jan": "4961989102825",
+          "priceYen": 573,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T22:36:49.280611+00:00",
+          "url": "https://item.rakuten.co.jp/r-kojima/4961989102825/",
+          "store": "コジマ楽天市場店",
+          "inboundShippingYen": 550,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ピュアナチュラル エッセンスローション UV つめかえ用 200ml",
+          "storeName": "Goodsania",
+          "jan": "4961989102825",
+          "priceYen": 490,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T22:36:28.108256+00:00",
+          "url": "https://item.rakuten.co.jp/seikatsuzakka-plus1/4961989102825/",
+          "store": "Goodsania",
+          "inboundShippingYen": 660,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ピュアナチュラル エッセンスローション UV つめかえ用 ２００ｍｌ 詰め替え用 化粧液 化粧水 乳液",
+          "storeName": "マイドラ生活総合館 Global Seller",
+          "jan": "4961989102825",
+          "priceYen": 715,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T22:36:59.754099+00:00",
+          "url": "https://item.rakuten.co.jp/maidora/4961989102825/",
+          "store": "マイドラ生活総合館 Global Seller",
+          "inboundShippingYen": 600,
+          "displayPoints": 6,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-12T21:37:34.120737+00:00"
+  "checkedAt": "2026-10-12T22:37:20.995994+00:00"
 }

@@ -45802,7 +45802,7 @@
     {
       "asin": "B0DRCL32GT",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=入浴剤 root=160384011 side>=0mm",
@@ -46660,7 +46660,7 @@
     {
       "asin": "B0DSJ59TC7",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=入浴剤 root=160384011 side>=0mm",
@@ -46862,7 +46862,7 @@
     {
       "asin": "B0HGXKZLK4",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=入浴剤 root=160384011 side>=0mm",
@@ -548097,7 +548097,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 670,
+  "fetchedProductPageCount": 673,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -552322,6 +552322,18 @@
       "pagesChecked": 12,
       "added": 0,
       "unverifiedRange": "Amazon現行ページ12件を個別判定。8件は掲載3辺最小辺が3cm以下、3件は複数袋セットで寸法未掲載、1件は主画像が硬い紙箱のため除外。登録0件。残る発見ASINのAmazonページは未確認。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=詰め替え由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0DRCL32GT",
+        "B0DSJ59TC7",
+        "B0HGXKZLK4"
+      ],
+      "pagesChecked": 3,
+      "added": 0,
+      "unverifiedRange": "単品・柔らかい袋・付属品・平置き後厚さは未判定。商品写真と掲載寸法の出典を個別確認する必要がある。"
     }
   ],
   "searchStops": [

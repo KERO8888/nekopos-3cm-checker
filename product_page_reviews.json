@@ -3782,6 +3782,54 @@
       "reviewStatus": "excluded_explicit_multi_unit_or_extra",
       "decisionReason": "Amazon現行ページの商品名が複数袋セットで、単品条件に合わない。掲載3辺寸法も確認できない。",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DRCL32GT",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DRCL32GT",
+      "title": "アリエール ジェルボール【Amazon.co.jp限定】31個 部屋干し＆スポーツ 漂白剤つけおき級消臭 洗濯洗剤 詰め替え",
+      "dimensions": [
+        {
+          "value": "26.4 x 18 x 7.9 cm",
+          "context": "       :\n                                            ‎ 26.4 x 18 x 7.9 cm; 570 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81LHf23xHRL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_capsule_single_layer_and_peak_thickness_unverified",
+      "decisionReason": "31個の液体洗剤カプセルを未開封袋のまま1層に並べられる根拠がなく、掲載26.4×18×7.9cmも梱包後最大厚ではない。3cm以下の見込みを確定できず保留。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DSJ59TC7",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DSJ59TC7",
+      "title": "ボールド ジェルボール 柔軟剤入り【Amazon.co.jp限定】31個 プレミアムブロッサムの香り 洗濯洗剤 詰め替え",
+      "dimensions": [
+        {
+          "value": "21.5 x 18 x 7.4 cm",
+          "context": "       :\n                                            ‎ 21.5 x 18 x 7.4 cm; 580 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81irFtTFywL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_capsule_single_layer_and_peak_thickness_unverified",
+      "decisionReason": "31個の液体洗剤カプセルを未開封袋のまま1層に並べられる根拠がなく、掲載21.5×18×7.4cmも梱包後最大厚ではない。3cm以下の見込みを確定できず保留。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0HGXKZLK4",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0HGXKZLK4",
+      "title": "ボールド ジェルボール 柔軟剤入り 31個 ローズ＆ブルーミングブーケの香り 洗濯洗剤 詰め替え",
+      "dimensions": [
+        {
+          "value": "30.5 x 26.1 x 7.3 cm",
+          "context": "       :\n                                            ‎ 30.5 x 26.1 x 7.3 cm; 590 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81HO5X9c9VL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_capsule_single_layer_and_peak_thickness_unverified",
+      "decisionReason": "31個の液体洗剤カプセルを未開封袋のまま1層に並べられる根拠がなく、掲載30.5×26.1×7.3cmも梱包後最大厚ではない。3cm以下の見込みを確定できず保留。",
+      "decidedOn": "2026-10-13"
     }
   ]
 }
