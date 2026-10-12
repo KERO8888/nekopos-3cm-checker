@@ -2169,6 +2169,66 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71D0JcCfsSL._AC_SL1500_.jpg",
       "reviewStatus": "excluded_under_3cm_listed_product",
       "reviewNote": "Amazon現行ページ掲載13.5×11.5×3cmは最小辺がちょうど3cmで、登録条件の3cm超を満たさない。"
+    },
+    {
+      "asin": "B009Y2WPDK",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B009Y2WPDK",
+      "title": "かんてんぱぱ 伊那食品工業 スープ用糸寒天 機能性表示食品 100グラム (x 1)",
+      "dimensions": [
+        {
+          "value": "8.99 x 38.99 x 27.99 cm",
+          "context": "       :\n                                            ‎ 8.99 x 38.99 x 27.99 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51UgiyNrq2L._AC_SY300_SX300_QL70_ML2_.jpg",
+      "reviewStatus": "held",
+      "decisionNote": "100g単品の柔らかい袋だが、掲載38.99×27.99×8.99cmの縦横がクリックポスト34×25cmを超える。袋の実寸と折り方が未確認のため保留。"
+    },
+    {
+      "asin": "B0DC9LQ1GB",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0DC9LQ1GB",
+      "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+      "dimensions": [
+        {
+          "value": "26.1 x 19.4 x 5.7 cm",
+          "context": "       :\n                                            ‎ 26.1 x 19.4 x 5.7 cm; 500 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/616ENRXHDML._AC_SL1000_.jpg",
+      "reviewStatus": "added",
+      "decisionNote": "柔らかい単品袋の写真とAmazon掲載3辺を確認。梱包寸法のみ、厚み未測定で低確信度。"
+    },
+    {
+      "asin": "B0877L4XYT",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0877L4XYT",
+      "title": "Ajinomoto 味の素 丸鶏がらスープ 業務用 500g袋 大容量 中華だし 鶏がらスープの素",
+      "dimensions": [
+        {
+          "value": "19.8 x 16.9 x 4.5 cm",
+          "context": "       :\n                                            ‎ 19.8 x 16.9 x 4.5 cm; 500 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71FMVM0GVWL._AC_SL1500_.jpg",
+      "reviewStatus": "held",
+      "decisionNote": "500gの顆粒を入れた柔らかい単品袋。掲載19.8×16.9×4.5cmでは内容物をならしても3cm以下になる余裕が小さく、袋面実寸が未確認のため保留。"
+    },
+    {
+      "asin": "B0043TYE7Y",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0043TYE7Y",
+      "title": "スリムアップスリム コーンスープ 360g アサヒグループ食品 コラーゲン プロテイン ビタミン ミネラル 食物繊維",
+      "dimensions": [
+        {
+          "value": "23.3 x 17.4 x 5.6 cm",
+          "context": "       :\n                                            ‎ 23.3 x 17.4 x 5.6 cm; 360 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81vnutzQSTL._AC_SL1500_.jpg",
+      "reviewStatus": "added",
+      "decisionNote": "柔らかい単品袋の写真とAmazon掲載3辺を確認。梱包寸法のみ、厚み未測定で低確信度。"
     }
   ]
 }
