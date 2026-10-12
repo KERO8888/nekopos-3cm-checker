@@ -13,12 +13,15 @@
   const finance = window.NEKOPOST_FINANCE;
   const demoMeasurements = window.NEKOPOST_DEMO_MEASUREMENTS || [];
   const demoByAsin = new Map(demoMeasurements.map((sample, index) => [sample.asin, { ...sample, order: index }]));
+  const trialProducts = window.NEKOPOST_TRIAL_PRODUCTS || [];
+  const trialByAsin = new Map(trialProducts.map((trial, index) => [trial.asin, { ...trial, order: index }]));
   const storageKey = 'nekopos-candidates-v1';
   let visibleLimit = 20;
   let selectedAsin = products.some(item => item.asin === 'B0DQDTBXJ7') ? 'B0DQDTBXJ7' : '';
   let profitFilter = 'candidate';
   let demoOnly = false;
   let measuredOnly = false;
+  let trialOnly = false;
   const verdictLabels = {
     likely: '3cm以内に収まりそう',
     borderline: '境界・情報不足',
@@ -49,7 +52,8 @@
     catch { alert('実測記録を保存できませんでした。CSVに書き出して控えてください。'); }
   }
 
-  if (!products.length || !shipping || new Set(products.map(item => item.asin)).size !== products.length || products.some(item => !predictions[item.asin])) {
+  if (!products.length || !shipping || new Set(products.map(item => item.asin)).size !== products.length || products.some(item => !predictions[item.asin])
+    || trialByAsin.size !== trialProducts.length || trialProducts.some(trial => !products.some(item => item.asin === trial.asin))) {
     $('#list').innerHTML = '<div class="empty">推定データを読み込めませんでした。ページを再読み込みしてください。</div>';
     return;
   }
@@ -59,6 +63,12 @@
     demoOnly = true;
     profitFilter = 'all';
     selectedAsin = demoMeasurements[0]?.asin || '';
+  }
+  if (pageParams.get('trial') === '1') {
+    trialOnly = true;
+    demoOnly = false;
+    profitFilter = 'all';
+    selectedAsin = trialProducts[0]?.asin || '';
   }
   const requestedAsin = pageParams.get('asin');
   if (requestedAsin && products.some(item => item.asin === requestedAsin)) {
@@ -79,6 +89,7 @@
   };
   function sortedProducts() {
     return [...products].sort((a, b) => {
+      if (trialOnly) return (trialByAsin.get(a.asin)?.order ?? Infinity) - (trialByAsin.get(b.asin)?.order ?? Infinity);
       if (demoOnly) return (demoFor(a.asin)?.order ?? Infinity) - (demoFor(b.asin)?.order ?? Infinity);
       const pa = predictions[a.asin];
       const pb = predictions[b.asin];
@@ -117,6 +128,7 @@
     const actualCount = products.filter(item => measurementCount(recordFor(item.asin))).length;
     $('#actualCount').textContent = `${actualCount}件`;
     $('#measuredToggle').disabled = actualCount === 0;
+    $('#trialProgress').textContent = `${trialProducts.filter(trial => measurementCount(recordFor(trial.asin)) > 0).length}/${trialProducts.length}件入力あり`;
     const registeredDemos = demoMeasurements.filter(sample => products.some(item => item.asin === sample.asin));
     $('#demoTotalCount').textContent = `${registeredDemos.length}件の表示例`;
     $('#demoWithinCount').textContent = registeredDemos.filter(demoWithin3Cm).length;
@@ -141,6 +153,7 @@
       return (!query || `${item.asin} ${item.title} ${item.category} ${prediction.material}`.toLowerCase().includes(query))
         && (profitFilter === 'all' || profitStateFor(item) === profitFilter)
         && (!measuredOnly || measurementCount(recordFor(item.asin)) > 0)
+        && (!trialOnly || trialByAsin.has(item.asin))
         && (!demoOnly || demoByAsin.has(item.asin))
         && (category === 'all' || item.category === category)
         && (dimension === 'all' || (dimension === 'confirmed') === item.sizeConfirmed)
@@ -558,6 +571,7 @@
     const prediction = predictions[item.asin];
     const record = recordFor(item.asin);
     const demo = demoFor(item.asin);
+    const trial = trialByAsin.get(item.asin);
     const fit = fitFor(item);
     const imageUrl = imageFor(item.asin);
     const width = Number(record.pouchWidth) > 0 ? record.pouchWidth : prediction.assumedPouchCm[0];
@@ -580,7 +594,7 @@
     const image = imageUrl ? `<img src="${escapeHtml(imageUrl)}" alt="" loading="lazy" decoding="async"><span class="candidate-photo-fallback" hidden>画像なし</span>` : '<span class="candidate-photo-fallback">画像なし</span>';
     return `<button class="candidate-row ${selectedAsin === item.asin ? 'is-selected' : ''}" type="button" data-select-asin="${item.asin}" aria-pressed="${selectedAsin === item.asin}">
       <span class="candidate-thumb">${image}</span>
-      <span class="candidate-ident"><strong title="${escapeHtml(item.title)}">${escapeHtml(listTitle)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small>${measurementCount(record) ? `<span class="real-row-badge">実測入力 ${measurementCount(record)}/6項目${hasRealMeasurements(record) ? ' · 外装の判定値が揃いました' : ''}</span>` : demo ? `<span class="demo-row-badge ${demoWithin3Cm(demo) ? 'within' : 'over'}">表示例 · ${demoWithin3Cm(demo) ? '3cm以内' : '3cm超'}</span>` : ''}<small class="candidate-profit ${state === 'price_risk' ? 'price-risk' : state}">${profitText}</small></span>
+      <span class="candidate-ident"><strong title="${escapeHtml(item.title)}">${escapeHtml(listTitle)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small>${trialOnly && trial ? `<span class="trial-row-badge">${trial.order + 1}/10 · ${measurementCount(record) ? `実測入力 ${measurementCount(record)}/6` : '実測待ち'} · 画像参考 ${yen(trial.referencePriceYen)}</span>` : measurementCount(record) ? `<span class="real-row-badge">実測入力 ${measurementCount(record)}/6項目${hasRealMeasurements(record) ? ' · 外装の判定値が揃いました' : ''}</span>` : demo ? `<span class="demo-row-badge ${demoWithin3Cm(demo) ? 'within' : 'over'}">表示例 · ${demoWithin3Cm(demo) ? '3cm以内' : '3cm超'}</span>` : ''}<small class="candidate-profit ${state === 'price_risk' ? 'price-risk' : state}">${profitText}</small></span>
       <span class="candidate-measures">${Number(record.pouchWidth) > 0 && Number(record.pouchHeight) > 0 || prediction.footprintSource === 'manufacturer' ? '袋' : '仮の袋面'} ${escapeHtml(width)}×${escapeHtml(length)} cm <span>厚さ ${escapeHtml(thickness)} cm</span></span>
       <span class="candidate-source ${supplier ? '' : 'unconfirmed'}" title="${supplier ? `仕入先 ${escapeHtml(supplier.name)}・仕入送料${sourceInbound === '' ? '未入力' : yen(Number(sourceInbound))}で試算` : '仕入先の単品価格は未確認'}">${supplier ? `${supplierBadge(supplier)}<span class="candidate-source-text">${escapeHtml(supplierDisplayName(supplier))} · ${sourceTotal == null ? '仕入額未入力' : yen(sourceTotal)}</span>` : '仕入先 未確認'}</span>
       <span class="candidate-verdict"><span class="pill ${shippingClasses[fit.nekopos.status]}"><b>ネコポス</b> ${shippingLabelFor(fit.nekopos, record)}</span><span class="pill ${shippingClasses[fit.clickpost.status]}"><b>クリックポスト</b> ${shippingLabelFor(fit.clickpost, record)}</span></span>
@@ -623,7 +637,7 @@
 
   function demoDetail(item) {
     const demo = demoFor(item.asin);
-    if (!demo || measurementCount(recordFor(item.asin))) return '';
+    if (trialOnly || !demo || measurementCount(recordFor(item.asin))) return '';
     const within = demoWithin3Cm(demo);
     const position = Math.min(100, demo.thickness / 5 * 100);
     return `<section class="demo-detail ${within ? 'within' : 'over'}" aria-label="仮入力した梱包サイズの表示例">
@@ -633,16 +647,29 @@
     </section>`;
   }
 
+  function trialDetail(item) {
+    const trial = trialByAsin.get(item.asin);
+    if (!trial || !trialOnly) return '';
+    const record = recordFor(item.asin);
+    const fields = [
+      ['pouchWidth', '商品袋の幅', 'cm', '0.1'], ['pouchHeight', '商品袋の長さ', 'cm', '0.1'],
+      ['shipLength', '外装の長辺', 'cm', '0.1'], ['shipWidth', '外装の短辺', 'cm', '0.1'],
+      ['thickness', '梱包後の最大厚', 'cm', '0.1'], ['shipWeight', '梱包後の重量', 'g', '1'],
+    ];
+    return `<section class="trial-detail" data-asin="${item.asin}" aria-label="実測待ちリストの入力欄"><div class="trial-detail-head"><div><small>実測待ちリスト ${trial.order + 1} / ${trialProducts.length}</small><h2>${escapeHtml(item.title)}</h2></div><strong>${measurementCount(record)}/6項目入力</strong></div><p>画像の参考価格 ${yen(trial.referencePriceYen)}。購入・梱包・実測済みとは扱っていません。空欄は未測定です。数値を入れると、このブラウザに保存して下の判定へ反映します。</p><div class="trial-fields">${fields.map(([key, label, unit, step]) => `<label>${label} ${unit}<input data-measure="${key}" type="number" min="0" step="${step}" inputmode="decimal" value="${escapeHtml(record[key] ?? '')}" placeholder="未測定"></label>`).join('')}</div></section>`;
+  }
+
   function render() {
+    $('#demoSidebar').hidden = trialOnly;
     const advancedAsin = $('#featured .advanced[open]')?.closest('[data-asin]')?.dataset.asin;
     const matched = filteredProducts();
     if (!matched.some(item => item.asin === selectedAsin)) selectedAsin = matched[0]?.asin || '';
     const selected = matched.find(item => item.asin === selectedAsin);
     const visible = matched.slice(0, visibleLimit);
     if (selected && !visible.some(item => item.asin === selectedAsin)) visible.unshift(selected);
-    $('#visibleCount').textContent = `${visible.length} / ${matched.length}件（${measuredOnly ? '実測入力あり' : demoOnly ? '検証用表示例' : $('#sortMode').value === 'profit' ? '利益順' : '発送見込み順'}）`;
+    $('#visibleCount').textContent = `${visible.length} / ${matched.length}件（${trialOnly ? '実測待ちリスト' : measuredOnly ? '実測入力あり' : demoOnly ? '検証用表示例' : $('#sortMode').value === 'profit' ? '利益順' : '発送見込み順'}）`;
     $('#list').innerHTML = visible.length ? visible.map(candidateRow).join('') : '<div class="empty">該当する候補がありません。検索・絞り込みを変更してください。</div>';
-    $('#featured').innerHTML = selected ? demoDetail(selected) + profitSpotlight(selected) + supplierQuick(selected) + card(selected) : '<div class="empty">該当商品がありません。利益の条件を変更してください。</div>';
+    $('#featured').innerHTML = selected ? trialDetail(selected) + demoDetail(selected) + profitSpotlight(selected) + supplierQuick(selected) + card(selected) : '<div class="empty">該当商品がありません。検索・絞り込みを変更してください。</div>';
     if (selected && advancedAsin === selected.asin) $('#featured .advanced').open = true;
     $('#more').hidden = visible.length >= matched.length;
   }
@@ -742,8 +769,10 @@
     profitFilter = button.dataset.profitFilter;
     demoOnly = false;
     measuredOnly = false;
+    trialOnly = false;
     syncDemoButton();
     syncMeasuredButton();
+    syncTrialButton();
     visibleLimit = 20;
     syncProfitButtons();
     render();
@@ -755,10 +784,35 @@
   function syncMeasuredButton() {
     $('#measuredToggle').setAttribute('aria-pressed', String(measuredOnly));
   }
+  function syncTrialButton() {
+    $('#trialToggle').setAttribute('aria-pressed', String(trialOnly));
+    $('#trialToggle').textContent = trialOnly ? '実測待ちリストを閉じる' : 'この10商品を開く →';
+  }
+  $('#trialToggle').addEventListener('click', () => {
+    trialOnly = !trialOnly;
+    if (trialOnly) {
+      demoOnly = false;
+      measuredOnly = false;
+      profitFilter = 'all';
+      selectedAsin = trialProducts[0]?.asin || '';
+      $('#search').value = '';
+      $('#category').value = 'all';
+      $('#dimension').value = 'all';
+      $('#forecast').value = 'all';
+      $('#shippingFilter').value = 'all';
+    }
+    visibleLimit = 20;
+    syncProfitButtons();
+    syncDemoButton();
+    syncMeasuredButton();
+    syncTrialButton();
+    render();
+  });
   $('#measuredToggle').addEventListener('click', () => {
     measuredOnly = !measuredOnly;
     if (measuredOnly) {
       demoOnly = false;
+      trialOnly = false;
       profitFilter = 'all';
       $('#search').value = '';
       $('#category').value = 'all';
@@ -770,12 +824,14 @@
     syncProfitButtons();
     syncDemoButton();
     syncMeasuredButton();
+    syncTrialButton();
     render();
   });
   $('#demoToggle').addEventListener('click', () => {
     demoOnly = !demoOnly;
     if (demoOnly) {
       measuredOnly = false;
+      trialOnly = false;
       profitFilter = 'all';
       $('#search').value = '';
       $('#category').value = 'all';
@@ -788,6 +844,7 @@
     syncProfitButtons();
     syncDemoButton();
     syncMeasuredButton();
+    syncTrialButton();
     render();
   });
   $('#sortMode').addEventListener('change', () => { visibleLimit = 20; render(); });
@@ -821,5 +878,6 @@
   syncProfitButtons();
   syncDemoButton();
   syncMeasuredButton();
+  syncTrialButton();
   render();
 })();

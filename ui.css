@@ -977,3 +977,24 @@ main { max-width:none; padding:0 24px 50px 0; }
 @media(max-width:1050px) { .demo-detail-body { grid-template-columns:1fr; } }
 @media(max-width:580px) { .demo-detail { padding:13px; } .demo-detail-heading { align-items:flex-start; } .demo-detail h2 { font-size:16px; } .demo-detail-status { font-size:10px; } .demo-detail-numbers { gap:5px; } .demo-detail-numbers strong { font-size:25px; } .demo-weight { font-size:15px; } }
 @media(max-width:850px) { .candidate-picker { max-height:none; overflow:visible; } .candidate-picker .list { max-height:310px; overflow:auto; } }
+
+/* User-selected products awaiting measurements; never prefill the measurement fields. */
+.trial-sidebar { margin:12px 0; padding:13px; border:1px solid #e9be75; border-radius:10px; background:#fff5e5; color:#243d50; }
+.trial-sidebar-heading { display:flex; align-items:center; justify-content:space-between; gap:7px; font-size:13px; }
+.trial-sidebar-heading b { flex:none; padding:4px 6px; border-radius:5px; background:#fff; color:#8a570d; font-size:10px; }
+#trialToggle { width:100%; min-height:38px; margin-top:10px; border:1px solid #c58930; border-radius:7px; background:#b6741d; color:#fff; font-size:12px; font-weight:850; cursor:pointer; }
+#trialToggle[aria-pressed="true"] { background:#fff; color:#84530e; }
+.trial-sidebar small { display:block; margin-top:8px; color:#705c43; font-size:10px; line-height:1.5; }
+.trial-row-badge { display:inline-block; max-width:100%; margin-top:5px; padding:3px 6px; border-radius:5px; background:#fff0d3; color:#865719; font-size:10px; font-weight:850; white-space:normal; }
+.trial-detail { margin:0 0 14px; padding:17px 20px; border:1px solid #e7d7bc; border-radius:12px; background:#fffaf1; }
+.trial-detail-head { display:flex; justify-content:space-between; align-items:flex-start; gap:15px; }
+.trial-detail-head small { color:#9b6b26; font-size:11px; font-weight:800; }
+.trial-detail-head h2 { margin:5px 0 0; color:#152f43; font-size:18px; line-height:1.35; }
+.trial-detail-head strong { flex:none; padding:5px 8px; border-radius:6px; background:#fff; color:#865719; font-size:11px; }
+.trial-detail>p { margin:10px 0 13px; color:#675a48; font-size:12px; line-height:1.6; }
+.trial-fields { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:9px; }
+.trial-fields label { display:grid; gap:5px; min-width:0; color:#3f5c6d; font-size:11px; font-weight:800; }
+.trial-fields input { width:100%; min-width:0; height:40px; padding:8px 10px; border:1px solid #d5dfe2; border-radius:7px; background:#fff; color:#132e45; font-size:15px; box-sizing:border-box; }
+.trial-fields input:focus { outline:2px solid #55aab4; outline-offset:1px; }
+@media(max-width:850px) { .trial-fields { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:520px) { .trial-detail { padding:13px; } .trial-detail-head { flex-wrap:wrap; } .trial-detail-head h2 { font-size:16px; } }
