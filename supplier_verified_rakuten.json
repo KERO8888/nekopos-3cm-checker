@@ -1,0 +1,424 @@
+{
+  "scope": "JAN, unit, price and stock checked on direct pages. Shipping is Tokyo search-card display; points/coupons are excluded from profit.",
+  "items": {
+    "B07NLBWGTJ": {
+      "expectedEans": [
+        "4901111406377"
+      ],
+      "checkedPages": 5,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 32,
+      "rejected": {
+        "jan_missing": 2,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "AGF ちょっと贅沢な珈琲店 インスタントコーヒー スペシャルブレンド 袋 200g コーヒー｜楽天24エクスプレス",
+          "jan": "4901111406377",
+          "priceYen": 2592,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T15:51:08.048289+00:00",
+          "url": "https://item.rakuten.co.jp/rakutensokuhaimart/4901111406377/",
+          "store": "rakutensokuhaimart",
+          "inboundShippingYen": 0,
+          "displayPoints": 24,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "AGF ちょっと贅沢な珈琲店 インスタントコーヒー スペシャルブレンド 袋(200g)[インスタントコーヒー]｜楽天24",
+          "jan": "4901111406377",
+          "priceYen": 2891,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T15:50:57.564990+00:00",
+          "url": "https://item.rakuten.co.jp/rakuten24/4901111406377/",
+          "store": "rakuten24",
+          "inboundShippingYen": 770,
+          "displayPoints": 26,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "味の素ＡＧＦ(エージーエフ) ちょっと贅沢な珈琲店 スペシャル・ブレンド インスタントコーヒー 詰替用 ２００ｇ １袋｜ポッチ",
+          "jan": "4901111406377",
+          "priceYen": 4146,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T15:50:47.061345+00:00",
+          "url": "https://item.rakuten.co.jp/pocchi-shop/m-4901111406377/",
+          "store": "pocchi-shop",
+          "inboundShippingYen": 0,
+          "displayPoints": 37,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
+    },
+    "B0GL6TYSJR": {
+      "expectedEans": [
+        "4901111832060"
+      ],
+      "checkedPages": 5,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 11,
+      "rejected": {
+        "jan_missing": 1,
+        "jan_mismatch": 4,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": []
+    },
+    "B0DQDTBXJ7": {
+      "expectedEans": [
+        "4548514159327"
+      ],
+      "checkedPages": 10,
+      "identifierSource": "Two independent Rakuten product pages, matching title and size",
+      "eligibleLeads": 42,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "きき湯 ファインヒート ほぐしオフ つめかえ用 500g 入浴剤",
+          "storeName": "楽天24エクスプレス",
+          "jan": "4548514159327",
+          "priceYen": 811,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T16:13:17.612921+00:00",
+          "url": "https://item.rakuten.co.jp/rakutensokuhaimart/4548514159327/",
+          "store": "楽天24エクスプレス",
+          "inboundShippingYen": 500,
+          "displayPoints": 7,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【医薬部外品】きき湯  ファインヒート  ほぐしオフ  つめかえ用  500g",
+          "storeName": "サンドラッグe-shop",
+          "jan": "4548514159327",
+          "priceYen": 810,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T16:13:59.756074+00:00",
+          "url": "https://item.rakuten.co.jp/sundrug/4548514159327/",
+          "store": "サンドラッグe-shop",
+          "inboundShippingYen": 600,
+          "displayPoints": 7,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "きき湯 ファインヒート ほぐしオフ つめかえ用 500g",
+          "storeName": "クスリのアオキ2号店楽天市場店",
+          "jan": "4548514159327",
+          "priceYen": 925,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T16:13:07.160658+00:00",
+          "url": "https://item.rakuten.co.jp/kusuriaoki-r-2/4548514159327/",
+          "store": "クスリのアオキ2号店楽天市場店",
+          "inboundShippingYen": 490,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "バスクリン きき湯ファインヒートほぐしオフつめかえ用500g",
+          "storeName": "ヤマダ電機　楽天市場店",
+          "jan": "4548514159327",
+          "priceYen": 880,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T16:13:38.706236+00:00",
+          "url": "https://item.rakuten.co.jp/yamada-denki/2875798013/",
+          "store": "ヤマダ電機　楽天市場店",
+          "inboundShippingYen": 550,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "アース製薬　きき湯ファインヒート ほぐしオフ つめかえ用 500g",
+          "storeName": "コジマ楽天市場店",
+          "jan": "4548514159327",
+          "priceYen": 880,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T16:13:49.242819+00:00",
+          "url": "https://item.rakuten.co.jp/r-kojima/4548514159327/",
+          "store": "コジマ楽天市場店",
+          "inboundShippingYen": 550,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "「バスクリン」　きき湯ファインヒートほぐしオフつめかえ用　　500g",
+          "storeName": "薬のファインズファルマ楽天市場店",
+          "jan": "4548514159327",
+          "priceYen": 998,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T16:14:10.238469+00:00",
+          "url": "https://item.rakuten.co.jp/fines-f/4548514159327/",
+          "store": "薬のファインズファルマ楽天市場店",
+          "inboundShippingYen": 490,
+          "displayPoints": 9,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【医薬部外品】きき湯ファインヒート ほぐしオフ つめかえ用 500g",
+          "storeName": "Ｔ-富士薬品",
+          "jan": "4548514159327",
+          "priceYen": 965,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T16:14:20.735664+00:00",
+          "url": "https://item.rakuten.co.jp/fujiyaku/4548514159327/",
+          "store": "Ｔ-富士薬品",
+          "inboundShippingYen": 660,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【医薬部外品】きき湯ファインヒート ほぐしオフ つめかえ用 500g",
+          "storeName": "セイムスオンライン楽天市場店",
+          "jan": "4548514159327",
+          "priceYen": 965,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T16:14:31.311417+00:00",
+          "url": "https://item.rakuten.co.jp/seims-r/4548514159327/",
+          "store": "セイムスオンライン楽天市場店",
+          "inboundShippingYen": 660,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "アース製薬 バスクリン きき湯ファインヒート ほぐしオフ つめかえ用500g【医薬部外品】",
+          "storeName": "キリン堂通販SHOP",
+          "jan": "4548514159327",
+          "priceYen": 988,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T16:13:28.164395+00:00",
+          "url": "https://item.rakuten.co.jp/k-server/4548514159327/",
+          "store": "キリン堂通販SHOP",
+          "inboundShippingYen": 660,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "きき湯 ファインヒート ほぐしオフ つめかえ用(500g)【きき湯】",
+          "storeName": "楽天24",
+          "jan": "4548514159327",
+          "priceYen": 1007,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T16:14:41.849286+00:00",
+          "url": "https://item.rakuten.co.jp/rakuten24/4548514159327/",
+          "store": "楽天24",
+          "inboundShippingYen": 770,
+          "displayPoints": 9,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
+    },
+    "B0D9VBNTKL": {
+      "expectedEans": [
+        "4902201443784"
+      ],
+      "checkedPages": 8,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 20,
+      "rejected": {
+        "jan_missing": 2,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "ネスカフェ レギュラーソリュブルコーヒー360g　※ネコポス発送※",
+          "storeName": "24EXP",
+          "jan": "4902201443784",
+          "priceYen": 2939,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T15:58:55.716794+00:00",
+          "url": "https://item.rakuten.co.jp/24exp/b0d9vbntkl/",
+          "store": "24EXP",
+          "inboundShippingYen": 0,
+          "displayPoints": 27,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "（ネスカフェ エクセラ 360g レギュラーソリュブルコーヒー）粉 粉末 約180杯分 インスタント コーヒー ホット アイス カフェオレ パウダー 63858",
+          "storeName": "アイテンプ 楽天市場店",
+          "jan": "4902201443784",
+          "priceYen": 2940,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T15:59:06.259988+00:00",
+          "url": "https://item.rakuten.co.jp/i-temp/ico3047/",
+          "store": "アイテンプ 楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 27,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【 コストコ 】ネスカフェ エクセラレギュラーソリュブルコーヒー 360g",
+          "storeName": "E-COST",
+          "jan": "4902201443784",
+          "priceYen": 3180,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T15:58:45.214890+00:00",
+          "url": "https://item.rakuten.co.jp/gotochi/co63858/",
+          "store": "E-COST",
+          "inboundShippingYen": 0,
+          "displayPoints": 29,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ネスカフェ　エクセラ袋 360g（インスタントコーヒー）コストココーヒー",
+          "storeName": "goodmall",
+          "jan": "4902201443784",
+          "priceYen": 3348,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T15:59:16.883067+00:00",
+          "url": "https://item.rakuten.co.jp/goodmall/r63858/",
+          "store": "goodmall",
+          "inboundShippingYen": 0,
+          "displayPoints": 31,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ネスカフェ エクセラ レギュラー ソリュブル コーヒー 詰替 360g インスタントコーヒー 送料無料",
+          "storeName": "Manesus楽天市場店",
+          "jan": "4902201443784",
+          "priceYen": 3526,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T15:58:24.116984+00:00",
+          "url": "https://item.rakuten.co.jp/manesus/m39c7e29388/",
+          "store": "Manesus楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 32,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ネスカフェ エクセラ レギュラー ソリュブル コーヒー 詰替 360g インスタントコーヒー",
+          "storeName": "サンフラワーJapan",
+          "jan": "4902201443784",
+          "priceYen": 4362,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T15:58:13.480963+00:00",
+          "url": "https://item.rakuten.co.jp/sunflowerjapan/sunf596990a022/",
+          "store": "サンフラワーJapan",
+          "inboundShippingYen": 0,
+          "displayPoints": 39,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
+    },
+    "B08GC3ZF2M": {
+      "expectedEans": [
+        "4548514154506"
+      ],
+      "checkedPages": 8,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 50,
+      "rejected": {
+        "jan_missing": 5,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "【医薬部外品】きき湯 炭酸 入浴剤 ファインヒート レモングラス レモングラスの香りの 詰替え用 500グラム (x 1)",
+          "storeName": "morro",
+          "jan": "4548514154506",
+          "priceYen": 2251,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T16:17:34.263521+00:00",
+          "url": "https://item.rakuten.co.jp/morro/20251108000038_94/",
+          "store": "morro",
+          "inboundShippingYen": 0,
+          "displayPoints": 20,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【医薬部外品】きき湯 炭酸 入浴剤 ファインヒート レモングラス レモングラスの香りの 詰替え用 500グラム (x 1)",
+          "storeName": "AZUshopping",
+          "jan": "4548514154506",
+          "priceYen": 3240,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T16:17:55.379400+00:00",
+          "url": "https://item.rakuten.co.jp/azushopping/gr-e9tdrxfzqo/",
+          "store": "AZUshopping",
+          "inboundShippingYen": 0,
+          "displayPoints": 29,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【医薬部外品】きき湯 炭酸 入浴剤 ファインヒート レモングラス レモングラスの香りの 詰替え用 500グラム (X 1)",
+          "storeName": "天祥堂　楽天市場店",
+          "jan": "4548514154506",
+          "priceYen": 3286,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T16:18:05.837613+00:00",
+          "url": "https://item.rakuten.co.jp/tensyodo/gr-e9tdrxfzqo/",
+          "store": "天祥堂　楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 29,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
+    },
+    "B09DXRGTS8": {
+      "expectedEans": [
+        "4548514157163"
+      ],
+      "checkedPages": 8,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 36,
+      "rejected": {
+        "HTTPError": 1,
+        "jan_missing": 1,
+        "jan_mismatch": 4,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "きき湯ファインヒート 炭酸入浴剤 アクティブスイッチ つめかえ用 500g(約10~12回分) 超発泡タイプ バスクリン【医薬部外品】",
+          "storeName": "Raspberry Market",
+          "jan": "4548514157163",
+          "priceYen": 2666,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T16:18:47.895876+00:00",
+          "url": "https://item.rakuten.co.jp/raspberrymarket/gr-e90g3cd8vt/",
+          "store": "Raspberry Market",
+          "inboundShippingYen": 0,
+          "displayPoints": 24,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "きき湯ファインヒート 炭酸入浴剤 アクティブスイッチ つめかえ用 500g(約10~12回分) 超発泡タイプ バスクリン【医薬部外品】",
+          "storeName": "HiT Creations",
+          "jan": "4548514157163",
+          "priceYen": 2702,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T16:19:08.432781+00:00",
+          "url": "https://item.rakuten.co.jp/hitcreations/gr-e90g3cd8vt/",
+          "store": "HiT Creations",
+          "inboundShippingYen": 0,
+          "displayPoints": 24,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
+    }
+  },
+  "checkedAt": "2026-10-12T16:20:01.562015+00:00"
+}

@@ -23,6 +23,8 @@ def main():
     fee_source = read("fee_estimates.json")
     reference_fee_source = read("reference_fee_estimates.json")
     supplier_source = read("supplier_verified.json")
+    rakuten_supplier_source = read("supplier_verified_rakuten.json")
+    rakuten_search_source = read("supplier_discovery.json")
     search_source = read("supplier_search_results.json")
     fallback_source = read("supplier_search_fallback.json")
     offers = {}
@@ -64,8 +66,27 @@ def main():
             "inboundShippingYen": value["inboundShippingYen"],
             "checkedOn": value["checkedAt"][:10],
             "identity": f"JAN {value['jan']} / {value['name']}",
-            "note": "Yahoo!ショッピング商品ページの東京都向け単品表示。価格・在庫・送料は仕入時に再確認。",
+            "note": "Yahoo!ショッピング商品ページの東京都向け単品表示。価格・在庫・送料は仕入時に再確認。"
+                    + (f" 表示ポイント{value['displayPoints']}ptは条件未確認のため利益に含めず。" if value.get("displayPoints") else "")
+                    + (" 商品限定クーポンは適用条件未確認のため利益に含めず。" if value.get("couponMentioned") else ""),
         } for value in row.get("suppliers", []) if not is_multi_unit(value.get("name"))]
+    for asin, row in rakuten_supplier_source.get("items", {}).items():
+        if asin not in current_asins:
+            continue
+        suppliers.setdefault(asin, []).extend({
+            "name": f"楽天市場 / {value['name'].rsplit('｜', 1)[-1] if '｜' in value['name'] else value['store']}", "url": value["url"],
+            "priceYen": value["priceYen"],
+            "inboundShippingYen": value["inboundShippingYen"],
+            "checkedOn": value["checkedAt"][:10],
+            "identity": (f"JAN {value['jan']} / {value['name'].split('｜', 1)[0]}" if row.get("identifierSource") == "Keepa"
+                         else f"店舗間JAN一致 {value['jan']}（Amazon側未照合） / {value['name'].split('｜', 1)[0]}"),
+            "note": "楽天の商品ページでJAN・単品・価格・在庫を照合。東京都向け送料は同商品の検索結果表示。"
+                    + (" Amazon側のJANは未取得。商品名・容量と異なる店舗間のJAN一致による推定照合。" if row.get("identifierSource") != "Keepa" else "")
+                    + (f" 表示ポイント{value['displayPoints']}ptは利益に含めず。" if value.get("displayPoints") else "")
+                    + (" クーポンは条件・適用可否が未確認のため利益に含めず。" if value.get("couponMentioned") else ""),
+        } for value in row.get("suppliers", []) if not is_multi_unit(value.get("name")))
+    for rows in suppliers.values():
+        rows.sort(key=lambda value: value["priceYen"] + (value["inboundShippingYen"] if value["inboundShippingYen"] is not None else 999999))
     search_status = {}
     for asin in current_asins:
         row = search_source.get("items", {}).get(asin, {})
@@ -74,9 +95,12 @@ def main():
             "primaryHits": row.get("hitCount", 0),
             "fallbackHits": fallback_source.get("items", {}).get(asin, {}).get("hitCount", 0),
             "checkedPages": supplier_source.get("items", {}).get(asin, {}).get("checkedPages", 0),
+            "rakutenQueries": sum(query.get("market") == "rakuten" for query in rakuten_search_source.get("items", {}).get(asin, {}).get("queries", {}).values()),
+            "rakutenCheckedPages": rakuten_supplier_source.get("items", {}).get(asin, {}).get("checkedPages", 0),
+            "discoveredJan": (rakuten_supplier_source.get("items", {}).get(asin, {}).get("expectedEans") or [None])[0],
             "verified": bool(suppliers.get(asin)),
         }
-    payload = {"checkedAt": offer_source.get("checkedAt"), "source": "Amazon SP-API Product Pricing / Product Fees and direct Yahoo Shopping pages",
+    payload = {"checkedAt": offer_source.get("checkedAt"), "source": "Amazon SP-API Product Pricing / Product Fees and direct Yahoo/Rakuten Shopping pages",
                "offers": offers, "fees": fees, "referenceFees": reference_fees,
                "suppliers": suppliers, "supplierSearch": search_status}
     output = ROOT / "market_data.js"

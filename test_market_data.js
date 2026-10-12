@@ -29,7 +29,7 @@ for (const product of products) {
   assert.strictEqual(fee.shippingYen, offer.shippingYen, product.asin);
   assert.strictEqual(rawMfnFees[product.asin].totalFeeYen, rawMfnFees[product.asin].referralFeeYen, `MFN estimate contains an additional fee: ${product.asin}`);
   for (const supplier of market.suppliers[product.asin] || []) {
-    assert(supplier.identity.includes('JAN '), `supplier missing JAN: ${product.asin}`);
+    assert(/^(?:JAN \d{13}|店舗間JAN一致 \d{13}（Amazon側未照合）)/.test(supplier.identity), `supplier missing JAN evidence: ${product.asin}`);
     assert(supplier.priceYen >= 0, product.asin);
   }
 }
@@ -38,6 +38,10 @@ for (const asin of ['B0H7HRMFMR', 'B0GZDF7V69']) {
   assert.strictEqual(market.suppliers[asin]?.length, 0, `multi-unit supplier leaked into one-unit profit: ${asin}`);
   assert.strictEqual(market.supplierSearch[asin].verified, false, asin);
 }
+
+assert.strictEqual(sourcing.suppliers.B0GL6TYSJR[0].priceYen + sourcing.suppliers.B0GL6TYSJR[0].inboundShippingYen, 1520);
+assert(market.suppliers.B0DQDTBXJ7.some(supplier => supplier.identity.includes('Amazon側未照合')));
+assert.strictEqual(market.supplierSearch.B0DQDTBXJ7.discoveredJan, '4548514159327');
 
 for (const [asin, fee] of Object.entries(market.referenceFees)) {
   const offer = market.offers[asin];

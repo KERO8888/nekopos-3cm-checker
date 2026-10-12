@@ -1,6 +1,6 @@
 /* Prices are dated research snapshots, not live quotes or purchases. */
 window.NEKOPOST_SOURCING = {
-  checkedOn: '2026-10-11',
+  checkedOn: '2026-10-13',
   amazonPrices: {
     B09S3BRQJ1: { yen: 655, url: 'https://www.amazon.co.jp/dp/B09S3BRQJ1', checkedOn: '2026-10-06', note: 'Amazonの商品ページに表示された税込販売価格。実際の販売成立価格ではありません。' },
     B07BBMLGVJ: { yen: 453, url: 'https://www.amazon.co.jp/dp/B07BBMLGVJ', checkedOn: '2026-10-06', note: 'Amazonの商品ページに表示された税込販売価格。実際の販売成立価格ではありません。' },
@@ -45,6 +45,9 @@ window.NEKOPOST_SOURCING = {
     ],
     B0GZ4CP7BV: [
       { name: 'UMAMI LAB公式', url: 'https://comewo.official.ec/items/117249928', priceYen: 2916, inboundShippingYen: 660, checkedOn: '2026-10-11', identity: '生UMAMI 200g×1袋。メーカー公式の単品表示とAmazon商品名・容量を照合', note: '税込2,916円、国内送料全国一律660円。公式ページはパウチ形態も明記。価格と在庫は仕入時に再確認。' }
+    ],
+    B0GL6TYSJR: [
+      { name: 'アスクル', url: 'https://www.askul.co.jp/p/UK23489/', priceYen: 1080, inboundShippingYen: 440, checkedOn: '2026-10-13', identity: 'JAN 4901111832060 / AGF プロフェッショナル 珈琲屋さんのキャラメルラテ 500g×1袋', note: '商品ページでJAN・単品・税込価格・東京都向け在庫ありを確認。送料440円は法人向け2,000円未満の公式基本送料。個人会員は3,300円未満330円。注文画面で確定送料を要確認。ポイント・クーポンは未計上。' }
     ]
   }
 };
