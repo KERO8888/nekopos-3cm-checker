@@ -2357,6 +2357,76 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61VdRnpf4-L._AC_SL1254_.jpg",
       "reviewStatus": "hold_missing_three_dimensions",
       "reviewNote": "Amazon現行ページで掲載3辺寸法を確認できないため、登録条件の最小辺3cm超を確認できず保留。Keepaのパッケージ寸法だけでは商品袋の実寸や梱包後の厚みを断定できない。"
+    },
+    {
+      "asin": "B0HB9VCJL7",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0HB9VCJL7",
+      "title": "フランドリー (FLaundry) 洗濯ネット 美しさ続く やさしくキープネット おしゃれ着ネット 衣類が動きにくいキープシート しわ 型崩れ 毛玉 糸クズ 防止 ホームクリーニング 衝撃吸収 無蛍光 マシュマロメッシュ 立体 ニット セーター スラックス ロングスカート ランドリーネット ダイヤ Daiya 横42cm×縦17cm×底マチ10cm 058194",
+      "dimensions": [
+        {
+          "value": "21.8 x 18 x 4.2 cm",
+          "context": "品情報 詳細情報 色 ‎ホワイト(無蛍光生地) サイズ ‎キープネット通常 メーカー ‎ダイヤ 梱包サイズ ‎21.8 x 18 x 4.2 cm; 80 g 梱包重量 ‎0.08 キログラム 電池使用 ‎いいえ 登"
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51avRgyEoeL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_folded_depth_unverified",
+      "reviewNote": "Amazon現行ページは単品・梱包寸法の最小辺3cm超を確認。メーカー公表の本体奥行は約2cm、素材はポリエステル・厚さ約3mmのクッションメッシュ。ただし本体42/52cmが梱包時に半分へ折られ、厚みが4.2/4.5cmとなっている可能性がある。未開封のまま最大厚3cm以下へ押せる実証がなく、硬い引き手・キープシート部分もあるため登録保留。出典 https://www.daiya-idea.co.jp/housekeeping/2026/09/15/info_4901948581940/"
+    },
+    {
+      "asin": "B0HB9NBDDX",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0HB9NBDDX",
+      "title": "フランドリー (FLaundry) 洗濯ネット 美しさ続く やさしくキープネットワイド おしゃれ着ネット 衣類が動きにくいキープシート しわ 型崩れ 毛玉 糸クズ 防止 ホームクリーニング 衝撃吸収 無蛍光 マシュマロメッシュ 立体 ニット セーター スラックス ロングスカート ランドリーネット ダイヤ Daiya 横52cm×縦17cm×底マチ10cm 058195",
+      "dimensions": [
+        {
+          "value": "26.2 x 18 x 4.5 cm",
+          "context": "情報 詳細情報 色 ‎ホワイト(無蛍光生地) サイズ ‎キープネットワイド メーカー ‎ダイヤ 梱包サイズ ‎26.2 x 18 x 4.5 cm; 90 g 梱包重量 ‎0.09 キログラム 電池使用 ‎いいえ 登"
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51NnWe7AFML._AC_SL1500_.jpg",
+      "reviewStatus": "hold_folded_depth_unverified",
+      "reviewNote": "Amazon現行ページは単品・梱包寸法の最小辺3cm超を確認。メーカー公表の本体奥行は約2cm、素材はポリエステル・厚さ約3mmのクッションメッシュ。ただし本体42/52cmが梱包時に半分へ折られ、厚みが4.2/4.5cmとなっている可能性がある。未開封のまま最大厚3cm以下へ押せる実証がなく、硬い引き手・キープシート部分もあるため登録保留。出典 https://www.daiya-idea.co.jp/housekeeping/2026/09/15/info_4901948581940/"
+    },
+    {
+      "asin": "B083WMDC2P",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B083WMDC2P",
+      "title": "ダイヤ (Daiya) 洗濯ネット サボるん 手洗いのように洗える おしゃれ着 ネットスクエア 横34cm×縦25×高さ1.5cm 型崩れ 毛玉 糸クズ 防止 ホームクリーニング おしゃれ着洗い 衝撃吸収 マシュマロメッシュ シャツ ニット カーディガン ランドリーネット ドラム式 乾燥機 対応 057942",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61Lofu3+8LL._AC_SL1000_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "reviewNote": "Amazon現行ページで掲載3辺寸法を確認できない。Keepaのパッケージ寸法だけでは登録条件のAmazon掲載最小辺3cm超を満たしたと扱えない。"
+    },
+    {
+      "asin": "B0CDZX9R39",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0CDZX9R39",
+      "title": "フランドリー (FLaundry) 洗濯ネット サボるん まるで手洗い おしゃれ着ネット ボックス 横36×縦24×高さ10cm 型崩れ 毛玉 糸クズ 防止 おしゃれ着洗い ホームクリーニング 衝撃吸収 無蛍光 マシュマロメッシュ 立体 ニット セーター カーディガン ダウン ランドリーネット ダイヤ Daiya 058135",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51hbIiJ77kL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "reviewNote": "Amazon現行ページで掲載3辺寸法を確認できない。Keepaのパッケージ寸法だけでは登録条件のAmazon掲載最小辺3cm超を満たしたと扱えない。"
+    },
+    {
+      "asin": "B0CGD8HBY9",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0CGD8HBY9",
+      "title": "ダイヤ (Daiya) 洗濯ネット 大 両面 仕分け 横40cm×縦50cm 表と裏で洗濯物を仕分ける おしゃれ着 ニット スーツ シャツ 下着 小物 洗濯時の衝撃を和らげる クッションメッシュ 洗濯物を出し入れしやすい L字ファスナー ランドリーネット 057367",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71FGPPiJvQL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "reviewNote": "Amazon現行ページで掲載3辺寸法を確認できない。Keepaのパッケージ寸法だけでは登録条件のAmazon掲載最小辺3cm超を満たしたと扱えない。"
+    },
+    {
+      "asin": "B09SPKPKKL",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B09SPKPKKL",
+      "title": "ダイヤ (Daiya) 洗濯ネット 毛布用 特大 大 ガバっと開く洗濯ネット ランドリーネット 横60㎝×縦60㎝×マチ14cm 洗濯物を出し入れしやすい ダウン ジャケット 毛布 ワイシャツ 耐久 裏使いファスナー 乾燥機 057242",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71KfPZhdfdL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "reviewNote": "Amazon現行ページで掲載3辺寸法を確認できない。Keepaのパッケージ寸法だけでは登録条件のAmazon掲載最小辺3cm超を満たしたと扱えない。"
     }
   ]
 }
