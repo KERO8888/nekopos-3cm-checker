@@ -22,16 +22,23 @@ const context = {
   console,
 };
 vm.createContext(context);
-for (const file of ['data.js', 'predictions.js', 'shipping_fit.js', 'sourcing.js', 'market_data.js', 'finance.js']) {
+for (const file of ['data.js', 'predictions.js', 'shipping_fit.js', 'demo_measurements.js', 'sourcing.js', 'market_data.js', 'finance.js']) {
   vm.runInContext(fs.readFileSync(file, 'utf8'), context, { filename: file });
 }
 const app = fs.readFileSync('app.js', 'utf8');
-const ending = /  renderStats\(\);\s*syncProfitButtons\(\);\s*render\(\);\s*\}\)\(\);\s*$/;
+const ending = /  renderStats\(\);\s*syncProfitButtons\(\);\s*syncDemoButton\(\);\s*render\(\);\s*\}\)\(\);\s*$/;
 assert(ending.test(app), 'app bootstrap changed; inspect test harness');
-vm.runInContext(app.replace(ending, '  window.__profitTest = { profitStateFor, profitFor, purchaseCeilingFor, suppliersFor, supplierBadge, supplierDisplayName, supplierQuick, createCsv, renderStats, render, setProfitFilter(value) { profitFilter = value; } };\n})();'), context, { filename: 'app.js' });
+vm.runInContext(app.replace(ending, '  window.__profitTest = { profitStateFor, profitFor, purchaseCeilingFor, suppliersFor, supplierBadge, supplierDisplayName, supplierQuick, createCsv, renderStats, render, recordFor, demoWithin3Cm, setProfitFilter(value) { profitFilter = value; }, setDemoOnly(value) { demoOnly = value; profitFilter = value ? "all" : "candidate"; selectedAsin = demoMeasurements[0]?.asin || ""; } };\n})();'), context, { filename: 'app.js' });
 
 const products = context.window.NEKOPOST_PRODUCTS;
 const test = context.window.__profitTest;
+const demos = context.window.NEKOPOST_DEMO_MEASUREMENTS;
+assert.strictEqual(demos.length, 10);
+assert.strictEqual(new Set(demos.map(demo => demo.asin)).size, 10);
+assert(demos.every(demo => products.some(item => item.asin === demo.asin)));
+assert.strictEqual(demos.filter(test.demoWithin3Cm).length, 7);
+assert.strictEqual(demos.filter(demo => !test.demoWithin3Cm(demo)).length, 3);
+assert.strictEqual(Object.keys(test.recordFor(demos[0].asin)).length, 0, 'sample dimensions must not populate real measurements');
 for (const [url, key] of [
   ['https://item.rakuten.co.jp/shop/product/', 'rakuten'],
   ['https://store.shopping.yahoo.co.jp/shop/product.html', 'yahoo'],
@@ -90,6 +97,9 @@ function countCells(line) {
 for (const line of lines.slice(1)) assert.strictEqual(countCells(lines[0]), countCells(line));
 assert(lines[0].includes('利益区分'));
 test.renderStats();
+assert.strictEqual(element('#demoTotalCount').textContent, '10件 仮入力');
+assert.strictEqual(element('#demoWithinCount').textContent, 7);
+assert.strictEqual(element('#demoOverCount').textContent, 3);
 test.render();
 assert.strictEqual(element('#profitCandidateCount').textContent, counts.candidate || 0);
 assert.strictEqual(element('#profitReferenceCount').textContent, counts.reference || 0);
@@ -104,6 +114,15 @@ if (candidates.length) {
 }
 assert(element('#list').innerHTML.includes('candidate-source'));
 assert(element('#list').innerHTML.includes('supplier-platform-'));
+test.setDemoOnly(true);
+test.render();
+assert(element('#visibleCount').textContent.includes('/ 10件'));
+assert(element('#featured').innerHTML.includes('購入・実測の事実ではなく'));
+assert.strictEqual((element('#list').innerHTML.match(/data-select-asin=/g) || []).length, 10);
+assert.strictEqual((element('#list').innerHTML.match(/demo-row-badge within/g) || []).length, 7);
+assert.strictEqual((element('#list').innerHTML.match(/demo-row-badge over/g) || []).length, 3);
+test.setDemoOnly(false);
+test.render();
 assert.strictEqual((element('#list').innerHTML.match(/data-select-asin=/g) || []).length, Math.min(candidates.length, 20));
 test.setProfitFilter('sourcing');
 test.render();

@@ -11,10 +11,13 @@
   const market = window.NEKOPOST_MARKET || { offers: {}, fees: {}, referenceFees: {}, suppliers: {}, supplierSearch: {} };
   const research = window.NEKOPOST_RESEARCH_STATUS || {};
   const finance = window.NEKOPOST_FINANCE;
+  const demoMeasurements = window.NEKOPOST_DEMO_MEASUREMENTS || [];
+  const demoByAsin = new Map(demoMeasurements.map((sample, index) => [sample.asin, { ...sample, order: index }]));
   const storageKey = 'nekopos-candidates-v1';
   let visibleLimit = 20;
   let selectedAsin = products.some(item => item.asin === 'B0DQDTBXJ7') ? 'B0DQDTBXJ7' : '';
   let profitFilter = 'candidate';
+  let demoOnly = false;
   const verdictLabels = {
     likely: '3cm以内に収まりそう',
     borderline: '境界・情報不足',
@@ -31,6 +34,10 @@
   let records = {};
   try { records = JSON.parse(localStorage.getItem(storageKey) || '{}') || {}; } catch { records = {}; }
   const recordFor = asin => records[asin] || {};
+  const demoFor = asin => demoByAsin.get(asin);
+  const demoWithin3Cm = sample => sample.length >= 23 && sample.width >= 11.5 && sample.length <= 34
+    && sample.length + sample.width + sample.thickness <= 60 && sample.thickness <= 3 && sample.weight <= 1000;
+  const hasRealMeasurements = record => ['shipLength', 'shipWidth', 'thickness', 'shipWeight'].every(key => Number(record[key]) > 0);
   function saveRecords() {
     try { localStorage.setItem(storageKey, JSON.stringify(records)); }
     catch { alert('実測記録を保存できませんでした。CSVに書き出して控えてください。'); }
@@ -41,7 +48,13 @@
     return;
   }
 
-  const requestedAsin = new URLSearchParams(window.location?.search || '').get('asin');
+  const pageParams = new URLSearchParams(window.location?.search || '');
+  if (pageParams.get('demo') === '1') {
+    demoOnly = true;
+    profitFilter = 'all';
+    selectedAsin = demoMeasurements[0]?.asin || '';
+  }
+  const requestedAsin = pageParams.get('asin');
   if (requestedAsin && products.some(item => item.asin === requestedAsin)) {
     selectedAsin = requestedAsin;
     profitFilter = 'all';
@@ -60,6 +73,7 @@
   };
   function sortedProducts() {
     return [...products].sort((a, b) => {
+      if (demoOnly) return (demoFor(a.asin)?.order ?? Infinity) - (demoFor(b.asin)?.order ?? Infinity);
       const pa = predictions[a.asin];
       const pb = predictions[b.asin];
       if ($('#sortMode').value === 'profit') {
@@ -94,6 +108,10 @@
     $('#profitSourcingCount').textContent = states.filter(state => state === 'sourcing').length;
     $('#profitPriceMissingCount').textContent = states.filter(state => state === 'price_missing').length;
     $('#profitAllCount').textContent = products.length;
+    const registeredDemos = demoMeasurements.filter(sample => products.some(item => item.asin === sample.asin));
+    $('#demoTotalCount').textContent = `${registeredDemos.length}件 仮入力`;
+    $('#demoWithinCount').textContent = registeredDemos.filter(demoWithin3Cm).length;
+    $('#demoOverCount').textContent = registeredDemos.length - registeredDemos.filter(demoWithin3Cm).length;
   }
 
   function filteredProducts() {
@@ -113,6 +131,7 @@
         || (shippingFilter === 'over' && fit.nekopos.status === 'over' && fit.clickpost.status === 'over');
       return (!query || `${item.asin} ${item.title} ${item.category} ${prediction.material}`.toLowerCase().includes(query))
         && (profitFilter === 'all' || profitStateFor(item) === profitFilter)
+        && (!demoOnly || demoByAsin.has(item.asin))
         && (category === 'all' || item.category === category)
         && (dimension === 'all' || (dimension === 'confirmed') === item.sizeConfirmed)
         && (forecast === 'all' || forecast === prediction.verdict)
@@ -521,6 +540,7 @@
   function candidateRow(item) {
     const prediction = predictions[item.asin];
     const record = recordFor(item.asin);
+    const demo = demoFor(item.asin);
     const fit = fitFor(item);
     const imageUrl = imageFor(item.asin);
     const width = Number(record.pouchWidth) > 0 ? record.pouchWidth : prediction.assumedPouchCm[0];
@@ -543,7 +563,7 @@
     const image = imageUrl ? `<img src="${escapeHtml(imageUrl)}" alt="" loading="lazy" decoding="async"><span class="candidate-photo-fallback" hidden>画像なし</span>` : '<span class="candidate-photo-fallback">画像なし</span>';
     return `<button class="candidate-row ${selectedAsin === item.asin ? 'is-selected' : ''}" type="button" data-select-asin="${item.asin}" aria-pressed="${selectedAsin === item.asin}">
       <span class="candidate-thumb">${image}</span>
-      <span class="candidate-ident"><strong title="${escapeHtml(item.title)}">${escapeHtml(listTitle)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small><small class="candidate-profit ${state === 'price_risk' ? 'price-risk' : state}">${profitText}</small></span>
+      <span class="candidate-ident"><strong title="${escapeHtml(item.title)}">${escapeHtml(listTitle)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small>${demo ? `<span class="demo-row-badge ${demoWithin3Cm(demo) ? 'within' : 'over'}">仮入力 · ${demoWithin3Cm(demo) ? '3cm以内' : '3cm超'}</span>` : ''}${hasRealMeasurements(record) ? '<span class="real-row-badge">実測入力済み</span>' : ''}<small class="candidate-profit ${state === 'price_risk' ? 'price-risk' : state}">${profitText}</small></span>
       <span class="candidate-measures">${Number(record.pouchWidth) > 0 && Number(record.pouchHeight) > 0 || prediction.footprintSource === 'manufacturer' ? '袋' : '仮の袋面'} ${escapeHtml(width)}×${escapeHtml(length)} cm <span>厚さ ${escapeHtml(thickness)} cm</span></span>
       <span class="candidate-source ${supplier ? '' : 'unconfirmed'}" title="${supplier ? `仕入先 ${escapeHtml(supplier.name)}・仕入送料${sourceInbound === '' ? '未入力' : yen(Number(sourceInbound))}で試算` : '仕入先の単品価格は未確認'}">${supplier ? `${supplierBadge(supplier)}<span class="candidate-source-text">${escapeHtml(supplierDisplayName(supplier))} · ${sourceTotal == null ? '仕入額未入力' : yen(sourceTotal)}</span>` : '仕入先 未確認'}</span>
       <span class="candidate-verdict"><span class="pill ${shippingClasses[fit.nekopos.status]}"><b>ネコポス</b> ${shippingLabels[fit.nekopos.status]}</span><span class="pill ${shippingClasses[fit.clickpost.status]}"><b>クリックポスト</b> ${shippingLabels[fit.clickpost.status]}</span></span>
@@ -584,6 +604,18 @@
     return `<section class="supplier-quick" aria-label="仕入先の要約"><span class="supplier-quick-label">仕入先</span><a class="supplier-quick-name" href="${escapeHtml(supplier.url)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(supplier.name)}">${supplierBadge(supplier)}<span class="supplier-store-name">${escapeHtml(supplierDisplayName(supplier))} ↗</span></a><strong class="supplier-quick-cost">${total == null ? '入力待ち' : yen(total)}<small>${total == null ? '仕入額は未入力' : '利益計算上の仕入額・1点'}</small></strong><span class="supplier-quick-meta">商品 ${yen(supplier.priceYen)} · 利益計算の仕入送料 ${yen(Number(buyShipping) || 0)}<br>単品注文時の表示送料 ${supplier.inboundShippingYen == null ? '未確認' : yen(supplier.inboundShippingYen)}（未計上） · ${identity} · ${escapeHtml(supplier.checkedOn)}確認${edited ? ' · 利益は入力値で再計算' : ''}</span></section>`;
   }
 
+  function demoDetail(item) {
+    const demo = demoFor(item.asin);
+    if (!demo) return '';
+    const within = demoWithin3Cm(demo);
+    const position = Math.min(100, demo.thickness / 5 * 100);
+    return `<section class="demo-detail ${within ? 'within' : 'over'}" aria-label="仮入力した梱包サイズの表示例">
+      <div class="demo-detail-heading"><div><span class="demo-detail-kicker">検証サンプル ${String(demo.order + 1).padStart(2, '0')} / 10</span><h2>仮入力した梱包後サイズ</h2></div><span class="demo-detail-status">${within ? '3cm基準内の例' : '3cm基準超の例'}</span></div>
+      <div class="demo-detail-body"><div class="demo-detail-numbers"><strong>${demo.length}<small>長辺</small></strong><em>×</em><strong>${demo.width}<small>短辺</small></strong><em>×</em><strong class="demo-thickness">${demo.thickness.toFixed(1)}<small>最大厚</small></strong><span class="demo-unit">cm</span><span class="demo-weight">${demo.weight} g</span></div><div class="demo-ruler" aria-label="仮の最大厚${demo.thickness.toFixed(1)}cmと3cm線の比較"><div class="demo-ruler-track"><span class="demo-ruler-limit"></span><span class="demo-ruler-point" style="left:${position}%"></span></div><div class="demo-ruler-labels"><span>0</span><span>1</span><span>2</span><b>3cm</b><span>4</span><span>5</span></div></div></div>
+      <p>表示の確認用に置いた数値です。購入・実測の事実ではなく、上の配送判定や利益計算にも使っていません。現物を梱包した後、詳細の実測欄に入力してください。</p>
+    </section>`;
+  }
+
   function render() {
     const advancedAsin = $('#featured .advanced[open]')?.closest('[data-asin]')?.dataset.asin;
     const matched = filteredProducts();
@@ -591,9 +623,9 @@
     const selected = matched.find(item => item.asin === selectedAsin);
     const visible = matched.slice(0, visibleLimit);
     if (selected && !visible.some(item => item.asin === selectedAsin)) visible.unshift(selected);
-    $('#visibleCount').textContent = `${visible.length} / ${matched.length}件（${$('#sortMode').value === 'profit' ? '利益順' : '発送見込み順'}）`;
+    $('#visibleCount').textContent = `${visible.length} / ${matched.length}件（${demoOnly ? '仮入力サンプル' : $('#sortMode').value === 'profit' ? '利益順' : '発送見込み順'}）`;
     $('#list').innerHTML = visible.length ? visible.map(candidateRow).join('') : '<div class="empty">該当する候補がありません。検索・絞り込みを変更してください。</div>';
-    $('#featured').innerHTML = selected ? profitSpotlight(selected) + supplierQuick(selected) + card(selected) : '<div class="empty">該当商品がありません。利益の条件を変更してください。</div>';
+    $('#featured').innerHTML = selected ? demoDetail(selected) + profitSpotlight(selected) + supplierQuick(selected) + card(selected) : '<div class="empty">該当商品がありません。利益の条件を変更してください。</div>';
     if (selected && advancedAsin === selected.asin) $('#featured .advanced').open = true;
     $('#more').hidden = visible.length >= matched.length;
   }
@@ -691,14 +723,38 @@
     const button = event.target.closest('[data-profit-filter]');
     if (!button) return;
     profitFilter = button.dataset.profitFilter;
+    demoOnly = false;
+    syncDemoButton();
     visibleLimit = 20;
     syncProfitButtons();
+    render();
+  });
+  function syncDemoButton() {
+    $('#demoToggle').setAttribute('aria-pressed', String(demoOnly));
+    $('#demoToggle').textContent = demoOnly ? '検証サンプルを閉じる' : '仮入力した10件を見る →';
+  }
+  $('#demoToggle').addEventListener('click', () => {
+    demoOnly = !demoOnly;
+    if (demoOnly) {
+      profitFilter = 'all';
+      $('#search').value = '';
+      $('#category').value = 'all';
+      $('#dimension').value = 'all';
+      $('#forecast').value = 'all';
+      $('#shippingFilter').value = 'all';
+      selectedAsin = demoMeasurements[0]?.asin || '';
+    }
+    visibleLimit = 20;
+    syncProfitButtons();
+    syncDemoButton();
     render();
   });
   $('#sortMode').addEventListener('change', () => { visibleLimit = 20; render(); });
   document.querySelectorAll('[data-category-shortcut]').forEach(button => button.addEventListener('click', () => {
     const wanted = button.dataset.categoryShortcut;
     $('#category').value = [...$('#category').options].some(option => option.value === wanted) ? wanted : 'all';
+    demoOnly = false;
+    syncDemoButton();
     document.querySelectorAll('[data-category-shortcut]').forEach(tab => tab.classList.toggle('active', tab === button));
     visibleLimit = 20;
     render();
@@ -720,5 +776,6 @@
   document.querySelector('.side-nav a[href="#method"]')?.addEventListener('click', () => { $('#method').open = true; });
   renderStats();
   syncProfitButtons();
+  syncDemoButton();
   render();
 })();
