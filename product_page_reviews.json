@@ -2094,6 +2094,81 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/617JG97lNuL._AC_SL1000_.jpg",
       "reviewStatus": "hold_chunk_thickness_unverified",
       "reviewNote": "現行Amazonページは単品パウチ・掲載20.4×13.6×6.9cmと読める。450gの具入り汁物で、内容物を傷めず3cm以下にできる具体的根拠がないため保留。"
+    },
+    {
+      "asin": "B0DKC12LHF",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0DKC12LHF",
+      "title": "【大容量】ドンキ ごまにんにくMAX 詰め替え ふりかけ つめかえ ごま大蒜 ゴマニンニク ドンキホーテ 詰め替え MAX (ごまにんにくMAX詰め替え 単品)",
+      "dimensions": [
+        {
+          "value": "34 x 24 x 3.5 cm",
+          "context": "       :\n                                            ‎ 34 x 24 x 3.5 cm; 180 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71tDQZcWBDL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_inconsistent_or_unverified_geometry",
+      "reviewNote": "現行Amazonページに単品の柔らかい詰め替え袋と梱包寸法34×24×3.5cmを確認。写真は150g表示だが掲載重量は180gで、袋面実寸と発送外装の長辺34cm上限に余裕があるか不明。"
+    },
+    {
+      "asin": "B0D6C15KWL",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0D6C15KWL",
+      "title": "ドンキ ごまにんにく 詰め替え ふりかけ つめかえ ごま大蒜 ゴマニンニク ドンキホーテ 詰め替え (90ｇ, 1)",
+      "dimensions": [
+        {
+          "value": "30 x 20 x 3.5 cm",
+          "context": "       :\n                                            ‎ 30 x 20 x 3.5 cm; 1 kg メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51SS6E8BKJL._AC_SY300_SX300_QL70_ML2_.jpg",
+      "reviewStatus": "hold_inconsistent_or_unverified_geometry",
+      "reviewNote": "現行Amazonページに90g単品の柔らかい詰め替え袋と梱包寸法30×20×3.5cmを確認。ただし掲載重量1kgは内容量90gと不整合。袋面実寸と梱包後の最大厚・重量は未確認。"
+    },
+    {
+      "asin": "B0B39FT7CK",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0B39FT7CK",
+      "title": "乾燥納豆 180g×1袋 国産大豆100％ 無添加 フリーズドライ納豆 ひきわり ふりかけ スナック 常温長期保存 非常食 防災 食品 備蓄",
+      "dimensions": [
+        {
+          "value": "21.8 x 14.8 x 3.9 cm",
+          "context": "       :\n                                            ‎ 21.8 x 14.8 x 3.9 cm; 180 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61Em2oY+QHL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "reviewNote": "乾燥納豆・大豆の細片180g。写真で未開封の柔らかいチャック袋1つと細片を確認。Amazon掲載21.8×14.8×3.9cmは梱包寸法で、袋面・粒の最大厚・発送外装の実測値ではない。"
+    },
+    {
+      "asin": "B0FG2KW13J",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0FG2KW13J",
+      "title": "オーガランド (ogaland) フレ！フレ！プロテイン 200g ナチュマート",
+      "dimensions": [
+        {
+          "value": "27 x 16.9 x 3.2 cm",
+          "context": "       :\n                                            ‎ 27 x 16.9 x 3.2 cm; 230 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/613O2SFWNNL._AC_SL1000_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "reviewNote": "大豆の細片200g。写真で未開封の柔らかいチャック袋1つと細片を確認。Amazon掲載27×16.9×3.2cmは梱包寸法で、袋面・粒の最大厚・発送外装の実測値ではない。"
+    },
+    {
+      "asin": "B0BG4LS61D",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0BG4LS61D",
+      "title": "梅ボーイズ 【 無添加 国産 】 梅農家の紫蘇ふりかけ50g 梅漬けの赤紫蘇 紀州南高梅 ふりかけ 梅酢 お弁当 混ぜ込みご飯 赤紫蘇 シソ 梅干し",
+      "dimensions": [
+        {
+          "value": "13.5 x 11.5 x 3 cm",
+          "context": "       :\n                                            ‎ 13.5 x 11.5 x 3 cm; 50 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71D0JcCfsSL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_under_3cm_listed_product",
+      "reviewNote": "Amazon現行ページ掲載13.5×11.5×3cmは最小辺がちょうど3cmで、登録条件の3cm超を満たさない。"
     }
   ]
 }

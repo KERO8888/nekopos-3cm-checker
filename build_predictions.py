@@ -58,6 +58,7 @@ DENSITIES = {
     'ペット用細切りおやつ': (0.20, 0.50, None),
     '錠剤・カプセル': (0.45, 0.75, None),
     '食品粉末': (0.35, 0.65, None),
+    '食品の細片・粒': (0.25, 0.60, None),
     '紅茶葉': (0.25, 0.40, None),
     'ピートモス': (0.15, 0.40, 'peat_density'),
     '液体詰め替え': (0.95, 1.05, None),
@@ -95,6 +96,8 @@ GEOMETRY_OVERRIDES = {
 }
 
 SPECIAL = {
+    'B0B39FT7CK': ('borderline', 'ひきわり乾燥納豆の細片を1袋のまま広げる想定。袋面・粒の最大厚・発送外装は未測定。', '低'),
+    'B0FG2KW13J': ('borderline', '写真で確認した大豆の細片を1袋のまま広げる想定。袋面・粒の最大厚・発送外装は未測定。', '低'),
     'B079L4T8BS': ('borderline', '100g×4の内袋。2×2に配置すれば厚みを抑えられる可能性があるが、内袋寸法は未確認。', '低'),
     'B079L56FM7': ('borderline', '100g×4の内袋。外袋の表示寸法だけでは並べ方を決められない。', '低'),
     'B0H99J2F9T': ('borderline', '200gの袋が2つ。重ねず横に並べる前提で、1袋の厚みが境界付近。', '低'),
@@ -138,6 +141,7 @@ def dimensions_of(item):
 def material_of(item):
     asin = item['asin']
     title = item['title']
+    if asin in ('B0B39FT7CK', 'B0FG2KW13J'): return '食品の細片・粒'
     if asin in FISH_SINKING: return '沈下性の魚用粒'
     if asin in FISH_FLOATING: return '浮上性の魚用粒'
     if asin in SMALL_ANIMAL: return '小動物用の粒・穀類'
