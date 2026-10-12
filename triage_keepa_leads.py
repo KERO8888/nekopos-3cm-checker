@@ -25,8 +25,10 @@ POSITIVE = (
 NEGATIVE = (
     (r"ペット|犬用|猫用|ドッグ|キャット|観賞魚|肥料|培養土|園芸", -12, "対象外用途の可能性"),
     (r"空ボトル|詰替ボトル|ディスペンサー|専用容器|ポンプ|カートリッジ|プラスチックケース|瓶|缶", -7, "硬い容器の可能性"),
+    (r"本体\s*[+＋＆&]\s*詰|本体.{0,12}詰め替え|詰め替え.{0,12}本体|専用ケース付|容器付|計量スプーン付", -12, "硬い本体・付属品を含む可能性"),
     (r"セット|まとめ買い|\d+個組|\d+個セット|\d+袋セット|[×xX]\s*[2-9]\d*|[2-9]\d*\s*(?:袋|本|個|食)", -6, "複数単位の可能性"),
     (r"リングファイル|リングバインダー|パイプ式ファイル|レバー式ファイル|バインダー|クリップボード|ファイルボックス|ドキュメントボックス|ドキュメントスタンド|ジャバラ", -6, "厚い留め具・硬い部材の可能性"),
+    (r"タオルハンガー|タオル掛け|ハンガーバー|マグネット収納|ノズル付き|キャップ付き", -7, "硬い部材・注ぎ口の可能性"),
     (r"\d+ポケット|拡張式|スナップ式", -3, "複数仕切りや硬い留め具の可能性"),
     (r"両面テープ|マスキングテープ|セロハンテープ|ガムテープ|養生テープ", -4, "巻き芯やロールの厚みが残る可能性"),
 )
@@ -63,9 +65,34 @@ def batches(items, size):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--source-contains", required=True, help="発見経路の一部。例: category=1153734051")
+    parser.add_argument("--source-contains", help="発見経路の一部。例: category=1153734051")
     parser.add_argument("--limit", type=int, default=20, help="この実行で商品情報を取得するASIN数")
+    parser.add_argument("--rescore-cached", action="store_true", help="取得済みの商品名・寸法だけで確認順を再計算する。APIは使わない")
     args = parser.parse_args()
+    if args.rescore_cached:
+        progress = json.loads(PROGRESS.read_text())
+        updated = 0
+        for row in progress["discovered"]:
+            if not row.get("keepaMetadataCheckedAt"):
+                continue
+            dimensions = row.get("keepaPackageMm") or []
+            product = {
+                "title": row.get("keepaTitle") or "",
+                "packageWeight": row.get("keepaPackageWeightG"),
+                "numberOfItems": row.get("keepaNumberOfItems"),
+            }
+            for axis, value in zip(("Height", "Width", "Length"), dimensions):
+                product[f"package{axis}"] = value
+            score, tags = score_product(product)
+            if row.get("triageScore") != score or row.get("triageTags") != tags:
+                row["triageScore"], row["triageTags"] = score, tags
+                updated += 1
+        if updated:
+            save(progress)
+        print(f"取得済み商品情報の確認順を再計算: {updated}件更新")
+        return 0
+    if not args.source_contains:
+        parser.error("source-contains を指定してください")
     if not 1 <= args.limit <= 300:
         parser.error("limit は1〜300")
     key = keepa_key()
