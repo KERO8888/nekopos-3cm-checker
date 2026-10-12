@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-12T19:36:20.069258+00:00",
+  "checkedAt": "2026-10-12T20:41:57.452508+00:00",
   "source": "Yahoo Shopping direct product pages, displayed Tokyo shipping",
   "scope": "Only pages with matching JAN and single-unit wording are verified; availability and prices can change.",
   "items": {
@@ -4479,6 +4479,333 @@
       "checkedPages": 12,
       "status": "unverified",
       "suppliers": []
+    },
+    "B0CW85BJCN": {
+      "expectedEans": [
+        "4946842650736"
+      ],
+      "checkedPages": 12,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "ディアナチュラ カルシウム・マグネシウム・亜鉛・ビタミンD 540粒(90日分) アサヒ サプリ Dear-Natura 国内工場で生産 パウチ",
+          "store": "NACIO LIFE",
+          "url": "https://store.shopping.yahoo.co.jp/nacio-life/no-bece966204.html",
+          "jan": "4946842650736",
+          "priceYen": 3282,
+          "inboundShippingYen": 0,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 119,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:34:13.577055+00:00"
+        }
+      ]
+    },
+    "B09TPDFVLS": {
+      "expectedEans": [
+        "4902705056053"
+      ],
+      "checkedPages": 12,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "訳アリ品 賞味期限 2027/01/01 明治ミラフル 粉末飲料 ストロベリー風味 75g (約10杯分) (1個)",
+          "store": "NicoBase Yahoo!店",
+          "url": "https://store.shopping.yahoo.co.jp/nicobase/se-4902705056053.html",
+          "jan": "4902705056053",
+          "priceYen": 521,
+          "inboundShippingYen": 0,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 17,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:37.621191+00:00"
+        },
+        {
+          "name": "2980円以上で注文可能  明治ミラフル 粉末飲料 ストロベリー風味 75g (約10杯分) (1個)",
+          "store": "みんなのお薬MAX(みんなのお薬)",
+          "url": "https://store.shopping.yahoo.co.jp/minoku-max/1758946774-1-b.html",
+          "jan": "4902705056053",
+          "priceYen": 522,
+          "inboundShippingYen": 0,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 18,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:38.355345+00:00"
+        },
+        {
+          "name": "明治ミラフル 粉末飲料 ストロベリー風味 75g (約10杯分) (1個)",
+          "store": "みんなのお薬バリュープライス(みんなのお薬)",
+          "url": "https://store.shopping.yahoo.co.jp/minoku-value/1758946774-1-e.html",
+          "jan": "4902705056053",
+          "priceYen": 401,
+          "inboundShippingYen": 250,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 14,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:30.572944+00:00"
+        },
+        {
+          "name": "明治 ミラフル ストロベリー風味 こども育てるえいよう 75g 約10杯分 DHA 鉄 亜鉛 カルシウム ビタミンD",
+          "store": "SG Line ヤフー店",
+          "url": "https://store.shopping.yahoo.co.jp/sgline/meiji-mirafuru-strawberry.html",
+          "jan": "4902705056053",
+          "priceYen": 786,
+          "inboundShippingYen": 0,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 28,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:40.011150+00:00"
+        },
+        {
+          "name": "明治 ミラフル粉末飲料 ストロベリー 75g",
+          "store": "あきばおー ヤフーショップ",
+          "url": "https://store.shopping.yahoo.co.jp/akibaoo/4902705056053.html",
+          "jan": "4902705056053",
+          "priceYen": 403,
+          "inboundShippingYen": 600,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 14,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:31.408838+00:00"
+        },
+        {
+          "name": "「明治」　明治ミラフル 粉末飲料 ストロベリー風味　75g",
+          "store": "くすりのエビス",
+          "url": "https://store.shopping.yahoo.co.jp/fines-f/4902705056053.html",
+          "jan": "4902705056053",
+          "priceYen": 473,
+          "inboundShippingYen": 550,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 16,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:33.194248+00:00"
+        },
+        {
+          "name": "「明治」　明治ミラフル 粉末飲料 ストロベリー風味　75g",
+          "store": "薬のファインズファルマ",
+          "url": "https://store.shopping.yahoo.co.jp/finespharma/4902705056053.html",
+          "jan": "4902705056053",
+          "priceYen": 477,
+          "inboundShippingYen": 550,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 17,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:34.018990+00:00"
+        },
+        {
+          "name": "明治　ミラフル　粉末飲料　ストロベリー風味　75g",
+          "store": "くすりのレデイハートショップ",
+          "url": "https://store.shopping.yahoo.co.jp/ladydrugheartshop/4902705056053.html",
+          "jan": "4902705056053",
+          "priceYen": 447,
+          "inboundShippingYen": 598,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 16,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:32.235440+00:00"
+        },
+        {
+          "name": "明治　明治ミラフル 粉末飲料 ストロベリー風味 75g ミラフル　",
+          "store": "コジマYahoo!店",
+          "url": "https://store.shopping.yahoo.co.jp/y-kojima/4902705056053.html",
+          "jan": "4902705056053",
+          "priceYen": 502,
+          "inboundShippingYen": 550,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 17,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:36.784126+00:00"
+        },
+        {
+          "name": "明治ミラフル 粉末飲料 こども育てるえいよう ストロベリー風味 75g",
+          "store": "くすりの勉強堂",
+          "url": "https://store.shopping.yahoo.co.jp/benkyoudou/cs-4902705056053-yk.html",
+          "jan": "4902705056053",
+          "priceYen": 500,
+          "inboundShippingYen": 600,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 17,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:34.768315+00:00"
+        },
+        {
+          "name": "明治ミラフル 粉末飲料 こども育てるえいよう ストロベリー風味 75g",
+          "store": "くすりの勉強堂 アネックス",
+          "url": "https://store.shopping.yahoo.co.jp/benkyoannexx/cs-4902705056053-yk.html",
+          "jan": "4902705056053",
+          "priceYen": 500,
+          "inboundShippingYen": 600,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 17,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:35.779234+00:00"
+        },
+        {
+          "name": "明治ミラフル 粉末飲料 ストロベリー風味(75g) 約10杯分 鉄 亜鉛 カルシウム ビタミンD DHA  子供 幼児 栄養飲料",
+          "store": "マイドラ生活総合館",
+          "url": "https://store.shopping.yahoo.co.jp/maidora/4902705056053.html",
+          "jan": "4902705056053",
+          "priceYen": 706,
+          "inboundShippingYen": 600,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 25,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:39.197584+00:00"
+        }
+      ]
+    },
+    "B013Q9OZW0": {
+      "expectedEans": [
+        "4901001274574"
+      ],
+      "checkedPages": 12,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "味の素 丸鶏がらスープ 110g",
+          "store": "Kichibei店",
+          "url": "https://store.shopping.yahoo.co.jp/kichibei-2255/kichibeid5e6a73e28.html",
+          "jan": "4901001274574",
+          "priceYen": 516,
+          "inboundShippingYen": 0,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 17,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:51.860192+00:00"
+        },
+        {
+          "name": "味の素 丸鶏がらスープ 110g",
+          "store": "たまり堂",
+          "url": "https://store.shopping.yahoo.co.jp/tamari-do/lia5357eb4ca.html",
+          "jan": "4901001274574",
+          "priceYen": 582,
+          "inboundShippingYen": 0,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 20,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:53.423634+00:00"
+        },
+        {
+          "name": "味の素 丸鶏がらスープ 110g",
+          "store": "FREE-Store",
+          "url": "https://store.shopping.yahoo.co.jp/free-store78/f2ca5d204a2.html",
+          "jan": "4901001274574",
+          "priceYen": 587,
+          "inboundShippingYen": 0,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 20,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:54.196665+00:00"
+        },
+        {
+          "name": "(味の素)丸鶏がらスープ 110g",
+          "store": "ザグザグ通販プレミアム ヤフー店",
+          "url": "https://store.shopping.yahoo.co.jp/zagzag/4901001274574.html",
+          "jan": "4901001274574",
+          "priceYen": 470,
+          "inboundShippingYen": 250,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 16,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:50.244883+00:00"
+        },
+        {
+          "name": "味の素 味の素KK 丸鶏がらスープ 袋110g 出汁 だし 調味料 油 食品",
+          "store": "JetPrice",
+          "url": "https://store.shopping.yahoo.co.jp/jetprice/b18669.html",
+          "jan": "4901001274574",
+          "priceYen": 446,
+          "inboundShippingYen": 590,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 16,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:49.417408+00:00"
+        },
+        {
+          "name": "丸鶏がらスープ　袋　110g※取り寄せ商品　返品不可",
+          "store": "くすりのレデイハートショップ",
+          "url": "https://store.shopping.yahoo.co.jp/ladydrugheartshop/4901001274574.html",
+          "jan": "4901001274574",
+          "priceYen": 445,
+          "inboundShippingYen": 598,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 16,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:47.814139+00:00"
+        },
+        {
+          "name": "丸鶏がらスープ　袋　110g※取り寄せ商品　返品不可",
+          "store": "くすりのレデイ羽島Yahoo!店",
+          "url": "https://store.shopping.yahoo.co.jp/ladykouda/4901001274574.html",
+          "jan": "4901001274574",
+          "priceYen": 445,
+          "inboundShippingYen": 605,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 16,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:48.689296+00:00"
+        },
+        {
+          "name": "味の素 味の素KK 丸鶏がらスープ 袋110g 出汁 だし 調味料 油 食品",
+          "store": "ココデカウ",
+          "url": "https://store.shopping.yahoo.co.jp/cocodecow/537797.html",
+          "jan": "4901001274574",
+          "priceYen": 535,
+          "inboundShippingYen": 590,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 18,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:52.594927+00:00"
+        },
+        {
+          "name": "味の素 丸鶏がらスープ 袋 (110g) 調味料",
+          "store": "SCB",
+          "url": "https://store.shopping.yahoo.co.jp/scbmitsuokun1972/4901001274574.html",
+          "jan": "4901001274574",
+          "priceYen": 501,
+          "inboundShippingYen": 660,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 17,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:51.077362+00:00"
+        },
+        {
+          "name": "味の素 丸鶏がらスープ 110g",
+          "store": "RELAXI",
+          "url": "https://store.shopping.yahoo.co.jp/signallyjapan-y/b013q9ozw0.html",
+          "jan": "4901001274574",
+          "priceYen": 1291,
+          "inboundShippingYen": 0,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 46,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:55.145607+00:00"
+        },
+        {
+          "name": "味の素 丸鶏がらスープ 110g",
+          "store": "Smart Plus Store",
+          "url": "https://store.shopping.yahoo.co.jp/smartplus-store/b013q9ozw0.html",
+          "jan": "4901001274574",
+          "priceYen": 2130,
+          "inboundShippingYen": 0,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 77,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:56.200888+00:00"
+        },
+        {
+          "name": "味の素 丸鶏がらスープ 110g",
+          "store": "PASSIONEヤフー店",
+          "url": "https://store.shopping.yahoo.co.jp/jo-5butya/b013q9ozw0.html",
+          "jan": "4901001274574",
+          "priceYen": 2130,
+          "inboundShippingYen": 0,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 77,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T20:41:57.146944+00:00"
+        }
+      ]
     }
   }
 }

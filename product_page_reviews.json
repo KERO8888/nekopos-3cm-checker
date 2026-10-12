@@ -3318,6 +3318,293 @@
       "reviewStatus": "excluded_rigid_cap_or_spout",
       "decisionReason": "商品写真の上部に硬いねじ式キャップがある。",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0CW85BJCN",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CW85BJCN",
+      "title": "【EC限定】ディアナチュラ カルシウム・マグネシウム・亜鉛・ビタミンD 540粒(90日分) アサヒ サプリ Dear-Natura 国内工場で生産 パウチ",
+      "dimensions": [
+        {
+          "value": "20.5 x 11.8 x 4.2 cm",
+          "context": "       :\n                                            ‎ 20.5 x 11.8 x 4.2 cm; 200 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71EM7U55SbL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページで単品の柔らかいパウチ・掲載最小辺4.2cmを確認。ボトルは袋の印刷。錠剤を袋内で広げれば3cm以下の可能性があるが局所最大厚は未測定。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0CGWZ5J6H",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CGWZ5J6H",
+      "title": "【EC限定】【 アサヒ 】スーパービール酵母Z 亜鉛&マカ 黒にんにく 900粒 60日分 亜鉛11㎎ マカエキス末 150mg サプリ パウチ 国内工場で生産",
+      "dimensions": [
+        {
+          "value": "15.4 x 12.3 x 4.4 cm",
+          "context": "       :\n                                            ‎ 15.4 x 12.3 x 4.4 cm; 260 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/616CyazPv+L._AC_SL1500_.jpg",
+      "reviewStatus": "hold_flattened_max_thickness_unverified",
+      "decisionReason": "900粒・掲載重量260gの袋。袋面が比較的小さく、錠剤を均しても3cm以下となる具体的根拠が不足。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B07GSD97L2",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B07GSD97L2",
+      "title": "ディアナチュラ ビタミンC・亜鉛・乳酸菌・ビタミンB2・ビタミンB6 120粒 (60日分) アサヒ サプリ Dear-Natura 国内工場で生産 1日2粒目安 パウチ",
+      "dimensions": [
+        {
+          "value": "10.8 x 4.8 x 4.7 cm",
+          "context": "       :\n                                            ‎ 10.8 x 4.8 x 4.7 cm; 100 g メーカー\n                      "
+        },
+        {
+          "value": "10.8 x 4.8 x 4.7 cm",
+          "context": "商品情報 詳細情報 梱包サイズ ‎10.8 x 4.8 x 4.7 cm; 100 g 対象年齢 ‎大人 対象性別 ‎ユニセックス 色 ‎ブラ"
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71WqCTfgJPL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazonの商品名にパウチとあるが、現行の主画像は硬いプラスチックボトル。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B08YFP2BVH",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B08YFP2BVH",
+      "title": "【EC限定】ディアナチュラスタイル EPA×DHA+ナットウキナーゼ 360粒(90日) アサヒ サプリ Dear-Natura 国内工場で生産 パウチ ビタミンE 必須脂肪酸EPA",
+      "dimensions": [
+        {
+          "value": "16.6 x 11.6 x 3.3 cm",
+          "context": "       :\n                                            ‎ 16.6 x 11.6 x 3.3 cm; 220 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71D3lFqfD2L._AC_SL1500_.jpg",
+      "reviewStatus": "hold_flattened_max_thickness_unverified",
+      "decisionReason": "360粒・掲載重量220gのカプセル入り袋。局所的な重なりと3cm以内の最大厚が未確認。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0B14DRVXF",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0B14DRVXF",
+      "title": "ディアナチュラ ビタミンD 60粒(60日分) アサヒ サプリ Dear-Natura 国内工場で生産 パウチ 1日1粒目安",
+      "dimensions": [
+        {
+          "value": "8.9 x 4.1 x 4 cm",
+          "context": "       :\n                                            ‎ 8.9 x 4.1 x 4 cm; 30 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/7128kUCnqCL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazonの商品名にパウチとあるが、現行の主画像は硬いプラスチックボトル。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DTP68RCG",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DTP68RCG",
+      "title": "ディアナチュラスタイル 35種の国産野菜＋1日不足分のビタミン 240粒(60日分) アサヒ サプリ Dear-Natura 国内工場で生産 パウチ",
+      "dimensions": [
+        {
+          "value": "13.7 x 10.5 x 2.4 cm",
+          "context": "       :\n                                            ‎ 13.7 x 10.5 x 2.4 cm; 70 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81ZApLQN7cL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページの掲載3辺最小辺は2.4cmで、厳密な登録条件の3cm超を満たさない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B001KPOARS",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B001KPOARS",
+      "title": "ポカリスエット 大塚製薬 粉末 大容量 パウダー (660g)10L用×1袋",
+      "dimensions": [
+        {
+          "value": "13.9 x 9.2 x 7.9 cm",
+          "context": "       :\n                                            ‎ 13.9 x 9.2 x 7.9 cm; 690 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61AcJq2iA+L._AC_SL1000_.jpg",
+      "reviewStatus": "hold_flattened_max_thickness_unverified",
+      "decisionReason": "660gの粉末が箱形状の包装で、袋面が小さく3cm以下に均せる根拠がない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B00EUS7OZW",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B00EUS7OZW",
+      "title": "千年前の食品舎 だし&栄養スープ 500g",
+      "dimensions": [
+        {
+          "value": "9.7 x 28.91 x 17.3 cm",
+          "context": "       :\n                                            ‎ 9.7 x 28.91 x 17.3 cm; 500 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51ImcmUT45L._AC_SL1037_.jpg",
+      "reviewStatus": "hold_flattened_max_thickness_unverified",
+      "decisionReason": "柔らかい500gの粉末袋だが、袋面を掲載梱包寸法から仮定すると厚さ上限が3cmを超える。実際の袋面と最大厚が不明。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B091KGHBZF",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B091KGHBZF",
+      "title": "by Amazon 鶏がらスープ 500g",
+      "dimensions": [
+        {
+          "value": "17.2 x 9.2 x 9.2 cm",
+          "context": "       :\n                                            ‎ 17.2 x 9.2 x 9.2 cm; 500 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81rtzIZbj6L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "主画像が硬い瓶容器。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B09TPDFVLS",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B09TPDFVLS",
+      "title": "明治ミラフル こども育てるえいよう ストロベリー風味(約10杯分) 粉末飲料",
+      "dimensions": [
+        {
+          "value": "16.1 x 13.1 x 3.7 cm",
+          "context": "       :\n                                            ‎ 16.1 x 13.1 x 3.7 cm; 80 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/814Vg++c3AL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページで柔らかい単品袋・掲載最小辺3cm超を確認。粉末・顆粒を袋内でならせば3cm以下の可能性があるが、商品袋と梱包後の最大厚は未実測。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B07YC4399P",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B07YC4399P",
+      "title": "天然ペプチドリップ だし&栄養スープ 500g",
+      "dimensions": [
+        {
+          "value": "28.7 x 18 x 6.3 cm",
+          "context": "       :\n                                            ‎ 28.7 x 18 x 6.3 cm; 500 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/41E53LY4rqL._AC_SY300_SX300_QL70_ML2_.jpg",
+      "reviewStatus": "hold_flattened_max_thickness_unverified",
+      "decisionReason": "柔らかい500gの粉末袋だが、袋面を掲載梱包寸法から仮定すると厚さ上限が3cmを超える。実際の袋面と最大厚が不明。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0BYD5GW2F",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0BYD5GW2F",
+      "title": "【源蔵屋】 1食分約15kcal！ とろりんスープ昆布と海藻 オートミール プラス プレーン［約50杯分］300g×1袋 ダイエット 即席スープ",
+      "dimensions": [
+        {
+          "value": "32 x 24 x 2.5 cm",
+          "context": "       :\n                                            ‎ 32 x 24 x 2.5 cm; 300 g ASIN\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61BrGtYvlPL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページの掲載3辺最小辺2.5cm。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DMXDPS9Y",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DMXDPS9Y",
+      "title": "【源蔵屋】 1食分約15kcal！ とろりんスープ昆布と海藻 オートミール プラス プレーン［約20杯分］120g×1袋 ダイエット 即席スープ",
+      "dimensions": [
+        {
+          "value": "18 x 20 x 2.7 cm",
+          "context": "       :\n                                            ‎ 18 x 20 x 2.7 cm; 120 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61VP8XmzsZL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページの掲載3辺最小辺2.7cm。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0BPXB21Z8",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0BPXB21Z8",
+      "title": "奄美自然食本舗 粉黒糖 230g 国産 粉末 黒砂糖 黒糖 ブラウンシュガー 1袋",
+      "dimensions": [
+        {
+          "value": "20 x 18 x 3 cm",
+          "context": "       :\n                                            ‎ 20 x 18 x 3 cm; 480 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61wOg4xcTtL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページの掲載3辺最小辺がちょうど3cmで、3cm超ではない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0BYD68NFJ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0BYD68NFJ",
+      "title": "【源蔵屋】 1食分約15kcal！ とろりんスープ昆布と海藻 オートミール プラス うめ味［約50杯分］300g×1袋 ダイエット 即席スープ",
+      "dimensions": [
+        {
+          "value": "31.2 x 23 x 2 cm",
+          "context": "       :\n                                            ‎ 31.2 x 23 x 2 cm; 300 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61smjPjyEqL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページの掲載3辺最小辺2cm。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B000KT91CE",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B000KT91CE",
+      "title": "伊藤園 おーいお茶 抹茶入り緑茶 粉末 40g チャック付き袋タイプ",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81nbKhsvX4L._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "decisionReason": "Amazon現行ページで掲載3辺寸法を確認できず、登録条件の最小辺3cm超を検証できない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B074KW19F4",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B074KW19F4",
+      "title": "ヘルシーカンパニー オーガニック 有機栽培 生姜パウダー100ｇ （乾燥 粉末 しょうが ウルトラ生姜）国内製造 日本製",
+      "dimensions": [
+        {
+          "value": "22 x 1 x 14 cm",
+          "context": "       :\n                                            ‎ 22 x 1 x 14 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/610BsmTeaeL._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページの掲載3辺最小辺1cm。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B013Q9OZW0",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B013Q9OZW0",
+      "title": "味の素 丸鶏がらスープ 110g",
+      "dimensions": [
+        {
+          "value": "6.6 x 13 x 18 cm",
+          "context": "       :\n                                            ‎ 6.6 x 13 x 18 cm; 110.56 g メーカー\n                   "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71CEgODex6L._AC_SL1280_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページで柔らかい単品袋・掲載最小辺3cm超を確認。粉末・顆粒を袋内でならせば3cm以下の可能性があるが、商品袋と梱包後の最大厚は未実測。",
+      "decidedOn": "2026-10-13"
     }
   ]
 }

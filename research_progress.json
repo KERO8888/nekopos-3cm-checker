@@ -132,7 +132,7 @@
     "ココア 粉末 詰め替え 袋 200g"
   ],
   "discoveredCount": 63872,
-  "addedCount": 88,
+  "addedCount": 91,
   "discovered": [
     {
       "asin": "B0CDPF8BKZ",
@@ -18992,7 +18992,7 @@
       "queries": [
         "サプリメント パウチ 60粒"
       ],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=パウチ"
       ],
@@ -19038,7 +19038,7 @@
       "queries": [
         "サプリメント パウチ 60粒"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ"
       ],
@@ -19098,7 +19098,7 @@
       "queries": [
         "サプリメント パウチ 60粒"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
@@ -19412,7 +19412,7 @@
       "queries": [
         "サプリメント パウチ 60粒"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ"
       ],
@@ -19577,7 +19577,7 @@
       "queries": [
         "サプリメント パウチ 60粒"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ"
       ],
@@ -19728,7 +19728,7 @@
       "queries": [
         "サプリメント パウチ 60粒"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ"
       ],
@@ -44607,7 +44607,7 @@
       "queries": [
         "スープ 粉末 詰め替え 袋 300g"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=スープ root=57239051 side>=0mm"
       ],
@@ -195415,7 +195415,7 @@
     {
       "asin": "B001KPOARS",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -195761,7 +195761,7 @@
     {
       "asin": "B00EUS7OZW",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=スープ root=57239051 side>=0mm"
@@ -197534,7 +197534,7 @@
     {
       "asin": "B000KT91CE",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -197694,7 +197694,7 @@
     {
       "asin": "B091KGHBZF",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=スープ root=57239051 side>=0mm"
@@ -197733,7 +197733,7 @@
     {
       "asin": "B09TPDFVLS",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -197913,7 +197913,7 @@
     {
       "asin": "B074KW19F4",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -201064,7 +201064,7 @@
     {
       "asin": "B013Q9OZW0",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=スープ root=57239051 side>=0mm"
@@ -202871,7 +202871,7 @@
     {
       "asin": "B0BYD5GW2F",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=スープ root=57239051 side>=0mm"
@@ -203158,7 +203158,7 @@
     {
       "asin": "B0DMXDPS9Y",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=スープ root=57239051 side>=0mm"
@@ -203799,7 +203799,7 @@
     {
       "asin": "B0BPXB21Z8",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -209515,7 +209515,7 @@
     {
       "asin": "B07YC4399P",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=スープ root=57239051 side>=0mm"
@@ -548097,7 +548097,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 640,
+  "fetchedProductPageCount": 658,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -552265,6 +552265,42 @@
       "pagesChecked": 9,
       "added": 3,
       "unverifiedRange": "Amazon現行ページ9件を個別判定。3件登録、5件除外、1件は具の最大厚未確認で保留。登録商品の梱包後厚さ・重量は未実測。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: Keepa title=パウチ由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0CW85BJCN",
+        "B0CGWZ5J6H",
+        "B07GSD97L2",
+        "B08YFP2BVH",
+        "B0B14DRVXF",
+        "B0DTP68RCG"
+      ],
+      "pagesChecked": 6,
+      "added": 1,
+      "unverifiedRange": "Amazon現行ページ6件の単品・形状・掲載3辺を個別判定。1件登録、3件除外、2件は錠剤やカプセルの最大厚不明で保留。登録品の梱包後最大厚・重量は未実測。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: Keepa由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B001KPOARS",
+        "B00EUS7OZW",
+        "B091KGHBZF",
+        "B09TPDFVLS",
+        "B07YC4399P",
+        "B0BYD5GW2F",
+        "B0DMXDPS9Y",
+        "B0BPXB21Z8",
+        "B0BYD68NFJ",
+        "B000KT91CE",
+        "B074KW19F4",
+        "B013Q9OZW0"
+      ],
+      "pagesChecked": 12,
+      "added": 2,
+      "unverifiedRange": "Amazon現行ページ12件を判定。粉末・顆粒の柔らかい単品袋2件を登録、瓶容器や掲載最小辺3cm以下など6件を除外、500gの厚さ等4件は保留。登録品の梱包後最大厚・重量は未実測。"
     }
   ],
   "searchStops": [

@@ -44,7 +44,7 @@ INSTANT = set('B07NLBWGTJ B0983G1QTC B08VT9LBLW B0DVSBJMXM B0D9VBNTKL B0DWD4994X
 BEANS = set('B07CNRNKT5 B07CPSSL44 B0G3PJK8K5'.split())
 GROUND = set('B0GTQCZ9V3 B00I59U9G8'.split())
 KIKIYU = set('B0HB4CZY87 B0HB4FNC4B B08GC3ZF2M B08GCBL7BD B0DQDTBXJ7 B0DCBVNGNB B09DXRGTS8 B093DGHBXC B08Y8C5YDY B08GBYFFDQ'.split())
-SUPPLEMENTS = set('B0CGWZ5J6H B007BJAY6I B08YFP2BVH B0CW8GQS1G B07GSDJ6T2 B00I4NW7RE B08YFFNJ9L'.split())
+SUPPLEMENTS = set('B0CGWZ5J6H B007BJAY6I B08YFP2BVH B0CW8GQS1G B07GSDJ6T2 B00I4NW7RE B08YFFNJ9L B0CW85BJCN'.split())
 
 DENSITIES = {
     '沈下性の魚用粒': (0.37, 0.65, 'sinking_density'),
@@ -77,6 +77,8 @@ MASS_OVERRIDES = {
     'B08YFP2BVH': 210, 'B0CW8GQS1G': 180, 'B07GSDJ6T2': 60,
     'B0H8MNXGKP': 40, 'B077PTNJ29': 400, 'B00I4NW7RE': 120,
     'B08YFFNJ9L': 20,
+    'B0CW85BJCN': 200,
+    'B09TPDFVLS': 75,
 }
 
 # Width and height of the likely pouch face, not necessarily Amazon's shipped-box dimensions.
@@ -232,9 +234,11 @@ for item in products:
     }
     if asin == 'B0CVKL9BVN':
         confidence = '中'  # matching manufacturer's package dimensions were found
-    if asin in ('B0CGWZ5J6H', 'B007BJAY6I', 'B08YFP2BVH', 'B0CW8GQS1G', 'B07GSDJ6T2', 'B00I4NW7RE', 'B08YFFNJ9L'):
+    if asin in ('B0CGWZ5J6H', 'B007BJAY6I', 'B08YFP2BVH', 'B0CW8GQS1G', 'B07GSDJ6T2', 'B00I4NW7RE', 'B08YFFNJ9L', 'B0CW85BJCN'):
         confidence = '低'  # tablet mass and packed density are only indirect estimates
-        reason += ('掲載重量20gを内容物の仮値として使用。錠剤の局所的な重なりは未実測。' if asin == 'B08YFFNJ9L' else '質量は粒数からの概算。')
+        reason += ('掲載重量20gを内容物の仮値として使用。錠剤の局所的な重なりは未実測。' if asin == 'B08YFFNJ9L'
+                   else '掲載重量200gを内容物の仮値として使用。錠剤の局所的な重なりは未実測。' if asin == 'B0CW85BJCN'
+                   else '質量は粒数からの概算。')
     # A low calculated thickness is not enough for a positive recommendation
     # when the pouch face came from a shipping box or another product.
     geometry_unverified = footprint_source != 'manufacturer'

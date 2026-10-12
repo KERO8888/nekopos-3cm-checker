@@ -1174,7 +1174,374 @@
         "identifier_unconfirmed": 0
       },
       "suppliers": []
+    },
+    "B0CW85BJCN": {
+      "expectedEans": [
+        "4946842650736"
+      ],
+      "checkedPages": 10,
+      "cumulativeCheckedPages": 10,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 40,
+      "rejected": {
+        "jan_missing": 1,
+        "jan_mismatch": 1,
+        "HTTPError": 1,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "【送料無料】ディアナチュラ カルシウム・マグネシウム・亜鉛・ビタミンD サイズ：540粒",
+          "storeName": "toy japan",
+          "jan": "4946842650736",
+          "priceYen": 3737,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:32:47.455780+00:00",
+          "url": "https://item.rakuten.co.jp/toyjapan/b0cw85bjcn/",
+          "store": "toy japan",
+          "inboundShippingYen": 0,
+          "displayPoints": 34,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【送料無料】ディアナチュラ カルシウム・マグネシウム・亜鉛・ビタミンD サイズ：540粒",
+          "storeName": "グッドファインドストア",
+          "jan": "4946842650736",
+          "priceYen": 3737,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:32:57.919492+00:00",
+          "url": "https://item.rakuten.co.jp/goodfindstore/b0cw85bjcn/",
+          "store": "グッドファインドストア",
+          "inboundShippingYen": 0,
+          "displayPoints": 33,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【送料無料】ディアナチュラ カルシウム・マグネシウム・亜鉛・ビタミンD サイズ：540粒",
+          "storeName": "北海道の香りショップ楽天市場店",
+          "jan": "4946842650736",
+          "priceYen": 3737,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:33:08.397574+00:00",
+          "url": "https://item.rakuten.co.jp/hokkaido-kaori/b0cw85bjcn/",
+          "store": "北海道の香りショップ楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 33,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【送料無料】ディアナチュラ カルシウム・マグネシウム・亜鉛・ビタミンD サイズ：540粒",
+          "storeName": "シンアサヒスマイル楽天市場店",
+          "jan": "4946842650736",
+          "priceYen": 3737,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:33:18.883770+00:00",
+          "url": "https://item.rakuten.co.jp/sinasahismile/b0cw85bjcn/",
+          "store": "シンアサヒスマイル楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 33,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【送料無料】ディアナチュラ カルシウム・マグネシウム・亜鉛・ビタミンD サイズ：540粒",
+          "storeName": "ほすけっと楽天市場店",
+          "jan": "4946842650736",
+          "priceYen": 3737,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:33:39.386914+00:00",
+          "url": "https://item.rakuten.co.jp/hosket/b0cw85bjcn/",
+          "store": "ほすけっと楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 33,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【送料無料】ディアナチュラ カルシウム・マグネシウム・亜鉛・ビタミンD サイズ：540粒",
+          "storeName": "雑貨　スタイルハウジング",
+          "jan": "4946842650736",
+          "priceYen": 3737,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:33:49.847267+00:00",
+          "url": "https://item.rakuten.co.jp/housing-reformfair/b0cw85bjcn/",
+          "store": "雑貨　スタイルハウジング",
+          "inboundShippingYen": 0,
+          "displayPoints": 33,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【送料無料】ディアナチュラ カルシウム・マグネシウム・亜鉛・ビタミンD サイズ：540粒",
+          "storeName": "Plus1マーケット楽天市場店",
+          "jan": "4946842650736",
+          "priceYen": 3737,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:34:00.610171+00:00",
+          "url": "https://item.rakuten.co.jp/plus-market/b0cw85bjcn/",
+          "store": "Plus1マーケット楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 33,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
+    },
+    "B09TPDFVLS": {
+      "expectedEans": [
+        "4902705056053"
+      ],
+      "checkedPages": 8,
+      "cumulativeCheckedPages": 8,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 24,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "【合算3150円で送料無料】明治  こども育てるえいよう ミラフル 粉末飲料 ストロベリー風味 75g",
+          "storeName": "サポートショップ",
+          "jan": "4902705056053",
+          "priceYen": 537,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:39:43.508742+00:00",
+          "url": "https://item.rakuten.co.jp/sapoot/4902705056053/",
+          "store": "サポートショップ",
+          "inboundShippingYen": 0,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【合算3300円以上で注文可能】明治  こども育てるえいよう ミラフル 粉末飲料 ストロベリー風味 75g",
+          "storeName": "ウェブドラッグサプリの店",
+          "jan": "4902705056053",
+          "priceYen": 537,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:39:53.995882+00:00",
+          "url": "https://item.rakuten.co.jp/webdrug/4902705056053/",
+          "store": "ウェブドラッグサプリの店",
+          "inboundShippingYen": 0,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "「明治」　明治ミラフル 粉末飲料 ストロベリー風味　75g",
+          "storeName": "薬のファインズファルマ楽天市場店",
+          "jan": "4902705056053",
+          "priceYen": 478,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:39:33.037446+00:00",
+          "url": "https://item.rakuten.co.jp/fines-f/4902705056053/",
+          "store": "薬のファインズファルマ楽天市場店",
+          "inboundShippingYen": 490,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "明治　ミラフル　粉末飲料　ストロベリー風味　75g",
+          "storeName": "くすりのレデイハートショップ",
+          "jan": "4902705056053",
+          "priceYen": 477,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:39:01.425406+00:00",
+          "url": "https://item.rakuten.co.jp/ladydrug/4902705056053/",
+          "store": "くすりのレデイハートショップ",
+          "inboundShippingYen": 598,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "明治　ミラフル粉末飲料　ストロベリー風味　75ｇ",
+          "storeName": "エナジードラッグ",
+          "jan": "4902705056053",
+          "priceYen": 498,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:39:12.077901+00:00",
+          "url": "https://item.rakuten.co.jp/energy/al-4902705056053-se/",
+          "store": "エナジードラッグ",
+          "inboundShippingYen": 580,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "明治ミラフル 粉末飲料 こども育てるえいよう ストロベリー風味 75g",
+          "storeName": "くすりの勉強堂＠最新健康情報",
+          "jan": "4902705056053",
+          "priceYen": 500,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:38:40.413374+00:00",
+          "url": "https://item.rakuten.co.jp/benkyo/4902705056053/",
+          "store": "くすりの勉強堂＠最新健康情報",
+          "inboundShippingYen": 600,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "明治ミラフル 粉末飲料 こども育てるえいよう ストロベリー風味 75g",
+          "storeName": "くすりの勉強堂 アネックス",
+          "jan": "4902705056053",
+          "priceYen": 500,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:38:50.874796+00:00",
+          "url": "https://item.rakuten.co.jp/k-benkyo/4902705056053/",
+          "store": "くすりの勉強堂 アネックス",
+          "inboundShippingYen": 600,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "明治 ミラフル粉末飲料ストロベリー風味 75g",
+          "storeName": "ベイシア楽天市場店",
+          "jan": "4902705056053",
+          "priceYen": 580,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:39:22.579164+00:00",
+          "url": "https://item.rakuten.co.jp/beisia/4902705056053/",
+          "store": "ベイシア楽天市場店",
+          "inboundShippingYen": 750,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
+    },
+    "B013Q9OZW0": {
+      "expectedEans": [
+        "4901001274574"
+      ],
+      "checkedPages": 8,
+      "cumulativeCheckedPages": 8,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 15,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "味の素 丸鶏がらスープ 110g",
+          "storeName": "テッセラクトRK楽天市場店",
+          "jan": "4901001274574",
+          "priceYen": 464,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:41:02.948778+00:00",
+          "url": "https://item.rakuten.co.jp/tesseractrk/20260619105525_241/",
+          "store": "テッセラクトRK楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "味の素 丸鶏がらスープ 110g",
+          "storeName": "holly0211",
+          "jan": "4901001274574",
+          "priceYen": 572,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:41:13.419729+00:00",
+          "url": "https://item.rakuten.co.jp/holly0211/20260910093443_203/",
+          "store": "holly0211",
+          "inboundShippingYen": 0,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "味の素 丸鶏がらスープ 110g",
+          "storeName": "kichibei",
+          "jan": "4901001274574",
+          "priceYen": 701,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:41:23.853942+00:00",
+          "url": "https://item.rakuten.co.jp/kichibei0318/kichibeeca97822b77/",
+          "store": "kichibei",
+          "inboundShippingYen": 0,
+          "displayPoints": 6,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "[味の素]丸鶏がらスープ 110g",
+          "storeName": "ドラッグストアザグザグ通販",
+          "jan": "4901001274574",
+          "priceYen": 470,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:40:20.998967+00:00",
+          "url": "https://item.rakuten.co.jp/zagzag/g4901001274574/",
+          "store": "ドラッグストアザグザグ通販",
+          "inboundShippingYen": 250,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "味の素 丸鶏がらスープ 袋 １１０ｇ",
+          "storeName": "マツモトキヨシ楽天市場店",
+          "jan": "4901001274574",
+          "priceYen": 462,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:40:10.490421+00:00",
+          "url": "https://item.rakuten.co.jp/matsukiyo/4901001274574/",
+          "store": "マツモトキヨシ楽天市場店",
+          "inboundShippingYen": 550,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "丸鶏がらスープ　袋　110g※取り寄せ商品　返品不可",
+          "storeName": "くすりのレデイハートショップ",
+          "jan": "4901001274574",
+          "priceYen": 461,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:40:52.528315+00:00",
+          "url": "https://item.rakuten.co.jp/ladydrug/4901001274574/",
+          "store": "くすりのレデイハートショップ",
+          "inboundShippingYen": 598,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "味の素 丸鶏がらスープ 袋 (110g) 調味料",
+          "storeName": "大将もビックリ！ＳＣＢ",
+          "jan": "4901001274574",
+          "priceYen": 501,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:40:31.511436+00:00",
+          "url": "https://item.rakuten.co.jp/scbmitsuokun1972/4901001274574/",
+          "store": "大将もビックリ！ＳＣＢ",
+          "inboundShippingYen": 660,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "丸鶏がらスープ 袋 ( 110g )",
+          "storeName": "ニシムタ　楽天市場店",
+          "jan": "4901001274574",
+          "priceYen": 528,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T20:40:41.993603+00:00",
+          "url": "https://item.rakuten.co.jp/nishimuta/4901001274574/",
+          "store": "ニシムタ　楽天市場店",
+          "inboundShippingYen": 980,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-12T19:36:07.961806+00:00"
+  "checkedAt": "2026-10-12T20:41:24.159847+00:00"
 }
