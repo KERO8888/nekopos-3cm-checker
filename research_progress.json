@@ -16791,7 +16791,7 @@
         "粉末だし 詰め替え 袋 200g",
         "粉末だし 詰め替え 袋 300g"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -16823,7 +16823,7 @@
       "queries": [
         "粉末だし 詰め替え 100g 袋"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=粉末 root=57239051 side>=0mm"
       ],
@@ -16921,7 +16921,7 @@
       "queries": [
         "粉末だし 詰め替え 100g 袋"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=粉末 root=57239051 side>=0mm"
       ],
@@ -194538,7 +194538,7 @@
     {
       "asin": "B00BWNOSL6",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -196072,7 +196072,7 @@
     {
       "asin": "B0DPHYJM5Q",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -197799,7 +197799,7 @@
     {
       "asin": "B086W3KN7Y",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm",
@@ -213854,7 +213854,7 @@
     {
       "asin": "B098MXQY9T",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ふりかけ root=57239051 side>=0mm"
@@ -226830,7 +226830,7 @@
     {
       "asin": "B071RDGG7B",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ふりかけ root=57239051 side>=0mm"
@@ -226853,7 +226853,7 @@
     {
       "asin": "B08BYJYQ9X",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ふりかけ root=57239051 side>=0mm"
@@ -385845,7 +385845,7 @@
     {
       "asin": "B099DHXW38",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=ふりかけ root=57239051 side>=0mm"
       ],
@@ -385933,7 +385933,7 @@
     {
       "asin": "B099DTQ1L2",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=ふりかけ root=57239051 side>=0mm"
       ],
@@ -385954,7 +385954,7 @@
     {
       "asin": "B099DNC4LT",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=ふりかけ root=57239051 side>=0mm"
       ],
@@ -548097,7 +548097,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 658,
+  "fetchedProductPageCount": 670,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -552301,6 +552301,27 @@
       "pagesChecked": 12,
       "added": 2,
       "unverifiedRange": "Amazon現行ページ12件を判定。粉末・顆粒の柔らかい単品袋2件を登録、瓶容器や掲載最小辺3cm以下など6件を除外、500gの厚さ等4件は保留。登録品の梱包後最大厚・重量は未実測。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: Keepa由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B00BWNOSL6",
+        "B0DPHYJM5Q",
+        "B098MXQY9T",
+        "B07B3KQQCW",
+        "B086W3KN7Y",
+        "B071RDGG7B",
+        "B08BYJYQ9X",
+        "B07B3X49JM",
+        "B07B3G8PWY",
+        "B099DHXW38",
+        "B099DTQ1L2",
+        "B099DNC4LT"
+      ],
+      "pagesChecked": 12,
+      "added": 0,
+      "unverifiedRange": "Amazon現行ページ12件を個別判定。8件は掲載3辺最小辺が3cm以下、3件は複数袋セットで寸法未掲載、1件は主画像が硬い紙箱のため除外。登録0件。残る発見ASINのAmazonページは未確認。"
     }
   ],
   "searchStops": [

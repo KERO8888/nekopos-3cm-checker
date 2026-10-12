@@ -1541,7 +1541,78 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B08X74KG2S": {
+      "expectedEans": [
+        "4987176047472"
+      ],
+      "checkedPages": 5,
+      "cumulativeCheckedPages": 5,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 32,
+      "rejected": {
+        "identifier_unconfirmed": 0,
+        "multi_unit": 1
+      },
+      "suppliers": [
+        {
+          "name": "h&s scalp ドライスカルプ 薬用シャンプー 詰め替え 300mL エイチアンドエス スカルプ 乾燥頭皮 フケ かゆみ ノンシリコン 弱酸性 医薬部外品",
+          "storeName": "ワンホエールホーム",
+          "jan": "4987176047472",
+          "priceYen": 1000,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T21:37:12.859749+00:00",
+          "url": "https://item.rakuten.co.jp/onewhlalehome/rkt-4987176047472-set01/",
+          "store": "ワンホエールホーム",
+          "inboundShippingYen": 0,
+          "displayPoints": 9,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "h&s scalp シャンプー 詰め替え 300mL 大阪倉庫",
+          "storeName": "S＆Kグループ",
+          "jan": "4987176047472",
+          "priceYen": 1190,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T21:37:02.375252+00:00",
+          "url": "https://item.rakuten.co.jp/skgroup/4987176047472/",
+          "store": "S＆Kグループ",
+          "inboundShippingYen": 0,
+          "displayPoints": 10,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "P&G　h&s　scalp　ドライスカルプシャンプー替　300ML　シャンプー",
+          "storeName": "ウエルシア楽天市場支店",
+          "jan": "4987176047472",
+          "priceYen": 858,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T21:37:23.336057+00:00",
+          "url": "https://item.rakuten.co.jp/ehac/4987176047472/",
+          "store": "ウエルシア楽天市場支店",
+          "inboundShippingYen": 500,
+          "displayPoints": 7,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "hs scalp シャンプー 詰め替え 300mL ドライスカルプ エイチアンドエス スカルプ",
+          "storeName": "denit_shop楽天市場店",
+          "jan": "4987176047472",
+          "priceYen": 1534,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T21:36:51.818648+00:00",
+          "url": "https://item.rakuten.co.jp/denitshop-r/4987176047472/",
+          "store": "denit_shop楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 13,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-12T20:41:24.159847+00:00"
+  "checkedAt": "2026-10-12T21:37:34.120737+00:00"
 }

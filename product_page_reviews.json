@@ -3605,6 +3605,183 @@
       "reviewStatus": "added_after_manual_photo_and_dimensions_review",
       "decisionReason": "Amazon現行ページで柔らかい単品袋・掲載最小辺3cm超を確認。粉末・顆粒を袋内でならせば3cm以下の可能性があるが、商品袋と梱包後の最大厚は未実測。",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B00BWNOSL6",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B00BWNOSL6",
+      "title": "ファイン(FINE JAPAN) イオンドリンク スポーツ味 粉末 22包入 国内生産",
+      "dimensions": [
+        {
+          "value": "14.9 x 10.9 x 6 cm",
+          "context": "       :\n                                            ‎ 14.9 x 10.9 x 6 cm; 72.57 g メーカー\n                    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61VY7l4D-XL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの主画像で硬い紙箱入りと確認。未開封の柔らかい単品袋ではない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DPHYJM5Q",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DPHYJM5Q",
+      "title": "かけだし 1袋 100g 出汁 無添加 国産 だし 粉末 薬剤師監修 食塩不使用 だしパック かつお さば あじ いわし 昆布 椎茸 サンセリテ札幌",
+      "dimensions": [
+        {
+          "value": "16 x 11.6 x 1.7 cm",
+          "context": "       :\n                                            ‎ 16 x 11.6 x 1.7 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81j-urA79BL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページの掲載3辺最小辺は1.7cmで、登録条件の3cm超ではない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B098MXQY9T",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B098MXQY9T",
+      "title": "五色あられ 100g チャック付き袋／ ぶぶあられ・あられ ふりかけ キャラ弁 彩り 弁当 (単品)",
+      "dimensions": [
+        {
+          "value": "0.7 x 21 x 14 cm",
+          "context": "       :\n                                            ‎ 0.7 x 21 x 14 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61mMex243kS._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページの掲載3辺最小辺は0.7cmで、登録条件の3cm超ではない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B07B3KQQCW",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B07B3KQQCW",
+      "title": "まるごとうまみだし 九州産 粉末だし 60g ≪無添加粉末≫ ダシ粉 冷や汁 焼きそば 離乳食 ラーメン お好み焼き",
+      "dimensions": [
+        {
+          "value": "16.6 x 10.8 x 1.2 cm",
+          "context": "       :\n                                            ‎ 16.6 x 10.8 x 1.2 cm; 60 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61X-cFrs9dL._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページの掲載3辺最小辺は1.2cmで、登録条件の3cm超ではない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B086W3KN7Y",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B086W3KN7Y",
+      "title": "●抹茶100% ●無添加 ●国産100% ●京都の茶畑をもつ製茶会社から直接仕入れで鮮度◎ 抹茶ラテ用・お菓子作り製菓用・茶道 粉末パウダー 30ｇ入",
+      "dimensions": [
+        {
+          "value": "17 x 11 x 1 cm",
+          "context": "       :\n                                            ‎ 17 x 11 x 1 cm; 30 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81Y1aKjRhgL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページの掲載3辺最小辺は1cmで、登録条件の3cm超ではない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B071RDGG7B",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B071RDGG7B",
+      "title": "にんべん 本格派しっとりソフトふりかけ 釜炊き おかかふりかけ 金胡麻入り 90g [かつお節 大容量] 1699年創業 鰹節・だし専門店のにんべん",
+      "dimensions": [
+        {
+          "value": "16 x 13.3 x 1.9 cm",
+          "context": "       :\n                                            ‎ 16 x 13.3 x 1.9 cm; 90.72 g メーカー\n                    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/812UhBkOEnL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページの掲載3辺最小辺は1.9cmで、登録条件の3cm超ではない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B08BYJYQ9X",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B08BYJYQ9X",
+      "title": "にんべん 本格派しっとりソフトふりかけ 釜炊き おかかふりかけ 昆布・椎茸入り 90g [昆布 椎茸 かつお節 大容量] 鰹節・だし専門店",
+      "dimensions": [
+        {
+          "value": "20 x 12.6 x 1.6 cm",
+          "context": "       :\n                                            ‎ 20 x 12.6 x 1.6 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71Kq1m68HuL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページの掲載3辺最小辺は1.6cmで、登録条件の3cm超ではない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B07B3X49JM",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B07B3X49JM",
+      "title": "まるごとうまみだし 九州産 粉末だし 60g 5袋入り ≪無添加粉末≫ ダシ粉",
+      "dimensions": [
+        {
+          "value": "17 x 22 x 1.9 cm",
+          "context": "       :\n                                            ‎ 17 x 22 x 1.9 cm; 300 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61IEE3VtxmL._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページの掲載3辺最小辺は1.9cmで、登録条件の3cm超ではない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B07B3G8PWY",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B07B3G8PWY",
+      "title": "まるごとうまみだし 九州産 粉末だし 60g 2袋入り ≪無添加粉末≫ ダシ粉",
+      "dimensions": [
+        {
+          "value": "16 x 17.5 x 1 cm",
+          "context": "       :\n                                            ‎ 16 x 17.5 x 1 cm; 120 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61gFXxAMPHL._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページの掲載3辺最小辺は1cmで、登録条件の3cm超ではない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B099DHXW38",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B099DHXW38",
+      "title": "【4袋セット】五色あられ 100g チャック付き袋／ ぶぶあられ・あられ ふりかけ キャラ弁 彩り 弁当",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61+8mVSn8aS._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名が複数袋セットで、単品条件に合わない。掲載3辺寸法も確認できない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B099DTQ1L2",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B099DTQ1L2",
+      "title": "【3袋セット】五色あられ 100g チャック付き袋／ ぶぶあられ・あられ ふりかけ キャラ弁 彩り 弁当",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61k+79vsv3S._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名が複数袋セットで、単品条件に合わない。掲載3辺寸法も確認できない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B099DNC4LT",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B099DNC4LT",
+      "title": "【5袋セット】五色あられ 100g チャック付き袋／ ぶぶあられ・あられ ふりかけ キャラ弁 彩り 弁当",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71bJkYf8t-S._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名が複数袋セットで、単品条件に合わない。掲載3辺寸法も確認できない。",
+      "decidedOn": "2026-10-13"
     }
   ]
 }

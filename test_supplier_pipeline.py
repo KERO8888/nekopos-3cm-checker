@@ -19,6 +19,7 @@ class SupplierPipelineTests(unittest.TestCase):
         self.assertTrue(is_multi_unit("200g 12袋"))
         self.assertTrue(is_multi_unit("500g×2"))
         self.assertTrue(is_multi_unit("500グラム (x 12)"))
+        self.assertTrue(is_multi_unit("ポンプ350mL＋詰替300mL セット 各1個 合計650mL"))
         self.assertFalse(is_multi_unit("詰め替え 200g 1袋"))
         self.assertFalse(is_multi_unit("8×4エイトフォーメン 詰替300mL"))
         self.assertFalse(is_multi_unit("200g お一人様30点限り"))
