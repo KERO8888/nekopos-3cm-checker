@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>データ取得状況 | 小型発送リサーチ</title>
   <link rel="stylesheet" href="theme.css?v=11">
-  <link rel="stylesheet" href="acquisition.css?v=4">
+  <link rel="stylesheet" href="acquisition.css?v=5">
 </head>
 <body>
   <aside class="side-nav" aria-label="ページナビゲーション">
@@ -30,6 +30,7 @@
       </section>
       <section class="status-card pipeline-card" aria-labelledby="pipelineTitle"><div class="section-heading"><div><span class="section-kicker">RESEARCH</span><h2 id="pipelineTitle">調査の進捗</h2></div><span id="researchScope" class="subtle">—</span></div><div class="pipeline" id="pipeline"></div><p class="status-note">「ページ未確認」はAmazonの商品ページをまだ確認していない件数です。Keepaの商品名・掲載寸法の取得は別段階です。「個別判定待ち」は写真・寸法を保存しただけで、単品・形状・厚さの採否を決めていない件数です。未登録を不適合と判定した数ではありません。</p></section>
       <section class="source-grid" aria-label="データ源ごとの状態" id="sourceGrid"></section>
+      <section class="status-card discovered-card" id="allAsins" aria-labelledby="allAsinsTitle"><div class="section-heading"><div><span class="section-kicker">DISCOVERED ASINS</span><h2 id="allAsinsTitle">発見済みASINを探す <span id="allAsinsCount">—</span></h2></div><span class="subtle">登録済み商品とは別の調査リスト</span></div><p class="status-note">Amazon検索とKeepaで見つけたASINを全件表示できます。商品ページ未確認の商品や、確認後に未登録とした商品も含みます。ここに載っていても単品・袋形状・寸法・発送可否は確定していません。</p><div class="discovered-controls"><label class="status-search">ASIN・取得済み商品名・検索語で探す<input id="allAsinsSearch" type="search" placeholder="例：B0...、入浴剤、詰め替え"></label><label class="status-search">調査段階<select id="allAsinsStage"><option value="all">すべて</option><option value="0">商品ページ未確認</option><option value="1">ページ確認済み・未登録</option><option value="2">調査履歴上の追加</option></select></label></div><div class="discovered-summary" id="allAsinsSummary" role="status" aria-live="polite"></div><div class="discovered-list" id="allAsinsRows"></div><div class="discovered-pager"><button id="allAsinsPrev" type="button">← 前へ</button><span id="allAsinsPage">—</span><button id="allAsinsNext" type="button">次へ →</button></div></section>
       <div class="status-columns">
         <section class="status-card" aria-labelledby="newProductsTitle"><div class="section-heading"><div><span class="section-kicker">NEW PRODUCTS</span><h2 id="newProductsTitle">現在の一覧に追加した商品 <span id="newProductsCount">—</span></h2></div></div><label class="status-search">商品名・ASINで絞る<input id="newProductSearch" type="search" placeholder="例：B0DJB9RC19、コーヒー"></label><div class="scroll-list" id="newProducts"></div></section>
         <section class="status-card" aria-labelledby="queriesTitle"><div class="section-heading"><div><span class="section-kicker">SEARCH QUERIES</span><h2 id="queriesTitle">Amazon検索語ごとの記録</h2></div></div><p class="status-note">検索語ごとに確認した検索結果ページの範囲は異なります。複数の検索語で見つかった同じ商品は、それぞれに計上しています。Keepaの発見分はこの一覧に含まれません。</p><div class="query-head"><span>検索語</span><span>発見</span><span>ページ確認</span><span>追加</span></div><div class="scroll-list" id="queryRows"></div></section>
@@ -43,6 +44,7 @@
   <script src="local_product_images.js?v=20261013b"></script>
   <script src="api_dimensions.js?v=20261012d"></script>
   <script src="acquisition_status.js?v=20261013b"></script>
-  <script src="acquisition.js?v=10"></script>
+  <script src="discovered_asins.js?v=20261013a"></script>
+  <script src="acquisition.js?v=11"></script>
 </body>
 </html>

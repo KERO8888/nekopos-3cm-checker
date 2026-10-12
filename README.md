@@ -2,7 +2,7 @@
 
 `index.html` をブラウザで開くと使えます。外部ライブラリやサーバーは不要です。商品写真と寸法根拠は最初に見える商品詳細の主画面に配置し、商品写真は `assets/product-images/` に保存済みの商品写真を優先して表示します。
 
-`acquisition.html` はデータ取得状況のページです。直近の新規調査で見つけた件数、商品ページ確認数、追加数、検索語ごとの記録、追加商品の一覧反映、画像・Keepa・予測データの取得状態を表示します。保存済みデータの状態であり、ページを開くだけで新しい検索やAPI取得は実行しません。商品分析画面の「データ取得状況」から開けます。
+`acquisition.html` はデータ取得状況のページです。発見済みASIN全件を別枠で検索・ページ送り表示し、商品ページ確認数、追加数、検索語ごとの記録、画像・Keepa・予測データの取得状態を表示します。発見済み63,872件には未確認63,202件が含まれ、登録済み147件と混同しません。保存済みデータの状態であり、ページを開くだけで新しい検索やAPI取得は実行しません。商品分析画面の「ASIN発見」から開けます。
 
 - 自己消費できる食品・飲料・入浴剤・日用品の147 ASINを収録。2026年10月11日にペット用食品39件と園芸資材1件を候補から外し、入浴剤4件、ボディソープ4件、化粧水・乳液・クレンジング6件の単品詰め替え袋を追加。10月12日に薬用泡ハンドソープ1件、化粧水・入浴剤・ボディソープ・クレンジング・シャンプーの単品詰め替え袋9件を追加。さらに同日、確認済みページの未登録候補を再点検して、シャンプー・コンディショナー等の柔らかい単品袋8件と、乾燥納豆・大豆の細片を各1袋追加。同日、コーンスープ粉末360gと減塩鶏がらスープ顆粒500gの単品袋、ラボンの洗濯洗剤400mLの単品袋も追加。10月13日に伊藤園の粉末茶3件、トリートメント詰め替え2件、消臭スプレー詰め替え1件、粉末むぎ茶1件、カラーシャンプー詰め替え2件、サプリメント2件、粉末飲料1件、調味料1件を追加。除外したASINは `excluded_products.json` と個別のページ判定記録に残す
 - 内容量、粒や粉のかさ密度、袋の平面寸法から、均した後の厚さを概算
@@ -77,7 +77,7 @@ Amazon SP-APIで2026年10月12日に当時収録していた135 ASINの新規出
 
 推定を更新する場合は `manufacturer_dimensions.json` と `build_predictions.py` の個別補正・密度範囲を修正し、`python3 build_predictions.py` で `predictions.js` を再生成します。規格判定は `shipping_fit.js`、利益計算は `finance.js` にあります。`node test_shipping_fit.js`、`node test_finance.js`、`node test_market_data.js`、`node test_profit_ui.js` で境界条件、費用、価格データの整合、利益区分、CSVを確認できます。
 
-新規調査で `research_progress.json` と `data.js` を更新した後に `python3 build_predictions.py` を実行すると、取得状況ページ用の `acquisition_status.js` も再生成されます。調査記録だけを更新した場合は `python3 build_acquisition_status.py` で再生成できます。画像とAPIの件数は、それぞれの保存済みJavaScriptからページ表示時に集計します。
+新規調査で `research_progress.json` と `data.js` を更新した後に `python3 build_predictions.py` を実行すると、取得状況ページ用の `acquisition_status.js` と `discovered_asins.js` も再生成されます。調査記録だけを更新した場合は `python3 build_acquisition_status.py` で両方を再生成できます。画像とAPIの件数は、それぞれの保存済みJavaScriptからページ表示時に集計します。
 
 SP-API と Keepa API の寸法は `sync_api_dimensions.py` で取得し、認証情報を除いた `api_dimensions.js` に保存します。未取得時は画面に理由を表示します。この端末ではコジマネットアウトレットリサーチツールと同じmacOSキーチェーン項目を自動で読みます。別の環境では環境変数 `SP_API_CLIENT_ID`、`SP_API_CLIENT_SECRET`、`SP_API_REFRESH_TOKEN`、`KEEPA_API_KEY` または `--env-file /absolute/path/to/secrets` を使えます。認証情報はこのプロジェクト内やブラウザ用JavaScriptに保存しません。Keepaは取得したASIN数に応じてAPIトークンを消費するため、SP-APIだけ再取得するときは `python3 sync_api_dimensions.py --sp-only` を使います。
 

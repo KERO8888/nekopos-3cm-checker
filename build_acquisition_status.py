@@ -10,6 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 PROGRESS = ROOT / "research_progress.json"
 OUTPUT = ROOT / "acquisition_status.js"
+CATALOG_OUTPUT = ROOT / "discovered_asins.js"
 
 
 def read_js(name):
@@ -25,9 +26,10 @@ def build():
     discovered = research["discovered"]
     status_counts = Counter(item["status"] for item in discovered)
     review_file = ROOT / "product_page_reviews.json"
-    review_pending_count = (sum(item.get("reviewStatus") == "needs_manual_shape_and_unit_check"
-                                for item in json.loads(review_file.read_text()).get("reviews", []))
-                            if review_file.exists() else 0)
+    reviews = json.loads(review_file.read_text()).get("reviews", []) if review_file.exists() else []
+    review_pending_count = sum(item.get("reviewStatus") == "needs_manual_shape_and_unit_check"
+                               for item in reviews)
+    review_titles = {item["asin"]: item["title"] for item in reviews if item.get("title")}
     additions = []
     for item in discovered:
         if item["status"] != "added":
@@ -93,7 +95,21 @@ def build():
         "additions": additions,
     }
     OUTPUT.write_text("window.NEKOPOST_RESEARCH_STATUS = " + json.dumps(snapshot, ensure_ascii=False, separators=(",", ":")) + ";\n")
+    # Keep discovery records separate from the screened product catalog. Query
+    # strings are interned so the full list remains practical on a static site.
+    query_ids = {query: index for index, query in enumerate(query_counts)}
+    catalog = {
+        "queries": list(query_ids),
+        "rows": [[item["asin"], {"not_fetched": 0, "page_fetched_not_added": 1, "added": 2}[item["status"]],
+                  [query_ids[query] for query in item["queries"] if query in query_ids],
+                  products.get(item["asin"], {}).get("title")
+                  or review_titles.get(item["asin"])
+                  or item.get("keepaTitle") or ""] for item in discovered],
+    }
+    catalog["rows"].sort(key=lambda row: not bool(row[3]))
+    CATALOG_OUTPUT.write_text("window.NEKOPOST_DISCOVERED_ASINS = " + json.dumps(catalog, ensure_ascii=False, separators=(",", ":")) + ";\n")
     print(f"Saved {OUTPUT.name}: {snapshot['queryCount']} searches, {snapshot['discoveredCount']} found, {snapshot['pageCheckedCount']} checked, {snapshot['addedCount']} added")
+    print(f"Saved {CATALOG_OUTPUT.name}: {len(catalog['rows'])} ASINs")
 
 
 if __name__ == "__main__":

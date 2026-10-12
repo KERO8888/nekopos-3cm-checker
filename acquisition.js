@@ -14,6 +14,7 @@
   const imageAsins = new Set(Object.keys(imageData.images || {}));
   const localImageAsins = new Set(Object.keys(localImages));
   const apiItems = apiData.items || {};
+  const discovery = window.NEKOPOST_DISCOVERED_ASINS;
 
   if (!research || !products.length) {
     $('#statusError').hidden = false;
@@ -93,5 +94,53 @@
   renderAdditions();
 
   $('#queryRows').innerHTML = research.queries.map(item => `<div class="query-row"><span>${escapeHtml(item.query)}</span><b>${item.discovered}</b><b>${item.pageChecked}</b><b class="added-number">${item.added}</b></div>`).join('');
+  const discoveredRows = discovery?.rows || [];
+  const discoveryQueries = discovery?.queries || [];
+  const pageSize = 50;
+  let discoveredPage = 0;
+  let discoveredFiltered = discoveredRows;
+  const stages = ['商品ページ未確認', 'ページ確認済み・未登録', '調査履歴上の追加'];
+
+  function renderDiscoveredPage() {
+    const totalPages = Math.max(1, Math.ceil(discoveredFiltered.length / pageSize));
+    discoveredPage = Math.min(discoveredPage, totalPages - 1);
+    const first = discoveredPage * pageSize;
+    const shown = discoveredFiltered.slice(first, first + pageSize);
+    $('#allAsinsSummary').textContent = `${number(discoveredFiltered.length)}件に一致 · ${shown.length ? `${number(first + 1)}〜${number(first + shown.length)}件を表示` : '該当なし'}`;
+    $('#allAsinsPage').textContent = `${number(discoveredPage + 1)} / ${number(totalPages)}ページ`;
+    $('#allAsinsPrev').disabled = discoveredPage === 0;
+    $('#allAsinsNext').disabled = discoveredPage >= totalPages - 1;
+    $('#allAsinsRows').innerHTML = shown.length ? shown.map(([asin, stage, queryIds, title]) => {
+      const queryLabels = queryIds.map(id => discoveryQueries[id]).filter(Boolean);
+      const catalogLink = productAsins.has(asin) ? `<a href="index.html?asin=${encodeURIComponent(asin)}">商品分析 ↗</a>` : '';
+      return `<article class="discovered-row"><div class="discovered-row-main"><strong>${escapeHtml(asin)}</strong><span class="discovered-stage stage-${stage}">${stages[stage] || '状態不明'}</span>${title ? `<span class="discovered-title">${escapeHtml(title)}</span>` : '<span class="discovered-title muted">商品名未取得</span>'}<small>${escapeHtml(queryLabels.length ? `発見時の検索語：${queryLabels.slice(0, 2).join('、')}${queryLabels.length > 2 ? ` ほか${queryLabels.length - 2}語` : ''}` : 'Keepa条件などから発見')}</small></div><div class="discovered-links">${catalogLink}<a href="https://www.amazon.co.jp/dp/${encodeURIComponent(asin)}" target="_blank" rel="noopener noreferrer">Amazonで確認 ↗</a></div></article>`;
+    }).join('') : '<p class="empty-result">該当するASINはありません。</p>';
+  }
+
+  function filterDiscovered() {
+    const query = $('#allAsinsSearch').value.trim().toLocaleLowerCase('ja-JP');
+    const stage = $('#allAsinsStage').value;
+    discoveredFiltered = discoveredRows.filter(([asin, rowStage, queryIds, title]) => {
+      if (stage !== 'all' && rowStage !== Number(stage)) return false;
+      if (!query) return true;
+      return asin.toLowerCase().includes(query)
+        || title.toLocaleLowerCase('ja-JP').includes(query)
+        || queryIds.some(id => (discoveryQueries[id] || '').toLocaleLowerCase('ja-JP').includes(query));
+    });
+    discoveredPage = 0;
+    renderDiscoveredPage();
+  }
+
+  $('#allAsinsCount').textContent = `${number(discoveredRows.length)}件`;
+  let searchTimer;
+  $('#allAsinsSearch').addEventListener('input', () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(filterDiscovered, 140);
+  });
+  $('#allAsinsStage').addEventListener('change', filterDiscovered);
+  $('#allAsinsPrev').addEventListener('click', () => { discoveredPage -= 1; renderDiscoveredPage(); });
+  $('#allAsinsNext').addEventListener('click', () => { discoveredPage += 1; renderDiscoveredPage(); });
+  renderDiscoveredPage();
   $('#statusContent').hidden = false;
+  if (location.hash === '#allAsins') setTimeout(() => $('#allAsins').scrollIntoView({ block: 'start' }), 0);
 })();
