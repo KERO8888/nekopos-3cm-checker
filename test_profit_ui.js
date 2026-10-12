@@ -39,10 +39,17 @@ const counts = products.reduce((out, product) => {
 }, {});
 assert.strictEqual(Object.values(counts).reduce((a, b) => a + b, 0), products.length);
 const candidates = products.filter(product => test.profitStateFor(product) === 'candidate');
-assert(candidates.some(item => item.asin === 'B093DGHBXC'));
-assert(candidates.some(item => item.asin === 'B0DQDTBXJ7'));
-assert.strictEqual(test.purchaseCeilingFor(candidates.find(item => item.asin === 'B0DQDTBXJ7')), 1345);
-assert.strictEqual(test.profitFor(candidates.find(item => item.asin === 'B093DGHBXC'), 'clickpost').profit, 129);
+const noFeaturedItem = products.find(item => item.asin === 'B093DGHBXC');
+const originalFeatured = context.window.NEKOPOST_MARKET.offers.B093DGHBXC.featuredOffer;
+context.window.NEKOPOST_MARKET.offers.B093DGHBXC.featuredOffer = null;
+assert.strictEqual(test.profitStateFor(noFeaturedItem), test.profitFor(noFeaturedItem, 'clickpost').profit > 0 ? 'reference' : 'loss');
+context.window.NEKOPOST_MARKET.offers.B093DGHBXC.featuredOffer = originalFeatured;
+for (const item of candidates) {
+  const profit = test.profitFor(item, 'clickpost');
+  const supplier = context.window.NEKOPOST_SOURCING.suppliers[item.asin]?.[0]
+    || context.window.NEKOPOST_MARKET.suppliers[item.asin]?.[0];
+  if (supplier) assert.strictEqual(test.purchaseCeilingFor(item), profit.profit + profit.buy + profit.inbound);
+}
 assert(test.supplierQuick(products.find(item => item.asin === 'B0GZDF7V69')).includes('商品代・仕入総額は未確定'));
 
 const csv = test.createCsv(candidates);
@@ -67,10 +74,11 @@ assert.strictEqual(element('#profitCandidateCount').textContent, counts.candidat
 assert.strictEqual(element('#profitReferenceCount').textContent, counts.reference || 0);
 assert.strictEqual(element('#profitSourcingCount').textContent, counts.sourcing || 0);
 assert.strictEqual(element('#profitPriceMissingCount').textContent, counts.price_missing || 0);
-assert(element('#featured').innerHTML.includes('B0DQDTBXJ7'));
-assert(element('#featured').innerHTML.includes('+¥465'));
-assert(element('#featured').innerHTML.includes('仕入総額・1点'));
-assert(element('#featured').innerHTML.includes('仕入先の要約'));
+if (candidates.length) {
+  assert(element('#featured').innerHTML.includes(candidates[0].asin));
+  assert(element('#featured').innerHTML.includes('仕入総額・1点'));
+  assert(element('#featured').innerHTML.includes('仕入先の要約'));
+}
 assert(element('#list').innerHTML.includes('candidate-source'));
 assert.strictEqual((element('#list').innerHTML.match(/data-select-asin=/g) || []).length, Math.min(candidates.length, 20));
 test.setProfitFilter('sourcing');

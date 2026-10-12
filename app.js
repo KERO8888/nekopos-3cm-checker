@@ -217,6 +217,7 @@
     const sale = saleInputsFor(item, record);
     if (sale.basis === 'fba_reference' || sale.basis === 'manual') return 'reference';
     if (result.profit <= 0) return 'loss';
+    if (!market.offers?.[item.asin]?.featuredOffer) return 'reference';
     return priceGapFor(item, record) ? 'price_risk' : 'candidate';
   }
 
@@ -533,7 +534,7 @@
     const sale = saleInputsFor(item, record);
     const ceiling = purchaseCeilingFor(item, record);
     const label = state === 'candidate' ? '黒字候補 · 厚さと重量は要実測'
-      : state === 'reference' ? '参考試算 · 自己発送の実売価格は未確認'
+      : state === 'reference' ? (sale.basis === 'mfn' ? '参考試算 · おすすめ出品未確認' : '参考試算 · 自己発送の実売価格は未確認')
         : state === 'price_risk' ? '価格差あり · おすすめ出品より高い'
           : state === 'sourcing' ? '仕入先の単品価格・送料を確認してください'
             : state === 'price_missing' ? 'Amazonの売価・購入者送料が未取得'

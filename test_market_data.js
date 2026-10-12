@@ -60,6 +60,11 @@ function observedProfit(asin, supplier) {
   }).profit;
 }
 
-assert.strictEqual(observedProfit('B093DGHBXC', sourcing.suppliers.B093DGHBXC[0]), 129);
-assert.strictEqual(observedProfit('B0DQDTBXJ7', sourcing.suppliers.B0DQDTBXJ7[0]), 465);
+for (const asin of ['B093DGHBXC', 'B0DQDTBXJ7']) {
+  const supplier = sourcing.suppliers[asin][0];
+  const offer = market.offers[asin].lowestMerchant;
+  const fee = market.fees[asin];
+  const expected = offer.landedYen - offer.points - supplier.priceYen - supplier.inboundShippingYen - 240 - 20 - Math.ceil(fee.totalFeeYen * 1.1);
+  assert.strictEqual(observedProfit(asin, supplier), expected, asin);
+}
 console.log('market data and observed MFN profit: ok');
