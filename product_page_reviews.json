@@ -2009,6 +2009,46 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71dI9Nwc4-L._AC_SL1500_.jpg",
       "reviewStatus": "hold_missing_dimensions_or_shape",
       "reviewNote": "Amazon現行ページに3辺寸法の表示を取得できず、持ち運びケース付きの販売単位を未開封で3cm以下にできるか不明。"
+    },
+    {
+      "asin": "B0BY682HW9",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0BY682HW9",
+      "title": "セールスお断り 迷惑セールス 撃退 ステッカー シール 注意 警告 防犯 勧誘 チラシ セールス 迷惑 お断りシール 耐光 防水 (F)",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51nwwProENL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_dimensions_or_shape",
+      "reviewNote": "Amazon現行ページの3辺寸法を確認できない。Keepaの包装寸法のみでは登録条件を確定できない。"
+    },
+    {
+      "asin": "B0CBMKVLWH",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0CBMKVLWH",
+      "title": "迷惑チラシ お断り ステッカー シール 郵便 ポスト 注意 警告 防犯 勧誘 チラシ セールス 迷惑 お断りシール 耐光 防水 (B)【HG】",
+      "dimensions": [
+        {
+          "value": "15 x 2.8 x 0.1 cm",
+          "context": "ー 注意 スタイル名 (B)【HG】 ハイグレード パターン 無地 ケース形 長方形 サイズ 商品本体サイズ 15 x 2.8 x 0.1 cm セット数 1 ユニット数 1 個 商品の入り数 1 商品の寸法 L "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61rtjZK79rL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_under_3cm_listed_product",
+      "reviewNote": "Amazon現行ページの商品本体寸法は15×2.8×0.1cm。最小辺が3cm超という登録条件を満たさない。"
+    },
+    {
+      "asin": "B0BBR41DSH",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0BBR41DSH",
+      "title": "迷惑チラシ お断り ステッカー シール 郵便 ポスト 注意 警告 防犯 勧誘 チラシ 迷惑 お断りシール 耐光 防水 (A)",
+      "dimensions": [
+        {
+          "value": "15 x 2.8 x 0.1 cm",
+          "context": "テーマキャラクター 迷惑チラシ スタイル名 (A) パターン 無地 ケース形 長方形 サイズ 商品本体サイズ 15 x 2.8 x 0.1 cm セット数 1 ユニット数 1 個 商品の入り数 1 サイズ 単体 機"
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51d2I4qZu1L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_under_3cm_listed_product",
+      "reviewNote": "Amazon現行ページの商品本体寸法は15×2.8×0.1cm。最小辺が3cm超という登録条件を満たさない。"
     }
   ]
 }
