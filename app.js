@@ -153,6 +153,26 @@
     const unique = [...new Map(combined.map(supplier => [supplier.url, supplier])).values()];
     return unique.sort((a, b) => a.priceYen - b.priceYen || (a.inboundShippingYen ?? Infinity) - (b.inboundShippingYen ?? Infinity));
   }
+  function supplierPlatform(supplier) {
+    let host = '';
+    try { host = new URL(supplier.url).hostname; } catch (_) { /* Keep unknown stores labeled as other. */ }
+    if (host === 'item.rakuten.co.jp') return { key: 'rakuten', icon: '楽', label: '楽天市場' };
+    if (host === 'store.shopping.yahoo.co.jp') return { key: 'yahoo', icon: 'Y!', label: 'Yahoo!' };
+    if (host === 'www.yodobashi.com') return { key: 'yodobashi', icon: 'ヨ', label: 'ヨドバシ' };
+    if (host === 'www.askul.co.jp') return { key: 'askul', icon: 'A', label: 'アスクル' };
+    return { key: 'other', icon: '店', label: 'その他の店舗' };
+  }
+  function supplierBadge(supplier) {
+    const platform = supplierPlatform(supplier);
+    return `<span class="supplier-platform supplier-platform-${platform.key}"><span class="supplier-platform-icon" aria-hidden="true">${platform.icon}</span><span class="supplier-platform-label">${platform.label}</span></span>`;
+  }
+  function supplierDisplayName(supplier) {
+    const name = supplier.name || '';
+    const platform = supplierPlatform(supplier).key;
+    if (platform === 'rakuten') return name.replace(/^楽天市場\s*\/\s*/, '');
+    if (platform === 'yahoo') return name.replace(/\s*（Yahoo!ショッピング）$/, '');
+    return name;
+  }
   const merchantOfferFor = asin => market.offers?.[asin]?.lowestMerchant || null;
   const referenceOfferFor = asin => merchantOfferFor(asin) ? null : (market.offers?.[asin]?.featuredOffer?.fulfilledByAmazon ? market.offers[asin].featuredOffer : market.offers?.[asin]?.lowestAmazonFulfilled || null);
   function saleInputsFor(item, record) {
@@ -271,10 +291,10 @@
         : 'SP-APIで自己発送の新規出品も、おすすめ出品も確認できません。出品額は手入力が必要です。';
     const searchTerm = suppliers.find(s => /JAN \d{13}/.test(s.identity || ''))?.identity?.match(/JAN (\d{13})/)?.[1] || supplierSearch?.discoveredJan || item.title.slice(0, 38);
     const hasSupplierSearch = supplierSearch && (supplierSearch.status !== 'not_searched' || supplierSearch.rakutenQueries);
-    const supplierRows = suppliers.length ? suppliers.map(s => `<div class="supplier-row"><div><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.name)} ↗</a><small>${escapeHtml(s.identity)} · ${escapeHtml(s.checkedOn)}確認</small></div><b>${yen(s.priceYen)}<small>単品注文時送料 ${s.inboundShippingYen == null ? '未確認' : yen(s.inboundShippingYen)}（利益には未計上）</small></b><p>${escapeHtml(s.note)}</p></div>`).join('') : `<p class="supplier-empty">${hasSupplierSearch ? `Yahoo!ショッピングの検索候補${supplierSearch.primaryHits + supplierSearch.fallbackHits}件、楽天の検索${supplierSearch.rakutenQueries || 0}条件を調査しました。単品・JAN・価格・送料・在庫の照合が済んだ仕入先は未確認です。` : '仕入先の照合は未着手です。'} 検索リンクは仕入先の確認済み記録ではありません。</p>`;
+    const supplierRows = suppliers.length ? suppliers.map(s => `<div class="supplier-row"><div><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(s.name)}">${supplierBadge(s)}<span class="supplier-store-name">${escapeHtml(supplierDisplayName(s))} ↗</span></a><small>${escapeHtml(s.identity)} · ${escapeHtml(s.checkedOn)}確認</small></div><b>${yen(s.priceYen)}<small>単品注文時送料 ${s.inboundShippingYen == null ? '未確認' : yen(s.inboundShippingYen)}（利益には未計上）</small></b><p>${escapeHtml(s.note)}</p></div>`).join('') : `<p class="supplier-empty">${hasSupplierSearch ? `Yahoo!ショッピングの検索候補${supplierSearch.primaryHits + supplierSearch.fallbackHits}件、楽天の検索${supplierSearch.rakutenQueries || 0}条件を調査しました。単品・JAN・価格・送料・在庫の照合が済んだ仕入先は未確認です。` : '仕入先の照合は未着手です。'} 検索リンクは仕入先の確認済み記録ではありません。</p>`;
     return `<section class="profit-panel" aria-label="仕入先と利益の試算">
       <div class="panel-title"><div><span class="page-kicker">SOURCING & PROFIT</span><h4>仕入先と利益の試算</h4></div><small>自社発送・1点あたり</small></div>
-      <div class="supplier-list">${supplierRows}<div class="supplier-search"><span>ほかの仕入先を探す</span><a href="https://shopping.yahoo.co.jp/search?p=${encodeURIComponent(searchTerm)}" target="_blank" rel="noopener noreferrer">Yahoo!ショッピング ↗</a><a href="https://search.rakuten.co.jp/search/mall/${encodeURIComponent(searchTerm)}/" target="_blank" rel="noopener noreferrer">楽天市場 ↗</a></div></div>
+      <div class="supplier-list">${supplierRows}<div class="supplier-search"><span>ほかの仕入先を探す</span><a href="https://shopping.yahoo.co.jp/search?p=${encodeURIComponent(searchTerm)}" target="_blank" rel="noopener noreferrer">Yahoo!ショッピング ↗</a><a href="https://search.rakuten.co.jp/search/mall/${encodeURIComponent(searchTerm)}/" target="_blank" rel="noopener noreferrer">楽天市場 ↗</a><small class="supplier-search-status">この商品の楽天JAN検索：${supplierSearch?.rakutenJanQueries ? `${supplierSearch.rakutenJanQueries}条件済み` : '未実施'}。検索結果と仕入先の照合は別です。</small></div></div>
       <div class="profit-fields">
         <label>${sale.basis === 'fba_reference' ? 'FBA出品の参考価格（税込）' : 'Amazon自己発送の出品価格（税込）'}<input data-profit="saleListing" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(sale.listing)}" placeholder="確認後に入力"></label>
         <label>購入者から受け取る配送料（税込）<input data-profit="saleShipping" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(sale.shipping)}" placeholder="送料無料なら0"></label>
@@ -525,7 +545,7 @@
       <span class="candidate-thumb">${image}</span>
       <span class="candidate-ident"><strong title="${escapeHtml(item.title)}">${escapeHtml(listTitle)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small><small class="candidate-profit ${state === 'price_risk' ? 'price-risk' : state}">${profitText}</small></span>
       <span class="candidate-measures">${Number(record.pouchWidth) > 0 && Number(record.pouchHeight) > 0 || prediction.footprintSource === 'manufacturer' ? '袋' : '仮の袋面'} ${escapeHtml(width)}×${escapeHtml(length)} cm <span>厚さ ${escapeHtml(thickness)} cm</span></span>
-      <span class="candidate-source ${supplier ? '' : 'unconfirmed'}" title="${supplier ? `仕入先 ${escapeHtml(supplier.name)}・仕入送料${sourceInbound === '' ? '未入力' : yen(Number(sourceInbound))}で試算` : '仕入先の単品価格は未確認'}">${supplier ? `仕入先 ${escapeHtml(supplier.name)} · ${sourceTotal == null ? '仕入額未入力' : yen(sourceTotal)}（仕入送料${sourceInbound === '' ? '未入力' : yen(Number(sourceInbound))}）` : '仕入先 未確認'}</span>
+      <span class="candidate-source ${supplier ? '' : 'unconfirmed'}" title="${supplier ? `仕入先 ${escapeHtml(supplier.name)}・仕入送料${sourceInbound === '' ? '未入力' : yen(Number(sourceInbound))}で試算` : '仕入先の単品価格は未確認'}">${supplier ? `${supplierBadge(supplier)}<span class="candidate-source-text">${escapeHtml(supplierDisplayName(supplier))} · ${sourceTotal == null ? '仕入額未入力' : yen(sourceTotal)}</span>` : '仕入先 未確認'}</span>
       <span class="candidate-verdict"><span class="pill ${shippingClasses[fit.nekopos.status]}"><b>ネコポス</b> ${shippingLabels[fit.nekopos.status]}</span><span class="pill ${shippingClasses[fit.clickpost.status]}"><b>クリックポスト</b> ${shippingLabels[fit.clickpost.status]}</span></span>
     </button>`;
   }
@@ -561,7 +581,7 @@
     const total = buyPrice === '' || buyShipping === '' ? null : Number(buyPrice) + Number(buyShipping);
     const identity = /^JAN \d{13}/.test(supplier.identity || '') ? 'JAN照合' : '商品名・容量照合';
     const edited = record.buyPrice != null || record.buyShipping != null;
-    return `<section class="supplier-quick" aria-label="仕入先の要約"><span class="supplier-quick-label">仕入先</span><a class="supplier-quick-name" href="${escapeHtml(supplier.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(supplier.name)} ↗</a><strong class="supplier-quick-cost">${total == null ? '入力待ち' : yen(total)}<small>${total == null ? '仕入額は未入力' : '利益計算上の仕入額・1点'}</small></strong><span class="supplier-quick-meta">商品 ${yen(supplier.priceYen)} · 利益計算の仕入送料 ${yen(Number(buyShipping) || 0)}<br>単品注文時の表示送料 ${supplier.inboundShippingYen == null ? '未確認' : yen(supplier.inboundShippingYen)}（未計上） · ${identity} · ${escapeHtml(supplier.checkedOn)}確認${edited ? ' · 利益は入力値で再計算' : ''}</span></section>`;
+    return `<section class="supplier-quick" aria-label="仕入先の要約"><span class="supplier-quick-label">仕入先</span><a class="supplier-quick-name" href="${escapeHtml(supplier.url)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(supplier.name)}">${supplierBadge(supplier)}<span class="supplier-store-name">${escapeHtml(supplierDisplayName(supplier))} ↗</span></a><strong class="supplier-quick-cost">${total == null ? '入力待ち' : yen(total)}<small>${total == null ? '仕入額は未入力' : '利益計算上の仕入額・1点'}</small></strong><span class="supplier-quick-meta">商品 ${yen(supplier.priceYen)} · 利益計算の仕入送料 ${yen(Number(buyShipping) || 0)}<br>単品注文時の表示送料 ${supplier.inboundShippingYen == null ? '未確認' : yen(supplier.inboundShippingYen)}（未計上） · ${identity} · ${escapeHtml(supplier.checkedOn)}確認${edited ? ' · 利益は入力値で再計算' : ''}</span></section>`;
   }
 
   function render() {

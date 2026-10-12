@@ -2,6 +2,7 @@
 """Publish checked market observations to browser JavaScript without credentials."""
 
 import json
+import re
 from pathlib import Path
 
 from supplier_rules import is_multi_unit
@@ -90,12 +91,16 @@ def main():
     search_status = {}
     for asin in current_asins:
         row = search_source.get("items", {}).get(asin, {})
+        rakuten_queries = [query for query in rakuten_search_source.get("items", {}).get(asin, {}).get("queries", {}).values()
+                           if query.get("market") == "rakuten"]
         search_status[asin] = {
             "status": row.get("status", "not_searched"),
             "primaryHits": row.get("hitCount", 0),
             "fallbackHits": fallback_source.get("items", {}).get(asin, {}).get("hitCount", 0),
             "checkedPages": supplier_source.get("items", {}).get(asin, {}).get("checkedPages", 0),
-            "rakutenQueries": sum(query.get("market") == "rakuten" for query in rakuten_search_source.get("items", {}).get(asin, {}).get("queries", {}).values()),
+            "rakutenQueries": len(rakuten_queries),
+            "rakutenJanQueries": sum(bool(re.fullmatch(r"\d{13}", query.get("query", ""))) and query.get("status") == "searched"
+                                     for query in rakuten_queries),
             "rakutenCheckedPages": rakuten_supplier_source.get("items", {}).get(asin, {}).get("checkedPages", 0),
             "discoveredJan": (rakuten_supplier_source.get("items", {}).get(asin, {}).get("expectedEans") or [None])[0],
             "verified": bool(suppliers.get(asin)),

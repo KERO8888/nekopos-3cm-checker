@@ -28,10 +28,18 @@ for (const file of ['data.js', 'predictions.js', 'shipping_fit.js', 'sourcing.js
 const app = fs.readFileSync('app.js', 'utf8');
 const ending = /  renderStats\(\);\s*syncProfitButtons\(\);\s*render\(\);\s*\}\)\(\);\s*$/;
 assert(ending.test(app), 'app bootstrap changed; inspect test harness');
-vm.runInContext(app.replace(ending, '  window.__profitTest = { profitStateFor, profitFor, purchaseCeilingFor, suppliersFor, supplierQuick, createCsv, renderStats, render, setProfitFilter(value) { profitFilter = value; } };\n})();'), context, { filename: 'app.js' });
+vm.runInContext(app.replace(ending, '  window.__profitTest = { profitStateFor, profitFor, purchaseCeilingFor, suppliersFor, supplierBadge, supplierDisplayName, supplierQuick, createCsv, renderStats, render, setProfitFilter(value) { profitFilter = value; } };\n})();'), context, { filename: 'app.js' });
 
 const products = context.window.NEKOPOST_PRODUCTS;
 const test = context.window.__profitTest;
+for (const [url, key] of [
+  ['https://item.rakuten.co.jp/shop/product/', 'rakuten'],
+  ['https://store.shopping.yahoo.co.jp/shop/product.html', 'yahoo'],
+  ['https://www.yodobashi.com/product/123/', 'yodobashi'],
+  ['https://www.askul.co.jp/p/123/', 'askul'],
+]) assert(test.supplierBadge({ url }).includes(`supplier-platform-${key}`), key);
+assert.strictEqual(test.supplierDisplayName({ url: 'https://item.rakuten.co.jp/shop/item/', name: '楽天市場 / morro' }), 'morro');
+assert.strictEqual(test.supplierDisplayName({ url: 'https://store.shopping.yahoo.co.jp/shop/item.html', name: '爽快ドラッグ（Yahoo!ショッピング）' }), '爽快ドラッグ');
 const counts = products.reduce((out, product) => {
   const state = test.profitStateFor(product);
   out[state] = (out[state] || 0) + 1;
@@ -91,8 +99,11 @@ if (candidates.length) {
   assert(element('#featured').innerHTML.includes(candidates[0].asin));
   assert(element('#featured').innerHTML.includes('利益計算上の仕入額・1点'));
   assert(element('#featured').innerHTML.includes('仕入先の要約'));
+  assert(element('#featured').innerHTML.includes('supplier-platform-'));
+  assert(element('#featured').innerHTML.includes('この商品の楽天JAN検索'));
 }
 assert(element('#list').innerHTML.includes('candidate-source'));
+assert(element('#list').innerHTML.includes('supplier-platform-'));
 assert.strictEqual((element('#list').innerHTML.match(/data-select-asin=/g) || []).length, Math.min(candidates.length, 20));
 test.setProfitFilter('sourcing');
 test.render();

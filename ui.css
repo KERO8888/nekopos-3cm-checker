@@ -910,3 +910,21 @@ main { max-width:none; padding:0 24px 50px 0; }
   .size-callout .size-values { padding-left:0; gap:5px; }
   .size-callout > p { padding:8px 0 0; border:0; border-top:1px solid #cfe6e6; }
 }
+
+/* Text marks identify the selling marketplace without depending on remote logos. */
+.supplier-platform { --platform-color:#607588; display:inline-flex; flex:none; align-items:center; gap:5px; padding:2px 7px 2px 2px; border:1px solid #dce5e8; border-radius:6px; background:#fff; color:var(--platform-color); font-size:10px; font-weight:900; line-height:1; white-space:nowrap; }
+.supplier-platform-icon { display:grid; flex:none; place-items:center; width:23px; height:23px; border-radius:4px; background:var(--platform-color); color:#fff; font-size:11px; font-weight:900; }
+.supplier-platform-rakuten { --platform-color:#bf0000; }
+.supplier-platform-yahoo { --platform-color:#d62828; }
+.supplier-platform-yodobashi { --platform-color:#164e9b; }
+.supplier-platform-askul { --platform-color:#087b64; }
+.candidate-row > .candidate-source { display:flex; align-items:center; gap:6px; padding:3px 5px; text-overflow:clip; }
+.candidate-source .supplier-platform { gap:3px; padding:1px 4px 1px 1px; border:0; font-size:9px; }
+.candidate-source .supplier-platform-icon { width:18px; height:18px; font-size:9px; }
+.candidate-source-text { min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.supplier-quick a.supplier-quick-name,.supplier-row a { display:flex; align-items:center; gap:8px; min-width:0; max-width:100%; text-decoration:none; }
+.supplier-quick .supplier-store-name,.supplier-row .supplier-store-name { flex:1 1 auto; min-width:0; overflow:hidden; text-overflow:ellipsis; text-decoration:underline; text-decoration-color:#9bcbd2; text-underline-offset:3px; white-space:nowrap; }
+.supplier-row a .supplier-platform { font-size:9px; }
+.supplier-row a .supplier-platform-icon { width:19px; height:19px; font-size:9px; }
+.supplier-search-status { display:block; width:100%; color:#6f8185; font-size:10px; }
+@media(max-width:580px) { .supplier-quick .supplier-platform-label { display:none; } }

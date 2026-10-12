@@ -45,6 +45,8 @@ for (const asin of ['B0H7HRMFMR', 'B0GZDF7V69']) {
 assert.strictEqual(sourcing.suppliers.B0GL6TYSJR[0].priceYen + sourcing.suppliers.B0GL6TYSJR[0].inboundShippingYen, 1520);
 assert(market.suppliers.B0DQDTBXJ7.some(supplier => supplier.identity.includes('Amazon側未照合')));
 assert.strictEqual(market.supplierSearch.B0DQDTBXJ7.discoveredJan, '4548514159327');
+assert.strictEqual(market.supplierSearch.B0DQDTBXJ7.rakutenJanQueries, 1);
+assert.strictEqual(market.supplierSearch.B0GL6TYSJR.rakutenJanQueries, 1);
 
 for (const [asin, fee] of Object.entries(market.referenceFees)) {
   const offer = market.offers[asin];

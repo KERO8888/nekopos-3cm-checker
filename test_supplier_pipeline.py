@@ -34,6 +34,14 @@ class SupplierPipelineTests(unittest.TestCase):
         self.assertFalse(sizes_match("エプソピア 600g+増量200g", "エプソピア 600g"))
         self.assertTrue(url_jan_conflicts("https://item.rakuten.co.jp/shop/4589725722894/", "4589725722924"))
 
+    def test_rakuten_leads_use_item_price_when_shipping_is_assumed_free(self):
+        item = {"title": "入浴剤 500g", "queries": {"rakuten:jan": {
+            "market": "rakuten", "firstPageHits": [
+                {"title": "入浴剤 500g", "url": "https://item.rakuten.co.jp/shop/high/", "priceYen": 900, "displayShippingYen": 0},
+                {"title": "入浴剤 500g", "url": "https://item.rakuten.co.jp/shop/low/", "priceYen": 700, "displayShippingYen": 800},
+            ]}}}
+        self.assertEqual(leads_for(item, [])[0]["priceYen"], 700)
+
 
 if __name__ == "__main__":
     unittest.main()

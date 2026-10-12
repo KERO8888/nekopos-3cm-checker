@@ -78,8 +78,7 @@ def leads_for(item, expected_eans):
     def rank(lead):
         exact_url = any(ean in lead["url"] for ean in expected_eans)
         similarity = SequenceMatcher(None, text_norm(item["title"])[:100], text_norm(lead["title"])[:100]).ratio()
-        total = lead["priceYen"] + (lead["displayShippingYen"] if lead["displayShippingYen"] is not None else 9999)
-        return (-int(exact_url), -similarity, total)
+        return (-int(exact_url), -similarity, lead["priceYen"])
     return sorted(filtered, key=rank)
 
 
