@@ -1979,6 +1979,36 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71TtK2YPrJL._AC_SL1500_.jpg",
       "reviewStatus": "needs_manual_shape_and_unit_check",
       "reviewNote": "1人前のレトルトパウチ。Amazon掲載寸法の最小辺は3.9cm。ただし中のハンバーグは均せないため、未開封の梱包後最大厚が3cm以下かは未確認。登録を保留。"
+    },
+    {
+      "asin": "B08XX6VQ53",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B08XX6VQ53",
+      "title": "日本能率協会マネジメントセンター NOLTY ノートカバー A5 クリア NTBCV2151",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51XdQCqxYTL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_dimensions_or_shape",
+      "reviewNote": "Amazon現行ページに3辺寸法の表示を取得できず、登録条件の最小辺3cm超を確認できない。Keepaの包装寸法は商品本体・平置き厚さではない。"
+    },
+    {
+      "asin": "B08XX5KVVD",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B08XX5KVVD",
+      "title": "日本能率協会マネジメントセンター NOLTY ノートカバー B6 クリア NTBCV2152",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51TuYmiuwBL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_dimensions_or_shape",
+      "reviewNote": "Amazon現行ページに3辺寸法の表示を取得できず、登録条件の最小辺3cm超を確認できない。Keepa包装寸法の最小辺は2.6cm。"
+    },
+    {
+      "asin": "B0BN7QWSBR",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0BN7QWSBR",
+      "title": "エレコム クリーニングクロス 超極細繊維 超強力クロス Sサイズ 薄手タイプ 持ち運びケース付 クリーナー マイクロファイバー 水性/油性汚れ対応 強力 ウォッシャブル 【日本製】 グレー AFKCT-TCS",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71dI9Nwc4-L._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_dimensions_or_shape",
+      "reviewNote": "Amazon現行ページに3辺寸法の表示を取得できず、持ち運びケース付きの販売単位を未開封で3cm以下にできるか不明。"
     }
   ]
 }
