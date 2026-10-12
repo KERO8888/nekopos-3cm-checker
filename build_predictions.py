@@ -205,7 +205,8 @@ for item in products:
         verdict, special_reason, confidence = SPECIAL[asin]
         reason += special_reason
     else:
-        reason += '密度と袋の有効面積に幅があるため、数値は目安。'
+        reason += ('袋の有効面積は仮定値のため、数値は目安。' if material == '液体詰め替え'
+                   else '密度と袋の有効面積に幅があるため、数値は目安。')
     if asin in ('B079L4T8BS', 'B079L56FM7'):
         thin, thick = 2.0, 3.8  # inner pouches, not one 400g fill
     if asin == 'B07ND8DBVG':

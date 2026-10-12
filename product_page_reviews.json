@@ -2229,6 +2229,59 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81vnutzQSTL._AC_SL1500_.jpg",
       "reviewStatus": "added",
       "decisionNote": "柔らかい単品袋の写真とAmazon掲載3辺を確認。梱包寸法のみ、厚み未測定で低確信度。"
+    },
+    {
+      "asin": "B07VCDGCSC",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B07VCDGCSC",
+      "title": "Laundrin ランドリン 無添加 洗濯洗剤 大容量 クラシックフローラル 詰め替え 2倍 720g 濃縮タイプ 中性洗剤",
+      "dimensions": [
+        {
+          "value": "16 x 7.5 x 27 cm",
+          "context": "       :\n                                            ‎ 16 x 7.5 x 27 cm; 740 g メーカー\n                      "
+        },
+        {
+          "value": "16 x 7.5 x 27 cm",
+          "context": "ン してください。 サイズ ユニット数 720.0 グラム 商品の重量 0.74 キログラム 商品本体サイズ 16 x 7.5 x 27 cm パッケージサイズ名 大容量詰め替え 素材とお手入れ 防カビ加工 無添"
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61WaAYFc7NL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_rigid_spout",
+      "reviewNote": "現行商品写真の左上に硬いねじ式注ぎ口・キャップが明確に見えるため、液体を均しても局所厚が3cmを超える可能性があり主一覧から除外。Amazon掲載は16×7.5×27cm。"
+    },
+    {
+      "asin": "B0F3XB7MT8",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0F3XB7MT8",
+      "title": "さらさ 液体 無添加 760g 植物由来の厳選成分配合 洗濯洗剤 詰め替え",
+      "dimensions": [
+        {
+          "value": "197 x 272 x 74 cm",
+          "context": "       :\n                                            ‎ 197 x 272 x 74 cm; 790 g メーカー\n                      "
+        },
+        {
+          "value": "197 x 272 x 74 cm",
+          "context": "フィードバックを提供するには サインイン してください。 サイズ ユニット数 1.0 グラム 商品本体サイズ 197 x 272 x 74 cm パッケージサイズ名 詰め替え 760g 素材とお手入れ 防カビ加工 "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81Nfu-MKo+L._AC_SL1500_.jpg",
+      "reviewStatus": "hold_rigid_spout_and_unit_error",
+      "reviewNote": "現行商品写真の左上に硬いねじ式注ぎ口・キャップが明確に見える。さらにAmazon掲載197×272×74cmは単位誤記と疑われ、掲載寸法を信頼できないため主一覧から除外。"
+    },
+    {
+      "asin": "B0FTYRZGWR",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0FTYRZGWR",
+      "title": "ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+      "dimensions": [
+        {
+          "value": "23.1 x 12.8 x 5 cm",
+          "context": "       :\n                                            ‎ 23.1 x 12.8 x 5 cm; 420 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71jv12LlaoL._AC_SL1500_.jpg",
+      "reviewStatus": "added",
+      "reviewNote": "Amazon現行ページで400mLの単品詰め替え袋、掲載3辺23.1×12.8×5cmを確認。主画像では切り取り式の柔らかい袋で硬いキャップなし。掲載寸法が商品袋の実測かは未確認。外装の面を仮に12.8×23.1cmとすると有効面積約237cm²、内容物400mLを均した計算厚は約2.0cm。梱包後厚さ・重量は未測定。"
     }
   ]
 }
