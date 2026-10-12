@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-12T16:34:20.036169+00:00",
+  "checkedAt": "2026-10-12T17:57:40.147142+00:00",
   "source": "Yahoo Shopping direct product pages, displayed Tokyo shipping",
   "scope": "Only pages with matching JAN and single-unit wording are verified; availability and prices can change.",
   "items": {
@@ -3998,6 +3998,249 @@
           "inboundShippingYen": 770,
           "availability": "http://schema.org/InStock",
           "checkedAt": "2026-10-12T11:34:52.267415+00:00"
+        }
+      ]
+    },
+    "B00N1RJ906": {
+      "expectedEans": [
+        "4901085163238"
+      ],
+      "checkedPages": 6,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "(送料￥280)伊藤園 おーいお茶 抹茶入りさらさらほうじ茶 80g",
+          "store": "ノースフーズ",
+          "url": "https://store.shopping.yahoo.co.jp/northfoods/252.html",
+          "jan": "4901085163238",
+          "priceYen": 880,
+          "inboundShippingYen": 280,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 32,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:26.649744+00:00"
+        },
+        {
+          "name": "粉末茶 伊藤園 おーいお茶 さらさら ほうじ茶 80g袋 国産茶葉100% チャック付き  約100杯分 ホット可 インスタント  【ポスト投函】【発送重量 120g】",
+          "store": "量り売りモール",
+          "url": "https://store.shopping.yahoo.co.jp/hakariurisaiyasu/hsm00769d.html",
+          "jan": "4901085163238",
+          "priceYen": 1120,
+          "inboundShippingYen": 324,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 40,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:28.343483+00:00"
+        },
+        {
+          "name": "(伊藤園)おーいお茶 さらさらほうじ茶 80g",
+          "store": "ザグザグ通販プレミアム ヤフー店",
+          "url": "https://store.shopping.yahoo.co.jp/zagzag/4901085163238.html",
+          "jan": "4901085163238",
+          "priceYen": 820,
+          "inboundShippingYen": 650,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 30,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:23.854710+00:00"
+        },
+        {
+          "name": "伊藤園 おーいお茶　さらさらほうじ茶　８０ｇ",
+          "store": "カウモール",
+          "url": "https://store.shopping.yahoo.co.jp/kaumall/42487999.html",
+          "jan": "4901085163238",
+          "priceYen": 1048,
+          "inboundShippingYen": 550,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 38,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:27.495245+00:00"
+        },
+        {
+          "name": "伊藤園 お〜いお茶 さらさらほうじ茶  80g 1袋入り",
+          "store": "ヤマサキオンラインストア",
+          "url": "https://store.shopping.yahoo.co.jp/yamasaki-onlineshop/202210183-1.html",
+          "jan": "4901085163238",
+          "priceYen": 850,
+          "inboundShippingYen": 990,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 30,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:24.913302+00:00"
+        },
+        {
+          "name": "伊藤園 お〜いお茶 さらさらほうじ茶  80g 1袋入り",
+          "store": "やまさき商店",
+          "url": "https://store.shopping.yahoo.co.jp/daily-life-store/202210183-1.html",
+          "jan": "4901085163238",
+          "priceYen": 850,
+          "inboundShippingYen": 990,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 30,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:25.787136+00:00"
+        }
+      ]
+    },
+    "B002PH77S4": {
+      "expectedEans": [
+        "4901085120187"
+      ],
+      "checkedPages": 6,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "(伊藤園)さらさらとける お〜いお茶 ほうじ茶 40g",
+          "store": "ザグザグ通販プレミアム ヤフー店",
+          "url": "https://store.shopping.yahoo.co.jp/zagzag/4901085120187.html",
+          "jan": "4901085120187",
+          "priceYen": 570,
+          "inboundShippingYen": 250,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 20,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:30.629695+00:00"
+        },
+        {
+          "name": "「伊藤園」　お〜いお茶さらさらほうじ茶　40g",
+          "store": "くすりのエビス",
+          "url": "https://store.shopping.yahoo.co.jp/fines-f/4901085120187.html",
+          "jan": "4901085120187",
+          "priceYen": 578,
+          "inboundShippingYen": 550,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 20,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:31.545987+00:00"
+        },
+        {
+          "name": "伊藤園 お〜いお茶 さらさらほうじ茶 40g入",
+          "store": "JetPrice",
+          "url": "https://store.shopping.yahoo.co.jp/jetprice/b43824.html",
+          "jan": "4901085120187",
+          "priceYen": 560,
+          "inboundShippingYen": 590,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 19,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:29.625263+00:00"
+        },
+        {
+          "name": "「伊藤園」　お〜いお茶さらさらほうじ茶　40g",
+          "store": "薬のファインズファルマ",
+          "url": "https://store.shopping.yahoo.co.jp/finespharma/4901085120187.html",
+          "jan": "4901085120187",
+          "priceYen": 608,
+          "inboundShippingYen": 550,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 22,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:32.342164+00:00"
+        },
+        {
+          "name": "伊藤園 お〜いお茶 さらさらほうじ茶 40g入 粉末 スティック ほうじ茶 お茶 飲料",
+          "store": "ココデカウ",
+          "url": "https://store.shopping.yahoo.co.jp/cocodecow/730871.html",
+          "jan": "4901085120187",
+          "priceYen": 624,
+          "inboundShippingYen": 590,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 22,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:33.234038+00:00"
+        },
+        {
+          "name": "伊藤園 さらさらとける お〜いお茶 ほうじ茶 40g",
+          "store": "ホームセンターグッデイ",
+          "url": "https://store.shopping.yahoo.co.jp/hcgooday/9843905.html",
+          "jan": "4901085120187",
+          "priceYen": 624,
+          "inboundShippingYen": 1260,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 22,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:34.007013+00:00"
+        }
+      ]
+    },
+    "B06WW3BZW2": {
+      "expectedEans": [
+        "4901085189429"
+      ],
+      "checkedPages": 6,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "麦茶 さらさら健康ミネラルむぎ茶 80g 伊藤園 水でもお湯でもすぐに溶ける粉末タイプ",
+          "store": "くすりのiQ Yahoo!店",
+          "url": "https://store.shopping.yahoo.co.jp/kusurino-iq/4901085189429-p.html",
+          "jan": "4901085189429",
+          "priceYen": 1039,
+          "inboundShippingYen": 0,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 38,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:35.554577+00:00"
+        },
+        {
+          "name": "麦茶 粉末 伊藤園 さらさらとける 健康ミネラルむぎ茶 80g 1個",
+          "store": "Allifeヤフーショップ",
+          "url": "https://store.shopping.yahoo.co.jp/allife/b031-005-01.html",
+          "jan": "4901085189429",
+          "priceYen": 1039,
+          "inboundShippingYen": 0,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 37,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:37.283804+00:00"
+        },
+        {
+          "name": "伊藤園 さらさら健康ミネラルむぎ茶（約100杯分） 80ｇ×1袋【3〜4営業日以内に出荷】 ［メール便］[送料無料]",
+          "store": "ドリンク屋 Yahoo!ショッピング店",
+          "url": "https://store.shopping.yahoo.co.jp/drinkya/37976-3.html",
+          "jan": "4901085189429",
+          "priceYen": 1090,
+          "inboundShippingYen": 0,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 40,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:39.841635+00:00"
+        },
+        {
+          "name": "伊藤園 健康ミネラルむぎ茶 粉末 チャック付き袋タイプ ( 80g )/ 健康ミネラルむぎ茶 ( 麦茶 )",
+          "store": "NetBabyWorld(ネットベビー)",
+          "url": "https://store.shopping.yahoo.co.jp/netbaby/4901085189429.html",
+          "jan": "4901085189429",
+          "priceYen": 1084,
+          "inboundShippingYen": 770,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 40,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:38.029012+00:00"
+        },
+        {
+          "name": "伊藤園 健康ミネラルむぎ茶 粉末 チャック付き袋タイプ ( 80g )/ 健康ミネラルむぎ茶 ( 麦茶 )",
+          "store": "爽快ドラッグ",
+          "url": "https://store.shopping.yahoo.co.jp/soukai/4901085189429.html",
+          "jan": "4901085189429",
+          "priceYen": 1084,
+          "inboundShippingYen": 770,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 40,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:39.006884+00:00"
+        },
+        {
+          "name": "麦茶 粉末 伊藤園 さらさらとける 健康ミネラルむぎ茶 80g 1個",
+          "store": "KKPLヤフーショップ",
+          "url": "https://store.shopping.yahoo.co.jp/phatee/b031-005-01.html",
+          "jan": "4901085189429",
+          "priceYen": 1039,
+          "inboundShippingYen": null,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 37,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T17:57:36.402442+00:00"
         }
       ]
     }

@@ -7,7 +7,9 @@
       "title": "100ml/200ml ローションポンプボトル 空の詰め替え容器 琥珀色 小分け プラスチック製 クレンジングオイルディスペンサー メイクアップストレージコンテナ 携帯用 液体用 乳液用 旅行用品 1本/2本入り (100ml,2本) [並行輸入品]",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/31+zltlWucL._AC_SY300_SX300_QL70_ML2_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0FRRP21HS",
@@ -16,7 +18,9 @@
       "title": "PET 詰替ボトル 200ml 遮光 茶色 ポンプ プラスチックボトル 化粧品容器 詰め替え ディスペンサーボトル ソープ メイク落としオイル ブラウン (200ml(2本)) [並行輸入品]",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71nGNCK9WxL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B09N7P3R8H",
@@ -30,7 +34,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71Gfyi1vfdL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0F5PVJ68S",
@@ -39,7 +45,9 @@
       "title": "【セット買い】バルクオム 化粧水 用 詰め替えボトル 200mL (メンズ スキンケア 男性 おしゃれ ディスペンサー トラベルボトル) BULKHOMME BOTTLE 200mL + 乳液 用 詰め替えボトル 100mL",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/512KjMAawLL._AC_SL1001_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0FRF66Q4S",
@@ -48,7 +56,9 @@
       "title": "自然化粧品研究所 ワンタッチキャップボトル 乳白半透明 化粧品容器 詰め替え容器 プラスチック 白 200mL 2本セット",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51OEv+G1jKL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0F5PVK1H1",
@@ -57,7 +67,9 @@
       "title": "【セット買い】ネイチャーコンク薬用ローション200ml + ネイチャーコンク薬用クリアローション詰替 180ml",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51eR9anmWQL._AC_SL1001_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0G7DW9V6T",
@@ -66,7 +78,9 @@
       "title": "Zerodeko 詰め替えボトル 200ml 2本セット ポンプ式 PET製 空ボトル アクリルポンプヘッド 化粧水 乳液 シャンプー ボディソープ ハンドソープ ディスペンサー 旅行 出張 ジム 銭湯 ホワイト",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61LtuHCP8FL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0HD78J1GH",
@@ -94,7 +108,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61P554JvxZL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_listed_min_side_not_over_3cm",
+      "decisionReason": "Amazon掲載14.7×10.7×1.5cmの最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B00TRYR6FM",
@@ -108,7 +124,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61N1dvmbCHL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B00TRZBEZ4",
@@ -122,7 +140,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41jgbz+RUnL._AC_SL1300_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B00TRZ0KAE",
@@ -164,7 +184,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/418dvi76mlL._AC_SL1000_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0DJZFDS57",
@@ -173,7 +195,9 @@
       "title": "旅行用 3個セット プラスチック製 ポンプ式 詰め替えボトル 100ml 150ml 200ml 白 軽量 持ち運びやすい 回転式 シャンプー 乳液 化粧水 ボディソープ 対応 携帯用 容器 旅行用品",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41xZycXNPCL._AC_SL1286_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CVQFV2H8",
@@ -196,7 +220,9 @@
       "title": "minkissy 3個セット プラスチック製ローションポンプボトル 化粧水容器 詰め替え用 100ml 150ml 200ml 白 回転式 小型 軽量 持ち運び便利 旅行用 シャンプー ボディーソープ マッサージオイル 化粧品対応 実用的",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41YdZiRgjQL._AC_SL1225_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0DKT6W6XN",
@@ -205,7 +231,9 @@
       "title": "3個セット ポンプ式ローションボトル 化粧水 乳液 シャンプー用 詰め替え容器 プラスチック製 100ml 150ml 200ml 旅行に便利 回転式 軽量 シンプル 実用的",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41k8vA4-5OL._AC_SL1282_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CF9L5NBM",
@@ -307,7 +335,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51EJcP6Kv0L._AC_SL1300_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0BWY6RJRM",
@@ -321,7 +351,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41O2OyCP5PL._AC_SL1300_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0FMF5PWRL",
@@ -371,7 +403,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51g1ULJmbfL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CSSRQZT7",
@@ -385,7 +419,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41w6Du2+ytL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B01MYNG5JF",
@@ -399,7 +435,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51NcF-l1-nL._AC_SL1010_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B00RCCTKA0",
@@ -413,7 +451,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51IFa3cFFGL._AC_SL1010_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B09DYGJWTT",
@@ -427,7 +467,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61MKDlGKhEL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0BSWB9PX6",
@@ -441,7 +483,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61imgYVbwtL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0DHW1WPM2",
@@ -455,7 +499,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61Ux+sulccL._AC_SY300_SX300_QL70_ML2_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0DVQ8HGX7",
@@ -469,7 +515,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61tj3zPddjL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0B82SVW41",
@@ -483,7 +531,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61WCkU9cpnL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B09PMQ57QT",
@@ -492,7 +542,9 @@
       "title": "ミスティフィ フォームボトル ガラス製 ムースポンプ 詰め替え容器 ハンドソープ・洗顔用 おしゃれデザイン 泡ポンプ 泡ボトル (赤グラデーション配色)",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/31R0W-ndbwL._AC_SY300_SX300_QL70_ML2_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0FP5CSJ87",
@@ -501,7 +553,9 @@
       "title": "ミスティフィ 高機能オイルスプレー 家庭用 エアリーミストスプレー 料理用 マイクロミストスプレー 調理用 高機能スプレー エアフライヤー用 高機能霧吹き 業務用 オイルポット 代用 ノンフライヤー用 食用油 オイルポンプ 空容器 (New 601)",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61xKZycPcIL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0FH23T9SQ",
@@ -510,7 +564,9 @@
       "title": "【ミスティフィ公式】微細ミストスプレーボトル 詰め替え容器 多目的スプレー エアリーミストスプレー マイクロミストスプレー 高機能霧吹き (350ml 透明ボトル 1本)",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/514t+oavgwL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0GMBSDGW3",
@@ -537,7 +593,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61-qhZtPXWL._AC_SL1262_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0HDR1Q6MJ",
@@ -546,7 +604,9 @@
       "title": "【本体＋詰替】シャボン玉手洗いせっけんバブルガード ハンドソープ 泡 本体300mL＋詰め替え250mL ※オリジナルショップカード付",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51XpyTK+kML._AC_SY300_SX300_QL70_ML2_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0FTSWSH3T",
@@ -564,7 +624,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61MOtdbeIeL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0GYRRF3V7",
@@ -578,7 +640,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51DDNgOi6VL._AC_SY300_SX300_QL70_ML2_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0DXVRVBTQ",
@@ -596,7 +660,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71yTEkB3JXL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B07P6WMW75",
@@ -623,7 +689,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61Z2kyPIm9L._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0G2RXRQKR",
@@ -641,7 +709,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61jUX8FKzbL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0FPKX19VV",
@@ -655,7 +725,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61q6lEFs8HL._AC_SL1080_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0G2RZBSXD",
@@ -673,7 +745,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/7105c4FOP3L._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0G2RXH91B",
@@ -691,7 +765,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/616nzLOoPtL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B09XM2K2J2",
@@ -705,7 +781,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71hA4Ct2gCL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B00NX8LNDY",
@@ -719,7 +797,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41xVWpVoKKL._AC_SL1010_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0BYYXS1FM",
@@ -733,7 +813,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51tgn-7KkHL._AC_SL1010_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0H9SL689W",
@@ -751,7 +833,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81THtAjs7JL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0HKH9J84D",
@@ -760,7 +844,9 @@
       "title": "【5個セット】MUSE ミューズ ノータッチ泡ハンドソープ 詰め替え ピーチ＆ローズの香り 250ml×5個 自動ディスペンサー用 泡タイプ ハンドソープ",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51h6ukr39ML._AC_SY300_SX300_QL70_ML2_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0H6BYLMLY",
@@ -774,7 +860,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71-tchx-oGL._AC_SL1254_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0H14V35D9",
@@ -783,7 +871,9 @@
       "title": "2個セット シャボン玉石けん バブルガード 250ml 詰め替え ハンドソープ 泡 せっけん 石鹸 ハンドウォッシュ 泡タイプ 手洗い 日本製 敏感肌 低刺激 香料 着色料 酸化防止剤 不使用 ●ショップロゴ入りおしぼり付き",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61VbHWjUcIL._AC_SL1080_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0H6RDS442",
@@ -801,7 +891,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81q4qu8oOKL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B089K4H8P5",
@@ -815,7 +907,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/31Eig2iTqSL._AC_SY300_SX300_QL70_ML2_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0HCKPFK2F",
@@ -829,7 +923,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61X-UxUUacL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0GVJMBS4Z",
@@ -843,7 +939,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61ONlFtgI0L._AC_SL1280_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B09G9HCZCJ",
@@ -857,7 +955,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51CEjtaG9oL._AC_SL1010_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B01CNHONFA",
@@ -875,7 +975,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41lkCzmDgQL._AC_SL1000_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B09GRGJTNP",
@@ -889,7 +991,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41uTHEQ3KFL._AC_SY300_SX300_QL70_ML2_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B09GS4N7LM",
@@ -903,7 +1007,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41AyPdylqtL._AC_SY300_SX300_QL70_ML2_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B01M237JCV",
@@ -931,7 +1037,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51aYwrwJFBL._AC_SL1254_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CHJ4CMXZ",
@@ -945,7 +1053,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51aYwrwJFBL._AC_SL1254_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B07NLBWGTJ",
@@ -959,7 +1069,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81rGLNhTdfL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "already_registered",
+      "decisionReason": "主一覧に同じASINが存在。重複登録しない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0DWCSLNBY",
@@ -973,7 +1085,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71dOhc6lrnL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "already_registered",
+      "decisionReason": "主一覧に同じASINが存在。重複登録しない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CDFZQ896",
@@ -1010,7 +1124,9 @@
       "title": "JP Number シャンプーボトル 300ml 旅行用 詰め替えボトル トラベルボトル (グリーン×ブルー, 2本セット)",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41wtzBtVM7L._AC_SL1080_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B09M3LDMG1",
@@ -1042,7 +1158,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51yRq4x5pcL._AC_SL1080_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B08KHV6GSL",
@@ -1051,7 +1169,9 @@
       "title": "カインズ(CAINZ) PET 詰替ボトル 600ml クリア プッシュ式 ポンプタイプ ディスペンサーボトル ボディソープ シャンプー 詰め替え",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71TrtrGPqmL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_hard_container_or_body",
+      "decisionReason": "Amazon現行ページの商品名に本体・硬い容器・スプレー等が明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B00RCCTK5U",
@@ -1065,7 +1185,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51NySGDQJKL._AC_SL1010_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B00NX8LNAC",
@@ -1079,7 +1201,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41QJUK5KzmL._AC_SL1010_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0BY8NJHK9",
@@ -1345,7 +1469,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71u1HQL5lVL._AC_SL1200_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0DZ5XNWX3",
@@ -1545,7 +1671,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61ClKwGkUrL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_listed_min_side_not_over_3cm",
+      "decisionReason": "Amazon掲載11×17×2cmの最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CJBVGH44",
@@ -1563,7 +1691,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61CYvmCRTxL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0F5PW69Y8",
@@ -1581,7 +1711,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/31PZkslXLAL._AC_SY300_SX300_QL70_ML2_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_listed_min_side_not_over_3cm",
+      "decisionReason": "Amazon掲載3×3.1×14.8cmの最小辺が3cmちょうど。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0F76TLP2H",
@@ -1649,7 +1781,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51xjDedb2sL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_listed_min_side_not_over_3cm",
+      "decisionReason": "Amazon掲載15×5×3cmの最小辺が3cmちょうど。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CSST7GW5",
@@ -1765,7 +1899,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71r9gGMuqcL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に複数販売単位またはおまけ・付属品が明記され、単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0DH85K67H",
@@ -1977,8 +2113,10 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71TtK2YPrJL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check",
-      "reviewNote": "1人前のレトルトパウチ。Amazon掲載寸法の最小辺は3.9cm。ただし中のハンバーグは均せないため、未開封の梱包後最大厚が3cm以下かは未確認。登録を保留。"
+      "reviewStatus": "hold_chunk_thickness_unverified",
+      "reviewNote": "1人前のレトルトパウチ。Amazon掲載寸法の最小辺は3.9cm。ただし中のハンバーグは均せないため、未開封の梱包後最大厚が3cm以下かは未確認。登録を保留。",
+      "decisionReason": "ハンバーグの固形部はならしても薄くできず、Amazon掲載15.7×14.2×3.9cmから最大厚3cm以下を推定できない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B08XX6VQ53",
@@ -2475,7 +2613,9 @@
       "title": "ダイヤ (Daiya) 洗濯ネット サボるん 手洗いのように洗える おしゃれ着ネット ランジェリー 型崩れ 毛玉 糸クズ防止 ホームクリーニング 下着 インナー ブラトップ ブラジャー YKKファスナー 長持ち 衝撃吸収 マシュマロメッシュ ランドリーネット 時短 ピンク 横27cm×縦19cm×厚3cm 057941",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61Vkb63MkjL._AC_SL1378_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "hold_missing_three_dimensions",
+      "decisionReason": "Amazon商品ページに登録条件の掲載3辺寸法が見つからない。写真・商品名だけでは追加できない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B083WMFJB9",
@@ -2521,6 +2661,209 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51QfKo3Z+uL._AC_SL1500_.jpg",
       "reviewStatus": "hold_missing_amazon_dimensions",
       "reviewNote": "現行Amazon商品ページの掲載3辺を取得できず、最小辺3cm超を確認できない。"
+    },
+    {
+      "asin": "B0CS2THKY8",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CS2THKY8",
+      "title": "明治 アーモンドチョコレートシンプル包装大容量パウチ 231ｇ",
+      "dimensions": [
+        {
+          "value": "17.8 x 14.7 x 4.2 cm",
+          "context": "       :\n                                            ‎ 17.8 x 14.7 x 4.2 cm; 230 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71rQNRlynAL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_piece_peak_thickness_unverified",
+      "decisionReason": "明治公式はチャック付き1袋・標準55粒を確認。Amazon掲載17.8×14.7×4.2cmは袋面の実寸と確定できず、硬い粒が未開封袋内で1層に並ぶか未確認。最大厚3cm以下と判断できない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DVLJ65Q7",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DVLJ65Q7",
+      "title": "Laundrin'(ランドリン) 無添加 洗濯洗剤 ホワイトティーの香り 詰め替え大容量 720g 濃縮タイプ 中性洗剤",
+      "dimensions": [
+        {
+          "value": "26.5 x 16.4 x 6 cm",
+          "context": "       :\n                                            ‎ 26.5 x 16.4 x 6 cm; 740 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71weTUxZbJL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行商品ページの主画像で袋左上の硬いねじ式キャップを確認。中身を均してもキャップの最大厚を3cm以下と確認できない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DYND9D1M",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DYND9D1M",
+      "title": "ファーファ ストーリー 洗濯洗剤 あわあわウォッシュ 詰替用 900g パウダリームスクの香り(微香性)",
+      "dimensions": [
+        {
+          "value": "27 x 13.9 x 7.5 cm",
+          "context": "       :\n                                            ‎ 27 x 13.9 x 7.5 cm; 920 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71f-QT37QaL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行ページの主画像で袋左上の硬いねじ式キャップを確認。中身を均しても最大厚3cm以下と確認できない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B07D522QZY",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B07D522QZY",
+      "title": "AM洗顔・パック｜ 日本製 ViLabo（ビラボ）正規品 (150ml 詰め替え用パウチ)",
+      "dimensions": [
+        {
+          "value": "22.2 x 12.2 x 3.4 cm",
+          "context": "       :\n                                            ‎ 22.2 x 12.2 x 3.4 cm; 150 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51vY9nr9vIL._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行ページの主画像で硬いねじ式キャップを確認。最大厚3cm以下と確認できず主一覧対象外。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0FH73ZYL2",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0FH73ZYL2",
+      "title": "cellnote. FeMish Premium WHIP シリアルナンバー付 スウィートピーチミルクの香り 150ml パウチ 詰め替え用",
+      "dimensions": [
+        {
+          "value": "13.5 x 8.8 x 3.2 cm",
+          "context": "       :\n                                            ‎ 13.5 x 8.8 x 3.2 cm; 150 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51zpq-b+2eL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行ページの主画像で硬いねじ式キャップを確認。最大厚3cm以下と確認できず主一覧対象外。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0D6MCM65S",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0D6MCM65S",
+      "title": "cellnote. FeMish Premium WHIP シリアルナンバー付 アロマティックウッディの香り 150ml パウチ 詰め替え用",
+      "dimensions": [
+        {
+          "value": "11.9 x 8.9 x 3.7 cm",
+          "context": "       :\n                                            ‎ 11.9 x 8.9 x 3.7 cm; 160 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/515kBpdYK3L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行ページの主画像で硬いねじ式キャップを確認。最大厚3cm以下と確認できず主一覧対象外。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0GTT16XSZ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0GTT16XSZ",
+      "title": "Curly Me カールクリーム (無香料) くせ毛 天然パーマ カーリーヘア用 150g 詰め替えパウチ カールキープ 束感",
+      "dimensions": [
+        {
+          "value": "12.5 x 9.8 x 3.8 cm",
+          "context": "       :\n                                            ‎ 12.5 x 9.8 x 3.8 cm; 150 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/710Tt4aJc6L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行ページの主画像で硬いねじ式キャップを確認。最大厚3cm以下と確認できず主一覧対象外。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0FY6DYL35",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0FY6DYL35",
+      "title": "Curly Me メルティハードジェル（無香料）くせ毛 天然パーマ カーリーヘア用 150g 詰め替えパウチ カールキープ 束感",
+      "dimensions": [
+        {
+          "value": "17.5 x 11 x 2.5 cm",
+          "context": "       :\n                                            ‎ 17.5 x 11 x 2.5 cm; 150 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71DfcIjXfVL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_min_side_not_over_3cm",
+      "decisionReason": "Amazon掲載17.5×11×2.5cmの最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B00UV7V6KK",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B00UV7V6KK",
+      "title": "伊藤園 さらさらとける 健康ミネラルむぎ茶 40g 粉末 チャック付き袋タイプ",
+      "dimensions": [
+        {
+          "value": "2.31 x 16.69 x 11.99 cm",
+          "context": "       :\n                                            ‎ 2.31 x 16.69 x 11.99 cm; 40.82 g メーカー\n                    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/91dE2Am4ULL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_min_side_not_over_3cm",
+      "decisionReason": "Amazon掲載2.31×16.69×11.99cmの最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B000KT75TA",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B000KT75TA",
+      "title": "伊藤園 おーいお茶 抹茶入り緑茶 粉末 80g チャック付き袋タイプ",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81kA8SlSZQL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "decisionReason": "Amazon現行ページから掲載3辺寸法を確認できず、主一覧の登録条件を満たすか未確定。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B00N1RJ906",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B00N1RJ906",
+      "title": "伊藤園 おーいお茶 ほうじ茶 粉末 80g チャック付き袋タイプ",
+      "dimensions": [
+        {
+          "value": "5.21 x 19.61 x 11.91 cm",
+          "context": "       :\n                                            ‎ 5.21 x 19.61 x 11.91 cm; 80 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81rWwWZp3WL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページの単品・柔らかいチャック袋・掲載3辺の最小辺3cm超を確認。40〜80gの粉末を未開封袋内で均す見込み。袋と外装の最大厚・重量は未測定で要実測。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B002PH77S4",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B002PH77S4",
+      "title": "伊藤園 おーいお茶 ほうじ茶 粉末 40g チャック付き袋タイプ",
+      "dimensions": [
+        {
+          "value": "16.7 x 11.8 x 4 cm",
+          "context": "       :\n                                            ‎ 16.7 x 11.8 x 4 cm; 40 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81UbgSfrHOL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページの単品・柔らかいチャック袋・掲載3辺の最小辺3cm超を確認。40〜80gの粉末を未開封袋内で均す見込み。袋と外装の最大厚・重量は未測定で要実測。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B06WW3BZW2",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B06WW3BZW2",
+      "title": "伊藤園 さらさらとける 健康ミネラルむぎ茶 80g 粉末 チャック付き袋タイプ",
+      "dimensions": [
+        {
+          "value": "19.6 x 11.9 x 5.7 cm",
+          "context": "       :\n                                            ‎ 19.6 x 11.9 x 5.7 cm; 80 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/817n+JVSmzL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページの単品・柔らかいチャック袋・掲載3辺の最小辺3cm超を確認。40〜80gの粉末を未開封袋内で均す見込み。袋と外装の最大厚・重量は未測定で要実測。",
+      "decidedOn": "2026-10-13"
     }
   ]
 }
