@@ -21,6 +21,8 @@ body { margin:0; }
 .status-metric small { display:block; margin-top:4px; color:#738899; font-size:11px; line-height:1.4; }
 .status-card { min-width:0; padding:16px; border:1px solid var(--line); border-radius:11px; background:#fff; }
 .pipeline-card { margin-top:13px; }
+.pipeline-card .section-heading { display:block; }
+.pipeline-card .section-heading .subtle { display:block; margin-top:6px; text-align:left; }
 .section-heading { display:flex; align-items:end; justify-content:space-between; gap:12px; margin-bottom:12px; }
 .section-kicker { display:block; color:#6792a0; font-size:10px; font-weight:850; letter-spacing:.13em; }
 .section-heading h2 { margin:2px 0 0; color:#173b56; font-size:18px; line-height:1.3; }
@@ -86,6 +88,7 @@ footer code { padding:2px 5px; border-radius:4px; background:#e8eef2; color:#536
   .source-grid { grid-template-columns:1fr; }
   .source-card p { min-height:0; }
   .subtle { display:none; }
+  .pipeline-card .section-heading .subtle { display:block; }
   .new-product { display:block; }
   .new-product-side { display:flex; justify-content:space-between; margin-top:6px; }
 }

@@ -9,6 +9,7 @@
   const apiData = window.NEKOPOST_API_DIMENSIONS || {};
   const $ = selector => document.querySelector(selector);
   const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));
+  const number = value => Number(value || 0).toLocaleString('ja-JP');
   const productAsins = new Set(products.map(item => item.asin));
   const imageAsins = new Set(Object.keys(imageData.images || {}));
   const localImageAsins = new Set(Object.keys(localImages));
@@ -49,10 +50,10 @@
   $('#catalogCount').textContent = products.length;
   $('#addedCount').textContent = additions.length;
   $('#addedCheck').textContent = `登録中${products.length}件のうち${registeredAdditions.length}件・対象外${additions.length - registeredAdditions.length}件`;
-  $('#discoveredCount').textContent = research.discoveredCount;
-  $('#queryCount').textContent = `Amazon ${research.queryCount}語・${research.collectedSearchPageCount || 0}ページ / Keepa ${research.finderRunCount || 0}条件`;
-  $('#checkedCount').textContent = research.pageCheckedCount;
-  $('#uncheckedCount').textContent = `${research.notFetchedCount}件はページ未確認・${research.manualReviewPendingCount || 0}件は個別判定待ち`;
+  $('#discoveredCount').textContent = number(research.discoveredCount);
+  $('#queryCount').textContent = `Amazon ${number(research.queryCount)}語・${number(research.collectedSearchPageCount)}ページ / Keepa ${number(research.finderRunCount)}条件`;
+  $('#checkedCount').textContent = number(research.pageCheckedCount);
+  $('#uncheckedCount').textContent = `${number(research.notFetchedCount)}件はページ未確認・${number(research.metadataCheckedCount)}件はKeepaの商品名まで取得・${number(research.manualReviewPendingCount)}件は個別判定待ち`;
   $('#researchScope').textContent = research.scope
     + (research.queuedQueryCount ? ` 次の検索語 ${research.queuedQueryCount}語は未探索。` : '')
     + (research.searchStopCount ? ` 検索ページの取得停止 ${research.searchStopCount}件。` : '');
@@ -60,10 +61,10 @@
 
   const pipeline = [
     { label: '発見したASIN（未確認含む）', count: research.discoveredCount, description: `Amazon ${research.queryCount}語・${research.collectedSearchPageCount || 0}ページ / Keepa ${research.finderRunCount || 0}条件`, tone: 'found' },
-    { label: '商品ページ確認', count: research.pageCheckedCount, description: `${research.notFetchedCount}件はページ未確認・${research.manualReviewPendingCount || 0}件は個別判定待ち`, tone: 'checked' },
+    { label: '商品ページ確認', count: research.pageCheckedCount, description: `${research.notFetchedCount}件はページ未確認・${research.metadataCheckedCount || 0}件はKeepaの商品名まで取得・${research.manualReviewPendingCount || 0}件は個別判定待ち`, tone: 'checked' },
     { label: '調査履歴上の追加', count: research.addedCount, description: `登録中${products.length}件のうち${registeredAdditions.length}件・対象外${additions.length - registeredAdditions.length}件`, tone: 'added' },
   ];
-  $('#pipeline').innerHTML = pipeline.map(step => `<div class="pipeline-step ${step.tone}"><div><b>${step.label}</b><strong>${step.count}<em>件</em></strong></div><div class="pipeline-bar"><span style="width:${percentage(step.count, research.discoveredCount)}%"></span></div><small>${escapeHtml(step.description)}</small></div>`).join('');
+  $('#pipeline').innerHTML = pipeline.map(step => `<div class="pipeline-step ${step.tone}"><div><b>${step.label}</b><strong>${number(step.count)}<em>件</em></strong></div><div class="pipeline-bar"><span style="width:${percentage(step.count, research.discoveredCount)}%"></span></div><small>${escapeHtml(step.description)}</small></div>`).join('');
 
   const imageComplete = imageCount === products.length;
   const keepaComplete = keepaCount === products.length;

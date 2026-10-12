@@ -86,6 +86,8 @@ def main():
     parser.add_argument("--finder-contains", default="", help="照合するKeepa Finder検索語に含まれる文字列")
     parser.add_argument("--title-regex", default="", help="保存済み検索結果タイトルが一致するASINだけ照合")
     parser.add_argument("--exclude-title-regex", default="", help="保存済み検索結果タイトルが一致するASINを除外")
+    parser.add_argument("--require-metadata", action="store_true", help="Keepaの商品名と寸法を取得済みのASINだけ照合")
+    parser.add_argument("--min-triage-score", type=int, default=None, help="Keepaの商品情報に基づく優先度の下限")
     parser.add_argument("--limit", type=int, default=30)
     parser.add_argument("--pause", type=float, default=1.5)
     args = parser.parse_args()
@@ -102,8 +104,12 @@ def main():
                 if row["status"] == "not_fetched" and row["asin"] not in reviewed
                 and ((args.query_contains and any(args.query_contains in query for query in row["queries"]))
                      or (args.finder_contains and any(args.finder_contains in source for source in row.get("discoverySources", []))))
-                and (not title_pattern or title_pattern.search(row.get("searchTitle", "")))
-                and (not exclude_pattern or not exclude_pattern.search(row.get("searchTitle", "")))][:args.limit]
+                and (not args.require_metadata or row.get("keepaMetadataCheckedAt"))
+                and (args.min_triage_score is None or row.get("triageScore", -999) >= args.min_triage_score)
+                and (not title_pattern or title_pattern.search(row.get("keepaTitle") or row.get("searchTitle", "")))
+                and (not exclude_pattern or not exclude_pattern.search(row.get("keepaTitle") or row.get("searchTitle", "")))]
+    selected.sort(key=lambda row: row.get("triageScore", -999), reverse=True)
+    selected = selected[:args.limit]
     if not selected:
         print("対象の未確認ASINはありません")
         return 0

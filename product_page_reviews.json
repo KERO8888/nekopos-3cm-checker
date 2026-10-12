@@ -1964,6 +1964,21 @@
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71pdvaNEYAL._AC_SL1500_.jpg",
       "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B0DW6ZXW49",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0DW6ZXW49",
+      "title": "無印良品 素材を生かした トマトの煮込みハンバーグ 1人前 TCF09A4A",
+      "dimensions": [
+        {
+          "value": "15.7 x 14.2 x 3.9 cm",
+          "context": "       :\n                                            ‎ 15.7 x 14.2 x 3.9 cm; 170 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71TtK2YPrJL._AC_SL1500_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check",
+      "reviewNote": "1人前のレトルトパウチ。Amazon掲載寸法の最小辺は3.9cm。ただし中のハンバーグは均せないため、未開封の梱包後最大厚が3cm以下かは未確認。登録を保留。"
     }
   ]
 }

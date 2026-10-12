@@ -41,15 +41,19 @@ def build():
             "discoverySources": item.get("discoverySources", []),
             "inCatalog": item["asin"] in products,
         })
-    queries = []
-    for query in research["queries"]:
-        matches = [item for item in discovered if query in item["queries"]]
-        queries.append({
-            "query": query,
-            "discovered": len(matches),
-            "pageChecked": sum(item["status"] != "not_fetched" for item in matches),
-            "added": sum(item["status"] == "added" for item in matches),
-        })
+    query_counts = Counter()
+    query_checked = Counter()
+    query_added = Counter()
+    for item in discovered:
+        for query in item["queries"]:
+            query_counts[query] += 1
+            if item["status"] != "not_fetched":
+                query_checked[query] += 1
+            if item["status"] == "added":
+                query_added[query] += 1
+    queries = [{"query": query, "discovered": query_counts[query],
+                "pageChecked": query_checked[query], "added": query_added[query]}
+               for query in research["queries"]]
     query_file = ROOT / "discovery_queries.txt"
     planned_queries = [line.strip() for line in query_file.read_text().splitlines()
                        if line.strip() and not line.lstrip().startswith("#")] if query_file.exists() else []
@@ -62,7 +66,7 @@ def build():
         "predictionsUpdatedAt": datetime.fromtimestamp((ROOT / "predictions.js").stat().st_mtime, timezone.utc).isoformat(),
         "searchedOn": research["searchedOn"],
         "marketplace": research["marketplace"],
-        "scope": "Amazon検索結果とKeepa商品データベースで発見した未確認ASINを含みます。単品・袋形状・現行寸法の確認済み件数ではなく、Amazon全体を網羅していません。",
+        "scope": "Amazon検索結果とKeepa商品データベースで発見した未確認ASINを含みます。商品名を取得しただけでも単品・形状・現行寸法は未確認です。Amazon全体は網羅していません。",
         "accessLimitedSearchCount": len(research.get("accessLimitedSearches", {}).get("queries", [])),
         "queryCount": len(research["queries"]),
         "queuedQueryCount": queued_query_count,
@@ -70,6 +74,12 @@ def build():
         "finderRunCount": len(research.get("finderRuns", [])),
         "finderReturnedCount": sum(run.get("returnedAsins", 0) for run in research.get("finderRuns", [])),
         "finderNewCount": sum(run.get("newAsins", 0) for run in research.get("finderRuns", [])),
+        "finderRuns": [{"selection": run.get("selection", {}),
+                         "returnedAsins": run.get("returnedAsins", 0),
+                         "newAsins": run.get("newAsins", 0),
+                         "totalResultsEstimate": run.get("totalResultsEstimate")}
+                        for run in research.get("finderRuns", [])],
+        "metadataCheckedCount": sum(bool(item.get("keepaMetadataCheckedAt")) for item in discovered),
         "searchStopCount": sum(not stop.get("resolved") for stop in research.get("searchStops", [])),
         "discoveredCount": len(discovered),
         "pageCheckedCount": status_counts["page_fetched_not_added"] + status_counts["added"],
