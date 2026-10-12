@@ -4,6 +4,8 @@
 import json
 from pathlib import Path
 
+from supplier_rules import is_multi_unit
+
 
 ROOT = Path(__file__).resolve().parent
 
@@ -63,7 +65,7 @@ def main():
             "checkedOn": value["checkedAt"][:10],
             "identity": f"JAN {value['jan']} / {value['name']}",
             "note": "Yahoo!ショッピング商品ページの東京都向け単品表示。価格・在庫・送料は仕入時に再確認。",
-        } for value in row.get("suppliers", [])]
+        } for value in row.get("suppliers", []) if not is_multi_unit(value.get("name"))]
     search_status = {}
     for asin in current_asins:
         row = search_source.get("items", {}).get(asin, {})
@@ -72,7 +74,7 @@ def main():
             "primaryHits": row.get("hitCount", 0),
             "fallbackHits": fallback_source.get("items", {}).get(asin, {}).get("hitCount", 0),
             "checkedPages": supplier_source.get("items", {}).get(asin, {}).get("checkedPages", 0),
-            "verified": bool(supplier_source.get("items", {}).get(asin, {}).get("suppliers")),
+            "verified": bool(suppliers.get(asin)),
         }
     payload = {"checkedAt": offer_source.get("checkedAt"), "source": "Amazon SP-API Product Pricing / Product Fees and direct Yahoo Shopping pages",
                "offers": offers, "fees": fees, "referenceFees": reference_fees,

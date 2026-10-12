@@ -50,7 +50,10 @@ for (const item of candidates) {
     || context.window.NEKOPOST_MARKET.suppliers[item.asin]?.[0];
   if (supplier) assert.strictEqual(test.purchaseCeilingFor(item), profit.profit + profit.buy + profit.inbound);
 }
-assert(test.supplierQuick(products.find(item => item.asin === 'B0GZDF7V69')).includes('商品代・仕入総額は未確定'));
+for (const asin of ['B0GZDF7V69', 'B0H7HRMFMR']) {
+  assert(test.supplierQuick(products.find(item => item.asin === asin)).includes('未確認'), asin);
+  assert.strictEqual(test.profitStateFor(products.find(item => item.asin === asin)), 'sourcing', asin);
+}
 
 const csv = test.createCsv(candidates);
 const lines = csv.split('\r\n');

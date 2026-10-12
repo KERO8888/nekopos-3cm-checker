@@ -34,6 +34,11 @@ for (const product of products) {
   }
 }
 
+for (const asin of ['B0H7HRMFMR', 'B0GZDF7V69']) {
+  assert.strictEqual(market.suppliers[asin]?.length, 0, `multi-unit supplier leaked into one-unit profit: ${asin}`);
+  assert.strictEqual(market.supplierSearch[asin].verified, false, asin);
+}
+
 for (const [asin, fee] of Object.entries(market.referenceFees)) {
   const offer = market.offers[asin];
   assert.strictEqual(offer.lowestMerchant, null, `reference fee has MFN offer: ${asin}`);
