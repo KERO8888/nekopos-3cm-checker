@@ -9,6 +9,7 @@
   const shipping = window.NEKOPOST_SHIPPING;
   const sourcing = window.NEKOPOST_SOURCING || { suppliers: {}, amazonPrices: {} };
   const market = window.NEKOPOST_MARKET || { offers: {}, fees: {}, referenceFees: {}, suppliers: {}, supplierSearch: {} };
+  const research = window.NEKOPOST_RESEARCH_STATUS || {};
   const finance = window.NEKOPOST_FINANCE;
   const storageKey = 'nekopos-candidates-v1';
   let visibleLimit = 20;
@@ -79,6 +80,9 @@
   function renderStats() {
     $('#totalCount').textContent = products.length;
     $('#heroCount').textContent = products.length;
+    $('#researchLink').textContent = Number.isInteger(research.discoveredCount)
+      ? `ASIN発見 ${research.discoveredCount.toLocaleString('ja-JP')}件（未確認含む）`
+      : 'データ取得状況';
     $('#csvTitle').textContent = `${products.length}件のCSV`;
     const fits = products.map(fitFor);
     $('#likelyCount').textContent = fits.filter(fit => isFit(fit.nekopos.status) && isFit(fit.clickpost.status)).length;

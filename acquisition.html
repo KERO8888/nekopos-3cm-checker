@@ -32,7 +32,7 @@
       <section class="source-grid" aria-label="データ源ごとの状態" id="sourceGrid"></section>
       <div class="status-columns">
         <section class="status-card" aria-labelledby="newProductsTitle"><div class="section-heading"><div><span class="section-kicker">NEW PRODUCTS</span><h2 id="newProductsTitle">調査で追加した商品 <span id="newProductsCount">—</span></h2></div></div><label class="status-search">商品名・ASINで絞る<input id="newProductSearch" type="search" placeholder="例：B0DJB9RC19、コーヒー"></label><div class="scroll-list" id="newProducts"></div></section>
-        <section class="status-card" aria-labelledby="queriesTitle"><div class="section-heading"><div><span class="section-kicker">SEARCH QUERIES</span><h2 id="queriesTitle">検索語ごとの記録</h2></div></div><p class="status-note">各検索語の結果1ページ目のみ。複数の検索語で見つかった同じ商品は、それぞれに計上しています。</p><div class="query-head"><span>検索語</span><span>発見</span><span>ページ確認</span><span>追加</span></div><div class="scroll-list" id="queryRows"></div></section>
+        <section class="status-card" aria-labelledby="queriesTitle"><div class="section-heading"><div><span class="section-kicker">SEARCH QUERIES</span><h2 id="queriesTitle">検索語ごとの記録</h2></div></div><p class="status-note">検索語ごとに確認した検索結果ページの範囲は異なります。複数の検索語で見つかった同じ商品は、それぞれに計上しています。</p><div class="query-head"><span>検索語</span><span>発見</span><span>ページ確認</span><span>追加</span></div><div class="scroll-list" id="queryRows"></div></section>
       </div>
       <footer>数値は保存済みデータの状態です。新規調査の結果を保存すると、このページの集計も更新できます。</footer>
     </div>
@@ -42,7 +42,7 @@
   <script src="product_images.js?v=5"></script>
   <script src="local_product_images.js?v=5"></script>
   <script src="api_dimensions.js?v=3"></script>
-  <script src="acquisition_status.js?v=5"></script>
-  <script src="acquisition.js?v=6"></script>
+  <script src="acquisition_status.js?v=6"></script>
+  <script src="acquisition.js?v=7"></script>
 </body>
 </html>

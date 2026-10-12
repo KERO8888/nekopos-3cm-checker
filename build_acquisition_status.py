@@ -45,15 +45,24 @@ def build():
             "pageChecked": sum(item["status"] != "not_fetched" for item in matches),
             "added": sum(item["status"] == "added" for item in matches),
         })
+    query_file = ROOT / "discovery_queries.txt"
+    planned_queries = [line.strip() for line in query_file.read_text().splitlines()
+                       if line.strip() and not line.lstrip().startswith("#")] if query_file.exists() else []
+    queued_query_count = sum(query not in research["queries"] for query in planned_queries)
+    collected_search_pages = sum(run.get("source") == "Amazon.co.jp search page"
+                                 for run in research.get("searchRuns", []))
     snapshot = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "researchFileUpdatedAt": datetime.fromtimestamp(PROGRESS.stat().st_mtime, timezone.utc).isoformat(),
         "predictionsUpdatedAt": datetime.fromtimestamp((ROOT / "predictions.js").stat().st_mtime, timezone.utc).isoformat(),
         "searchedOn": research["searchedOn"],
         "marketplace": research["marketplace"],
-        "scope": "各検索語の検索結果1ページ目。Amazon全体の網羅調査ではありません。",
+        "scope": "記録された検索語と検索結果ページの範囲。商品ページ未確認のASINがあり、Amazon全体の網羅調査ではありません。",
         "accessLimitedSearchCount": len(research.get("accessLimitedSearches", {}).get("queries", [])),
         "queryCount": len(research["queries"]),
+        "queuedQueryCount": queued_query_count,
+        "collectedSearchPageCount": collected_search_pages,
+        "searchStopCount": len(research.get("searchStops", [])),
         "discoveredCount": len(discovered),
         "pageCheckedCount": status_counts["page_fetched_not_added"] + status_counts["added"],
         "notFetchedCount": status_counts["not_fetched"],

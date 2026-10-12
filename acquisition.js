@@ -45,19 +45,21 @@
   const apiStatus = apiData.sourceStatus || {};
 
   const searchDate = research.searchedOn.replace(/^(\d{4})-(\d{2})-(\d{2})$/, (_, year, month, day) => `${year}年${Number(month)}月${Number(day)}日`);
-  $('#researchDate').textContent = `${searchDate}の検索結果・${dateTime(research.researchFileUpdatedAt)}まで商品ページを確認`;
+  $('#researchDate').textContent = `${searchDate}の検索結果を反映 · 商品ページ確認 ${research.pageCheckedCount}件`;
   $('#catalogCount').textContent = products.length;
   $('#addedCount').textContent = additions.length;
   $('#addedCheck').textContent = `現在の一覧 ${registeredAdditions.length}件・対象外 ${additions.length - registeredAdditions.length}件（調査履歴）`;
   $('#discoveredCount').textContent = research.discoveredCount;
-  $('#queryCount').textContent = `${research.queryCount}語の検索結果1ページ目`;
+  $('#queryCount').textContent = `${research.queryCount}語・追加収集 ${research.collectedSearchPageCount || 0}ページ`;
   $('#checkedCount').textContent = research.pageCheckedCount;
   $('#uncheckedCount').textContent = `${research.notFetchedCount}件は商品ページ未確認`;
-  $('#researchScope').textContent = research.scope + (research.accessLimitedSearchCount ? ` 追加検索${research.accessLimitedSearchCount}語はアクセス制限で結果未取得。` : '');
+  $('#researchScope').textContent = research.scope
+    + (research.queuedQueryCount ? ` 次の検索語 ${research.queuedQueryCount}語は未探索。` : '')
+    + (research.searchStopCount ? ` 検索ページの取得停止 ${research.searchStopCount}件。` : '');
   $('#newProductsCount').textContent = `${additions.length}件`;
 
   const pipeline = [
-    { label: '検索で発見', count: research.discoveredCount, description: `${research.queryCount}語の検索結果1ページ目`, tone: 'found' },
+    { label: '検索で発見', count: research.discoveredCount, description: `${research.queryCount}語・追加収集${research.collectedSearchPageCount || 0}ページ`, tone: 'found' },
     { label: '商品ページ確認', count: research.pageCheckedCount, description: `${research.notFetchedCount}件はページ未確認`, tone: 'checked' },
     { label: '調査履歴上の追加', count: research.addedCount, description: `現在の一覧 ${registeredAdditions.length}件・対象外 ${additions.length - registeredAdditions.length}件`, tone: 'added' },
   ];
