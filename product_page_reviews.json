@@ -2282,6 +2282,51 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71jv12LlaoL._AC_SL1500_.jpg",
       "reviewStatus": "added",
       "reviewNote": "Amazon現行ページで400mLの単品詰め替え袋、掲載3辺23.1×12.8×5cmを確認。主画像では切り取り式の柔らかい袋で硬いキャップなし。掲載寸法が商品袋の実測かは未確認。外装の面を仮に12.8×23.1cmとすると有効面積約237cm²、内容物400mLを均した計算厚は約2.0cm。梱包後厚さ・重量は未測定。"
+    },
+    {
+      "asin": "B005PJ73HE",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B005PJ73HE",
+      "title": "ダイヤ (Daiya) 洗濯ネット 大 丸型 直径40㎝ まとめ洗い Tシャツ タオル 泡切れが良い 汚れが落ちる 糸クズ防止 ネームタグ付き コインランドリー 057356",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71LAySmoeuL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "reviewNote": "Amazon現行ページに掲載3辺寸法を確認できない。Keepa梱包寸法の最小辺は2.4cmで登録条件も満たさない。"
+    },
+    {
+      "asin": "B0D86LJ8Y5",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0D86LJ8Y5",
+      "title": "ダイヤ (Daiya) 洗濯ネット ひろがるまとめ洗いネット大 ランドリーネット ひろがるプリーツで大容量 ガードメッシュ 通常同等サイズの洗濯ネットの約1.5倍の 洗濯物が入る コンパクト収納 横47×縦40cm 容量約17.2L タオル シャツ ブラウス パーカー 057100",
+      "dimensions": [
+        {
+          "value": "25.4 x 14 x 2.5 cm",
+          "context": "商品情報 詳細情報 ブランド ‎ダイヤ (Daiya) 製品型番 ‎057100 梱包サイズ ‎25.4 x 14 x 2.5 cm; 55 g 色 ‎ホワイト、ネイビー 表札の名字 ‎まとめ洗い用大 "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/717vteZBnGL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_under_3cm_listed_package",
+      "reviewNote": "Amazon現行ページの梱包寸法は25.4×14×2.5cmで、登録条件の最小辺3cm超を満たさない。"
+    },
+    {
+      "asin": "B0C98FFCMD",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0C98FFCMD",
+      "title": "AIFY シティタオル バスタオル 1枚 大判 厚手 ふわふわ 速乾 吸水 耐久性 綿 ホテル仕様 抗菌 防臭 無地 肌にやさしい エステ サロン 一人暮らし 新生活 ギフト 60×120cm ブルー",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/7153LCvpriL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "reviewNote": "Amazon現行ページに掲載3辺寸法を確認できない。単品表示だけでは登録条件を判定できない。"
+    },
+    {
+      "asin": "B0C98JCKHS",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0C98JCKHS",
+      "title": "AIFY シティタオル バスタオル 1枚 大判 厚手 ふわふわ 速乾 吸水 耐久性 綿 ホテル仕様 抗菌 防臭 無地 肌にやさしい エステ サロン 一人暮らし 新生活 ギフト 60×120cm ライトグレー",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71ywC6mDHaL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "reviewNote": "Amazon現行ページに掲載3辺寸法を確認できない。単品表示だけでは登録条件を判定できない。"
     }
   ]
 }
