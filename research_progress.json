@@ -132,7 +132,7 @@
     "ココア 粉末 詰め替え 袋 200g"
   ],
   "discoveredCount": 63872,
-  "addedCount": 85,
+  "addedCount": 88,
   "discovered": [
     {
       "asin": "B0CDPF8BKZ",
@@ -3037,7 +3037,7 @@
       "queries": [
         "サプリ 180粒 パウチ"
       ],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=パウチ"
       ],
@@ -7251,7 +7251,7 @@
       "queries": [
         "レトルト パウチ 200g"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
@@ -74316,7 +74316,7 @@
     {
       "asin": "B0CNSV7PF3",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ",
@@ -77335,7 +77335,7 @@
     {
       "asin": "B0CLLK42TQ",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ",
@@ -80270,7 +80270,7 @@
     {
       "asin": "B08RYVJPZZ",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
@@ -83623,7 +83623,7 @@
     {
       "asin": "B0D3SWP8JZ",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
@@ -89464,7 +89464,7 @@
     {
       "asin": "B0CNSWTHQR",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ",
@@ -94799,7 +94799,7 @@
     {
       "asin": "B08RYX6MB4",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
@@ -116941,7 +116941,7 @@
     {
       "asin": "B0DYC9FZNY",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa root=57239051 weight=0-700g side>=0mm",
@@ -548097,7 +548097,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 631,
+  "fetchedProductPageCount": 640,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -552247,6 +552247,24 @@
       "pagesChecked": 2,
       "added": 0,
       "unverifiedRange": "単品・柔らかい袋・付属品・平置き後厚さは未判定。商品写真と掲載寸法の出典を個別確認する必要がある。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: Keepa title=パウチ由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0CNSV7PF3",
+        "B0CLLK42TQ",
+        "B08RYVJPZZ",
+        "B0D3SWP8JZ",
+        "B0CNSWTHQR",
+        "B08RYX6MB4",
+        "B08YFFNJ9L",
+        "B0BN86JF2V",
+        "B0DYC9FZNY"
+      ],
+      "pagesChecked": 9,
+      "added": 3,
+      "unverifiedRange": "Amazon現行ページ9件を個別判定。3件登録、5件除外、1件は具の最大厚未確認で保留。登録商品の梱包後厚さ・重量は未実測。"
     }
   ],
   "searchStops": [

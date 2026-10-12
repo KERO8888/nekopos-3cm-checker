@@ -3174,6 +3174,150 @@
       "reviewStatus": "added_after_manual_photo_and_dimensions_review",
       "decisionReason": "Amazon現行ページの単品300g・チャック付き柔軟袋・掲載最小辺3.8cmを確認。粉を均した計算値は3cm以下だが未実測。",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0CNSV7PF3",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CNSV7PF3",
+      "title": "RISHIRIA Furel (リシリアフレル) カラーシャンプー (ナチュラルブラック) 詰め替え用 パウチ 240ml×1本",
+      "dimensions": [
+        {
+          "value": "20.8 x 16.9 x 3.5 cm",
+          "context": "       :\n                                            ‎ 20.8 x 16.9 x 3.5 cm; 260 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71UBY8RPuNL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページの単品・柔らかい袋・掲載3辺の最小辺3cm超を個別確認。内容物を均せば3cm以下の可能性があるが、梱包後の実測はない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0CLLK42TQ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CLLK42TQ",
+      "title": "RISHIRIA Furel (リシリアフレル) カラーシャンプー (モカブラウン) 詰め替え用 パウチ 240ml×1本",
+      "dimensions": [
+        {
+          "value": "21 x 15.4 x 4.7 cm",
+          "context": "       :\n                                            ‎ 21 x 15.4 x 4.7 cm; 260 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71pkVstacvL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページの単品・柔らかい袋・掲載3辺の最小辺3cm超を個別確認。内容物を均せば3cm以下の可能性があるが、梱包後の実測はない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B08RYVJPZZ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B08RYVJPZZ",
+      "title": "技・職人魂 浴室の落ちない汚れの正体「金属石鹸」をドロドロに溶かして落とす! 風呂職人400ml詰め替えパウチ!",
+      "dimensions": [
+        {
+          "value": "22.6 x 11 x 5.8 cm",
+          "context": "       :\n                                            ‎ 22.6 x 11 x 5.8 cm; 440 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/7169Svob7kL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_cap_or_spout",
+      "decisionReason": "商品写真の上部に硬いねじ式キャップがある。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0D3SWP8JZ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0D3SWP8JZ",
+      "title": "RISHIRIA Furel (リシリアフレル) カラーシャンプー (ナチュラルブラック) 専用ボトル + 詰め替え用 パウチ 240ml×1本",
+      "dimensions": [
+        {
+          "value": "20.1 x 15.7 x 7.1 cm",
+          "context": "       :\n                                            ‎ 20.1 x 15.7 x 7.1 cm; 400 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71ujpaRiZdL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_bottle_and_pouch_set",
+      "decisionReason": "商品名に専用ボトルと詰め替えパウチの組み合わせが明記。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0CNSWTHQR",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CNSWTHQR",
+      "title": "RISHIRIA Furel (リシリアフレル) カラーシャンプー (ナチュラルブラック) 専用ボトル + 詰め替え用 パウチ 240ml×1本",
+      "dimensions": [
+        {
+          "value": "21.8 x 15.9 x 7.1 cm",
+          "context": "       :\n                                            ‎ 21.8 x 15.9 x 7.1 cm; 370 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71L6KjapKLL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_bottle_and_pouch_set",
+      "decisionReason": "商品名に専用ボトルと詰め替えパウチの組み合わせが明記。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B08RYX6MB4",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B08RYX6MB4",
+      "title": "技職人魂シリーズ 頑固な油を石鹸とグリセリンに分解! 強力脱脂! 油職人400ml詰め替えパウチ",
+      "dimensions": [
+        {
+          "value": "22.3 x 11.2 x 5.5 cm",
+          "context": "       :\n                                            ‎ 22.3 x 11.2 x 5.5 cm; 450 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71tbX8EWffL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_cap_or_spout",
+      "decisionReason": "商品写真の上部に硬いねじ式キャップがある。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B08YFFNJ9L",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B08YFFNJ9L",
+      "title": "ディアナチュラスタイル マルチビタミン 90粒(90日) アサヒ サプリ Dear-Natura 国内工場で生産 1日1粒粒 パウチ",
+      "dimensions": [
+        {
+          "value": "15.2 x 12.7 x 6 cm",
+          "context": "       :\n                                            ‎ 15.2 x 12.7 x 6 cm; 20 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/915GC2KmDwL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページの単品・柔らかい袋・掲載3辺の最小辺3cm超を個別確認。内容物を均せば3cm以下の可能性があるが、梱包後の実測はない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0BN86JF2V",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0BN86JF2V",
+      "title": "アイリスオーヤマ レトルト またぎ汁 450g 惣菜 レトルト食品 おかず 一人暮らし 常温保存 非常食 保存食 和食 パウチ 八海山 新潟",
+      "dimensions": [
+        {
+          "value": "19.7 x 13.6 x 6.6 cm",
+          "context": "       :\n                                            ‎ 19.7 x 13.6 x 6.6 cm; 450 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61tylddqRGL._AC_SL1000_.jpg",
+      "reviewStatus": "hold_flattened_max_thickness_unverified",
+      "decisionReason": "450gの具入りレトルト。柔らかい袋だが肉・野菜の最大厚が3cm以内となる根拠がない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DYC9FZNY",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DYC9FZNY",
+      "title": "Del Monte デルモンテ ピュレフルーツ すりおろしマンゴーミックス 110gパウチ 果実100％ スムージー フルーツピューレ",
+      "dimensions": [
+        {
+          "value": "14.6 x 7.6 x 3.5 cm",
+          "context": "       :\n                                            ‎ 14.6 x 7.6 x 3.5 cm; 110 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71t7y4WFE6L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_cap_or_spout",
+      "decisionReason": "商品写真の上部に硬いねじ式キャップがある。",
+      "decidedOn": "2026-10-13"
     }
   ]
 }

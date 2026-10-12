@@ -31,6 +31,11 @@ SOURCES = {
     'agf_80': 'https://agf.ajinomoto.co.jp/product/detail/59595',
 }
 
+FORM_SOURCES = {
+    'B0CNSV7PF3': 'https://rishiria-furel.com/shampoo.html',
+    'B0CLLK42TQ': 'https://rishiria-furel.com/shampoo.html',
+}
+
 FISH_SINKING = set('B07BBMLGVJ B01GTF98OS B00KPASQ3S B0CVKL9BVN B0H9PFGNS3 B003YKUI32 B078YW4HYG B01FJ2IYN8 B01FEUZPUK B01FEULQK8 B0015XNJ04'.split())
 FISH_FLOATING = set('B005H7H1JE B06XYGJCHS B086T7WH8Q B004WI1VAE B06XC6NL22 B08W1P5WG7 B01GTF9EME B0H99J2F9T B0FK9XZKH1'.split())
 SMALL_ANIMAL = set('B06XBXLPQ1 B06XCCFDCG B006MIWJT4 B005748T16 B07K57K361'.split())
@@ -39,7 +44,7 @@ INSTANT = set('B07NLBWGTJ B0983G1QTC B08VT9LBLW B0DVSBJMXM B0D9VBNTKL B0DWD4994X
 BEANS = set('B07CNRNKT5 B07CPSSL44 B0G3PJK8K5'.split())
 GROUND = set('B0GTQCZ9V3 B00I59U9G8'.split())
 KIKIYU = set('B0HB4CZY87 B0HB4FNC4B B08GC3ZF2M B08GCBL7BD B0DQDTBXJ7 B0DCBVNGNB B09DXRGTS8 B093DGHBXC B08Y8C5YDY B08GBYFFDQ'.split())
-SUPPLEMENTS = set('B0CGWZ5J6H B007BJAY6I B08YFP2BVH B0CW8GQS1G B07GSDJ6T2 B00I4NW7RE'.split())
+SUPPLEMENTS = set('B0CGWZ5J6H B007BJAY6I B08YFP2BVH B0CW8GQS1G B07GSDJ6T2 B00I4NW7RE B08YFFNJ9L'.split())
 
 DENSITIES = {
     '沈下性の魚用粒': (0.37, 0.65, 'sinking_density'),
@@ -71,6 +76,7 @@ MASS_OVERRIDES = {
     'B0FPR27KT7': 400, 'B0CGWZ5J6H': 250, 'B007BJAY6I': 140,
     'B08YFP2BVH': 210, 'B0CW8GQS1G': 180, 'B07GSDJ6T2': 60,
     'B0H8MNXGKP': 40, 'B077PTNJ29': 400, 'B00I4NW7RE': 120,
+    'B08YFFNJ9L': 20,
 }
 
 # Width and height of the likely pouch face, not necessarily Amazon's shipped-box dimensions.
@@ -96,6 +102,7 @@ GEOMETRY_OVERRIDES = {
 }
 
 SPECIAL = {
+    'B08YFFNJ9L': ('borderline', '90粒の重なりと袋の縁が最大厚を決めるため、質量だけの体積計算より広い範囲を仮置き。', '低'),
     'B0B39FT7CK': ('borderline', 'ひきわり乾燥納豆の細片を1袋のまま広げる想定。袋面・粒の最大厚・発送外装は未測定。', '低'),
     'B0FG2KW13J': ('borderline', '写真で確認した大豆の細片を1袋のまま広げる想定。袋面・粒の最大厚・発送外装は未測定。', '低'),
     'B079L4T8BS': ('borderline', '100g×4の内袋。2×2に配置すれば厚みを抑えられる可能性があるが、内袋寸法は未確認。', '低'),
@@ -217,15 +224,17 @@ for item in products:
         thin, thick = 2.1, 3.4  # the rigid pour spout is not captured by liquid volume
     if asin in ('B0CBHB12LV', 'B0FWQXZVTF'):
         thick = 3.5  # unknown peak of included measuring spoon
+    if asin == 'B08YFFNJ9L':
+        thin, thick = 1.0, 2.5  # tablet peak and seal are not represented by bulk density
     thickness_override = asin in {
         'B079L4T8BS', 'B079L56FM7', 'B07ND8DBVG', 'B0H8MNXGKP',
-        'B077PTNJ29', 'B0CBHB12LV', 'B0FWQXZVTF',
+        'B077PTNJ29', 'B0CBHB12LV', 'B0FWQXZVTF', 'B08YFFNJ9L',
     }
     if asin == 'B0CVKL9BVN':
         confidence = '中'  # matching manufacturer's package dimensions were found
-    if asin in ('B0CGWZ5J6H', 'B007BJAY6I', 'B08YFP2BVH', 'B0CW8GQS1G', 'B07GSDJ6T2', 'B00I4NW7RE'):
+    if asin in ('B0CGWZ5J6H', 'B007BJAY6I', 'B08YFP2BVH', 'B0CW8GQS1G', 'B07GSDJ6T2', 'B00I4NW7RE', 'B08YFFNJ9L'):
         confidence = '低'  # tablet mass and packed density are only indirect estimates
-        reason += '質量は粒数からの概算。'
+        reason += ('掲載重量20gを内容物の仮値として使用。錠剤の局所的な重なりは未実測。' if asin == 'B08YFFNJ9L' else '質量は粒数からの概算。')
     # A low calculated thickness is not enough for a positive recommendation
     # when the pouch face came from a shipping box or another product.
     geometry_unverified = footprint_source != 'manufacturer'
@@ -234,6 +243,7 @@ for item in products:
         confidence = '低'
         reason += '商品袋の実寸を確認できないため、判定は保留。'
     sources = [f'https://www.amazon.co.jp/dp/{asin}']
+    if asin in FORM_SOURCES: sources.append(FORM_SOURCES[asin])
     if geometry_source and geometry_source not in sources: sources.append(geometry_source)
     if density_source and SOURCES[density_source] not in sources: sources.append(SOURCES[density_source])
     predictions[asin] = {
