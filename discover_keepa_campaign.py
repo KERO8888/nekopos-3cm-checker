@@ -55,6 +55,12 @@ SEEDS = [
     {"root": 3828871, "title": "収納袋"},
     {"root": 3828871, "title": "圧縮袋"},
     {"root": 3828871, "title": "キッチンシート"},
+    # Japanese unquoted terms also match broad tokenized titles (e.g. 圧縮袋
+    # returned umbrella covers). Quote the exact product phrase when screening
+    # high-probability families; keep the broad runs above for coverage.
+    {"root": 160384011, "title": '"詰め替え"'},
+    {"root": 57239051, "title": '"パウチ"'},
+    {"root": 3828871, "title": '"洗濯ネット"'},
     {"root": 3828871, "title": "エコバッグ"},
     {"root": 3828871, "title": "洗濯ネット"},
     {"root": 3828871, "title": "ふきん"},

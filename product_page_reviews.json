@@ -2327,6 +2327,36 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71ywC6mDHaL._AC_SL1500_.jpg",
       "reviewStatus": "hold_missing_three_dimensions",
       "reviewNote": "Amazon現行ページに掲載3辺寸法を確認できない。単品表示だけでは登録条件を判定できない。"
+    },
+    {
+      "asin": "B07W7RJR3N",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B07W7RJR3N",
+      "title": "アストロ 活性炭消臭 座布団収納袋 活性炭のチカラで消臭保管 通気性の良い不織布がホコリなどの汚れをガード 3層構造の厚手でしっかりとした生地 中身の見える透明窓付き 収納ケース 収納ボックス 座布団袋 クッション収納袋 クローゼット 押し入れ収納 来客用 グレー 171-54",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/813hnXISNqL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "reviewNote": "Amazon現行ページで掲載3辺寸法を確認できないため、登録条件の最小辺3cm超を確認できず保留。Keepaのパッケージ寸法だけでは商品袋の実寸や梱包後の厚みを断定できない。"
+    },
+    {
+      "asin": "B0CLY4Z6LN",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0CLY4Z6LN",
+      "title": "珪藻土 水切りマット【3倍速乾&食器が滑りにくい】 柔軟 洗える 速乾 キッチン お風呂マット 足拭き バス ドア（30*40, ‎ネイビー）",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71Dq6ke6A8L._AC_SL1254_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "reviewNote": "Amazon現行ページで掲載3辺寸法を確認できないため、登録条件の最小辺3cm超を確認できず保留。Keepaのパッケージ寸法だけでは商品袋の実寸や梱包後の厚みを断定できない。"
+    },
+    {
+      "asin": "B0D62JRSNF",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0D62JRSNF",
+      "title": "珪藻土 水切りマット【3倍速乾&食器が滑りにくい】 柔軟 洗える 速乾 キッチン お風呂マット 足拭き バス ドア（30*40, ダークグレー）",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61VdRnpf4-L._AC_SL1254_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "reviewNote": "Amazon現行ページで掲載3辺寸法を確認できないため、登録条件の最小辺3cm超を確認できず保留。Keepaのパッケージ寸法だけでは商品袋の実寸や梱包後の厚みを断定できない。"
     }
   ]
 }
