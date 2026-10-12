@@ -418,7 +418,35 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B0B2F64BG1": {
+      "expectedEans": [
+        "4595123635018"
+      ],
+      "checkedPages": 2,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 2,
+      "rejected": {
+        "jan_mismatch": 1,
+        "jan_missing": 1,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": []
+    },
+    "B0997R1575": {
+      "expectedEans": [
+        "4589725722924"
+      ],
+      "checkedPages": 0,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 0,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [],
+      "cumulativeCheckedPages": 8,
+      "auditNote": "Earlier eight pages included one 600g-only item with conflicting JAN in URL and page metadata; it is not the 600g+200g Amazon sales unit. The ASIN was removed from the active catalog."
     }
   },
-  "checkedAt": "2026-10-12T16:20:01.562015+00:00"
+  "checkedAt": "2026-10-12T16:37:34.415389+00:00"
 }

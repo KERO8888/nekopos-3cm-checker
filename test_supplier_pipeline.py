@@ -2,7 +2,7 @@ import unittest
 
 from discover_supplier_leads import rakuten_hits
 from supplier_rules import is_multi_unit
-from verify_rakuten_suppliers import leads_for, sizes
+from verify_rakuten_suppliers import leads_for, sizes, sizes_match, url_jan_conflicts
 
 
 class SupplierPipelineTests(unittest.TestCase):
@@ -31,6 +31,8 @@ class SupplierPipelineTests(unittest.TestCase):
             ]}}}
         self.assertEqual([lead["url"] for lead in leads_for(item, [])], ["https://item.rakuten.co.jp/shop/right/"])
         self.assertEqual(sizes("500グラム"), {"500g"})
+        self.assertFalse(sizes_match("エプソピア 600g+増量200g", "エプソピア 600g"))
+        self.assertTrue(url_jan_conflicts("https://item.rakuten.co.jp/shop/4589725722894/", "4589725722924"))
 
 
 if __name__ == "__main__":

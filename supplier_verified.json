@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-12T16:21:39.607801+00:00",
+  "checkedAt": "2026-10-12T16:34:20.036169+00:00",
   "source": "Yahoo Shopping direct product pages, displayed Tokyo shipping",
   "scope": "Only pages with matching JAN and single-unit wording are verified; availability and prices can change.",
   "items": {
@@ -1663,7 +1663,7 @@
       "expectedEans": [
         "4595123635018"
       ],
-      "checkedPages": 36,
+      "checkedPages": 48,
       "status": "unverified",
       "suppliers": []
     },

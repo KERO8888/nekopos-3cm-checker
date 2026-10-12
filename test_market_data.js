@@ -34,6 +34,9 @@ for (const product of products) {
   }
 }
 
+assert(!products.some(product => product.asin === 'B0997R1575'), '600g + 200g with spoon is not a single flexible pouch');
+assert(!market.suppliers.B0997R1575, '600g-only source must not be used for 600g + 200g');
+
 for (const asin of ['B0H7HRMFMR', 'B0GZDF7V69']) {
   assert.strictEqual(market.suppliers[asin]?.length, 0, `multi-unit supplier leaked into one-unit profit: ${asin}`);
   assert.strictEqual(market.supplierSearch[asin].verified, false, asin);

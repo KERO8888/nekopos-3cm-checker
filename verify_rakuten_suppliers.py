@@ -31,6 +31,16 @@ def sizes(value):
     return set(re.findall(r"\d+(?:\.\d+)?(?:kg|g|ml|l)(?![a-z])", normalized))
 
 
+def sizes_match(target, candidate):
+    required = sizes(target)
+    return not required or required.issubset(sizes(candidate))
+
+
+def url_jan_conflicts(url, page_jan):
+    match = re.search(r"/(\d{13})(?:/|$)", url)
+    return bool(match and page_jan and match.group(1) != page_jan)
+
+
 def page_details(url, session):
     response = session.get(url, headers=HEADERS, timeout=30)
     response.raise_for_status()
@@ -64,8 +74,7 @@ def leads_for(item, expected_eans):
             if is_multi_unit(lead["title"]):
                 continue
             all_leads[lead["url"]] = lead
-    target_sizes = sizes(item.get("title", ""))
-    filtered = [lead for lead in all_leads.values() if not target_sizes or target_sizes & sizes(lead["title"])]
+    filtered = [lead for lead in all_leads.values() if sizes_match(item.get("title", ""), lead["title"])]
     def rank(lead):
         exact_url = any(ean in lead["url"] for ean in expected_eans)
         similarity = SequenceMatcher(None, text_norm(item["title"])[:100], text_norm(lead["title"])[:100]).ratio()
@@ -119,13 +128,15 @@ def main():
                 reason = "jan_missing"
             elif expected and detail["jan"] not in expected:
                 reason = "jan_mismatch"
+            elif url_jan_conflicts(lead["url"], detail["jan"]):
+                reason = "url_jan_conflict"
             elif not detail["availability"].endswith("/InStock"):
                 reason = "stock_unconfirmed"
             elif detail["priceYen"] != lead["priceYen"]:
                 reason = "price_changed"
             elif lead["displayShippingYen"] is None:
                 reason = "shipping_unconfirmed"
-            elif sizes(item["title"]) and not sizes(item["title"]) & sizes(detail["name"]):
+            elif not sizes_match(item["title"], detail["name"]):
                 reason = "size_mismatch"
             if reason:
                 rejected[reason] = rejected.get(reason, 0) + 1
@@ -150,7 +161,9 @@ def main():
                 identifier_source = "Two independent Rakuten product pages, matching title and size"
         verified = [candidate for candidate in candidate_pages if candidate["jan"] in expected]
         rejected["identifier_unconfirmed"] = len(candidate_pages) - len(verified)
+        previous = payload["items"].get(asin, {})
         payload["items"][asin] = {"expectedEans": expected, "checkedPages": checked,
+                                  "cumulativeCheckedPages": previous.get("cumulativeCheckedPages", previous.get("checkedPages", 0)) + checked,
                                   "identifierSource": identifier_source,
                                   "eligibleLeads": len(leads_for(item, expected)),
                                   "rejected": rejected,
