@@ -3830,6 +3830,90 @@
       "reviewStatus": "hold_capsule_single_layer_and_peak_thickness_unverified",
       "decisionReason": "31個の液体洗剤カプセルを未開封袋のまま1層に並べられる根拠がなく、掲載30.5×26.1×7.3cmも梱包後最大厚ではない。3cm以下の見込みを確定できず保留。",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B08VDC1TNV",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B08VDC1TNV",
+      "title": "【公式店限定】 アスタリフト ホワイト ジェリー アクアリスタ 40g 約1.5ヶ月分 (増量パウチ付) レフィル",
+      "dimensions": [
+        {
+          "value": "11.8 x 10.7 x 4.7 cm",
+          "context": "       :\n                                            ‎ 11.8 x 10.7 x 4.7 cm; 40 g Amazon.co.jp での取り扱い開始日\n     "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51Blpkb7RnL._AC_SL1200_.jpg",
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に増量パウチ、ローションの付属品、または専用ボトルとの組み合わせが明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0FDP42B8Y",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0FDP42B8Y",
+      "title": "DECENCIA (ディセンシア) クリーム リフィル [ローション パウチ付き] ＜敏感肌用クリーム＞ 30g",
+      "dimensions": [
+        {
+          "value": "13.9 x 10.4 x 4.8 cm",
+          "context": "       :\n                                            ‎ 13.9 x 10.4 x 4.8 cm; 40 g Amazon.co.jp での取り扱い開始日\n     "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71QGuOxHl-L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に増量パウチ、ローションの付属品、または専用ボトルとの組み合わせが明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0D3TNQB6F",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0D3TNQB6F",
+      "title": "RISHIRIA Furel (リシリアフレル) カラーシャンプー (モカブラウン) 専用ボトル + 詰め替え用 パウチ 240ml",
+      "dimensions": [
+        {
+          "value": "21.2 x 14.8 x 7.5 cm",
+          "context": "       :\n                                            ‎ 21.2 x 14.8 x 7.5 cm; 400 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/719QZUN9-BL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に増量パウチ、ローションの付属品、または専用ボトルとの組み合わせが明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0D3THR3LZ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0D3THR3LZ",
+      "title": "RISHIRIA Furel (リシリアフレル) カラーシャンプー (ダークブラウン) 専用ボトル + 詰め替え用 パウチ 240ml",
+      "dimensions": [
+        {
+          "value": "21.3 x 16.3 x 7.3 cm",
+          "context": "       :\n                                            ‎ 21.3 x 16.3 x 7.3 cm; 400 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/710UbrNF7mL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に増量パウチ、ローションの付属品、または専用ボトルとの組み合わせが明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0F8H2551V",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F8H2551V",
+      "title": "DECENCIA (ディセンシア) つつむ フェイスクリーム リフィル [ローションセラムEパウチ付き]＜敏感肌用保湿クリーム(しっとり)＞ 30g",
+      "dimensions": [
+        {
+          "value": "5.2 x 5.2 x 3.5 cm",
+          "context": "       :\n                                            ‎ 5.2 x 5.2 x 3.5 cm; 30 g Amazon.co.jp での取り扱い開始日\n     "
+        },
+        {
+          "value": "5.2 x 5.2 x 3.5 cm",
+          "context": " / フィードバックを送信 フィードバックを提供するには サインイン してください。 サイズ 商品本体サイズ 5.2 x 5.2 x 3.5 cm ユニット数 30.0 グラム 商品の重量 30 グラム 素材とお手入"
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71kMK6-HAVL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "Amazon現行ページの商品名に増量パウチ、ローションの付属品、または専用ボトルとの組み合わせが明記され、柔らかい単品袋の条件を満たさない。",
+      "decidedOn": "2026-10-13"
     }
   ]
 }

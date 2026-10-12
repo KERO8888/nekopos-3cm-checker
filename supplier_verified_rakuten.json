@@ -1710,7 +1710,120 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B0FH6JQ8HD": {
+      "expectedEans": [
+        "4902806134742"
+      ],
+      "checkedPages": 8,
+      "cumulativeCheckedPages": 8,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 31,
+      "rejected": {
+        "jan_missing": 1,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "マンダム ルシードエル アールイー リペア シャンプー つめかえ用 300ml",
+          "storeName": "姫路流通センター",
+          "jan": "4902806134742",
+          "priceYen": 898,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T23:37:56.241437+00:00",
+          "url": "https://item.rakuten.co.jp/at-life/4902806134742/",
+          "store": "姫路流通センター",
+          "inboundShippingYen": 399,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "LUCIDO-L(ルシードエル)アールイーリペアシャンプーつめかえ用 [再整美容][ダメージ補修]キンモクセイ×グレープフルーツの香り300ml",
+          "storeName": "ポッチ",
+          "jan": "4902806134742",
+          "priceYen": 1093,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T23:37:04.023791+00:00",
+          "url": "https://item.rakuten.co.jp/pocchi-shop/m-4902806134742/",
+          "store": "ポッチ",
+          "inboundShippingYen": 270,
+          "displayPoints": 9,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ルシードエル アールイー リペアシャンプー つめかえ用 300mL",
+          "storeName": "クスリのアオキ2号店楽天市場店",
+          "jan": "4902806134742",
+          "priceYen": 943,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T23:37:24.941260+00:00",
+          "url": "https://item.rakuten.co.jp/kusuriaoki-r-2/4902806134742/",
+          "store": "クスリのアオキ2号店楽天市場店",
+          "inboundShippingYen": 490,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "マンダム ルシードエル アールイー リペア シャンプー つめかえ用 300ml",
+          "storeName": "マイレピ　P＆Gストア",
+          "jan": "4902806134742",
+          "priceYen": 979,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T23:38:06.700288+00:00",
+          "url": "https://item.rakuten.co.jp/myrepi-2/4902806134742r/",
+          "store": "マイレピ　P＆Gストア",
+          "inboundShippingYen": 599,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "マンダム　ルシードエル アールイー リペアシャンプー つめかえ用 300mL",
+          "storeName": "コジマ楽天市場店",
+          "jan": "4902806134742",
+          "priceYen": 1040,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T23:38:17.151061+00:00",
+          "url": "https://item.rakuten.co.jp/r-kojima/4902806134742/",
+          "store": "コジマ楽天市場店",
+          "inboundShippingYen": 550,
+          "displayPoints": 9,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "「マンダム」　ルシードエル　アールイー　リペアシャンプー　つめかえ用　300ml",
+          "storeName": "薬のファインズファルマ楽天市場店",
+          "jan": "4902806134742",
+          "priceYen": 1100,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T23:38:27.615547+00:00",
+          "url": "https://item.rakuten.co.jp/fines-f/4902806134742/",
+          "store": "薬のファインズファルマ楽天市場店",
+          "inboundShippingYen": 490,
+          "displayPoints": 10,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ルシードエル アールイー リペアシャンプー つめかえ用 300ml 再整美容 つやストレート キンモクセイ×グレープフルーツの香り 詰め替え LUCIDO-L マンダム(mandom)",
+          "storeName": "コスメボックス",
+          "jan": "4902806134742",
+          "priceYen": 990,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T23:37:14.472450+00:00",
+          "url": "https://item.rakuten.co.jp/cosmebox/j4902806134742/",
+          "store": "コスメボックス",
+          "inboundShippingYen": 800,
+          "displayPoints": 9,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-12T22:37:20.995994+00:00"
+  "checkedAt": "2026-10-12T23:38:27.928799+00:00"
 }

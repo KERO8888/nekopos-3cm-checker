@@ -76317,7 +76317,7 @@
     {
       "asin": "B08VDC1TNV",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
@@ -82017,7 +82017,7 @@
     {
       "asin": "B0FDP42B8Y",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
@@ -83648,7 +83648,7 @@
     {
       "asin": "B0D3TNQB6F",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
@@ -83673,7 +83673,7 @@
     {
       "asin": "B0D3THR3LZ",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
@@ -86815,7 +86815,7 @@
     {
       "asin": "B0F8H2551V",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
@@ -548097,7 +548097,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 673,
+  "fetchedProductPageCount": 678,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -552332,6 +552332,20 @@
         "B0HGXKZLK4"
       ],
       "pagesChecked": 3,
+      "added": 0,
+      "unverifiedRange": "単品・柔らかい袋・付属品・平置き後厚さは未判定。商品写真と掲載寸法の出典を個別確認する必要がある。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=パウチ由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B08VDC1TNV",
+        "B0FDP42B8Y",
+        "B0D3TNQB6F",
+        "B0D3THR3LZ",
+        "B0F8H2551V"
+      ],
+      "pagesChecked": 5,
       "added": 0,
       "unverifiedRange": "単品・柔らかい袋・付属品・平置き後厚さは未判定。商品写真と掲載寸法の出典を個別確認する必要がある。"
     }
