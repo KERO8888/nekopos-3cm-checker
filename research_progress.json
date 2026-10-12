@@ -132,7 +132,7 @@
     "ココア 粉末 詰め替え 袋 200g"
   ],
   "discoveredCount": 63872,
-  "addedCount": 81,
+  "addedCount": 85,
   "discovered": [
     {
       "asin": "B0CDPF8BKZ",
@@ -17943,7 +17943,7 @@
       "queries": [
         "青汁 粉末 袋 100g"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -22170,7 +22170,7 @@
       "queries": [
         "シャンプー 詰め替え 200ml 袋"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ"
       ],
@@ -28464,7 +28464,7 @@
         "トリートメント 詰め替え 400ml 袋",
         "トリートメント 詰め替え 500ml 袋"
       ],
-      "status": "page_fetched_not_added",
+      "status": "added",
       "discoverySources": [
         "Keepa title=つめかえ"
       ]
@@ -31140,7 +31140,7 @@
       "queries": [
         "トリートメント 詰め替え 500ml 袋"
       ],
-      "status": "page_fetched_not_added",
+      "status": "added",
       "discoverySources": [
         "Keepa title=つめかえ"
       ]
@@ -34490,7 +34490,7 @@
       "queries": [
         "ハンドソープ 詰め替え 400ml 袋"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ"
       ],
@@ -38845,7 +38845,7 @@
         "乳液 詰め替え 300ml 袋",
         "乳液 詰め替え 500ml 袋"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ"
       ],
@@ -40660,7 +40660,7 @@
       "queries": [
         "化粧水 詰め替え 500ml 袋"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ"
       ],
@@ -40686,7 +40686,7 @@
       "queries": [
         "化粧水 詰め替え 500ml 袋"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ"
       ],
@@ -42067,7 +42067,7 @@
         "乳液 詰め替え 400ml 袋",
         "乳液 詰め替え 500ml 袋"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ"
       ],
@@ -57004,7 +57004,7 @@
     {
       "asin": "B08GFYCQY1",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=つめかえ",
@@ -57042,7 +57042,7 @@
     {
       "asin": "B08GFW4M92",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=つめかえ",
@@ -57081,7 +57081,7 @@
     {
       "asin": "B0C85XN727",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=つめかえ",
@@ -68690,7 +68690,7 @@
     {
       "asin": "B085LPVZ9L",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
@@ -198213,7 +198213,7 @@
     {
       "asin": "B0F2DKHQ54",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -548097,7 +548097,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 619,
+  "fetchedProductPageCount": 631,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -552217,6 +552217,36 @@
       "pagesChecked": 0,
       "added": 3,
       "unverifiedRange": "商品袋と発送外装の実測最大厚・重量、仕入先・売価は別途確認。掲載寸法は梱包寸法として扱う。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=パウチ由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B09MCW8ZRP",
+        "B0GHZJTZG8",
+        "B07WR31R5N",
+        "B0F5GR418Z",
+        "B0F5GK5SD1",
+        "B07WNNJN8G",
+        "B08GFYCQY1",
+        "B08GFW4M92",
+        "B0C85XN727",
+        "B085LPVZ9L"
+      ],
+      "pagesChecked": 10,
+      "added": 0,
+      "unverifiedRange": "単品・柔らかい袋・付属品・平置き後厚さは未判定。商品写真と掲載寸法の出典を個別確認する必要がある。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=粉末由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0BY4KW1H3",
+        "B0F2DKHQ54"
+      ],
+      "pagesChecked": 2,
+      "added": 0,
+      "unverifiedRange": "単品・柔らかい袋・付属品・平置き後厚さは未判定。商品写真と掲載寸法の出典を個別確認する必要がある。"
     }
   ],
   "searchStops": [

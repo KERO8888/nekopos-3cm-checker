@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-12T17:57:40.147142+00:00",
+  "checkedAt": "2026-10-12T18:48:28.276837+00:00",
   "source": "Yahoo Shopping direct product pages, displayed Tokyo shipping",
   "scope": "Only pages with matching JAN and single-unit wording are verified; availability and prices can change.",
   "items": {
@@ -4241,6 +4241,234 @@
           "displayPoints": 37,
           "couponMentioned": false,
           "checkedAt": "2026-10-12T17:57:36.402442+00:00"
+        }
+      ]
+    },
+    "B09RHRSD4V": {
+      "expectedEans": [
+        "4971710523454"
+      ],
+      "checkedPages": 6,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "ジュレームiPタラソリペア補修美容液トリートメント ディープモイスト 詰め替え用 340mL (1個)",
+          "store": "みんなのお薬バリュープライス(みんなのお薬)",
+          "url": "https://store.shopping.yahoo.co.jp/minoku-value/1758951308-1-e.html",
+          "jan": "4971710523454",
+          "priceYen": 481,
+          "inboundShippingYen": 600,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 16,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:39:06.672739+00:00"
+        },
+        {
+          "name": "ジュレームiPタラソリペア補修美容液トリートメント ディープモイスト 詰め替え用 340mL (1個)",
+          "store": "みんなのお薬プレミアム(みんなのお薬)",
+          "url": "https://store.shopping.yahoo.co.jp/minoku-premium/1758951308-1-a.html",
+          "jan": "4971710523454",
+          "priceYen": 519,
+          "inboundShippingYen": 600,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 17,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:39:08.878133+00:00"
+        },
+        {
+          "name": "コーセー ジュレーム ｉＰ タラソリペア 補修美容液 トリートメント ディープモイストつめかえ340ml",
+          "store": "BOTANIC GARDEN Yahoo!店",
+          "url": "https://store.shopping.yahoo.co.jp/botanic-garden2/171-993-002.html",
+          "jan": "4971710523454",
+          "priceYen": 483,
+          "inboundShippingYen": 660,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 17,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:39:07.437096+00:00"
+        },
+        {
+          "name": "コーセーコスメポート ジュレーム iP タラソリペア 補修美容液トリートメント (ディープモイスト) つめかえ 340ml",
+          "store": "XPRICE Yahoo!店",
+          "url": "https://store.shopping.yahoo.co.jp/aprice/4971710523454.html",
+          "jan": "4971710523454",
+          "priceYen": 524,
+          "inboundShippingYen": 650,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 17,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:39:10.492717+00:00"
+        },
+        {
+          "name": "コーセー ジュレーム ｉＰ タラソリペア 補修美容液 トリートメント ディープモイストつめかえ340ml",
+          "store": "BOTANIC GARDEN プレミアポイント店",
+          "url": "https://store.shopping.yahoo.co.jp/botanic-garden/171-993-002.html",
+          "jan": "4971710523454",
+          "priceYen": 520,
+          "inboundShippingYen": 660,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 36,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:39:09.656766+00:00"
+        }
+      ]
+    },
+    "B08GKX338W": {
+      "expectedEans": [
+        "4560249795434"
+      ],
+      "checkedPages": 6,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "ジャパンゲートウェイ レヴール リッチ&モイスト フィトプロテイン トリートメント つめかえ 400ml",
+          "store": "ベイシア ヤフーショップ",
+          "url": "https://store.shopping.yahoo.co.jp/beisia/4560249795434.html",
+          "jan": "4560249795434",
+          "priceYen": 1000,
+          "inboundShippingYen": 750,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 36,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:39:11.835474+00:00"
+        },
+        {
+          "name": "レヴール リッチ＆モイスト トリートメント(詰替え) 400mL",
+          "store": "アットコスメショッピング Yahoo!店",
+          "url": "https://store.shopping.yahoo.co.jp/cosmecom/1000127054.html",
+          "jan": "4560249795434",
+          "priceYen": 1210,
+          "inboundShippingYen": 550,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 44,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:39:14.277702+00:00"
+        },
+        {
+          "name": "レヴール Reveur リッチ＆モイスト トリートメント 詰替 400ml",
+          "store": "エムコスメスタイル Yahoo!店",
+          "url": "https://store.shopping.yahoo.co.jp/mcosme-style/rev0007.html",
+          "jan": "4560249795434",
+          "priceYen": 1210,
+          "inboundShippingYen": 698,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 44,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:39:12.719733+00:00"
+        },
+        {
+          "name": "Reveur レヴール リッチ＆モイスト トリートメント 詰め替え 400ml",
+          "store": "サンク Yahoo!店",
+          "url": "https://store.shopping.yahoo.co.jp/sanc/4560249795434.html",
+          "jan": "4560249795434",
+          "priceYen": 1210,
+          "inboundShippingYen": 700,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 44,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:39:13.474997+00:00"
+        }
+      ]
+    },
+    "B085LPVZ9L": {
+      "expectedEans": [
+        "4901080080110"
+      ],
+      "checkedPages": 6,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "ヘルパータスケ 良い香りに変える 消臭スプレー 快適フローラルの香り 詰め替え用 350mL (1個)",
+          "store": "みんなのお薬バリュープライス(みんなのお薬)",
+          "url": "https://store.shopping.yahoo.co.jp/minoku-value/1758938189-1-e.html",
+          "jan": "4901080080110",
+          "priceYen": 443,
+          "inboundShippingYen": 250,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 16,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:44:15.087343+00:00"
+        },
+        {
+          "name": "アース製薬 ヘルパータスケ 良い香りに変える 消臭スプレー 詰め替え 350mL",
+          "store": "クスリのアオキ ヤフー店",
+          "url": "https://store.shopping.yahoo.co.jp/kusuriaoki/4901080080110.html",
+          "jan": "4901080080110",
+          "priceYen": 445,
+          "inboundShippingYen": 561,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 16,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:44:16.086055+00:00"
+        },
+        {
+          "name": "アース製薬 ヘルパータスケ 良い香りに変える 消臭スプレー 詰め替え 350mL",
+          "store": "クスリのアオキ2号店ヤフー店",
+          "url": "https://store.shopping.yahoo.co.jp/kusuriaoki-2/4901080080110.html",
+          "jan": "4901080080110",
+          "priceYen": 445,
+          "inboundShippingYen": 561,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 16,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:44:16.794108+00:00"
+        },
+        {
+          "name": "ヘルパータスケ 良い香りに変える 消臭スプレー快適 フローラルの香り 替パウチ 350ml",
+          "store": "ドラッグ ヒーロー ヤフー店",
+          "url": "https://store.shopping.yahoo.co.jp/drughero/a-4901080080110.html",
+          "jan": "4901080080110",
+          "priceYen": 453,
+          "inboundShippingYen": 770,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 16,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:44:17.672168+00:00"
+        },
+        {
+          "name": "ヘルパータスケ 良い香りに変える 消臭スプレー快適 フローラルの香り 替パウチ 350ml",
+          "store": "キタバドラッグ",
+          "url": "https://store.shopping.yahoo.co.jp/kitabadrug-cosme/a-4901080080110.html",
+          "jan": "4901080080110",
+          "priceYen": 453,
+          "inboundShippingYen": 770,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 16,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:44:18.567718+00:00"
+        },
+        {
+          "name": "ヘルパータスケ 良い香りに変える消臭スプレー 快適フローラルの香り つめかえ用（350ｍL）/ アース製薬",
+          "store": "街の雑貨屋さん Yahoo!店",
+          "url": "https://store.shopping.yahoo.co.jp/matinozakka/4901080080110.html",
+          "jan": "4901080080110",
+          "priceYen": 430,
+          "inboundShippingYen": 970,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 14,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:44:13.894720+00:00"
+        }
+      ]
+    },
+    "B0F2DKHQ54": {
+      "expectedEans": [
+        "4573374491485"
+      ],
+      "checkedPages": 6,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "麦茶 粉末 アイスOK 国産 大麦 こども むぎちゃ 300g 鉄分補給 6ヶ月 水筒 すぐ溶ける bebeco 粉末茶 宅配便 送料無料 麦茶 赤ちゃん",
+          "store": "すなお食堂",
+          "url": "https://store.shopping.yahoo.co.jp/sunao-syokudou/bk-mugit300-kids1.html",
+          "jan": "4573374491485",
+          "priceYen": 9980,
+          "inboundShippingYen": null,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 372,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-12T18:48:25.347129+00:00"
         }
       ]
     }

@@ -94,7 +94,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61DHu7NAaNL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "Amazonの商品名はジェルクリームで掲載寸法も小型容器相当。袋の根拠なし。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0HD6WQLGB",
@@ -156,7 +158,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/7181OeMdyDL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像に硬いねじ式キャップ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B08WWQ5LFZ",
@@ -170,7 +174,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61FsBB8zEWL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_cap_or_container",
+      "decisionReason": "主画像は硬い化粧水ボトル。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CXMXWZJ3",
@@ -247,7 +253,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51vBjrvnfgL._AC_SL1243_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像は硬いキャップ付きチューブ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0D8Q94C53",
@@ -261,7 +269,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41VZzcaC6xL._AC_SL1200_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像は硬い泡ポンプ容器。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CW17X9Q5",
@@ -275,7 +285,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41Z6u4pVHRL._AC_SL1200_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像は硬いキャップ付きチューブ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CF9GHB1V",
@@ -289,7 +301,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41E-HzjHR+L._AC_SL1093_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像は硬い化粧水ボトル。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CF9K4WZL",
@@ -307,7 +321,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/414M4ACoecL._AC_SL1172_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像は硬い乳液ボトル。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B09R9YRBBR",
@@ -321,7 +337,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51YLWm04IaL._AC_SL1200_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像は硬いキャップ付きチューブ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CF9KSWHK",
@@ -371,7 +389,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/410AzQ8vwcL._AC_SL1200_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_cap_or_container",
+      "decisionReason": "主画像は硬いポンプボトルと箱。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0FX85DG9R",
@@ -385,7 +405,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41u7zzvylxL._AC_SL1200_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像は硬いキャップ付きチューブ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CSSYHV5F",
@@ -575,7 +597,9 @@
       "title": "ピュアーチェ モイスト泡ハンドソープ 薬用ハンドソープＳ５ a 原産国: 日本 (3, 詰め替え250ml)",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/31BA4Ewk+9L._AC_SY300_SX300_QL70_ML2_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "Amazonの商品名が3個セット。単品袋ではない。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0DGGPS3G1",
@@ -671,7 +695,9 @@
       "title": "ベストコ(Bestco) シャンプー用ディスペンサー ホワイト 250ml ネトヨン・レ スクエア ボトル ND-4363",
       "dimensions": [],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51y6+8a8zIL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "Amazonの商品名が硬いディスペンサーボトル。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0G1YKSWBZ",
@@ -1023,7 +1049,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51aYwrwJFBL._AC_SL1254_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CHJ4RQNB",
@@ -1101,7 +1129,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/518h3l3I2sL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "hold_peak_thickness_unverified",
+      "decisionReason": "820g粉末を掲載14.5×24.5cmの袋面で均しても3cm以下となる確かな根拠がなく、最大厚を実測するまで保留。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B08TBGC7RN",
@@ -1115,7 +1145,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71xycf6B+RL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "4kgの粉末洗剤。配送サービスの重量上限超。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0F5MCPL94",
@@ -1144,7 +1176,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71NPirIlTCL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像に硬いねじ式キャップ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0F32HZSSG",
@@ -1217,7 +1251,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61OrBrRMAJL._AC_SL1000_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0BY8P79B4",
@@ -1231,7 +1267,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61VnQx3Rl-L._AC_SL1000_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B09SLCR2GK",
@@ -1245,7 +1283,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/619FdS--YIL._AC_SL1315_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像は硬い取っ手・ねじ式キャップ付き4L容器。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B01N9B03QR",
@@ -1259,7 +1299,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71uPr8h1PoL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0BVLQR82R",
@@ -1273,7 +1315,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71np+Bg6q1L._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0DBHLCCJC",
@@ -1287,7 +1331,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81nbqImz+IL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0H33C9RKV",
@@ -1301,7 +1347,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81GLVKBqxvL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0GJRYLGNW",
@@ -1315,7 +1363,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61Dm6KsA8iL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0GLXX5T7M",
@@ -1329,7 +1379,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81Hme5IALtL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_cap_or_container",
+      "decisionReason": "主画像に硬いねじ式キャップ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B08XGD6N16",
@@ -1343,7 +1395,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61lO2hZnNhL._AC_SL1000_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_cap_or_container",
+      "decisionReason": "主画像に硬いねじ式キャップ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0DBHJQFGJ",
@@ -1357,7 +1411,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81gThf89T7L._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B099RFZ3JW",
@@ -1371,7 +1427,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71bfEwHilML._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0D97D47HY",
@@ -1385,7 +1443,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71Jn46usZVL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0DHZ49WTF",
@@ -1399,7 +1459,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81i1KwW-cqL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CG3DW29S",
@@ -1413,7 +1475,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81IsLKJScKL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_cap_or_container",
+      "decisionReason": "主画像に硬いねじ式キャップ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0H335QG3W",
@@ -1427,7 +1491,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81xzjbeduAL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0G6JRS4L2",
@@ -1441,7 +1507,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61jP7MD4hSL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CHB2G4RZ",
@@ -1455,7 +1523,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81EP4CpFr+L._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CFZW67L8",
@@ -1485,7 +1555,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/812jUlj+S-L._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0FJ1G3HWJ",
@@ -1499,7 +1571,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71xT+l8KeKL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_cap_or_container",
+      "decisionReason": "主画像に硬い注ぎ口。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0874S7DS4",
@@ -1513,7 +1587,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71P6xMz96UL._AC_SL1200_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0DBHK4MQR",
@@ -1527,7 +1603,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81ycDleutRL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0DJ2F8744",
@@ -1541,7 +1619,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71twdfE9RJL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0FJ1PNRL8",
@@ -1555,7 +1635,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71GnaFadFqL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_screw_cap_or_jug",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きの詰め替え袋を確認。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B08GC551BP",
@@ -1569,7 +1651,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71DszqI6YmL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "hold_peak_thickness_unverified",
+      "decisionReason": "500g入浴剤を掲載11×21.3cmの袋面で均した最大厚が3cm以下か不明。実測待ち。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B07541QLXF",
@@ -1749,7 +1833,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61HJwme+YnL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像に硬いねじ式キャップ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0734VDNNC",
@@ -1763,7 +1849,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51XZ3ua3pHL._AC_SL1300_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像に硬いねじ式キャップ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0B81Q9WWC",
@@ -1797,7 +1885,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/6193zuq9Q-L._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像に硬いねじ式キャップ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0BR7LTLHJ",
@@ -1815,7 +1905,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61SRgUzHekL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_cap_or_container",
+      "decisionReason": "主画像に硬いねじ式キャップ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0BB13F6ZZ",
@@ -1885,7 +1977,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71HcZi+ua1L._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像に硬いねじ式キャップ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B07B53LVK4",
@@ -1915,7 +2009,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71de7ddRhkL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像に硬いねじ式キャップ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B07GR3K8D7",
@@ -1929,7 +2025,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71V5QKLI+aL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像に硬いねじ式キャップ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0H956P898",
@@ -1943,7 +2041,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71oFX3pRWeL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_cap_or_container",
+      "decisionReason": "主画像に硬いねじ式キャップ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B09RHRSD4V",
@@ -1961,7 +2061,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61WL5-RXRBL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページの単品・柔らかい切り取り式袋・掲載3辺の最小辺3cm超を個別確認。液体を広げた計算上3cm以下の可能性があるが未実測。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0847S71K6",
@@ -1979,7 +2081,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61wSN2v6soL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像に硬い注ぎ口。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0BNPCD3ZT",
@@ -1997,7 +2101,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/618F73K1maL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像に硬い注ぎ口。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0BX96TW58",
@@ -2085,7 +2191,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/512gNQHf5QL._AC_SY300_SX300_QL70_ML2_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_rigid_or_multi_or_overweight",
+      "decisionReason": "主画像に硬いねじ式キャップ。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B08GKX338W",
@@ -2099,7 +2207,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71pdvaNEYAL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページの単品・柔らかい切り取り式袋・掲載3辺の最小辺3cm超を個別確認。液体を広げた計算上3cm以下の可能性があるが未実測。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0DW6ZXW49",
@@ -2863,6 +2973,206 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/817n+JVSmzL._AC_SL1500_.jpg",
       "reviewStatus": "added_after_manual_photo_and_dimensions_review",
       "decisionReason": "Amazon現行ページの単品・柔らかいチャック袋・掲載3辺の最小辺3cm超を確認。40〜80gの粉末を未開封袋内で均す見込み。袋と外装の最大厚・重量は未測定で要実測。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B09MCW8ZRP",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B09MCW8ZRP",
+      "title": "[メイダイ] 靴磨き shoes SAVON (シューズシャボン) 詰め替えパウチ 200ml",
+      "dimensions": [
+        {
+          "value": "17.4 x 7.9 x 6 cm",
+          "context": "       :\n                                            ‎ 17.4 x 7.9 x 6 cm; 210 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61Tade0VyfL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きパウチを確認。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0GHZJTZG8",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0GHZJTZG8",
+      "title": "Badens ハンドソープ 関西大阪万博 バーデンス ボディシャンプー(ハンドウォッシュ)詰め替えパウチ 400ml",
+      "dimensions": [
+        {
+          "value": "19 x 17 x 7 cm",
+          "context": "       :\n                                            ‎ 19 x 17 x 7 cm; 400 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61fu2lYRBAL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きパウチを確認。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B07WR31R5N",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B07WR31R5N",
+      "title": "プリュ (PLuS) 化粧水 うるおい シルク ローション セラミド ヒアルロン酸 (大容量 500mL / パウチ タイプ 詰め替え 日本製)",
+      "dimensions": [
+        {
+          "value": "21.4 x 11.4 x 8 cm",
+          "context": "       :\n                                            ‎ 21.4 x 11.4 x 8 cm; 510 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/41Mm7V0fyuL._AC_SL1333_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きパウチを確認。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0F5GR418Z",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F5GR418Z",
+      "title": "ナイアシンアミド グリチルリチン酸 8種のアミノ酸 配合 化粧水 大容量 詰め替え用パウチ 500ml さっぱりタイプ さぱサラ グリセリンフリー アルコールフリー パラベンフリー",
+      "dimensions": [
+        {
+          "value": "21.5 x 14 x 4.5 cm",
+          "context": "       :\n                                            ‎ 21.5 x 14 x 4.5 cm; 500 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/41wt6S2I+oL._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きパウチを確認。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0F5GK5SD1",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F5GK5SD1",
+      "title": "ヒト型セラミド + レチノール + 8種類のアミノ酸 配合 オールインワン化粧水 大容量 詰め替え用パウチ 500ml しとモチ グリセリンフリー アルコールフリー パラベンフリー",
+      "dimensions": [
+        {
+          "value": "21.5 x 14 x 4.5 cm",
+          "context": "       :\n                                            ‎ 21.5 x 14 x 4.5 cm; 500 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/41QFYa63pwL._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きパウチを確認。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B07WNNJN8G",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B07WNNJN8G",
+      "title": "[ プリュ (PLuS) ] 乳液 プラセンタ モイスチュア ミルク (詰替え 大容量 500ml パウチ タイプ) 先行乳液 潤い 顔 (日本製)",
+      "dimensions": [
+        {
+          "value": "4 x 12 x 22.5 cm",
+          "context": "       :\n                                            ‎ 4 x 12 x 22.5 cm; 510 g Amazon.co.jp での取り扱い開始日\n    "
+        },
+        {
+          "value": "40 x 120 x 225 mm",
+          "context": " / フィードバックを送信 フィードバックを提供するには サインイン してください。 サイズ 商品本体サイズ 40 x 120 x 225 mm ユニット数 500.0 ミリリットル 素材とお手入れ 特記すべき原材"
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/41a05GOQPOL._AC_SL1332_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きパウチを確認。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B08GFYCQY1",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B08GFYCQY1",
+      "title": "ノンスメル清水香(せいすいか) ハーバルフレッシュ つめかえパウチ 600mL 消臭スプレー 芳香 詰め替え 速乾 ベタつかない 界面活性剤不使用 除菌 服 空間",
+      "dimensions": [
+        {
+          "value": "15 x 7.3 x 22 cm",
+          "context": "       :\n                                            ‎ 15 x 7.3 x 22 cm; 590 g メーカー\n                      "
+        },
+        {
+          "value": "15 x 7.3 x 22 cm",
+          "context": " 商品タイプ スプレー,パウチ 消臭剤の種類 消臭剤 動力源 パッシブディフューザー サイズ 商品本体サイズ 15 x 7.3 x 22 cm ユニット数 600.0 ミリリットル その他の詳細 カラー ブルー,"
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71TPk0J2jIL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きパウチを確認。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B08GFW4M92",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B08GFW4M92",
+      "title": "ノンスメル清水香(せいすいか) 無香 つめかえパウチ 600mL 消臭スプレー 無香料 詰め替え 速乾 ベタつかない 界面活性剤不使用 除菌 服 空間",
+      "dimensions": [
+        {
+          "value": "15 x 7.3 x 22 cm",
+          "context": "       :\n                                            ‎ 15 x 7.3 x 22 cm; 520 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61YBwGOXyYL._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きパウチを確認。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0C85XN727",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0C85XN727",
+      "title": "ノンスメル清水香(せいすいか) 金木犀の香り つめかえパウチ 600mL 消臭スプレー 芳香 詰め替え 速乾 ベタつかない 界面活性剤不使用 除菌 服 空間",
+      "dimensions": [
+        {
+          "value": "18.3 x 14.2 x 6.5 cm",
+          "context": "       :\n                                            ‎ 18.3 x 14.2 x 6.5 cm; 580 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71VH8BX2kYL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行商品ページの主画像で硬いねじ式キャップ付きパウチを確認。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B085LPVZ9L",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B085LPVZ9L",
+      "title": "ヘルパータスケ 良い香りに変える 消臭スプレー 快適フローラルの香り 詰め替えパウチ 350ml 介護用品 部屋の匂い消し 芳香剤",
+      "dimensions": [
+        {
+          "value": "20.2 x 10.3 x 5.33 cm",
+          "context": "       :\n                                            ‎ 20.2 x 10.3 x 5.33 cm; 0.32 g メーカー\n                     "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61ZUHbHoRPL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "単品350mLの切り取り式パウチで硬いキャップなし。掲載最小辺5.33cm。液体を袋面へ均す計算は3cm未満だが最大厚・重量は未実測。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0BY4KW1H3",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0BY4KW1H3",
+      "title": "&WELL あずき茶 北海道産 栄養まるごと粉末 100g 小豆茶 ノンカフェイン カリウム含有",
+      "dimensions": [
+        {
+          "value": "20 x 12 x 3 cm",
+          "context": "       :\n                                            ‎ 20 x 12 x 3 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/615Iy+ZHNML._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_min_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページの掲載3辺は20×12×3cmで最小辺は3cmちょうど。今回の登録条件「3cm超」を満たさない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0F2DKHQ54",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F2DKHQ54",
+      "title": "＼冷たい水にもサッと溶ける♪／ 【6か月頃から】bebeco こどもむぎちゃ大容量 300g ノンカフェイン 麦茶 鉄分 ビタミンC 赤ちゃん 離乳食 栄養 幼児食 国産 粉末 パウダー",
+      "dimensions": [
+        {
+          "value": "21.6 x 19.2 x 3.8 cm",
+          "context": "       :\n                                            ‎ 21.6 x 19.2 x 3.8 cm; 300 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51y3B4yFZ4L._AC_SL1000_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページの単品300g・チャック付き柔軟袋・掲載最小辺3.8cmを確認。粉を均した計算値は3cm以下だが未実測。",
       "decidedOn": "2026-10-13"
     }
   ]

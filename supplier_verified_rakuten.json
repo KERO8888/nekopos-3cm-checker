@@ -785,7 +785,358 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B09RHRSD4V": {
+      "expectedEans": [
+        "4971710523454"
+      ],
+      "checkedPages": 8,
+      "cumulativeCheckedPages": 8,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 40,
+      "rejected": {
+        "stock_unconfirmed": 1,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "【合算3300円以上で注文可能】ジュレーム iP タラソリペア 補修美容液トリートメント （ディープモイスト） つめかえ 340ml",
+          "storeName": "ウェブドラッグサプリの店",
+          "jan": "4971710523454",
+          "priceYen": 628,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:40:19.368480+00:00",
+          "url": "https://item.rakuten.co.jp/webdrug/4971710523454/",
+          "store": "ウェブドラッグサプリの店",
+          "inboundShippingYen": 0,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【合算3150円で送料無料】ジュレーム iP タラソリペア 補修美容液トリートメント （ディープモイスト） つめかえ 340ml",
+          "storeName": "サポートショップ",
+          "jan": "4971710523454",
+          "priceYen": 638,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:39:47.871957+00:00",
+          "url": "https://item.rakuten.co.jp/sapoot/4971710523454/",
+          "store": "サポートショップ",
+          "inboundShippingYen": 0,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【コーセーコスメポート】ジュレーム iP タラソリペア 美容液トリートメント ディープモイスト つめかえ(340ml)【日用品】",
+          "storeName": "薬のファインズファルマ楽天市場店",
+          "jan": "4971710523454",
+          "priceYen": 528,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:39:58.412330+00:00",
+          "url": "https://item.rakuten.co.jp/fines-f/4971710523454/",
+          "store": "薬のファインズファルマ楽天市場店",
+          "inboundShippingYen": 490,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ジュレーム iP タラソリペア 補修美容液トリートメント （ディープモイスト）つめかえ 340ml",
+          "storeName": "サンドラッグe-shop",
+          "jan": "4971710523454",
+          "priceYen": 570,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:39:26.913098+00:00",
+          "url": "https://item.rakuten.co.jp/sundrug/4971710523454/",
+          "store": "サンドラッグe-shop",
+          "inboundShippingYen": 600,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "コーセーコスメポート　Jelaime(ジュレーム)iPタラソリペア 補修美容液トリートメントディープモイストつめかえ用340ml",
+          "storeName": "コジマ楽天市場店",
+          "jan": "4971710523454",
+          "priceYen": 628,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:40:29.867431+00:00",
+          "url": "https://item.rakuten.co.jp/r-kojima/4971710523454/",
+          "store": "コジマ楽天市場店",
+          "inboundShippingYen": 550,
+          "displayPoints": 25,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ジュレーム iP タラソリペア 美容液トリートメント ディープモイスト つめかえ 340ml 【ジュレーム】 トリートメント・ヘアパック",
+          "storeName": "楽天24エクスプレス",
+          "jan": "4971710523454",
+          "priceYen": 492,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:40:08.893193+00:00",
+          "url": "https://item.rakuten.co.jp/rakutensokuhaimart/4971710523454/",
+          "store": "楽天24エクスプレス",
+          "inboundShippingYen": 740,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "コーセー ジュレーム iP タラソリペア 美容液トリートメント ディープモイスト つめかえ 340ml",
+          "storeName": "ベイシア楽天市場店",
+          "jan": "4971710523454",
+          "priceYen": 540,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:39:16.452808+00:00",
+          "url": "https://item.rakuten.co.jp/beisia/4971710523454/",
+          "store": "ベイシア楽天市場店",
+          "inboundShippingYen": 750,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
+    },
+    "B08GKX338W": {
+      "expectedEans": [
+        "4560249795434"
+      ],
+      "checkedPages": 8,
+      "cumulativeCheckedPages": 8,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 18,
+      "rejected": {
+        "stock_unconfirmed": 2,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "Reveur(レヴール) リッチ＆モイスト トリートメント つめかえ 400ml【メール便発送】",
+          "storeName": "花ｘ花ドラッグ楽天市場店",
+          "jan": "4560249795434",
+          "priceYen": 1380,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:40:50.904138+00:00",
+          "url": "https://item.rakuten.co.jp/hanaxhanadrug/4560249795434/",
+          "store": "花ｘ花ドラッグ楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 12,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ジャパンゲートウェイ レヴール リッチ&モイスト フィトプロテイン トリートメント つめかえ 400ml | トリートメント 詰替 ヘアケア 保湿 ダメージケア プロテイン 潤い しっとり 補修",
+          "storeName": "ベイシア楽天市場店",
+          "jan": "4560249795434",
+          "priceYen": 1000,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:41:22.420166+00:00",
+          "url": "https://item.rakuten.co.jp/beisia/4560249795434/",
+          "store": "ベイシア楽天市場店",
+          "inboundShippingYen": 750,
+          "displayPoints": 9,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "レヴール リッチ＆モイスト トリートメント つめかえ用 400mL",
+          "storeName": "くすりの勉強堂＠最新健康情報",
+          "jan": "4560249795434",
+          "priceYen": 1210,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:40:40.375896+00:00",
+          "url": "https://item.rakuten.co.jp/benkyo/4560249795434/",
+          "store": "くすりの勉強堂＠最新健康情報",
+          "inboundShippingYen": 600,
+          "displayPoints": 11,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【送料無料】レヴール リッチ&モイスト トリートメント つめかえ 色：パープル、サイズ：400ミリリットル (x 1)",
+          "storeName": "LUCKS",
+          "jan": "4560249795434",
+          "priceYen": 1852,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:41:53.813033+00:00",
+          "url": "https://item.rakuten.co.jp/clickworks/b08gkx338w/",
+          "store": "LUCKS",
+          "inboundShippingYen": 0,
+          "displayPoints": 16,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "Rêveur　レヴール　リッチ＆モイスト トリートメント つめかえ　400mL　レヴール　ヘアケア　プロテイン",
+          "storeName": "【公式】J.G.PLAZA 楽天市場店",
+          "jan": "4560249795434",
+          "priceYen": 1210,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:41:43.366938+00:00",
+          "url": "https://item.rakuten.co.jp/jgplaza/10000012/",
+          "store": "【公式】J.G.PLAZA 楽天市場店",
+          "inboundShippingYen": 660,
+          "displayPoints": 11,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "レヴール Reveur リッチ＆モイスト トリートメント 詰替 400ml",
+          "storeName": "エムコスメスタイル",
+          "jan": "4560249795434",
+          "priceYen": 1210,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:41:32.896490+00:00",
+          "url": "https://item.rakuten.co.jp/mcosme-style/rev0007/",
+          "store": "エムコスメスタイル",
+          "inboundShippingYen": 698,
+          "displayPoints": 11,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
+    },
+    "B085LPVZ9L": {
+      "expectedEans": [
+        "4901080080110"
+      ],
+      "checkedPages": 8,
+      "cumulativeCheckedPages": 8,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 44,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "アース製薬 ヘルパータスケ 良い香りに変える 消臭 スプレー 快適フローラルの香り つめかえ用 350ml",
+          "storeName": "姫路流通センター",
+          "jan": "4901080080110",
+          "priceYen": 502,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:44:55.302914+00:00",
+          "url": "https://item.rakuten.co.jp/at-life/4901080080110/",
+          "store": "姫路流通センター",
+          "inboundShippingYen": 399,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "アース製薬 ヘルパータスケ 良い香りに変える 消臭スプレー 快適フローラルの香り つめかえ 350ml",
+          "storeName": "姫路流通センター",
+          "jan": "4901080080110",
+          "priceYen": 542,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:44:34.191936+00:00",
+          "url": "https://item.rakuten.co.jp/at-life/103-4901080080110/",
+          "store": "姫路流通センター",
+          "inboundShippingYen": 399,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "アース製薬 ヘルパータスケ 良い香りに変える消臭スプレー 快適フローラルの香り つめかえ用３５０ｍｌ",
+          "storeName": "雑貨屋　楽天市場支店",
+          "jan": "4901080080110",
+          "priceYen": 486,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:44:44.743842+00:00",
+          "url": "https://item.rakuten.co.jp/zaccaya-r/4901080080110/",
+          "store": "雑貨屋　楽天市場支店",
+          "inboundShippingYen": 580,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "アース製薬 ヘルパータスケ 良い香りに変える 消臭スプレー 詰め替え 350ML",
+          "storeName": "サンドラッグe-shop",
+          "jan": "4901080080110",
+          "priceYen": 468,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:45:16.362922+00:00",
+          "url": "https://item.rakuten.co.jp/sundrug/4901080080110/",
+          "store": "サンドラッグe-shop",
+          "inboundShippingYen": 600,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "アース製薬 ヘルパータスケ 良い香りに変える 消臭 スプレー 快適フローラルの香り つめかえ用 350ml",
+          "storeName": "マイレピ　P＆Gストア",
+          "jan": "4901080080110",
+          "priceYen": 547,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:45:05.763430+00:00",
+          "url": "https://item.rakuten.co.jp/myrepi-2/4901080080110r/",
+          "store": "マイレピ　P＆Gストア",
+          "inboundShippingYen": 599,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "アース製薬 ヘルパータスケ 良い香りに変える 消臭スプレー 詰め替え 350mL",
+          "storeName": "クスリのアオキ2号店楽天市場店",
+          "jan": "4901080080110",
+          "priceYen": 658,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:45:37.421400+00:00",
+          "url": "https://item.rakuten.co.jp/kusuriaoki-r-2/4901080080110/",
+          "store": "クスリのアオキ2号店楽天市場店",
+          "inboundShippingYen": 490,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "アース製薬 ヘルパータスケ 良い香りに変える 消臭スプレー 詰め替え 350mL",
+          "storeName": "クスリのアオキ楽天市場店",
+          "jan": "4901080080110",
+          "priceYen": 658,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:45:26.933709+00:00",
+          "url": "https://item.rakuten.co.jp/kusuriaoki-r/4901080080110/",
+          "store": "クスリのアオキ楽天市場店",
+          "inboundShippingYen": 500,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ヘルパータスケ 良い香りに変える 消臭スプレー 快適フローラルの香り つめかえ 350ml 消臭",
+          "storeName": "楽天24エクスプレス",
+          "jan": "4901080080110",
+          "priceYen": 454,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-12T18:44:23.644168+00:00",
+          "url": "https://item.rakuten.co.jp/rakutensokuhaimart/4901080080110/",
+          "store": "楽天24エクスプレス",
+          "inboundShippingYen": 740,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
+    },
+    "B0F2DKHQ54": {
+      "expectedEans": [
+        "4573374491485"
+      ],
+      "checkedPages": 0,
+      "cumulativeCheckedPages": 0,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 0,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": []
     }
   },
-  "checkedAt": "2026-10-12T17:59:16.909389+00:00"
+  "checkedAt": "2026-10-12T18:48:24.492023+00:00"
 }
