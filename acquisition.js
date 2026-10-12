@@ -45,21 +45,21 @@
   const apiStatus = apiData.sourceStatus || {};
 
   const searchDate = research.searchedOn.replace(/^(\d{4})-(\d{2})-(\d{2})$/, (_, year, month, day) => `${year}年${Number(month)}月${Number(day)}日`);
-  $('#researchDate').textContent = `${searchDate}の検索結果を反映 · 商品ページ確認 ${research.pageCheckedCount}件`;
+  $('#researchDate').textContent = `${searchDate}の調査記録を反映 · 商品ページ確認 ${research.pageCheckedCount}件`;
   $('#catalogCount').textContent = products.length;
   $('#addedCount').textContent = additions.length;
   $('#addedCheck').textContent = `現在の一覧 ${registeredAdditions.length}件・対象外 ${additions.length - registeredAdditions.length}件（調査履歴）`;
   $('#discoveredCount').textContent = research.discoveredCount;
-  $('#queryCount').textContent = `${research.queryCount}語・追加収集 ${research.collectedSearchPageCount || 0}ページ`;
+  $('#queryCount').textContent = `Amazon ${research.queryCount}語・${research.collectedSearchPageCount || 0}ページ / Keepa ${research.finderRunCount || 0}条件`;
   $('#checkedCount').textContent = research.pageCheckedCount;
   $('#uncheckedCount').textContent = `${research.notFetchedCount}件は商品ページ未確認`;
   $('#researchScope').textContent = research.scope
     + (research.queuedQueryCount ? ` 次の検索語 ${research.queuedQueryCount}語は未探索。` : '')
     + (research.searchStopCount ? ` 検索ページの取得停止 ${research.searchStopCount}件。` : '');
-  $('#newProductsCount').textContent = `${additions.length}件`;
+  $('#newProductsCount').textContent = `${registeredAdditions.length}件`;
 
   const pipeline = [
-    { label: '検索で発見', count: research.discoveredCount, description: `${research.queryCount}語・追加収集${research.collectedSearchPageCount || 0}ページ`, tone: 'found' },
+    { label: '発見したASIN（未確認含む）', count: research.discoveredCount, description: `Amazon ${research.queryCount}語・${research.collectedSearchPageCount || 0}ページ / Keepa ${research.finderRunCount || 0}条件`, tone: 'found' },
     { label: '商品ページ確認', count: research.pageCheckedCount, description: `${research.notFetchedCount}件はページ未確認`, tone: 'checked' },
     { label: '調査履歴上の追加', count: research.addedCount, description: `現在の一覧 ${registeredAdditions.length}件・対象外 ${additions.length - registeredAdditions.length}件`, tone: 'added' },
   ];
@@ -77,14 +77,15 @@
 
   function renderAdditions() {
     const query = $('#newProductSearch').value.trim().toLowerCase();
-    const filtered = additions.filter(item => !query || `${item.asin} ${item.title} ${item.category}`.toLowerCase().includes(query));
+    const filtered = registeredAdditions.filter(item => !query || `${item.asin} ${item.title} ${item.category}`.toLowerCase().includes(query));
     $('#newProducts').innerHTML = filtered.length ? filtered.map(item => {
       const hasImage = imageAsins.has(item.asin) && localImageAsins.has(item.asin);
       const hasPrediction = Boolean(predictions[item.asin]);
       const hasKeepa = Boolean(apiItems[item.asin]?.keepa);
       const ready = item.inCatalog && hasImage && hasPrediction && hasKeepa;
       const status = !item.inCatalog ? '現在は登録対象外' : ready ? '画像・予測・Keepaあり' : hasImage && hasPrediction ? '画像・予測あり、Keepa未取得' : '画像または予測が未取得';
-      return `<div class="new-product"><div><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.asin)} · ${escapeHtml(item.category)}</small><small>発見した検索語：${escapeHtml(item.queries.join('、'))}</small></div><div class="new-product-side"><span class="ready-tag ${ready ? 'ok' : 'warn'}">${status}</span>${item.inCatalog ? `<a href="index.html?asin=${encodeURIComponent(item.asin)}">分析を見る ↗</a>` : ''}</div></div>`;
+      const discovery = item.queries.length ? `Amazon検索語：${item.queries.join('、')}` : `発見経路：${(item.discoverySources || []).join('、') || '個別調査'}`;
+      return `<div class="new-product"><div><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.asin)} · ${escapeHtml(item.category)}</small><small>${escapeHtml(discovery)}</small></div><div class="new-product-side"><span class="ready-tag ${ready ? 'ok' : 'warn'}">${status}</span>${item.inCatalog ? `<a href="index.html?asin=${encodeURIComponent(item.asin)}">分析を見る ↗</a>` : ''}</div></div>`;
     }).join('') : '<p class="empty-result">該当する商品はありません。</p>';
   }
   $('#newProductSearch').addEventListener('input', renderAdditions);

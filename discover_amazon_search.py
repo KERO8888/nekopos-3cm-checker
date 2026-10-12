@@ -44,13 +44,17 @@ def search_page(session, query, page):
     if not title.startswith("Amazon.co.jp"):
         raise RuntimeError("Amazon検索結果と確認できないページ: 検索を停止")
     found = []
+    titles = {}
     for element in soup.select("[data-asin]"):
         asin = element.get("data-asin", "")
         if ASIN.fullmatch(asin) and asin not in found:
             found.append(asin)
+            title_element = element.select_one("h2 span")
+            if title_element:
+                titles[asin] = title_element.get_text(" ", strip=True)[:250]
     if not found and "検索クエリに一致する結果はありません" not in soup.get_text(" ", strip=True):
         raise RuntimeError("ASINが0件の検索ページ: 制限やページ構造変更を確認するため停止")
-    return found
+    return found, titles
 
 
 def save(progress):
@@ -74,18 +78,27 @@ def main():
     by_asin = {item["asin"]: item for item in progress["discovered"]}
     done = {(run.get("query"), run.get("searchPage")) for run in progress.get("searchRuns", [])
             if run.get("searchPage") and run.get("source") == "Amazon.co.jp search page"}
+    exhausted = {}
+    for run in progress.get("searchRuns", []):
+        if run.get("source") == "Amazon.co.jp search page" and run.get("asinsVisibleIncludingSponsored") == 0:
+            query = run.get("query")
+            page = run.get("searchPage")
+            if query and isinstance(page, int):
+                exhausted[query] = min(page, exhausted.get(query, page))
     requests_made = 0
     new_asins = 0
     with requests.Session() as session:
         for query in query_lines():
             for page in range(1, args.pages + 1):
+                if page > exhausted.get(query, args.pages):
+                    break
                 if (query, page) in done:
                     continue
                 if requests_made >= args.max_requests:
                     print(f"今回 {requests_made} 検索ページ、調査候補 {new_asins} ASIN追加。後続ページは未確認。")
                     return 0
                 try:
-                    asins = search_page(session, query, page)
+                    asins, titles = search_page(session, query, page)
                 except (requests.RequestException, RuntimeError) as exc:
                     progress.setdefault("searchStops", []).append({
                         "searchedOn": datetime.now(ZoneInfo("Asia/Tokyo")).date().isoformat(),
@@ -100,8 +113,12 @@ def main():
                     if asin in by_asin:
                         if query not in by_asin[asin]["queries"]:
                             by_asin[asin]["queries"].append(query)
+                        if not by_asin[asin].get("searchTitle") and titles.get(asin):
+                            by_asin[asin]["searchTitle"] = titles[asin]
                     else:
                         item = {"asin": asin, "queries": [query], "status": "not_fetched"}
+                        if titles.get(asin):
+                            item["searchTitle"] = titles[asin]
                         progress["discovered"].append(item)
                         by_asin[asin] = item
                         new_asins += 1
