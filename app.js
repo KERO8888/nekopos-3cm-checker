@@ -18,6 +18,7 @@
   let selectedAsin = products.some(item => item.asin === 'B0DQDTBXJ7') ? 'B0DQDTBXJ7' : '';
   let profitFilter = 'candidate';
   let demoOnly = false;
+  let measuredOnly = false;
   const verdictLabels = {
     likely: '3cm以内に収まりそう',
     borderline: '境界・情報不足',
@@ -37,7 +38,12 @@
   const demoFor = asin => demoByAsin.get(asin);
   const demoWithin3Cm = sample => sample.length >= 23 && sample.width >= 11.5 && sample.length <= 34
     && sample.length + sample.width + sample.thickness <= 60 && sample.thickness <= 3 && sample.weight <= 1000;
-  const hasRealMeasurements = record => ['shipLength', 'shipWidth', 'thickness', 'shipWeight'].every(key => Number(record[key]) > 0);
+  const measurementFields = ['pouchWidth', 'pouchHeight', 'shipLength', 'shipWidth', 'thickness', 'shipWeight'];
+  const isMeasured = (record, key) => record[key] !== '' && record[key] != null && Number.isFinite(Number(record[key])) && Number(record[key]) > 0;
+  const measurementCount = record => measurementFields.filter(key => isMeasured(record, key)).length;
+  const hasRealMeasurements = record => ['shipLength', 'shipWidth', 'thickness', 'shipWeight'].every(key => isMeasured(record, key));
+  const shippingLabelFor = (result, record) => result.status !== 'over' && !result.fullyMeasured && measurementCount(record)
+    ? '一部実測・要確認' : shippingLabels[result.status];
   function saveRecords() {
     try { localStorage.setItem(storageKey, JSON.stringify(records)); }
     catch { alert('実測記録を保存できませんでした。CSVに書き出して控えてください。'); }
@@ -108,8 +114,11 @@
     $('#profitSourcingCount').textContent = states.filter(state => state === 'sourcing').length;
     $('#profitPriceMissingCount').textContent = states.filter(state => state === 'price_missing').length;
     $('#profitAllCount').textContent = products.length;
+    const actualCount = products.filter(item => measurementCount(recordFor(item.asin))).length;
+    $('#actualCount').textContent = `${actualCount}件`;
+    $('#measuredToggle').disabled = actualCount === 0;
     const registeredDemos = demoMeasurements.filter(sample => products.some(item => item.asin === sample.asin));
-    $('#demoTotalCount').textContent = `${registeredDemos.length}件 仮入力`;
+    $('#demoTotalCount').textContent = `${registeredDemos.length}件の表示例`;
     $('#demoWithinCount').textContent = registeredDemos.filter(demoWithin3Cm).length;
     $('#demoOverCount').textContent = registeredDemos.length - registeredDemos.filter(demoWithin3Cm).length;
   }
@@ -131,6 +140,7 @@
         || (shippingFilter === 'over' && fit.nekopos.status === 'over' && fit.clickpost.status === 'over');
       return (!query || `${item.asin} ${item.title} ${item.category} ${prediction.material}`.toLowerCase().includes(query))
         && (profitFilter === 'all' || profitStateFor(item) === profitFilter)
+        && (!measuredOnly || measurementCount(recordFor(item.asin)) > 0)
         && (!demoOnly || demoByAsin.has(item.asin))
         && (category === 'all' || item.category === category)
         && (dimension === 'all' || (dimension === 'confirmed') === item.sizeConfirmed)
@@ -155,14 +165,14 @@
     return `<div class="source-row"><b>${escapeHtml(label)}</b><span class="${tone}">${value}</span></div>`;
   }
 
-  function shippingRow(name, result) {
+  function shippingRow(name, result, record) {
     const detail = result.reasons.find(reason => /超える|不足|未確認|投函目安|重量は未測定/.test(reason)) || result.reasons[0];
     const note = result.status === 'possible' ? '発送可否は未確定。梱包後の外寸・重量を実測' : detail;
     const yamato = name === 'ネコポス';
     const mark = yamato ? 'assets/yamato-official-logo.png' : 'assets/clickpost-official-brand.png';
     const carrier = yamato ? 'ヤマト運輸' : '日本郵便';
     const source = yamato ? 'https://business.kuronekoyamato.co.jp/service/lineup/nekoposu/index.html' : 'https://www.post.japanpost.jp/service/send/domestic/delivery/clickpost/';
-    return `<div class="shipping-row service-${yamato ? 'yamato' : 'clickpost'} ${shippingClasses[result.status]}"><div class="shipping-brand"><span class="service-emblem" aria-hidden="true"><img class="service-mark" src="${mark}" alt=""></span><div class="service-identity"><small>${carrier}</small><b>${name}</b></div></div><a class="shipping-source" href="${source}" target="_blank" rel="noopener noreferrer" aria-label="${name}の公式規格を見る">↗</a><div class="shipping-spec"><span>サイズ上限</span><strong>長辺34cm · 3辺計60cm · 厚さ3cm${yamato ? '以内' : '目安'}</strong><span>重さ上限</span><strong>${yamato ? '1kg' : '2kg'}以内</strong></div><div class="shipping-verdict"><span class="pill ${shippingClasses[result.status]}">${shippingLabels[result.status]}</span><small>${escapeHtml(note)}</small></div></div>`;
+    return `<div class="shipping-row service-${yamato ? 'yamato' : 'clickpost'} ${shippingClasses[result.status]}"><div class="shipping-brand"><span class="service-emblem" aria-hidden="true"><img class="service-mark" src="${mark}" alt=""></span><div class="service-identity"><small>${carrier}</small><b>${name}</b></div></div><a class="shipping-source" href="${source}" target="_blank" rel="noopener noreferrer" aria-label="${name}の公式規格を見る">↗</a><div class="shipping-spec"><span>サイズ上限</span><strong>長辺34cm · 3辺計60cm · 厚さ3cm${yamato ? '以内' : '目安'}</strong><span>重さ上限</span><strong>${yamato ? '1kg' : '2kg'}以内</strong></div><div class="shipping-verdict"><span class="pill ${shippingClasses[result.status]}">${shippingLabelFor(result, record)}</span><small>${escapeHtml(note)}</small></div></div>`;
   }
 
   const yen = value => `¥${Math.round(value).toLocaleString('ja-JP')}`;
@@ -379,9 +389,12 @@
 
   function packingVisual(item, prediction, fit, record, imageUrl) {
     const outer = fit.nekopos.projected;
-    const measuredPouch = Number(record.pouchWidth) > 0 && Number(record.pouchHeight) > 0;
-    const measuredThickness = Number(record.thickness) > 0;
+    const measuredPouch = isMeasured(record, 'pouchWidth') && isMeasured(record, 'pouchHeight');
+    const measuredThickness = isMeasured(record, 'thickness');
     const complete = fit.nekopos.fullyMeasured;
+    const inputCount = measurementCount(record);
+    const missingParcel = [['shipLength', '外装の長辺'], ['shipWidth', '外装の短辺'], ['thickness', '最大厚'], ['shipWeight', '重量']]
+      .filter(([key]) => !isMeasured(record, key)).map(([, label]) => label);
     const knownPouch = measuredPouch || prediction.footprintSource === 'manufacturer';
     const pouch = measuredPouch ? [Number(record.pouchWidth), Number(record.pouchHeight)] : prediction.assumedPouchCm;
     const [pouchLong, pouchShort] = [...pouch].sort((a, b) => b - a);
@@ -406,13 +419,13 @@
     const instruction = prediction.material === '液体詰め替え' ? '1袋を平置きし、注ぎ口・シール・膨らみを含む最大厚を測る。' : '1袋を平置きし、粒・粉を均等に広げ、硬い部分・マチを含む最大厚を測る。';
     return `<section class="packing-visual" aria-label="商品写真と寸法の根拠">
       <div class="visual-heading"><span class="visual-maker">ASIN : ${item.asin}</span><h1 title="${escapeHtml(item.title)}">${escapeHtml(item.title)}</h1><p>${escapeHtml(item.category)} · ${escapeHtml(prediction.material)} · 単品 <a href="https://www.amazon.co.jp/dp/${item.asin}" target="_blank" rel="noopener noreferrer">商品ページ ↗</a></p></div>
-      <div class="evidence-alert"><b>${complete ? '梱包後の数値を実測済み' : '発送可否は未確定'}</b><span>${complete ? '登録した外寸・最大厚・重量を下の規格と照合してください。' : '画面上の画像は実寸大ではありません。梱包した現物の外寸・最大厚・重量を測ってください。'}</span></div>
+      <div class="evidence-alert"><b>${complete ? '梱包後の外寸・重量を入力済み' : inputCount ? `実測入力 ${inputCount}/6項目を反映` : '発送可否は未確定'}</b><span>${complete ? '登録した外寸・最大厚・重量を下の規格と照合してください。' : inputCount ? `未測定：${missingParcel.join('・') || '外装の確認'}。入力済みの値は実測として表示しています。` : '画面上の画像は実寸大ではありません。梱包した現物の外寸・最大厚・重量を測ってください。'}</span></div>
       <div class="packing-layout">
         <div class="evidence-panel"><div class="evidence-title"><i>1</i><b>商品写真</b></div><p class="evidence-intro">商品全体がわかる写真です。画面上の大きさは実物のサイズではありません。</p><div class="product-photo-stage">${photo}</div><p class="scene-caption">縮尺なし・全体表示。写真から厚みは測れません。</p></div>
         <div class="evidence-panel"><div class="evidence-title"><i>2</i><b>縦横の模式図</b></div><p class="evidence-intro">外装と商品袋の寸法を数値比で比較します。画面上の実寸ではありません。</p>${!knownPouch ? '<div class="evidence-caution">商品袋の実測なし。描いた形は寸法値からの仮定です。</div>' : ''}<div class="footprint-stage">${diagram}</div><p class="scene-caption">${knownPouch ? `${measuredPouch ? '入力実測' : 'メーカー公表'}の袋寸法を使用。平置き後の形状は未確認。` : '商品袋の形・平置き寸法・外装余白は未確認です。'}</p></div>
         <div class="evidence-panel"><div class="evidence-title"><i>3</i><b>3cm定規での厚み確認</b></div><p class="evidence-intro">袋と外装の側面を模式図にし、${measuredThickness ? '入力された実測値' : '計算上の厚みの目安'}を3cmの線と比べます。</p>${thicknessPanel}</div>
       </div>
-      <div class="size-callout"><div class="size-callout-main"><span class="size-status">${complete ? '実測' : '仮定'}</span><strong>発送用外装 ${complete ? '入力された実測値' : '計算上の仮置き'}</strong><div class="size-values"><b>${outer.longMax}</b><em>×</em><b>${outer.shortMax}</b><em>×</em><b>${outer.thicknessMax}</b><small>cm</small></div></div><p>${complete ? '入力した実測値です。梱包状態と測り方を再確認してください。' : '未測定の項目に予測値を使用。厚みの数値は最大厚の保証ではありません。'}</p></div>
+      <div class="size-callout"><div class="size-callout-main"><span class="size-status">${complete ? '実測' : inputCount ? '一部実測' : '仮定'}</span><strong>発送用外装 ${complete ? '入力された実測値' : inputCount ? '実測値と想定値を区別' : '計算上の仮置き'}</strong><div class="size-values"><b>${outer.longMax}</b><em>×</em><b>${outer.shortMax}</b><em>×</em><b>${outer.thicknessMax}</b><small>cm</small></div><div class="size-sources"><span>長辺：${fit.nekopos.measuredFootprint ? '実測' : '想定'}</span><span>短辺：${fit.nekopos.measuredFootprint ? '実測' : '想定'}</span><span>最大厚：${measuredThickness ? '実測' : '推定'}</span></div></div><p>${complete ? '入力した実測値です。梱包状態と測り方を再確認してください。' : inputCount ? `未測定：${missingParcel.join('・') || '外装の確認'}。発送可否は未確定です。` : '未測定の項目に予測値を使用。厚みの数値は最大厚の保証ではありません。'}</p></div>
       <div class="packing-instructions"><b>実測の手順</b><span>① ${instruction}</span><span>② 実際に使う外装に入れ、封をする。</span><span>③ 長辺・短辺・最大厚・重量を測り、詳細に入力する。</span></div>
     </section>`;
   }
@@ -423,9 +436,12 @@
     const imageUrl = imageFor(item.asin);
     const api = apiDimensions[item.asin] || {};
     const fit = fitFor(item);
+    const inputCount = measurementCount(record);
     const bothFit = fit.nekopos.status === 'measured_ok' && fit.clickpost.status === 'measured_ok';
     const anyOver = fit.nekopos.status === 'over' || fit.clickpost.status === 'over';
-    const outcomeDetail = bothFit ? '入力された実測値は規格の数値条件内です。梱包状態と測り方を再確認してください。' : anyOver ? '判定理由と実測値を確認してください。' : '発送可否は未確定。梱包後の外寸・最大厚・重量を測ってください。';
+    const missingParcel = [['shipLength', '外装の長辺'], ['shipWidth', '外装の短辺'], ['thickness', '最大厚'], ['shipWeight', '重量']]
+      .filter(([key]) => !isMeasured(record, key)).map(([, label]) => label);
+    const outcomeDetail = bothFit ? '入力された実測値は規格の数値条件内です。梱包状態と測り方を再確認してください。' : anyOver ? '判定理由と実測値を確認してください。' : `発送可否は未確定。未測定：${missingParcel.join('・') || '梱包状態の確認'}。`;
     const amazonUrl = `https://www.amazon.co.jp/dp/${item.asin}`;
     const keepaUrl = `https://keepa.com/#!product/5-${item.asin}`;
     const graphUrl = `https://graph.keepa.com/pricehistory.png?asin=${item.asin}&domain=co.jp`;
@@ -439,6 +455,7 @@
     const meterEnd = Math.max(meterStart + 2, Math.min(100, range[1] / 5 * 100));
     const measuredThickness = Number(record.thickness);
     const hasMeasuredThickness = record.thickness !== '' && record.thickness != null && measuredThickness > 0;
+    const meterPoint = Math.max(0, Math.min(100, measuredThickness / 5 * 100));
     const thicknessText = hasMeasuredThickness ? escapeHtml(record.thickness) : `${range[0].toFixed(1)}〜${range[1].toFixed(1)}`;
     const pouchSource = footprintLabels[prediction.footprintSource] || '寸法は仮定';
     const sourceTone = prediction.footprintSource === 'manufacturer' ? 'known' : 'assumed';
@@ -462,11 +479,11 @@
     return `<article class="card detail-card" data-asin="${item.asin}">
       ${packingVisual(item, prediction, fit, record, imageUrl)}
       <aside class="decision-rail" aria-label="商品の判定と概算利益">
-        <section class="decision-fit"><span class="rail-eyebrow">配送サイズ判定 <small>${fit.nekopos.fullyMeasured ? '実測' : '予測'}</small></span>${shippingRow('ネコポス', fit.nekopos)}${shippingRow('クリックポスト', fit.clickpost)}</section>
+        <section class="decision-fit"><span class="rail-eyebrow">配送サイズ判定 <small>${fit.nekopos.fullyMeasured ? '実測' : inputCount ? '一部実測' : '予測'}</small></span>${shippingRow('ネコポス', fit.nekopos, record)}${shippingRow('クリックポスト', fit.clickpost, record)}</section>
         <section class="decision-profit"><div class="profit-title"><span class="yen-mark">¥</span><span class="rail-eyebrow">仕入・利益</span><a href="#profit-editor">編集する</a></div>${quickBreakdown}<div data-quick-profit>${profitResult(item, 'clickpost', record)}</div><small>${quickSupplier ? `仕入先：<a href="${escapeHtml(quickSupplier.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(quickSupplier.name)} ↗</a> · ${escapeHtml(quickSupplier.checkedOn)}確認` : '仕入価格は未確認です。詳細で入力できます。'}</small></section>
         <p class="decision-warning">${outcomeDetail}</p>
       </aside>
-      <details class="advanced"><summary>利益の内訳・実測入力・判定根拠を見る <span>予測値を編集できます</span></summary><div class="advanced-body">
+      <details class="advanced"><summary>利益の内訳・実測入力・判定根拠を見る <span>実測値を入力できます</span></summary><div class="advanced-body">
       <div class="product-main">
         <div class="product-photo-panel">
           <a class="product-photo" href="${amazonUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(item.title)}をAmazonで開く">${photo}</a>
@@ -476,26 +493,26 @@
         </div>
         <div class="product-copy ${bothFit ? 'likely' : anyOver ? 'unlikely' : 'borderline'}">
           <span class="outcome-icon ${bothFit ? 'is-good' : anyOver ? 'is-bad' : 'is-check'}" aria-hidden="true">${bothFit ? '✓' : anyOver ? '×' : '?'}</span>
-          <div class="outcome-content"><span class="outcome-eyebrow">配送規格との照合</span><div class="outcome-services"><span>ネコポス <b class="${shippingClasses[fit.nekopos.status]}">${shippingLabels[fit.nekopos.status]}</b></span><span>クリックポスト <b class="${shippingClasses[fit.clickpost.status]}">${shippingLabels[fit.clickpost.status]}</b></span></div><p>${outcomeDetail}</p></div>
+          <div class="outcome-content"><span class="outcome-eyebrow">配送規格との照合</span><div class="outcome-services"><span>ネコポス <b class="${shippingClasses[fit.nekopos.status]}">${shippingLabelFor(fit.nekopos, record)}</b></span><span>クリックポスト <b class="${shippingClasses[fit.clickpost.status]}">${shippingLabelFor(fit.clickpost, record)}</b></span></div><p>${outcomeDetail}</p></div>
         </div>
       </div>
       <div class="estimate">
-        <div class="estimate-head"><span class="estimate-label">サイズの結論</span><small>根拠の確かさ：${prediction.confidence}</small></div>
+        <div class="estimate-head"><span class="estimate-label">サイズの結論</span><small>${inputCount ? '未測定部分の推定確信度' : '推定の確信度'}：${prediction.confidence}</small></div>
         <div class="dimension-summary" aria-label="商品袋の幅・長さと梱包時の厚さ">
           <div class="dimension-item"><span>${hasMeasuredWidth || sourceTone === 'known' ? '商品袋の幅' : '袋幅の仮定'}</span><strong>${escapeHtml(pouchWidth)}<em>cm</em></strong><small class="source-state ${hasMeasuredWidth ? 'known' : sourceTone}">${hasMeasuredWidth ? '実測' : escapeHtml(pouchSource)}</small></div>
           <div class="dimension-item"><span>${hasMeasuredLength || sourceTone === 'known' ? '商品袋の長さ' : '袋長の仮定'}</span><strong>${escapeHtml(pouchLength)}<em>cm</em></strong><small class="source-state ${hasMeasuredLength ? 'known' : sourceTone}">${hasMeasuredLength ? '実測' : escapeHtml(pouchSource)}</small></div>
           <div class="dimension-item"><span>${hasMeasuredThickness ? '梱包後の最大厚' : '梱包時の推定厚さ'}</span><strong>${thicknessText}<em>cm</em></strong><small class="source-state ${hasMeasuredThickness ? 'known' : 'assumed'}">${hasMeasuredThickness ? '実測' : '推定'}</small></div>
         </div>
         ${hasMeasuredWidth !== hasMeasuredLength ? '<small class="partial-note">袋の幅と長さは両方測ると発送判定に反映されます。</small>' : ''}
-        <div class="thickness-meter" role="img" aria-label="厚さの推定範囲は約${range[0].toFixed(1)}から${range[1].toFixed(1)}センチ、基準は3センチ">
-          <span class="thickness-meter-range ${prediction.verdict}" style="left:${meterStart}%;width:${Math.max(2, meterEnd - meterStart)}%"></span>
+        <div class="thickness-meter" role="img" aria-label="${hasMeasuredThickness ? `入力した最大厚は${measuredThickness}センチ` : `厚さの推定範囲は約${range[0].toFixed(1)}から${range[1].toFixed(1)}センチ`}、基準は3センチ">
+          ${hasMeasuredThickness ? `<span class="thickness-meter-point" style="left:${meterPoint}%"></span>` : `<span class="thickness-meter-range ${prediction.verdict}" style="left:${meterStart}%;width:${Math.max(2, meterEnd - meterStart)}%"></span>`}
           <span class="thickness-meter-limit"></span>
         </div>
         <div class="thickness-meter-labels"><span>0cm</span><span>3cmの目安</span><span>5cm</span></div>
-        <div class="parcel-summary"><div class="parcel-heading"><span>${fit.nekopos.measuredFootprint ? '発送用外装の実測' : '発送用外装の想定'}</span><small>商品袋とは別の寸法</small></div><div class="parcel-measures"><div><span>長辺</span><strong>${fit.nekopos.projected.longMax}<em>cm</em></strong></div><div><span>短辺</span><strong>${fit.nekopos.projected.shortMax}<em>cm</em></strong></div><div><span>最大厚</span><strong>${fit.nekopos.projected.thicknessMax}<em>cm</em></strong></div><div><span>${record.shipWeight ? '実測重量' : '重量目安'}</span><strong>${fit.nekopos.projected.weightMin}〜${fit.nekopos.projected.weightMax}<em>g</em></strong></div></div></div>
+        <div class="parcel-summary"><div class="parcel-heading"><span>発送用外装の寸法</span><small>商品袋とは別の寸法</small></div><div class="parcel-measures"><div><span>長辺 ${fit.nekopos.measuredFootprint ? '・実測' : '・想定'}</span><strong>${fit.nekopos.projected.longMax}<em>cm</em></strong></div><div><span>短辺 ${fit.nekopos.measuredFootprint ? '・実測' : '・想定'}</span><strong>${fit.nekopos.projected.shortMax}<em>cm</em></strong></div><div><span>最大厚 ${hasMeasuredThickness ? '・実測' : '・推定'}</span><strong>${fit.nekopos.projected.thicknessMax}<em>cm</em></strong></div><div><span>${isMeasured(record, 'shipWeight') ? '重量・実測' : '重量・目安'}</span><strong>${fit.nekopos.projected.weightMin}${isMeasured(record, 'shipWeight') ? '' : `〜${fit.nekopos.projected.weightMax}`}<em>g</em></strong></div></div></div>
         <div class="shipping-results" aria-label="発送方法別の推定判定">
-          ${shippingRow('ネコポス', fit.nekopos)}
-          ${shippingRow('クリックポスト', fit.clickpost)}
+          ${shippingRow('ネコポス', fit.nekopos, record)}
+          ${shippingRow('クリックポスト', fit.clickpost, record)}
         </div>
         ${item.caution ? `<div class="caution">補足：${escapeHtml(item.caution)}</div>` : ''}
       </div>
@@ -504,10 +521,10 @@
           <ul class="evidence-steps">
             <li><b>商品袋の幅と長さ <span class="source-state ${hasMeasuredPouch || sourceTone === 'known' ? 'known' : 'assumed'}">${hasMeasuredPouch ? '実測' : sourceTone === 'known' ? 'メーカー公表' : '仮定'}</span></b><span>${hasMeasuredPouch ? '入力した袋寸法を発送判定に反映。' : escapeHtml(prediction.geometryNote)}</span></li>
             <li><b>内容量と素材 <span class="source-state assumed">${prediction.material === '液体詰め替え' ? '掲載容量を使用' : 'かさ密度は仮定'}</span></b><span>${escapeHtml(prediction.amountText || `${prediction.massG}g`)}の${escapeHtml(prediction.material)}。${prediction.thicknessModel === 'liquid_volume' || prediction.material === '液体詰め替え' ? '液体は表示容量を体積として扱います。' : `かさ密度は ${prediction.densityRangeGml[0]}〜${prediction.densityRangeGml[1]}g/mL の目安。`}</span></li>
-            <li><b>厚さの計算 <span class="source-state assumed">推定</span></b><span>${thicknessMethod}</span></li>
+            <li><b>${hasMeasuredThickness ? '梱包後の最大厚' : '厚さの計算'} <span class="source-state ${hasMeasuredThickness ? 'known' : 'assumed'}">${hasMeasuredThickness ? '実測' : '推定'}</span></b><span>${hasMeasuredThickness ? `入力値 ${escapeHtml(record.thickness)}cmを判定に優先。計算上の厚みは測定前の参考値です。` : thicknessMethod}</span></li>
             <li><b>発送用外装で判定 <span class="source-state ${fit.nekopos.fullyMeasured ? 'known' : 'assumed'}">${fit.nekopos.fullyMeasured ? '実測' : '想定'}</span></b><span>${fit.nekopos.fullyMeasured ? '外装の3辺と重量を入力値で照合。' : '外装の余白と梱包材を見込み、各配送方法の条件と照合。'}</span></li>
           </ul>
-          <div class="evidence-warning">${prediction.footprintSource === 'manufacturer' ? '袋の縦横はメーカー公表。厚さと外装は現物で確認。' : '袋の縦横は未実測。発送可否は現物で確認。'}</div>
+          <div class="evidence-warning">${hasMeasuredPouch ? '商品袋の縦横は入力実測値です。外装の縦横・最大厚・重量はそれぞれの入力欄で確認してください。' : prediction.footprintSource === 'manufacturer' ? '袋の縦横はメーカー公表。厚さと外装は現物で確認。' : '袋の縦横は未実測。発送可否は現物で確認。'}</div>
           <div class="source-links">${prediction.sources.map(sourceLink).join('')}</div>
         </section>
         <div class="card-side">
@@ -528,7 +545,7 @@
               <label>梱包後の最大厚 cm<input data-measure="thickness" type="number" min="0" max="99" step="0.1" inputmode="decimal" value="${escapeHtml(record.thickness)}" placeholder="例 2.8"></label>
               <label>梱包後の重量 g<input data-measure="shipWeight" type="number" min="0" max="9999" step="1" inputmode="decimal" value="${escapeHtml(record.shipWeight)}" placeholder="例 240"></label>
             </div>
-            <p>入力すると判定を更新し、このブラウザに保存します。</p>
+            <p>入力済みの項目は実測として反映します。発送可否の確定には、外装の長辺・短辺・最大厚・重量をすべて測ってください。このブラウザに保存します。</p>
           </section>
         </div>
       </div>
@@ -563,10 +580,10 @@
     const image = imageUrl ? `<img src="${escapeHtml(imageUrl)}" alt="" loading="lazy" decoding="async"><span class="candidate-photo-fallback" hidden>画像なし</span>` : '<span class="candidate-photo-fallback">画像なし</span>';
     return `<button class="candidate-row ${selectedAsin === item.asin ? 'is-selected' : ''}" type="button" data-select-asin="${item.asin}" aria-pressed="${selectedAsin === item.asin}">
       <span class="candidate-thumb">${image}</span>
-      <span class="candidate-ident"><strong title="${escapeHtml(item.title)}">${escapeHtml(listTitle)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small>${demo ? `<span class="demo-row-badge ${demoWithin3Cm(demo) ? 'within' : 'over'}">仮入力 · ${demoWithin3Cm(demo) ? '3cm以内' : '3cm超'}</span>` : ''}${hasRealMeasurements(record) ? '<span class="real-row-badge">実測入力済み</span>' : ''}<small class="candidate-profit ${state === 'price_risk' ? 'price-risk' : state}">${profitText}</small></span>
+      <span class="candidate-ident"><strong title="${escapeHtml(item.title)}">${escapeHtml(listTitle)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small>${measurementCount(record) ? `<span class="real-row-badge">実測入力 ${measurementCount(record)}/6項目${hasRealMeasurements(record) ? ' · 外装の判定値が揃いました' : ''}</span>` : demo ? `<span class="demo-row-badge ${demoWithin3Cm(demo) ? 'within' : 'over'}">表示例 · ${demoWithin3Cm(demo) ? '3cm以内' : '3cm超'}</span>` : ''}<small class="candidate-profit ${state === 'price_risk' ? 'price-risk' : state}">${profitText}</small></span>
       <span class="candidate-measures">${Number(record.pouchWidth) > 0 && Number(record.pouchHeight) > 0 || prediction.footprintSource === 'manufacturer' ? '袋' : '仮の袋面'} ${escapeHtml(width)}×${escapeHtml(length)} cm <span>厚さ ${escapeHtml(thickness)} cm</span></span>
       <span class="candidate-source ${supplier ? '' : 'unconfirmed'}" title="${supplier ? `仕入先 ${escapeHtml(supplier.name)}・仕入送料${sourceInbound === '' ? '未入力' : yen(Number(sourceInbound))}で試算` : '仕入先の単品価格は未確認'}">${supplier ? `${supplierBadge(supplier)}<span class="candidate-source-text">${escapeHtml(supplierDisplayName(supplier))} · ${sourceTotal == null ? '仕入額未入力' : yen(sourceTotal)}</span>` : '仕入先 未確認'}</span>
-      <span class="candidate-verdict"><span class="pill ${shippingClasses[fit.nekopos.status]}"><b>ネコポス</b> ${shippingLabels[fit.nekopos.status]}</span><span class="pill ${shippingClasses[fit.clickpost.status]}"><b>クリックポスト</b> ${shippingLabels[fit.clickpost.status]}</span></span>
+      <span class="candidate-verdict"><span class="pill ${shippingClasses[fit.nekopos.status]}"><b>ネコポス</b> ${shippingLabelFor(fit.nekopos, record)}</span><span class="pill ${shippingClasses[fit.clickpost.status]}"><b>クリックポスト</b> ${shippingLabelFor(fit.clickpost, record)}</span></span>
     </button>`;
   }
 
@@ -606,7 +623,7 @@
 
   function demoDetail(item) {
     const demo = demoFor(item.asin);
-    if (!demo) return '';
+    if (!demo || measurementCount(recordFor(item.asin))) return '';
     const within = demoWithin3Cm(demo);
     const position = Math.min(100, demo.thickness / 5 * 100);
     return `<section class="demo-detail ${within ? 'within' : 'over'}" aria-label="仮入力した梱包サイズの表示例">
@@ -623,7 +640,7 @@
     const selected = matched.find(item => item.asin === selectedAsin);
     const visible = matched.slice(0, visibleLimit);
     if (selected && !visible.some(item => item.asin === selectedAsin)) visible.unshift(selected);
-    $('#visibleCount').textContent = `${visible.length} / ${matched.length}件（${demoOnly ? '仮入力サンプル' : $('#sortMode').value === 'profit' ? '利益順' : '発送見込み順'}）`;
+    $('#visibleCount').textContent = `${visible.length} / ${matched.length}件（${measuredOnly ? '実測入力あり' : demoOnly ? '検証用表示例' : $('#sortMode').value === 'profit' ? '利益順' : '発送見込み順'}）`;
     $('#list').innerHTML = visible.length ? visible.map(candidateRow).join('') : '<div class="empty">該当する候補がありません。検索・絞り込みを変更してください。</div>';
     $('#featured').innerHTML = selected ? demoDetail(selected) + profitSpotlight(selected) + supplierQuick(selected) + card(selected) : '<div class="empty">該当商品がありません。利益の条件を変更してください。</div>';
     if (selected && advancedAsin === selected.asin) $('#featured .advanced').open = true;
@@ -724,18 +741,41 @@
     if (!button) return;
     profitFilter = button.dataset.profitFilter;
     demoOnly = false;
+    measuredOnly = false;
     syncDemoButton();
+    syncMeasuredButton();
     visibleLimit = 20;
     syncProfitButtons();
     render();
   });
   function syncDemoButton() {
     $('#demoToggle').setAttribute('aria-pressed', String(demoOnly));
-    $('#demoToggle').textContent = demoOnly ? '検証サンプルを閉じる' : '仮入力した10件を見る →';
+    $('#demoToggle').textContent = demoOnly ? '表示例を閉じる' : '10件の表示例を見る →';
   }
+  function syncMeasuredButton() {
+    $('#measuredToggle').setAttribute('aria-pressed', String(measuredOnly));
+  }
+  $('#measuredToggle').addEventListener('click', () => {
+    measuredOnly = !measuredOnly;
+    if (measuredOnly) {
+      demoOnly = false;
+      profitFilter = 'all';
+      $('#search').value = '';
+      $('#category').value = 'all';
+      $('#dimension').value = 'all';
+      $('#forecast').value = 'all';
+      $('#shippingFilter').value = 'all';
+    }
+    visibleLimit = 20;
+    syncProfitButtons();
+    syncDemoButton();
+    syncMeasuredButton();
+    render();
+  });
   $('#demoToggle').addEventListener('click', () => {
     demoOnly = !demoOnly;
     if (demoOnly) {
+      measuredOnly = false;
       profitFilter = 'all';
       $('#search').value = '';
       $('#category').value = 'all';
@@ -747,6 +787,7 @@
     visibleLimit = 20;
     syncProfitButtons();
     syncDemoButton();
+    syncMeasuredButton();
     render();
   });
   $('#sortMode').addEventListener('change', () => { visibleLimit = 20; render(); });
@@ -754,7 +795,9 @@
     const wanted = button.dataset.categoryShortcut;
     $('#category').value = [...$('#category').options].some(option => option.value === wanted) ? wanted : 'all';
     demoOnly = false;
+    measuredOnly = false;
     syncDemoButton();
+    syncMeasuredButton();
     document.querySelectorAll('[data-category-shortcut]').forEach(tab => tab.classList.toggle('active', tab === button));
     visibleLimit = 20;
     render();
@@ -777,5 +820,6 @@
   renderStats();
   syncProfitButtons();
   syncDemoButton();
+  syncMeasuredButton();
   render();
 })();

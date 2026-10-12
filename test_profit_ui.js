@@ -26,9 +26,9 @@ for (const file of ['data.js', 'predictions.js', 'shipping_fit.js', 'demo_measur
   vm.runInContext(fs.readFileSync(file, 'utf8'), context, { filename: file });
 }
 const app = fs.readFileSync('app.js', 'utf8');
-const ending = /  renderStats\(\);\s*syncProfitButtons\(\);\s*syncDemoButton\(\);\s*render\(\);\s*\}\)\(\);\s*$/;
+const ending = /  renderStats\(\);\s*syncProfitButtons\(\);\s*syncDemoButton\(\);\s*syncMeasuredButton\(\);\s*render\(\);\s*\}\)\(\);\s*$/;
 assert(ending.test(app), 'app bootstrap changed; inspect test harness');
-vm.runInContext(app.replace(ending, '  window.__profitTest = { profitStateFor, profitFor, purchaseCeilingFor, suppliersFor, supplierBadge, supplierDisplayName, supplierQuick, createCsv, renderStats, render, recordFor, demoWithin3Cm, setProfitFilter(value) { profitFilter = value; }, setDemoOnly(value) { demoOnly = value; profitFilter = value ? "all" : "candidate"; selectedAsin = demoMeasurements[0]?.asin || ""; } };\n})();'), context, { filename: 'app.js' });
+vm.runInContext(app.replace(ending, '  window.__profitTest = { profitStateFor, profitFor, purchaseCeilingFor, suppliersFor, supplierBadge, supplierDisplayName, supplierQuick, createCsv, renderStats, render, recordFor, demoWithin3Cm, shippingLabelFor, setRecord(asin, record) { records[asin] = record; }, setProfitFilter(value) { profitFilter = value; }, setDemoOnly(value) { demoOnly = value; profitFilter = value ? "all" : "candidate"; selectedAsin = demoMeasurements[0]?.asin || ""; } };\n})();'), context, { filename: 'app.js' });
 
 const products = context.window.NEKOPOST_PRODUCTS;
 const test = context.window.__profitTest;
@@ -97,7 +97,7 @@ function countCells(line) {
 for (const line of lines.slice(1)) assert.strictEqual(countCells(lines[0]), countCells(line));
 assert(lines[0].includes('利益区分'));
 test.renderStats();
-assert.strictEqual(element('#demoTotalCount').textContent, '10件 仮入力');
+assert.strictEqual(element('#demoTotalCount').textContent, '10件の表示例');
 assert.strictEqual(element('#demoWithinCount').textContent, 7);
 assert.strictEqual(element('#demoOverCount').textContent, 3);
 test.render();
@@ -121,6 +121,18 @@ assert(element('#featured').innerHTML.includes('購入・実測の事実では�
 assert.strictEqual((element('#list').innerHTML.match(/data-select-asin=/g) || []).length, 10);
 assert.strictEqual((element('#list').innerHTML.match(/demo-row-badge within/g) || []).length, 7);
 assert.strictEqual((element('#list').innerHTML.match(/demo-row-badge over/g) || []).length, 3);
+test.setRecord(demos[0].asin, { pouchWidth: '11.1', pouchHeight: '23', thickness: '1.9' });
+test.renderStats();
+test.render();
+assert.strictEqual(element('#actualCount').textContent, '1件');
+assert(element('#featured').innerHTML.includes('一部実測'));
+assert(element('#featured').innerHTML.includes('長辺：想定'));
+assert(element('#featured').innerHTML.includes('最大厚：実測'));
+assert(element('#featured').innerHTML.includes('未測定：外装の長辺・外装の短辺・重量'));
+assert(element('#list').innerHTML.includes('実測入力 3/6項目'));
+assert(element('#list').innerHTML.includes('一部実測・要確認'));
+assert(!element('#featured').innerHTML.includes('購入・実測の事実ではなく'), 'real input must hide fictional sample panel');
+assert.strictEqual(test.shippingLabelFor({ status: 'possible', fullyMeasured: false }, test.recordFor(demos[0].asin)), '一部実測・要確認');
 test.setDemoOnly(false);
 test.render();
 assert.strictEqual((element('#list').innerHTML.match(/data-select-asin=/g) || []).length, Math.min(candidates.length, 20));

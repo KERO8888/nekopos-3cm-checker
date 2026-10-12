@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>発送サイズ研究所｜ネコポス・クリックポスト</title>
-  <link rel="stylesheet" href="ui.css?v=16">
+  <link rel="stylesheet" href="ui.css?v=17">
 </head>
 <body>
   <header class="site-header"><div class="site-brand"><strong>発送サイズ研究所</strong><span>商品の写真と寸法の根拠から、配送サイズの目安を確認できます。</span></div><div class="site-actions"><span><b id="heroCount">—</b> 商品を登録</span><a id="researchLink" href="acquisition.html#allAsins">発見済みASINを見る（未確認含む）</a><button id="export" class="btn" type="button">CSVを書き出す</button></div></header>
@@ -30,7 +30,8 @@
         <div class="sidebar-search"><label for="search" class="visually-hidden">ASIN・商品名で検索</label><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="商品名・ASINで検索"><button id="searchGo" type="button" aria-label="検索した商品を見る">→</button></div>
         <div class="sidebar-shortcuts" aria-label="主な分類"><button type="button" data-category-shortcut="all" class="active">すべて</button><button type="button" data-category-shortcut="コーヒー">コーヒー</button><button type="button" data-category-shortcut="入浴剤・バスソルト">入浴剤</button></div>
         <nav class="profit-nav" aria-label="利益による絞り込み"><div class="profit-nav-heading"><b>利益品を探す</b><select id="sortMode" aria-label="並び順"><option value="profit">利益順</option><option value="fit">発送見込み順</option></select></div><div class="profit-nav-buttons"><button type="button" data-profit-filter="candidate" class="active" aria-pressed="true">黒字候補 <b id="profitCandidateCount">—</b></button><button type="button" data-profit-filter="reference" aria-pressed="false">参考試算 <b id="profitReferenceCount">—</b></button><button type="button" data-profit-filter="sourcing" aria-pressed="false">仕入先未確認 <b id="profitSourcingCount">—</b></button><button type="button" data-profit-filter="price_missing" aria-pressed="false">売価未取得 <b id="profitPriceMissingCount">—</b></button><button type="button" data-profit-filter="all" aria-pressed="false">登録済み <b id="profitAllCount">—</b></button></div><button id="exportProfitCandidates" class="profit-nav-export" type="button">黒字候補をCSV保存 ↗</button><small>利益は同一店舗でまとめ買いし、送料無料条件を満たす前提。仕入先未確認の商品には仕入上限を表示します。</small></nav>
-        <section class="demo-sidebar" aria-label="検証サンプルの仮入力"><div class="demo-sidebar-heading"><span>検証サンプル</span><b id="demoTotalCount">10件 仮入力</b></div><div class="demo-sidebar-counts"><span><b id="demoWithinCount">7</b>件 3cm以内</span><span><b id="demoOverCount">3</b>件 3cm超</span></div><button id="demoToggle" type="button" aria-pressed="false">仮入力した10件を見る →</button><small>表示例です。購入・実測の記録ではありません。</small></section>
+        <button id="measuredToggle" class="measured-toggle" type="button" aria-pressed="false">実測入力のある商品 <b id="actualCount">0件</b><span aria-hidden="true">→</span></button>
+        <section class="demo-sidebar" aria-label="検証用の表示例"><div class="demo-sidebar-heading"><span>検証用の表示例</span><b id="demoTotalCount">10件</b></div><div class="demo-sidebar-counts"><span><b id="demoWithinCount">7</b>件 3cm以内の例</span><span><b id="demoOverCount">3</b>件 3cm超の例</span></div><button id="demoToggle" type="button" aria-pressed="false">10件の表示例を見る →</button><small>例の数値は実測ではありません。実測入力がある商品では入力値を優先します。</small></section>
         <div id="candidates" class="sidebar-heading"><b>商品候補</b><span id="visibleCount">読み込み中</span></div>
         <section id="list" class="list" aria-label="候補一覧"></section><div class="more-wrap"><button id="more" class="btn" type="button" hidden>さらに20件表示</button></div>
       </aside>
@@ -55,6 +56,6 @@
   <script src="market_data.js?v=20261013e"></script>
   <script src="acquisition_status.js?v=20261013c"></script>
   <script src="finance.js?v=2"></script>
-  <script src="app.js?v=42"></script>
+  <script src="app.js?v=43"></script>
 </body>
 </html>
