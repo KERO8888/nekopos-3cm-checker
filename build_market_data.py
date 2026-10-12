@@ -86,7 +86,7 @@ def main():
                     + (" クーポンは条件・適用可否が未確認のため利益に含めず。" if value.get("couponMentioned") else ""),
         } for value in row.get("suppliers", []) if not is_multi_unit(value.get("name")))
     for rows in suppliers.values():
-        rows.sort(key=lambda value: value["priceYen"] + (value["inboundShippingYen"] if value["inboundShippingYen"] is not None else 999999))
+        rows.sort(key=lambda value: (value["priceYen"], value["inboundShippingYen"] if value["inboundShippingYen"] is not None else 999999))
     search_status = {}
     for asin in current_asins:
         row = search_source.get("items", {}).get(asin, {})

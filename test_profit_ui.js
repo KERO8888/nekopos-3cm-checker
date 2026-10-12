@@ -28,7 +28,7 @@ for (const file of ['data.js', 'predictions.js', 'shipping_fit.js', 'sourcing.js
 const app = fs.readFileSync('app.js', 'utf8');
 const ending = /  renderStats\(\);\s*syncProfitButtons\(\);\s*render\(\);\s*\}\)\(\);\s*$/;
 assert(ending.test(app), 'app bootstrap changed; inspect test harness');
-vm.runInContext(app.replace(ending, '  window.__profitTest = { profitStateFor, profitFor, purchaseCeilingFor, supplierQuick, createCsv, renderStats, render, setProfitFilter(value) { profitFilter = value; } };\n})();'), context, { filename: 'app.js' });
+vm.runInContext(app.replace(ending, '  window.__profitTest = { profitStateFor, profitFor, purchaseCeilingFor, suppliersFor, supplierQuick, createCsv, renderStats, render, setProfitFilter(value) { profitFilter = value; } };\n})();'), context, { filename: 'app.js' });
 
 const products = context.window.NEKOPOST_PRODUCTS;
 const test = context.window.__profitTest;
@@ -39,6 +39,13 @@ const counts = products.reduce((out, product) => {
 }, {});
 assert.strictEqual(Object.values(counts).reduce((a, b) => a + b, 0), products.length);
 const candidates = products.filter(product => test.profitStateFor(product) === 'candidate');
+const caramel = products.find(item => item.asin === 'B0GL6TYSJR');
+const freeShippingProfit = test.profitFor(caramel, 'clickpost');
+const singleOrderProfit = test.profitFor(caramel, 'clickpost', { buyShipping: 440 });
+assert.strictEqual(test.suppliersFor(caramel.asin)[0].priceYen, 1080);
+assert.strictEqual(freeShippingProfit.inbound, 0);
+assert.strictEqual(freeShippingProfit.profit - singleOrderProfit.profit, 440);
+assert.strictEqual(test.suppliersFor('B0DQDTBXJ7')[0].priceYen, 808);
 const noFeaturedItem = products.find(item => item.asin === 'B093DGHBXC');
 const originalFeatured = context.window.NEKOPOST_MARKET.offers.B093DGHBXC.featuredOffer;
 context.window.NEKOPOST_MARKET.offers.B093DGHBXC.featuredOffer = null;
@@ -56,6 +63,9 @@ for (const asin of ['B0GZDF7V69', 'B0H7HRMFMR']) {
 }
 
 const csv = test.createCsv(candidates);
+const caramelCsv = test.createCsv([caramel]);
+assert(caramelCsv.includes('仕入先の単品注文時表示送料円'));
+assert(caramelCsv.includes('"1080","440","0"'));
 const lines = csv.split('\r\n');
 assert.strictEqual(lines.length, candidates.length + 1);
 function countCells(line) {
@@ -79,7 +89,7 @@ assert.strictEqual(element('#profitSourcingCount').textContent, counts.sourcing 
 assert.strictEqual(element('#profitPriceMissingCount').textContent, counts.price_missing || 0);
 if (candidates.length) {
   assert(element('#featured').innerHTML.includes(candidates[0].asin));
-  assert(element('#featured').innerHTML.includes('仕入総額・1点'));
+  assert(element('#featured').innerHTML.includes('利益計算上の仕入額・1点'));
   assert(element('#featured').innerHTML.includes('仕入先の要約'));
 }
 assert(element('#list').innerHTML.includes('candidate-source'));

@@ -151,7 +151,7 @@
   function suppliersFor(asin) {
     const combined = [...(market.suppliers?.[asin] || []), ...(sourcing.suppliers?.[asin] || [])];
     const unique = [...new Map(combined.map(supplier => [supplier.url, supplier])).values()];
-    return unique.sort((a, b) => (a.priceYen + (a.inboundShippingYen ?? Infinity)) - (b.priceYen + (b.inboundShippingYen ?? Infinity)));
+    return unique.sort((a, b) => a.priceYen - b.priceYen || (a.inboundShippingYen ?? Infinity) - (b.inboundShippingYen ?? Infinity));
   }
   const merchantOfferFor = asin => market.offers?.[asin]?.lowestMerchant || null;
   const referenceOfferFor = asin => merchantOfferFor(asin) ? null : (market.offers?.[asin]?.featuredOffer?.fulfilledByAmazon ? market.offers[asin].featuredOffer : market.offers?.[asin]?.lowestAmazonFulfilled || null);
@@ -179,7 +179,7 @@
     return finance?.estimate({
       salePrice: sale.listing === '' || sale.shipping === '' ? null : Number(sale.listing) + Number(sale.shipping),
       buyPrice: inputValue(record, 'buyPrice', supplier?.priceYen ?? ''),
-      buyShipping: inputValue(record, 'buyShipping', supplier?.inboundShippingYen ?? ''),
+      buyShipping: inputValue(record, 'buyShipping', 0),
       outboundShipping: method === 'clickpost' ? 240 : inputValue(record, 'nekoposFee'),
       packagingCost: inputValue(record, 'packagingCost', 20),
       pointsCost: sale.points,
@@ -234,8 +234,8 @@
       const ceiling = method === 'clickpost' ? purchaseCeilingFor(item, record) : null;
       const reason = method === 'nekopos' && !inputValue(record, 'nekoposFee') ? '契約運賃を入力してください。'
         : sale.listing === '' || sale.shipping === '' ? '自己発送価格が未取得。実際の出品条件を入力してください。'
-          : ceiling != null && ceiling >= 0 ? `仕入先が未照合。仕入価格＋仕入送料が${yen(ceiling)}以下なら収支0円以上の計算です。`
-            : '仕入先・仕入送料が未照合です。';
+          : ceiling != null && ceiling >= 0 ? `仕入先が未照合。仕入送料0円の仮定では、仕入価格が${yen(ceiling)}以下なら収支0円以上の計算です。`
+            : '仕入先の単品価格が未照合です。';
       return `<div class="profit-result pending"><b>${label}</b><strong>${ceiling != null && ceiling >= 0 && method === 'clickpost' ? `仕入上限 ${yen(ceiling)}` : '未計算'}</strong><small>${reason}${sale.basis === 'fba_reference' ? ' FBA価格を自己発送へ当てはめた参考値です。' : ''}</small></div>`;
     }
     const reference = sale.basis === 'fba_reference' || sale.basis === 'manual';
@@ -249,7 +249,7 @@
     const result = profitFor(item, 'clickpost', record);
     if (!result) {
       const ceiling = purchaseCeilingFor(item, record);
-      return `<p class="profit-empty">${ceiling != null && ceiling >= 0 ? `仕入価格＋仕入送料の収支ゼロ上限：${yen(ceiling)}。仕入先の単品価格・送料を確認してください。` : '自己発送の出品価格・購入者送料・仕入条件がそろうと概算を表示します。'}</p>`;
+      return `<p class="profit-empty">${ceiling != null && ceiling >= 0 ? `仕入価格の収支ゼロ上限：${yen(ceiling)}（仕入送料0円の仮定）。仕入先の単品価格を確認してください。` : '自己発送の出品価格・購入者送料・仕入条件がそろうと概算を表示します。'}</p>`;
     }
     const sale = saleInputsFor(item, record);
     return `<div class="profit-breakdown"><div><span>${sale.basis === 'fba_reference' ? 'FBA価格を転用した仮の売価' : '自己発送の出品価格'}</span><b>${yen(Number(sale.listing))}</b></div><div><span>購入者負担の配送料</span><b>＋${yen(Number(sale.shipping))}</b></div><div><span>付与ポイント（保守的に費用化）</span><b>−${yen(result.points)}</b></div><div><span>仕入価格</span><b>${yen(result.buy)}</b></div><div><span>仕入送料</span><b>${yen(result.inbound)}</b></div><div><span>送料（クリックポスト）</span><b>${yen(result.outbound)}</b></div><div><span>梱包材・Amazon自己発送手数料</span><b>${yen(result.packing + result.fees)}</b></div></div>`;
@@ -271,7 +271,7 @@
         : 'SP-APIで自己発送の新規出品も、おすすめ出品も確認できません。出品額は手入力が必要です。';
     const searchTerm = suppliers.find(s => /JAN \d{13}/.test(s.identity || ''))?.identity?.match(/JAN (\d{13})/)?.[1] || supplierSearch?.discoveredJan || item.title.slice(0, 38);
     const hasSupplierSearch = supplierSearch && (supplierSearch.status !== 'not_searched' || supplierSearch.rakutenQueries);
-    const supplierRows = suppliers.length ? suppliers.map(s => `<div class="supplier-row"><div><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.name)} ↗</a><small>${escapeHtml(s.identity)} · ${escapeHtml(s.checkedOn)}確認</small></div><b>${yen(s.priceYen)}<small>仕入送料 ${s.inboundShippingYen == null ? '未確認' : yen(s.inboundShippingYen)}</small></b><p>${escapeHtml(s.note)}</p></div>`).join('') : `<p class="supplier-empty">${hasSupplierSearch ? `Yahoo!ショッピングの検索候補${supplierSearch.primaryHits + supplierSearch.fallbackHits}件、楽天の検索${supplierSearch.rakutenQueries || 0}条件を調査しました。単品・JAN・価格・送料・在庫の照合が済んだ仕入先は未確認です。` : '仕入先の照合は未着手です。'} 検索リンクは仕入先の確認済み記録ではありません。</p>`;
+    const supplierRows = suppliers.length ? suppliers.map(s => `<div class="supplier-row"><div><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.name)} ↗</a><small>${escapeHtml(s.identity)} · ${escapeHtml(s.checkedOn)}確認</small></div><b>${yen(s.priceYen)}<small>単品注文時送料 ${s.inboundShippingYen == null ? '未確認' : yen(s.inboundShippingYen)}（利益には未計上）</small></b><p>${escapeHtml(s.note)}</p></div>`).join('') : `<p class="supplier-empty">${hasSupplierSearch ? `Yahoo!ショッピングの検索候補${supplierSearch.primaryHits + supplierSearch.fallbackHits}件、楽天の検索${supplierSearch.rakutenQueries || 0}条件を調査しました。単品・JAN・価格・送料・在庫の照合が済んだ仕入先は未確認です。` : '仕入先の照合は未着手です。'} 検索リンクは仕入先の確認済み記録ではありません。</p>`;
     return `<section class="profit-panel" aria-label="仕入先と利益の試算">
       <div class="panel-title"><div><span class="page-kicker">SOURCING & PROFIT</span><h4>仕入先と利益の試算</h4></div><small>自社発送・1点あたり</small></div>
       <div class="supplier-list">${supplierRows}<div class="supplier-search"><span>ほかの仕入先を探す</span><a href="https://shopping.yahoo.co.jp/search?p=${encodeURIComponent(searchTerm)}" target="_blank" rel="noopener noreferrer">Yahoo!ショッピング ↗</a><a href="https://search.rakuten.co.jp/search/mall/${encodeURIComponent(searchTerm)}/" target="_blank" rel="noopener noreferrer">楽天市場 ↗</a></div></div>
@@ -280,14 +280,14 @@
         <label>購入者から受け取る配送料（税込）<input data-profit="saleShipping" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(sale.shipping)}" placeholder="送料無料なら0"></label>
         <label>付与ポイント数（1pt＝1円で控除）<input data-profit="salePoints" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(sale.points)}"></label>
         <label>仕入価格（税込）<input data-profit="buyPrice" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(inputValue(record, 'buyPrice', suppliers[0]?.priceYen ?? ''))}" placeholder="確認後に入力"></label>
-        <label>仕入送料の按分（税込）<input data-profit="buyShipping" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(inputValue(record, 'buyShipping', suppliers[0]?.inboundShippingYen ?? ''))}" placeholder="0円なら0"></label>
+        <label>利益計算に入れる仕入送料（税込・初期値0円）<input data-profit="buyShipping" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(inputValue(record, 'buyShipping', 0))}" placeholder="送料無料なら0"></label>
         <label>梱包資材費（税込）<input data-profit="packagingCost" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(inputValue(record, 'packagingCost', 20))}"></label>
         <label>ネコポス契約運賃（税込）<input data-profit="nekoposFee" type="number" min="0" step="1" inputmode="numeric" value="${escapeHtml(inputValue(record, 'nekoposFee'))}" placeholder="契約額を入力"></label>
         <label>販売手数料率を上書き（%）<input data-profit="manualReferralRate" type="number" min="0" max="100" step="0.1" inputmode="decimal" value="${escapeHtml(inputValue(record, 'manualReferralRate'))}" placeholder="公式区分で自動計算"></label>
         <label>Amazon出品プラン<select data-profit="sellingPlan"><option value="professional" ${inputValue(record, 'sellingPlan', 'professional') === 'professional' ? 'selected' : ''}>大口（月額は別）</option><option value="individual" ${inputValue(record, 'sellingPlan', 'professional') === 'individual' ? 'selected' : ''}>小口（1点110円税込）</option></select></label>
       </div>
       <div class="profit-results" data-profit-results>${profitResult(item, 'clickpost', record)}${profitResult(item, 'nekopos', record)}</div>
-      <p class="profit-note">${escapeHtml(offerNote)} 利益＝出品価格＋購入者送料−付与ポイント−仕入価格−仕入送料−発送運賃−梱包資材−Amazon自己発送手数料。FBA配送代行手数料は引いていません。ネコポスは入力した契約運賃を発送費として引きます。価格がSP-API照会時と同じ場合はこのアカウントの自己発送手数料見積もりを使い、消費税10%を加算します。変更時は<a href="https://sell.amazon.co.jp/pricing" target="_blank" rel="noopener noreferrer">公式料率 ↗</a>から概算。大口の月額、広告・返品費用、仕入税額控除は含めません。実際の販売価格・出品カテゴリー・在庫は再確認してください。</p>
+      <p class="profit-note">${escapeHtml(offerNote)} 仕入送料は同一店舗でまとめ買いし、送料無料条件を満たす前提で初期値0円です。仕入先の単品注文時送料は参考表示で、利益には入れていません。送料無料条件を満たせない場合は上の仕入送料欄を変更してください。利益＝出品価格＋購入者送料−付与ポイント−仕入価格−入力した仕入送料−発送運賃−梱包資材−Amazon自己発送手数料。FBA配送代行手数料は引いていません。ネコポスは入力した契約運賃を発送費として引きます。価格がSP-API照会時と同じ場合はこのアカウントの自己発送手数料見積もりを使い、消費税10%を加算します。変更時は<a href="https://sell.amazon.co.jp/pricing" target="_blank" rel="noopener noreferrer">公式料率 ↗</a>から概算。大口の月額、広告・返品費用、仕入税額控除は含めません。実際の販売価格・出品カテゴリー・在庫は再確認してください。</p>
     </section>`;
   }
 
@@ -510,7 +510,9 @@
     const profit = profitFor(item, 'clickpost', record);
     const state = profitStateFor(item, record);
     const supplier = suppliersFor(item.asin)[0];
-    const sourceTotal = supplier && supplier.inboundShippingYen != null ? supplier.priceYen + supplier.inboundShippingYen : null;
+    const sourceBuy = inputValue(record, 'buyPrice', supplier?.priceYen ?? '');
+    const sourceInbound = inputValue(record, 'buyShipping', 0);
+    const sourceTotal = supplier && sourceBuy !== '' && sourceInbound !== '' ? Number(sourceBuy) + Number(sourceInbound) : null;
     const ceiling = state === 'sourcing' ? purchaseCeilingFor(item, record) : null;
     const profitText = state === 'candidate' ? `+${yen(profit.profit)} · 要実測`
       : state === 'reference' && profit ? `参考 ${profit.profit < 0 ? '−' : '+'}${yen(Math.abs(profit.profit))}`
@@ -523,7 +525,7 @@
       <span class="candidate-thumb">${image}</span>
       <span class="candidate-ident"><strong title="${escapeHtml(item.title)}">${escapeHtml(listTitle)}</strong><small>${item.asin} · ${escapeHtml(item.category)}</small><small class="candidate-profit ${state === 'price_risk' ? 'price-risk' : state}">${profitText}</small></span>
       <span class="candidate-measures">${Number(record.pouchWidth) > 0 && Number(record.pouchHeight) > 0 || prediction.footprintSource === 'manufacturer' ? '袋' : '仮の袋面'} ${escapeHtml(width)}×${escapeHtml(length)} cm <span>厚さ ${escapeHtml(thickness)} cm</span></span>
-      <span class="candidate-source ${supplier ? '' : 'unconfirmed'}" title="${supplier ? `仕入先 ${escapeHtml(supplier.name)}` : '仕入先の単品価格・送料は未確認'}">${supplier ? `仕入先 ${escapeHtml(supplier.name)} · ${sourceTotal == null ? '送料未確認' : yen(sourceTotal)}` : '仕入先 未確認'}</span>
+      <span class="candidate-source ${supplier ? '' : 'unconfirmed'}" title="${supplier ? `仕入先 ${escapeHtml(supplier.name)}・仕入送料${sourceInbound === '' ? '未入力' : yen(Number(sourceInbound))}で試算` : '仕入先の単品価格は未確認'}">${supplier ? `仕入先 ${escapeHtml(supplier.name)} · ${sourceTotal == null ? '仕入額未入力' : yen(sourceTotal)}（仕入送料${sourceInbound === '' ? '未入力' : yen(Number(sourceInbound))}）` : '仕入先 未確認'}</span>
       <span class="candidate-verdict"><span class="pill ${shippingClasses[fit.nekopos.status]}"><b>ネコポス</b> ${shippingLabels[fit.nekopos.status]}</span><span class="pill ${shippingClasses[fit.clickpost.status]}"><b>クリックポスト</b> ${shippingLabels[fit.clickpost.status]}</span></span>
     </button>`;
   }
@@ -534,14 +536,14 @@
     const result = profitFor(item, 'clickpost', record);
     const sale = saleInputsFor(item, record);
     const ceiling = purchaseCeilingFor(item, record);
-    const label = state === 'candidate' ? '黒字候補 · 厚さと重量は要実測'
+    const label = state === 'candidate' ? '黒字候補 · 送料無料条件と厚さ・重量は要確認'
       : state === 'reference' ? (sale.basis === 'mfn' ? '参考試算 · おすすめ出品未確認' : '参考試算 · 自己発送の実売価格は未確認')
         : state === 'price_risk' ? '価格差あり · おすすめ出品より高い'
-          : state === 'sourcing' ? '仕入先の単品価格・送料を確認してください'
+          : state === 'sourcing' ? '仕入先の単品価格を確認してください'
             : state === 'price_missing' ? 'Amazonの売価・購入者送料が未取得'
             : state === 'over' ? 'クリックポスト規格外' : '現在の条件では赤字';
     const detail = result ? `売価${yen(Number(sale.listing) + Number(sale.shipping))} · 仕入総額${yen(result.buy + result.inbound)} · 送料・手数料込み`
-      : ceiling != null && ceiling >= 0 ? `仕入価格＋仕入送料の収支ゼロ上限 ${yen(ceiling)}` : '確認できた価格だけで計算しています';
+      : ceiling != null && ceiling >= 0 ? `仕入価格の収支ゼロ上限 ${yen(ceiling)}（仕入送料0円の仮定）` : '確認できた価格だけで計算しています';
     const amount = result ? `${result.profit < 0 ? '−' : '+'}${yen(Math.abs(result.profit))}`
       : ceiling != null && ceiling >= 0 ? `上限 ${yen(ceiling)}` : '売価未取得';
     return `<div class="profit-spotlight ${state === 'reference' ? 'is-reference' : state === 'sourcing' || state === 'price_missing' ? 'is-missing' : ''}" aria-label="選択商品の利益状況"><div><small>${label}</small><b title="${escapeHtml(item.title)}">${escapeHtml(item.title)}</b><small>${detail}</small></div><strong>${amount}</strong></div>`;
@@ -552,12 +554,14 @@
     const record = recordFor(item.asin);
     if (!supplier) {
       const ceiling = purchaseCeilingFor(item, record);
-      return `<section class="supplier-quick is-unconfirmed" aria-label="仕入先の要約"><span class="supplier-quick-label">仕入先</span><strong class="supplier-quick-name">未確認</strong><strong class="supplier-quick-cost">${ceiling == null ? '利益未計算' : ceiling >= 0 ? `仕入上限 ${yen(ceiling)}` : '現行売価では採算不可'}</strong><small class="supplier-quick-meta">単品の価格・送料を確認すると利益を計算できます</small></section>`;
+      return `<section class="supplier-quick is-unconfirmed" aria-label="仕入先の要約"><span class="supplier-quick-label">仕入先</span><strong class="supplier-quick-name">未確認</strong><strong class="supplier-quick-cost">${ceiling == null ? '利益未計算' : ceiling >= 0 ? `仕入上限 ${yen(ceiling)}` : '現行売価では採算不可'}</strong><small class="supplier-quick-meta">単品価格が分かれば仕入送料0円の仮定で計算できます</small></section>`;
     }
-    const total = supplier.inboundShippingYen == null ? null : supplier.priceYen + supplier.inboundShippingYen;
+    const buyPrice = inputValue(record, 'buyPrice', supplier.priceYen);
+    const buyShipping = inputValue(record, 'buyShipping', 0);
+    const total = buyPrice === '' || buyShipping === '' ? null : Number(buyPrice) + Number(buyShipping);
     const identity = /^JAN \d{13}/.test(supplier.identity || '') ? 'JAN照合' : '商品名・容量照合';
     const edited = record.buyPrice != null || record.buyShipping != null;
-    return `<section class="supplier-quick" aria-label="仕入先の要約"><span class="supplier-quick-label">仕入先</span><a class="supplier-quick-name" href="${escapeHtml(supplier.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(supplier.name)} ↗</a><strong class="supplier-quick-cost">${total == null ? `${yen(supplier.priceYen)}＋送料未確認` : yen(total)}<small>${total == null ? '商品代・仕入総額は未確定' : '仕入総額・1点'}</small></strong><span class="supplier-quick-meta">商品 ${yen(supplier.priceYen)} · 仕入送料 ${supplier.inboundShippingYen == null ? '未確認' : yen(supplier.inboundShippingYen)}<br>${identity} · ${escapeHtml(supplier.checkedOn)}確認${edited ? ' · 利益は入力値で再計算' : ''}</span></section>`;
+    return `<section class="supplier-quick" aria-label="仕入先の要約"><span class="supplier-quick-label">仕入先</span><a class="supplier-quick-name" href="${escapeHtml(supplier.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(supplier.name)} ↗</a><strong class="supplier-quick-cost">${total == null ? '入力待ち' : yen(total)}<small>${total == null ? '仕入額は未入力' : '利益計算上の仕入額・1点'}</small></strong><span class="supplier-quick-meta">商品 ${yen(supplier.priceYen)} · 利益計算の仕入送料 ${yen(Number(buyShipping) || 0)}<br>単品注文時の表示送料 ${supplier.inboundShippingYen == null ? '未確認' : yen(supplier.inboundShippingYen)}（未計上） · ${identity} · ${escapeHtml(supplier.checkedOn)}確認${edited ? ' · 利益は入力値で再計算' : ''}</span></section>`;
   }
 
   function render() {
@@ -577,7 +581,7 @@
   function csvCell(value) { return `"${String(value ?? '').replace(/"/g, '""')}"`; }
 
   function createCsv(items = sortedProducts()) {
-    const header = ['ASIN', '商品名', '分類', '厚さ予測', '概算厚さ下限cm', '概算厚さ上限cm', '確信度', '理由', '計算に使った量', '中身', '仮定袋幅cm', '仮定袋長cm', '袋寸法の根拠', '袋寸法の根拠区分', 'メーカー公表の単品重量g', 'かさ密度下限g/mL', 'かさ密度上限g/mL', 'Amazon寸法確認', '掲載最小辺cm', '掲載寸法', '寸法種別', 'Keepa API商品寸法cm', 'Keepa APIパッケージ寸法cm', 'ネコポス判定', 'ネコポス理由', 'クリックポスト判定', 'クリックポスト理由', '外装の想定長辺上限cm', '外装の想定短辺上限cm', '想定3辺合計上限cm', '実測袋幅cm', '実測袋長cm', '実測外装長辺cm', '実測外装短辺cm', '実測最大厚cm', '実測梱包後重量g', '仕入先', '仕入先URL', '仕入先確認日', 'Amazon自己発送出品価格円', '購入者負担の配送料円', '付与ポイント数', '仕入価格円', '仕入送料按分円', '梱包資材費円', 'クリックポスト概算利益円', 'ネコポス概算利益円', '利益区分', '売価の根拠', '仕入＋送料の収支ゼロ上限円', 'おすすめ出品の購入者総額円', 'おすすめ出品との価格差円', '補足', '出典URL'];
+    const header = ['ASIN', '商品名', '分類', '厚さ予測', '概算厚さ下限cm', '概算厚さ上限cm', '確信度', '理由', '計算に使った量', '中身', '仮定袋幅cm', '仮定袋長cm', '袋寸法の根拠', '袋寸法の根拠区分', 'メーカー公表の単品重量g', 'かさ密度下限g/mL', 'かさ密度上限g/mL', 'Amazon寸法確認', '掲載最小辺cm', '掲載寸法', '寸法種別', 'Keepa API商品寸法cm', 'Keepa APIパッケージ寸法cm', 'ネコポス判定', 'ネコポス理由', 'クリックポスト判定', 'クリックポスト理由', '外装の想定長辺上限cm', '外装の想定短辺上限cm', '想定3辺合計上限cm', '実測袋幅cm', '実測袋長cm', '実測外装長辺cm', '実測外装短辺cm', '実測最大厚cm', '実測梱包後重量g', '仕入先', '仕入先URL', '仕入先確認日', 'Amazon自己発送出品価格円', '購入者負担の配送料円', '付与ポイント数', '仕入価格円', '仕入先の単品注文時表示送料円', '利益計算に入れた仕入送料円', '梱包資材費円', 'クリックポスト概算利益円', 'ネコポス概算利益円', '利益区分', '売価の根拠', '仕入価格＋入力した仕入送料の収支ゼロ上限円', 'おすすめ出品の購入者総額円', 'おすすめ出品との価格差円', '補足', '出典URL'];
     const rows = items.map(item => {
       const p = predictions[item.asin];
       const record = recordFor(item.asin);
@@ -586,7 +590,7 @@
       const apiCell = dims => Array.isArray(dims?.cm) ? dims.cm.join(' × ') : '';
       const supplier = suppliersFor(item.asin)[0];
       const sale = saleInputsFor(item, record);
-      return [item.asin, item.title, item.category, verdictLabels[p.verdict], ...p.roughThicknessCm, p.confidence, p.reason, p.amountText || `${p.massG}g`, p.material, ...p.assumedPouchCm, p.geometryNote, p.footprintSource, p.manufacturerGrossWeightG, ...p.densityRangeGml, item.sizeConfirmed ? '3cm超' : '未確認', item.listedMinCm, item.listedDimensions, item.dimensionType, apiCell(api.keepa?.item), apiCell(api.keepa?.package), shippingLabels[fit.nekopos.status], fit.nekopos.reasons.join(' / '), shippingLabels[fit.clickpost.status], fit.clickpost.reasons.join(' / '), fit.nekopos.projected.longMax, fit.nekopos.projected.shortMax, fit.nekopos.projected.sumMax, record.pouchWidth, record.pouchHeight, record.shipLength, record.shipWidth, record.thickness, record.shipWeight, supplier?.name, supplier?.url, supplier?.checkedOn, sale.listing, sale.shipping, sale.points, inputValue(record, 'buyPrice', supplier?.priceYen ?? ''), inputValue(record, 'buyShipping', supplier?.inboundShippingYen ?? ''), inputValue(record, 'packagingCost', 20), fit.clickpost.status === 'over' ? '' : profitFor(item, 'clickpost', record)?.profit, fit.nekopos.status === 'over' ? '' : profitFor(item, 'nekopos', record)?.profit, profitStateFor(item, record), sale.basis, purchaseCeilingFor(item, record), market.offers?.[item.asin]?.featuredOffer?.landedYen, priceGapFor(item, record), item.caution, p.sources.join(' | ')];
+      return [item.asin, item.title, item.category, verdictLabels[p.verdict], ...p.roughThicknessCm, p.confidence, p.reason, p.amountText || `${p.massG}g`, p.material, ...p.assumedPouchCm, p.geometryNote, p.footprintSource, p.manufacturerGrossWeightG, ...p.densityRangeGml, item.sizeConfirmed ? '3cm超' : '未確認', item.listedMinCm, item.listedDimensions, item.dimensionType, apiCell(api.keepa?.item), apiCell(api.keepa?.package), shippingLabels[fit.nekopos.status], fit.nekopos.reasons.join(' / '), shippingLabels[fit.clickpost.status], fit.clickpost.reasons.join(' / '), fit.nekopos.projected.longMax, fit.nekopos.projected.shortMax, fit.nekopos.projected.sumMax, record.pouchWidth, record.pouchHeight, record.shipLength, record.shipWidth, record.thickness, record.shipWeight, supplier?.name, supplier?.url, supplier?.checkedOn, sale.listing, sale.shipping, sale.points, inputValue(record, 'buyPrice', supplier?.priceYen ?? ''), supplier?.inboundShippingYen, inputValue(record, 'buyShipping', 0), inputValue(record, 'packagingCost', 20), fit.clickpost.status === 'over' ? '' : profitFor(item, 'clickpost', record)?.profit, fit.nekopos.status === 'over' ? '' : profitFor(item, 'nekopos', record)?.profit, profitStateFor(item, record), sale.basis, purchaseCeilingFor(item, record), market.offers?.[item.asin]?.featuredOffer?.landedYen, priceGapFor(item, record), item.caution, p.sources.join(' | ')];
     });
     return [header, ...rows].map(row => row.map(csvCell).join(',')).join('\r\n');
   }
