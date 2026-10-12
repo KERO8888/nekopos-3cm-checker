@@ -2049,6 +2049,51 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/51d2I4qZu1L._AC_SL1500_.jpg",
       "reviewStatus": "excluded_under_3cm_listed_product",
       "reviewNote": "Amazon現行ページの商品本体寸法は15×2.8×0.1cm。最小辺が3cm超という登録条件を満たさない。"
+    },
+    {
+      "asin": "B0GWX2HH3B",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0GWX2HH3B",
+      "title": "里芋いか煮 200g×1袋 レトルト 惣菜 煮物 和食 おかず 常温保存 おつまみ 居酒屋 時短 ご飯のお供 和惣菜 レンジ 湯煎 一人暮らし ストック 非常食",
+      "dimensions": [
+        {
+          "value": "21.5 x 14.3 x 3.3 cm",
+          "context": "       :\n                                            ‎ 21.5 x 14.3 x 3.3 cm; 220 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71YM+xi18rL._AC_SL1000_.jpg",
+      "reviewStatus": "hold_chunk_thickness_unverified",
+      "reviewNote": "現行Amazonページは単品レトルト袋・掲載21.5×14.3×3.3cmと読める。里芋といかの具材最大厚が不明で、袋を傷めず梱包後3cm以下にできる具体的根拠がないため保留。"
+    },
+    {
+      "asin": "B0FKT9M7XV",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0FKT9M7XV",
+      "title": "アイリスオーヤマ(IRIS OHYAMA) 山形風芋煮 180g 惣菜 レトルト食品 おかず 一人暮らし 常温保存 非常食 保存食 国産 電子レンジ 和食 パウチ レンチン レンジde Pa Cook",
+      "dimensions": [
+        {
+          "value": "14.5 x 14.1 x 4.7 cm",
+          "context": "       :\n                                            ‎ 14.5 x 14.1 x 4.7 cm; 190 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61vO0QoG2DL._AC_SL1000_.jpg",
+      "reviewStatus": "hold_chunk_thickness_unverified",
+      "reviewNote": "現行Amazonページは単品パウチ・掲載14.5×14.1×4.7cmと読める。芋煮の具材最大厚が不明で、梱包後3cm以下を予測できないため保留。"
+    },
+    {
+      "asin": "B0BN856JH4",
+      "checkedOn": "2026-10-12",
+      "source": "https://www.amazon.co.jp/dp/B0BN856JH4",
+      "title": "アイリスオーヤマ レトルト 醤油麹けんちん汁 450g 惣菜 レトルト食品 おかず 一人暮らし 常温保存 非常食 保存食 和食 パウチ 八海山 新潟",
+      "dimensions": [
+        {
+          "value": "20.4 x 13.6 x 6.9 cm",
+          "context": "       :\n                                            ‎ 20.4 x 13.6 x 6.9 cm; 450 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/617JG97lNuL._AC_SL1000_.jpg",
+      "reviewStatus": "hold_chunk_thickness_unverified",
+      "reviewNote": "現行Amazonページは単品パウチ・掲載20.4×13.6×6.9cmと読める。450gの具入り汁物で、内容物を傷めず3cm以下にできる具体的根拠がないため保留。"
     }
   ]
 }
