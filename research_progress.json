@@ -132,7 +132,7 @@
     "ココア 粉末 詰め替え 袋 200g"
   ],
   "discoveredCount": 63872,
-  "addedCount": 106,
+  "addedCount": 108,
   "discovered": [
     {
       "asin": "B0CDPF8BKZ",
@@ -209940,7 +209940,7 @@
     {
       "asin": "B01I16MH96",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -210347,7 +210347,7 @@
     {
       "asin": "B0FKB2J362",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -551664,7 +551664,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 747,
+  "fetchedProductPageCount": 749,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -556119,6 +556119,17 @@
       "pagesChecked": 2,
       "added": 1,
       "unverifiedRange": "ラボン480mLはメーカー同容量詰替え・単品袋・掲載最小辺6.3cmを照合して登録。レノア680mLは硬いねじ式キャップを写真で確認して除外。ラボンの梱包後最大厚・重量は未実測。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=粉末由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B01I16MH96",
+        "B0FKB2J362"
+      ],
+      "pagesChecked": 2,
+      "added": 2,
+      "unverifiedRange": "2件を写真・メーカー単品ページ・掲載3辺から候補登録。商品袋と梱包後の最大厚・重量は未実測。"
     }
   ],
   "searchStops": [

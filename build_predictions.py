@@ -32,6 +32,8 @@ SOURCES = {
 }
 
 FORM_SOURCES = {
+    'B01I16MH96': 'https://yanagiya-charaku.jp/?pid=104151864',
+    'B0FKB2J362': 'https://yanagiya-charaku.jp/?pid=190292478',
     'B015CJ81X6': 'https://www.lavons.jp/laundry-softner/',
     'B0BTSDRMZY': 'https://shop.kaneka.co.jp/item/E2844/',
     'B0B5MLNGH8': 'https://www.andwell.shop/products/mulberry-leaf-tea',
@@ -120,6 +122,8 @@ GEOMETRY_OVERRIDES = {
 }
 
 SPECIAL = {
+    'B01I16MH96': ('borderline', 'メーカーは同じ250gのチャック袋を掲載し、ゆうパケット配送も案内。Amazon掲載寸法は袋の平置き実寸とは確認できず、粉末の片寄り・袋の底マチ・発送外装を含む最大厚は未実測。', '低'),
+    'B0FKB2J362': ('borderline', 'メーカーは同じ250gの単品袋を掲載。Amazon写真は柔らかいチャック付き袋で硬い部品は見えない。袋の平置き実寸・粉末の片寄り・底マチ・発送外装を含む最大厚は未実測。', '低'),
     'B015CJ81X6': ('borderline', 'メーカーは同じ香りの480mL詰替えを掲載。Amazon写真は切り取り式の柔らかい単品袋で、硬いキャップは見えない。掲載24×12.7cmに480mLを均す計算は約2.3cmだが、有効な袋面・封かん・発送外装は未実測。', '低'),
     'B0BTSDRMZY': ('borderline', 'メーカーは同一500gチャック袋をネコポス対象と表示。ただし現行Amazonの袋面・外装最大厚は未測定で、500g粉末の局所的な厚みが残る。', '低'),
     'B0CWKDCLG7': ('borderline', 'メーカー公称の商品奥行は3.0cmで上限と同じ。粉末を均した計算値は局所的な袋の厚みや発送外装を含まないため、梱包後最大厚と重量の実測が必要。', '低'),

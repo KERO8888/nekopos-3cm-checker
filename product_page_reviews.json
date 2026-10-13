@@ -5030,6 +5030,40 @@
       "reviewStatus": "excluded_rigid_screw_cap",
       "decisionReason": "Amazon現行ページの主画像に硬いねじ式キャップ付きの注ぎ口が写っており、内容液をならしても局所的な厚みを減らせない。",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B01I16MH96",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B01I16MH96",
+      "title": "パウティー ストレート紅茶 無糖 250g 500mLペットボトル約100本分 粉末茶 紅茶パウダー 水に溶ける インスタントティー ティーバッグ不要 ブラックティー 製菓材料 お菓子作り",
+      "dimensions": [
+        {
+          "value": "29.8 x 19.4 x 3.2 cm",
+          "context": "       :\n                                            ‎ 29.8 x 19.4 x 3.2 cm; 250 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/31QIAtKZUnL._AC_SY300_SX300_QL70_ML2_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページで250g単品、掲載最小辺3.2cm。メーカーの同容量単品と写真の柔らかいチャック袋を照合。粉末を平らにならすと3cm以下となる可能性がある。底マチ・発送外装を含む最大厚と重量は未実測。",
+      "manufacturerSource": "https://yanagiya-charaku.jp/?pid=104151864",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0FKB2J362",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0FKB2J362",
+      "title": "パウティー オリジナルブレンド紅茶 無糖 250g 500mLペットボトル約100本分 粉末 紅茶パウダー 水に溶ける インスタントティー ティーバッグ不要 砂糖不使用 お菓子作り",
+      "dimensions": [
+        {
+          "value": "29.7 x 17.4 x 3.5 cm",
+          "context": "       :\n                                            ‎ 29.7 x 17.4 x 3.5 cm; 280 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51wkepnuT2L._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページで250g単品、掲載最小辺3.5cm。メーカーの同容量単品と写真の柔らかいチャック袋を照合。粉末を平らにならすと3cm以下となる可能性がある。底マチ・発送外装を含む最大厚と重量は未実測。",
+      "manufacturerSource": "https://yanagiya-charaku.jp/?pid=190292478",
+      "decidedOn": "2026-10-13"
     }
   ]
 }
