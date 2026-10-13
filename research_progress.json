@@ -132,7 +132,7 @@
     "ココア 粉末 詰め替え 袋 200g"
   ],
   "discoveredCount": 63872,
-  "addedCount": 115,
+  "addedCount": 116,
   "discovered": [
     {
       "asin": "B0CDPF8BKZ",
@@ -122914,12 +122914,28 @@
     {
       "asin": "B0DHV9M3RG",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "コールドプレスジュース ダークレッド ラサンテ 200g 冷凍 パウチ (単品 クレンズ りんご 人参 ビーツ オレンジ)【 健康マルシェ 】",
+      "triageScore": 9,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "単品を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        160,
+        220,
+        220
+      ],
+      "keepaPackageWeightG": 500,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07F3G3N8V",
@@ -123028,12 +123044,27 @@
     {
       "asin": "B0G8G7F16W",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "辛うま藻 醤油麹 パウチ 150ml",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        31,
+        99,
+        163
+      ],
+      "keepaPackageWeightG": 240,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C22MYKQG",
@@ -123118,12 +123149,27 @@
     {
       "asin": "B0FXLKX85S",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "アコール オーガニック チリビーンズ 400g activus ムソー 野菜スープ 無添加 有機野菜 オーガニック 有機JAS パウチ ヴィーガン対応 アレルゲンフリー メール便",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        40,
+        127,
+        195
+      ],
+      "keepaPackageWeightG": 414,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B08FBTPYM6",
@@ -123557,7 +123603,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "明治 チョコレート効果カカオ72%パウチ 40g",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        128,
+        144,
+        163
+      ],
+      "keepaPackageWeightG": 490,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FDQ33R5K",
@@ -197208,7 +197269,22 @@
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "ロッテ キシリトールタブレット 大容量パウチ 240g しまじろう",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        20,
+        158,
+        212
+      ],
+      "keepaPackageWeightG": 250,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FM3934ZZ",
@@ -201797,7 +201873,22 @@
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "NaTruly(ナトゥリー) サンザシ＆ハニー 250g さんざしジュース 2500g相当(10倍希釈時) はちみつ入りサンザシ濃縮エキス さんざしドリンク 山査子 パウチ",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        23,
+        99,
+        206
+      ],
+      "keepaPackageWeightG": 270,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B000FQTEPG",
@@ -201887,7 +201978,22 @@
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "NaTruly（ナトゥリー） 有機 タルトチェリー 濃縮エキス 250g 希釈タイプ タルトチェリージュース 栄養機能食品 鉄 オーガニック パウチ",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        29,
+        96,
+        209
+      ],
+      "keepaPackageWeightG": 270,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0BXH82D89",
@@ -201897,7 +202003,22 @@
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "NaTruly（ナトゥリー）有機 レッドビーツ 濃縮エキス 250g 希釈タイプ オーガニック ビーツジュース ビートルートジュース 無農薬 パウチ",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        26,
+        98,
+        207
+      ],
+      "keepaPackageWeightG": 260,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FBWLKKQ1",
@@ -202148,7 +202269,22 @@
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "NaTruly（ナトゥリー） サンザシ 濃縮エキス 250g さんざしドリンク パウチ 果汁100% 砂糖・甘味料不使用",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        24,
+        98,
+        208
+      ],
+      "keepaPackageWeightG": 270,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C3HFTX4R",
@@ -213485,7 +213621,22 @@
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "NaTruly（ナトゥリー） 正規品 ジャラハニー TA35+ 120g パウチ 非加熱 ジャラ 蜂蜜 生はちみつ Jarrah Honey 国内加工",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        16,
+        88,
+        149
+      ],
+      "keepaPackageWeightG": 130,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B08YRH93DP",
@@ -224560,7 +224711,22 @@
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "ヘルスキー マヌカハニー MGO826+ 120g パウチ 20+ 相当 マヌカ ハチミツ 正規品 非加熱",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        23,
+        83,
+        148
+      ],
+      "keepaPackageWeightG": 130,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CBHBQW3N",
@@ -225196,7 +225362,22 @@
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "ヘルスキー マヌカハニー MGO261+ 120g パウチ 10+ 相当 マヌカ ハチミツ 正規品 非加熱",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        22,
+        84,
+        151
+      ],
+      "keepaPackageWeightG": 130,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FRF691WT",
@@ -225968,7 +226149,22 @@
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "ヘルスキー マヌカハニー MGO512+ 120g パウチ 15+ 相当 マヌカ ハチミツ 正規品 非加熱",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        23,
+        89,
+        148
+      ],
+      "keepaPackageWeightG": 130,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FRFMWGKJ",
@@ -226045,7 +226241,22 @@
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "ヘルスキー マヌカハニー MGO100+ 120g パウチ 5+ 相当 マヌカ ハチミツ 正規品 非加熱",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        21,
+        84,
+        148
+      ],
+      "keepaPackageWeightG": 130,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GQ8WJTGZ",
@@ -226312,7 +226523,23 @@
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "森永乳業 はじめてのベビーフード りんごとかぼちゃ 70g×1袋 5ヵ月頃 パウチ",
+      "triageScore": 7,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "単品を示す語",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        30,
+        82,
+        129
+      ],
+      "keepaPackageWeightG": 80,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B007T3UIY4",
@@ -227340,7 +227567,22 @@
         "Keepa title=粉末 root=57239051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "抹茶 有機 オーガニック 国産 高級 明治二年創業 大塚の抹茶 大塚製茶 老舗 有機JAS 粉末 パウダー 無添加 無農薬 静岡 掛川 matcha (100gパウチ)",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        29,
+        134,
+        217
+      ],
+      "keepaPackageWeightG": 110,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0B9S26MRH",
@@ -227351,7 +227593,22 @@
         "Keepa title=粉末 root=57239051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "抹茶 有機 オーガニック 国産 高級 明治二年創業 大塚の抹茶 大塚製茶 老舗 有機JAS 粉末 パウダー 無添加 無農薬 matcha (20gパウチ)",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        12,
+        118,
+        149
+      ],
+      "keepaPackageWeightG": 30,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B09ZHFZDPL",
@@ -230906,7 +231163,22 @@
         "Keepa title=粉末 root=57239051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "抹茶 有機 オーガニック 国産 高級 明治二年創業 大塚の抹茶 大塚製茶 老舗 有機JAS 粉末 パウダー 無添加 無農薬 静岡 掛川 matcha (50gパウチ)",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        27,
+        116,
+        200
+      ],
+      "keepaPackageWeightG": 60,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07D5RLLYQ",
@@ -314753,7 +315025,24 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "マイサイズ 大塚食品 2週間セット 14食 パウチ【セット買い】【Amazon.co.jp限定】",
+      "triageScore": -1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        152,
+        207,
+        253
+      ],
+      "keepaPackageWeightG": 2290,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0D59C1KX6",
@@ -315129,7 +315418,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:47.775591+09:00",
+      "keepaTitle": "はごろも さばで健康 にんにくみそ味(パウチ) 90g(1421)×12個入",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        116,
+        166,
+        200
+      ],
+      "keepaPackageWeightG": 1480,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0GVC7L9R7",
@@ -315289,7 +315594,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "はごろも さばで健康 しょうゆ味 (パウチ) 90g (1415)×12個",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        122,
+        170,
+        200
+      ],
+      "keepaPackageWeightG": 1520,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B01NAILXHK",
@@ -315299,7 +315620,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "はごろも さばで健康 みそ味 (パウチ) 90g (1416)×12個",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        116,
+        170,
+        198
+      ],
+      "keepaPackageWeightG": 1480,
+      "keepaNumberOfItems": 12
     },
     {
       "asin": "B0CSXTVKQB",
@@ -315582,7 +315919,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "はごろも いわしで健康 しょうゆ味 (パウチ) 90g (1572)×12個",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        118,
+        166,
+        194
+      ],
+      "keepaPackageWeightG": 1500,
+      "keepaNumberOfItems": 12
     },
     {
       "asin": "B07CKQNW3Q",
@@ -315592,7 +315945,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "はごろも いわしで健康 みそ味 (パウチ) 90g (1573)×12個",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        114,
+        164,
+        192
+      ],
+      "keepaPackageWeightG": 1460,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B07CKP2YHS",
@@ -315602,7 +315971,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "はごろも いわしで健康 ごまみそ煮 (パウチ) 90g (1597)×12個",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        50,
+        160,
+        330
+      ],
+      "keepaPackageWeightG": 1380,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B00GX2GF9E",
@@ -318447,7 +318832,23 @@
         "Keepa title=レトルト root=57239051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "はごろもフーズ 健康シリーズ レトルト 食品 パウチ 煮魚 11種 × 各種2個 計22個 詰め合わせ セット 魚 おかず 惣菜 常温 人気 保存 さば さんま いわし 備蓄 保存食 @World Market オリジナルBOX付き敬老の日",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        126,
+        201,
+        327
+      ],
+      "keepaPackageWeightG": 2440,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0BVB4ZKVW",
@@ -318482,7 +318883,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "はごろも さんまで健康 大根おろし煮 (パウチ) 90g (1523)×12個",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        117,
+        174,
+        196
+      ],
+      "keepaPackageWeightG": 1300,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B01NCKPQCH",
@@ -318492,7 +318909,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "はごろも さんまで健康 しょうゆ味 (パウチ) 90g (1521)×12個",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        117,
+        167,
+        194
+      ],
+      "keepaPackageWeightG": 1340,
+      "keepaNumberOfItems": 12
     },
     {
       "asin": "B0CMZWLHJG",
@@ -318626,7 +319059,22 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "沖縄 ハム コンビーフハッシュパウチ 65ｇ×30袋 常備食 大容量 沖縄定番 常備 パウチ (65g, 30袋)",
+      "triageScore": 1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        100,
+        200,
+        300
+      ],
+      "keepaPackageWeightG": 1000,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0D3KYNC6R",
@@ -319368,7 +319816,24 @@
         "Keepa title=レトルト root=57239051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "11種22食 はごろもフーズ 健康パウチ 詰め合わせ セット 煮魚 焼き魚 11種類 惣菜 レトルト 1年以上 魚料理 DHA EPA ギフト",
+      "triageScore": -1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        85,
+        308,
+        324
+      ],
+      "keepaPackageWeightG": 2470,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GC3ZVRBT",
@@ -319379,7 +319844,24 @@
         "Keepa title=レトルト root=57239051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "10種20食 はごろもフーズ 健康パウチ 詰め合わせ セット 煮魚 焼き魚 10種類 惣菜 おかず レトルト DHA EPA 時短 ギフト",
+      "triageScore": -1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        94,
+        291,
+        307
+      ],
+      "keepaPackageWeightG": 2120,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GTK9335J",
@@ -319626,7 +320108,22 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "沖縄 ハム コンビーフハッシュパウチ 65ｇ×12袋 常備食 大容量 沖縄定番 常備 パウチ (65g, 12袋)",
+      "triageScore": -1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        30,
+        200,
+        300
+      ],
+      "keepaPackageWeightG": 200,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B09RPGTXNQ",
@@ -319645,7 +320142,21 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "沖縄 ハム コンビーフハッシュパウチ 65ｇ×10袋 常備食 大容量 沖縄定番 常備 パウチ (65g, 10袋)",
+      "triageScore": 5,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        30,
+        200,
+        300
+      ],
+      "keepaPackageWeightG": 200,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0GZGCYGHY",
@@ -319804,7 +320315,24 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "8種24食 健康パウチ 詰め合わせ セット 煮魚 焼き魚 8種類 惣菜 おかず レトルト 常温保存 魚料理 DHA EPA 時短 非常食 ギフト",
+      "triageScore": -1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        91,
+        296,
+        299
+      ],
+      "keepaPackageWeightG": 2470,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GBW8B623",
@@ -319814,7 +320342,24 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "12種24食 はごろもフーズ 健康パウチ 詰め合わせ セット 煮魚 焼き魚 12種類 惣菜 レトルト 1年以上 魚料理 DHA EPA ギフト",
+      "triageScore": -1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        99,
+        298,
+        309
+      ],
+      "keepaPackageWeightG": 2490,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07TZJ3VSP",
@@ -319952,7 +320497,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "KIRKLAND(カークランド) シグネチャー オーガニック フルーツ&ベジタブル パウチ 24p",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        138,
+        143,
+        250
+      ],
+      "keepaPackageWeightG": 2422,
+      "keepaNumberOfItems": 24
     },
     {
       "asin": "B0068UNLOS",
@@ -320002,7 +320563,22 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "アイリスオーヤマ レトルト もつ煮込み 140g 惣菜 レトルト食品 おかず 一人暮らし 常温保存 非常食 保存食 国産 電子レンジ 和食 パウチ レンチン レンジde Pa Cook",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        18,
+        140,
+        144
+      ],
+      "keepaPackageWeightG": 150,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B00MB66SJS",
@@ -320268,7 +320844,22 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "レトルト食品 常温保存 魚 惣菜 おかず 魚介 おつまみ 11種11食 詰め合わせ セット 兼由 レトルト 食品 パウチ 一人暮らし 国産乾燥野菜",
+      "triageScore": 1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        100,
+        180,
+        185
+      ],
+      "keepaPackageWeightG": -1,
+      "keepaNumberOfItems": 11
     },
     {
       "asin": "B0DVGVH38X",
@@ -320310,7 +320901,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "レトルト食品 常温保存 詰め合わせ 魚 惣菜 おかず 食卓 11種11食 セット 兼由 レトルト パウチ 煮魚 魚料理 一人暮らし 食品 国産乾燥野菜",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        108,
+        194,
+        275
+      ],
+      "keepaPackageWeightG": 1550,
+      "keepaNumberOfItems": 11
     },
     {
       "asin": "B01N1U8R1M",
@@ -320832,7 +321439,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
+      "keepaTitle": "レトルト食品 保存食 おかず 魚 惣菜 バラエティ 8種類 選べる 24食 詰め合わせ セット 兼由 常温保存 レトルト パウチ さんま いわし さば 煮魚 (いわしの旨煮24個)",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        134,
+        217,
+        428
+      ],
+      "keepaPackageWeightG": 3030,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B09RPNVKL9",
@@ -321018,7 +321641,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "レトルト食品 保存食 おかず 魚 惣菜 バラエティ 8種類 選べる 24食 詰め合わせ セット 兼由 常温保存 レトルト パウチ さんま いわし さば 煮魚 (さんまの生姜煮24個)",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        135,
+        218,
+        431
+      ],
+      "keepaPackageWeightG": 3050,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0DJSM1C7Q",
@@ -321028,7 +321667,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "レトルト食品 保存食 おかず 魚 惣菜 バラエティ 8種類 選べる 24食 詰め合わせ セット 兼由 常温保存 レトルト パウチ さんま いわし さば 煮魚 (さんまの旨煮24個)",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        136,
+        218,
+        430
+      ],
+      "keepaPackageWeightG": 3050,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0DJSL5S5Z",
@@ -321038,7 +321693,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "北海道産 魚の煮つけ 8種類 24個 セット 兼由 レトルト食品 惣菜 常温保存 さんま いわし さば 煮魚 (8種類 3個ずつ 24個)",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        137,
+        219,
+        430
+      ],
+      "keepaPackageWeightG": 3180,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B08L461YP8",
@@ -321144,7 +321815,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "レトルト食品 保存食 おかず 魚 惣菜 バラエティ 8種類 選べる 24食 詰め合わせ セット 兼由 常温保存 レトルト パウチ さんま いわし さば 煮魚 (さんまの味噌煮24個)",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        135,
+        219,
+        430
+      ],
+      "keepaPackageWeightG": 3040,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0DJSLV8T4",
@@ -321154,7 +321841,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "レトルト食品 保存食 おかず 魚 惣菜 バラエティ 8種類 選べる 24食 詰め合わせ セット 兼由 常温保存 レトルト パウチ さんま いわし さば 煮魚 (いわしの味噌煮24個)",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        137,
+        218,
+        429
+      ],
+      "keepaPackageWeightG": 3070,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0FDQL61S4",
@@ -321172,7 +321875,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "レトルト食品 保存食 おかず 魚 惣菜 バラエティ 8種類 選べる 24食 詰め合わせ セット 兼由 常温保存 レトルト パウチ さんま いわし さば 煮魚 (さばの旨煮24個)",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        135,
+        219,
+        431
+      ],
+      "keepaPackageWeightG": 3630,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0FDQK9PHH",
@@ -321198,7 +321917,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "レトルト食品 保存食 おかず 魚 惣菜 バラエティ 8種類 選べる 24食 詰め合わせ セット 兼由 常温保存 レトルト パウチ さんま いわし さば 煮魚 (さばの味噌煮24個)",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        132,
+        218,
+        431
+      ],
+      "keepaPackageWeightG": 3610,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0B9ZTFMXF",
@@ -321280,7 +322015,24 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "アイリスオーヤマ レトルト もつ煮込み 140g×36パック 惣菜 レトルト食品 おかず 一人暮らし 常温保存 非常食 保存食 国産 電子レンジ 和食 パウチ レンチン レンジde Pa Cook",
+      "triageScore": -1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        171,
+        274,
+        457
+      ],
+      "keepaPackageWeightG": 6250,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CKMQP9BD",
@@ -321610,7 +322362,22 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "はごろも 健康シリーズ パウチ 90g ×5種セット 詰め合わせ PSJBOX さば さんま いわし みそ煮 和風トマト 煮つけ 大根おろし",
+      "triageScore": -1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        20,
+        200,
+        300
+      ],
+      "keepaPackageWeightG": -1,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0G2JMZ8GG",
@@ -321620,7 +322387,22 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "はごろも 健康シリーズ パウチ 90g ×10袋セット(5種×2) 詰め合わせ PSJBOX (さば さんま いわし) みそ煮 和風トマト 煮つけ 大根おろし",
+      "triageScore": -1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        20,
+        200,
+        300
+      ],
+      "keepaPackageWeightG": 900,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B09WJC421Y",
@@ -321630,7 +322412,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "はごろも 健康シリーズ パウチ 全8種 ギフトボックス（さば、いわし、さんま） 詰め合わせ セット 缶詰 レトルト食品 プチギフト・プレゼントに最適 母の日 父の日 ギフト ランダムセット",
+      "triageScore": -8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "硬い容器の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        20,
+        200,
+        300
+      ],
+      "keepaPackageWeightG": 980,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B076HDV8WP",
@@ -321664,7 +322462,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "レトルト食品 保存食 おかず 魚 惣菜 バラエティ 8種類 選べる 24食 詰め合わせ セット 兼由 常温保存 レトルト パウチ さんま いわし さば 煮魚 (いわしの生姜煮24個)",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        138,
+        217,
+        432
+      ],
+      "keepaPackageWeightG": 2990,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B00FPA22E2",
@@ -322242,7 +323056,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "はごろも 健康シリーズ パウチ 8種24食 薬味ばあちゃんの七味唐辛子 セット さば いわし さんま レトルト食品 魚 おかず 魚レトルト",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        106,
+        290,
+        320
+      ],
+      "keepaPackageWeightG": 2730,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0DKT7YH7Y",
@@ -322284,7 +323114,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "兼由 レトルト食品 おかず 魚 煮魚 惣菜 サバづくし 旨煮 味噌煮 水煮 YUNAYUSHIN オリジナルお手拭きセット (3種類8個ずつ24食)",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        137,
+        218,
+        431
+      ],
+      "keepaPackageWeightG": 3600,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0F4QS2XDX",
@@ -322302,7 +323148,22 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "沖縄 ハム コンビーフハッシュパウチ 65ｇ×6袋 常備食 大容量 沖縄定番 常備 パウチ (65g, 6袋)",
+      "triageScore": -1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        30,
+        200,
+        300
+      ],
+      "keepaPackageWeightG": 200,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B00312N8F8",
@@ -322704,7 +323565,21 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "粥餐庁 お粥専門店 パウチ粥 五穀粥 40個入 国産米 レトルト レンジ調理 低カロリー",
+      "triageScore": -1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性"
+      ],
+      "keepaPackageMm": [
+        0,
+        0,
+        0
+      ],
+      "keepaPackageWeightG": 0,
+      "keepaNumberOfItems": 40
     },
     {
       "asin": "B0HJ1GJGF2",
@@ -322786,7 +323661,24 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "宝幸 レトルト食品 魚 国産 7種21袋 セット薬味ばあちゃんの七味唐辛子 付き さば いわし おかず ギフト 惣菜 魚レトルト HOKO",
+      "triageScore": -1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "単品を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        102,
+        253,
+        282
+      ],
+      "keepaPackageWeightG": 2050,
+      "keepaNumberOfItems": 21
     },
     {
       "asin": "B09CKLXTVV",
@@ -323308,7 +324200,23 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "レトルト食品 おかず 18種セット 薬味ばあちゃんの七味唐辛子 魚 惣菜 常温保存 詰め合わせ レトルト おかず ギフト イチビキ 兼由 ブンセン",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        90,
+        290,
+        298
+      ],
+      "keepaPackageWeightG": 1810,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B01GDNDPLI",
@@ -323678,7 +324586,21 @@
         "Keepa category=71250051 side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "粥餐庁 お粥専門店 パウチ粥 コーン粥 40個入 国産米 レトルト レンジ調理 低カロリー",
+      "triageScore": -1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性"
+      ],
+      "keepaPackageMm": [
+        0,
+        0,
+        0
+      ],
+      "keepaPackageWeightG": 0,
+      "keepaNumberOfItems": 40
     },
     {
       "asin": "B0G5FYZ13Y",
@@ -383051,7 +383973,22 @@
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=個包装 root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T23:28:50.894229+09:00",
+      "keepaTitle": "からだシフト 糖質オフ ミネストローネ (150g × 5個) 糖質30%オフ (電子レンジ対応パウチ/時短調理) 一人暮らしの方にも (簡単調理) レトルト 糖質カット 糖質コントロール",
+      "triageScore": 1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        125,
+        150,
+        152
+      ],
+      "keepaPackageWeightG": 770,
+      "keepaNumberOfItems": 5
     },
     {
       "asin": "B0DG1DG8QM",
@@ -553418,7 +554355,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 791,
+  "fetchedProductPageCount": 794,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -558016,6 +558953,18 @@
       "pagesChecked": 7,
       "added": 2,
       "unverifiedRange": "7件判定。とうもろこしフレーク単品袋2件を低確信度で追加。4件は硬いキャップで除外、1件は粒の局所厚不明で保留。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=パウチ root=57239051由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0DHV9M3RG",
+        "B0G8G7F16W",
+        "B0FXLKX85S"
+      ],
+      "pagesChecked": 3,
+      "added": 1,
+      "unverifiedRange": "3件を写真・掲載寸法と個別照合。硬いねじ式キャップ2件を除外し、レトルト袋1件を低確信度で登録。登録品の実寸・梱包後の最大厚・重量と残る発見済みASINは未確認。"
     }
   ],
   "searchStops": [

@@ -88,6 +88,7 @@ DENSITIES = {
     'ペット用細切りおやつ': (0.20, 0.50, None),
     '錠剤・カプセル': (0.45, 0.75, None),
     '食品粉末': (0.35, 0.65, None),
+    '豆入りレトルトスープ': (0.85, 1.05, None),
     '食品の細片・粒': (0.25, 0.60, None),
     '乾燥野菜の細片': (0.12, 0.35, None),
     '乾燥果実の小粒': (0.10, 0.30, None),
@@ -188,6 +189,7 @@ def dimensions_of(item):
 def material_of(item):
     asin = item['asin']
     title = item['title']
+    if asin == 'B0FXLKX85S': return '豆入りレトルトスープ'
     if asin == 'B09CYRLN56': return '乾燥野菜の細片'
     if asin == 'B0GL1QH265': return '乾燥果実の小粒'
     if asin in ('B07RCFS9QY', 'B07RBFGQSX'): return '乾燥野菜フレーク'
@@ -286,6 +288,8 @@ for item in products:
     # A low calculated thickness is not enough for a positive recommendation
     # when the pouch face came from a shipping box or another product.
     geometry_unverified = footprint_source != 'manufacturer'
+    if asin == 'B0FXLKX85S':
+        reason += '豆の局所的な重なりと底マチは密度計算に含められず、商品袋の実寸と発送後最大厚は未測定。'
     if verdict == 'likely' and geometry_unverified:
         verdict = 'borderline'
         confidence = '低'

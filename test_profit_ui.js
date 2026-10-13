@@ -65,10 +65,16 @@ assert.strictEqual(test.profitStateFor(lavons), 'price_risk');
 test.setProfitFilter('all');
 test.setSelectedAsin(lavons.asin);
 test.render();
-assert(element('#featured').innerHTML.includes('参考試算 · おすすめ出品より高く、販売成立は未確認'));
-assert(element('#featured').innerHTML.includes('おすすめ出品¥552'));
+assert(element('#featured').innerHTML.includes('参考試算 · 安い競合出品より高く、販売成立は未確認'));
+assert(element('#featured').innerHTML.includes('安い競合出品¥552'));
 assert(element('#featured').innerHTML.includes('参考 +¥154'));
 assert(!candidates.includes(lavons));
+const chili = products.find(item => item.asin === 'B0FXLKX85S');
+assert.strictEqual(test.profitStateFor(chili), 'price_risk', 'cheaper FBA offer must rule out a sellable MFN black candidate');
+test.setSelectedAsin(chili.asin);
+test.render();
+assert(element('#featured').innerHTML.includes('安い競合出品¥897（FBA）'));
+
 test.setProfitFilter('candidate');
 test.setSelectedAsin(candidates[0]?.asin || '');
 const caramel = products.find(item => item.asin === 'B0GL6TYSJR');

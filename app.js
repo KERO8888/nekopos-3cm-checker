@@ -272,12 +272,17 @@
     });
     return result?.profit ?? null;
   }
+  function competitiveOfferFor(item) {
+    const row = market.offers?.[item.asin];
+    return [row?.featuredOffer, row?.lowestAmazonFulfilled].filter(Boolean)
+      .sort((a, b) => a.landedYen - b.landedYen)[0] || null;
+  }
   function priceGapFor(item, record = recordFor(item.asin)) {
     const sale = saleInputsFor(item, record);
-    const featured = market.offers?.[item.asin]?.featuredOffer;
-    if (!featured || sale.listing === '' || sale.shipping === '') return 0;
-    const gap = Number(sale.listing) + Number(sale.shipping) - featured.landedYen;
-    return gap >= Math.max(100, featured.landedYen * 0.05) ? gap : 0;
+    const competitor = competitiveOfferFor(item);
+    if (!competitor || sale.listing === '' || sale.shipping === '') return 0;
+    const gap = Number(sale.listing) + Number(sale.shipping) - competitor.landedYen;
+    return gap >= Math.max(100, competitor.landedYen * 0.05) ? gap : 0;
   }
   function profitStateFor(item, record = recordFor(item.asin)) {
     if (fitFor(item).clickpost.status === 'over') return 'over';
@@ -286,7 +291,7 @@
     const sale = saleInputsFor(item, record);
     if (sale.basis === 'fba_reference' || sale.basis === 'manual') return 'reference';
     if (result.profit <= 0) return 'loss';
-    if (!market.offers?.[item.asin]?.featuredOffer) return 'reference';
+    if (!competitiveOfferFor(item)) return 'reference';
     return priceGapFor(item, record) ? 'price_risk' : 'candidate';
   }
 
@@ -294,9 +299,9 @@
     const shippingStatus = fitFor(item)[method].status;
     const result = profitFor(item, method, record);
     const sale = saleInputsFor(item, record);
-    const featured = market.offers?.[item.asin]?.featuredOffer;
+    const competitor = competitiveOfferFor(item);
     const gap = priceGapFor(item, record);
-    const priceWarning = gap ? ` · おすすめ出品${yen(featured.landedYen)}より${yen(gap)}高い。販売成立は未確認。` : '';
+    const priceWarning = gap ? ` · 安い競合出品${yen(competitor.landedYen)}より${yen(gap)}高い（${competitor.fulfilledByAmazon ? 'FBA' : '自己発送'}）。販売成立は未確認。` : '';
     const label = method === 'clickpost' ? 'クリックポスト（送料240円）' : 'ネコポス（契約運賃）';
     if (shippingStatus === 'over') return `<div class="profit-result pending"><b>${label}</b><strong>規格外</strong><small>この発送方法の運賃では利益を計算しません。</small></div>`;
     if (!result) {
@@ -619,12 +624,12 @@
     const ceiling = purchaseCeilingFor(item, record);
     const label = state === 'candidate' ? '黒字候補 · 送料無料条件と厚さ・重量は要確認'
       : state === 'reference' ? (sale.basis === 'mfn' ? '参考試算 · おすすめ出品未確認' : '参考試算 · 自己発送の実売価格は未確認')
-        : state === 'price_risk' ? '参考試算 · おすすめ出品より高く、販売成立は未確認'
+        : state === 'price_risk' ? '参考試算 · 安い競合出品より高く、販売成立は未確認'
           : state === 'sourcing' ? '仕入先の単品価格を確認してください'
             : state === 'price_missing' ? 'Amazonの売価・購入者送料が未取得'
             : state === 'over' ? 'クリックポスト規格外' : '現在の条件では赤字';
-    const featured = market.offers?.[item.asin]?.featuredOffer;
-    const detail = result ? `売価${yen(Number(sale.listing) + Number(sale.shipping))} · 仕入総額${yen(result.buy + result.inbound)} · 送料・手数料込み${state === 'price_risk' && featured ? ` · おすすめ出品${yen(featured.landedYen)}` : ''}`
+    const competitor = competitiveOfferFor(item);
+    const detail = result ? `売価${yen(Number(sale.listing) + Number(sale.shipping))} · 仕入総額${yen(result.buy + result.inbound)} · 送料・手数料込み${state === 'price_risk' && competitor ? ` · 安い競合出品${yen(competitor.landedYen)}（${competitor.fulfilledByAmazon ? 'FBA' : '自己発送'}）` : ''}`
       : ceiling != null && ceiling >= 0 ? `仕入価格の収支ゼロ上限 ${yen(ceiling)}（仕入送料0円の仮定）` : '確認できた価格だけで計算しています';
     const amount = result ? `${state === 'price_risk' ? '参考 ' : ''}${result.profit < 0 ? '−' : '+'}${yen(Math.abs(result.profit))}`
       : ceiling != null && ceiling >= 0 ? `上限 ${yen(ceiling)}` : '売価未取得';

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-13T13:44:14.958274+00:00",
+  "checkedAt": "2026-10-13T14:34:01.399214+00:00",
   "source": "Yahoo Shopping direct product pages, displayed Tokyo shipping",
   "scope": "Only pages with matching JAN and single-unit wording are verified; availability and prices can change.",
   "items": {
@@ -4882,6 +4882,27 @@
           "displayPoints": 19,
           "couponMentioned": false,
           "checkedAt": "2026-10-13T13:44:11.600282+00:00"
+        }
+      ]
+    },
+    "B0FXLKX85S": {
+      "expectedEans": [
+        "4779039732669"
+      ],
+      "checkedPages": 5,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "activus オーガニックチリビーンズ　400g　むそう",
+          "store": "ビーライフショップ",
+          "url": "https://store.shopping.yahoo.co.jp/blife/mu-21980.html",
+          "jan": "4779039732669",
+          "priceYen": 600,
+          "inboundShippingYen": 530,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 21,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T14:34:01.093684+00:00"
         }
       ]
     }

@@ -5674,6 +5674,51 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61gf38H6ieL._AC_SL1500_.jpg",
       "reviewStatus": "added_after_manual_photo_and_dimensions_review",
       "decisionReason": "単品の柔らかいクラフト袋で硬いキャップ・付属品なし。フレークを未開封のまま均せる。掲載最小辺3cm超。商品袋の寸法と発送外装込み最大厚は未測定のため低確信度。"
+    },
+    {
+      "asin": "B0DHV9M3RG",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DHV9M3RG",
+      "title": "コールドプレスジュース ダークレッド ラサンテ 200g 冷凍 パウチ (単品 クレンズ りんご 人参 ビーツ オレンジ)【 健康マルシェ 】",
+      "dimensions": [
+        {
+          "value": "4 x 10.5 x 16 cm",
+          "context": "       :\n                                            ‎ 4 x 10.5 x 16 cm; 200 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/516SygFSBEL._AC_SL1100_.jpg",
+      "reviewStatus": "excluded_rigid_cap_or_spout",
+      "decisionReason": "Amazon現行ページの主画像で硬いねじ式キャップと注ぎ口を確認。袋の中身をならしても局所的な厚みは薄くならないため除外。"
+    },
+    {
+      "asin": "B0G8G7F16W",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0G8G7F16W",
+      "title": "辛うま藻 醤油麹 パウチ 150ml",
+      "dimensions": [
+        {
+          "value": "4.5 x 4.5 x 15 cm",
+          "context": "       :\n                                            ‎ 4.5 x 4.5 x 15 cm; 0.15 g メーカー\n                     "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61WwVAjAosL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_cap_or_spout",
+      "decisionReason": "Amazon現行ページの主画像で硬いねじ式キャップと注ぎ口を確認。袋の中身をならしても局所的な厚みは薄くならないため除外。"
+    },
+    {
+      "asin": "B0FXLKX85S",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0FXLKX85S",
+      "title": "アコール オーガニック チリビーンズ 400g activus ムソー 野菜スープ 無添加 有機野菜 オーガニック 有機JAS パウチ ヴィーガン対応 アレルゲンフリー メール便",
+      "dimensions": [
+        {
+          "value": "19.5 x 12.7 x 4 cm",
+          "context": "       :\n                                            ‎ 19.5 x 12.7 x 4 cm; 414 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71-NHfJKnkL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページで400gの単品、掲載3辺19.5×12.7×4cmと硬いキャップのない柔らかいレトルト袋を確認。中身を袋全体に広げる余地がある。掲載寸法は梱包寸法の可能性があり、袋の実寸・豆の局所的な重なり・発送後の最大厚・重量は未測定。低確信度の候補。"
     }
   ]
 }

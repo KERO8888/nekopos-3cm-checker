@@ -2738,7 +2738,51 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B0FXLKX85S": {
+      "expectedEans": [
+        "4779039732669"
+      ],
+      "checkedPages": 5,
+      "cumulativeCheckedPages": 5,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 19,
+      "rejected": {
+        "jan_mismatch": 2,
+        "jan_missing": 1,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "オーガニック　activus ＯＧチリビーンズ 400g ★有機認証品 （無農薬・無添加）★２個までコンパクト便可",
+          "storeName": "有機家",
+          "jan": "4779039732669",
+          "priceYen": 619,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T14:33:47.326061+00:00",
+          "url": "https://item.rakuten.co.jp/yuukiya0097/m-a-21980-1/",
+          "store": "有機家",
+          "inboundShippingYen": 693,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "MUSO activus オーガニック チリビーンズ 400g 有機JAS スープ_",
+          "storeName": "ママパン",
+          "jan": "4779039732669",
+          "priceYen": 632,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T14:33:15.637535+00:00",
+          "url": "https://item.rakuten.co.jp/mamapan/19260112/",
+          "store": "ママパン",
+          "inboundShippingYen": 1045,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-13T13:43:35.392312+00:00"
+  "checkedAt": "2026-10-13T14:33:58.187289+00:00"
 }
