@@ -132,7 +132,7 @@
     "ココア 粉末 詰め替え 袋 200g"
   ],
   "discoveredCount": 63872,
-  "addedCount": 113,
+  "addedCount": 115,
   "discovered": [
     {
       "asin": "B0CDPF8BKZ",
@@ -48524,7 +48524,7 @@
     {
       "asin": "B01FTGY3QQ",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=入浴剤 root=160384011 side>=0mm",
@@ -118576,13 +118576,28 @@
     {
       "asin": "B0CSWQNXQ8",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "明治 アポロシンプル包装大容量パウチ 226ｇ",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        49,
+        130,
+        145
+      ],
+      "keepaPackageWeightG": 230,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07B7J2QVT",
@@ -118697,7 +118712,23 @@
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "Ajinomoto 味の素 KKコンソメ 固形30個入パウチ 洋風だし ブイヨン",
+      "triageScore": 2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        53,
+        126,
+        157
+      ],
+      "keepaPackageWeightG": 170,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0F4CK3NVR",
@@ -118910,24 +118941,56 @@
     {
       "asin": "B0F5VXTZG4",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "森永乳業 はじめてのベビーフード 緑黄色野菜とさつまいも 70g×1袋 5ヵ月頃 パウチ",
+      "triageScore": 9,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "単品を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        37,
+        92,
+        130
+      ],
+      "keepaPackageWeightG": 80,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0F5W2SPSZ",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "森永乳業 はじめてのベビーフード ぶどうとりんご 70g×1袋 5ヵ月頃 パウチ",
+      "triageScore": 9,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "単品を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        34,
+        77,
+        129
+      ],
+      "keepaPackageWeightG": 80,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B098PYYQWD",
@@ -119353,7 +119416,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "クラフト麹（クラフト麹スタートキット） 【TANICA・タニカの米麹】 パウチ容量130ml・300ml｜米麹50g・100g｜塩40g｜国産米100％｜手作り発酵調味料に｜甘味料不使用｜米麹｜ヨーグルティアS対応",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        78,
+        204,
+        223
+      ],
+      "keepaPackageWeightG": 620,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DKJ14FG6",
@@ -119379,7 +119457,23 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "はごろも はごろも煮（パウチ）(1087)50g ×6個",
+      "triageScore": 2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        49,
+        103,
+        163
+      ],
+      "keepaPackageWeightG": 340,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0H3Z21VK2",
@@ -119430,7 +119524,23 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "森永乳業 はじめてのベビーフード ぶどうと紫いものオートミール 5ヵ月頃 パウチ 70g×6袋 | 主食タイプ 米",
+      "triageScore": 2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        86,
+        139,
+        202
+      ],
+      "keepaPackageWeightG": 530,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0HLKC2WQK",
@@ -119576,7 +119686,23 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "森永乳業 はじめてのベビーフード トマトとにんじんのリゾット 5ヵ月頃 パウチ 70g×6袋 | 主食タイプ 米",
+      "triageScore": 2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        84,
+        140,
+        202
+      ],
+      "keepaPackageWeightG": 500,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0D9MQG67P",
@@ -119682,7 +119808,23 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "森永乳業 はじめてのベビーフード いちごのバナナのオートミール 5ヵ月頃 パウチ 70g×6袋 | 主食タイプ 米",
+      "triageScore": 2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        86,
+        139,
+        202
+      ],
+      "keepaPackageWeightG": 480,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CBPN175B",
@@ -119757,7 +119899,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "【5つ星ホテル採用】HONEY.K 国産はちみつ 京都産 はちみつ 蜂蜜 非加熱 無添加 無農薬 砂糖不使用 パウチ 150g",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        62,
+        111,
+        160
+      ],
+      "keepaPackageWeightG": 180,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0G2X21CCV",
@@ -119767,7 +119924,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "【5つ星ホテル採用】HONEY.K 国産はちみつ 京都産 はちみつ 蜂蜜 非加熱 無添加 無農薬 砂糖不使用 パウチ 100g",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        36,
+        74,
+        156
+      ],
+      "keepaPackageWeightG": 120,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0D1N58VZ5",
@@ -119777,7 +119949,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "HONEY.K【5つ星ホテル採用】国産はちみつ 京都産 はちみつ 蜂蜜 非加熱 無添加 無農薬 砂糖不使用 パウチ 300g",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        70,
+        73,
+        102
+      ],
+      "keepaPackageWeightG": 470,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C3KQ4RDX",
@@ -119843,7 +120030,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "【公式】UHA味覚糖 忍者めし アイススラリー すっきり柑橘味 1袋 (飲めるかき氷/クールダウン)",
+      "triageScore": 4,
+      "triageTags": [
+        "単品を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        35,
+        154,
+        209
+      ],
+      "keepaPackageWeightG": 190,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0F8HSLLZT",
@@ -119985,7 +120187,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "チョコレート効果 明治 カカオ72%パウチ 40g×10袋",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        118,
+        132,
+        271
+      ],
+      "keepaPackageWeightG": 500,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B09WY25TFK",
@@ -120059,7 +120276,23 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "味の素 味の素KKおかゆ 白がゆ 250gパウチ×27(9×3)袋入×(2ケース)",
+      "triageScore": 2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        200,
+        200,
+        200
+      ],
+      "keepaPackageWeightG": 500,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07B8NHCTK",
@@ -120219,12 +120452,27 @@
     {
       "asin": "B07RCFS9QY",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 80g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        33,
+        120,
+        200
+      ],
+      "keepaPackageWeightG": 90,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C3PRCH4S",
@@ -120428,7 +120676,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "不二家 プレミアムルック（生キャラメル）パウチ ４５ｇ",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        44,
+        130,
+        143
+      ],
+      "keepaPackageWeightG": 50,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C3GFZ7LQ",
@@ -120495,7 +120758,21 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "マンゴーピューレ 500g フィリピン産 果肉100% 砂糖不使用 常温保存 ラッシー かき氷 スムージー 製菓材料",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        39,
+        142,
+        166
+      ],
+      "keepaPackageWeightG": 560,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C3GDSSF6",
@@ -120538,7 +120815,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "不二家 プレミアムルック（ルビーロマン）パウチ ４０ｇ",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        58,
+        131,
+        147
+      ],
+      "keepaPackageWeightG": 40,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B09FLJC3GQ",
@@ -120591,22 +120883,54 @@
     {
       "asin": "B0F5W9HY4M",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
+      "keepaTitle": "森永乳業 オーガニックのベビーフード りんごとにんじん 70g×1袋 有機JAS認証 5ヵ月頃 パウチ",
+      "triageScore": 9,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "単品を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        31,
+        76,
+        130
+      ],
+      "keepaPackageWeightG": 50,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0F5W6DSR3",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "森永乳業 オーガニックのベビーフード にんじんとぶどう 70g×1袋 有機JAS認証 5ヵ月頃 パウチ",
+      "triageScore": 9,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "単品を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        32,
+        75,
+        134
+      ],
+      "keepaPackageWeightG": 80,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DJR48NRD",
@@ -120688,7 +121012,21 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "大塚製茶 - 国産有機 オーガニック 抹茶パウダー 100g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        36,
+        126,
+        168
+      ],
+      "keepaPackageWeightG": 110,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B09FLHZCGQ",
@@ -120730,7 +121068,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "アイリスオーヤマ レトルト 塩麹豚汁 450g 惣菜 レトルト食品 おかず 一人暮らし 常温保存 非常食 保存食 和食 パウチ 八海山 新潟",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        64,
+        137,
+        205
+      ],
+      "keepaPackageWeightG": 450,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B09SZB15P7",
@@ -120844,7 +121197,25 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "ベビースムージー ベビーフルーツ 4種アソート ギフトBOX 100g 各1個ずつ 計4個 離乳食 ベビーフード ナチュラヌオヴァ フルーツ100% ジュレ 【有機JAS】 【無添加】 【オーガニック】 砂糖・甘味料・香料・保存料・グルテン不使用 おやつに 持ち運びに便利なパウチ 誤飲防止キャップ採用 乳児用規格適用食品認定 Happy Mint 特製ポケットティッシュ付き",
+      "triageScore": -3,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "単品を示す語",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        66,
+        158,
+        163
+      ],
+      "keepaPackageWeightG": 470,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FNMC62H7",
@@ -121094,7 +121465,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "マスターネ。 プレーン 粒マスタード 無添加 500g 業務用 パウチ",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        38,
+        110,
+        238
+      ],
+      "keepaPackageWeightG": 520,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DT5P961V",
@@ -121112,7 +121498,23 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "GreenMind 赤ちゃんのためのお粥 さつまいも 9ヶ月 頃から 潰すと７ヶ月頃から 無添加 有機 野菜 パウチ 離乳食 セット 80g×5個",
+      "triageScore": 2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        77,
+        92,
+        161
+      ],
+      "keepaPackageWeightG": 480,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07D59HQ82",
@@ -121154,7 +121556,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "LiSaLut 仲景 上海葱油 葱油拌面酱 拌面料 玉ねぎ・エシャロット使用 小分けパウチ ネギ油 中国の調味料 麺・目玉焼き・ミックス野菜の味付け",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        50,
+        100,
+        150
+      ],
+      "keepaPackageWeightG": 300,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FSKZ96Y6",
@@ -121284,7 +121701,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "味の素 SIIDA 燻＜ＫＵＮ＞３袋入パウチ 鰹節 だしパック 和風だし シーダ siida",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        87,
+        193,
+        228
+      ],
+      "keepaPackageWeightG": 87,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0D9QSK4X2",
@@ -121334,7 +121766,23 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "GreenMind(グリーンマインド) 赤ちゃんのためのお粥 さつまいも 5ヶ月頃から 無添加 有機 野菜 ペースト パウチ 離乳食 セット 80g×5個",
+      "triageScore": 2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        77,
+        93,
+        161
+      ],
+      "keepaPackageWeightG": 480,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07NQ1FXC8",
@@ -121384,7 +121832,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "山神果樹薬草園 丸ごと皮削り国産柚子と伊予柑のジュース パウチ ５５０ｍＬ",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        60,
+        114,
+        255
+      ],
+      "keepaPackageWeightG": 600,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GYXRQQW8",
@@ -121530,7 +121993,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "マスターネ。 木桶醤油 粒マスタード 無添加 500g 業務用 パウチ",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        39,
+        114,
+        240
+      ],
+      "keepaPackageWeightG": 520,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B073GTH6ZB",
@@ -121556,7 +122034,24 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "ベビースムージー ベビーフルーツ＆ベジタブル100g 4個アソートボックス 離乳食 ベビーフード ナチュラヌオヴァ フルーツ100% ジュレ 【有機JAS】 【無添加】 【オーガニック】 砂糖・甘味料・香料・保存料・グルテン不使用 おやつに 持ち運びに便利なパウチ 誤飲防止キャップ採用 乳児用規格適用食品認定",
+      "triageScore": -4,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        66,
+        158,
+        164
+      ],
+      "keepaPackageWeightG": 470,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B08MDXH873",
@@ -121577,12 +122072,27 @@
     {
       "asin": "B07RBFGQSX",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 40g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        46,
+        104,
+        194
+      ],
+      "keepaPackageWeightG": 50,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CCRMDYWL",
@@ -121624,7 +122134,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "銀のスプーン 三ツ星グルメ パウチ スープ まぐろ・かつおにしらすとかつお節入り 35g×16コ",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        92,
+        131,
+        136
+      ],
+      "keepaPackageWeightG": 690,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CMLL1P3Y",
@@ -121634,7 +122159,23 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "明治 ガルボ つぶ練り苺 58gパウチ×8袋入",
+      "triageScore": 2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        55,
+        193,
+        249
+      ],
+      "keepaPackageWeightG": 510,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GWZY8RZM",
@@ -121644,7 +122185,23 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "森永乳業 マミージュレ 12ヵ月頃 パウチ 70g×6袋 | 鉄 カルシウム ビタミンD 乳酸菌入り",
+      "triageScore": 2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        85,
+        146,
+        194
+      ],
+      "keepaPackageWeightG": 520,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CV5JD3NG",
@@ -121870,7 +122427,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "北海道きのこ王国　なめ茸スタンドパック　パウチ（400g）",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        58,
+        105,
+        201
+      ],
+      "keepaPackageWeightG": 412,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GX11L9DF",
@@ -121880,7 +122452,23 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "森永乳業 マミージュレ マスカット味 12ヵ月頃 パウチ 70g×6袋 | 鉄 カルシウム ビタミンD 乳酸菌入り",
+      "triageScore": 2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        87,
+        142,
+        194
+      ],
+      "keepaPackageWeightG": 520,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0HCTDZ55T",
@@ -121890,7 +122478,21 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "オーク甘露蜜使用 Honey Craft Cola はちみつクラフトコーラ 希釈用 200g 5倍希釈 スペイン産はちみつ使用",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        32,
+        236,
+        263
+      ],
+      "keepaPackageWeightG": 270,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GTLBTLKS",
@@ -122268,7 +122870,22 @@
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
+      "keepaTitle": "カルピスウォーター パウチ 300ml",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        48,
+        83,
+        152
+      ],
+      "keepaPackageWeightG": 310,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FPDM18PC",
@@ -210424,7 +211041,7 @@
     {
       "asin": "B0F18MDQX5",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
@@ -217644,7 +218261,7 @@
     {
       "asin": "B082LNZ3P1",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
@@ -217667,7 +218284,7 @@
     {
       "asin": "B08PNS587D",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
@@ -219299,7 +219916,7 @@
     {
       "asin": "B08GBRY1M3",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
@@ -552801,7 +553418,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 779,
+  "fetchedProductPageCount": 791,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -557360,6 +557977,45 @@
       "pagesChecked": 10,
       "added": 2,
       "unverifiedRange": "10ページを判定。2件を低確信度の未実測候補に追加、1件は掲載最小辺2cmで除外、7件は厚さ根拠不足で保留。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=詰め替え由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B01FTGY3QQ"
+      ],
+      "pagesChecked": 1,
+      "added": 0,
+      "unverifiedRange": "1件判定。硬いキャップと注ぎ口を現行画像で確認し除外。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=ドライフルーツ由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0F18MDQX5",
+        "B082LNZ3P1",
+        "B08PNS587D",
+        "B08GBRY1M3"
+      ],
+      "pagesChecked": 4,
+      "added": 0,
+      "unverifiedRange": "4件判定。乾燥果実3件は局所厚と発送外装寸法が不明で保留。大根おろし1件は単品形態と掲載寸法の対応が不明で保留。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=パウチ root=57239051由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0F5VXTZG4",
+        "B0F5W2SPSZ",
+        "B0F5W9HY4M",
+        "B0F5W6DSR3",
+        "B0CSWQNXQ8",
+        "B07RCFS9QY",
+        "B07RBFGQSX"
+      ],
+      "pagesChecked": 7,
+      "added": 2,
+      "unverifiedRange": "7件判定。とうもろこしフレーク単品袋2件を低確信度で追加。4件は硬いキャップで除外、1件は粒の局所厚不明で保留。"
     }
   ],
   "searchStops": [

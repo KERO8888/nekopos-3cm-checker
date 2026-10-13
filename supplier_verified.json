@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-12T20:41:57.452508+00:00",
+  "checkedAt": "2026-10-13T13:44:14.958274+00:00",
   "source": "Yahoo Shopping direct product pages, displayed Tokyo shipping",
   "scope": "Only pages with matching JAN and single-unit wording are verified; availability and prices can change.",
   "items": {
@@ -4804,6 +4804,84 @@
           "displayPoints": 77,
           "couponMentioned": false,
           "checkedAt": "2026-10-12T20:41:57.146944+00:00"
+        }
+      ]
+    },
+    "B07RCFS9QY": {
+      "expectedEans": [
+        "4580537650061"
+      ],
+      "checkedPages": 5,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 80g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ",
+          "store": "eight cat",
+          "url": "https://store.shopping.yahoo.co.jp/eight-cat-store/s-b07rcfs9qy-20260707.html",
+          "jan": "4580537650061",
+          "priceYen": 2200,
+          "inboundShippingYen": 880,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 81,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T13:44:07.801025+00:00"
+        }
+      ]
+    },
+    "B07RBFGQSX": {
+      "expectedEans": [
+        "4580537650115"
+      ],
+      "checkedPages": 5,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "BabyPotage北海道とうもろこし（スーパースイート） （40g） 【Hokkaido Pro】",
+          "store": "きらら自然食品店",
+          "url": "https://store.shopping.yahoo.co.jp/kirarasizen/0038-0-21970.html",
+          "jan": "4580537650115",
+          "priceYen": 550,
+          "inboundShippingYen": 600,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 19,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T13:44:12.342844+00:00"
+        },
+        {
+          "name": "Hokkaido Products BabyPotage（ベビーポタージュ） 北海道とうもろこし・スーパースイート／40g",
+          "store": "プレマシャンティ",
+          "url": "https://store.shopping.yahoo.co.jp/prema/mu0030724.html",
+          "jan": "4580537650115",
+          "priceYen": 594,
+          "inboundShippingYen": 600,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 20,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T13:44:14.141816+00:00"
+        },
+        {
+          "name": "BabyPotage北海道とうもろこし（スーパースイート） （40g） 【Hokkaido Pro】",
+          "store": "健康サポート専門店",
+          "url": "https://store.shopping.yahoo.co.jp/kenkousupport/0038-0-21970.html",
+          "jan": "4580537650115",
+          "priceYen": 550,
+          "inboundShippingYen": 647,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 19,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T13:44:13.117909+00:00"
+        },
+        {
+          "name": "BabyPotage北海道とうもろこし（スーパースイート） （40g） 【Hokkaido Pro】",
+          "store": "健康マイスター",
+          "url": "https://store.shopping.yahoo.co.jp/kenkoumeister/0038-0-21970.html",
+          "jan": "4580537650115",
+          "priceYen": 539,
+          "inboundShippingYen": 698,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 19,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T13:44:11.600282+00:00"
         }
       ]
     }

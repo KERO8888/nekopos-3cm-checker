@@ -73433,6 +73433,22 @@
               "source": "Yahoo search card; product/JAN/stock/shipping not verified"
             }
           ]
+        },
+        "rakuten:4582651244126": {
+          "market": "rakuten",
+          "query": "4582651244126",
+          "checkedAt": "2026-10-13T13:35:18.075302+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4582651244126/",
+          "status": "searched",
+          "firstPageHits": []
+        },
+        "yahoo:4582651244126": {
+          "market": "yahoo",
+          "query": "4582651244126",
+          "checkedAt": "2026-10-13T13:35:19.266759+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4582651244126",
+          "status": "searched",
+          "firstPageHits": []
         }
       }
     },
@@ -73699,6 +73715,22 @@
               "source": "Yahoo search card; product/JAN/stock/shipping not verified"
             }
           ]
+        },
+        "rakuten:4582651244102": {
+          "market": "rakuten",
+          "query": "4582651244102",
+          "checkedAt": "2026-10-13T13:35:25.153993+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4582651244102/",
+          "status": "searched",
+          "firstPageHits": []
+        },
+        "yahoo:4582651244102": {
+          "market": "yahoo",
+          "query": "4582651244102",
+          "checkedAt": "2026-10-13T13:35:26.245862+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4582651244102",
+          "status": "searched",
+          "firstPageHits": []
         }
       }
     },
@@ -74163,6 +74195,22 @@
               "source": "Yahoo search card; product/JAN/stock/shipping not verified"
             }
           ]
+        },
+        "rakuten:4582651245864": {
+          "market": "rakuten",
+          "query": "4582651245864",
+          "checkedAt": "2026-10-13T13:35:37.161234+00:00",
+          "status": "error",
+          "error": "HTTPError",
+          "firstPageHits": []
+        },
+        "yahoo:4582651245864": {
+          "market": "yahoo",
+          "query": "4582651245864",
+          "checkedAt": "2026-10-13T13:35:38.253594+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4582651245864",
+          "status": "searched",
+          "firstPageHits": []
         }
       }
     },
@@ -74591,6 +74639,22 @@
               "source": "Yahoo search card; product/JAN/stock/shipping not verified"
             }
           ]
+        },
+        "rakuten:4582651245857": {
+          "market": "rakuten",
+          "query": "4582651245857",
+          "checkedAt": "2026-10-13T13:35:49.333353+00:00",
+          "status": "error",
+          "error": "HTTPError",
+          "firstPageHits": []
+        },
+        "yahoo:4582651245857": {
+          "market": "yahoo",
+          "query": "4582651245857",
+          "checkedAt": "2026-10-13T13:35:50.542868+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4582651245857",
+          "status": "searched",
+          "firstPageHits": []
         }
       }
     },
@@ -74692,6 +74756,22 @@
           "query": "Tea-sy 粉末アールグレイ 88g チャック付き袋",
           "checkedAt": "2026-10-13T04:36:04.551236+00:00",
           "url": "https://shopping.yahoo.co.jp/search?p=Tea-sy+%E7%B2%89%E6%9C%AB%E3%82%A2%E3%83%BC%E3%83%AB%E3%82%B0%E3%83%AC%E3%82%A4+88g+%E3%83%81%E3%83%A3%E3%83%83%E3%82%AF%E4%BB%98%E3%81%8D%E8%A2%8B",
+          "status": "searched",
+          "firstPageHits": []
+        },
+        "rakuten:4582651245888": {
+          "market": "rakuten",
+          "query": "4582651245888",
+          "checkedAt": "2026-10-13T13:35:56.488906+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4582651245888/",
+          "status": "searched",
+          "firstPageHits": []
+        },
+        "yahoo:4582651245888": {
+          "market": "yahoo",
+          "query": "4582651245888",
+          "checkedAt": "2026-10-13T13:35:57.532022+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4582651245888",
           "status": "searched",
           "firstPageHits": []
         }
@@ -101424,7 +101504,627 @@
           "firstPageHits": []
         }
       }
+    },
+    "B07RCFS9QY": {
+      "title": "BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 80g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ",
+      "queries": {
+        "rakuten:BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 80g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ": {
+          "market": "rakuten",
+          "query": "BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 80g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ",
+          "checkedAt": "2026-10-13T13:41:47.457645+00:00",
+          "status": "error",
+          "error": "HTTPError",
+          "firstPageHits": []
+        },
+        "rakuten:4580537650061": {
+          "market": "rakuten",
+          "query": "4580537650061",
+          "checkedAt": "2026-10-13T13:41:53.575666+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4580537650061/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "『Baby Potage』 クラフト袋 80g 赤ちゃん 離乳食 フレーク ベビーフード アレルギー対応 おやつ 無添加 離乳食ギフト 初期 中期 後期 国産 北海道 野菜フレーク 野菜 じゃがいも とうもろこし にんじん かぼちゃ 出産祝い 贈り物 プレゼント 離乳食お試し 外出 6ヶ月 7ヶ月",
+              "url": "https://item.rakuten.co.jp/baby-potage/bp3/",
+              "priceYen": 1080,
+              "displayShippingYen": 360,
+              "displayPoints": 10,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 80g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ": {
+          "market": "yahoo",
+          "query": "BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 80g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ",
+          "checkedAt": "2026-10-13T13:41:55.180376+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=BabyPotage+%E3%83%99%E3%83%93%E3%83%BC%E3%83%9D%E3%82%BF%E3%83%BC%E3%82%B8%E3%83%A5+%E9%9B%A2%E4%B9%B3%E9%A3%9F+%E7%84%A1%E6%B7%BB%E5%8A%A0+%E3%81%A8%E3%81%86%E3%82%82%E3%82%8D%E3%81%93%E3%81%97+%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%88+80g+%E5%8C%97%E6%B5%B7%E9%81%93%E7%94%A3%E9%87%8E%E8%8F%9C%E4%BD%BF%E7%94%A8+5%E3%83%B6%E6%9C%88%E9%A0%83%E3%81%8B%E3%82%89+%E3%83%99%E3%83%93%E3%83%BC%E3%83%95%E3%83%BC%E3%83%89+%E3%83%91%E3%82%A6%E3%83%81",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 80g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ",
+              "url": "https://store.shopping.yahoo.co.jp/eight-cat-store/s-b07rcfs9qy-20260707.html",
+              "priceYen": 2200,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Hokkaido Products BabyPotage（ベビーポタージュ） 北海道とうもろこし・スーパースイート／40g",
+              "url": "https://store.shopping.yahoo.co.jp/prema/mu0030724.html",
+              "priceYen": 594,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "EDISONmama エジソンママ うまみそのままフレーク 【とうもろこし100g 単品】 野菜フレーク 離乳食 5ヶ月頃〜 ベビーフード 北海道産 ポタージュ 離乳食 介護食",
+              "url": "https://store.shopping.yahoo.co.jp/e-edison2/konfreke2.html",
+              "priceYen": 998,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 140,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 400,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "偏食・少食対策 鉄分 こども こんぽた 100g×1袋 離乳食完了期 1歳 国産 偏食 少食 ポイント利用 コーンスープ 赤ちゃん ポタージュ  朝食 おやつに",
+              "url": "https://store.shopping.yahoo.co.jp/sunao-syokudou/bk-corn-kids1.html",
+              "priceYen": 1980,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "EDISONmama エジソンママ うまみそのままフレーク 【とうもろこし50g 単品】 野菜フレーク 離乳食 5ヶ月頃〜 ベビーフード 北海道産 ポタージュ 離乳食 介護食",
+              "url": "https://store.shopping.yahoo.co.jp/e-edison2/konfreke.html",
+              "priceYen": 740,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "無添加こんぽた 100g 砂糖不使用 無塩 コンポタ 粉末スープ 野菜 コーン 栄養補助 離乳食 幼児食 乳幼児 偏食 野菜嫌い グルテンフリー",
+              "url": "https://store.shopping.yahoo.co.jp/maedaya/cornpota.html",
+              "priceYen": 1580,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 275,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Hokkaido Products BabyPotage（ベビーポタージュ） 北海道雪下にんじん／40g",
+              "url": "https://store.shopping.yahoo.co.jp/prema/mu0030726.html",
+              "priceYen": 594,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "BabyPotage北海道とうもろこし(スーパースイート)　40g　Hokkaido Products",
+              "url": "https://store.shopping.yahoo.co.jp/irohanoie/muso-21970.html",
+              "priceYen": 499,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Hokkaido Products ベイビーポタージュ 北海道とうもろこし プレミアムフレーク 乳幼児規格適用食品 Baby Potage 乳児用 ベビーフード ベビポタ 40g",
+              "url": "https://store.shopping.yahoo.co.jp/junmaru/5500.html",
+              "priceYen": 594,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 610,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ミルクでつくる クリーミー コーンポタージュ 3食入 スカイフード 即席 インスタント 無添加 北海道産スイートコーン",
+              "url": "https://store.shopping.yahoo.co.jp/naturel-house/3620.html",
+              "priceYen": 378,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "無添加かぼぽた 100g 砂糖不使用 無塩 カボポタ 粉末スープ 野菜 コーン 栄養補助 離乳食 幼児食 乳幼児 偏食 野菜嫌い グルテンフリー",
+              "url": "https://store.shopping.yahoo.co.jp/maedaya/kabopota.html",
+              "priceYen": 1580,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4580537650061": {
+          "market": "yahoo",
+          "query": "4580537650061",
+          "checkedAt": "2026-10-13T13:41:56.378922+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4580537650061",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 80g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ",
+              "url": "https://store.shopping.yahoo.co.jp/eight-cat-store/s-b07rcfs9qy-20260707.html",
+              "priceYen": 2200,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        }
+      }
+    },
+    "B07RBFGQSX": {
+      "title": "BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 40g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ",
+      "queries": {
+        "rakuten:BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 40g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ": {
+          "market": "rakuten",
+          "query": "BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 40g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ",
+          "checkedAt": "2026-10-13T13:42:10.027837+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/BabyPotage%20%E3%83%99%E3%83%93%E3%83%BC%E3%83%9D%E3%82%BF%E3%83%BC%E3%82%B8%E3%83%A5%20%E9%9B%A2%E4%B9%B3%E9%A3%9F%20%E7%84%A1%E6%B7%BB%E5%8A%A0%20%E3%81%A8%E3%81%86%E3%82%82%E3%82%8D%E3%81%93%E3%81%97%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%88%2040g%20%E5%8C%97%E6%B5%B7%E9%81%93%E7%94%A3%E9%87%8E%E8%8F%9C%E4%BD%BF%E7%94%A8%205%E3%83%B6%E6%9C%88%E9%A0%83%E3%81%8B%E3%82%89%20%E3%83%99%E3%83%93%E3%83%BC%E3%83%95%E3%83%BC%E3%83%89%20%E3%83%91%E3%82%A6%E3%83%81/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "★P5倍!10/1 17:00~10/31 23:59★ 【1000円ポッキリ】baby potage ベビーポタージュ ベビポタ ベビーフード 40g 単品販売 単品 離乳食 フレーク 無添加 北海道産 とうもろこし スーパースイート 雪下にんじん 越冬かぼちゃ 乳児用規格適用 野菜 赤ちゃん クラフト袋 備蓄",
+              "url": "https://item.rakuten.co.jp/sukosapo/muso-baby01r/",
+              "priceYen": 1000,
+              "displayShippingYen": 0,
+              "displayPoints": 45,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ベビーフード ベビーポタージュ 購入金額別特典あり 正規品 保存料 無添加 離乳食 Hokkaido Products BabyPotage ムソー",
+              "url": "https://item.rakuten.co.jp/mugigokoro/babypota/",
+              "priceYen": 624,
+              "displayShippingYen": 470,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "『Baby Potage』 クラフト袋 80g 赤ちゃん 離乳食 フレーク ベビーフード アレルギー対応 おやつ 無添加 離乳食ギフト 初期 中期 後期 国産 北海道 野菜フレーク 野菜 じゃがいも とうもろこし にんじん かぼちゃ 出産祝い 贈り物 プレゼント 離乳食お試し 外出 6ヶ月 7ヶ月",
+              "url": "https://item.rakuten.co.jp/baby-potage/bp3/",
+              "priceYen": 1080,
+              "displayShippingYen": 360,
+              "displayPoints": 10,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "オーガニックスムージー Holle ホレ 有機ベビースムージー 100g 購入金額別特典あり 正規品 スイス 保存料 無添加 オーガニック原料100％ 有機 砂糖・香料・保存料不使用 有機JAS EUビオ デメター認証 乳児用規格適用食品 生後6ヶ月〜 生後8ヶ月〜",
+              "url": "https://item.rakuten.co.jp/mugigokoro/holle-bs/",
+              "priceYen": 346,
+              "displayShippingYen": 470,
+              "displayPoints": 3,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "BabyPotage北海道とうもろこし(スーパースイート)　40g　Hokkaido Products",
+              "url": "https://item.rakuten.co.jp/irohanoie/muso-21970/",
+              "priceYen": 520,
+              "displayShippingYen": 758,
+              "displayPoints": 4,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Hokkaido Products BabyPotage（ベビーポタージュ） 北海道とうもろこし・スーパースイート／40g",
+              "url": "https://item.rakuten.co.jp/uzumasa/mu0030724/",
+              "priceYen": 594,
+              "displayShippingYen": 600,
+              "displayPoints": 25,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Holle ホレ 有機ベビースムージー / 全10種　ベビーフード 生後6か月から 離乳食 介護食 健康食 オーガニック パウチタイプ 有機JAS デメター認証　【 正規販売店 】【 メール便不可 】",
+              "url": "https://item.rakuten.co.jp/p-s/o002ho/",
+              "priceYen": 345,
+              "displayShippingYen": 480,
+              "displayPoints": 3,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "地球畑 ベビーフード 離乳食 有機野菜のペースト 5ヶ月 3種 ギフト 瓶 オーガニック 無添加 有機野菜 出産祝 防災 非常食 6ヶ月",
+              "url": "https://item.rakuten.co.jp/chikyubatake/babyfood-3set/",
+              "priceYen": 3180,
+              "displayShippingYen": 0,
+              "displayPoints": 29,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "BabyPotage　北海道とうもろこし(スーパースイート) 40g Hokkaido Products",
+              "url": "https://item.rakuten.co.jp/blife/mu-21970/",
+              "priceYen": 594,
+              "displayShippingYen": 530,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "BabyPotage北海道とうもろこし（スーパースイート） （40g） 【Hokkaido Pro】",
+              "url": "https://item.rakuten.co.jp/umaissu/0038-0-21970/",
+              "priceYen": 555,
+              "displayShippingYen": 600,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "BabyPotage 北海道とうもろこし (スーパースイート) 40g【Hokkaido Products】2021970-msju",
+              "url": "https://item.rakuten.co.jp/keiyushop/2021970-ms/",
+              "priceYen": 594,
+              "displayShippingYen": 770,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Hokkaido Products ベイビーポタージュ 北海道とうもろこし プレミアムフレーク 乳幼児規格適用食品 Baby Potage 乳児用 ベビーフード ベビポタ 40g",
+              "url": "https://item.rakuten.co.jp/junkura/5500/",
+              "priceYen": 594,
+              "displayShippingYen": 880,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【公式】ホレ有機ベビー スムージーペアーポニー100g(月齢8か月) ★ |HO151104 離乳食 子供 こども キッズ 子ども 赤ちゃん ベビー 栄養 ベビー フード オーガニック スムージー 砂糖不使用 保存料不使用 旅行 炭水化物",
+              "url": "https://item.rakuten.co.jp/omochabakolifestyle/ho151104/",
+              "priceYen": 345,
+              "displayShippingYen": 990,
+              "displayPoints": 3,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Hokkaido Products ベイビーポタージュ 北海道とうもろこし プレミアムフレーク 乳幼児規格適用食品 Baby Potage 乳児用 ベビーフード ベビポタ 40g",
+              "url": "https://item.rakuten.co.jp/syougayu/5500/",
+              "priceYen": 594,
+              "displayShippingYen": 880,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Disney ディズニー デザインの北海道産 Baby Potage ベビーポタージュ ベビーフード 離乳食 無添加 じゃがいも とうもろこし にんじん 野菜 赤ちゃん 出産祝い プレゼント ギフト",
+              "url": "https://item.rakuten.co.jp/giftway/shaddy2026g-3512/",
+              "priceYen": 4298,
+              "displayShippingYen": 0,
+              "displayPoints": 39,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ホレ 有機ベビースムージー / 全10種　Holle ベビーフード 生後6ヶ月〜 生後8ヶ月〜 オーガニックスムージー 離乳食 健康食 介護食 パウチタイプ 有機JAS デメター認証 【 正規販売店 】【 メール便不可 】",
+              "url": "https://item.rakuten.co.jp/famberry/o002ho/",
+              "priceYen": 342,
+              "displayShippingYen": 480,
+              "displayPoints": 3,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【公式】ホレ有機ベビー スムージーゼブラビーツ100g(月齢6か月) ★|HO150004 離乳食 子供 こども キッズ 赤ちゃん ベビー 野菜 栄養 オーガニック スムージー 砂糖不使用 保存料不使用 旅行朝ごはんビーツベビー フード",
+              "url": "https://item.rakuten.co.jp/omochabakolifestyle/ho150004/",
+              "priceYen": 345,
+              "displayShippingYen": 990,
+              "displayPoints": 3,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【公式】ホレ有機ベビー スムージーパワーパロット100g(月齢6か月) ★|HO151304 離乳食 子供 こども キッズ 赤ちゃん ベビー 野菜 栄養 オーガニック スムージー 砂糖不使用 保存料不使用 旅行初 朝ごはん",
+              "url": "https://item.rakuten.co.jp/omochabakolifestyle/ho151304/",
+              "priceYen": 345,
+              "displayShippingYen": 990,
+              "displayPoints": 3,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【公式】ホレ有機ベビー スムージーベジーバニー100g(月齢6か月) ★ |HO150404 離乳食 子供 こども キッズ 子ども赤ちゃん ベビー 野菜 栄養 オーガニック スムージー 砂糖不使用 保存料不使用 旅行 初期 朝ごはん",
+              "url": "https://item.rakuten.co.jp/omochabakolifestyle/ho150404/",
+              "priceYen": 345,
+              "displayShippingYen": 990,
+              "displayPoints": 3,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "rakuten:4580537650115": {
+          "market": "rakuten",
+          "query": "4580537650115",
+          "checkedAt": "2026-10-13T13:42:20.918871+00:00",
+          "status": "error",
+          "error": "HTTPError",
+          "firstPageHits": []
+        },
+        "yahoo:BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 40g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ": {
+          "market": "yahoo",
+          "query": "BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 40g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ",
+          "checkedAt": "2026-10-13T13:42:22.448315+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=BabyPotage+%E3%83%99%E3%83%93%E3%83%BC%E3%83%9D%E3%82%BF%E3%83%BC%E3%82%B8%E3%83%A5+%E9%9B%A2%E4%B9%B3%E9%A3%9F+%E7%84%A1%E6%B7%BB%E5%8A%A0+%E3%81%A8%E3%81%86%E3%82%82%E3%82%8D%E3%81%93%E3%81%97+%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%88+40g+%E5%8C%97%E6%B5%B7%E9%81%93%E7%94%A3%E9%87%8E%E8%8F%9C%E4%BD%BF%E7%94%A8+5%E3%83%B6%E6%9C%88%E9%A0%83%E3%81%8B%E3%82%89+%E3%83%99%E3%83%93%E3%83%BC%E3%83%95%E3%83%BC%E3%83%89+%E3%83%91%E3%82%A6%E3%83%81",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "Hokkaido Products BabyPotage（ベビーポタージュ） 北海道とうもろこし・スーパースイート／40g",
+              "url": "https://store.shopping.yahoo.co.jp/prema/mu0030724.html",
+              "priceYen": 594,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "BabyPotage北海道とうもろこし(スーパースイート)　40g　Hokkaido Products",
+              "url": "https://store.shopping.yahoo.co.jp/irohanoie/muso-21970.html",
+              "priceYen": 499,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Hokkaido Products BabyPotage（ベビーポタージュ） 北海道雪下にんじん／40g",
+              "url": "https://store.shopping.yahoo.co.jp/prema/mu0030726.html",
+              "priceYen": 594,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "EDISONmama エジソンママ うまみそのままフレーク 【とうもろこし100g 単品】 野菜フレーク 離乳食 5ヶ月頃〜 ベビーフード 北海道産 ポタージュ 離乳食 介護食",
+              "url": "https://store.shopping.yahoo.co.jp/e-edison2/konfreke2.html",
+              "priceYen": 998,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "EDISONmama エジソンママ うまみそのままフレーク 【とうもろこし50g 単品】 野菜フレーク 離乳食 5ヶ月頃〜 ベビーフード 北海道産 ポタージュ 離乳食 介護食",
+              "url": "https://store.shopping.yahoo.co.jp/e-edison2/konfreke.html",
+              "priceYen": 740,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 140,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "偏食・少食対策 鉄分 こども こんぽた 100g×1袋 離乳食完了期 1歳 国産 偏食 少食 ポイント利用 コーンスープ 赤ちゃん ポタージュ  朝食 おやつに",
+              "url": "https://store.shopping.yahoo.co.jp/sunao-syokudou/bk-corn-kids1.html",
+              "priceYen": 1980,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 400,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Hokkaido Products ベイビーポタージュ 北海道とうもろこし プレミアムフレーク 乳幼児規格適用食品 Baby Potage 乳児用 ベビーフード ベビポタ 40g",
+              "url": "https://store.shopping.yahoo.co.jp/junmaru/5500.html",
+              "priceYen": 594,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 275,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "無添加こんぽた 100g 砂糖不使用 無塩 コンポタ 粉末スープ 野菜 コーン 栄養補助 離乳食 幼児食 乳幼児 偏食 野菜嫌い グルテンフリー",
+              "url": "https://store.shopping.yahoo.co.jp/maedaya/cornpota.html",
+              "priceYen": 1580,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 610,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4580537650115": {
+          "market": "yahoo",
+          "query": "4580537650115",
+          "checkedAt": "2026-10-13T13:42:23.599725+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4580537650115",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "BabyPotage　北海道とうもろこし(スーパースイート)　40g　Hokkaido Products",
+              "url": "https://store.shopping.yahoo.co.jp/blife/mu-21970.html",
+              "priceYen": 594,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Hokkaido Products ベイビーポタージュ 北海道とうもろこし プレミアムフレーク 乳幼児規格適用食品 Baby Potage 乳児用 ベビーフード ベビポタ 40g",
+              "url": "https://store.shopping.yahoo.co.jp/junmaru/5500.html",
+              "priceYen": 594,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Hokkaido Products BabyPotage（ベビーポタージュ） 北海道とうもろこし・スーパースイート／40g",
+              "url": "https://store.shopping.yahoo.co.jp/prema/mu0030724.html",
+              "priceYen": 594,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "BabyPotage北海道とうもろこし（スーパースイート） （40g） 【Hokkaido Pro】",
+              "url": "https://store.shopping.yahoo.co.jp/kenkoumeister/0038-0-21970.html",
+              "priceYen": 539,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "野菜フレーク Baby Potage ベビポタ 北海道とうもろこし（スーパーイースト）（40g） Hokkaido Pro",
+              "url": "https://store.shopping.yahoo.co.jp/shizenkan/ms21970.html",
+              "priceYen": 594,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "BabyPotage北海道とうもろこし（スーパースイート） （40g） 【Hokkaido Pro】",
+              "url": "https://store.shopping.yahoo.co.jp/kirarasizen/0038-0-21970.html",
+              "priceYen": 550,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Hokkaido Products BabyPotage北海道とうもろこし(スーパースイート) 40g",
+              "url": "https://store.shopping.yahoo.co.jp/hikwsi-powata/ms21970.html",
+              "priceYen": 594,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "BabyPotage北海道とうもろこし（スーパースイート） （40g） 【Hokkaido Pro】",
+              "url": "https://store.shopping.yahoo.co.jp/kenkousupport/0038-0-21970.html",
+              "priceYen": 550,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "BabyPotage 北海道とうもろこし (スーパースイート)  40ｇ (Hokkaido Products)  2021970-msju",
+              "url": "https://store.shopping.yahoo.co.jp/keiyudo-shop/2021970-ms.html",
+              "priceYen": 594,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Hokkaido Products BabyPotage 北海道とうもろこし(スーパースイート) 40g ×1個",
+              "url": "https://store.shopping.yahoo.co.jp/daiyastore/muso-376501150770mo21970.html",
+              "priceYen": 770,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "北海道とうもろこし PREMIUM/40g【Hokkaido Products】 Hokkaido made Baby Potage",
+              "url": "https://store.shopping.yahoo.co.jp/kenyu-kan/21970.html",
+              "priceYen": 594,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "BabyPotage（ベビーポタージュ） 離乳食 無添加 とうもろこし スーパースイート 40g｜北海道産野菜使用｜頃から｜ベビーフー",
+              "url": "https://store.shopping.yahoo.co.jp/pure1-shop/20260211004418-01466.html",
+              "priceYen": 1192,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        }
+      }
     }
   },
-  "checkedAt": "2026-10-13T12:33:39.322256+00:00"
+  "checkedAt": "2026-10-13T13:42:23.599736+00:00"
 }

@@ -5494,6 +5494,186 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71psBzLLaiL._AC_SL1500_.jpg",
       "reviewStatus": "hold_chunk_thickness_unverified",
       "decisionReason": "50gの乾燥果実片だが袋幅が狭く、果実片の局所厚と外装を含む最大厚が不明。"
+    },
+    {
+      "asin": "B01FTGY3QQ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B01FTGY3QQ",
+      "title": "ラボン(Lavons) 柔軟剤 大容量 詰め替え シャイニームーン[フローラルグリーン]の香り 960ml",
+      "dimensions": [
+        {
+          "value": "26.3 x 16 x 6.4 cm",
+          "context": "       :\n                                            ‎ 26.3 x 16 x 6.4 cm; 960 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71FcgJRKarL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_cap_or_spout",
+      "decisionReason": "現行主画像で硬い斜め注ぎ口とねじ式キャップを確認。"
+    },
+    {
+      "asin": "B0F18MDQX5",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F18MDQX5",
+      "title": "アスザックフーズ フリーズドライ 大根おろし 4.9g [水を加えて1分で完成]",
+      "dimensions": [
+        {
+          "value": "24.1 x 11.9 x 8 cm",
+          "context": "       :\n                                            ‎ 24.1 x 11.9 x 8 cm; 130 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71elXD1qGPL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_current_page_variant_differs_from_keepa",
+      "decisionReason": "Amazonタイトルは4.9gだが掲載梱包重量130g・厚8cmで単品袋との対応が不明。主画像だけでは現行の単品形態を確定できない。"
+    },
+    {
+      "asin": "B082LNZ3P1",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B082LNZ3P1",
+      "title": "フリーズドライ マンゴー(ダイスカット サイズ:5mm) 添加物不使用 砂糖不使用 無添加 カット フルーツ くだもの 製菓 (200g)",
+      "dimensions": [
+        {
+          "value": "31.3 x 23 x 6.1 cm",
+          "context": "       :\n                                            ‎ 31.3 x 23 x 6.1 cm; 200 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/511nMGlQugL._AC_SL1000_.jpg",
+      "reviewStatus": "hold_chunk_thickness_unverified",
+      "decisionReason": "200gの5mm果実片。掲載袋面31.3×23cmは梱包寸法の可能性があり、3辺合計60cmに収まる外装余白と果実片の局所厚が未確認。"
+    },
+    {
+      "asin": "B08PNS587D",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B08PNS587D",
+      "title": "フリーズドライ イチゴ 200g (ダイスカット 【サイズ:8mm】) 添加物不使用 無添加 カット フルーツ くだもの 苺 いちご 製菓用 お菓子作り",
+      "dimensions": [
+        {
+          "value": "31 x 23.4 x 4 cm",
+          "context": "       :\n                                            ‎ 31 x 23.4 x 4 cm; 240 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51opvCGHy4L._AC_SL1000_.jpg",
+      "reviewStatus": "hold_chunk_thickness_unverified",
+      "decisionReason": "200gの8mm果実片。平置き時の局所厚と大きい袋面に対する発送外装の余白が未確認。"
+    },
+    {
+      "asin": "B08GBRY1M3",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B08GBRY1M3",
+      "title": "フリーズドライ パイン (ダイスカット サイズ:5mm) 添加物不使用 無添加 パイナップル カット フルーツ くだもの 製菓 (200g)",
+      "dimensions": [
+        {
+          "value": "31.1 x 23 x 5.5 cm",
+          "context": "       :\n                                            ‎ 31.1 x 23 x 5.5 cm; 240 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51vA5amH7ZL._AC_SL1000_.jpg",
+      "reviewStatus": "hold_chunk_thickness_unverified",
+      "decisionReason": "200gの5mm果実片。掲載袋面31.1×23cmは梱包寸法の可能性があり、3辺合計60cmに収まる外装余白と果実片の局所厚が未確認。"
+    },
+    {
+      "asin": "B0F5VXTZG4",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F5VXTZG4",
+      "title": "森永乳業 はじめてのベビーフード 緑黄色野菜とさつまいも 70g×1袋 5ヵ月頃 パウチ",
+      "dimensions": [
+        {
+          "value": "13 x 9.2 x 3.7 cm",
+          "context": "       :\n                                            ‎ 13 x 9.2 x 3.7 cm; 80 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61tFnqoN3BL._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_rigid_cap_or_spout",
+      "decisionReason": "現行主画像にねじ式の硬いキャップと注ぎ口。"
+    },
+    {
+      "asin": "B0F5W2SPSZ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F5W2SPSZ",
+      "title": "森永乳業 はじめてのベビーフード ぶどうとりんご 70g×1袋 5ヵ月頃 パウチ",
+      "dimensions": [
+        {
+          "value": "12.9 x 7.7 x 3.4 cm",
+          "context": "       :\n                                            ‎ 12.9 x 7.7 x 3.4 cm; 80 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61r2MRNxqGL._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_rigid_cap_or_spout",
+      "decisionReason": "現行主画像にねじ式の硬いキャップと注ぎ口。"
+    },
+    {
+      "asin": "B0F5W9HY4M",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F5W9HY4M",
+      "title": "森永乳業 オーガニックのベビーフード りんごとにんじん 70g×1袋 有機JAS認証 5ヵ月頃 パウチ",
+      "dimensions": [
+        {
+          "value": "13 x 7.6 x 3.1 cm",
+          "context": "       :\n                                            ‎ 13 x 7.6 x 3.1 cm; 50 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61e01sPrpML._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_rigid_cap_or_spout",
+      "decisionReason": "現行主画像にねじ式の硬いキャップと注ぎ口。"
+    },
+    {
+      "asin": "B0F5W6DSR3",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F5W6DSR3",
+      "title": "森永乳業 オーガニックのベビーフード にんじんとぶどう 70g×1袋 有機JAS認証 5ヵ月頃 パウチ",
+      "dimensions": [
+        {
+          "value": "13.4 x 7.5 x 3.2 cm",
+          "context": "       :\n                                            ‎ 13.4 x 7.5 x 3.2 cm; 80 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61fXVyh6XIL._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_rigid_cap_or_spout",
+      "decisionReason": "現行主画像にねじ式の硬いキャップと注ぎ口。"
+    },
+    {
+      "asin": "B0CSWQNXQ8",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CSWQNXQ8",
+      "title": "明治 アポロシンプル包装大容量パウチ 226ｇ",
+      "dimensions": [
+        {
+          "value": "14.5 x 13 x 4.9 cm",
+          "context": "       :\n                                            ‎ 14.5 x 13 x 4.9 cm; 226 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71+VApgR+XL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_piece_peak_thickness_unverified",
+      "decisionReason": "226gの円錐形チョコレート162粒。袋面が約14.5×13cmと狭く、未開封で一層に広げられるかと粒の局所厚が不明。"
+    },
+    {
+      "asin": "B07RCFS9QY",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B07RCFS9QY",
+      "title": "BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 80g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ",
+      "dimensions": [
+        {
+          "value": "12 x 3.3 x 20 cm",
+          "context": "       :\n                                            ‎ 12 x 3.3 x 20 cm; 80 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61+fCEuuM4L._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "単品の柔らかいクラフト袋で硬いキャップ・付属品なし。フレークを未開封のまま均せる。掲載最小辺3cm超。商品袋の寸法と発送外装込み最大厚は未測定のため低確信度。"
+    },
+    {
+      "asin": "B07RBFGQSX",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B07RBFGQSX",
+      "title": "BabyPotage ベビーポタージュ 離乳食 無添加 とうもろこし スーパースイート 40g 北海道産野菜使用 5ヶ月頃から ベビーフード パウチ",
+      "dimensions": [
+        {
+          "value": "19.4 x 10.4 x 4.6 cm",
+          "context": "       :\n                                            ‎ 19.4 x 10.4 x 4.6 cm; 50 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61gf38H6ieL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "単品の柔らかいクラフト袋で硬いキャップ・付属品なし。フレークを未開封のまま均せる。掲載最小辺3cm超。商品袋の寸法と発送外装込み最大厚は未測定のため低確信度。"
     }
   ]
 }

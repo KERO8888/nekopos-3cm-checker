@@ -2653,7 +2653,92 @@
         "identifier_unconfirmed": 0
       },
       "suppliers": []
+    },
+    "B07RCFS9QY": {
+      "expectedEans": [
+        "4580537650061"
+      ],
+      "checkedPages": 1,
+      "cumulativeCheckedPages": 1,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 1,
+      "rejected": {
+        "jan_missing": 1,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": []
+    },
+    "B07RBFGQSX": {
+      "expectedEans": [
+        "4580537650115"
+      ],
+      "checkedPages": 5,
+      "cumulativeCheckedPages": 5,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 6,
+      "rejected": {
+        "jan_missing": 1,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "BabyPotage北海道とうもろこし（スーパースイート） （40g） 【Hokkaido Pro】",
+          "storeName": "うまいっす",
+          "jan": "4580537650115",
+          "priceYen": 555,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T13:43:03.382115+00:00",
+          "url": "https://item.rakuten.co.jp/umaissu/0038-0-21970/",
+          "store": "うまいっす",
+          "inboundShippingYen": 600,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "Hokkaido Products BabyPotage（ベビーポタージュ） 北海道とうもろこし・スーパースイート／40g",
+          "storeName": "京都太秦しぜんむら",
+          "jan": "4580537650115",
+          "priceYen": 594,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T13:42:52.823659+00:00",
+          "url": "https://item.rakuten.co.jp/uzumasa/mu0030724/",
+          "store": "京都太秦しぜんむら",
+          "inboundShippingYen": 600,
+          "displayPoints": 25,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "BabyPotage 北海道とうもろこし (スーパースイート) 40ｇ【Hokkaido Products】2021970-msju",
+          "storeName": "奈良恵友堂",
+          "jan": "4580537650115",
+          "priceYen": 594,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T13:43:24.549366+00:00",
+          "url": "https://item.rakuten.co.jp/keiyushop/2021970-ms/",
+          "store": "奈良恵友堂",
+          "inboundShippingYen": 770,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "Hokkaido Products ベイビーポタージュ 北海道とうもろこし プレミアムフレーク 乳幼児規格適用食品 Baby Potage 乳児用 ベビーフード ベビポタ 40g",
+          "storeName": "蔵の守　楽天市場店",
+          "jan": "4580537650115",
+          "priceYen": 594,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T13:43:35.086108+00:00",
+          "url": "https://item.rakuten.co.jp/junkura/5500/",
+          "store": "蔵の守　楽天市場店",
+          "inboundShippingYen": 880,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-13T12:33:53.668302+00:00"
+  "checkedAt": "2026-10-13T13:43:35.392312+00:00"
 }
