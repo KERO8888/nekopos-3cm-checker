@@ -2640,7 +2640,20 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B0GL1QH265": {
+      "expectedEans": [
+        "4580228414705"
+      ],
+      "checkedPages": 0,
+      "cumulativeCheckedPages": 0,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 0,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": []
     }
   },
-  "checkedAt": "2026-10-13T11:40:49.376775+00:00"
+  "checkedAt": "2026-10-13T12:33:53.668302+00:00"
 }

@@ -55,6 +55,8 @@ FORM_SOURCES = {
     'B0CH9WRNZH': 'https://rishiria-furel.com/conditioner.html',
     'B0DBGTTJBG': 'https://www.lotte.co.jp/products/catalogue/gum/04/',
     'B0DBGVRZ5X': 'https://www.lotte.co.jp/products/catalogue/gum/04/',
+    'B09CYRLN56': 'https://www.so-suke.jp/shopdetail/000000000161/rakubeji/page1/order/',
+    'B0GL1QH265': 'https://item.rakuten.co.jp/yanagiyacharaku/g-fd-37/',
 }
 
 FISH_SINKING = set('B07BBMLGVJ B01GTF98OS B00KPASQ3S B0CVKL9BVN B0H9PFGNS3 B003YKUI32 B078YW4HYG B01FJ2IYN8 B01FEUZPUK B01FEULQK8 B0015XNJ04'.split())
@@ -85,6 +87,8 @@ DENSITIES = {
     '錠剤・カプセル': (0.45, 0.75, None),
     '食品粉末': (0.35, 0.65, None),
     '食品の細片・粒': (0.25, 0.60, None),
+    '乾燥野菜の細片': (0.12, 0.35, None),
+    '乾燥果実の小粒': (0.10, 0.30, None),
     # Screening assumption for dense, individually unwrapped chewing-gum pieces.
     # Product-specific bulk density and sealed-pack peak thickness remain unmeasured.
     'ガム粒': (0.45, 0.75, None),
@@ -181,6 +185,8 @@ def dimensions_of(item):
 def material_of(item):
     asin = item['asin']
     title = item['title']
+    if asin == 'B09CYRLN56': return '乾燥野菜の細片'
+    if asin == 'B0GL1QH265': return '乾燥果実の小粒'
     if asin in ('B0B39FT7CK', 'B0FG2KW13J'): return '食品の細片・粒'
     if asin in ('B0DBGTTJBG', 'B0DBGVRZ5X'): return 'ガム粒'
     if asin in FISH_SINKING: return '沈下性の魚用粒'

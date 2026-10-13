@@ -63952,6 +63952,51 @@
               "source": "Yahoo search card; product/JAN/stock/shipping not verified"
             }
           ]
+        },
+        "rakuten:4978530550776": {
+          "market": "rakuten",
+          "query": "4978530550776",
+          "checkedAt": "2026-10-13T12:25:47.975947+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4978530550776/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "【公式】IFMEスキンケア かみ・からだシャンプー400mL 詰め替え用 シャンプー 頭 からだ 全身 赤ちゃん ベビー 新生児 子ども 子ども用 子供 キッズ 保湿 乳液 乾燥肌 無添加 無香料 敏感肌 低刺激 ベビースキンケア 新生児からOK 無添加",
+              "url": "https://item.rakuten.co.jp/ifme-skincare/ifme_shampoo_refill/",
+              "priceYen": 1930,
+              "displayShippingYen": 0,
+              "displayPoints": 17,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4978530550776": {
+          "market": "yahoo",
+          "query": "4978530550776",
+          "checkedAt": "2026-10-13T12:25:49.516046+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4978530550776",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "IFMEスキンケア かみ・からだシャンプー つめかえ用 400mL 公式 ボトル シャンプー 頭 からだ 全身 赤ちゃん ベビー 新生児 子ども キッズ 保湿 乳液 IFSS776",
+              "url": "https://store.shopping.yahoo.co.jp/ifme-official/ifss776.html",
+              "priceYen": 1870,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【さわやかサボンの香り】IFME 子供シャンプー 全身 泡タイプ 保湿 赤ちゃん 敏感肌 無添加 国産 新生児 キッズ 詰め替え 400ml",
+              "url": "https://store.shopping.yahoo.co.jp/harenohi77/b0cggqntcl.html",
+              "priceYen": 2500,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
         }
       }
     },
@@ -64311,6 +64356,60 @@
               "title": "IFME イフミー ボディミルク インバスボディミルク 300ml 1個 日本製 スキンケア  乾燥対策 保湿 ワセリン配合 グリセリン配合 弱酸性 爆買",
               "url": "https://store.shopping.yahoo.co.jp/granire/ifme-002.html",
               "priceYen": 2200,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "rakuten:4978530550738": {
+          "market": "rakuten",
+          "query": "4978530550738",
+          "checkedAt": "2026-10-13T12:25:55.485467+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4978530550738/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "【公式】IFMEスキンケア ボディミルク 詰め替え 250ml ボディクリーム 赤ちゃん ベビー 新生児 子ども 子ども用 子供用 キッズ ベビーミルク 保湿クリーム 乳液 乾燥肌 無添加 無香料 乾燥肌 敏感肌 ベビークリーム ボディークリーム 新生児からOK 無添加",
+              "url": "https://item.rakuten.co.jp/ifme-skincare/ifme_bodymilk_refill/",
+              "priceYen": 2050,
+              "displayShippingYen": 0,
+              "displayPoints": 18,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4978530550738": {
+          "market": "yahoo",
+          "query": "4978530550738",
+          "checkedAt": "2026-10-13T12:25:56.695838+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4978530550738",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "IFMEスキンケア インバスボディミルク つめかえ用 250mL 公式 ボディクリーム 赤ちゃん ベビー 新生児 子ども キッズ 保湿クリーム ベビーミルク 保湿 IFSM738",
+              "url": "https://store.shopping.yahoo.co.jp/ifme-official/ifsm738.html",
+              "priceYen": 1760,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イフミー ボディミルク ifme IFME イフミー インバスボディミルク 詰替 250ml 1個 ボディクリーム インバス 爆買",
+              "url": "https://store.shopping.yahoo.co.jp/granire/ifme-005.html",
+              "priceYen": 1760,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "IFME ベビーミルクローション 高保湿 赤ちゃん 保湿クリーム 乳液 敏感肌 無添加無香料 国産 新生児 キッズ 乾燥肌 詰め替え 250ml",
+              "url": "https://store.shopping.yahoo.co.jp/harenohi77/b09wy1f29r.html",
+              "priceYen": 2620,
               "displayShippingYen": null,
               "displayPoints": null,
               "couponMentioned": false,
@@ -68244,6 +68343,42 @@
               "title": "おきなわ黒糖紅茶 沖縄 黒糖 こくとう 紅茶 ティー ホット アイス お土産 インスタント 水出し アイスティー ミルクティー 顆粒 トロピカル スティック",
               "url": "https://store.shopping.yahoo.co.jp/rfos/rfo0898.html",
               "priceYen": 500,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "rakuten:4580228411308": {
+          "market": "rakuten",
+          "query": "4580228411308",
+          "checkedAt": "2026-10-13T12:26:02.706375+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4580228411308/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "【メール便送料無料】 パウティー トロピカルティー 無糖 250g 1袋 インスタントティー 紅茶 マンゴー フルーツ お茶 粉茶 粉末 パウダー ポーション ギフト POWTEA | インスタント 大容量 フルーツティー インスタント茶 粉末茶 簡単 トロピカル 来客 水筒用 ホットティー",
+              "url": "https://item.rakuten.co.jp/yanagiyacharaku/d-te-16/",
+              "priceYen": 1980,
+              "displayShippingYen": 0,
+              "displayPoints": 18,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4580228411308": {
+          "market": "yahoo",
+          "query": "4580228411308",
+          "checkedAt": "2026-10-13T12:26:03.831648+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4580228411308",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "パウティー トロピカルティー 無糖 250g 【紅茶パウダー】 【インスタントティー】 【粉末茶】 【マンゴー】 【ティーバッグ不要】",
+              "url": "https://store.shopping.yahoo.co.jp/eight-cat-store/s-b07vzf8zrj-20260707.html",
+              "priceYen": 2938,
               "displayShippingYen": null,
               "displayPoints": null,
               "couponMentioned": false,
@@ -72489,6 +72624,22 @@
               "source": "Yahoo search card; product/JAN/stock/shipping not verified"
             }
           ]
+        },
+        "rakuten:4562347824115": {
+          "market": "rakuten",
+          "query": "4562347824115",
+          "checkedAt": "2026-10-13T12:26:09.796170+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4562347824115/",
+          "status": "searched",
+          "firstPageHits": []
+        },
+        "yahoo:4562347824115": {
+          "market": "yahoo",
+          "query": "4562347824115",
+          "checkedAt": "2026-10-13T12:26:10.831152+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4562347824115",
+          "status": "searched",
+          "firstPageHits": []
         }
       }
     },
@@ -72875,6 +73026,42 @@
               "title": "しじみだしの素 顆粒 100g 前田家 シジミだし 出汁 蜆 味噌汁 みそ汁 スープ ラーメン チャーハン 汁物 オルニチン",
               "url": "https://store.shopping.yahoo.co.jp/maedaya/sizimidasi-1.html",
               "priceYen": 868,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "rakuten:4589875643575": {
+          "market": "rakuten",
+          "query": "4589875643575",
+          "checkedAt": "2026-10-13T12:26:16.846546+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4589875643575/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "【セール限定 10％OFFクーポン有】前田家 完全無添加 鶏スープだし 粉末タイプ 国産 無塩 特許製法 離乳食 減塩食 減塩 ベーススープ 離乳食 化学調味料 酵母エキス グルテンフリー 醤油不使用 MAEDAYA 1000円ポッキリ 送料無料",
+              "url": "https://item.rakuten.co.jp/maedayahonpo/torisoup-kona-100/",
+              "priceYen": 1000,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": true,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4589875643575": {
+          "market": "yahoo",
+          "query": "4589875643575",
+          "checkedAt": "2026-10-13T12:26:18.025776+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4589875643575",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "だし 完全無添加 鶏スープだし 粉末タイプ 100g 前田家 国産原料 無塩 特許製法 スープ 離乳食 化学調味料 酵母エキス グルテンフリー",
+              "url": "https://store.shopping.yahoo.co.jp/maedaya/torisoup-kona-100.html",
+              "priceYen": 1780,
               "displayShippingYen": null,
               "displayPoints": null,
               "couponMentioned": false,
@@ -100953,7 +101140,291 @@
           ]
         }
       }
+    },
+    "B09CYRLN56": {
+      "title": "山下屋荘介 私の楽ベジ 乾燥ごぼう (80g/国産/国内製造) きんぴらごぼう 干しごぼう フリーズドライ 時短調理 常備菜 非常食",
+      "queries": {
+        "rakuten:山下屋荘介 私の楽ベジ 乾燥ごぼう (80g/国産/国内製造) きんぴらごぼう 干しごぼう フリーズドライ 時短調理 常備菜 非常食": {
+          "market": "rakuten",
+          "query": "山下屋荘介 私の楽ベジ 乾燥ごぼう (80g/国産/国内製造) きんぴらごぼう 干しごぼう フリーズドライ 時短調理 常備菜 非常食",
+          "checkedAt": "2026-10-13T12:33:13.326932+00:00",
+          "status": "error",
+          "error": "HTTPError",
+          "firstPageHits": []
+        },
+        "yahoo:山下屋荘介 私の楽ベジ 乾燥ごぼう (80g/国産/国内製造) きんぴらごぼう 干しごぼう フリーズドライ 時短調理 常備菜 非常食": {
+          "market": "yahoo",
+          "query": "山下屋荘介 私の楽ベジ 乾燥ごぼう (80g/国産/国内製造) きんぴらごぼう 干しごぼう フリーズドライ 時短調理 常備菜 非常食",
+          "checkedAt": "2026-10-13T12:33:14.749520+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=%E5%B1%B1%E4%B8%8B%E5%B1%8B%E8%8D%98%E4%BB%8B+%E7%A7%81%E3%81%AE%E6%A5%BD%E3%83%99%E3%82%B8+%E4%B9%BE%E7%87%A5%E3%81%94%E3%81%BC%E3%81%86+%2880g%2F%E5%9B%BD%E7%94%A3%2F%E5%9B%BD%E5%86%85%E8%A3%BD%E9%80%A0%29+%E3%81%8D%E3%82%93%E3%81%B4%E3%82%89%E3%81%94%E3%81%BC%E3%81%86+%E5%B9%B2%E3%81%97%E3%81%94%E3%81%BC%E3%81%86+%E3%83%95%E3%83%AA%E3%83%BC%E3%82%BA%E3%83%89%E3%83%A9%E3%82%A4+%E6%99%82%E7%9F%AD%E8%AA%BF%E7%90%86+%E5%B8%B8%E5%82%99%E8%8F%9C+%E9%9D%9E%E5%B8%B8%E9%A3%9F",
+          "status": "searched",
+          "firstPageHits": []
+        }
+      }
+    },
+    "B0GL1QH265": {
+      "title": "フリーズドライ ラズベリー 粒サイズ2～3mm 20g お試しサイズ 無添加 砂糖不使用 フランボワーズ 製菓材料 トッピング",
+      "queries": {
+        "rakuten:フリーズドライ ラズベリー 粒サイズ2～3mm 20g お試しサイズ 無添加 砂糖不使用 フランボワーズ 製菓材料 トッピング": {
+          "market": "rakuten",
+          "query": "フリーズドライ ラズベリー 粒サイズ2～3mm 20g お試しサイズ 無添加 砂糖不使用 フランボワーズ 製菓材料 トッピング",
+          "checkedAt": "2026-10-13T12:33:25.763974+00:00",
+          "status": "error",
+          "error": "HTTPError",
+          "firstPageHits": []
+        },
+        "rakuten:4580228414705": {
+          "market": "rakuten",
+          "query": "4580228414705",
+          "checkedAt": "2026-10-13T12:33:36.731915+00:00",
+          "status": "error",
+          "error": "HTTPError",
+          "firstPageHits": []
+        },
+        "yahoo:フリーズドライ ラズベリー 粒サイズ2～3mm 20g お試しサイズ 無添加 砂糖不使用 フランボワーズ 製菓材料 トッピング": {
+          "market": "yahoo",
+          "query": "フリーズドライ ラズベリー 粒サイズ2～3mm 20g お試しサイズ 無添加 砂糖不使用 フランボワーズ 製菓材料 トッピング",
+          "checkedAt": "2026-10-13T12:33:38.285879+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=%E3%83%95%E3%83%AA%E3%83%BC%E3%82%BA%E3%83%89%E3%83%A9%E3%82%A4+%E3%83%A9%E3%82%BA%E3%83%99%E3%83%AA%E3%83%BC+%E7%B2%92%E3%82%B5%E3%82%A4%E3%82%BA2%EF%BD%9E3mm+20g+%E3%81%8A%E8%A9%A6%E3%81%97%E3%82%B5%E3%82%A4%E3%82%BA+%E7%84%A1%E6%B7%BB%E5%8A%A0+%E7%A0%82%E7%B3%96%E4%B8%8D%E4%BD%BF%E7%94%A8+%E3%83%95%E3%83%A9%E3%83%B3%E3%83%9C%E3%83%AF%E3%83%BC%E3%82%BA+%E8%A3%BD%E8%8F%93%E6%9D%90%E6%96%99+%E3%83%88%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "フリーズドライフルーツ フリーズドライ ラズベリー 200g ( 粒 サイズ:2~3mm ) くだもの トッピング パウティー POWTEA 果物 フルーツ お菓子",
+              "url": "https://store.shopping.yahoo.co.jp/yanagiya-charaku/g-fd-17.html",
+              "priceYen": 3980,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "フリーズドライフルーツ フリーズドライ ラズベリー 60g ( 粒 サイズ:2〜3mm ) フルーツ 果実 果肉 果物 トッピング POWTEA 無添加 お菓子",
+              "url": "https://store.shopping.yahoo.co.jp/yanagiya-charaku/g-fd-47.html",
+              "priceYen": 2300,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "フリーズドライ ラズベリー果実パウダー 40g 添加物不使用 フランボワーズパウダー 製菓材料 粉末 トッピング",
+              "url": "https://store.shopping.yahoo.co.jp/yanagiya-charaku/p-fd-17.html",
+              "priceYen": 1680,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "フリーズドライ フランボワーズ（ホール）20g（木苺 ラズベリー フランボワーズホール）",
+              "url": "https://store.shopping.yahoo.co.jp/hanshoya/211-1547.html",
+              "priceYen": 1220,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ドライフルーツ ドライラズベリー フランボワーズ オレゴン産 500g 香りと酸味がよい ラズベリー 木苺 爆買",
+              "url": "https://store.shopping.yahoo.co.jp/kojima-ya/f-08-02.html",
+              "priceYen": 6580,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "フリーズドライ フランボワーズ（パウダー）20g（木苺 ラズベリー フランボワーズパウダー）",
+              "url": "https://store.shopping.yahoo.co.jp/hanshoya/211-2667.html",
+              "priceYen": 1530,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "フルーツクランチ フランボワーズ（ラズベリー）20ｇ クランチ  製菓 材料 トッピング ケーキ アイス デザート パフェ ラズベリー  トッピング",
+              "url": "https://store.shopping.yahoo.co.jp/ultramix/4996090561155.html",
+              "priceYen": 410,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ドライフルーツ ドライラズベリー フランボワーズ オレゴン産 200g 香りと酸味がよい ラズベリー 木苺 爆買",
+              "url": "https://store.shopping.yahoo.co.jp/kojima-ya/f-08-01.html",
+              "priceYen": 3020,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "cotta フリーズドライ ラズベリークリスピー 20g",
+              "url": "https://store.shopping.yahoo.co.jp/cotta/027808.html",
+              "priceYen": 886,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラズベリー 冷凍 バラ 送料無料 1kgパック 栽培期間中農薬不使用 無添加・無着色 国産  木苺 キイチゴ フランボワーズ  冷凍フルーツ",
+              "url": "https://store.shopping.yahoo.co.jp/gurumedoori/raspberry-bara-1kg.html",
+              "priceYen": 8710,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "フリーズドライパウダー ラズベリー / 3g【 富澤商店 公式 】",
+              "url": "https://store.shopping.yahoo.co.jp/tomizawa/02087800.html",
+              "priceYen": 147,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "（冷凍）青森県産農薬・化学肥料不使用冷凍国産ラズベリー（フランボワーズ）果実（特別栽培）サイズ混合約500g（500gx1)国産",
+              "url": "https://store.shopping.yahoo.co.jp/hinetshop/rb-5.html",
+              "priceYen": 4800,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "フルーツクランチ フランボワーズ（ラズベリー）100ｇ 製菓 材料 トッピング ケーキ アイス デザート パフェ ラズベリー",
+              "url": "https://store.shopping.yahoo.co.jp/ultramix/4996090569823.html",
+              "priceYen": 1458,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "冷凍 業務用 ピューレ フランボワーズ 木苺 いちご ラズベリー ボワロン 大容量 お得用 製菓材料 お菓子作り デザート アイス",
+              "url": "https://store.shopping.yahoo.co.jp/fuji-s/7004004599.html",
+              "priceYen": 4250,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "100％ラズベリー　フリーズドライラズベリーフレーク300G(業務用)",
+              "url": "https://store.shopping.yahoo.co.jp/yamakawa-syokuhinn/yt015rb300.html",
+              "priceYen": 3580,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "フランボワーズ（ラズベリー）パウダークランチ 20グラム (x 1)",
+              "url": "https://store.shopping.yahoo.co.jp/jo-5butya/b0027g89j4.html",
+              "priceYen": 3278,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラズベリー ナチュラル ラズベリー濃縮エキス250g パウチ ラズベリー100% 9倍濃縮 ラズベリージュース 木苺 フランボワーズ エラグ酸",
+              "url": "https://store.shopping.yahoo.co.jp/hands/rasp-ju250-p.html",
+              "priceYen": 1936,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "フランボワーズパウダー ラズベリー 100g フランボワーズ粉末 スプレードライパウダー ポーランド産 果汁 ヨーグルト スムージー ジュース お菓子作り 材料",
+              "url": "https://store.shopping.yahoo.co.jp/como-nomo/framboisepowder.html",
+              "priceYen": 2500,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ドライフルーツ ギフト ミックス 砂糖不使用 フリーズドライ フルセレ MIXベリー 無添加 専門店 贈り物 美容 美肌 健康",
+              "url": "https://store.shopping.yahoo.co.jp/sanko-hc/10000080.html",
+              "priceYen": 3240,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "フルーツクランチ ラズベリー ドライフルーツ パイオニア企画 20g 製パン材料 製菓材料 お菓子材料 お菓子レシピ バレンタイン",
+              "url": "https://store.shopping.yahoo.co.jp/curinomi/86645-981.html",
+              "priceYen": 457,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ドライフルーツ ギフト ミックス 砂糖不使用 フリーズドライ フルセレ ストロベリーナイト 無添加 専門店 贈り物 美容 美肌 健康",
+              "url": "https://store.shopping.yahoo.co.jp/sanko-hc/10000080-2.html",
+              "priceYen": 3240,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラズベリー ナチュラル ラズベリー濃縮エキス250g 瓶 ラズベリー100% 9倍濃縮 ラズベリージュース 木苺 フランボワーズ エラグ酸",
+              "url": "https://store.shopping.yahoo.co.jp/hands/rasp-ju250-g.html",
+              "priceYen": 3980,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラズベリーバニラシャーベット フランス産ラズベリーピューレ使用 2L 国産 フランス産 レンジ 大容量 業務用 果汁果肉38% 木苺 フランボワーズ ソルベ",
+              "url": "https://store.shopping.yahoo.co.jp/etsusui2/gelato-ss-yuzusharbet.html",
+              "priceYen": 1999,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【KIMONO FRUITS】 冷凍 ラズベリー 1kg（1000ｇ）（セルビア産、チリ産など） 砂糖不使用 フランボワーズ バラ凍結 業務用 スムージー ジャム お菓子作り",
+              "url": "https://store.shopping.yahoo.co.jp/noruca-market/z6z9s92p11.html",
+              "priceYen": 3580,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラズベリー（木苺・フランボワーズ）",
+              "url": "https://store.shopping.yahoo.co.jp/yorunoyaoyasan/s375-0705-br-ras.html",
+              "priceYen": 1250,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4580228414705": {
+          "market": "yahoo",
+          "query": "4580228414705",
+          "checkedAt": "2026-10-13T12:33:39.322245+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4580228414705",
+          "status": "searched",
+          "firstPageHits": []
+        }
+      }
     }
   },
-  "checkedAt": "2026-10-13T11:38:51.109456+00:00"
+  "checkedAt": "2026-10-13T12:33:39.322256+00:00"
 }

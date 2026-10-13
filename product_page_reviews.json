@@ -5344,6 +5344,156 @@
       "reviewStatus": "added_after_manual_photo_and_dimensions_review",
       "decisionReason": "Amazon現行ページは250gの単品パウチを表示。主画像は硬い容器・キャップのない柔らかい袋。掲載20.7×12.4×3.7cmは梱包寸法の可能性があり、ガム粒を平らに広げたときの密度・重なり・梱包後最大厚・重量は未測定。",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B004KP3RBU",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B004KP3RBU",
+      "title": "パイオニア企画 サラ秋田白神 白神こだま酵母ドライ 200g",
+      "dimensions": [
+        {
+          "value": "22.4 x 10.9 x 3.9 cm",
+          "context": "       :\n                                            ‎ 22.4 x 10.9 x 3.9 cm; 200 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71go+4QgGRL._AC_SL1277_.jpg",
+      "reviewStatus": "hold_peak_thickness_unverified",
+      "decisionReason": "メーカー公式の単品袋寸法は20×11×3.0cm。発送外装を加える余裕が確認できないため保留。"
+    },
+    {
+      "asin": "B09CYRLN56",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B09CYRLN56",
+      "title": "山下屋荘介 私の楽ベジ 乾燥ごぼう (80g/国産/国内製造) きんぴらごぼう 干しごぼう フリーズドライ 時短調理 常備菜 非常食",
+      "dimensions": [
+        {
+          "value": "22.1 x 14.3 x 3.4 cm",
+          "context": "       :\n                                            ‎ 22.1 x 14.3 x 3.4 cm; 80 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81vXTdHW3AL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "単品の柔らかい袋で硬い付属品がなく、内容物を平置きでならせる。掲載最小辺3cm超。袋寸法と梱包後最大厚は未実測、低確信度として登録。"
+    },
+    {
+      "asin": "B09CYLW4T5",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B09CYLW4T5",
+      "title": "山下屋荘介 乾燥にんじん (100g/国産/フリーズドライ/国内製造) 乾燥野菜 人参 ニンジン 時短 保存食 常温保存 千切り",
+      "dimensions": [
+        {
+          "value": "24.3 x 14.5 x 2 cm",
+          "context": "       :\n                                            ‎ 24.3 x 14.5 x 2 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81G4QoembPL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon掲載の最小辺は2cmで登録条件の3cm超に該当しない。"
+    },
+    {
+      "asin": "B0GL1QH265",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0GL1QH265",
+      "title": "フリーズドライ ラズベリー 粒サイズ2～3mm 20g お試しサイズ 無添加 砂糖不使用 フランボワーズ 製菓材料 トッピング",
+      "dimensions": [
+        {
+          "value": "19.8 x 12.2 x 3.4 cm",
+          "context": "       :\n                                            ‎ 19.8 x 12.2 x 3.4 cm; 30 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51bFvJ3pdPL._AC_SY300_SX300_QL70_ML2_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "単品の柔らかい袋で硬い付属品がなく、内容物を平置きでならせる。掲載最小辺3cm超。袋寸法と梱包後最大厚は未実測、低確信度として登録。"
+    },
+    {
+      "asin": "B0C4PF3CFB",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0C4PF3CFB",
+      "title": "フルーツティー ティートリコ ティート チェリーアマレット 200g",
+      "dimensions": [
+        {
+          "value": "23.1 x 9.2 x 5.1 cm",
+          "context": "       :\n                                            ‎ 23.1 x 9.2 x 5.1 cm; 200 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71p4YYbS1bL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_chunk_thickness_unverified",
+      "decisionReason": "200gの乾燥果実片で、袋の狭い面と果実片の局所厚から3cm以内の具体的根拠が不足。"
+    },
+    {
+      "asin": "B0C4PGRJ9W",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0C4PGRJ9W",
+      "title": "フルーツティー ティートリコ ティート パルフェ 200g",
+      "dimensions": [
+        {
+          "value": "17.5 x 9.1 x 5.9 cm",
+          "context": "       :\n                                            ‎ 17.5 x 9.1 x 5.9 cm; 200 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/712X0xwN-TL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_chunk_thickness_unverified",
+      "decisionReason": "200gの乾燥果実片で、袋の狭い面と果実片の局所厚から3cm以内の具体的根拠が不足。"
+    },
+    {
+      "asin": "B0FZSQQ7QD",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0FZSQQ7QD",
+      "title": "フルーツティー ティートリコ ティート ルビーオレンジ 200g",
+      "dimensions": [
+        {
+          "value": "24 x 9.5 x 6.5 cm",
+          "context": "       :\n                                            ‎ 24 x 9.5 x 6.5 cm; 200 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71LRZbV74JL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_chunk_thickness_unverified",
+      "decisionReason": "200gの乾燥果実片で、袋の狭い面と果実片の局所厚から3cm以内の具体的根拠が不足。"
+    },
+    {
+      "asin": "B0C4PKBMLL",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0C4PKBMLL",
+      "title": "フルーツティー ティートリコ ティート ローズ&メロン 200g",
+      "dimensions": [
+        {
+          "value": "23.6 x 8.9 x 5.7 cm",
+          "context": "       :\n                                            ‎ 23.6 x 8.9 x 5.7 cm; 200 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71yUm6kIsGL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_chunk_thickness_unverified",
+      "decisionReason": "200gの乾燥果実片で、袋の狭い面と果実片の局所厚から3cm以内の具体的根拠が不足。"
+    },
+    {
+      "asin": "B0FZSLT6S1",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0FZSLT6S1",
+      "title": "フルーツティー ティートリコ ティート ペアー 50g",
+      "dimensions": [
+        {
+          "value": "16.9 x 6 x 3.8 cm",
+          "context": "       :\n                                            ‎ 16.9 x 6 x 3.8 cm; 20 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61OstCaM-lL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_chunk_thickness_unverified",
+      "decisionReason": "50gの乾燥果実片だが袋幅が狭く、果実片の局所厚と外装を含む最大厚が不明。"
+    },
+    {
+      "asin": "B0FZSWMG2R",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0FZSWMG2R",
+      "title": "フルーツティー ティートリコ ティート ルビーオレンジ 50g",
+      "dimensions": [
+        {
+          "value": "16.8 x 5.9 x 4.1 cm",
+          "context": "       :\n                                            ‎ 16.8 x 5.9 x 4.1 cm; 20 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71psBzLLaiL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_chunk_thickness_unverified",
+      "decisionReason": "50gの乾燥果実片だが袋幅が狭く、果実片の局所厚と外装を含む最大厚が不明。"
     }
   ]
 }

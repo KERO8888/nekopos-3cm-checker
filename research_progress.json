@@ -132,7 +132,7 @@
     "ココア 粉末 詰め替え 袋 200g"
   ],
   "discoveredCount": 63872,
-  "addedCount": 111,
+  "addedCount": 113,
   "discovered": [
     {
       "asin": "B0CDPF8BKZ",
@@ -210451,7 +210451,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "アスザックフーズ フリーズドライ 国産長芋とろろ 6.8g [水を加えて1分で完成]",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        25,
+        55,
+        103
+      ],
+      "keepaPackageWeightG": 10,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0D17J11NK",
@@ -211563,7 +211577,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "乾燥野菜 ミックス 5種mix品 200g",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        24,
+        192,
+        297
+      ],
+      "keepaPackageWeightG": 220,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C4XXFXZ5",
@@ -211572,7 +211600,20 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "乾燥野菜ミックス 5種mix品 60g",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        0,
+        0,
+        0
+      ],
+      "keepaPackageWeightG": 0,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B06W5SXWXQ",
@@ -211906,11 +211947,25 @@
     {
       "asin": "B004KP3RBU",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "パイオニア企画 サラ秋田白神 白神こだま酵母ドライ 200g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        39,
+        109,
+        224
+      ],
+      "keepaPackageWeightG": 210,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07SNXJBGZ",
@@ -211975,7 +212030,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "デーツクラウン デーツ 無添加 500g (甘さ控えめのファード種) 残留農薬検査済 非遺伝子組換え ドライフルーツ fard",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        100,
+        175,
+        225
+      ],
+      "keepaPackageWeightG": 520,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CCZWCBP2",
@@ -211992,7 +212061,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "デーツクラウン デーツ 無添加 500g (クナイジ種 黒糖のような甘さ) 残留農薬検査済 非遺伝子組換え スーパーフード ドライフルーツ",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        58,
+        180,
+        229
+      ],
+      "keepaPackageWeightG": 520,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0D91W2P38",
@@ -212241,7 +212324,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "ドライフルーツ ミックス 5種 450g ブレンド パイン パパイヤ メロン レーズン クランベリー 中国産不使用 Eight Shop",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        25,
+        166,
+        267
+      ],
+      "keepaPackageWeightG": 440,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DVSWFJ7X",
@@ -213420,7 +213517,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "モンデリーズ クロレッツ ビッグフルーツ パッションフルーツ ボトル 112g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        62,
+        63,
+        91
+      ],
+      "keepaPackageWeightG": 140,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07V6Q42QD",
@@ -214305,7 +214416,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "AGF プロフェッショナル さわやかりんご 500ml用 10本 【 業務用 】【 フルーツ 】【 アップル 】",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        56,
+        85,
+        155
+      ],
+      "keepaPackageWeightG": 210,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B00F9NL36S",
@@ -214410,7 +214535,22 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "AGF ブレンディ マイボトルスティック やさしく香る ピーチルイボスティー 6本×6箱 【 ピーチティー 】【 フルーツティー 】【 水筒用 】",
+      "triageScore": -3,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        114,
+        142,
+        160
+      ],
+      "keepaPackageWeightG": 250,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CF25GY6G",
@@ -214874,7 +215014,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "【国内製造】オリゼ グラノーラ 200g 糖質オフ 無添加 米麹 白砂糖不使用 ORYZAE (200g, ドライフルーツ)",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        25,
+        132,
+        256
+      ],
+      "keepaPackageWeightG": 230,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C1JSS5ZF",
@@ -215233,7 +215387,22 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "[プレミアムクラフトジン]季の美 京都ドライジン 200ml [ ジン 45度 日本 京都府 200ml 瓶 ]",
+      "triageScore": -4,
+      "triageTags": [
+        "硬い容器の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        57,
+        57,
+        167
+      ],
+      "keepaPackageWeightG": 430,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B09QS5JDP9",
@@ -215378,21 +215547,50 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "山下屋荘介 国産 乾燥野菜 ミックス (100g / キャベツ 大根 にんじん 玉ねぎ 小松菜) フリーズドライ 味噌汁の具 カット野菜 非常食 簡単調理 野菜セット",
+      "triageScore": -5,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        25,
+        150,
+        220
+      ],
+      "keepaPackageWeightG": 100,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B09CYRLN56",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "山下屋荘介 私の楽ベジ 乾燥ごぼう (80g/国産/国内製造) きんぴらごぼう 干しごぼう フリーズドライ 時短調理 常備菜 非常食",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        34,
+        143,
+        221
+      ],
+      "keepaPackageWeightG": 90,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B09CYLW4T5",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm",
@@ -215777,7 +215975,22 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "千疋屋 花 ゼリー 洋菓子 パティスリー銀座千疋屋 ギフト Gift 贈り物 銀座フルーツゼリー缶＆フラワーボックス 280g",
+      "triageScore": -4,
+      "triageTags": [
+        "硬い容器の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        60,
+        155,
+        215
+      ],
+      "keepaPackageWeightG": 100,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0HC3QRJ3N",
@@ -216675,7 +216888,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "ケロッグ 素材まるごとグラノラ 脂質70%オフ 香るフルーツ 大容量 530g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        100,
+        219,
+        223
+      ],
+      "keepaPackageWeightG": 540,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B01NAUUO66",
@@ -217421,7 +217648,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "フリーズドライ マンゴー(ダイスカット サイズ:5mm) 添加物不使用 砂糖不使用 無添加 カット フルーツ くだもの 製菓 (200g)",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        61,
+        230,
+        313
+      ],
+      "keepaPackageWeightG": 240,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B08PNS587D",
@@ -217430,16 +217671,44 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "フリーズドライ イチゴ 200g (ダイスカット 【サイズ:8mm】) 添加物不使用 無添加 カット フルーツ くだもの 苺 いちご 製菓用 お菓子作り",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        40,
+        234,
+        310
+      ],
+      "keepaPackageWeightG": 240,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GL1QH265",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "フリーズドライ ラズベリー 粒サイズ2～3mm 20g お試しサイズ 無添加 砂糖不使用 フランボワーズ 製菓材料 トッピング",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        34,
+        122,
+        198
+      ],
+      "keepaPackageWeightG": 30,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DZCG2ZSZ",
@@ -217448,7 +217717,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
+      "keepaTitle": "フリーズドライ ラズベリー 粒サイズ2～3mm 10g お試しサイズ 無添加 砂糖不使用 フランボワーズ 製菓材料 トッピング",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        30,
+        193,
+        198
+      ],
+      "keepaPackageWeightG": 20,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DGPFXCN8",
@@ -217962,7 +218245,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.926809+09:00",
+      "keepaTitle": "[ つまみ蔵 公式 ] 国産 チキン カルパス (訳あり 業務用) サラミソーセージ [ 柔らか食感 国産鶏肉 ] サラミ チキンジャーキー ドライソーセージ 千成商会 280g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        31,
+        144,
+        214
+      ],
+      "keepaPackageWeightG": 320,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0F8GTK47S",
@@ -219006,7 +219303,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.926809+09:00",
+      "keepaTitle": "フリーズドライ パイン (ダイスカット サイズ:5mm) 添加物不使用 無添加 パイナップル カット フルーツ くだもの 製菓 (200g)",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        55,
+        230,
+        311
+      ],
+      "keepaPackageWeightG": 240,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FTRXDQ6Y",
@@ -219067,11 +219378,25 @@
     {
       "asin": "B0C4PF3CFB",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.926809+09:00",
+      "keepaTitle": "フルーツティー ティートリコ ティート チェリーアマレット 200g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        51,
+        92,
+        231
+      ],
+      "keepaPackageWeightG": 220,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C4PJ4WV9",
@@ -219084,11 +219409,25 @@
     {
       "asin": "B0C4PGRJ9W",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.926809+09:00",
+      "keepaTitle": "フルーツティー ティートリコ ティート パルフェ 200g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        59,
+        91,
+        175
+      ],
+      "keepaPackageWeightG": 220,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C4PH6Z7X",
@@ -219109,11 +219448,25 @@
     {
       "asin": "B0FZSQQ7QD",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.926809+09:00",
+      "keepaTitle": "フルーツティー ティートリコ ティート ルビーオレンジ 200g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        65,
+        95,
+        240
+      ],
+      "keepaPackageWeightG": 210,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C4PFXDNZ",
@@ -219126,11 +219479,25 @@
     {
       "asin": "B0C4PKBMLL",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.926809+09:00",
+      "keepaTitle": "フルーツティー ティートリコ ティート ローズ&メロン 200g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        57,
+        89,
+        236
+      ],
+      "keepaPackageWeightG": 210,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C4PJ3458",
@@ -219143,20 +219510,48 @@
     {
       "asin": "B0FZSLT6S1",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.926809+09:00",
+      "keepaTitle": "フルーツティー ティートリコ ティート ペアー 50g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        38,
+        60,
+        169
+      ],
+      "keepaPackageWeightG": 20,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FZSWMG2R",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.926809+09:00",
+      "keepaTitle": "フルーツティー ティートリコ ティート ルビーオレンジ 50g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        41,
+        59,
+        168
+      ],
+      "keepaPackageWeightG": 20,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C4PF4PVQ",
@@ -219173,7 +219568,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.926809+09:00",
+      "keepaTitle": "フルーツティー ティートリコ ティート カシス 200g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        62,
+        91,
+        230
+      ],
+      "keepaPackageWeightG": 220,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C4PHHX76",
@@ -219182,7 +219591,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T21:27:38.926809+09:00",
+      "keepaTitle": "フルーツティー ティートリコ ティート ベリーミックス 50g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        41,
+        60,
+        168
+      ],
+      "keepaPackageWeightG": 50,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C4PHY28H",
@@ -552378,7 +552801,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 769,
+  "fetchedProductPageCount": 779,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -556918,6 +557341,25 @@
       "pagesChecked": 8,
       "added": 3,
       "unverifiedRange": "8件の主画像・掲載寸法・販売単位を個別判定。追加3件は梱包後最大厚・外寸・重量が未測定。1件は実物の袋面と厚み待ち。未確認の発見ASINは継続。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=ドライフルーツ由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B004KP3RBU",
+        "B09CYRLN56",
+        "B09CYLW4T5",
+        "B0GL1QH265",
+        "B0C4PF3CFB",
+        "B0C4PGRJ9W",
+        "B0FZSQQ7QD",
+        "B0C4PKBMLL",
+        "B0FZSLT6S1",
+        "B0FZSWMG2R"
+      ],
+      "pagesChecked": 10,
+      "added": 2,
+      "unverifiedRange": "10ページを判定。2件を低確信度の未実測候補に追加、1件は掲載最小辺2cmで除外、7件は厚さ根拠不足で保留。"
     }
   ],
   "searchStops": [
