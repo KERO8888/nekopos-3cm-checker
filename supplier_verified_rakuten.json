@@ -2071,14 +2071,17 @@
       "suppliers": []
     },
     "B0H8P3DJZQ": {
-      "expectedEans": [],
-      "checkedPages": 6,
-      "cumulativeCheckedPages": 6,
-      "identifierSource": "unconfirmed",
+      "expectedEans": [
+        "4589875643575"
+      ],
+      "checkedPages": 7,
+      "cumulativeCheckedPages": 13,
+      "identifierSource": "Keepa",
       "eligibleLeads": 7,
       "rejected": {
         "jan_missing": 5,
-        "identifier_unconfirmed": 1
+        "jan_mismatch": 2,
+        "identifier_unconfirmed": 0
       },
       "suppliers": []
     },
@@ -2966,5 +2969,5 @@
       ]
     }
   },
-  "checkedAt": "2026-10-13T17:37:26.401632+00:00"
+  "checkedAt": "2026-10-13T18:34:47.679035+00:00"
 }

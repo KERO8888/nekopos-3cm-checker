@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-13T17:37:38.510057+00:00",
+  "checkedAt": "2026-10-13T18:36:33.987369+00:00",
   "source": "Yahoo Shopping direct product pages, displayed Tokyo shipping",
   "scope": "Only pages with matching JAN and single-unit wording are verified; availability and prices can change.",
   "items": {
@@ -3164,9 +3164,34 @@
       "expectedEans": [
         "4548514158610"
       ],
-      "checkedPages": 12,
-      "status": "unverified",
-      "suppliers": []
+      "checkedPages": 20,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "きき湯 ポッピンアロマ 気分はずむシトラスの香り つめかえ用 420g(約14回分) バスクリン 炭酸入浴剤 発泡",
+          "store": "あずきぱれっと",
+          "url": "https://store.shopping.yahoo.co.jp/azukipalette/vlmm7ahpb2zfknmojqw2asscwi.html",
+          "jan": "4548514158610",
+          "priceYen": 1047,
+          "inboundShippingYen": 0,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 37,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T18:36:31.357925+00:00"
+        },
+        {
+          "name": "きき湯 ポッピンアロマ 気分はずむシトラスの香り つめかえ用 420g(約14回分) バスクリン 炭酸入浴剤 発泡",
+          "store": "あまいろ堂",
+          "url": "https://store.shopping.yahoo.co.jp/amairodou/2022yr12mt18daywq069ic0ccxy9ds5.html",
+          "jan": "4548514158610",
+          "priceYen": 1064,
+          "inboundShippingYen": 0,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 38,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T18:36:30.375614+00:00"
+        }
+      ]
     },
     "B012VFRH3Y": {
       "expectedEans": [
@@ -5024,6 +5049,27 @@
           "displayPoints": 53,
           "couponMentioned": false,
           "checkedAt": "2026-10-13T17:37:37.394532+00:00"
+        }
+      ]
+    },
+    "B0H8P3DJZQ": {
+      "expectedEans": [
+        "4589875643575"
+      ],
+      "checkedPages": 8,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "だし 完全無添加 鶏スープだし 粉末タイプ 100g 前田家 国産原料 無塩 特許製法 スープ 離乳食 化学調味料 酵母エキス グルテンフリー",
+          "store": "MAEDAYA 前田家",
+          "url": "https://store.shopping.yahoo.co.jp/maedaya/torisoup-kona-100.html",
+          "jan": "4589875643575",
+          "priceYen": 1780,
+          "inboundShippingYen": null,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 65,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T18:35:04.486002+00:00"
         }
       ]
     }
