@@ -32,6 +32,15 @@ SOURCES = {
 }
 
 FORM_SOURCES = {
+    'B0CK7W63WV': 'https://tea-sanrokuen.com/ec/products/detail/28',
+    'B0H8P3DJZQ': 'https://lab.maedaya.co.jp/collections/all/products/chickenconsome',
+    'B0F4JR8KF1': 'https://www.inic-market.com/c/tea/teasy/4582651244126',
+    'B0F4JLN21Y': 'https://www.inic-market.com/c/tea/teasy/4582651244102',
+    'B0H25P5SB8': 'https://www.inic-market.com/c/tea/teasy/TS-011',
+    'B0H25WQBFH': 'https://www.inic-market.com/c/tea/teasy/TS-010',
+    'B0H25TXWZK': 'https://www.inic-market.com/c/tea/teasy/TS-013',
+    'B0F4JXZVD3': 'https://www.inic-market.com/c/tea/teasy/4582651244119',
+
     'B0CNSV7PF3': 'https://rishiria-furel.com/shampoo.html',
     'B0CLLK42TQ': 'https://rishiria-furel.com/shampoo.html',
     'B0CGGQNTCL': 'https://ifme.jp/products/ifss776',

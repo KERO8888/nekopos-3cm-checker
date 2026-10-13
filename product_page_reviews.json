@@ -4080,6 +4080,146 @@
       "decisionReason": "Amazon現行ページで250g単品・掲載3辺最小辺4.1cmを確認。メーカー柳屋茶楽の商品ページと販売写真でチャック付き柔軟袋を確認。粉末は袋面に均せる見込みだが、梱包後3cm以下は未実測。",
       "manufacturerSource": "https://www.yanagiya-charaku.jp/?pid=144825370",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0CK7W63WV",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CK7W63WV",
+      "title": "山麓園 熊本産 桑の葉茶 パウダー 桑茶 粉末 国産 無農薬 150g DNJが多い品種 糖質が気になる方 ノンカフェイン",
+      "dimensions": [
+        {
+          "value": "20.6 x 11.1 x 3.6 cm",
+          "context": "       :\n                                            ‎ 20.6 x 11.1 x 3.6 cm; 120 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/611X-oQA2cL._AC_SL1254_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B0H8P3DJZQ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0H8P3DJZQ",
+      "title": "[前田家] 国産原料のみ 鶏 スープ だし 100g(現行品)(粉末タイプ) 無塩 特許製法 料理のベース グルテンフリー 醤油不使用 無塩",
+      "dimensions": [
+        {
+          "value": "19.9 x 11.4 x 3.1 cm",
+          "context": "       :\n                                            ‎ 19.9 x 11.4 x 3.1 cm; 110 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61lx4iDDk2L._AC_SL1500_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B0188I23QE",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0188I23QE",
+      "title": "神戸スパイス ターメリックパウダー 500g Turmeric Powder ターメリック ウコン 粉末 スパイス",
+      "dimensions": [
+        {
+          "value": "30 x 19.71 x 2.31 cm",
+          "context": "       :\n                                            ‎ 30 x 19.71 x 2.31 cm; 500 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81uIEyZlzqL._AC_SL1000_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B0F4JR8KF1",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F4JR8KF1",
+      "title": "Tea-sy 粉末緑茶 パウダー 100g チャック付き袋 水に溶ける ティーバッグ不要",
+      "dimensions": [
+        {
+          "value": "17.5 x 16.7 x 6 cm",
+          "context": "       :\n                                            ‎ 17.5 x 16.7 x 6 cm; 110 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61RTLCeIhUL._AC_SL1500_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B0F4JLN21Y",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F4JLN21Y",
+      "title": "Tea-sy 麦茶 粉末 パウダー 100g 国産大麦100% 無着色 無香料 カフェインゼロ チャック付き 水に溶ける ティーバッグ不要",
+      "dimensions": [
+        {
+          "value": "16.8 x 13.2 x 7 cm",
+          "context": "       :\n                                            ‎ 16.8 x 13.2 x 7 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/710KBAyUwZL._AC_SL1500_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B0H25P5SB8",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0H25P5SB8",
+      "title": "Tea-sy ウーロン茶 粉末 パウダー 100g チャック付き袋 水に溶ける ティーバッグ不要",
+      "dimensions": [
+        {
+          "value": "18 x 17 x 3.3 cm",
+          "context": "       :\n                                            ‎ 18 x 17 x 3.3 cm; 98 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/41fdxFw3+4L._AC_SL1000_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B0H25WQBFH",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0H25WQBFH",
+      "title": "Tea-sy ジャスミン茶 粉末 パウダー 100g チャック付き袋 水に溶ける ティーバッグ不要",
+      "dimensions": [
+        {
+          "value": "18 x 17 x 3.3 cm",
+          "context": "       :\n                                            ‎ 18 x 17 x 3.3 cm; 98 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/41UbpWV4OkL._AC_SL1000_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B0H25TXWZK",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0H25TXWZK",
+      "title": "Tea-sy アールグレイティー 粉末 パウダー 88g チャック付き袋 水に溶ける ティーバッグ不要",
+      "dimensions": [
+        {
+          "value": "18 x 17 x 3.3 cm",
+          "context": "       :\n                                            ‎ 18 x 17 x 3.3 cm; 98 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/41Yp+5-A05L._AC_SL1000_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B0F4JXZVD3",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F4JXZVD3",
+      "title": "Tea-sy ルイボスティー 粉末 パウダー 100g チャック付き袋 水に溶ける ティーバッグ不要",
+      "dimensions": [
+        {
+          "value": "16.6 x 13.4 x 5.1 cm",
+          "context": "       :\n                                            ‎ 16.6 x 13.4 x 5.1 cm; 110 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/616jOtsnEfL._AC_SL1500_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B0F1FM1Y4C",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F1FM1Y4C",
+      "title": "[前田家] 国産原料のみ 鶏 スープ だし 40g 粉末タイプ 無塩 特許製法 料理のベース グルテンフリー 醤油不使用 無塩 化学調味料 不使用",
+      "dimensions": [
+        {
+          "value": "14.7 x 11.8 x 1.5 cm",
+          "context": "       :\n                                            ‎ 14.7 x 11.8 x 1.5 cm; 40 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61ply6xBQ5L._AC_SL1500_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
     }
   ]
 }

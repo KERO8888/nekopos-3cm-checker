@@ -2057,7 +2057,31 @@
         "identifier_unconfirmed": 2
       },
       "suppliers": []
+    },
+    "B0CK7W63WV": {
+      "expectedEans": [],
+      "checkedPages": 2,
+      "cumulativeCheckedPages": 2,
+      "identifierSource": "unconfirmed",
+      "eligibleLeads": 2,
+      "rejected": {
+        "jan_missing": 2,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": []
+    },
+    "B0H8P3DJZQ": {
+      "expectedEans": [],
+      "checkedPages": 6,
+      "cumulativeCheckedPages": 6,
+      "identifierSource": "unconfirmed",
+      "eligibleLeads": 7,
+      "rejected": {
+        "jan_missing": 5,
+        "identifier_unconfirmed": 1
+      },
+      "suppliers": []
     }
   },
-  "checkedAt": "2026-10-13T03:38:09.428553+00:00"
+  "checkedAt": "2026-10-13T04:37:59.504638+00:00"
 }
