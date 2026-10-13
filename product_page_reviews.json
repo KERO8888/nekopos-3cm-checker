@@ -3914,6 +3914,42 @@
       "reviewStatus": "excluded_explicit_multi_unit_or_extra",
       "decisionReason": "Amazon現行ページの商品名に増量パウチ、ローションの付属品、または専用ボトルとの組み合わせが明記され、柔らかい単品袋の条件を満たさない。",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B008YRHWCU",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B008YRHWCU",
+      "title": "ニチフリ お得用ふりかけさけ 500g",
+      "dimensions": [
+        {
+          "value": "30 x 22 x 3 cm",
+          "context": "       :\n                                            ‎ 30 x 22 x 3 cm; 520 g メーカー\n                      "
+        },
+        {
+          "value": "30 x 22 x 3 cm",
+          "context": "商品情報 詳細情報 ブランド ‎Nichifuri 製品サイズ ‎30 x 22 x 3 cm; 520 g 産地（地方） ‎中部地方 産地（都道府県） ‎静岡県 "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71cy2F7ytAL._AC_SL1220_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "現行Amazon商品ページの製品サイズは30×22×3cmで、掲載3辺の最小辺が3cm超という登録条件を満たさない。Keepa側の梱包寸法31mmよりAmazonの現行商品ページを優先。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0BCQKW2B4",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0BCQKW2B4",
+      "title": "KOREDE 甘くない プロテインスープ 冷製 かぼちゃ 100g たんぱく質50% ソイプロテイン タンパク質",
+      "dimensions": [
+        {
+          "value": "20 x 10 x 2 cm",
+          "context": "       :\n                                            ‎ 20 x 10 x 2 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/517aL153SCL._AC_SL1200_.jpg",
+      "reviewStatus": "hold_current_page_variant_differs_from_keepa",
+      "decisionReason": "Keepaの商品名はコーンクリーム400gだが、現行Amazonページは冷製かぼちゃ100gを表示し、掲載3辺も20×10×2cm。対象ASINの販売単位と3辺を一致確認できないため保留。",
+      "decidedOn": "2026-10-13"
     }
   ]
 }

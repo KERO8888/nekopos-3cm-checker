@@ -1823,7 +1823,50 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B09DVPV2Y3": {
+      "expectedEans": [
+        "4580688632046"
+      ],
+      "checkedPages": 3,
+      "cumulativeCheckedPages": 3,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 3,
+      "rejected": {
+        "jan_missing": 1,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "スカルプD オーガニック シャンプー メンズ 詰め替え用 オイリー 脂性肌用 300mL",
+          "storeName": "生活雑貨　めも",
+          "jan": "4580688632046",
+          "priceYen": 2149,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T00:32:15.374084+00:00",
+          "url": "https://item.rakuten.co.jp/seikatsuzakkamemo/20260628225221_117/",
+          "store": "生活雑貨　めも",
+          "inboundShippingYen": 0,
+          "displayPoints": 19,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ANGFA　スカルプD オーガニック スカルプシャンプー オイリー（脂性肌用）つめかえ用 300mL",
+          "storeName": "コジマ楽天市場店",
+          "jan": "4580688632046",
+          "priceYen": 1650,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T00:31:43.638300+00:00",
+          "url": "https://item.rakuten.co.jp/r-kojima/4580688632046/",
+          "store": "コジマ楽天市場店",
+          "inboundShippingYen": 550,
+          "displayPoints": 15,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-12T23:38:27.928799+00:00"
+  "checkedAt": "2026-10-13T00:32:15.682901+00:00"
 }
