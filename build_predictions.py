@@ -59,6 +59,7 @@ FORM_SOURCES = {
     'B0GL1QH265': 'https://item.rakuten.co.jp/yanagiyacharaku/g-fd-37/',
     'B07RCFS9QY': 'https://www.hokkaido-products.jp/babypota80/',
     'B07RBFGQSX': 'https://www.hokkaido-products.jp/babypota40/',
+    'B0HCN7X95B': 'https://www.fujiya-peko.co.jp/sweets/item/26922.html',
 }
 
 FISH_SINKING = set('B07BBMLGVJ B01GTF98OS B00KPASQ3S B0CVKL9BVN B0H9PFGNS3 B003YKUI32 B078YW4HYG B01FJ2IYN8 B01FEUZPUK B01FEULQK8 B0015XNJ04'.split())
@@ -96,6 +97,7 @@ DENSITIES = {
     # Screening assumption for dense, individually unwrapped chewing-gum pieces.
     # Product-specific bulk density and sealed-pack peak thickness remain unmeasured.
     'ガム粒': (0.45, 0.75, None),
+    '個包装チョコ6粒': (0.35, 0.75, None),
     '紅茶葉': (0.25, 0.40, None),
     'ピートモス': (0.15, 0.40, 'peat_density'),
     '液体詰め替え': (0.95, 1.05, None),
@@ -136,6 +138,8 @@ GEOMETRY_OVERRIDES = {
 }
 
 SPECIAL = {
+    'B0HCN7X95B': ('borderline', '40〜45gの単品パウチに6粒。未開封のまま粒を一層に広げる想定。粒の最大高・重なり・発送外装を含む最大厚は未測定で、密度計算は適用しない。', '低'),
+    'B0HCN2F8JQ': ('borderline', '40〜45gの単品パウチに6粒。未開封のまま粒を一層に広げる想定。粒の最大高・重なり・発送外装を含む最大厚は未測定で、密度計算は適用しない。', '低'),
     'B01I16MH96': ('borderline', 'メーカーは同じ250gのチャック袋を掲載し、ゆうパケット配送も案内。Amazon掲載寸法は袋の平置き実寸とは確認できず、粉末の片寄り・袋の底マチ・発送外装を含む最大厚は未実測。', '低'),
     'B0FKB2J362': ('borderline', 'メーカーは同じ250gの単品袋を掲載。Amazon写真は柔らかいチャック付き袋で硬い部品は見えない。袋の平置き実寸・粉末の片寄り・底マチ・発送外装を含む最大厚は未実測。', '低'),
     'B015CJ81X6': ('borderline', 'メーカーは同じ香りの480mL詰替えを掲載。Amazon写真は切り取り式の柔らかい単品袋で、硬いキャップは見えない。掲載24×12.7cmに480mLを均す計算は約2.3cmだが、有効な袋面・封かん・発送外装は未実測。', '低'),
@@ -189,6 +193,7 @@ def dimensions_of(item):
 def material_of(item):
     asin = item['asin']
     title = item['title']
+    if asin in ('B0HCN7X95B', 'B0HCN2F8JQ'): return '個包装チョコ6粒'
     if asin == 'B0FXLKX85S': return '豆入りレトルトスープ'
     if asin == 'B09CYRLN56': return '乾燥野菜の細片'
     if asin == 'B0GL1QH265': return '乾燥果実の小粒'
@@ -260,6 +265,8 @@ for item in products:
     else:
         reason += ('袋の有効面積は仮定値のため、数値は目安。' if material == '液体詰め替え'
                    else '密度と袋の有効面積に幅があるため、数値は目安。')
+    if asin in ('B0HCN7X95B', 'B0HCN2F8JQ'):
+        thin, thick = 1.4, 3.2  # individually wrapped pieces: local peak is not inferable from mass
     if asin in ('B079L4T8BS', 'B079L56FM7'):
         thin, thick = 2.0, 3.8  # inner pouches, not one 400g fill
     if asin == 'B07ND8DBVG':
@@ -275,7 +282,7 @@ for item in products:
     if asin == 'B08YFFNJ9L':
         thin, thick = 1.0, 2.5  # tablet peak and seal are not represented by bulk density
     thickness_override = asin in {
-        'B079L4T8BS', 'B079L56FM7', 'B07ND8DBVG', 'B0H8MNXGKP',
+        'B0HCN7X95B', 'B0HCN2F8JQ', 'B079L4T8BS', 'B079L56FM7', 'B07ND8DBVG', 'B0H8MNXGKP',
         'B077PTNJ29', 'B015CJ81X6', 'B0CBHB12LV', 'B0FWQXZVTF', 'B08YFFNJ9L',
     }
     if asin == 'B0CVKL9BVN':

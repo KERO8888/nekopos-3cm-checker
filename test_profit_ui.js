@@ -74,6 +74,14 @@ assert.strictEqual(test.profitStateFor(chili), 'price_risk', 'cheaper FBA offer 
 test.setSelectedAsin(chili.asin);
 test.render();
 assert(element('#featured').innerHTML.includes('安い競合出品¥897（FBA）'));
+const ruby = products.find(item => item.asin === 'B0HCN2F8JQ');
+assert.strictEqual(test.profitStateFor(ruby), 'price_risk', 'a cheaper FBA offer makes the MFN ceiling misleading even before supplier verification');
+test.setSelectedAsin(ruby.asin);
+test.render();
+assert(element('#featured').innerHTML.includes('安い競合出品¥345（FBA）'));
+assert(element('#featured').innerHTML.includes('販売成立未確認'));
+assert(!element('#featured').innerHTML.includes('仕入上限'));
+assert(!element('#featured').innerHTML.includes('収支ゼロ上限'));
 
 test.setProfitFilter('candidate');
 test.setSelectedAsin(candidates[0]?.asin || '');
@@ -96,8 +104,9 @@ for (const item of candidates) {
   if (supplier) assert.strictEqual(test.purchaseCeilingFor(item), profit.profit + profit.buy + profit.inbound);
 }
 for (const asin of ['B0GZDF7V69', 'B0H7HRMFMR']) {
-  assert(test.supplierQuick(products.find(item => item.asin === asin)).includes('未確認'), asin);
-  assert.strictEqual(test.profitStateFor(products.find(item => item.asin === asin)), 'sourcing', asin);
+  const item = products.find(product => product.asin === asin);
+  assert(test.supplierQuick(item).includes('未確認'), asin);
+  assert(['sourcing', 'price_risk'].includes(test.profitStateFor(item)), asin);
 }
 
 const csv = test.createCsv(candidates);

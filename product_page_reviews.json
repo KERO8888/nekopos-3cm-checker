@@ -5799,6 +5799,100 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71s295DYwYL._AC_SL1500_.jpg",
       "reviewStatus": "held_no_amazon_three_dimensions",
       "decisionReason": "1枚の柔らかい食器拭きクロスだがAmazon現行ページで掲載3辺寸法を確認できないため登録条件を満たすと判断できない。"
+    },
+    {
+      "asin": "B0HCN7X95B",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B0HCN7X95B",
+      "title": "不二家 プレミアムルック（生キャラメル）パウチ ４５ｇ",
+      "dimensions": [
+        {
+          "value": "14.3 x 13 x 4.4 cm",
+          "context": "       :\n                                            ‎ 14.3 x 13 x 4.4 cm; 50 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71s9pWoukKL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページで40〜45gのパウチ1袋、掲載3辺の最小辺3cm超を確認。主画像に6粒入りとあり、硬い容器・キャップは見えない。袋内の個包装粒を重ねず一層に広げれば薄くできる見込みだが、1粒と梱包後の最大厚・重量は未測定。低確信度の候補。"
+    },
+    {
+      "asin": "B0HCN2F8JQ",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B0HCN2F8JQ",
+      "title": "不二家 プレミアムルック（ルビーロマン）パウチ ４０ｇ",
+      "dimensions": [
+        {
+          "value": "14.7 x 13.1 x 5.8 cm",
+          "context": "       :\n                                            ‎ 14.7 x 13.1 x 5.8 cm; 40 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71PqMSTQVdL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページで40〜45gのパウチ1袋、掲載3辺の最小辺3cm超を確認。主画像に6粒入りとあり、硬い容器・キャップは見えない。袋内の個包装粒を重ねず一層に広げれば薄くできる見込みだが、1粒と梱包後の最大厚・重量は未測定。低確信度の候補。"
+    },
+    {
+      "asin": "B0CTQSDMD7",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B0CTQSDMD7",
+      "title": "マスターネ。 プレーン 粒マスタード 無添加 500g 業務用 パウチ",
+      "dimensions": [
+        {
+          "value": "23.8 x 11 x 3.8 cm",
+          "context": "       :\n                                            ‎ 23.8 x 11 x 3.8 cm; 500 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/91LWDM1Q2CL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_cap_or_spout",
+      "decisionReason": "Amazon現行ページの主画像で硬いねじ式キャップと注ぎ口を確認。内容物をならしてもこの部分の局所的な厚みは薄くならないため除外。"
+    },
+    {
+      "asin": "B0H5HRY3QL",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B0H5HRY3QL",
+      "title": "マスターネ。 木桶醤油 粒マスタード 無添加 500g 業務用 パウチ",
+      "dimensions": [
+        {
+          "value": "24 x 11.4 x 3.9 cm",
+          "context": "       :\n                                            ‎ 24 x 11.4 x 3.9 cm; 500 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/91Ll+dVacOL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_cap_or_spout",
+      "decisionReason": "Amazon現行ページの主画像で硬いねじ式キャップと注ぎ口を確認。内容物をならしてもこの部分の局所的な厚みは薄くならないため除外。"
+    },
+    {
+      "asin": "B00YQXKOB2",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B00YQXKOB2",
+      "title": "北海道きのこ王国　なめ茸スタンドパック　パウチ（400g）",
+      "dimensions": [
+        {
+          "value": "20.1 x 10.5 x 5.8 cm",
+          "context": "       :\n                                            ‎ 20.1 x 10.5 x 5.8 cm; 371 g メーカー\n                      "
+        },
+        {
+          "value": "20.1 x 10.5 x 5.8 cm",
+          "context": "商品情報 詳細情報 ブランド ‎（株）北海名販IJ 梱包サイズ ‎20.1 x 10.5 x 5.8 cm; 371 g メーカーにより製造中止になりました ‎いいえ 産地（地"
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61SuzENIpqL._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_rigid_cap_or_spout",
+      "decisionReason": "Amazon現行ページの主画像で硬いねじ式キャップと注ぎ口を確認。内容物をならしてもこの部分の局所的な厚みは薄くならないため除外。"
+    },
+    {
+      "asin": "B00JA592LY",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B00JA592LY",
+      "title": "カルピスウォーター パウチ 300ml",
+      "dimensions": [
+        {
+          "value": "4.2 x 8.4 x 15.5 cm",
+          "context": "       :\n                                            ‎ 4.2 x 8.4 x 15.5 cm; 145.15 g メーカー\n                   "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71Bagj7kwmL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_cap_or_spout",
+      "decisionReason": "Amazon現行ページの主画像で硬いねじ式キャップと注ぎ口を確認。内容物をならしてもこの部分の局所的な厚みは薄くならないため除外。"
     }
   ]
 }

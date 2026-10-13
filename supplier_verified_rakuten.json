@@ -2782,7 +2782,34 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B0HCN7X95B": {
+      "expectedEans": [
+        "4902555269221"
+      ],
+      "checkedPages": 1,
+      "cumulativeCheckedPages": 6,
+      "identifierSource": "Fujiya official product page",
+      "eligibleLeads": 1,
+      "rejected": {
+        "stock_unconfirmed": 1,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": []
+    },
+    "B0HCN2F8JQ": {
+      "expectedEans": [
+        "4902555269238"
+      ],
+      "checkedPages": 0,
+      "cumulativeCheckedPages": 4,
+      "identifierSource": "Fujiya official product page",
+      "eligibleLeads": 0,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": []
     }
   },
-  "checkedAt": "2026-10-13T14:33:58.187289+00:00"
+  "checkedAt": "2026-10-13T16:40:15.819585+00:00"
 }

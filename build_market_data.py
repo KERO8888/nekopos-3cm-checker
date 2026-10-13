@@ -79,10 +79,10 @@ def main():
             "priceYen": value["priceYen"],
             "inboundShippingYen": value["inboundShippingYen"],
             "checkedOn": value["checkedAt"][:10],
-            "identity": (f"JAN {value['jan']} / {value['name'].split('｜', 1)[0]}" if row.get("identifierSource") == "Keepa"
+            "identity": (f"JAN {value['jan']} / {value['name'].split('｜', 1)[0]}" if row.get("identifierSource") in ("Keepa", "Fujiya official product page")
                          else f"店舗間JAN一致 {value['jan']}（Amazon側未照合） / {value['name'].split('｜', 1)[0]}"),
             "note": "楽天の商品ページでJAN・単品・価格・在庫を照合。東京都向け送料は同商品の検索結果表示。"
-                    + (" Amazon側のJANは未取得。商品名・容量と異なる店舗間のJAN一致による推定照合。" if row.get("identifierSource") != "Keepa" else "")
+                    + (" Amazon側のJANは未取得。商品名・容量と異なる店舗間のJAN一致による推定照合。" if row.get("identifierSource") not in ("Keepa", "Fujiya official product page") else "")
                     + (f" 表示ポイント{value['displayPoints']}ptは利益に含めず。" if value.get("displayPoints") else "")
                     + (" クーポンは条件・適用可否が未確認のため利益に含めず。" if value.get("couponMentioned") else ""),
         } for value in row.get("suppliers", []) if not is_multi_unit(value.get("name")))

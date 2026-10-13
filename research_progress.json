@@ -132,7 +132,7 @@
     "ココア 粉末 詰め替え 袋 200g"
   ],
   "discoveredCount": 63872,
-  "addedCount": 116,
+  "addedCount": 118,
   "discovered": [
     {
       "asin": "B0CDPF8BKZ",
@@ -120671,7 +120671,7 @@
     {
       "asin": "B0HCN7X95B",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
@@ -120810,7 +120810,7 @@
     {
       "asin": "B0HCN2F8JQ",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
@@ -121460,7 +121460,7 @@
     {
       "asin": "B0CTQSDMD7",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
@@ -121988,7 +121988,7 @@
     {
       "asin": "B0H5HRY3QL",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
@@ -122422,7 +122422,7 @@
     {
       "asin": "B00YQXKOB2",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
@@ -122865,7 +122865,7 @@
     {
       "asin": "B00JA592LY",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
@@ -555304,7 +555304,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 800,
+  "fetchedProductPageCount": 806,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -559947,6 +559947,21 @@
       "pagesChecked": 2,
       "added": 0,
       "unverifiedRange": "Amazon現行ページ6件を個別判定。複数袋・内袋10食の3件を除外し、具材の局所厚1件と掲載3辺未確認2件を保留。残る発見済みASINは未確認。"
+    },
+    {
+      "reviewedOn": "2026-10-14",
+      "scope": "Amazon.co.jp商品ページ: title=パウチ root=57239051由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0HCN7X95B",
+        "B0HCN2F8JQ",
+        "B0CTQSDMD7",
+        "B0H5HRY3QL",
+        "B00YQXKOB2",
+        "B00JA592LY"
+      ],
+      "pagesChecked": 6,
+      "added": 2,
+      "unverifiedRange": "パウチ6件をAmazon現行ページ・主画像で個別判定。40〜45gのチョコレート単品パウチ2件を低確信度で登録し、硬いねじ式キャップ付き4件を除外。粒の局所厚・梱包後外寸・重量と残る発見済みASINは未確認。"
     }
   ],
   "searchStops": [

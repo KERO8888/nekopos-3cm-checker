@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-13T14:34:01.399214+00:00",
+  "checkedAt": "2026-10-13T16:40:17.116919+00:00",
   "source": "Yahoo Shopping direct product pages, displayed Tokyo shipping",
   "scope": "Only pages with matching JAN and single-unit wording are verified; availability and prices can change.",
   "items": {
@@ -4905,6 +4905,22 @@
           "checkedAt": "2026-10-13T14:34:01.093684+00:00"
         }
       ]
+    },
+    "B0HCN7X95B": {
+      "expectedEans": [
+        "4902555269221"
+      ],
+      "checkedPages": 6,
+      "status": "unverified",
+      "suppliers": []
+    },
+    "B0HCN2F8JQ": {
+      "expectedEans": [
+        "4902555269238"
+      ],
+      "checkedPages": 3,
+      "status": "unverified",
+      "suppliers": []
     }
   }
 }

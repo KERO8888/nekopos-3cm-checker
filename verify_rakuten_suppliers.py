@@ -147,7 +147,7 @@ def main():
                                         "couponMentioned": lead.get("couponMentioned", False),
                                         "shippingSource": "Rakuten search card for Tokyo"})
             time.sleep(0.3)
-        identifier_source = "Keepa" if expected else "unconfirmed"
+        identifier_source = (identifiers.get(asin, {}).get("identifierSource") or "Keepa") if expected else "unconfirmed"
         if not expected:
             by_jan = {}
             for candidate in candidate_pages:

@@ -287,8 +287,11 @@
   function profitStateFor(item, record = recordFor(item.asin)) {
     if (fitFor(item).clickpost.status === 'over') return 'over';
     const result = profitFor(item, 'clickpost', record);
-    if (!result) return purchaseCeilingFor(item, record) == null ? 'price_missing' : 'sourcing';
     const sale = saleInputsFor(item, record);
+    if (!result) {
+      if (sale.basis === 'mfn' && priceGapFor(item, record)) return 'price_risk';
+      return purchaseCeilingFor(item, record) == null ? 'price_missing' : 'sourcing';
+    }
     if (sale.basis === 'fba_reference' || sale.basis === 'manual') return 'reference';
     if (result.profit <= 0) return 'loss';
     if (!competitiveOfferFor(item)) return 'reference';
@@ -305,9 +308,11 @@
     const label = method === 'clickpost' ? 'クリックポスト（送料240円）' : 'ネコポス（契約運賃）';
     if (shippingStatus === 'over') return `<div class="profit-result pending"><b>${label}</b><strong>規格外</strong><small>この発送方法の運賃では利益を計算しません。</small></div>`;
     if (!result) {
-      const ceiling = method === 'clickpost' ? purchaseCeilingFor(item, record) : null;
+      const priceRisk = sale.basis === 'mfn' && gap > 0;
+      const ceiling = method === 'clickpost' && !priceRisk ? purchaseCeilingFor(item, record) : null;
       const reason = method === 'nekopos' && !inputValue(record, 'nekoposFee') ? '契約運賃を入力してください。'
         : sale.listing === '' || sale.shipping === '' ? '自己発送価格が未取得。実際の出品条件を入力してください。'
+          : priceRisk ? `仕入先は未確認。安い競合出品${yen(competitor.landedYen)}より表示総額が${yen(gap)}高く、この売価での販売成立は未確認です。`
           : ceiling != null && ceiling >= 0 ? `仕入先が未照合。仕入送料0円の仮定では、仕入価格が${yen(ceiling)}以下なら収支0円以上の計算です。`
             : '仕入先の単品価格が未照合です。';
       return `<div class="profit-result pending"><b>${label}</b><strong>${ceiling != null && ceiling >= 0 && method === 'clickpost' ? `仕入上限 ${yen(ceiling)}` : '未計算'}</strong><small>${reason}${sale.basis === 'fba_reference' ? ' FBA価格を自己発送へ当てはめた参考値です。' : ''}</small></div>`;
@@ -322,6 +327,7 @@
     if (fitFor(item).clickpost.status === 'over') return '<p class="profit-empty">クリックポストの規格外です。</p>';
     const result = profitFor(item, 'clickpost', record);
     if (!result) {
+      if (saleInputsFor(item, record).basis === 'mfn' && priceGapFor(item, record)) return '<p class="profit-empty">仕入先の単品価格は未確認です。自己発送の表示総額は安い競合出品より高く、この売価での販売成立は未確認です。</p>';
       const ceiling = purchaseCeilingFor(item, record);
       return `<p class="profit-empty">${ceiling != null && ceiling >= 0 ? `仕入価格の収支ゼロ上限：${yen(ceiling)}（仕入送料0円の仮定）。仕入先の単品価格を確認してください。` : '自己発送の出品価格・購入者送料・仕入条件がそろうと概算を表示します。'}</p>`;
     }
@@ -630,9 +636,10 @@
             : state === 'over' ? 'クリックポスト規格外' : '現在の条件では赤字';
     const competitor = competitiveOfferFor(item);
     const detail = result ? `売価${yen(Number(sale.listing) + Number(sale.shipping))} · 仕入総額${yen(result.buy + result.inbound)} · 送料・手数料込み${state === 'price_risk' && competitor ? ` · 安い競合出品${yen(competitor.landedYen)}（${competitor.fulfilledByAmazon ? 'FBA' : '自己発送'}）` : ''}`
-      : ceiling != null && ceiling >= 0 ? `仕入価格の収支ゼロ上限 ${yen(ceiling)}（仕入送料0円の仮定）` : '確認できた価格だけで計算しています';
+      : state === 'price_risk' && competitor ? `自己発送の表示総額${yen(Number(sale.listing) + Number(sale.shipping))} · 安い競合出品${yen(competitor.landedYen)}（${competitor.fulfilledByAmazon ? 'FBA' : '自己発送'}） · 単品仕入先未確認`
+        : ceiling != null && ceiling >= 0 ? `仕入価格の収支ゼロ上限 ${yen(ceiling)}（仕入送料0円の仮定）` : '確認できた価格だけで計算しています';
     const amount = result ? `${state === 'price_risk' ? '参考 ' : ''}${result.profit < 0 ? '−' : '+'}${yen(Math.abs(result.profit))}`
-      : ceiling != null && ceiling >= 0 ? `上限 ${yen(ceiling)}` : '売価未取得';
+      : state === 'price_risk' ? '販売成立未確認' : ceiling != null && ceiling >= 0 ? `上限 ${yen(ceiling)}` : '売価未取得';
     return `<div class="profit-spotlight ${state === 'reference' || state === 'price_risk' ? 'is-reference' : state === 'sourcing' || state === 'price_missing' ? 'is-missing' : ''}" aria-label="選択商品の利益状況"><div><small>${label}</small><b title="${escapeHtml(item.title)}">${escapeHtml(item.title)}</b><small>${detail}</small></div><strong>${amount}</strong></div>`;
   }
 
@@ -640,6 +647,7 @@
     const supplier = suppliersFor(item.asin)[0];
     const record = recordFor(item.asin);
     if (!supplier) {
+      if (profitStateFor(item, record) === 'price_risk') return '<section class="supplier-quick is-unconfirmed" aria-label="仕入先の要約"><span class="supplier-quick-label">仕入先</span><strong class="supplier-quick-name">未確認</strong><strong class="supplier-quick-cost">価格差あり</strong><small class="supplier-quick-meta">単品仕入先と販売可能な売価を確認してください</small></section>';
       const ceiling = purchaseCeilingFor(item, record);
       return `<section class="supplier-quick is-unconfirmed" aria-label="仕入先の要約"><span class="supplier-quick-label">仕入先</span><strong class="supplier-quick-name">未確認</strong><strong class="supplier-quick-cost">${ceiling == null ? '利益未計算' : ceiling >= 0 ? `仕入上限 ${yen(ceiling)}` : '現行売価では採算不可'}</strong><small class="supplier-quick-meta">単品価格が分かれば仕入送料0円の仮定で計算できます</small></section>`;
     }

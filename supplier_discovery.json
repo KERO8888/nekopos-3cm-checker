@@ -102538,7 +102538,629 @@
           ]
         }
       }
+    },
+    "B0HCN7X95B": {
+      "title": "不二家 プレミアムルック（生キャラメル）パウチ ４５ｇ",
+      "queries": {
+        "rakuten:不二家 プレミアムルック（生キャラメル）パウチ ４５ｇ": {
+          "market": "rakuten",
+          "query": "不二家 プレミアムルック（生キャラメル）パウチ ４５ｇ",
+          "checkedAt": "2026-10-13T16:35:25.269685+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/%E4%B8%8D%E4%BA%8C%E5%AE%B6%20%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%AB%E3%83%83%E3%82%AF%EF%BC%88%E7%94%9F%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%A1%E3%83%AB%EF%BC%89%E3%83%91%E3%82%A6%E3%83%81%20%EF%BC%94%EF%BC%95%EF%BD%87/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "不二家 プレミアムルック（生キャラメル）パウチ 45g",
+              "url": "https://item.rakuten.co.jp/matsukiyo/4902555269221/",
+              "priceYen": 343,
+              "displayShippingYen": 550,
+              "displayPoints": 3,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 6コ入り 2026/09/08発売 (4902555269221)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269221/",
+              "priceYen": 3635,
+              "displayShippingYen": 980,
+              "displayPoints": 33,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 6コ入り 2026/09/08発売 (4902555269221)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269221/",
+              "priceYen": 3635,
+              "displayShippingYen": 980,
+              "displayPoints": 33,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 48コ入り 2026/09/08発売 (4902555269221c)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269221c/",
+              "priceYen": 22772,
+              "displayShippingYen": 0,
+              "displayPoints": 210,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 48コ入り 2026/09/08発売 (4902555269221c)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269221c/",
+              "priceYen": 22772,
+              "displayShippingYen": 0,
+              "displayPoints": 210,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック 佐藤錦 パウチ LOOK 1袋 42g 山形 お土産 チョコ 個包装 さくらんぼ 山形県産佐藤錦使用 ご当地 お菓子 手土産 準チョコレート菓子 ハロウィン 秋ギフト 最短発送 【A01】",
+              "url": "https://item.rakuten.co.jp/auc-r1093-kbs/a2403/",
+              "priceYen": 400,
+              "displayShippingYen": 830,
+              "displayPoints": 3,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 6コ入り 2026/09/08発売 (4902555269238)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269238/",
+              "priceYen": 3635,
+              "displayShippingYen": 980,
+              "displayPoints": 33,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 6コ入り 2026/09/08発売 (4902555269238)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269238/",
+              "priceYen": 3635,
+              "displayShippingYen": 980,
+              "displayPoints": 33,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 ルック(ア・ラ・モード) 12粒 10コ入り 2026/09/08発売 (4902555269283)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269283/",
+              "priceYen": 3461,
+              "displayShippingYen": 980,
+              "displayPoints": 32,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 ルック(ア・ラ・モード) 12粒 10コ入り 2026/09/08発売 (4902555269283)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269283/",
+              "priceYen": 3461,
+              "displayShippingYen": 980,
+              "displayPoints": 32,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 48コ入り 2026/09/08発売 (4902555269238c)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269238c/",
+              "priceYen": 22772,
+              "displayShippingYen": 0,
+              "displayPoints": 210,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 48コ入り 2026/09/08発売 (4902555269238c)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269238c/",
+              "priceYen": 22772,
+              "displayShippingYen": 0,
+              "displayPoints": 210,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料あり】北海道キャラメル18粒　れん乳【かわいい パッケージ お土産 キャラクター 駄菓子 おかし プチプラ プチギフト ばらまき お返し シロクマ】",
+              "url": "https://item.rakuten.co.jp/946washou/10205658/",
+              "priceYen": 243,
+              "displayShippingYen": 1400,
+              "displayPoints": 2,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 ルック(ミルクパレード) 43g 10コ入り 2026/09/08発売 (4902555269306)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269306/",
+              "priceYen": 3461,
+              "displayShippingYen": 980,
+              "displayPoints": 32,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【最大1000円OFFクーポン！】キューブラブリーポーチ ミニポーチ LOOK ルック お菓子パッケージ ジェイズプランニング 小物入れ",
+              "url": "https://item.rakuten.co.jp/cinemacollection/jsp-snp033/",
+              "priceYen": 489,
+              "displayShippingYen": 590,
+              "displayPoints": 4,
+              "couponMentioned": true,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 ルック（ア・ラ・モード）ファミリーパック 24粒(個包装してあります。) 18コ入り 2025/03/11発売 (4902555267982)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555267982/",
+              "priceYen": 10396,
+              "displayShippingYen": 0,
+              "displayPoints": 96,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 ルック(ア・ラ・モード) 12粒 160コ入り 2026/09/08発売 (4902555269283c)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269283c/",
+              "priceYen": 42472,
+              "displayShippingYen": 0,
+              "displayPoints": 393,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 ルック（ア・ラ・モード）ファミリーパック 24粒(個包装してあります。) 18コ入り 2025/03/11発売 (4902555267982)",
+              "url": "https://item.rakuten.co.jp/39march/4902555267982/",
+              "priceYen": 10396,
+              "displayShippingYen": 0,
+              "displayPoints": 96,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 ルック(ア・ラ・モード) 12粒 160コ入り 2026/09/08発売 (4902555269283c)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269283c/",
+              "priceYen": 42472,
+              "displayShippingYen": 0,
+              "displayPoints": 393,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:不二家 プレミアムルック（生キャラメル）パウチ ４５ｇ": {
+          "market": "yahoo",
+          "query": "不二家 プレミアムルック（生キャラメル）パウチ ４５ｇ",
+          "checkedAt": "2026-10-13T16:35:26.742390+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=%E4%B8%8D%E4%BA%8C%E5%AE%B6+%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%AB%E3%83%83%E3%82%AF%EF%BC%88%E7%94%9F%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%A1%E3%83%AB%EF%BC%89%E3%83%91%E3%82%A6%E3%83%81+%EF%BC%94%EF%BC%95%EF%BD%87",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 48コ入り 2026/09/08発売 (4902555269221c)",
+              "url": "https://store.shopping.yahoo.co.jp/okashinomarch/4902555269221c.html",
+              "priceYen": 21772,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 6コ入り 2026/09/08発売 (4902555269221)",
+              "url": "https://store.shopping.yahoo.co.jp/okashinomarch/4902555269221.html",
+              "priceYen": 2721,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 48コ入り 2026/09/08発売 (4902555269221c)",
+              "url": "https://store.shopping.yahoo.co.jp/39march/4902555269221c.html",
+              "priceYen": 22772,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 48コ入り 2026/09/08発売 (4902555269238c)",
+              "url": "https://store.shopping.yahoo.co.jp/okashinomarch/4902555269238c.html",
+              "priceYen": 21772,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 6コ入り 2026/09/08発売 (4902555269238)",
+              "url": "https://store.shopping.yahoo.co.jp/okashinomarch/4902555269238.html",
+              "priceYen": 2721,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 48コ入り 2026/09/08発売 (4902555269238c)",
+              "url": "https://store.shopping.yahoo.co.jp/39march/4902555269238c.html",
+              "priceYen": 22772,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 公式 197ｇ生ミルキーボリュームパック 標準 50粒入 ご褒美 ペコちゃん ぺこちゃん 冷凍 milky 大容量",
+              "url": "https://store.shopping.yahoo.co.jp/family-town/80111.html",
+              "priceYen": 1300,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "rakuten:4902555269221": {
+          "market": "rakuten",
+          "query": "4902555269221",
+          "checkedAt": "2026-10-13T16:36:25.754614+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4902555269221/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "不二家 プレミアムルック（生キャラメル）パウチ 45g",
+              "url": "https://item.rakuten.co.jp/matsukiyo/4902555269221/",
+              "priceYen": 343,
+              "displayShippingYen": 550,
+              "displayPoints": 3,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 6コ入り 2026/09/08発売 (4902555269221)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269221/",
+              "priceYen": 3635,
+              "displayShippingYen": 980,
+              "displayPoints": 33,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 6コ入り 2026/09/08発売 (4902555269221)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269221/",
+              "priceYen": 3635,
+              "displayShippingYen": 980,
+              "displayPoints": 33,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 48コ入り 2026/09/08発売 (4902555269221c)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269221c/",
+              "priceYen": 22772,
+              "displayShippingYen": 0,
+              "displayPoints": 210,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 48コ入り 2026/09/08発売 (4902555269221c)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269221c/",
+              "priceYen": 22772,
+              "displayShippingYen": 0,
+              "displayPoints": 210,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4902555269221": {
+          "market": "yahoo",
+          "query": "4902555269221",
+          "checkedAt": "2026-10-13T16:36:26.959833+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4902555269221",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 48コ入り 2026/09/08発売 (4902555269221c)",
+              "url": "https://store.shopping.yahoo.co.jp/okashinomarch/4902555269221c.html",
+              "priceYen": 21772,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 6コ入り 2026/09/08発売 (4902555269221)",
+              "url": "https://store.shopping.yahoo.co.jp/okashinomarch/4902555269221.html",
+              "priceYen": 2721,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 48コ入り 2026/09/08発売 (4902555269221c)",
+              "url": "https://store.shopping.yahoo.co.jp/39march/4902555269221c.html",
+              "priceYen": 22772,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        }
+      }
+    },
+    "B0HCN2F8JQ": {
+      "title": "不二家 プレミアムルック（ルビーロマン）パウチ ４０ｇ",
+      "queries": {
+        "rakuten:不二家 プレミアムルック（ルビーロマン）パウチ ４０ｇ": {
+          "market": "rakuten",
+          "query": "不二家 プレミアムルック（ルビーロマン）パウチ ４０ｇ",
+          "checkedAt": "2026-10-13T16:35:38.492251+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/%E4%B8%8D%E4%BA%8C%E5%AE%B6%20%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%AB%E3%83%83%E3%82%AF%EF%BC%88%E3%83%AB%E3%83%93%E3%83%BC%E3%83%AD%E3%83%9E%E3%83%B3%EF%BC%89%E3%83%91%E3%82%A6%E3%83%81%20%EF%BC%94%EF%BC%90%EF%BD%87/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 6コ入り 2026/09/08発売 (4902555269238)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269238/",
+              "priceYen": 3635,
+              "displayShippingYen": 980,
+              "displayPoints": 33,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 6コ入り 2026/09/08発売 (4902555269238)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269238/",
+              "priceYen": 3635,
+              "displayShippingYen": 980,
+              "displayPoints": 33,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 48コ入り 2026/09/08発売 (4902555269238c)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269238c/",
+              "priceYen": 22772,
+              "displayShippingYen": 0,
+              "displayPoints": 210,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 48コ入り 2026/09/08発売 (4902555269238c)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269238c/",
+              "priceYen": 22772,
+              "displayShippingYen": 0,
+              "displayPoints": 210,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 6コ入り 2026/09/08発売 (4902555269221)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269221/",
+              "priceYen": 3635,
+              "displayShippingYen": 980,
+              "displayPoints": 33,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック 佐藤錦 パウチ LOOK 1袋 42g 山形 お土産 チョコ 個包装 さくらんぼ 山形県産佐藤錦使用 ご当地 お菓子 手土産 準チョコレート菓子 ハロウィン 秋ギフト 最短発送 【A01】",
+              "url": "https://item.rakuten.co.jp/auc-r1093-kbs/a2403/",
+              "priceYen": 400,
+              "displayShippingYen": 830,
+              "displayPoints": 3,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 6コ入り 2026/09/08発売 (4902555269221)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269221/",
+              "priceYen": 3635,
+              "displayShippingYen": 980,
+              "displayPoints": 33,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 48コ入り 2026/09/08発売 (4902555269221c)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269221c/",
+              "priceYen": 22772,
+              "displayShippingYen": 0,
+              "displayPoints": 210,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(生キャラメル)パウチ 45g 48コ入り 2026/09/08発売 (4902555269221c)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269221c/",
+              "priceYen": 22772,
+              "displayShippingYen": 0,
+              "displayPoints": 210,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ぶどう ルビーロマン 秀品 600g 1房 石川県産 葡萄 ブドウ",
+              "url": "https://item.rakuten.co.jp/hachiya-fruits/rrn005/",
+              "priceYen": 6800,
+              "displayShippingYen": 0,
+              "displayPoints": 62,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "(全国送料無料)お菓子 詰め合わせ 不二家 LOOKピスタチオ＆アーモンド 22粒 メール便 (4902555269443mz)【送料無料 詰め合わせ おやつ 小袋 個包装 お試し】",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269443mz/",
+              "priceYen": 1512,
+              "displayShippingYen": 0,
+              "displayPoints": 14,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 ルック(ア・ラ・モード) 12粒 10コ入り 2026/09/08発売 (4902555269283)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269283/",
+              "priceYen": 3461,
+              "displayShippingYen": 980,
+              "displayPoints": 32,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 ルック(ピスタチオ＆アーモンド)ファミリーパック 22粒(個包装してあります) 18コ入り 2026/09/15発売 (4902555269443)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269443/",
+              "priceYen": 10720,
+              "displayShippingYen": 0,
+              "displayPoints": 99,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 ルック(ピスタチオ＆アーモンド)ファミリーパック 22粒(個包装してあります) 18コ入り 2026/09/15発売 (4902555269443)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269443/",
+              "priceYen": 10720,
+              "displayShippingYen": 0,
+              "displayPoints": 99,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【中古】[FIG] プチラマDX LOGBOX RE BIRTH 02 ルフィスペシャル ONE PIECE(ワンピース) 完成品 フィギュア プレミアムバンダイ&一部流通オンラインストア&取扱店舗限定 メガハウス(20240325)",
+              "url": "https://item.rakuten.co.jp/mediaworldkaitoriworld/61275403001/",
+              "priceYen": 15352,
+              "displayShippingYen": 0,
+              "displayPoints": 139,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "(全国送料無料)お菓子 詰め合わせ 不二家 LOOKピスタチオ＆アーモンド 22粒 メール便 (4902555269443mz)【送料無料 詰め合わせ おやつ 小袋 個包装 お試し】",
+              "url": "https://item.rakuten.co.jp/39march/4902555269443mz/",
+              "priceYen": 1512,
+              "displayShippingYen": 0,
+              "displayPoints": 14,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:不二家 プレミアムルック（ルビーロマン）パウチ ４０ｇ": {
+          "market": "yahoo",
+          "query": "不二家 プレミアムルック（ルビーロマン）パウチ ４０ｇ",
+          "checkedAt": "2026-10-13T16:35:39.833579+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=%E4%B8%8D%E4%BA%8C%E5%AE%B6+%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%AB%E3%83%83%E3%82%AF%EF%BC%88%E3%83%AB%E3%83%93%E3%83%BC%E3%83%AD%E3%83%9E%E3%83%B3%EF%BC%89%E3%83%91%E3%82%A6%E3%83%81+%EF%BC%94%EF%BC%90%EF%BD%87",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 6コ入り 2026/09/08発売 (4902555269238)",
+              "url": "https://store.shopping.yahoo.co.jp/okashinomarch/4902555269238.html",
+              "priceYen": 2721,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 48コ入り 2026/09/08発売 (4902555269238c)",
+              "url": "https://store.shopping.yahoo.co.jp/39march/4902555269238c.html",
+              "priceYen": 22772,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 48コ入り 2026/09/08発売 (4902555269238c)",
+              "url": "https://store.shopping.yahoo.co.jp/okashinomarch/4902555269238c.html",
+              "priceYen": 21772,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "rakuten:4902555269238": {
+          "market": "rakuten",
+          "query": "4902555269238",
+          "checkedAt": "2026-10-13T16:36:33.671430+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4902555269238/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 6コ入り 2026/09/08発売 (4902555269238)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269238/",
+              "priceYen": 3635,
+              "displayShippingYen": 980,
+              "displayPoints": 33,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 6コ入り 2026/09/08発売 (4902555269238)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269238/",
+              "priceYen": 3635,
+              "displayShippingYen": 980,
+              "displayPoints": 33,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 48コ入り 2026/09/08発売 (4902555269238c)",
+              "url": "https://item.rakuten.co.jp/okashinomarch/4902555269238c/",
+              "priceYen": 22772,
+              "displayShippingYen": 0,
+              "displayPoints": 210,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 48コ入り 2026/09/08発売 (4902555269238c)",
+              "url": "https://item.rakuten.co.jp/39march/4902555269238c/",
+              "priceYen": 22772,
+              "displayShippingYen": 0,
+              "displayPoints": 210,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4902555269238": {
+          "market": "yahoo",
+          "query": "4902555269238",
+          "checkedAt": "2026-10-13T16:36:34.904130+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4902555269238",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 6コ入り 2026/09/08発売 (4902555269238)",
+              "url": "https://store.shopping.yahoo.co.jp/okashinomarch/4902555269238.html",
+              "priceYen": 2721,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 48コ入り 2026/09/08発売 (4902555269238c)",
+              "url": "https://store.shopping.yahoo.co.jp/39march/4902555269238c.html",
+              "priceYen": 22772,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "不二家 プレミアムルック(ルビーロマン)パウチ 40g 48コ入り 2026/09/08発売 (4902555269238c)",
+              "url": "https://store.shopping.yahoo.co.jp/okashinomarch/4902555269238c.html",
+              "priceYen": 21772,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        }
+      }
     }
   },
-  "checkedAt": "2026-10-13T14:33:04.241896+00:00"
+  "checkedAt": "2026-10-13T16:36:34.904144+00:00"
 }

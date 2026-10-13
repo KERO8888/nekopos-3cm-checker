@@ -97,7 +97,7 @@ def main():
                          if re.fullmatch(r"\d{13}", query.get("query", ""))] if args.discovery else []
         eans = list(dict.fromkeys((identifiers.get(asin, {}).get("eanList") or [])
                                   + (learned.get(asin, {}).get("expectedEans") or []) + searched_eans))
-        previous = items.get(asin, {}).get("suppliers", []) if args.discovery else []
+        previous = [value for value in items.get(asin, {}).get("suppliers", []) if not is_multi_unit(value.get("name"))] if args.discovery else []
         verified = list(previous)
         checked = []
         if args.discovery:
