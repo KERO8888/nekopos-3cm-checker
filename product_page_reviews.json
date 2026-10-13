@@ -4015,6 +4015,71 @@
       "decisionReason": "Amazon現行ページで単品の詰め替え用・掲載3辺の最小辺3cm超を確認。主画像とIFME公式で硬いキャップのない柔らかい袋を確認。液体を袋面へ均せる見込みはあるが、梱包後3cm以下は実測していない。",
       "manufacturerSource": "https://ifme.jp/products/ifsm738",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0GX5753WC",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0GX5753WC",
+      "title": "味の素 SIIDA 焚＜ＨＵＮ＞３袋入パウチ 鰹節 だしパック 和風だし シーダ siida",
+      "dimensions": [
+        {
+          "value": "21.8 x 17.6 x 1.6 cm",
+          "context": "       :\n                                            ‎ 21.8 x 17.6 x 1.6 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81qgzwzUwDL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_min_side_not_over_3cm",
+      "decisionReason": "Amazon掲載3辺21.8×17.6×1.6cmの最小辺が3cm以下。さらに商品名は3袋入で単品袋条件にも合わない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B08462537N",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B08462537N",
+      "title": "桑郷 ハンさんのおいしいくわ茶 桑茶 個包装 粉末 ティーパック 山梨県産桑の葉100% 国産 無農薬 日本茶製法 (パウチ90g)",
+      "dimensions": [
+        {
+          "value": "15.4 x 11.3 x 2.3 cm",
+          "context": "       :\n                                            ‎ 15.4 x 11.3 x 2.3 cm; 90 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81eBbGu8Z8L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_min_side_not_over_3cm",
+      "decisionReason": "Amazon掲載3辺15.4×11.3×2.3cmの最小辺が3cm以下。登録条件に合わない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B015R1SVFM",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B015R1SVFM",
+      "title": "Laundrin ランドリン 柔軟剤 大容量 クラシックフローラル 詰め替え 960ml",
+      "dimensions": [
+        {
+          "value": "26.2 x 15.8 x 5.2 cm",
+          "context": "       :\n                                            ‎ 26.2 x 15.8 x 5.2 cm; 980 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71ysNmEek6L._AC_SL1500_.jpg",
+      "reviewStatus": "hold_peak_thickness_unverified",
+      "decisionReason": "960mL液体を未開封の柔らかい詰め替え袋で平らにしても、Amazon掲載26.2×15.8×5.2cmから最大厚3cm以下となる具体的根拠がない。袋面と梱包後厚さの実測待ち。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B07VZF8ZRJ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B07VZF8ZRJ",
+      "title": "パウティー トロピカルティー 無糖 250g 【紅茶パウダー】 【インスタントティー】 【粉末茶】 【マンゴー】 【ティーバッグ不要】",
+      "dimensions": [
+        {
+          "value": "29 x 19.3 x 4.1 cm",
+          "context": "       :\n                                            ‎ 29 x 19.3 x 4.1 cm; 250 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/31dFYoLpBzL._AC_SY300_SX300_QL70_ML2_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページで250g単品・掲載3辺最小辺4.1cmを確認。メーカー柳屋茶楽の商品ページと販売写真でチャック付き柔軟袋を確認。粉末は袋面に均せる見込みだが、梱包後3cm以下は未実測。",
+      "manufacturerSource": "https://www.yanagiya-charaku.jp/?pid=144825370",
+      "decidedOn": "2026-10-13"
     }
   ]
 }

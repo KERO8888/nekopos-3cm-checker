@@ -132,7 +132,7 @@
     "ココア 粉末 詰め替え 袋 200g"
   ],
   "discoveredCount": 63872,
-  "addedCount": 93,
+  "addedCount": 94,
   "discovered": [
     {
       "asin": "B0CDPF8BKZ",
@@ -4882,7 +4882,7 @@
       "queries": [
         "柔軟剤 詰め替え 300ml"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=入浴剤 root=160384011 side>=0mm",
@@ -44067,7 +44067,7 @@
       "queries": [
         "粉末だし 詰め替え 袋 300g"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
@@ -206132,7 +206132,7 @@
     {
       "asin": "B08462537N",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm",
@@ -206833,7 +206833,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "六彩だし 出汁 無添加 国産 だし 食塩 酵母エキス不使用 国産だし和風だし 粉末だし かつお さば あじ いわし 昆布 椎茸 ミネラル カルシウム (200g)",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        26,
+        163,
+        223
+      ],
+      "keepaPackageWeightG": 220,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0H1LLJ5WZ",
@@ -206842,7 +206856,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "六彩だし 出汁 無添加 国産 だし 食塩 酵母エキス不使用 国産だし和風だし 粉末だし かつお さば あじ いわし 昆布 椎茸 ミネラル カルシウム",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        18,
+        155,
+        165
+      ],
+      "keepaPackageWeightG": 100,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B09DYJP42V",
@@ -207355,7 +207383,20 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "NICHIGA(ニチガ) キシリトール (XYLITOL) 粉末 700g 天然甘味料 冷涼感のある甘味質 [01]",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        0,
+        0,
+        0
+      ],
+      "keepaPackageWeightG": 0,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B00JVQ6Y2C",
@@ -207364,7 +207405,20 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "NICHIGA(ニチガ) キシリトール (XYLITOL) 粉末 250g 天然甘味料 冷涼感のある甘味質 [05]",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        0,
+        0,
+        0
+      ],
+      "keepaPackageWeightG": 0,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DTTL7PPZ",
@@ -207455,7 +207509,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "LOHAStyle(ロハスタイル) エリスリトール 粉末 800g×6袋 カロリーゼロ 希少糖 遺伝子組み換え不使用 トウモロコシ 糖質制限 天然由来甘味料 砂糖 パウダー",
+      "triageScore": -5,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        0,
+        0,
+        0
+      ],
+      "keepaPackageWeightG": 0,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CWN48DSF",
@@ -209509,16 +209577,46 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "パウティー アールグレイ紅茶 無糖 80g 500mLペットボトル約32本分 粉末茶 紅茶パウダー アールグレイパウダー 水に溶ける インスタントティー ティーバッグ不要 製菓材料 お菓子作り",
+      "triageScore": -17,
+      "triageTags": [
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        16,
+        127,
+        227
+      ],
+      "keepaPackageWeightG": 90,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07VZF8ZRJ",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "パウティー トロピカルティー 無糖 250g 【紅茶パウダー】 【インスタントティー】 【粉末茶】 【マンゴー】 【ティーバッグ不要】",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        41,
+        193,
+        290
+      ],
+      "keepaPackageWeightG": 270,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B01I16MH96",
@@ -209527,7 +209625,22 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "パウティー ストレート紅茶 無糖 250g 500mLペットボトル約100本分 粉末茶 紅茶パウダー 水に溶ける インスタントティー ティーバッグ不要 ブラックティー 製菓材料 お菓子作り",
+      "triageScore": -9,
+      "triageTags": [
+        "対象外用途の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        32,
+        194,
+        298
+      ],
+      "keepaPackageWeightG": 290,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CLP4PWWH",
@@ -209640,7 +209753,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "有機オートミールパウダー 粉末 600g オーガニック 無添加 全粒粉 オーツ麦 粉状",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        30,
+        229,
+        323
+      ],
+      "keepaPackageWeightG": 620,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B092ZSXF45",
@@ -209905,7 +210032,22 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "パウティー オリジナルブレンド紅茶 無糖 250g 500mLペットボトル約100本分 粉末 紅茶パウダー 水に溶ける インスタントティー ティーバッグ不要 砂糖不使用 お菓子作り",
+      "triageScore": -9,
+      "triageTags": [
+        "対象外用途の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        35,
+        174,
+        297
+      ],
+      "keepaPackageWeightG": 280,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FK9TH1HW",
@@ -209914,7 +210056,23 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "パウティー オリジナルブレンド紅茶 無糖 80g 500mLペットボトル約32本分 粉末 紅茶パウダー 水に溶ける インスタントティー ティーバッグ不要 砂糖不使用 お菓子作り",
+      "triageScore": -17,
+      "triageTags": [
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        18,
+        128,
+        229
+      ],
+      "keepaPackageWeightG": 60,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07PQKJNC5",
@@ -209923,7 +210081,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "パウティー ピーチティー 無糖 250g 【紅茶パウダー】 【水に溶ける】 【インスタントティー】 【粉末茶】 【ティーバッグ不要】",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        30,
+        178,
+        299
+      ],
+      "keepaPackageWeightG": 270,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B01HNXYIG8",
@@ -209932,7 +210104,23 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "パウティー ストレート紅茶 無糖 80g 500mLペットボトル約32本分 粉末茶 紅茶パウダー 水に溶ける インスタントティー ティーバッグ不要 ブラックティー 製菓材料 お菓子作り",
+      "triageScore": -17,
+      "triageTags": [
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        13,
+        127,
+        229
+      ],
+      "keepaPackageWeightG": 100,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B075942DRK",
@@ -209941,7 +210129,22 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "パウティー アールグレイ紅茶 無糖 250g 500mLペットボトル約100本分 粉末茶 紅茶パウダー アールグレイパウダー 水に溶ける インスタントティー ティーバッグ不要 製菓材料 お菓子作り",
+      "triageScore": -11,
+      "triageTags": [
+        "対象外用途の可能性",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        20,
+        180,
+        300
+      ],
+      "keepaPackageWeightG": 280,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B01MUNL14F",
@@ -209950,7 +210153,23 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "パウティー レモンティー 無糖 レモン果汁パウダー入り 80g お試しサイズ 500mLペットボトル約32本分 粉末茶 水に溶ける インスタントティー ティーバッグ不要 製菓材料",
+      "triageScore": -17,
+      "triageTags": [
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        20,
+        127,
+        228
+      ],
+      "keepaPackageWeightG": 90,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07PPGP5SB",
@@ -209959,7 +210178,22 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "パウティー レモンティー 無糖 レモン果汁パウダー入り 250g 500mLペットボトル約100本分 粉末茶 水に溶ける インスタントティー ティーバッグ不要 お菓子作り 給茶機対応",
+      "triageScore": -11,
+      "triageTags": [
+        "対象外用途の可能性",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        27,
+        174,
+        295
+      ],
+      "keepaPackageWeightG": 270,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0H4QL9XCR",
@@ -209968,7 +210202,22 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "パウティー オレンジティー 無糖 250g 500mLペットボトル約100本分 粉末茶 水に溶ける オレンジ果汁パウダー入り 紅茶パウダー インスタントティー ティーバッグ不要 お菓子作り",
+      "triageScore": -11,
+      "triageTags": [
+        "対象外用途の可能性",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        26,
+        210,
+        299
+      ],
+      "keepaPackageWeightG": 280,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C4NLLWXD",
@@ -210384,7 +210633,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "ヘルシーカンパニー 高知県産 黄金生姜 パウダー 80g しょうが 乾燥 粉末 ウルトラ生姜 殺菌蒸し工程 原料変更しました",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        14,
+        114,
+        180
+      ],
+      "keepaPackageWeightG": 120,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CWNPPZQX",
@@ -211666,7 +211929,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "SPANION コリアンダーパウダー 500g 農薬自社検査合格 国内製造 コリアンダー パウダー 粉末 ギフト 贈り物",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        30,
+        189,
+        288
+      ],
+      "keepaPackageWeightG": 510,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CZ6YJ6S9",
@@ -211747,7 +212024,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
+      "keepaTitle": "SPANION ターメリックパウダー 500g 農薬自社検査合格 国内製造 ウコン ターメリック 粉末 ギフト 贈り物",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        27,
+        193,
+        291
+      ],
+      "keepaPackageWeightG": 510,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B09KRQVXVF",
@@ -550484,7 +550775,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 684,
+  "fetchedProductPageCount": 688,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -554777,6 +555068,37 @@
       "pagesChecked": 3,
       "added": 2,
       "unverifiedRange": "Amazonの掲載寸法は平置き実寸とは確認できず、追加2件とも梱包後の最大厚・外寸・重量は未測定。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=パウチ root=57239051由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0GX5753WC",
+        "B08462537N"
+      ],
+      "pagesChecked": 2,
+      "added": 0,
+      "unverifiedRange": "Amazon掲載3辺の最小辺が3cm以下の2件は除外。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=詰め替え root=160384011由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B015R1SVFM"
+      ],
+      "pagesChecked": 1,
+      "added": 0,
+      "unverifiedRange": "960mL単品の柔らかい詰め替え袋だが、袋面と梱包後最大厚が未実測で3cm以下の根拠が不足。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=粉末 root=57239051由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B07VZF8ZRJ"
+      ],
+      "pagesChecked": 1,
+      "added": 1,
+      "unverifiedRange": "メーカー同一商品は1袋とチャック付き袋を確認。Amazon掲載寸法は梱包寸法の可能性があり、袋面と梱包後最大厚・重量は未実測。"
     }
   ],
   "searchStops": [

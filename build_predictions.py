@@ -36,6 +36,7 @@ FORM_SOURCES = {
     'B0CLLK42TQ': 'https://rishiria-furel.com/shampoo.html',
     'B0CGGQNTCL': 'https://ifme.jp/products/ifss776',
     'B09WY1F29R': 'https://ifme.jp/products/ifsm738',
+    'B07VZF8ZRJ': 'https://www.yanagiya-charaku.jp/?pid=144825370',
 }
 
 FISH_SINKING = set('B07BBMLGVJ B01GTF98OS B00KPASQ3S B0CVKL9BVN B0H9PFGNS3 B003YKUI32 B078YW4HYG B01FJ2IYN8 B01FEUZPUK B01FEULQK8 B0015XNJ04'.split())

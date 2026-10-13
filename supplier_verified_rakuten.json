@@ -2017,7 +2017,47 @@
         "identifier_unconfirmed": 2
       },
       "suppliers": []
+    },
+    "B0BSXKB76G": {
+      "expectedEans": [],
+      "checkedPages": 8,
+      "cumulativeCheckedPages": 8,
+      "identifierSource": "unconfirmed",
+      "eligibleLeads": 8,
+      "rejected": {
+        "stock_unconfirmed": 1,
+        "jan_missing": 4,
+        "identifier_unconfirmed": 3
+      },
+      "suppliers": []
+    },
+    "B08FQY72GJ": {
+      "expectedEans": [
+        "4985275797465"
+      ],
+      "checkedPages": 8,
+      "cumulativeCheckedPages": 8,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 15,
+      "rejected": {
+        "jan_mismatch": 7,
+        "jan_missing": 1,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": []
+    },
+    "B07VZF8ZRJ": {
+      "expectedEans": [],
+      "checkedPages": 8,
+      "cumulativeCheckedPages": 8,
+      "identifierSource": "unconfirmed",
+      "eligibleLeads": 15,
+      "rejected": {
+        "jan_missing": 6,
+        "identifier_unconfirmed": 2
+      },
+      "suppliers": []
     }
   },
-  "checkedAt": "2026-10-13T02:38:10.098847+00:00"
+  "checkedAt": "2026-10-13T03:38:09.428553+00:00"
 }
