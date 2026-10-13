@@ -1866,7 +1866,135 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B001DCE32U": {
+      "expectedEans": [
+        "0789015224860",
+        "0885670171874",
+        "4904735054795"
+      ],
+      "checkedPages": 8,
+      "cumulativeCheckedPages": 8,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 27,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "太陽油脂 パックスベビー　全身シャンプー　詰替用　300mL　メール便送料無料",
+          "storeName": "SOHSHOPプラス",
+          "jan": "4904735054795",
+          "priceYen": 988,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T01:36:43.056489+00:00",
+          "url": "https://item.rakuten.co.jp/sohshopplus/4904735054795/",
+          "store": "SOHSHOPプラス",
+          "inboundShippingYen": 0,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "太陽油脂 パックスベビー 全身シャンプー 詰替用 300mL【2個までメール便、他商品と同梱不可】 ベビー用品 ベビースキンケア",
+          "storeName": "SOHSHOPONE",
+          "jan": "4904735054795",
+          "priceYen": 839,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T01:37:25.216677+00:00",
+          "url": "https://item.rakuten.co.jp/sohshopone/4904735054795/",
+          "store": "SOHSHOPONE",
+          "inboundShippingYen": 270,
+          "displayPoints": 7,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "パックスベビー　全身シャンプー　詰替用　300mL  お風呂 ベビーバス　クリスマス",
+          "storeName": "ORANGE-BABY",
+          "jan": "4904735054795",
+          "priceYen": 902,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T01:37:04.158815+00:00",
+          "url": "https://item.rakuten.co.jp/orange-baby/4904735054795/",
+          "store": "ORANGE-BABY",
+          "inboundShippingYen": 220,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "※パックスベビー 全身シャンプー 詰替用 300mL",
+          "storeName": "ヘルスケア　コヤマ",
+          "jan": "4904735054795",
+          "priceYen": 660,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T01:36:21.788402+00:00",
+          "url": "https://item.rakuten.co.jp/koyama-p/4904735054795/",
+          "store": "ヘルスケア　コヤマ",
+          "inboundShippingYen": 600,
+          "displayPoints": 6,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "パックスベビー 全身シャンプー 詰替用 300ml 【パックスベビー】 入浴用品",
+          "storeName": "楽天24エクスプレス",
+          "jan": "4904735054795",
+          "priceYen": 811,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T01:36:53.596022+00:00",
+          "url": "https://item.rakuten.co.jp/rakutensokuhaimart/4904735054795/",
+          "store": "楽天24エクスプレス",
+          "inboundShippingYen": 500,
+          "displayPoints": 7,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【店長のイチオシ】太陽油脂 パックスベビー 全身シャンプー 詰替用 300ml 無着色・無香料 (PAX NATURON ベビーシャンプー)",
+          "storeName": "ケンコウlife",
+          "jan": "4904735054795",
+          "priceYen": 814,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T01:37:35.755714+00:00",
+          "url": "https://item.rakuten.co.jp/yoikenkou/4904735054795-9999/",
+          "store": "ケンコウlife",
+          "inboundShippingYen": 599,
+          "displayPoints": 7,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "太陽油脂 パックスベビー 全身シャンプー 詰替用 300ml",
+          "storeName": "雑貨屋　楽天市場支店",
+          "jan": "4904735054795",
+          "priceYen": 860,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T01:36:32.275569+00:00",
+          "url": "https://item.rakuten.co.jp/zaccaya-r/4904735054795/",
+          "store": "雑貨屋　楽天市場支店",
+          "inboundShippingYen": 580,
+          "displayPoints": 7,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "パックスベビー(pax baby) 全身シャンプー 詰替用 300ml 泡ポンプ用 太陽油脂",
+          "storeName": "コスメボックス",
+          "jan": "4904735054795",
+          "priceYen": 725,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T01:37:14.692749+00:00",
+          "url": "https://item.rakuten.co.jp/cosmebox/j4904735054795/",
+          "store": "コスメボックス",
+          "inboundShippingYen": 800,
+          "displayPoints": 6,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-13T00:32:15.682901+00:00"
+  "checkedAt": "2026-10-13T01:37:36.060768+00:00"
 }

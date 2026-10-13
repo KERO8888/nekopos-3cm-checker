@@ -3950,6 +3950,17 @@
       "reviewStatus": "hold_current_page_variant_differs_from_keepa",
       "decisionReason": "Keepaの商品名はコーンクリーム400gだが、現行Amazonページは冷製かぼちゃ100gを表示し、掲載3辺も20×10×2cm。対象ASINの販売単位と3辺を一致確認できないため保留。",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0D331VG4R",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0D331VG4R",
+      "title": "[MDSTYLE] ペイズリー バンダナ 56cm×56cm 綿100% 大判 コットン メンズ レディース ハンカチ スカーフ ヘアバンド",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81jgAolX63L._AC_SL1280_.jpg",
+      "reviewStatus": "hold_missing_amazon_dimensions",
+      "decisionReason": "単品の布製バンダナで平らにできる可能性はあるが、現行Amazon商品ページでは掲載3辺寸法を取得できず、最小辺3cm超の登録条件を確認できない。",
+      "decidedOn": "2026-10-13"
     }
   ]
 }
