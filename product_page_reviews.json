@@ -5719,6 +5719,86 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71-NHfJKnkL._AC_SL1500_.jpg",
       "reviewStatus": "added_after_manual_photo_and_dimensions_review",
       "decisionReason": "Amazon現行ページで400gの単品、掲載3辺19.5×12.7×4cmと硬いキャップのない柔らかいレトルト袋を確認。中身を袋全体に広げる余地がある。掲載寸法は梱包寸法の可能性があり、袋の実寸・豆の局所的な重なり・発送後の最大厚・重量は未測定。低確信度の候補。"
+    },
+    {
+      "asin": "B0BN86FXF4",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B0BN86FXF4",
+      "title": "アイリスオーヤマ レトルト 塩麹豚汁 450g 惣菜 レトルト食品 おかず 一人暮らし 常温保存 非常食 保存食 和食 パウチ 八海山 新潟",
+      "dimensions": [
+        {
+          "value": "20.5 x 13.7 x 6.4 cm",
+          "context": "       :\n                                            ‎ 20.5 x 13.7 x 6.4 cm; 450 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61VGP69-sSL._AC_SL1000_.jpg",
+      "reviewStatus": "held_chunky_contents_peak_thickness_unconfirmed",
+      "decisionReason": "単品の柔らかいレトルト袋で掲載最小辺6.4cm。ただし豚肉・根菜など大きな具材の局所厚が写真だけでは分からず、450gを未開封のまま均して3cm以下にできる具体的根拠が不足。"
+    },
+    {
+      "asin": "B07BRQVHJ6",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B07BRQVHJ6",
+      "title": "明治 チョコレート効果カカオ72%パウチ 40g",
+      "dimensions": [
+        {
+          "value": "16.3 x 14.4 x 12.8 cm",
+          "context": "       :\n                                            ‎ 16.3 x 14.4 x 12.8 cm; 40 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/91Lvt0NSYvL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_multi_pouch_set",
+      "decisionReason": "商品名は40gパウチだがAmazon現行主画像は複数袋を並べたセット。掲載16.3×14.4×12.8cmも単袋の寸法ではないため、単品候補から除外。"
+    },
+    {
+      "asin": "B0DW7JBDVY",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B0DW7JBDVY",
+      "title": "無印良品 大袋 食べるスープ コムタンスープ 10食入り TDZ07A4A",
+      "dimensions": [
+        {
+          "value": "20.9 x 11.7 x 7.3 cm",
+          "context": "       :\n                                            ‎ 20.9 x 11.7 x 7.3 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61Si6bp9C4L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_ten_inner_sachets",
+      "decisionReason": "外袋に10食入りと明記。内袋10個の未開封時の重なりを解消できず、単品1袋を平らにする登録条件から除外。"
+    },
+    {
+      "asin": "B0DW7SYGBW",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B0DW7SYGBW",
+      "title": "無印良品 大袋 食べるスープ 5種野菜のミネストローネ 10食入り TDB28A4S",
+      "dimensions": [
+        {
+          "value": "25.8 x 10.7 x 7.2 cm",
+          "context": "       :\n                                            ‎ 25.8 x 10.7 x 7.2 cm; 140 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61mPr1KTd4L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_ten_inner_sachets",
+      "decisionReason": "外袋に10食入りと明記。内袋10個の未開封時の重なりを解消できず、単品1袋を平らにする登録条件から除外。"
+    },
+    {
+      "asin": "B0H2Y1DLVQ",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B0H2Y1DLVQ",
+      "title": "大判 食器拭きクロス プロ仕様 60x45cm 1枚 ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 ソフトラベンダー",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81znVmGZyVL._AC_SL1500_.jpg",
+      "reviewStatus": "held_no_amazon_three_dimensions",
+      "decisionReason": "1枚の柔らかい食器拭きクロスだがAmazon現行ページで掲載3辺寸法を確認できないため登録条件を満たすと判断できない。"
+    },
+    {
+      "asin": "B0DFVX39VY",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B0DFVX39VY",
+      "title": "大判 食器拭きクロス プロ仕様 60x45cm 1枚 ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 アイボリー",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71s295DYwYL._AC_SL1500_.jpg",
+      "reviewStatus": "held_no_amazon_three_dimensions",
+      "decisionReason": "1枚の柔らかい食器拭きクロスだがAmazon現行ページで掲載3辺寸法を確認できないため登録条件を満たすと判断できない。"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "searchedOn": "2026-10-13",
+  "searchedOn": "2026-10-14",
   "marketplace": "Amazon.co.jp",
   "method": "Amazon.co.jp検索結果とKeepa Product Finderから未確認ASINを収集し、商品ページは別途個別照合。",
   "coverageNote": "Keepaデータベースと確認済みAmazon検索語・ページ以外のASINは残る。Amazon全商品を網羅していない。",
@@ -121063,7 +121063,7 @@
     {
       "asin": "B0BN86FXF4",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
@@ -123598,7 +123598,7 @@
     {
       "asin": "B07BRQVHJ6",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa title=パウチ root=57239051 side>=0mm",
@@ -197628,7 +197628,7 @@
     {
       "asin": "B0DW7JBDVY",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=スープ root=57239051 side>=0mm"
@@ -210536,7 +210536,7 @@
     {
       "asin": "B0DW7SYGBW",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=スープ root=57239051 side>=0mm"
@@ -475197,7 +475197,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "キッチンタオル キッチンクロス ふきん 手拭きタオル 布巾 台拭き ディッシュクロス ループ付き 速乾キッチン 食器拭き 30*30cm 6枚セット 吸水性 台所 手ふきん タオル 速乾 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(グレー6枚)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        29,
+        221,
+        306
+      ],
+      "keepaPackageWeightG": 250,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0CGWZS2GK",
@@ -475208,7 +475224,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "北欧おしゃれ キッチンタオル キッチンクロス ふきん 手拭き 布巾 台拭き ディッシュクロス ループ付き 速乾 キッチン 食器拭き 30*30cm 6枚セット 吸水性 台所 手ふきん 防臭 抗菌 マイクロファイバー 毛羽立たない(グレー3枚 ベージュ2枚 ピンク1枚)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        30,
+        222,
+        308
+      ],
+      "keepaPackageWeightG": 260,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0CGX3G3CW",
@@ -475219,7 +475251,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "Ｌ広場 キッチンタオル キッチンクロス ふきん 手拭きタオル 布巾 台拭き ディッシュクロス ループ付き 速乾キッチン 食器拭き 30*30cm 3枚セット 吸水性 台所 手ふきん タオル 速乾 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(ベージュ3枚 ピンク3枚)",
+      "triageScore": -7,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        31,
+        219,
+        307
+      ],
+      "keepaPackageWeightG": 250,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0DNW6Y477",
@@ -475230,7 +475278,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "水切りタオル ティータオル 水切りマット 3枚セット 大判 80*50cm 吸水クロス 食器拭き 食器/お皿/鍋拭き キッチンクロス ふきん 布巾 ループ付き 速乾キッチン 吸水性 台所 手ふきん 吸水 速乾 厚手 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(グレー 2枚 ベージュ 1枚）",
+      "triageScore": -7,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        31,
+        222,
+        311
+      ],
+      "keepaPackageWeightG": 460,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0DJ4S8BBN",
@@ -475241,7 +475305,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "水切りタオル ティータオル 水切りマット 3枚セット 大判 80*50cm 吸水クロス 食器拭き 食器/お皿/鍋拭き キッチンクロス ふきん 布巾 台拭き ループ付き 速乾キッチン 吸水性 台所 手ふきん 吸水 速乾 厚手 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(グレー 3枚）",
+      "triageScore": -7,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        32,
+        292,
+        293
+      ],
+      "keepaPackageWeightG": 510,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0F6C5GF1L",
@@ -475252,7 +475332,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "キッチンタオル キッチンクロス ふきん 手拭きタオル 布巾 台拭き ディッシュクロス ループ付き 速乾キッチン 食器拭き 30*30cm 6枚セット 吸水性 台所 手ふきん タオル 速乾 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(グレー2枚 ブラウン2枚 ピンク2枚)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        29,
+        223,
+        309
+      ],
+      "keepaPackageWeightG": 250,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0CGWZFF2M",
@@ -475263,7 +475359,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "キッチンタオル キッチンクロス ふきん 手拭きタオル 布巾 台拭き ディッシュクロス ループ付き 速乾キッチン 食器拭き 30*30cm 6枚セット 吸水性 台所 手ふきん タオル 速乾 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(グレー3枚 ピンク3枚)",
+      "triageScore": -7,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        31,
+        222,
+        307
+      ],
+      "keepaPackageWeightG": 260,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0C3LTV85B",
@@ -475274,7 +475386,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "北欧おしゃれ キッチンタオル キッチンクロス ふきん 手拭き 布巾 台拭き ディッシュクロス ループ付き 速乾 食器拭き 30*30cm 3枚セット 吸水性 台所 手ふきん 防臭 抗菌 マイクロファイバー 毛羽立たない(ピンク3枚)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        30,
+        157,
+        307
+      ],
+      "keepaPackageWeightG": 80,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0F6C8X4W2",
@@ -475285,7 +475413,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "キッチンタオル キッチンクロス ふきん 手拭きタオル 布巾 台拭き ディッシュクロス ループ付き 速乾キッチン 食器拭き 30*30cm 3枚セット 吸水性 台所 手ふきん タオル 速乾 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(ブラウン3枚)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        29,
+        159,
+        301
+      ],
+      "keepaPackageWeightG": 90,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0DNW6RCQK",
@@ -475296,7 +475440,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "水切りタオル ティータオル 水切りマット 2枚セット 大判 45*60cm 吸水クロス 食器拭き 食器/お皿/鍋拭き キッチンタオル キッチンクロス ふきん 布巾 ループ付き 速乾キッチン 吸水性 台所 手ふきん 吸水 速乾 厚手 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(ベージュ 2枚）",
+      "triageScore": -7,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        32,
+        231,
+        233
+      ],
+      "keepaPackageWeightG": 240,
+      "keepaNumberOfItems": 2
     },
     {
       "asin": "B0CDBW1P7Y",
@@ -475307,7 +475467,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "キッチンタオル キッチンクロス ふきん 手拭きタオル 布巾 台拭き ディッシュクロス ループ付き 速乾キッチン 食器拭き 30*30cm 12枚セット 吸水性 台所 手ふきん タオル 速乾 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(グレー4枚 ベージュ4枚 ピンク4枚)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        29,
+        225,
+        310
+      ],
+      "keepaPackageWeightG": 430,
+      "keepaNumberOfItems": 12
     },
     {
       "asin": "B0FSZX9M76",
@@ -475328,7 +475504,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "水切りタオル ティータオル 水切りマット 2枚セット 大判 45*60cm 吸水 吸水クロス 食器拭き 食器/お皿/鍋 キッチンクロス ふきん 布巾 台拭き ループ付き 速乾キッチン 吸水性 台所 手ふきん 吸水 速乾 厚手 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(グレー 2枚）",
+      "triageScore": -7,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        33,
+        232,
+        235
+      ],
+      "keepaPackageWeightG": 230,
+      "keepaNumberOfItems": 2
     },
     {
       "asin": "B0FT2JFNNC",
@@ -475347,7 +475539,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "水切りタオル ティータオル 水切りマット 3枚セット 大判 80*50cm 吸水クロス 食器拭き 食器/お皿/鍋拭き キッチンクロス ふきん 布巾 ループ付き 速乾キッチン 吸水性 台所 手ふきん 吸水 速乾 厚手 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(ベージュ 3枚）",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        30,
+        222,
+        311
+      ],
+      "keepaPackageWeightG": 470,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0C3LSK9QF",
@@ -475358,7 +475566,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "Ｌ広場 キッチンタオル キッチンクロス ふきん 手拭き 布巾 台拭き ループ付き 速乾 食器拭き 30*30cm 3枚セット 吸水 台所 防臭 北欧 おしゃれ 衛生 抗菌 マイクロファイバー 母の日 プレゼント(ベージュ3枚)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        25,
+        156,
+        315
+      ],
+      "keepaPackageWeightG": 80,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0H8613GN6",
@@ -475465,7 +475689,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "HOMEXCEL キッチンタオル クロス 12枚 台拭き ふきん マイクロファイバークロス 布巾 ぞうきん 吸水速乾タオル 約29.21×29.21cm (グレー4枚・白8枚)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        16,
+        290,
+        291
+      ],
+      "keepaPackageWeightG": 240,
+      "keepaNumberOfItems": 12
     },
     {
       "asin": "B0H867F4F4",
@@ -475492,7 +475732,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "キッチンタオル キッチンクロス ふきん 手拭きタオル 布巾 台拭き ディッシュクロス ループ付き 速乾キッチン 食器拭き 30*30cm 6枚セット 吸水性 台所 手ふきん タオル 速乾 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(ベージュ3枚 ブラウン3枚)",
+      "triageScore": -7,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        31,
+        224,
+        310
+      ],
+      "keepaPackageWeightG": 240,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0CDPP2D97",
@@ -475503,7 +475759,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "キッチンタオル キッチンクロス ふきん 手拭きタオル 布巾 台拭き ディッシュクロス ループ付き 速乾キッチン 食器拭き 30*40cm 3枚セット 吸水性 台所 手ふきん タオル 速乾 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(グレー1枚 ベージュ1枚 ピンク1枚)",
+      "triageScore": -7,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        33,
+        204,
+        309
+      ],
+      "keepaPackageWeightG": 110,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0DZBKVSD5",
@@ -475534,7 +475806,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "HOMEXCEL マイクロファイバークロス タオル 12枚入 キッチンクロス 台拭き ふきん ウエス 洗車タオルなど用 約29.21×29.21cm (ブラウン)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        14,
+        215,
+        304
+      ],
+      "keepaPackageWeightG": 300,
+      "keepaNumberOfItems": 12
     },
     {
       "asin": "B0C22XLBDM",
@@ -475545,7 +475833,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "HOMEXCEL マイクロファイバークロス 12枚入 布巾 ふきん ぞうきん (食器拭きクロス/洗車タオル/台拭き) キッチンクロス, Kitchen 約29.21×29.21cm (ブラック) 11.5\"X11.5\"",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        16,
+        223,
+        321
+      ],
+      "keepaPackageWeightG": 308,
+      "keepaNumberOfItems": 12
     },
     {
       "asin": "B098DCRHXY",
@@ -475556,7 +475860,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:31.400096+09:00",
+      "keepaTitle": "HOMEXCEL マイクロファイバークロス 50枚 業務用タオル 薄手 マイクロファイバーウエス ふきん 台拭き キッチンクロスなど用 約29.21×29.21cm (マルチカラー)",
+      "triageScore": -7,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        39,
+        211,
+        310
+      ],
+      "keepaPackageWeightG": 820,
+      "keepaNumberOfItems": 50
     },
     {
       "asin": "B0C22N567Q",
@@ -475567,7 +475887,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "HOMEXCEL マイクロファイバークロス 12枚入 布巾 ふきん ぞうきん (食器拭きクロス/洗車タオル/台拭き) キッチンクロス, 約29.21×29.21cm (グレー)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        14,
+        221,
+        310
+      ],
+      "keepaPackageWeightG": 290,
+      "keepaNumberOfItems": 12
     },
     {
       "asin": "B0C22TFLJB",
@@ -475578,7 +475914,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "HOMEXCEL マイクロファイバークロス 12枚入 白 布巾 ふきん ぞうきん (食器拭きクロス/洗車タオル/台拭き) キッチンクロス, 約29.21×29.21cm Kitchen, 11.5\"X11.5\"",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        21,
+        212,
+        308
+      ],
+      "keepaPackageWeightG": 300,
+      "keepaNumberOfItems": 12
     },
     {
       "asin": "B0DMF5FY6R",
@@ -475599,7 +475951,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "キッチンタオル キッチンクロス ふきん 手拭きタオル 布巾 台拭き ディッシュクロス ループ付き 速乾キッチン 食器拭き 30*30cm 6枚セット 吸水性 台所 手ふきん タオル 速乾 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(グレー3枚 ブラウン3枚)",
+      "triageScore": -7,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        32,
+        223,
+        309
+      ],
+      "keepaPackageWeightG": 250,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0CQYDR46J",
@@ -475610,7 +475978,21 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "マイクロファイバークロス 使い捨て ディッシュクロス キッチンタオル ふきん 台拭き キッチンクロス 雑巾 使い捨て雑巾 20*20cm 10枚入り 吸水性 台所 速乾 防臭 北欧 衛生 抗菌 ブルー",
+      "triageScore": 3,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        29,
+        115,
+        217
+      ],
+      "keepaPackageWeightG": 100,
+      "keepaNumberOfItems": 10
     },
     {
       "asin": "B0DNW6J35W",
@@ -475621,7 +476003,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "水切りタオル ティータオル 水切りマット 2枚セット 大判 45*60cm 吸水クロス 食器拭き 食器/お皿/鍋 キッチンクロス ふきん 布巾 ループ付き 速乾キッチン 吸水性 台所 手ふきん 吸水 速乾 厚手 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(グレー 1枚 ベージュ 1枚）",
+      "triageScore": -7,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        32,
+        232,
+        234
+      ],
+      "keepaPackageWeightG": 240,
+      "keepaNumberOfItems": 2
     },
     {
       "asin": "B0BRN814FP",
@@ -475632,7 +476030,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "キッチンタオル キッチンクロス ふきん 手拭きタオル 布巾 台拭き ディッシュクロス ループ付き 速乾キッチン 食器拭き 30*30cm 6枚セット 吸水性 台所 手ふきん タオル 速乾 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(グレー2枚 ベージュ2枚 ピンク2枚)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        29,
+        221,
+        304
+      ],
+      "keepaPackageWeightG": 260,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0BVZ1CRB9",
@@ -475643,7 +476057,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "キッチンタオル キッチンクロス ふきん 手拭きタオル 布巾 台拭き ディッシュクロス ループ付き 食器拭き 30*30cm 3枚セット 吸水性 台所 速乾 防臭 北欧 衛生 抗菌 マイクロファイバー 毛羽立たない(グレー1枚 ベージュ1枚 ピンク1枚)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        26,
+        158,
+        303
+      ],
+      "keepaPackageWeightG": 80,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0BZ4J3GHG",
@@ -475654,7 +476084,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "キッチンクロス ふきん 手拭きタオル 掛け ループ付き 吸水 速乾 キッチン 食器 台所 30*30cm 6枚セット 台拭き テーブルクロス 抗菌 防臭 北欧 おしゃれ 衛生 マイクロファイバー (カーキ グリーン パープル 各2枚)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        30,
+        211,
+        305
+      ],
+      "keepaPackageWeightG": 200,
+      "keepaNumberOfItems": 4
     },
     {
       "asin": "B0C3LVJLPL",
@@ -475665,7 +476111,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "キッチンタオル キッチンクロス ふきん 手拭きタオル 布巾 台拭き ディッシュクロス ループ付き 速乾キッチン 食器拭き 30*30cm 3枚セット 吸水性 台所 手ふきん タオル 速乾 防臭 北欧 おしゃれ 衛生 抗菌 おしゃれ マイクロファイバー 毛羽立たない(グレー3枚)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        28,
+        154,
+        303
+      ],
+      "keepaPackageWeightG": 80,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0BRN7MH9Z",
@@ -475676,7 +476138,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "キッチンタオル キッチンクロス ふきん 手拭き 布巾 台拭き ディッシュクロス ループ付き 速乾 食器拭き 30*30cm 3枚セット 吸水性 台所 手ふきん 速乾 防臭 北欧 おしゃれ 衛生 抗菌 マイクロファイバー 毛羽立たない(グレー3枚 ベージュ3枚)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        25,
+        220,
+        300
+      ],
+      "keepaPackageWeightG": 240,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0DMF5LZXJ",
@@ -475697,7 +476175,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "キッチンタオル キッチンクロス ふきん カウンタークロス 拭きん 吸水 速乾キッチン 食器 台所 手ふきん 29*29cm 4枚セット 台拭き タオル テーブルクロス 速乾 抗菌 防臭 北欧 セット 食器拭き 布巾 おしゃれ 衛生 マイクロファイバー(ピンク1枚、グリーン1枚、グレー1枚、ライトタン1枚)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        30,
+        222,
+        305
+      ],
+      "keepaPackageWeightG": 170,
+      "keepaNumberOfItems": 4
     },
     {
       "asin": "B0CQYD6XZF",
@@ -475708,7 +476202,21 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "マイクロファイバークロス 使い捨て ディッシュクロス キッチンタオル ふきん 台拭き キッチンクロス 雑巾 使い捨て雑巾 20*20cm 10枚入り 吸水性 台所 速乾 防臭 北欧 衛生 抗菌 ピンク",
+      "triageScore": 5,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        31,
+        117,
+        217
+      ],
+      "keepaPackageWeightG": 100,
+      "keepaNumberOfItems": 10
     },
     {
       "asin": "B0H85RVHZ2",
@@ -475747,7 +476255,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "HOMEXCEL マイクロファイバークロス タオル 12枚入 (キッチンクロス/洗車タオル/台拭き) ふきん ぞうきん, 約29.21×29.21cm (マルチカラー)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        14,
+        215,
+        316
+      ],
+      "keepaPackageWeightG": 272,
+      "keepaNumberOfItems": 12
     },
     {
       "asin": "B0BF4YLQ5G",
@@ -475758,7 +476282,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "HOMEXCEL マイクロファイバークロス 8枚入 布巾 ふきん ぞうきん 洗車タオル 台拭き キッチンクロス, 約29.21×29.21cm (マルチカラー) (Green/Blue/Yellow/Pink)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        16,
+        162,
+        312
+      ],
+      "keepaPackageWeightG": 181,
+      "keepaNumberOfItems": 8
     },
     {
       "asin": "B0H8611HMJ",
@@ -475777,7 +476317,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "HOMEXCEL マイクロファイバークロス 12枚入 布巾 ふきん ぞうきん (食器拭きクロス/洗車タオル/台拭き) キッチンクロス, 約29.21×29.21cm (ブルー)",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        16,
+        211,
+        309
+      ],
+      "keepaPackageWeightG": 299,
+      "keepaNumberOfItems": 12
     },
     {
       "asin": "B0H85YW1NK",
@@ -475926,7 +476482,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "FUKITORU. 食器拭きクロス プロ仕様 30x45cm 2枚セット ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 シャドウブルー",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        24,
+        161,
+        221
+      ],
+      "keepaPackageWeightG": 70,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0H2Y193GW",
@@ -475937,7 +476509,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "FUKITORU. 食器拭きクロス プロ仕様 30x45cm 2枚セット ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 モスグリーン",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        16,
+        158,
+        231
+      ],
+      "keepaPackageWeightG": 70,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0C94GVLJ7",
@@ -475948,7 +476536,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "FUKITORU. 食器拭きクロス プロ仕様 30x45cm 2枚セット ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 ホワイト&グレー",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        19,
+        162,
+        239
+      ],
+      "keepaPackageWeightG": 80,
+      "keepaNumberOfItems": 2
     },
     {
       "asin": "B0F8HNNJ2H",
@@ -475959,7 +476563,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "FUKITORU. 食器拭きクロス プロ仕様 30x45cm 2枚セット ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 ウォームグレー",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        22,
+        154,
+        228
+      ],
+      "keepaPackageWeightG": 70,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0C94GZR41",
@@ -475970,7 +476590,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
+      "keepaTitle": "FUKITORU. 食器拭きクロス プロ仕様 30x45cm 2枚セット ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 ホワイト",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        20,
+        160,
+        238
+      ],
+      "keepaPackageWeightG": 80,
+      "keepaNumberOfItems": 2
     },
     {
       "asin": "B0C94G29V4",
@@ -475981,7 +476617,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. ふきん キッチンタオル プロ仕様 30x20cm 2枚セット クリーニングクロス マイクロファイバー 日本製 グレー",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        14,
+        160,
+        213
+      ],
+      "keepaPackageWeightG": 40,
+      "keepaNumberOfItems": 2
     },
     {
       "asin": "B0F5PRKNPQ",
@@ -475992,7 +476644,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. ふきん キッチンタオル プロ仕様 30x20cm 2枚セット クリーニングクロス マイクロファイバー 日本製 ライトグレー",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        15,
+        157,
+        207
+      ],
+      "keepaPackageWeightG": 30,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0C94G2FYV",
@@ -476003,7 +476671,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. ふきん キッチンタオル プロ仕様 30x20cm 2枚セット クリーニングクロス マイクロファイバー 日本製 ホワイト&グレー",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        11,
+        160,
+        211
+      ],
+      "keepaPackageWeightG": 30,
+      "keepaNumberOfItems": 2
     },
     {
       "asin": "B0F8HG4MV3",
@@ -476014,7 +476698,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. ふきん キッチンタオル プロ仕様 30x20cm 2枚セット クリーニングクロス マイクロファイバー 日本製 アッシュミント",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        15,
+        151,
+        199
+      ],
+      "keepaPackageWeightG": 20,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0C94G3HCC",
@@ -476025,7 +476725,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. ふきん キッチンタオル プロ仕様 30x20cm 2枚セット クリーニングクロス マイクロファイバー 日本製 ホワイト",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        12,
+        160,
+        209
+      ],
+      "keepaPackageWeightG": 40,
+      "keepaNumberOfItems": 2
     },
     {
       "asin": "B0H2Y9GT87",
@@ -476036,7 +476752,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. ふきん キッチンタオル プロ仕様 30x20cm 2枚セット クリーニングクロス マイクロファイバー 日本製 モスグリーン",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        11,
+        156,
+        209
+      ],
+      "keepaPackageWeightG": 80,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0H2Y3WTZQ",
@@ -476047,7 +476779,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. ふきん キッチンタオル プロ仕様 30x20cm 2枚セット クリーニングクロス マイクロファイバー 日本製 ココアブラウン",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        12,
+        155,
+        206
+      ],
+      "keepaPackageWeightG": 40,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0F5PVZXFY",
@@ -476058,7 +476806,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. 食器拭きクロス プロ仕様 30x45cm 2枚セット ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 ライトグレー",
+      "triageScore": -7,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        39,
+        156,
+        222
+      ],
+      "keepaPackageWeightG": 70,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0F8HJ9MP3",
@@ -476069,7 +476833,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. ふきん キッチンタオル プロ仕様 30x20cm 2枚セット クリーニングクロス マイクロファイバー 日本製 ウォームグレー",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        12,
+        153,
+        203
+      ],
+      "keepaPackageWeightG": 30,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0C94FZ5Q8",
@@ -476080,7 +476860,23 @@
         "Keepa title=キッチンシート root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. 食器拭きクロス プロ仕様 30x45cm 2枚セット ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 グレー",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        19,
+        161,
+        238
+      ],
+      "keepaPackageWeightG": 80,
+      "keepaNumberOfItems": 2
     },
     {
       "asin": "B0C8TSQFT3",
@@ -477823,12 +478619,27 @@
     {
       "asin": "B0H2Y1DLVQ",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. 大判 食器拭きクロス プロ仕様 60x45cm 1枚 ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 ソフトラベンダー",
+      "triageScore": -1,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        32,
+        161,
+        204
+      ],
+      "keepaPackageWeightG": 70,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0H2Y3JCGW",
@@ -477838,7 +478649,22 @@
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. 大判 食器拭きクロス プロ仕様 60x45cm 1枚 ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 スモークブルー",
+      "triageScore": -3,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        29,
+        158,
+        211
+      ],
+      "keepaPackageWeightG": 70,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0H2Y5ZLHM",
@@ -477848,7 +478674,22 @@
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. 大判 食器拭きクロス プロ仕様 60x45cm 1枚 ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 モスグリーン",
+      "triageScore": -3,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        21,
+        166,
+        224
+      ],
+      "keepaPackageWeightG": 70,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0H2Y5995Y",
@@ -477858,7 +478699,23 @@
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. 食器拭きクロス プロ仕様 30x45cm 2枚セット ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 ココアブラウン",
+      "triageScore": -7,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        36,
+        157,
+        227
+      ],
+      "keepaPackageWeightG": 70,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0DFVXB3PJ",
@@ -477868,7 +478725,22 @@
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. 大判 食器拭きクロス プロ仕様 60x45cm 1枚 ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 ベビーピンク",
+      "triageScore": -3,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        25,
+        155,
+        225
+      ],
+      "keepaPackageWeightG": 70,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0F8HFPL5T",
@@ -477878,7 +478750,22 @@
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. 大判 食器拭きクロス プロ仕様 60x45cm 1枚 ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 シャドウブルー",
+      "triageScore": -3,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        23,
+        164,
+        225
+      ],
+      "keepaPackageWeightG": 70,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0F8HTT949",
@@ -477888,7 +478775,22 @@
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. 大判 食器拭きクロス プロ仕様 60x45cm 1枚 ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 アッシュミント",
+      "triageScore": -3,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        30,
+        165,
+        239
+      ],
+      "keepaPackageWeightG": 70,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0H2XXXZKV",
@@ -477898,17 +478800,48 @@
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. 食器拭きクロス プロ仕様 30x45cm 2枚セット ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 ソフトラベンダー",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        30,
+        159,
+        227
+      ],
+      "keepaPackageWeightG": 70,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0DFVX39VY",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. 大判 食器拭きクロス プロ仕様 60x45cm 1枚 ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 アイボリー",
+      "triageScore": -1,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        41,
+        159,
+        224
+      ],
+      "keepaPackageWeightG": 70,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0DFVYD6LS",
@@ -477918,7 +478851,23 @@
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=ふきん root=3828871 side>=0mm",
         "Keepa title=キッチンスポンジ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T00:34:32.891042+09:00",
+      "keepaTitle": "FUKITORU. 食器拭きクロス プロ仕様 30x45cm 2枚セット ぐんぐん吸水 食器拭き上げ ふきん キッチンタオル 日本製 ベビーピンク",
+      "triageScore": -9,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        20,
+        162,
+        228
+      ],
+      "keepaPackageWeightG": 70,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0F8HFRCT2",
@@ -554355,7 +555304,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 794,
+  "fetchedProductPageCount": 800,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -558965,6 +559914,39 @@
       "pagesChecked": 3,
       "added": 1,
       "unverifiedRange": "3件を写真・掲載寸法と個別照合。硬いねじ式キャップ2件を除外し、レトルト袋1件を低確信度で登録。登録品の実寸・梱包後の最大厚・重量と残る発見済みASINは未確認。"
+    },
+    {
+      "reviewedOn": "2026-10-14",
+      "scope": "Amazon.co.jp商品ページ: title=パウチ root=57239051由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0BN86FXF4",
+        "B07BRQVHJ6"
+      ],
+      "pagesChecked": 2,
+      "added": 0,
+      "unverifiedRange": "Amazon現行ページ6件を個別判定。複数袋・内袋10食の3件を除外し、具材の局所厚1件と掲載3辺未確認2件を保留。残る発見済みASINは未確認。"
+    },
+    {
+      "reviewedOn": "2026-10-14",
+      "scope": "Amazon.co.jp商品ページ: title=スープ root=57239051由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0DW7JBDVY",
+        "B0DW7SYGBW"
+      ],
+      "pagesChecked": 2,
+      "added": 0,
+      "unverifiedRange": "Amazon現行ページ6件を個別判定。複数袋・内袋10食の3件を除外し、具材の局所厚1件と掲載3辺未確認2件を保留。残る発見済みASINは未確認。"
+    },
+    {
+      "reviewedOn": "2026-10-14",
+      "scope": "Amazon.co.jp商品ページ: title=ふきん root=3828871由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0H2Y1DLVQ",
+        "B0DFVX39VY"
+      ],
+      "pagesChecked": 2,
+      "added": 0,
+      "unverifiedRange": "Amazon現行ページ6件を個別判定。複数袋・内袋10食の3件を除外し、具材の局所厚1件と掲載3辺未確認2件を保留。残る発見済みASINは未確認。"
     }
   ],
   "searchStops": [
