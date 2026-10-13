@@ -4093,7 +4093,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/611X-oQA2cL._AC_SL1254_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon掲載3辺の最小辺3cm超、単品の柔らかい袋をメーカー商品ページで照合。梱包後最大厚と重量は未実測。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0H8P3DJZQ",
@@ -4107,7 +4109,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61lx4iDDk2L._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon掲載3辺の最小辺3cm超、単品の柔らかい袋をメーカー商品ページで照合。梱包後最大厚と重量は未実測。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0188I23QE",
@@ -4121,7 +4125,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81uIEyZlzqL._AC_SL1000_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0F4JR8KF1",
@@ -4135,7 +4141,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61RTLCeIhUL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon掲載3辺の最小辺3cm超、単品の柔らかい袋をメーカー商品ページで照合。梱包後最大厚と重量は未実測。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0F4JLN21Y",
@@ -4149,7 +4157,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/710KBAyUwZL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon掲載3辺の最小辺3cm超、単品の柔らかい袋をメーカー商品ページで照合。梱包後最大厚と重量は未実測。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0H25P5SB8",
@@ -4163,7 +4173,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41fdxFw3+4L._AC_SL1000_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon掲載3辺の最小辺3cm超、単品の柔らかい袋をメーカー商品ページで照合。梱包後最大厚と重量は未実測。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0H25WQBFH",
@@ -4177,7 +4189,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41UbpWV4OkL._AC_SL1000_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon掲載3辺の最小辺3cm超、単品の柔らかい袋をメーカー商品ページで照合。梱包後最大厚と重量は未実測。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0H25TXWZK",
@@ -4191,7 +4205,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/41Yp+5-A05L._AC_SL1000_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon掲載3辺の最小辺3cm超、単品の柔らかい袋をメーカー商品ページで照合。梱包後最大厚と重量は未実測。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0F4JXZVD3",
@@ -4205,7 +4221,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/616jOtsnEfL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon掲載3辺の最小辺3cm超、単品の柔らかい袋をメーカー商品ページで照合。梱包後最大厚と重量は未実測。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0F1FM1Y4C",
@@ -4219,7 +4237,286 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61ply6xBQ5L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0GWWZ2Q28",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0GWWZ2Q28",
+      "title": "豚バラ大根 200g×1袋 レトルト 惣菜 煮物 和食 おかず 常温保存 おつまみ 居酒屋 時短 ご飯のお供 和惣菜 レンジ 湯煎 一人暮らし ストック 非常食",
+      "dimensions": [
+        {
+          "value": "21.1 x 14.6 x 2.4 cm",
+          "context": "       :\n                                            ‎ 21.1 x 14.6 x 2.4 cm; 220 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71YM+xi18rL._AC_SL1000_.jpg",
       "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B0GWXBKLST",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0GWXBKLST",
+      "title": "さば味噌煮 120g×1袋 レトルト 惣菜 煮魚 和食 おかず 常温保存 おつまみ 居酒屋 時短 ご飯のお供 和惣菜 レンジ 湯煎 一人暮らし ストック 非常食",
+      "dimensions": [
+        {
+          "value": "19.1 x 14.5 x 1.4 cm",
+          "context": "       :\n                                            ‎ 19.1 x 14.5 x 1.4 cm; 130 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71YM+xi18rL._AC_SL1000_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B0D1QM6JSR",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0D1QM6JSR",
+      "title": "からだシフト 糖質コントロール グリーンカレー (1人前140g)糖質50％オフ (電子レンジ対応パウチ/時短調理) 一人暮らしの方にも (ココナッツミルクのコク、キレのある辛さ！) レトルト 糖質カット",
+      "dimensions": [
+        {
+          "value": "14.6 x 14.1 x 1.6 cm",
+          "context": "       :\n                                            ‎ 14.6 x 14.1 x 1.6 cm; 140 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81jKBoC8uwL._AC_SL1500_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B0CGWZ35Q3",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CGWZ35Q3",
+      "title": "アイリスオーヤマ レトルト 鶏もも大根 180g 惣菜 レトルト食品 おかず レンチン レンジアップ レンジde Pa Cook",
+      "dimensions": [
+        {
+          "value": "14 x 13.8 x 2.7 cm",
+          "context": "       :\n                                            ‎ 14 x 13.8 x 2.7 cm; 180 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61XERT47etL._AC_SL1000_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B09YHLXXY1",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B09YHLXXY1",
+      "title": "【公式】 国分 tabete まごころを食卓に 膳 ハンバーグ デミグラスソース 150g 惣菜 レトルト 食品 おかず 常温保存 レンジ 備蓄 非常食 国産",
+      "dimensions": [
+        {
+          "value": "15.8 x 13.3 x 2.7 cm",
+          "context": "       :\n                                            ‎ 15.8 x 13.3 x 2.7 cm; 160 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81VsJff5jUL._AC_SL1500_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B0G5GFKKRW",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0G5GFKKRW",
+      "title": "アイリスオーヤマ レトルト 鶏もも大根 180g 惣菜 レトルト食品 おかず レンチン レンジアップ レンジde Pa Cook (× 3)",
+      "dimensions": [
+        {
+          "value": "14 x 13.8 x 2.7 cm",
+          "context": "       :\n                                            ‎ 14 x 13.8 x 2.7 cm; 540 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61c9WLj5WML._AC_SL1001_.jpg",
+      "reviewStatus": "needs_manual_shape_and_unit_check"
+    },
+    {
+      "asin": "B0CWKDCLG7",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CWKDCLG7",
+      "title": "国太楼 有機粉末緑茶カテキン生活 50g",
+      "dimensions": [
+        {
+          "value": "15.4 x 10.3 x 4.3 cm",
+          "context": "       :\n                                            ‎ 15.4 x 10.3 x 4.3 cm; 50 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71r4U2yjtEL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon掲載3辺の最小辺4.3cm、メーカー商品コード15007・JAN 4971617015007の単品チャック付き柔軟袋50gを確認。メーカー公称商品奥行3.0cmで内容物を均す余地はあるが、梱包後最大厚・重量は未実測で発送可否は保留。",
+      "manufacturerSource": "https://www.kunitaro.co.jp/items/%E6%9C%89%E6%A9%9F%E7%B2%89%E6%9C%AB%E7%B7%91%E8%8C%B6/",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0C68X6G8J",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0C68X6G8J",
+      "title": "彩輪商店 粉末黒糖 さとうきび 純黒糖 無添加 沖縄 多良間島 粉末 黒砂糖 ミネラル 国産 250g チャック付き (1個)",
+      "dimensions": [
+        {
+          "value": "24.9 x 16.5 x 1.8 cm",
+          "context": "       :\n                                            ‎ 24.9 x 16.5 x 1.8 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71n1S45c-ML._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DJBFGPRB",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DJBFGPRB",
+      "title": "温活農園 八女 抹茶 極 国産 パウダー 粉末 20g 茶道 製菓",
+      "dimensions": [
+        {
+          "value": "11 x 17 x 1 cm",
+          "context": "       :\n                                            ‎ 11 x 17 x 1 cm; 32 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71f+H1wymzL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DJBHSR8J",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DJBHSR8J",
+      "title": "温活農園 宇治抹茶 国産 パウダー 粉末 製菓用 100g 宇治抹茶 抹茶ラテ uji matcha",
+      "dimensions": [
+        {
+          "value": "14 x 23 x 2 cm",
+          "context": "       :\n                                            ‎ 14 x 23 x 2 cm; 110 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71konYsmc2L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0CBM4P65C",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CBM4P65C",
+      "title": "温活農園 ビーツパウダー 無添加 国産 50g ビーツ 粉 粉末 北海道産 甜菜根粉",
+      "dimensions": [
+        {
+          "value": "14 x 17 x 0.75 cm",
+          "context": "       :\n                                            ‎ 14 x 17 x 0.75 cm; 60 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71Weh3ghutL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B09J295YMN",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B09J295YMN",
+      "title": "温活農園 【テレビで話題】 まいたけパウダー 舞茸パウダー まいたけ 粉末 国産 無添加 80g 乾燥舞茸 まいたけ茶 舞茸茶",
+      "dimensions": [
+        {
+          "value": "23 x 17 x 1 cm",
+          "context": "       :\n                                            ‎ 23 x 17 x 1 cm; 80 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71zyI8QhkYL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DJBGDVTL",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DJBGDVTL",
+      "title": "温活農園 八女 抹茶 国産 パウダー 粉末 100g 茶道 製菓",
+      "dimensions": [
+        {
+          "value": "14 x 23 x 2 cm",
+          "context": "       :\n                                            ‎ 14 x 23 x 2 cm; 110 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71Y4PxhAysL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DJBH323F",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DJBH323F",
+      "title": "温活農園 宇治抹茶 極 宇治茶 粉末 パウダー 国産 uji matcha powder 20g 茶道 製菓",
+      "dimensions": [
+        {
+          "value": "11 x 17 x 1 cm",
+          "context": "       :\n                                            ‎ 11 x 17 x 1 cm; 32 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71y6G1OTArL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0F1FFMC46",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F1FFMC46",
+      "title": "温活農園 ごぼうパウダー 国産 50g 皮ごと ごぼう粉末 ごぼう茶",
+      "dimensions": [
+        {
+          "value": "19.5 x 16.5 x 0.75 cm",
+          "context": "       :\n                                            ‎ 19.5 x 16.5 x 0.75 cm; 60 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71AXW2OoTHL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0CHYDYT1B",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CHYDYT1B",
+      "title": "温活農園 桑の葉パウダー 国産 無添加 桑の葉茶 粉末 パウダー 50g",
+      "dimensions": [
+        {
+          "value": "19.5 x 16.5 x 0.75 cm",
+          "context": "       :\n                                            ‎ 19.5 x 16.5 x 0.75 cm; 60 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/714PgWOFbYL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DJBHXZ43",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DJBHXZ43",
+      "title": "訳あり【賞味期限：2026/12/21】 温活農園 宇治抹茶 雅 宇治茶 粉末 パウダー 国産 uji matcha 抹茶パウダー 30g",
+      "dimensions": [
+        {
+          "value": "11 x 17 x 0.5 cm",
+          "context": "       :\n                                            ‎ 11 x 17 x 0.5 cm; 32 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71DGrHXNvML._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0CBBDJKQP",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CBBDJKQP",
+      "title": "温活農園 たもぎ茸 粉末 パウダー 国産 乾燥 タモギダケ エルゴチオネイン 50g",
+      "dimensions": [
+        {
+          "value": "14 x 17 x 0.75 cm",
+          "context": "       :\n                                            ‎ 14 x 17 x 0.75 cm; 50 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71OyqWWW1bL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
     }
   ]
 }

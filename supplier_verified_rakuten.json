@@ -2081,7 +2081,106 @@
         "identifier_unconfirmed": 1
       },
       "suppliers": []
+    },
+    "B0CWKDCLG7": {
+      "expectedEans": [
+        "4971617015007"
+      ],
+      "checkedPages": 8,
+      "cumulativeCheckedPages": 8,
+      "identifierSource": "Two independent Rakuten product pages, matching title and size",
+      "eligibleLeads": 14,
+      "rejected": {
+        "jan_missing": 2,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "【送料無料】国太楼 有機粉末緑茶カテキン生活 50g",
+          "storeName": "DONZ STORE",
+          "jan": "4971617015007",
+          "priceYen": 893,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T05:37:57.557117+00:00",
+          "url": "https://item.rakuten.co.jp/donzstore/b0cwkdclg7/",
+          "store": "DONZ STORE",
+          "inboundShippingYen": 0,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【送料無料】国太楼 有機粉末緑茶カテキン生活 50g",
+          "storeName": "S-LIFE",
+          "jan": "4971617015007",
+          "priceYen": 893,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T05:38:08.121625+00:00",
+          "url": "https://item.rakuten.co.jp/slife/b0cwkdclg7/",
+          "store": "S-LIFE",
+          "inboundShippingYen": 0,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【送料無料】国太楼 有機粉末緑茶カテキン生活 50g",
+          "storeName": "雑貨便利くいしんぼう",
+          "jan": "4971617015007",
+          "priceYen": 993,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T05:38:18.619231+00:00",
+          "url": "https://item.rakuten.co.jp/zakkabenrikuishinbou/b0cwkdclg7/",
+          "store": "雑貨便利くいしんぼう",
+          "inboundShippingYen": 0,
+          "displayPoints": 9,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【送料無料】国太楼 有機粉末緑茶カテキン生活 50g",
+          "storeName": "ハローディア楽天市場店",
+          "jan": "4971617015007",
+          "priceYen": 1093,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T05:38:29.131515+00:00",
+          "url": "https://item.rakuten.co.jp/hellodear/b0cwkdclg7/",
+          "store": "ハローディア楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 10,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "国太楼　有機粉末緑茶カテキン生活　５０ｇ　１袋",
+          "storeName": "ぱーそなるたのめーる",
+          "jan": "4971617015007",
+          "priceYen": 410,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T05:37:15.439946+00:00",
+          "url": "https://item.rakuten.co.jp/p-tano/162-4258/",
+          "store": "ぱーそなるたのめーる",
+          "inboundShippingYen": 770,
+          "displayPoints": 3,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "国太楼 有機粉末茶 カテキン生活 50g",
+          "storeName": "JET PRICE",
+          "jan": "4971617015007",
+          "priceYen": 984,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T05:37:47.054065+00:00",
+          "url": "https://item.rakuten.co.jp/jetprice/xa7354/",
+          "store": "JET PRICE",
+          "inboundShippingYen": 590,
+          "displayPoints": 9,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-13T04:37:59.504638+00:00"
+  "checkedAt": "2026-10-13T05:38:29.434660+00:00"
 }
