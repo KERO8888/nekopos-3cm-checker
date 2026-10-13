@@ -193213,7 +193213,7 @@
     {
       "asin": "B075F7GQMQ",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -193238,7 +193238,7 @@
     {
       "asin": "B08MWQHJMQ",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -193262,7 +193262,7 @@
     {
       "asin": "B08ZJNMB3Z",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -196505,7 +196505,7 @@
     {
       "asin": "B08MV2G1WK",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -197368,7 +197368,7 @@
     {
       "asin": "B0DGFLVFXW",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -197400,7 +197400,7 @@
     {
       "asin": "B071LJ9J2W",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm",
@@ -198029,7 +198029,7 @@
     {
       "asin": "B0CG1946P2",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm",
@@ -218672,7 +218672,7 @@
     {
       "asin": "B0HG57LGJ1",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=粉末 root=57239051 side>=0mm"
@@ -551345,7 +551345,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 736,
+  "fetchedProductPageCount": 744,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -555762,6 +555762,23 @@
       "pagesChecked": 8,
       "added": 2,
       "unverifiedRange": "8件中2件はメーカー同一商品で単品の柔らかい粉末袋を確認して追加。5件はAmazon掲載最小辺3cm以下で除外。600g粉末袋1件は平置き後最大厚の根拠不足で保留。追加2件も梱包後最大厚・重量は未実測。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: root=57239051由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B08MWQHJMQ",
+        "B08ZJNMB3Z",
+        "B08MV2G1WK",
+        "B0DGFLVFXW",
+        "B071LJ9J2W",
+        "B0CG1946P2",
+        "B075F7GQMQ",
+        "B0HG57LGJ1"
+      ],
+      "pagesChecked": 8,
+      "added": 0,
+      "unverifiedRange": "8件を個別判定。7件は15～40食の個包装またはBOXで単品平置き条件に合わず除外、1件は掲載最小辺1cmで除外。未判定0件。"
     }
   ],
   "searchStops": [

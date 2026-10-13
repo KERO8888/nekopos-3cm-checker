@@ -4846,6 +4846,138 @@
       "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
       "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B08MWQHJMQ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B08MWQHJMQ",
+      "title": "永谷園 ひるげ 粉末みそ汁 赤だし 豆みそ インスタント 即席味噌汁 徳用 320g (8g×40食入)",
+      "dimensions": [
+        {
+          "value": "33.5 x 22.9 x 6.3 cm",
+          "context": "       :\n                                            ‎ 33.5 x 22.9 x 6.3 cm; 320 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81A-J7mC7-L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "現行Amazonページの商品名に15～40食の個包装またはアソートBOXと明記。単品の柔らかい袋を平らにする条件を満たさず、重ねずに未開封のまま3cm以下に収める具体的根拠もない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B08ZJNMB3Z",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B08ZJNMB3Z",
+      "title": "永谷園 ゆうげ 粉末みそ汁 白みそ インスタント 即席味噌汁 徳用 332g (8.3g×40食入)",
+      "dimensions": [
+        {
+          "value": "33.29 x 22.8 x 4.8 cm",
+          "context": "       :\n                                            ‎ 33.29 x 22.8 x 4.8 cm; 440 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81z4GK-6UpL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "現行Amazonページの商品名に15～40食の個包装またはアソートBOXと明記。単品の柔らかい袋を平らにする条件を満たさず、重ねずに未開封のまま3cm以下に収める具体的根拠もない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B08MV2G1WK",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B08MV2G1WK",
+      "title": "永谷園 粉末みそ汁 あさげ 40食入",
+      "dimensions": [
+        {
+          "value": "33.9 x 22.2 x 4.9 cm",
+          "context": "       :\n                                            ‎ 33.9 x 22.2 x 4.9 cm; 440 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81Z1GkE19tL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "現行Amazonページの商品名に15～40食の個包装またはアソートBOXと明記。単品の柔らかい袋を平らにする条件を満たさず、重ねずに未開封のまま3cm以下に収める具体的根拠もない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DGFLVFXW",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DGFLVFXW",
+      "title": "永谷園 「冷え知らず」さんの野菜たっぷり 生姜とん汁 粉末タイプ インスタント 201g (13.4g×15食入)",
+      "dimensions": [
+        {
+          "value": "30 x 22 x 4 cm",
+          "context": "       :\n                                            ‎ 30 x 22 x 4 cm; 300 g メーカー\n                      "
+        },
+        {
+          "value": "30 x 22 x 4 cm",
+          "context": "商品情報 詳細情報 ブランド ‎Nagatanien 梱包サイズ ‎30 x 22 x 4 cm; 300 g 商品タイプ ‎粉末 料理 ‎和食 容器の種類 ‎パウチ"
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71VieW39k1L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "現行Amazonページの商品名に15～40食の個包装またはアソートBOXと明記。単品の柔らかい袋を平らにする条件を満たさず、重ねずに未開封のまま3cm以下に収める具体的根拠もない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B071LJ9J2W",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B071LJ9J2W",
+      "title": "永谷園 「冷え知らず」さんの生姜参鶏湯(サムゲタン) 大袋 粉末タイプ インスタントスープ 180g (6g×30食入)",
+      "dimensions": [
+        {
+          "value": "34 x 25.5 x 8 cm",
+          "context": "       :\n                                            ‎ 34 x 25.5 x 8 cm; 180 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71cDsqAFPxL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "現行Amazonページの商品名に15～40食の個包装またはアソートBOXと明記。単品の柔らかい袋を平らにする条件を満たさず、重ねずに未開封のまま3cm以下に収める具体的根拠もない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0CG1946P2",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CG1946P2",
+      "title": "永谷園 1杯でしじみ70個分のちから みそ汁 粉末タイプ インスタント 即席味噌汁 291.6g(8.1g×36食入)",
+      "dimensions": [
+        {
+          "value": "33.2 x 23.2 x 5.1 cm",
+          "context": "       :\n                                            ‎ 33.2 x 23.2 x 5.1 cm; 390 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/91nSK58snLL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "現行Amazonページの商品名に15～40食の個包装またはアソートBOXと明記。単品の柔らかい袋を平らにする条件を満たさず、重ねずに未開封のまま3cm以下に収める具体的根拠もない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B075F7GQMQ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B075F7GQMQ",
+      "title": "Nagatanien 永谷園 あさげ・ひるげ・ゆうげ おみそ汁アソートBOX(粉末タイプ) 30食入",
+      "dimensions": [
+        {
+          "value": "26.7 x 11.6 x 8.2 cm",
+          "context": "       :\n                                            ‎ 26.7 x 11.6 x 8.2 cm; 248.8 g メーカー\n                    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61O-gtBJp7L._AC_SL1200_.jpg",
+      "reviewStatus": "excluded_explicit_multi_unit_or_extra",
+      "decisionReason": "現行Amazonページの商品名に15～40食の個包装またはアソートBOXと明記。単品の柔らかい袋を平らにする条件を満たさず、重ねずに未開封のまま3cm以下に収める具体的根拠もない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0HG57LGJ1",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0HG57LGJ1",
+      "title": "有機 屋久島 自然栽培 緑茶 粉末緑茶 二番茶 60g 無農薬 無化学肥料 残留農薬 飛散農薬 ゼロ カテキン パウダー 鹿児島茶 国産",
+      "dimensions": [
+        {
+          "value": "17 x 11 x 1 cm",
+          "context": "       :\n                                            ‎ 17 x 11 x 1 cm; 60 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71druLyj7-L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "現行Amazonページ掲載3辺17×11×1cmの最小辺が3cm以下で、登録条件に一致しない。",
+      "decidedOn": "2026-10-13"
     }
   ]
 }

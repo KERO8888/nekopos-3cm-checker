@@ -2204,7 +2204,91 @@
         "identifier_unconfirmed": 0
       },
       "suppliers": []
+    },
+    "B07541QLXF": {
+      "expectedEans": [
+        "4987107622549"
+      ],
+      "checkedPages": 5,
+      "cumulativeCheckedPages": 5,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 46,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "ミノン薬用保湿入浴剤 詰替用400mL【医薬部外品】【co-1】",
+          "storeName": "ヘルスケア　コヤマ",
+          "jan": "4987107622549",
+          "priceYen": 1380,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T07:32:33.890524+00:00",
+          "url": "https://item.rakuten.co.jp/koyama-p/4987107622549-1/",
+          "store": "ヘルスケア　コヤマ",
+          "inboundShippingYen": 0,
+          "displayPoints": 12,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ミノン薬用保湿入浴剤 詰替用400mL【医薬部外品】",
+          "storeName": "ヘルスケア　コヤマ",
+          "jan": "4987107622549",
+          "priceYen": 880,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T07:32:23.230511+00:00",
+          "url": "https://item.rakuten.co.jp/koyama-p/4987107622549/",
+          "store": "ヘルスケア　コヤマ",
+          "inboundShippingYen": 600,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【医薬部外品】ミノン 薬用保湿入浴剤 つめかえ用 400mLミノン 保湿入浴剤 入浴剤【第一三共ヘルスケア】",
+          "storeName": "ブンブンドラッグ",
+          "jan": "4987107622549",
+          "priceYen": 904,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T07:33:05.534583+00:00",
+          "url": "https://item.rakuten.co.jp/bbdrag/kei-4987107622549-t/",
+          "store": "ブンブンドラッグ",
+          "inboundShippingYen": 660,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ミノン 薬用保湿入浴剤 詰替え用 400ml 【MINON(ミノン)】 入浴剤",
+          "storeName": "楽天24エクスプレス",
+          "jan": "4987107622549",
+          "priceYen": 844,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T07:32:54.897074+00:00",
+          "url": "https://item.rakuten.co.jp/rakutensokuhaimart/4987107622549/",
+          "store": "楽天24エクスプレス",
+          "inboundShippingYen": 740,
+          "displayPoints": 7,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ミノン薬用保湿入浴剤 詰め替え用 400ｍｌ[ミノン 入浴剤]",
+          "storeName": "Ｖドラッグ　楽天市場店",
+          "jan": "4987107622549",
+          "priceYen": 990,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T07:32:44.375486+00:00",
+          "url": "https://item.rakuten.co.jp/v-drug/0270030_4987107622549_1/",
+          "store": "Ｖドラッグ　楽天市場店",
+          "inboundShippingYen": 770,
+          "displayPoints": 9,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-13T06:42:54.155514+00:00"
+  "checkedAt": "2026-10-13T07:33:05.841256+00:00"
 }
