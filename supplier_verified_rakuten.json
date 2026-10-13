@@ -2180,7 +2180,31 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B0BTSDRMZY": {
+      "expectedEans": [],
+      "checkedPages": 6,
+      "cumulativeCheckedPages": 6,
+      "identifierSource": "unconfirmed",
+      "eligibleLeads": 17,
+      "rejected": {
+        "jan_missing": 4,
+        "identifier_unconfirmed": 2
+      },
+      "suppliers": []
+    },
+    "B0B5MLNGH8": {
+      "expectedEans": [],
+      "checkedPages": 6,
+      "cumulativeCheckedPages": 6,
+      "identifierSource": "unconfirmed",
+      "eligibleLeads": 8,
+      "rejected": {
+        "jan_missing": 6,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": []
     }
   },
-  "checkedAt": "2026-10-13T05:38:29.434660+00:00"
+  "checkedAt": "2026-10-13T06:42:54.155514+00:00"
 }

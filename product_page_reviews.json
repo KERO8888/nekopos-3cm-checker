@@ -4253,7 +4253,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71YM+xi18rL._AC_SL1000_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0GWXBKLST",
@@ -4267,7 +4269,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71YM+xi18rL._AC_SL1000_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0D1QM6JSR",
@@ -4281,7 +4285,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81jKBoC8uwL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CGWZ35Q3",
@@ -4295,7 +4301,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61XERT47etL._AC_SL1000_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B09YHLXXY1",
@@ -4309,7 +4317,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/81VsJff5jUL._AC_SL1500_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0G5GFKKRW",
@@ -4323,7 +4333,9 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/61c9WLj5WML._AC_SL1001_.jpg",
-      "reviewStatus": "needs_manual_shape_and_unit_check"
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
     },
     {
       "asin": "B0CWKDCLG7",
@@ -4514,6 +4526,323 @@
         }
       ],
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71OyqWWW1bL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B00JVQ6Y2C",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B00JVQ6Y2C",
+      "title": "NICHIGA(ニチガ) キシリトール (XYLITOL) 粉末 250g 天然甘味料 冷涼感のある甘味質 [05]",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51UkDOIWeDL._AC_SL1000_.jpg",
+      "reviewStatus": "hold_missing_amazon_dimensions",
+      "decisionReason": "Amazon現行ページで掲載3辺寸法を確認できず登録条件を判定できない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B07PQKJNC5",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B07PQKJNC5",
+      "title": "パウティー ピーチティー 無糖 250g 【紅茶パウダー】 【水に溶ける】 【インスタントティー】 【粉末茶】 【ティーバッグ不要】",
+      "dimensions": [
+        {
+          "value": "29.9 x 17.8 x 3 cm",
+          "context": "       :\n                                            ‎ 29.9 x 17.8 x 3 cm; 250 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/31JpXHErCZL._AC_SY300_SX300_QL70_ML2_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B01FFSA2IQ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B01FFSA2IQ",
+      "title": "ヘルシーカンパニー 高知県産 黄金生姜 パウダー 80g しょうが 乾燥 粉末 ウルトラ生姜 殺菌蒸し工程 原料変更しました",
+      "dimensions": [
+        {
+          "value": "14 x 1 x 22 cm",
+          "context": "       :\n                                            ‎ 14 x 1 x 22 cm; 80 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61NydAB52RL._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0BBRHQRKB",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0BBRHQRKB",
+      "title": "SPANION コリアンダーパウダー 100g 農薬自社検査合格 国内製造 コリアンダー パウダー 粉末 ギフト 贈り物",
+      "dimensions": [
+        {
+          "value": "21.6 x 13.6 x 1.7 cm",
+          "context": "       :\n                                            ‎ 21.6 x 13.6 x 1.7 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61LqAcZ-0mL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0BBRPJ3M1",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0BBRPJ3M1",
+      "title": "SPANION 生姜 パウダー 100g 農薬自社検査合格 国内製造 しょうが粉末 ギフト 贈り物",
+      "dimensions": [
+        {
+          "value": "22.9 x 13.7 x 2 cm",
+          "context": "       :\n                                            ‎ 22.9 x 13.7 x 2 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71+d3A9f+nL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0BBRKY121",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0BBRKY121",
+      "title": "SPANION カルダモンパウダー 100g 農薬自社検査合格 国内製造 カルダモン パウダー 粉末 ギフト 贈り物",
+      "dimensions": [
+        {
+          "value": "21.3 x 13.5 x 1.9 cm",
+          "context": "       :\n                                            ‎ 21.3 x 13.5 x 1.9 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61gO6FEbEhL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0BBRJCMTC",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0BBRJCMTC",
+      "title": "SPANION クミンパウダー 100g 農薬自社検査合格 国内製造 クミン パウダー 粉末 ギフト 贈り物",
+      "dimensions": [
+        {
+          "value": "21.8 x 13.6 x 1.2 cm",
+          "context": "       :\n                                            ‎ 21.8 x 13.6 x 1.2 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61r7wwZgQgL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0BBRKWXZJ",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0BBRKWXZJ",
+      "title": "SPANION ターメリックパウダー 100g 農薬自社検査合格 国内製造 ウコン ターメリック 粉末 ギフト 贈り物",
+      "dimensions": [
+        {
+          "value": "21.7 x 13.6 x 1.8 cm",
+          "context": "       :\n                                            ‎ 21.7 x 13.6 x 1.8 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/612TLIjTOfL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B075MXGGXP",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B075MXGGXP",
+      "title": "オーガニック 国産 桑の葉パウダー100ｇ （有機栽培 桑の葉茶 粉末 有機 青汁）鹿児島などの国産原料に変更しました",
+      "dimensions": [
+        {
+          "value": "22 x 1 x 14 cm",
+          "context": "       :\n                                            ‎ 22 x 1 x 14 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61y-ZFS1e4L._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DDKRH7P4",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DDKRH7P4",
+      "title": "伊藤園 さらさらとける おいしく大豆イソフラボン 黒豆茶 粉末 32g カフェインゼロ チャック付き袋タイプ",
+      "dimensions": [
+        {
+          "value": "16.7 x 11.7 x 2.5 cm",
+          "context": "       :\n                                            ‎ 16.7 x 11.7 x 2.5 cm; 40 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81548RAeTML._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B094QRTXXT",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B094QRTXXT",
+      "title": "[前田家] 国産原料のみ 鶏 スープ だし 100g (従来品)(粉末タイプ) 無塩 特許製法 料理のベース グルテンフリー 醤油不使用 無塩",
+      "dimensions": [
+        {
+          "value": "20 x 11.7 x 2.5 cm",
+          "context": "       :\n                                            ‎ 20 x 11.7 x 2.5 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61lx4iDDk2L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0188HMALI",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0188HMALI",
+      "title": "神戸スパイス ターメリックパウダー 100g Turmeric Powder ターメリック ウコン 粉末 スパイス",
+      "dimensions": [
+        {
+          "value": "2.01 x 17.6 x 11.81 cm",
+          "context": "       :\n                                            ‎ 2.01 x 17.6 x 11.81 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81uIEyZlzqL._AC_SL1000_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0BTSDRMZY",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0BTSDRMZY",
+      "title": "SPANION 生姜 パウダー 500g 農薬自社検査合格 国内製造 しょうが粉末 ギフト 贈り物",
+      "dimensions": [
+        {
+          "value": "25.8 x 19.9 x 8.8 cm",
+          "context": "       :\n                                            ‎ 25.8 x 19.9 x 8.8 cm; 500 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61yXhLoYwAL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "メーカーの同一500g品はチャック付き柔軟袋で「ネコポス対象」と表示。ただし直販では後続品へリニューアル済み。Amazon掲載寸法は梱包寸法の可能性があり、梱包後の最大厚・重量は未実測。",
+      "manufacturerSource": "https://shop.kaneka.co.jp/item/E2844/",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B01N40NVXA",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B01N40NVXA",
+      "title": "山口製糖 ポット印 ポット印ビート糖(粉末タイプ) 600g",
+      "dimensions": [
+        {
+          "value": "3.5 x 15 x 22.5 cm",
+          "context": "       :\n                                            ‎ 3.5 x 15 x 22.5 cm; 600 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81qHEt6fSYL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_peak_thickness_unverified",
+      "decisionReason": "600gの砂糖を掲載15×22.5cmの袋面で均す場合、端や封かんを含む最大厚3cm以下の具体的根拠がない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0B5MLNGH8",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0B5MLNGH8",
+      "title": "【ジャパンフードセレクショングランプリ受賞】桑の葉茶 沖縄県産 島桑100% 栄養まるごと粉末 90g 糖質対策 &WELL",
+      "dimensions": [
+        {
+          "value": "20 x 12 x 3.5 cm",
+          "context": "       :\n                                            ‎ 20 x 12 x 3.5 cm; 90 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61DhZRPCJyL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "メーカー同一商品ページの単品90g袋と粉末を確認。Amazon掲載寸法は梱包寸法の可能性があり、平置き後の袋面・梱包後最大厚・重量は未実測。",
+      "manufacturerSource": "https://www.andwell.shop/products/mulberry-leaf-tea",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0F1FGQ1ZX",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F1FGQ1ZX",
+      "title": "温活農園 モリンガパウダー 国産 熊本県産 モリンガ茶 モリンガ粉末 50g",
+      "dimensions": [
+        {
+          "value": "19.5 x 16.5 x 0.75 cm",
+          "context": "       :\n                                            ‎ 19.5 x 16.5 x 0.75 cm; 60 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/716OflrN51L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0C6CJT1Q8",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0C6CJT1Q8",
+      "title": "オーガニック セイロンシナモン パウダー 100g 【有機JAS認証・スリランカ産】 シナモンパウダー 無添加 スパイス シナモン 粉末",
+      "dimensions": [
+        {
+          "value": "2 x 13 x 19 cm",
+          "context": "       :\n                                            ‎ 2 x 13 x 19 cm; 100 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/715T7ruSoTL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0HGB6LTQN",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0HGB6LTQN",
+      "title": "六彩だし 出汁 無添加 国産 だし 食塩 酵母エキス不使用 国産だし和風だし 粉末だし かつお さば あじ いわし 昆布 椎茸 ミネラル カルシウム (60g)",
+      "dimensions": [
+        {
+          "value": "16.7 x 15.6 x 1.4 cm",
+          "context": "       :\n                                            ‎ 16.7 x 15.6 x 1.4 cm; 70 g メーカー\n                       "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81KE-+1ilEL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0HFRWZM8K",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0HFRWZM8K",
+      "title": "六彩だし 出汁 無添加 国産 だし 食塩 酵母エキス不使用 国産だし和風だし 粉末だし かつお さば あじ いわし 昆布 椎茸 ミネラル カルシウム (200g)",
+      "dimensions": [
+        {
+          "value": "22.3 x 16.3 x 2.6 cm",
+          "context": "       :\n                                            ‎ 22.3 x 16.3 x 2.6 cm; 220 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61eC7TykPdL._AC_SL1254_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B006ZF7G2Y",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B006ZF7G2Y",
+      "title": "ヘルシーカンパニー 国内製造 粉末寒天120g 粉寒天 海藻から長野県で製造 国産品質",
+      "dimensions": [
+        {
+          "value": "25 x 16 x 1 cm",
+          "context": "       :\n                                            ‎ 25 x 16 x 1 cm; 120 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61HOnjfbhwL._AC_SL1000_.jpg",
       "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
       "decisionReason": "Amazon現行ページ掲載3辺の最小辺が3cm以下。",
       "decidedOn": "2026-10-13"

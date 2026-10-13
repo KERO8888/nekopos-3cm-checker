@@ -32,6 +32,8 @@ SOURCES = {
 }
 
 FORM_SOURCES = {
+    'B0BTSDRMZY': 'https://shop.kaneka.co.jp/item/E2844/',
+    'B0B5MLNGH8': 'https://www.andwell.shop/products/mulberry-leaf-tea',
     'B0CWKDCLG7': 'https://www.kunitaro.co.jp/items/%E6%9C%89%E6%A9%9F%E7%B2%89%E6%9C%AB%E7%B7%91%E8%8C%B6/',
     'B0CK7W63WV': 'https://tea-sanrokuen.com/ec/products/detail/28',
     'B0H8P3DJZQ': 'https://lab.maedaya.co.jp/collections/all/products/chickenconsome',
@@ -117,6 +119,7 @@ GEOMETRY_OVERRIDES = {
 }
 
 SPECIAL = {
+    'B0BTSDRMZY': ('borderline', 'メーカーは同一500gチャック袋をネコポス対象と表示。ただし現行Amazonの袋面・外装最大厚は未測定で、500g粉末の局所的な厚みが残る。', '低'),
     'B0CWKDCLG7': ('borderline', 'メーカー公称の商品奥行は3.0cmで上限と同じ。粉末を均した計算値は局所的な袋の厚みや発送外装を含まないため、梱包後最大厚と重量の実測が必要。', '低'),
     'B08YFFNJ9L': ('borderline', '90粒の重なりと袋の縁が最大厚を決めるため、質量だけの体積計算より広い範囲を仮置き。', '低'),
     'B0B39FT7CK': ('borderline', 'ひきわり乾燥納豆の細片を1袋のまま広げる想定。袋面・粒の最大厚・発送外装は未測定。', '低'),
