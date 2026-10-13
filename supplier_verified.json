@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-13T16:40:17.116919+00:00",
+  "checkedAt": "2026-10-13T17:37:38.510057+00:00",
   "source": "Yahoo Shopping direct product pages, displayed Tokyo shipping",
   "scope": "Only pages with matching JAN and single-unit wording are verified; availability and prices can change.",
   "items": {
@@ -4921,6 +4921,111 @@
       "checkedPages": 3,
       "status": "unverified",
       "suppliers": []
+    },
+    "B0BZBTYR1T": {
+      "expectedEans": [
+        "4987072087343"
+      ],
+      "checkedPages": 8,
+      "status": "verified",
+      "suppliers": [
+        {
+          "name": "腸活 食物繊維 お通じ イージーファイバートクホ パウチ 280.8g 約50回分 小林製薬 特定保健用食品 難消化性デキストリン",
+          "store": "米屋薬店",
+          "url": "https://store.shopping.yahoo.co.jp/komeya-yakuten/4987072087343.html",
+          "jan": "4987072087343",
+          "priceYen": 1238,
+          "inboundShippingYen": 405,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 45,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T17:37:32.201697+00:00"
+        },
+        {
+          "name": "イージーファイバートクホ パウチ 280．8g 小林製薬 返品種別B",
+          "store": "Joshin web",
+          "url": "https://store.shopping.yahoo.co.jp/joshin/4987072087343-73-30000104.html",
+          "jan": "4987072087343",
+          "priceYen": 1420,
+          "inboundShippingYen": 550,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 52,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T17:37:36.656800+00:00"
+        },
+        {
+          "name": "小林製薬 イージーファイバー トクホ パウチ 約50回分 (280.8g) 食物繊維 特定保健用食品　※軽減税率対象商品",
+          "store": "ツルハドラッグ ヤフー店",
+          "url": "https://store.shopping.yahoo.co.jp/tsuruha/10165884.html",
+          "jan": "4987072087343",
+          "priceYen": 1401,
+          "inboundShippingYen": 590,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 233,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T17:37:33.141336+00:00"
+        },
+        {
+          "name": "小林製薬 イージーファイバー トクホ パウチ 約50回分 (280.8g) 食物繊維 特定保健用食品　※軽減税率対象商品",
+          "store": "くすりの福太郎",
+          "url": "https://store.shopping.yahoo.co.jp/kusurinofukutaro/10165884.html",
+          "jan": "4987072087343",
+          "priceYen": 1401,
+          "inboundShippingYen": 590,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 233,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T17:37:34.012942+00:00"
+        },
+        {
+          "name": "小林製薬 イージーファイバー トクホ パウチ 約50回分 (280.8g) 食物繊維 特定保健用食品　※軽減税率対象商品",
+          "store": "ドラッグストアウェルネス",
+          "url": "https://store.shopping.yahoo.co.jp/wellness-web/10165884.html",
+          "jan": "4987072087343",
+          "priceYen": 1401,
+          "inboundShippingYen": 590,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 233,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T17:37:34.808697+00:00"
+        },
+        {
+          "name": "◆【特定保健用食品(トクホ)】小林製薬 イージーファイバー パウチ 280.8グラム",
+          "store": "サンドラッグe-shop",
+          "url": "https://store.shopping.yahoo.co.jp/sundrugec/4987072087343.html",
+          "jan": "4987072087343",
+          "priceYen": 1401,
+          "inboundShippingYen": 600,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 51,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T17:37:35.733877+00:00"
+        },
+        {
+          "name": "※小林製薬 イージーファイバー トクホ パウチ 280.8g 【特定保健用食品】",
+          "store": "くすりのヤナセ",
+          "url": "https://store.shopping.yahoo.co.jp/hb-eshop/4987072087343.html",
+          "jan": "4987072087343",
+          "priceYen": 1598,
+          "inboundShippingYen": 600,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 58,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T17:37:38.205613+00:00"
+        },
+        {
+          "name": "イージーファイバー トクホ パウチ 特定保健用食品 ( 280.8g入り )/ イージーファイバー ( 腸活 食物繊維 難消化性デキストリン 特定保健用食品 )",
+          "store": "爽快ドラッグ",
+          "url": "https://store.shopping.yahoo.co.jp/soukai/4987072087343.html",
+          "jan": "4987072087343",
+          "priceYen": 1461,
+          "inboundShippingYen": 770,
+          "availability": "http://schema.org/InStock",
+          "displayPoints": 53,
+          "couponMentioned": false,
+          "checkedAt": "2026-10-13T17:37:37.394532+00:00"
+        }
+      ]
     }
   }
 }

@@ -2809,7 +2809,162 @@
         "identifier_unconfirmed": 0
       },
       "suppliers": []
+    },
+    "B0BZBTYR1T": {
+      "expectedEans": [
+        "4987072087343"
+      ],
+      "checkedPages": 12,
+      "cumulativeCheckedPages": 12,
+      "identifierSource": "two independent retail product pages (Matsukiyococokara/Aeon); Amazon-side EAN unconfirmed",
+      "eligibleLeads": 18,
+      "rejected": {
+        "stock_unconfirmed": 2,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "イージーファイバー トクホ パウチ 特定保健用食品 280.8g入り 【イージーファイバー】 特定保健用食品(トクホ) タイプ別",
+          "storeName": "楽天24エクスプレス",
+          "jan": "4987072087343",
+          "priceYen": 1179,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T17:37:15.588770+00:00",
+          "url": "https://item.rakuten.co.jp/rakutensokuhaimart/4987072087343/",
+          "store": "楽天24エクスプレス",
+          "inboundShippingYen": 0,
+          "displayPoints": 10,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "■ポスト投函■[小林製薬]イージーファイバー トクホ パウチ 約50回分(280.8g)",
+          "storeName": "ドラッグストアザグザグ通販",
+          "jan": "4987072087343",
+          "priceYen": 1660,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T17:35:51.110705+00:00",
+          "url": "https://item.rakuten.co.jp/zagzag/g4987072087343/",
+          "store": "ドラッグストアザグザグ通販",
+          "inboundShippingYen": 0,
+          "displayPoints": 15,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "小林製薬 イージーファイバートクホ パウチ 280.8g(4987072087343)【メール便発送】",
+          "storeName": "花ｘ花ドラッグ楽天市場店",
+          "jan": "4987072087343",
+          "priceYen": 1674,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T17:36:01.712596+00:00",
+          "url": "https://item.rakuten.co.jp/hanaxhanadrug/4987072087343/",
+          "store": "花ｘ花ドラッグ楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 15,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【特定保健用食品】イージーファイバー トクホ パウチ (280.8g)×1個 　　4987072087343",
+          "storeName": "ドレミドラッグ",
+          "jan": "4987072087343",
+          "priceYen": 1798,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T17:36:44.026891+00:00",
+          "url": "https://item.rakuten.co.jp/doremi/4987072087343zaiko/",
+          "store": "ドレミドラッグ",
+          "inboundShippingYen": 0,
+          "displayPoints": 16,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "イージーファイバートクホ パウチ 280．8g  小林製薬 イ-ジ-フアイバ-トクホ280.8G",
+          "storeName": "Joshin web 家電とPCの大型専門店",
+          "jan": "4987072087343",
+          "priceYen": 1420,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T17:36:22.766445+00:00",
+          "url": "https://item.rakuten.co.jp/jism/4987072087343-73-30000104-n/",
+          "store": "Joshin web 家電とPCの大型専門店",
+          "inboundShippingYen": 550,
+          "displayPoints": 13,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "◆【特定保健用食品(トクホ)】小林製薬  イージーファイバー  パウチ  280.8グラム",
+          "storeName": "サンドラッグe-shop",
+          "jan": "4987072087343",
+          "priceYen": 1400,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T17:36:12.217750+00:00",
+          "url": "https://item.rakuten.co.jp/sundrug/4987072087343/",
+          "store": "サンドラッグe-shop",
+          "inboundShippingYen": 600,
+          "displayPoints": 12,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "イージーファイバー トクホ パウチ 280.8g(腸活 食物繊維 難消化性デキストリン 特定保健用食品)(小林製薬)",
+          "storeName": "健康エクスプレス",
+          "jan": "4987072087343",
+          "priceYen": 1620,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T17:36:54.511792+00:00",
+          "url": "https://item.rakuten.co.jp/kenkoex/1223-4987072087343/",
+          "store": "健康エクスプレス",
+          "inboundShippingYen": 550,
+          "displayPoints": 15,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "イージーファイバー トクホ パウチ 特定保健用食品(280.8g入り)【イージーファイバー】[腸活 食物繊維 難消化性デキストリン 特定保健用食品]",
+          "storeName": "楽天24",
+          "jan": "4987072087343",
+          "priceYen": 1513,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T17:37:26.094378+00:00",
+          "url": "https://item.rakuten.co.jp/rakuten24/4987072087343/",
+          "store": "楽天24",
+          "inboundShippingYen": 770,
+          "displayPoints": 14,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【特定保健用食品】小林製薬 イージーファイバー トクホ パウチ（280.8ｇ）×1袋 お通じの改善 食物繊維 さっと溶ける 腸活",
+          "storeName": "ドラッグキリン楽天市場店",
+          "jan": "4987072087343",
+          "priceYen": 1884,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T17:36:33.358408+00:00",
+          "url": "https://item.rakuten.co.jp/drugkirin/4987072087343/",
+          "store": "ドラッグキリン楽天市場店",
+          "inboundShippingYen": 660,
+          "displayPoints": 17,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【特定保健用食品】小林製薬 イージーファイバー トクホ パウチ（280.8ｇ）×1袋 お通じの改善 食物繊維 さっと溶ける 腸活 軽減税率対象商品",
+          "storeName": "キリン堂通販SHOP",
+          "jan": "4987072087343",
+          "priceYen": 1884,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T17:37:05.131366+00:00",
+          "url": "https://item.rakuten.co.jp/k-server/4987072087343/",
+          "store": "キリン堂通販SHOP",
+          "inboundShippingYen": 660,
+          "displayPoints": 17,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-13T16:40:15.819585+00:00"
+  "checkedAt": "2026-10-13T17:37:26.401632+00:00"
 }

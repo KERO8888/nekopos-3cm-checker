@@ -32,6 +32,7 @@ SOURCES = {
 }
 
 FORM_SOURCES = {
+    'B0BZBTYR1T': 'https://www.kobayashi.co.jp/seihin/ef/index.html',
     'B01I16MH96': 'https://yanagiya-charaku.jp/?pid=104151864',
     'B0FKB2J362': 'https://yanagiya-charaku.jp/?pid=190292478',
     'B015CJ81X6': 'https://www.lavons.jp/laundry-softner/',
@@ -138,6 +139,7 @@ GEOMETRY_OVERRIDES = {
 }
 
 SPECIAL = {
+    'B0BZBTYR1T': ('borderline', 'メーカーは280.8gの粉末が入った単品パウチを掲載。Amazon主画像にはチャック付きの柔らかい袋と「スプーンなし」が明記される。粉末を未開封の袋内で均す想定だが、掲載3辺は梱包寸法の可能性があり、袋面・底マチ・発送外装を含む最大厚は未測定。', '低'),
     'B0HCN7X95B': ('borderline', '40〜45gの単品パウチに6粒。未開封のまま粒を一層に広げる想定。粒の最大高・重なり・発送外装を含む最大厚は未測定で、密度計算は適用しない。', '低'),
     'B0HCN2F8JQ': ('borderline', '40〜45gの単品パウチに6粒。未開封のまま粒を一層に広げる想定。粒の最大高・重なり・発送外装を含む最大厚は未測定で、密度計算は適用しない。', '低'),
     'B01I16MH96': ('borderline', 'メーカーは同じ250gのチャック袋を掲載し、ゆうパケット配送も案内。Amazon掲載寸法は袋の平置き実寸とは確認できず、粉末の片寄り・袋の底マチ・発送外装を含む最大厚は未実測。', '低'),

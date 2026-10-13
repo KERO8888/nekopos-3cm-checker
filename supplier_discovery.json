@@ -103160,7 +103160,939 @@
           ]
         }
       }
+    },
+    "B0BZBTYR1T": {
+      "title": "小林製薬 イージーファイバー トクホ パウチ 280.8g（約50回分）",
+      "queries": {
+        "rakuten:小林製薬 イージーファイバー トクホ パウチ 280.8g（約50回分）": {
+          "market": "rakuten",
+          "query": "小林製薬 イージーファイバー トクホ パウチ 280.8g（約50回分）",
+          "checkedAt": "2026-10-13T17:34:57.243630+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/%E5%B0%8F%E6%9E%97%E8%A3%BD%E8%96%AC%20%E3%82%A4%E3%83%BC%E3%82%B8%E3%83%BC%E3%83%95%E3%82%A1%E3%82%A4%E3%83%90%E3%83%BC%20%E3%83%88%E3%82%AF%E3%83%9B%20%E3%83%91%E3%82%A6%E3%83%81%20280.8g%EF%BC%88%E7%B4%8450%E5%9B%9E%E5%88%86%EF%BC%89/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "◆【特定保健用食品(トクホ)】小林製薬 イージーファイバー パウチ 280.8グラム",
+              "url": "https://item.rakuten.co.jp/sundrug/4987072087343/",
+              "priceYen": 1400,
+              "displayShippingYen": 600,
+              "displayPoints": 12,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "■ポスト投函■[小林製薬]イージーファイバー トクホ パウチ 約50回分(280.8g)",
+              "url": "https://item.rakuten.co.jp/zagzag/g4987072087343/",
+              "priceYen": 1660,
+              "displayShippingYen": 0,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー トクホ パウチ 特定保健用食品 280.8g入り 【イージーファイバー】 特定保健用食品(トクホ) タイプ別",
+              "url": "https://item.rakuten.co.jp/rakutensokuhaimart/4987072087343/",
+              "priceYen": 1179,
+              "displayShippingYen": 0,
+              "displayPoints": 10,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 約50回分 (280.8g) 食物繊維 特定保健用食品　※軽減税率対象商品",
+              "url": "https://item.rakuten.co.jp/tsuruha/10165884/",
+              "priceYen": 1400,
+              "displayShippingYen": 590,
+              "displayPoints": 180,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 約50回分 (280.8g) 食物繊維 特定保健用食品　※軽減税率対象商品",
+              "url": "https://item.rakuten.co.jp/kusurinofukutaro/10165884/",
+              "priceYen": 1400,
+              "displayShippingYen": 590,
+              "displayPoints": 180,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバートクホ パウチ 280．8g 小林製薬 イ-ジ-フアイバ-トクホ280.8G",
+              "url": "https://item.rakuten.co.jp/jism/4987072087343-73-30000104-n/",
+              "priceYen": 1420,
+              "displayShippingYen": 550,
+              "displayPoints": 13,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【特定保健用食品】イージーファイバー トクホ パウチ (280.8g)×1個 　　4987072087343",
+              "url": "https://item.rakuten.co.jp/doremi/4987072087343zaiko/",
+              "priceYen": 1798,
+              "displayShippingYen": 0,
+              "displayPoints": 16,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【小林製薬】小林製薬 イージーファイバー トクホ パウチ 280g",
+              "url": "https://item.rakuten.co.jp/akibaoo-r/hm001698146/",
+              "priceYen": 1320,
+              "displayShippingYen": 600,
+              "displayPoints": 12,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 約50回分 (280.8g) 食物繊維 特定保健用食品　※軽減税率対象商品",
+              "url": "https://item.rakuten.co.jp/wellness-web/10165884/",
+              "priceYen": 1400,
+              "displayShippingYen": 590,
+              "displayPoints": 180,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 280g",
+              "url": "https://item.rakuten.co.jp/matsukiyo/4987072087343/",
+              "priceYen": 1679,
+              "displayShippingYen": 550,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬　イージーファイバートクホ　パウチ　約50回分",
+              "url": "https://item.rakuten.co.jp/ladydrugplus/4987072087343/",
+              "priceYen": 1951,
+              "displayShippingYen": 0,
+              "displayPoints": 18,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 280g 特定保健用食品",
+              "url": "https://item.rakuten.co.jp/at-life/103-4987072087343/",
+              "priceYen": 1716,
+              "displayShippingYen": 399,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】イージーファイバー　トクホ　パウチ　280.8g（小林製薬）",
+              "url": "https://item.rakuten.co.jp/jf-foods/10009267/",
+              "priceYen": 1668,
+              "displayShippingYen": 0,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバートクホ パウチ 280g 小林製薬 XP1025",
+              "url": "https://item.rakuten.co.jp/premoa/4987072087343/",
+              "priceYen": 1469,
+              "displayShippingYen": 650,
+              "displayPoints": 13,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【2％OFFクーポン配布中 対象商品限定】【定形外郵便で送料無料でお届け】小林製薬株式会社 イージーファイバー（トクホ）パウチ 280g（約50回分）【ドラッグピュア楽天市場店】【TK510】【特定保健用食品】",
+              "url": "https://item.rakuten.co.jp/drugpure/rac_te_4987072087343/",
+              "priceYen": 2319,
+              "displayShippingYen": 0,
+              "displayPoints": 42,
+              "couponMentioned": true,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【小林製薬】イージーファイバートクホパウチ　280g(約50回分)特定保健用食品　5/29　メーカー欠品",
+              "url": "https://item.rakuten.co.jp/energy/al-4987072087343-kr/",
+              "priceYen": 1560,
+              "displayShippingYen": 580,
+              "displayPoints": 14,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 280.8g（約50回分）【送料無料】【特定保健用食品】",
+              "url": "https://item.rakuten.co.jp/asanomezame/23050340/",
+              "priceYen": 2386,
+              "displayShippingYen": 0,
+              "displayPoints": 22,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー トクホ パウチ 特定保健用食品(280.8g入り)【イージーファイバー】[腸活 食物繊維 難消化性デキストリン 特定保健用食品]",
+              "url": "https://item.rakuten.co.jp/rakuten24/4987072087343/",
+              "priceYen": 1513,
+              "displayShippingYen": 770,
+              "displayPoints": 14,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【本日楽天ポイント5倍相当】【定形外郵便で送料無料でお届け】小林製薬株式会社 イージーファイバー（トクホ）パウチ 280g（約50回分）【ドラッグピュア楽天市場店】【TK510】【特定保健用食品】",
+              "url": "https://item.rakuten.co.jp/drugpure/te_4987072087343/",
+              "priceYen": 2219,
+              "displayShippingYen": 0,
+              "displayPoints": 40,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【特定保健用食品】小林製薬 イージーファイバー トクホ パウチ（280.8g）×1袋 お通じの改善 食物繊維 さっと溶ける 腸活",
+              "url": "https://item.rakuten.co.jp/drugkirin/4987072087343/",
+              "priceYen": 1884,
+              "displayShippingYen": 660,
+              "displayPoints": 17,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー トクホ パウチ 特定保健用食品(280.8g入り)【イージーファイバー】[腸活 食物繊維 難消化性デキストリン 特定保健用食品]",
+              "url": "https://item.rakuten.co.jp/kenkocom/4987072087343/",
+              "priceYen": 1529,
+              "displayShippingYen": 770,
+              "displayPoints": 14,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバートクホ パウチ 280g",
+              "url": "https://item.rakuten.co.jp/a-price/4987072087343/",
+              "priceYen": 1469,
+              "displayShippingYen": 650,
+              "displayPoints": 13,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバートクホ パウチ 280.8g(4987072087343)【メール便発送】",
+              "url": "https://item.rakuten.co.jp/hanaxhanadrug/4987072087343/",
+              "priceYen": 1674,
+              "displayShippingYen": 0,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【本日楽天ポイント4倍相当】【定形外郵便で送料無料でお届け】小林製薬株式会社 イージーファイバー（トクホ）パウチ 280g（約50回分）【RCP】【TK510】",
+              "url": "https://item.rakuten.co.jp/koubetanpopo/te_4987072087343/",
+              "priceYen": 2438,
+              "displayShippingYen": 0,
+              "displayPoints": 22,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【特定保健用食品】小林製薬 イージーファイバー トクホ パウチ（280.8g）×1袋 お通じの改善 食物繊維 さっと溶ける 腸活 軽減税率対象商品",
+              "url": "https://item.rakuten.co.jp/k-server/4987072087343/",
+              "priceYen": 1884,
+              "displayShippingYen": 660,
+              "displayPoints": 17,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】小林製薬株式会社 イージーファイバー（トクホ）パウチ 280g（約50回分）【△】",
+              "url": "https://item.rakuten.co.jp/koubetanpopo/so_4987072087343/",
+              "priceYen": 2313,
+              "displayShippingYen": 0,
+              "displayPoints": 21,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー トクホ パウチ 280.8g(腸活 食物繊維 難消化性デキストリン 特定保健用食品)(小林製薬)",
+              "url": "https://item.rakuten.co.jp/kenkoex/1223-4987072087343/",
+              "priceYen": 1620,
+              "displayShippingYen": 550,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "rakuten:4987072087343": {
+          "market": "rakuten",
+          "query": "4987072087343",
+          "checkedAt": "2026-10-13T17:35:03.470680+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4987072087343/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "イージーファイバー トクホ パウチ 特定保健用食品 280.8g入り 【イージーファイバー】 特定保健用食品(トクホ) タイプ別",
+              "url": "https://item.rakuten.co.jp/rakutensokuhaimart/4987072087343/",
+              "priceYen": 1179,
+              "displayShippingYen": 0,
+              "displayPoints": 10,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【特定保健用食品】イージーファイバー トクホ パウチ (280.8g)×1個 　　4987072087343",
+              "url": "https://item.rakuten.co.jp/doremi/4987072087343zaiko/",
+              "priceYen": 1798,
+              "displayShippingYen": 0,
+              "displayPoints": 16,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー 食物繊維 パウダー 約50回分×1袋 サプリ 便秘解消 お通じ 小林製薬 メール便 コストコ 通販 送料無料",
+              "url": "https://item.rakuten.co.jp/psj1/cs89042-4987072087343/",
+              "priceYen": 1690,
+              "displayShippingYen": 0,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバートクホ パウチ 280.8g(4987072087343)【メール便発送】",
+              "url": "https://item.rakuten.co.jp/hanaxhanadrug/4987072087343/",
+              "priceYen": 1674,
+              "displayShippingYen": 0,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー トクホ パウチ 特定保健用食品(280.8g入り)【イージーファイバー】[腸活 食物繊維 難消化性デキストリン 特定保健用食品]",
+              "url": "https://item.rakuten.co.jp/rakuten24/4987072087343/",
+              "priceYen": 1513,
+              "displayShippingYen": 770,
+              "displayPoints": 14,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "◆【特定保健用食品(トクホ)】小林製薬 イージーファイバー パウチ 280.8グラム",
+              "url": "https://item.rakuten.co.jp/sundrug/4987072087343/",
+              "priceYen": 1400,
+              "displayShippingYen": 600,
+              "displayPoints": 12,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "■ポスト投函■[小林製薬]イージーファイバー トクホ パウチ 約50回分(280.8g)",
+              "url": "https://item.rakuten.co.jp/zagzag/g4987072087343/",
+              "priceYen": 1660,
+              "displayShippingYen": 0,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー トクホ パウチ 特定保健用食品(280.8g入り)【イージーファイバー】[腸活 食物繊維 難消化性デキストリン 特定保健用食品]",
+              "url": "https://item.rakuten.co.jp/kenkocom/4987072087343/",
+              "priceYen": 1529,
+              "displayShippingYen": 770,
+              "displayPoints": 14,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【特定保健用食品】小林製薬 イージーファイバー トクホ パウチ（280.8g）×1袋 お通じの改善 食物繊維 さっと溶ける 腸活 軽減税率対象商品",
+              "url": "https://item.rakuten.co.jp/k-server/4987072087343/",
+              "priceYen": 1884,
+              "displayShippingYen": 660,
+              "displayPoints": 17,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバートクホ パウチ 280．8g 小林製薬 イ-ジ-フアイバ-トクホ280.8G",
+              "url": "https://item.rakuten.co.jp/jism/4987072087343-73-30000104-n/",
+              "priceYen": 1420,
+              "displayShippingYen": 550,
+              "displayPoints": 13,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 約50回分 (280.8g) 食物繊維 特定保健用食品　※軽減税率対象商品",
+              "url": "https://item.rakuten.co.jp/tsuruha/10165884/",
+              "priceYen": 1400,
+              "displayShippingYen": 590,
+              "displayPoints": 180,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー トクホ パウチ（280.8g）",
+              "url": "https://item.rakuten.co.jp/y-koto/4987072087343/",
+              "priceYen": 1770,
+              "displayShippingYen": 590,
+              "displayPoints": 16,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【特定保健用食品】小林製薬 イージーファイバー トクホ パウチ（280.8g）×1袋 お通じの改善 食物繊維 さっと溶ける 腸活",
+              "url": "https://item.rakuten.co.jp/drugkirin/4987072087343/",
+              "priceYen": 1884,
+              "displayShippingYen": 660,
+              "displayPoints": 17,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー 約50回分",
+              "url": "https://item.rakuten.co.jp/otonarimarket/89042/",
+              "priceYen": 2298,
+              "displayShippingYen": 0,
+              "displayPoints": 21,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬　イージーファイバートクホ　パウチ　約50回分",
+              "url": "https://item.rakuten.co.jp/ladydrugplus/4987072087343/",
+              "priceYen": 1951,
+              "displayShippingYen": 0,
+              "displayPoints": 18,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバートクホ パウチ 280g",
+              "url": "https://item.rakuten.co.jp/a-price/4987072087343/",
+              "priceYen": 1469,
+              "displayShippingYen": 650,
+              "displayPoints": 13,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 280g 特定保健用食品",
+              "url": "https://item.rakuten.co.jp/at-life/103-4987072087343/",
+              "priceYen": 1716,
+              "displayShippingYen": 399,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬　イージーファイバー　トクホ　パウチ　約50回分 【正規品】 ※軽減税率対象品【t-2】",
+              "url": "https://item.rakuten.co.jp/shopsoleil/10297189/",
+              "priceYen": 1523,
+              "displayShippingYen": 670,
+              "displayPoints": 28,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 約50回分 (280.8g) 食物繊維 特定保健用食品　※軽減税率対象商品",
+              "url": "https://item.rakuten.co.jp/kusurinofukutaro/10165884/",
+              "priceYen": 1400,
+              "displayShippingYen": 590,
+              "displayPoints": 180,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬　イージーファイバー　トクホ　パウチ　約50回分 【正規品】 ※軽減税率対象品【t-2】",
+              "url": "https://item.rakuten.co.jp/bazar-progre/10297189/",
+              "priceYen": 1523,
+              "displayShippingYen": 670,
+              "displayPoints": 28,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー トクホ パウチ（280.8g）",
+              "url": "https://item.rakuten.co.jp/koto-p/4987072087343/",
+              "priceYen": 1770,
+              "displayShippingYen": 590,
+              "displayPoints": 16,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬　イージーファイバートクホ　パウチ　約50回分",
+              "url": "https://item.rakuten.co.jp/ladydrug/4987072087343/",
+              "priceYen": 1424,
+              "displayShippingYen": 598,
+              "displayPoints": 13,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー トクホ パウチ 280.8g(腸活 食物繊維 難消化性デキストリン 特定保健用食品)(小林製薬)",
+              "url": "https://item.rakuten.co.jp/kenkoex/1223-4987072087343/",
+              "priceYen": 1620,
+              "displayShippingYen": 550,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬　イージーファイバー　トクホ　パウチ　約50回分 【正規品】 ※軽減税率対象品【t-2】",
+              "url": "https://item.rakuten.co.jp/bloomgreen/10297189/",
+              "priceYen": 1523,
+              "displayShippingYen": 670,
+              "displayPoints": 28,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 280g",
+              "url": "https://item.rakuten.co.jp/matsukiyo/4987072087343/",
+              "priceYen": 1679,
+              "displayShippingYen": 550,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【小林製薬】イージーファイバートクホパウチ　280g(約50回分)特定保健用食品　5/29　メーカー欠品",
+              "url": "https://item.rakuten.co.jp/energy/al-4987072087343-kr/",
+              "priceYen": 1560,
+              "displayShippingYen": 580,
+              "displayPoints": 14,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 約50回分 (280.8g) 食物繊維 特定保健用食品　※軽減税率対象商品",
+              "url": "https://item.rakuten.co.jp/wellness-web/10165884/",
+              "priceYen": 1400,
+              "displayShippingYen": 590,
+              "displayPoints": 180,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバートクホ パウチ 280g 小林製薬 XP1025",
+              "url": "https://item.rakuten.co.jp/premoa/4987072087343/",
+              "priceYen": 1469,
+              "displayShippingYen": 650,
+              "displayPoints": 13,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー パウチ 280g（約50回分）[特定保健用食品] - 小林製薬",
+              "url": "https://item.rakuten.co.jp/healthy-good/cbs-087343/",
+              "priceYen": 1728,
+              "displayShippingYen": 590,
+              "displayPoints": 16,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【合算3150円で送料無料】【特定保健用食品】イージーファイバー パウチ（約50回分）",
+              "url": "https://item.rakuten.co.jp/sapoot/4987072087343/",
+              "priceYen": 1736,
+              "displayShippingYen": 0,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:小林製薬 イージーファイバー トクホ パウチ 280.8g（約50回分）": {
+          "market": "yahoo",
+          "query": "小林製薬 イージーファイバー トクホ パウチ 280.8g（約50回分）",
+          "checkedAt": "2026-10-13T17:35:04.938894+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=%E5%B0%8F%E6%9E%97%E8%A3%BD%E8%96%AC+%E3%82%A4%E3%83%BC%E3%82%B8%E3%83%BC%E3%83%95%E3%82%A1%E3%82%A4%E3%83%90%E3%83%BC+%E3%83%88%E3%82%AF%E3%83%9B+%E3%83%91%E3%82%A6%E3%83%81+280.8g%EF%BC%88%E7%B4%8450%E5%9B%9E%E5%88%86%EF%BC%89",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "腸活 食物繊維 お通じ イージーファイバートクホ パウチ 280.8g 約50回分 小林製薬 特定保健用食品 難消化性デキストリン",
+              "url": "https://store.shopping.yahoo.co.jp/komeya-yakuten/4987072087343.html",
+              "priceYen": 1238,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "(ポスト投函)(小林製薬)イージーファイバー トクホ パウチ 約50回分(280.8g)",
+              "url": "https://store.shopping.yahoo.co.jp/zagzag/4987072087343.html",
+              "priceYen": 1660,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "(ポスト投函)(小林製薬)イージーファイバー トクホ パウチ 約50回分(280.8g)",
+              "url": "https://store.shopping.yahoo.co.jp/zagzag2/4987072087343.html",
+              "priceYen": 1660,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 約50回分 (280.8g) 食物繊維 特定保健用食品　※軽減税率対象商品",
+              "url": "https://store.shopping.yahoo.co.jp/tsuruha/10165884.html",
+              "priceYen": 1401,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 約50回分 (280.8g) 食物繊維 特定保健用食品　※軽減税率対象商品",
+              "url": "https://store.shopping.yahoo.co.jp/kusurinofukutaro/10165884.html",
+              "priceYen": 1401,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 約50回分 (280.8g) 食物繊維 特定保健用食品　※軽減税率対象商品",
+              "url": "https://store.shopping.yahoo.co.jp/wellness-web/10165884.html",
+              "priceYen": 1401,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバートクホ パウチ 280．8g 小林製薬 返品種別B",
+              "url": "https://store.shopping.yahoo.co.jp/joshin/4987072087343-73-30000104.html",
+              "priceYen": 1420,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー トクホ パウチ 280.8g(腸活 食物繊維 難消化性デキストリン 特定保健用食品)(小林製薬)",
+              "url": "https://store.shopping.yahoo.co.jp/kenko-ex/1223-4987072087343.html",
+              "priceYen": 1620,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバートクホ パウチ 280.8g 健康補助食品 健康ドリンク 栄養補助食品 栄養ドリンク 健康食品",
+              "url": "https://store.shopping.yahoo.co.jp/cocodecow/y921dw.html",
+              "priceYen": 1821,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬　イージーファイバー　２８０．８ｇ　１パック（お取寄せ品)",
+              "url": "https://store.shopping.yahoo.co.jp/tanomail/6618335.html",
+              "priceYen": 1706,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 1580,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "◆【特定保健用食品(トクホ)】小林製薬 イージーファイバー パウチ 280.8グラム",
+              "url": "https://store.shopping.yahoo.co.jp/sundrugec/4987072087343.html",
+              "priceYen": 1401,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬　イージーファイバートクホ　パウチ　約50回分",
+              "url": "https://store.shopping.yahoo.co.jp/ladydrugheartshop/4987072087343.html",
+              "priceYen": 1365,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬　イージーファイバートクホ　パウチ　約50回分",
+              "url": "https://store.shopping.yahoo.co.jp/ladypoint/4987072087343.html",
+              "priceYen": 1378,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬　イージーファイバートクホ　パウチ　約50回分",
+              "url": "https://store.shopping.yahoo.co.jp/ladydrugheartshop-ni/4987072087343.html",
+              "priceYen": 2302,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 280g",
+              "url": "https://store.shopping.yahoo.co.jp/akibaoo/4987072087343.html",
+              "priceYen": 1305,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 2300,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 1190,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 5300,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 280g 特定保健用食品",
+              "url": "https://store.shopping.yahoo.co.jp/himejiryutsuu/103-4987072087343.html",
+              "priceYen": 1693,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4987072087343": {
+          "market": "yahoo",
+          "query": "4987072087343",
+          "checkedAt": "2026-10-13T17:35:06.354474+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4987072087343",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "腸活 食物繊維 お通じ イージーファイバートクホ パウチ 280.8g 約50回分 小林製薬 特定保健用食品 難消化性デキストリン",
+              "url": "https://store.shopping.yahoo.co.jp/komeya-yakuten/4987072087343.html",
+              "priceYen": 1238,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "(ポスト投函)(小林製薬)イージーファイバー トクホ パウチ 約50回分(280.8g)",
+              "url": "https://store.shopping.yahoo.co.jp/zagzag/4987072087343.html",
+              "priceYen": 1660,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 1580,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "(ポスト投函)(小林製薬)イージーファイバー トクホ パウチ 約50回分(280.8g)",
+              "url": "https://store.shopping.yahoo.co.jp/zagzag2/4987072087343.html",
+              "priceYen": 1660,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬　イージーファイバートクホ　パウチ　約50回分",
+              "url": "https://store.shopping.yahoo.co.jp/ladydrugheartshop/4987072087343.html",
+              "priceYen": 1365,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "◆【特定保健用食品(トクホ)】小林製薬 イージーファイバー パウチ 280.8グラム",
+              "url": "https://store.shopping.yahoo.co.jp/sundrugec/4987072087343.html",
+              "priceYen": 1401,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 約50回分 (280.8g) 食物繊維 特定保健用食品　※軽減税率対象商品",
+              "url": "https://store.shopping.yahoo.co.jp/tsuruha/10165884.html",
+              "priceYen": 1401,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬　イージーファイバートクホ　パウチ　約50回分",
+              "url": "https://store.shopping.yahoo.co.jp/ladypoint/4987072087343.html",
+              "priceYen": 1378,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 約50回分 (280.8g) 食物繊維 特定保健用食品　※軽減税率対象商品",
+              "url": "https://store.shopping.yahoo.co.jp/kusurinofukutaro/10165884.html",
+              "priceYen": 1401,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 約50回分 (280.8g) 食物繊維 特定保健用食品　※軽減税率対象商品",
+              "url": "https://store.shopping.yahoo.co.jp/wellness-web/10165884.html",
+              "priceYen": 1401,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバートクホ パウチ 280．8g 小林製薬 返品種別B",
+              "url": "https://store.shopping.yahoo.co.jp/joshin/4987072087343-73-30000104.html",
+              "priceYen": 1420,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 280g",
+              "url": "https://store.shopping.yahoo.co.jp/akibaoo/4987072087343.html",
+              "priceYen": 1305,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬　イージーファイバー　２８０．８ｇ　１パック（お取寄せ品)",
+              "url": "https://store.shopping.yahoo.co.jp/tanomail/6618335.html",
+              "priceYen": 1706,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー パウチ (約50回分)",
+              "url": "https://store.shopping.yahoo.co.jp/benkyoudou/cs-4987072087343-yk.html",
+              "priceYen": 1665,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "※小林製薬 イージーファイバー トクホ パウチ 280.8g 【特定保健用食品】",
+              "url": "https://store.shopping.yahoo.co.jp/hb-eshop/4987072087343.html",
+              "priceYen": 1598,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー トクホ パウチ 特定保健用食品 ( 280.8g入り )/ イージーファイバー ( 腸活 食物繊維 難消化性デキストリン 特定保健用食品 )",
+              "url": "https://store.shopping.yahoo.co.jp/soukai/4987072087343.html",
+              "priceYen": 1461,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバートクホ パウチ 280g 小林製薬",
+              "url": "https://store.shopping.yahoo.co.jp/maxzen/4987072087343.html",
+              "priceYen": 1670,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬　イージーファイバートクホ　パウチ　約50回分",
+              "url": "https://store.shopping.yahoo.co.jp/ladydrugheartshop-pl/4987072087343.html",
+              "priceYen": 1920,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバートクホ パウチ 280g 小林製薬",
+              "url": "https://store.shopping.yahoo.co.jp/sake-premoa/4987072087343.html",
+              "priceYen": 1521,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "小林製薬 イージーファイバー トクホ パウチ 280g 特定保健用食品",
+              "url": "https://store.shopping.yahoo.co.jp/himejiryutsuu/103-4987072087343.html",
+              "priceYen": 1693,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "イージーファイバー パウチ 280g（約50回分）[特定保健用食品] - 小林製薬",
+              "url": "https://store.shopping.yahoo.co.jp/healthy-good/cbs-087343.html",
+              "priceYen": 1728,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【特定保健用食品】イージーファイバー パウチ 280.8g",
+              "url": "https://store.shopping.yahoo.co.jp/fujiyaku/4987072087343.html",
+              "priceYen": 1760,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        }
+      }
     }
   },
-  "checkedAt": "2026-10-13T16:36:34.904144+00:00"
+  "checkedAt": "2026-10-13T17:35:06.354488+00:00"
 }

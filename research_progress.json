@@ -132,7 +132,7 @@
     "ココア 粉末 詰め替え 袋 200g"
   ],
   "discoveredCount": 63872,
-  "addedCount": 118,
+  "addedCount": 119,
   "discovered": [
     {
       "asin": "B0CDPF8BKZ",
@@ -118269,7 +118269,25 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "モンプチ プチリュクス パウチ 2種のアソート 厳選まぐろ&まぐろの鯛添え 35ｇｘ8袋 キャットフード ウェット",
+      "triageScore": -16,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        80,
+        84,
+        112
+      ],
+      "keepaPackageWeightG": 360,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DYNQKYHX",
@@ -118277,7 +118295,25 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "モンプチ プチリュクス パウチ 2種のアソート 厳選まぐろ&まぐろのかつお節添え 35ｘ8袋 キャットフード ウェット",
+      "triageScore": -16,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        81,
+        82,
+        120
+      ],
+      "keepaPackageWeightG": 360,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CTGW8M19",
@@ -118285,7 +118321,24 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "ピュリナワン パウチ 室内飼い猫用 1歳以上 チキングレービー仕立て 50ｇｘ12袋 キャットフード ウェット",
+      "triageScore": -10,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        88,
+        126,
+        143
+      ],
+      "keepaPackageWeightG": 680,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CTGW9WK6",
@@ -118293,7 +118346,24 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "フィリックス パウチ ダブルのおいしさ お魚お肉バラエティ 50ｇｘ12袋 キャットフード ウェット",
+      "triageScore": -10,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        87,
+        129,
+        144
+      ],
+      "keepaPackageWeightG": 660,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DYC9FZNY",
@@ -118328,7 +118398,24 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "フィリックス パウチ ダブルのおいしさ お肉バラエティ 50ｇｘ12袋 キャットフード ウェット",
+      "triageScore": -10,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        87,
+        128,
+        141
+      ],
+      "keepaPackageWeightG": 660,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GVY23RQ7",
@@ -118336,15 +118423,46 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "イージーファイバー [ 公式 ] トクホ パウチ 約50回分×2個セット おまけ付き",
+      "triageScore": 2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        82,
+        185,
+        248
+      ],
+      "keepaPackageWeightG": 590,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0BZBTYR1T",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "イージーファイバー [ 公式 ] トクホ パウチ 約50回分",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        69,
+        173,
+        230
+      ],
+      "keepaPackageWeightG": 290,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B09N724BZ9",
@@ -118352,7 +118470,24 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "フィリックス パウチ やわらかグリル 子ねこ お魚お肉バラエティ 50gX12袋 キャットフード ウェット",
+      "triageScore": -10,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        87,
+        127,
+        143
+      ],
+      "keepaPackageWeightG": 670,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CTGX7KZ7",
@@ -118360,7 +118495,24 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "フィリックス パウチ ダブルのおいしさ お魚バラエティ 50ｇｘ12袋 キャットフード ウェット",
+      "triageScore": -10,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        87,
+        128,
+        141
+      ],
+      "keepaPackageWeightG": 660,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CCTLSZC3",
@@ -118368,7 +118520,22 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "アサヒペン 補修材 ワンタッチ スーパーパテ 200ml W101 ホワイト 手絞りパウチ ヘラ付き 壁用 速乾 軽量 ひび割れ 釘穴補修 日本製",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        47,
+        84,
+        178
+      ],
+      "keepaPackageWeightG": 120,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0G6YFZW1X",
@@ -118376,7 +118543,24 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "【Amazon.co.jp限定】 アミノバイタル BCAA EAA アミノ酸 4000mg GOLD30本入パウチ グレープフルーツ味 粉末 リカバー30本(x 1)",
+      "triageScore": 3,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "単品を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        61,
+        185,
+        191
+      ],
+      "keepaPackageWeightG": 170,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DKJ3HB8M",
@@ -118384,7 +118568,24 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "カルカン パウチ 成猫 60g×8袋 2種のセレクション まぐろかつお節入り まぐろさけ入り ウェットフード キャットフード 総合栄養食 水分補給",
+      "triageScore": -10,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        93,
+        102,
+        130
+      ],
+      "keepaPackageWeightG": 560,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DYNQVNM1",
@@ -118392,7 +118593,24 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "モンプチ プチリュクス パウチ ジュレ 厳選かつお 35ｇｘ12袋 キャットフード ウェット",
+      "triageScore": -10,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        81,
+        115,
+        119
+      ],
+      "keepaPackageWeightG": 510,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DYNQWKZ7",
@@ -118400,7 +118618,24 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "モンプチ プチリュクス パウチ ジュレ 厳選ささみ 35ｇｘ12袋 キャットフード ウェット",
+      "triageScore": -10,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        81,
+        115,
+        119
+      ],
+      "keepaPackageWeightG": 530,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DYNSQ4XK",
@@ -118408,7 +118643,24 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "モンプチ プチリュクス パウチ ジュレ 厳選まぐろ 35ｇｘ12袋 キャットフード ウェット",
+      "triageScore": -10,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        82,
+        115,
+        118
+      ],
+      "keepaPackageWeightG": 530,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CW8GQS1G",
@@ -118416,7 +118668,22 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "【EC限定】ディアナチュラ 49アミノ マルチビタミン&ミネラル 480粒(120日分) アサヒ サプリ Dear-Natura 国内工場で生産 パウチ 必須アミノ酸 乳酸菌 亜鉛",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        37,
+        114,
+        208
+      ],
+      "keepaPackageWeightG": 190,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CCTMKGYD",
@@ -118424,7 +118691,22 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "アサヒペン 接着剤 ワンタッチ タイル・コンクリ用接着剤 200ml W106 ホワイト 手絞りパウチ ヘラ付き 屋内外 タイル 木部 レンガ コンクリート 石膏ボード 日本製",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        48,
+        89,
+        214
+      ],
+      "keepaPackageWeightG": 310,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DYNS82C6",
@@ -118432,7 +118714,25 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "モンプチ プチリュクス パウチ 2種のアソート18歳以上用 まぐろのしらす添え&まぐろのささみ添え 35ｇｘ8袋 キャットフード ウェット",
+      "triageScore": -16,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        62,
+        84,
+        119
+      ],
+      "keepaPackageWeightG": 350,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DYNSTSMZ",
@@ -118440,7 +118740,24 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "モンプチ プチリュクス パウチ ジュレ 18歳以上用 まぐろとかつおのしらす添え 35ｇｘ12袋 キャットフード ウェット",
+      "triageScore": -10,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        82,
+        116,
+        119
+      ],
+      "keepaPackageWeightG": 520,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CS2THKY8",
@@ -118475,7 +118792,22 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T02:31:18.232901+09:00",
+      "keepaTitle": "アサヒペン 充填材 コーキング材 ワンタッチ サイディング用補修材 200ml W107 ホワイト 手絞りパウチ ヘラ付き 塗料の上塗り可能 屋内外 雨漏り補修 高耐候性 日本製",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        48,
+        95,
+        211
+      ],
+      "keepaPackageWeightG": 360,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B08N5YWHKC",
@@ -474220,7 +474552,7 @@
     {
       "asin": "B0F4DD3KY1",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=キッチンシート root=3828871 side>=0mm",
@@ -474245,7 +474577,7 @@
     {
       "asin": "B083RCDJ53",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=キッチンシート root=3828871 side>=0mm",
@@ -474322,7 +474654,7 @@
     {
       "asin": "B083RCB21C",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=キッチンシート root=3828871 side>=0mm",
@@ -474424,7 +474756,7 @@
     {
       "asin": "B085L7Z38N",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=キッチンシート root=3828871 side>=0mm",
@@ -474449,7 +474781,7 @@
     {
       "asin": "B082HLQM3M",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=キッチンシート root=3828871 side>=0mm",
@@ -555304,7 +555636,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 806,
+  "fetchedProductPageCount": 812,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -559962,6 +560294,30 @@
       "pagesChecked": 6,
       "added": 2,
       "unverifiedRange": "パウチ6件をAmazon現行ページ・主画像で個別判定。40〜45gのチョコレート単品パウチ2件を低確信度で登録し、硬いねじ式キャップ付き4件を除外。粒の局所厚・梱包後外寸・重量と残る発見済みASINは未確認。"
+    },
+    {
+      "reviewedOn": "2026-10-14",
+      "scope": "Amazon.co.jp商品ページ: Keepa title=ふきん由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0F4DD3KY1",
+        "B083RCDJ53",
+        "B083RCB21C",
+        "B085L7Z38N",
+        "B082HLQM3M"
+      ],
+      "pagesChecked": 5,
+      "added": 0,
+      "unverifiedRange": "Amazon現行ページで5件とも掲載3辺寸法なし。単品枚数・未開封の重なりは未確認のため保留。残る発見済みASINは未確認。"
+    },
+    {
+      "reviewedOn": "2026-10-14",
+      "scope": "Amazon.co.jp商品ページ: Keepa title=パウチ由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0BZBTYR1T"
+      ],
+      "pagesChecked": 1,
+      "added": 1,
+      "unverifiedRange": "商品袋の実寸、内容粉末を均した後の最大厚、発送外装・重量は未測定。Amazonの商品ページと確認できない応答に切り替わったため追加の商品ページ照合は停止。残る発見済みASINは未確認。"
     }
   ],
   "searchStops": [
@@ -561111,6 +561467,23 @@
       "tokensLeft": -17,
       "refillRate": 5,
       "note": "Keepa登録値によるASIN発見のみ。現行Amazonページ・単品・柔らかさ・発送時の厚みは未確認。"
+    }
+  ],
+  "reviewStops": [
+    {
+      "checkedOn": "2026-10-14",
+      "asin": "B0BZBTYR1T",
+      "reason": "追加取得時の応答に商品名がなく、現行Amazon商品ページと確認できなかったため、以後の商品ページ照合を停止。確認画面の可能性。"
+    }
+  ],
+  "metadataRuns": [
+    {
+      "checkedOn": "2026-10-14",
+      "source": "Keepa title=パウチ の未確認ASIN",
+      "asinsChecked": 20,
+      "tokensLeft": 52,
+      "scope": "商品名・パッケージ寸法による優先付け。登録適合の確認ではない。",
+      "unverifiedRange": "今回照会のうち19件と、残る発見済みASINの商品形状・現行Amazon寸法は未確定。"
     }
   ]
 }

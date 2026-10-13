@@ -5893,6 +5893,77 @@
       "primaryImageUrl": "https://m.media-amazon.com/images/I/71Bagj7kwmL._AC_SL1500_.jpg",
       "reviewStatus": "excluded_rigid_cap_or_spout",
       "decisionReason": "Amazon現行ページの主画像で硬いねじ式キャップと注ぎ口を確認。内容物をならしてもこの部分の局所的な厚みは薄くならないため除外。"
+    },
+    {
+      "asin": "B0F4DD3KY1",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B0F4DD3KY1",
+      "title": "ふきん マイクロファイバー布巾 強力吸水 速乾 雑巾 食器 拭きガラス 窓鏡 キッチンタオル 台拭き 掃除用品 ワッフル調 キッチンクロス (3中グレー+3白い)",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/819p7cuyDUL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_amazon_three_dimensions",
+      "decisionReason": "Amazon現行商品ページで掲載3辺寸法を確認できない。Keepaの梱包寸法だけでは掲載最小辺3cm超の現行ページ照合条件を満たさない。布巾の入り数・未開封状態の重なりも未確認。",
+      "decidedOn": "2026-10-14"
+    },
+    {
+      "asin": "B083RCDJ53",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B083RCDJ53",
+      "title": "ふきん マイクロファイバー布巾 強力吸水 速乾 雑巾 食器 拭きガラス 窓鏡 キッチンタオル 台拭き 掃除用品 ワッフル調 キッチンクロス (行雲流水)",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71hjpDf-f0L._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_amazon_three_dimensions",
+      "decisionReason": "Amazon現行商品ページで掲載3辺寸法を確認できない。Keepaの梱包寸法だけでは掲載最小辺3cm超の現行ページ照合条件を満たさない。布巾の入り数・未開封状態の重なりも未確認。",
+      "decidedOn": "2026-10-14"
+    },
+    {
+      "asin": "B083RCB21C",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B083RCB21C",
+      "title": "ふきん マイクロファイバー布巾 強力吸水 速乾 雑巾 食器 拭きガラス 窓鏡 キッチンタオル 台拭き 掃除用品 ワッフル調 キッチンクロス (桃)",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61zGC1Kc7DL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_amazon_three_dimensions",
+      "decisionReason": "Amazon現行商品ページで掲載3辺寸法を確認できない。Keepaの梱包寸法だけでは掲載最小辺3cm超の現行ページ照合条件を満たさない。布巾の入り数・未開封状態の重なりも未確認。",
+      "decidedOn": "2026-10-14"
+    },
+    {
+      "asin": "B085L7Z38N",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B085L7Z38N",
+      "title": "ふきん マイクロファイバー布巾 強力吸水 速乾 雑巾 食器 拭きガラス 窓鏡 キッチンタオル 台拭き 掃除用品 ワッフル調 キッチンクロス (混色-全部大柄)",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71Tg01UeTpL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_amazon_three_dimensions",
+      "decisionReason": "Amazon現行商品ページで掲載3辺寸法を確認できない。Keepaの梱包寸法だけでは掲載最小辺3cm超の現行ページ照合条件を満たさない。布巾の入り数・未開封状態の重なりも未確認。",
+      "decidedOn": "2026-10-14"
+    },
+    {
+      "asin": "B082HLQM3M",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B082HLQM3M",
+      "title": "ふきん マイクロファイバー布巾 強力吸水 速乾 雑巾 食器 拭きガラス 窓鏡 キッチンタオル 台拭き 掃除用品 ワッフル調 キッチンクロス (霧藍)",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71xmY+tpIJL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_amazon_three_dimensions",
+      "decisionReason": "Amazon現行商品ページで掲載3辺寸法を確認できない。Keepaの梱包寸法だけでは掲載最小辺3cm超の現行ページ照合条件を満たさない。布巾の入り数・未開封状態の重なりも未確認。",
+      "decidedOn": "2026-10-14"
+    },
+    {
+      "asin": "B0BZBTYR1T",
+      "checkedOn": "2026-10-14",
+      "source": "https://www.amazon.co.jp/dp/B0BZBTYR1T",
+      "title": "イージーファイバー [ 公式 ] トクホ パウチ 約50回分",
+      "dimensions": [
+        {
+          "value": "23 x 17.3 x 6.9 cm",
+          "context": "       :\n                                            ‎ 23 x 17.3 x 6.9 cm; 280.8 g メーカー\n                    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81uwkk6rjNL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページの商品名で単品、主画像でチャック付き柔らかい袋と「スプーンなし」、掲載3辺23×17.3×6.9cm（最小辺6.9cm）を確認。小林製薬公式の同製品280.8g粉末パウチと一致。未開封のまま粉末を均せる可能性があるが、袋面と梱包後最大厚・重量は未測定。掲載値は梱包寸法の可能性があり、低確信度。",
+      "decidedOn": "2026-10-14"
     }
   ]
 }

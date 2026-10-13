@@ -81,4 +81,11 @@ for (const asin of ['B093DGHBXC', 'B0DQDTBXJ7']) {
   const expected = offer.landedYen - offer.points - supplier.priceYen - supplier.inboundShippingYen - 240 - 20 - Math.ceil(fee.totalFeeYen * 1.1);
   assert.strictEqual(observedProfit(asin, supplier), expected, asin);
 }
+const fiberAsin = 'B0BZBTYR1T';
+const fiberSupplier = market.suppliers[fiberAsin][0];
+assert.strictEqual(fiberSupplier.priceYen, 1179);
+assert(fiberSupplier.identity.includes('Amazon側未照合'), 'the retailer-matched JAN must remain qualified');
+assert.strictEqual(market.offers[fiberAsin].lowestMerchant.landedYen, 1660);
+assert.strictEqual(market.offers[fiberAsin].lowestAmazonFulfilled, null);
+assert.strictEqual(observedProfit(fiberAsin, fiberSupplier), 30, 'MFN fee, clickpost, packing and bulk-shipping assumption');
 console.log('market data and observed MFN profit: ok');
