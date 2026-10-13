@@ -3961,6 +3961,60 @@
       "reviewStatus": "hold_missing_amazon_dimensions",
       "decisionReason": "単品の布製バンダナで平らにできる可能性はあるが、現行Amazon商品ページでは掲載3辺寸法を取得できず、最小辺3cm超の登録条件を確認できない。",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DPHD4S88",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DPHD4S88",
+      "title": "【無香料】アロベビー ミルクローション 詰め替え ベビーローション 1袋 新生児から使える保湿 100%天然由来 無添加 オーガニック",
+      "dimensions": [
+        {
+          "value": "0.75 x 1.55 x 2.2 cm",
+          "context": "       :\n                                            ‎ 0.75 x 1.55 x 2.2 cm; 630 g Amazon.co.jp での取り扱い開始日\n    "
+        },
+        {
+          "value": "7 x 15 x 22 mm",
+          "context": " / フィードバックを送信 フィードバックを提供するには サインイン してください。 サイズ 商品本体サイズ 7 x 15 x 22 mm ユニット数 1.0 本 パッケージサイズ名 BIG その他の詳細 香"
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61Q4Ud6jv+L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
+      "decisionReason": "現行Amazon商品ページの掲載寸法は0.75×1.55×2.2cm、商品本体サイズは7×15×22mmと記載され、いずれも最小辺3cm超の条件を確認できない。単位誤記の可能性があっても補正して登録しない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0CGGQNTCL",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CGGQNTCL",
+      "title": "【さわやかサボンの香り】IFME 子供シャンプー 全身 泡タイプ 保湿 赤ちゃん 敏感肌 無添加 国産 新生児 キッズ 詰め替え 400ml",
+      "dimensions": [
+        {
+          "value": "21.7 x 12.3 x 6.7 cm",
+          "context": "       :\n                                            ‎ 21.7 x 12.3 x 6.7 cm; 410 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71I8MKhgTWL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページで単品の詰め替え用・掲載3辺の最小辺3cm超を確認。主画像とIFME公式で硬いキャップのない柔らかい袋を確認。液体を袋面へ均せる見込みはあるが、梱包後3cm以下は実測していない。",
+      "manufacturerSource": "https://ifme.jp/products/ifss776",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B09WY1F29R",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B09WY1F29R",
+      "title": "IFME ベビーミルクローション 高保湿 赤ちゃん 保湿クリーム 乳液 敏感肌 無添加無香料 国産 新生児 キッズ 乾燥肌 詰め替え 250ml",
+      "dimensions": [
+        {
+          "value": "18.9 x 10.1 x 3.4 cm",
+          "context": "       :\n                                            ‎ 18.9 x 10.1 x 3.4 cm; 270 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71FOlUIVBhL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページで単品の詰め替え用・掲載3辺の最小辺3cm超を確認。主画像とIFME公式で硬いキャップのない柔らかい袋を確認。液体を袋面へ均せる見込みはあるが、梱包後3cm以下は実測していない。",
+      "manufacturerSource": "https://ifme.jp/products/ifsm738",
+      "decidedOn": "2026-10-13"
     }
   ]
 }

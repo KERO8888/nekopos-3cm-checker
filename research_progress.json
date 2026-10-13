@@ -132,7 +132,7 @@
     "ココア 粉末 詰め替え 袋 200g"
   ],
   "discoveredCount": 63872,
-  "addedCount": 91,
+  "addedCount": 93,
   "discovered": [
     {
       "asin": "B0CDPF8BKZ",
@@ -4761,7 +4761,23 @@
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "レノア ハピネス 5つ星ホテルの夢ふわタッチ 柔軟剤 アンティークローズの香り 詰め替え 1285mL",
+      "triageScore": 4,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        85,
+        165,
+        307
+      ],
+      "keepaPackageWeightG": 1300,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B085F3JBRB",
@@ -4814,7 +4830,23 @@
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "レノア 超消臭 極やわ仕上げ 柔軟剤 ふんわりシャボンの香り 詰め替え 1335mL",
+      "triageScore": 4,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        62,
+        196,
+        304
+      ],
+      "keepaPackageWeightG": 1370,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B08457QN8Q",
@@ -5611,7 +5643,23 @@
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "MIYOSHI 洗濯用せっけん そよ風 業務用 詰め替え 4.0L フローラルの香り",
+      "triageScore": 4,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        165,
+        207,
+        248
+      ],
+      "keepaPackageWeightG": 4320,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0HFRG2S4X",
@@ -16982,12 +17030,28 @@
         "乳液 詰め替え 250ml 袋",
         "乳液 詰め替え 300ml 袋"
       ],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "【無香料】アロベビー ミルクローション 詰め替え ベビーローション 1袋 新生児から使える保湿 100%天然由来 無添加 オーガニック",
+      "triageScore": 8,
+      "triageTags": [
+        "詰め替えを示す語",
+        "単品を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        67,
+        147,
+        216
+      ],
+      "keepaPackageWeightG": 630,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B072R1VQZV",
@@ -24542,12 +24606,27 @@
       "queries": [
         "シャンプー 詰め替え 400ml 袋"
       ],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "【さわやかサボンの香り】IFME 子供シャンプー 全身 泡タイプ 保湿 赤ちゃん 敏感肌 無添加 国産 新生児 キッズ 詰め替え 400ml",
+      "triageScore": 7,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        67,
+        123,
+        217
+      ],
+      "keepaPackageWeightG": 410,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0BHHF2GBR",
@@ -41821,12 +41900,27 @@
         "乳液 詰め替え 250ml 袋",
         "乳液 詰め替え 300ml 袋"
       ],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "IFME ベビーミルクローション 高保湿 赤ちゃん 保湿クリーム 乳液 敏感肌 無添加無香料 国産 新生児 キッズ 乾燥肌 詰め替え 250ml",
+      "triageScore": 7,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        34,
+        101,
+        189
+      ],
+      "keepaPackageWeightG": 270,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B08H2HVHW5",
@@ -41947,7 +42041,24 @@
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "【無香料】アロベビー ミルクローション 詰め替え 2袋 ベビーローション 新生児から使える保湿 100%天然由来 無添加 オーガニック",
+      "triageScore": -2,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        64,
+        210,
+        220
+      ],
+      "keepaPackageWeightG": 1270,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B084G2P78M",
@@ -46390,7 +46501,23 @@
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "レノア アロマジュエル HOTEL 香り付けビーズ ホワイトティーの香り 詰め替え 1810mL×2袋【まとめ買い】 [大容量]",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        104,
+        213,
+        337
+      ],
+      "keepaPackageWeightG": 1660,
+      "keepaNumberOfItems": 2
     },
     {
       "asin": "B0DTHBB5L1",
@@ -47182,7 +47309,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "レノア 超消臭 極やわ仕上げ 柔軟剤 ふんわりブロッサムの香り 詰め替え 2020mL [大容量]",
+      "triageScore": 4,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        75,
+        193,
+        334
+      ],
+      "keepaPackageWeightG": 2070,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GLXXTZTF",
@@ -47193,7 +47336,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "レノア 超消臭 抗菌 柔軟剤 みずみずしく香る フレッシュグリーンの香り 詰め替え 2020mL×6袋 [大容量] [ケース品]",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        215,
+        349,
+        352
+      ],
+      "keepaPackageWeightG": 12830,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0DVSK4PTK",
@@ -47204,7 +47363,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "レノア 超消臭1WEEK 柔軟剤 SPORTS フレッシュシトラスの香り 詰め替え 1900mLｘ6袋 [大容量] [ケース品]",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        215,
+        353,
+        354
+      ],
+      "keepaPackageWeightG": 12060,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0DVSK3F99",
@@ -47215,7 +47390,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "レノア 超消臭1WEEK 柔軟剤 みずみずしく香るフローラル&ピーチの香り 詰め替え 1900mLｘ6袋 [大容量] [ケース品]",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        215,
+        351,
+        356
+      ],
+      "keepaPackageWeightG": 12050,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0FGD8ZX28",
@@ -47226,7 +47417,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "レノア 超消臭1WEEK 柔軟剤 極やわ仕上げ ふんわりシャボンの香り 詰め替え 1900mL [大容量]",
+      "triageScore": 4,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        71,
+        195,
+        336
+      ],
+      "keepaPackageWeightG": 1950,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DVSJP6H8",
@@ -47237,7 +47444,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "レノア 超消臭1WEEK 柔軟剤 やさしく香る超消臭 フレッシュソープの香り 詰め替え 1900mLｘ6袋 [大容量] [ケース品]",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        214,
+        343,
+        352
+      ],
+      "keepaPackageWeightG": 12070,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0FGD84ZCD",
@@ -47248,7 +47471,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "レノア 超消臭1WEEK 柔軟剤 極やわ仕上げ ふんわりシャボンの香り 詰め替え 1900mL×6袋 [大容量] [ケース品]",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        210,
+        340,
+        350
+      ],
+      "keepaPackageWeightG": 12120,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0C1G3BGZ8",
@@ -47275,7 +47514,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "レノア 超消臭1WEEK 柔軟剤 みずみずしく香るフレッシュグリーンの香り 詰め替え 1900mL [大容量]",
+      "triageScore": 4,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        80,
+        200,
+        325
+      ],
+      "keepaPackageWeightG": 1960,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0F6KNJ8D8",
@@ -47286,7 +47541,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "レノア 超消臭1WEEK 柔軟剤 みずみずしく香るフローラル&ピーチの香り 詰め替え 1900mLｘ2袋",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        125,
+        265,
+        374
+      ],
+      "keepaPackageWeightG": 3930,
+      "keepaNumberOfItems": 2
     },
     {
       "asin": "B0F6KK2DGP",
@@ -47297,7 +47568,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "レノア 超消臭1WEEK 柔軟剤 SPORTS フレッシュシトラスの香り 詰め替え 1900mLｘ2袋",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        97,
+        323,
+        391
+      ],
+      "keepaPackageWeightG": 3910,
+      "keepaNumberOfItems": 2
     },
     {
       "asin": "B0GLY4M4YN",
@@ -47308,7 +47595,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "レノア 超消臭 極やわ仕上げ 柔軟剤 ふんわりブロッサムの香り 詰め替え 2020mL×6袋 [大容量] [ケース品]",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        215,
+        340,
+        353
+      ],
+      "keepaPackageWeightG": 12840,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0BQV1CRML",
@@ -47327,7 +47630,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:13.331522+09:00",
+      "keepaTitle": "レノア 超消臭 極やわ仕上げ 柔軟剤 ふんわりシャボンの香り 詰め替え 2020mL×6袋 [大容量] [ケース品]",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        216,
+        342,
+        351
+      ],
+      "keepaPackageWeightG": 12830,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0H337G8YQ",
@@ -47338,7 +47657,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア 超消臭 抗菌SPORTS 柔軟剤 フレッシュシトラスの香り 詰め替え 1710mL×6袋 [ケース品]【Amazon.co.jp限定】",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        215,
+        353,
+        425
+      ],
+      "keepaPackageWeightG": 10990,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0GS54GZ8H",
@@ -47357,7 +47692,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア 超消臭1WEEK 柔軟剤 みずみずしく香るフレッシュグリーンの香り 詰め替え 1900mLｘ2袋",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        88,
+        319,
+        356
+      ],
+      "keepaPackageWeightG": 3910,
+      "keepaNumberOfItems": 2
     },
     {
       "asin": "B0GLXPQG72",
@@ -47368,7 +47719,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア 超消臭 抗菌SPORTS 柔軟剤 フレッシュシトラスの香り 詰め替え 1335mL",
+      "triageScore": 4,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        61,
+        190,
+        301
+      ],
+      "keepaPackageWeightG": 1370,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DVSHV8WR",
@@ -47379,7 +47746,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア 超消臭1WEEK 柔軟剤 みずみずしく香るフレッシュグリーンの香り 詰め替え 1900mLｘ6袋 [大容量] [ケース品]",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        215,
+        342,
+        352
+      ],
+      "keepaPackageWeightG": 12050,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0DVSJZ4FN",
@@ -47390,7 +47773,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア 超消臭1WEEK 柔軟剤 SPORTS フレッシュシトラスの香り 詰め替え 1900mL [大容量]",
+      "triageScore": 4,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        90,
+        200,
+        340
+      ],
+      "keepaPackageWeightG": 1960,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GLXTCCFF",
@@ -47401,7 +47800,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア 超消臭 極やわ仕上げ 柔軟剤 ふんわりシャボンの香り 詰め替え 2020mL [大容量]",
+      "triageScore": 4,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        64,
+        200,
+        331
+      ],
+      "keepaPackageWeightG": 2080,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GLXR2XGB",
@@ -47412,7 +47827,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア 超消臭 抗菌 柔軟剤 みずみずしく香るフローラルブーケの香り 詰め替え 2020mL [大容量]",
+      "triageScore": 4,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        70,
+        195,
+        330
+      ],
+      "keepaPackageWeightG": 2060,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DVSJN5B7",
@@ -47423,7 +47854,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア 超消臭1WEEK 柔軟剤 みずみずしく香るフローラル&ピーチの香り 詰め替え 1900mL [大容量]",
+      "triageScore": 4,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        78,
+        190,
+        340
+      ],
+      "keepaPackageWeightG": 1960,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GLY29KCW",
@@ -47434,7 +47881,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア 超消臭 抗菌 柔軟剤 みずみずしく香るフローラルブーケの香り 詰め替え 2020mL×6袋 [大容量] [ケース品]",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        216,
+        340,
+        353
+      ],
+      "keepaPackageWeightG": 12820,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0GLXQ5VLN",
@@ -47445,7 +47908,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア 超消臭 抗菌 柔軟剤 みずみずしく香る フレッシュグリーンの香り 詰め替え 2020mL [大容量]",
+      "triageScore": 4,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        91,
+        201,
+        334
+      ],
+      "keepaPackageWeightG": 2080,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B09DSGWRXM",
@@ -47464,7 +47943,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア Lenor 超消臭1WEEK 柔軟剤 やさしく香る超消臭 フレッシュソープの香り 詰め替え 1900mL [大容量]",
+      "triageScore": 4,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        77,
+        193,
+        337
+      ],
+      "keepaPackageWeightG": 1940,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0F6KM8JXT",
@@ -47475,7 +47970,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア 超消臭1WEEK 柔軟剤 やさしく香る超消臭 フレッシュソープの香り 詰め替え 1900mLｘ2袋",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        104,
+        295,
+        361
+      ],
+      "keepaPackageWeightG": 3920,
+      "keepaNumberOfItems": 2
     },
     {
       "asin": "B0FGD7D8WX",
@@ -47486,7 +47997,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア 超消臭1WEEK 柔軟剤 極やわ仕上げ ふんわりブロッサムの香り 詰め替え 1900mL [大容量]",
+      "triageScore": 4,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        90,
+        201,
+        334
+      ],
+      "keepaPackageWeightG": 1940,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FGD9294K",
@@ -47497,7 +48024,23 @@
         "Keepa title=入浴剤 root=160384011 side>=0mm",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア 超消臭1WEEK 柔軟剤 極やわ仕上げ ふんわりブロッサムの香り 詰め替え 1900mL×6袋 [大容量] [ケース品]",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        211,
+        354,
+        357
+      ],
+      "keepaPackageWeightG": 12090,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B09S3D6VB9",
@@ -47516,7 +48059,22 @@
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア【最高級の香りビーズ】オードリュクス 奥深い香りがさらに長続き Eternal ホワイトムスク&アプリコットの香り 詰め替え 1600mL",
+      "triageScore": 7,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        53,
+        198,
+        303
+      ],
+      "keepaPackageWeightG": 750,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0HDXT1WXH",
@@ -47526,7 +48084,23 @@
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア【最高級の香りビーズ】オードリュクス 奥深い香りがさらに長続き Calm アールグレイ＆ネロリの香り 詰め替え 1600mL×6袋 [ケース品]",
+      "triageScore": -3,
+      "triageTags": [
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        210,
+        285,
+        325
+      ],
+      "keepaPackageWeightG": 4710,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B0FGD763Y6",
@@ -47536,7 +48110,22 @@
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア【最高級の香りビーズ】オードリュクス 奥深い香りがさらに長続き Innocent リリー&ジャスミンの香り 詰め替え 920mL",
+      "triageScore": 7,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        52,
+        175,
+        260
+      ],
+      "keepaPackageWeightG": 420,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0HDXSDLCH",
@@ -47546,7 +48135,22 @@
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア【最高級の香りビーズ】オードリュクス 奥深い香りがさらに長続き Calm アールグレイ＆ネロリの香り 詰め替え 920mL",
+      "triageScore": 7,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        76,
+        178,
+        249
+      ],
+      "keepaPackageWeightG": 360,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0HDY6PRLM",
@@ -47556,7 +48160,22 @@
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア【最高級の香りビーズ】オードリュクス 奥深い香りがさらに長続き Calm アールグレイ＆ネロリの香り 詰め替え 1600mL",
+      "triageScore": 7,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        50,
+        196,
+        302
+      ],
+      "keepaPackageWeightG": 700,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FGDC29SL",
@@ -47566,7 +48185,22 @@
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
         "Keepa title=\"詰め替え\" root=160384011 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T11:31:14.238328+09:00",
+      "keepaTitle": "レノア【最高級の香りビーズ】オードリュクス 奥深い香りがさらに長続き Eternal ホワイトムスク&アプリコットの香り 詰め替え 920mL",
+      "triageScore": 7,
+      "triageTags": [
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        62,
+        168,
+        263
+      ],
+      "keepaPackageWeightG": 430,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FGD9XM2Q",
@@ -549850,7 +550484,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 681,
+  "fetchedProductPageCount": 684,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -554131,6 +554765,18 @@
       "pagesChecked": 1,
       "added": 0,
       "unverifiedRange": "単品・柔らかい袋・付属品・平置き後厚さは未判定。商品写真と掲載寸法の出典を個別確認する必要がある。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=詰め替え root=160384011由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0DPHD4S88",
+        "B0CGGQNTCL",
+        "B09WY1F29R"
+      ],
+      "pagesChecked": 3,
+      "added": 2,
+      "unverifiedRange": "Amazonの掲載寸法は平置き実寸とは確認できず、追加2件とも梱包後の最大厚・外寸・重量は未測定。"
     }
   ],
   "searchStops": [
