@@ -5211,6 +5211,139 @@
       "reviewStatus": "hold_missing_three_dimensions",
       "decisionReason": "Amazon現行ページで商品名と写真は取得できたが、掲載3辺の寸法を確認できない。Keepaの梱包寸法だけで最小辺3cm超を確定しない。",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0HC7P32KL",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0HC7P32KL",
+      "title": "Curly Me ヘアミルクセラム 詰め替え くせ毛 天然パーマ カーリーヘア用 120g パウチ 洗い流さないトリートメント 保湿",
+      "dimensions": [
+        {
+          "value": "11.3 x 9 x 4 cm",
+          "context": "       :\n                                            ‎ 11.3 x 9 x 4 cm; 120 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61ci47jQP3L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "主画像に硬いねじ式キャップ付き注ぎ口がある。内容物をならしても局所的な硬質部品が残る。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0CH9WRNZH",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CH9WRNZH",
+      "title": "RISHIRIA Furel (リシリアフレル) カラーケアコンディショナー 詰め替え用 パウチ 240g",
+      "dimensions": [
+        {
+          "value": "20.8 x 15.5 x 3.9 cm",
+          "context": "       :\n                                            ‎ 20.8 x 15.5 x 3.9 cm; 280 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71lK1ufwt1L._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページは240gの詰替え1袋を表示。主画像はボトルの付かない柔らかい切り取り式パウチ。メーカー公式も同容量の詰替えパウチを掲載。掲載20.8×15.5×3.9cmは梱包寸法の可能性があり、袋面と梱包後の最大厚・重量は未測定。",
+      "decidedOn": "2026-10-13",
+      "manufacturerSource": "https://rishiria-furel.com/conditioner.html"
+    },
+    {
+      "asin": "B0BGG3TV2K",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0BGG3TV2K",
+      "title": "抗菌防臭剤入液体洗濯洗剤 アンチバクター【プロ仕様】詰め替えパウチ450mL",
+      "dimensions": [
+        {
+          "value": "11 x 6.8 x 20 cm",
+          "context": "       :\n                                            ‎ 11 x 6.8 x 20 cm; 460 g メーカー\n                      "
+        },
+        {
+          "value": "11 x 6.8 x 20 cm",
+          "context": " フィードバックを提供するには サインイン してください。 サイズ ユニット数 1.00 個 商品本体サイズ 11 x 6.8 x 20 cm 素材とお手入れ 防カビ加工 漂白剤不使用 機能と仕様 香り 微香性 "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61BKJNFnRSL._AC_SL1080_.jpg",
+      "reviewStatus": "hold_flattened_max_thickness_unverified",
+      "decisionReason": "単品の柔らかい袋だが、450mLを掲載11×20cmの面に広げる仮計算でも厚さは約3.0cmで、梱包後3cm以下の余裕を示せない。実物の袋面・マチを測るまで保留。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B09QWCHM28",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B09QWCHM28",
+      "title": "ユースキン シソラ ボディシャンプー つめかえパウチ 400ml 無香料 無着色 低刺激性 敏感肌 かさつく肌 しっとり頭皮の洗浄にも(医薬部外品)",
+      "dimensions": [
+        {
+          "value": "22.5 x 10.9 x 5.4 cm",
+          "context": "       :\n                                            ‎ 22.5 x 10.9 x 5.4 cm; 450 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51dcqIjLZdL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "主画像に硬いねじ式キャップ付き注ぎ口がある。内容物をならしても局所的な硬質部品が残る。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0F12KJ5TT",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F12KJ5TT",
+      "title": "佐藤製薬 エクセルーラ ザ・ローション (RICH) つめかえパウチ 130ｍL 高保湿 (リッチ/とてもしっとり/乾燥肌/化粧水)",
+      "dimensions": [
+        {
+          "value": "18.1 x 6.6 x 4.1 cm",
+          "context": "       :\n                                            ‎ 18.1 x 6.6 x 4.1 cm; 139 g Amazon.co.jp での取り扱い開始日\n    "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71qRo0xnsoL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "主画像に硬いねじ式キャップ付き注ぎ口がある。内容物をならしても局所的な硬質部品が残る。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0G4DFSGRY",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0G4DFSGRY",
+      "title": "ノンスメル清水香 さくらの香り つめかえパウチ 600mL 消臭スプレー 芳香 速乾 ベタつかない 界面活性剤不使用 除菌 服 空間 桜",
+      "dimensions": [
+        {
+          "value": "21.6 x 13.9 x 5.4 cm",
+          "context": "       :\n                                            ‎ 21.6 x 13.9 x 5.4 cm; 0.58 g メーカー\n                     "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81afrimUvQL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "主画像に硬いねじ式キャップ付き注ぎ口がある。内容物をならしても局所的な硬質部品が残る。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DBGTTJBG",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DBGTTJBG",
+      "title": "ロッテ キシリトールガム<ライムミント>大容量パウチ 266g",
+      "dimensions": [
+        {
+          "value": "18.5 x 15 x 6 cm",
+          "context": "       :\n                                            ‎ 18.5 x 15 x 6 cm; 270 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61+sEkhEu8L._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページは266gの単品パウチを表示。主画像は硬い容器・キャップのない柔らかい袋。掲載18.5×15×6cmは梱包寸法の可能性があり、ガム粒を平らに広げたときの密度・重なり・梱包後最大厚・重量は未測定。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DBGVRZ5X",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DBGVRZ5X",
+      "title": "ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g",
+      "dimensions": [
+        {
+          "value": "20.7 x 12.4 x 3.7 cm",
+          "context": "       :\n                                            ‎ 20.7 x 12.4 x 3.7 cm; 250 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/61AwDJWgIDL._AC_SL1500_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページは250gの単品パウチを表示。主画像は硬い容器・キャップのない柔らかい袋。掲載20.7×12.4×3.7cmは梱包寸法の可能性があり、ガム粒を平らに広げたときの密度・重なり・梱包後最大厚・重量は未測定。",
+      "decidedOn": "2026-10-13"
     }
   ]
 }

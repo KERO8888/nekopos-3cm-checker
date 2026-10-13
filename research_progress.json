@@ -132,7 +132,7 @@
     "ココア 粉末 詰め替え 袋 200g"
   ],
   "discoveredCount": 63872,
-  "addedCount": 108,
+  "addedCount": 111,
   "discovered": [
     {
       "asin": "B0CDPF8BKZ",
@@ -101911,7 +101911,25 @@
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "[OKスパウト] センタースパウト パウチ (200ml×15枚) 食品衛生法適合 日本製 詰め替え キャップ付き 飲料 ジャム ジュース ドリンク",
+      "triageScore": -1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "詰め替えを示す語",
+        "複数枚・詰め合わせの可能性",
+        "硬い部材・注ぎ口の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        62,
+        174,
+        248
+      ],
+      "keepaPackageWeightG": 190,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07FSMKHLJ",
@@ -101920,7 +101938,26 @@
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "[OKスパウト] センタースパウト パウチ (100ml×6枚) 食品衛生法適合 日本製 詰め替え キャップ付き 飲料 ジャム ジュース ドリンク",
+      "triageScore": -7,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "硬い部材・注ぎ口の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        49,
+        157,
+        175
+      ],
+      "keepaPackageWeightG": 70,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07ZNDL2L8",
@@ -102245,11 +102282,27 @@
     {
       "asin": "B0HC7P32KL",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "Curly Me ヘアミルクセラム 詰め替え くせ毛 天然パーマ カーリーヘア用 120g パウチ 洗い流さないトリートメント 保湿",
+      "triageScore": 12,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        40,
+        90,
+        113
+      ],
+      "keepaPackageWeightG": 130,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0B4BV3PZG",
@@ -102306,7 +102359,23 @@
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "バーデンス トリートメント用ディスペンサー 500g カートリッジ式 詰め替えボトル 液漏れ防止 真空構造 最後まで使い切れる 詰替容器",
+      "triageScore": 0,
+      "triageTags": [
+        "詰め替えを示す語",
+        "硬い容器の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        79,
+        225,
+        236
+      ],
+      "keepaPackageWeightG": 140,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0H69T4B44",
@@ -106349,7 +106418,23 @@
         "Keepa title=詰め替え",
         "Keepa title=パウチ",
         "Keepa category=169668011 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "RISHIRIA Furel (リシリアフレル) カラーシャンプー (ナチュラルブラック) 専用ボトル & 詰め替え用 パウチ 240ml",
+      "triageScore": 12,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        74,
+        164,
+        226
+      ],
+      "keepaPackageWeightG": 380,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DG5F6PND",
@@ -106375,7 +106460,23 @@
         "Keepa title=詰め替え",
         "Keepa title=パウチ",
         "Keepa category=169668011 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "RISHIRIA Furel (リシリアフレル) カラーシャンプー (ダークブラウン) 専用ボトル & 詰め替え用 パウチ 240ml",
+      "triageScore": 12,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        77,
+        165,
+        206
+      ],
+      "keepaPackageWeightG": 370,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0H3PVK5DS",
@@ -106385,7 +106486,23 @@
         "Keepa title=詰め替え",
         "Keepa title=パウチ",
         "Keepa category=169668011 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "RISHIRIA Furel (リシリアフレル) カラーシャンプー (モカブラウン) 専用ボトル & 詰め替え用 パウチ 240ml",
+      "triageScore": 12,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        72,
+        170,
+        223
+      ],
+      "keepaPackageWeightG": 410,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FSDD569C",
@@ -106906,7 +107023,23 @@
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "RISHIRIA Furel (リシリアフレル) カラー トリートメント (ナチュラルブラック) 専用ボトル + 詰め替え用 パウチ 240g",
+      "triageScore": 12,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        74,
+        155,
+        224
+      ],
+      "keepaPackageWeightG": 360,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CH9RMW8M",
@@ -106915,7 +107048,23 @@
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "RISHIRIA Furel (リシリアフレル) カラー トリートメント (モカブラウン) 専用ボトル + 詰め替え用 パウチ 240g",
+      "triageScore": 12,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        73,
+        158,
+        225
+      ],
+      "keepaPackageWeightG": 360,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FRFRVJZR",
@@ -106932,7 +107081,24 @@
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "RISHIRIA Furel (リシリアフレル) カラー トリートメント (モカブラウン) 専用ボトル & 詰め替え用 パウチ 240g 2個セット",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        72,
+        170,
+        209
+      ],
+      "keepaPackageWeightG": 610,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FRFMSRNX",
@@ -106941,7 +107107,24 @@
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "リシリアフレル(RISHIRIA Furel) カラートリートメント（ナチュラルブラック）専用ボトル＆詰め替え用パウチ 240g×2個セット",
+      "triageScore": 6,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "詰め替えを示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        72,
+        170,
+        209
+      ],
+      "keepaPackageWeightG": 610,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FRFN3JRC",
@@ -108431,11 +108614,27 @@
     {
       "asin": "B0CH9WRNZH",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "RISHIRIA Furel (リシリアフレル) カラーケアコンディショナー 詰め替え用 パウチ 240g",
+      "triageScore": 12,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        39,
+        155,
+        208
+      ],
+      "keepaPackageWeightG": 280,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GRF36ZSZ",
@@ -110389,11 +110588,27 @@
     {
       "asin": "B0BGG3TV2K",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "抗菌防臭剤入液体洗濯洗剤 アンチバクター【プロ仕様】詰め替えパウチ450mL",
+      "triageScore": 12,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        66,
+        130,
+        249
+      ],
+      "keepaPackageWeightG": 460,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0HK4MLNSL",
@@ -112589,11 +112804,27 @@
     {
       "asin": "B09QWCHM28",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=つめかえ",
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "ユースキン シソラ ボディシャンプー つめかえパウチ 400ml 無香料 無着色 低刺激性 敏感肌 かさつく肌 しっとり頭皮の洗浄にも(医薬部外品)",
+      "triageScore": 12,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        54,
+        109,
+        225
+      ],
+      "keepaPackageWeightG": 450,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B09TQQ1M6K",
@@ -113697,11 +113928,27 @@
     {
       "asin": "B0F12KJ5TT",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=つめかえ",
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "佐藤製薬 エクセルーラ ザ・ローション (RICH) つめかえパウチ 130ｍL 高保湿 (リッチ/とてもしっとり/乾燥肌/化粧水)",
+      "triageScore": 12,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        41,
+        66,
+        181
+      ],
+      "keepaPackageWeightG": 140,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0BY6D4X9G",
@@ -115162,11 +115409,27 @@
     {
       "asin": "B0G4DFSGRY",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=つめかえ",
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "ノンスメル清水香 さくらの香り つめかえパウチ 600mL 消臭スプレー 芳香 速乾 ベタつかない 界面活性剤不使用 除菌 服 空間 桜",
+      "triageScore": 12,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "詰め替えを示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        54,
+        139,
+        216
+      ],
+      "keepaPackageWeightG": 580,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B092QX9LGP",
@@ -117784,24 +118047,54 @@
     {
       "asin": "B0DBGTTJBG",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "ロッテ キシリトールガム<ライムミント>大容量パウチ 266g",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        33,
+        122,
+        184
+      ],
+      "keepaPackageWeightG": 270,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DBGVRZ5X",
       "queries": [],
-      "status": "not_fetched",
+      "status": "added",
       "discoverySources": [
         "Keepa title=パウチ",
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        37,
+        124,
+        207
+      ],
+      "keepaPackageWeightG": 260,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0G6JNYGYK",
@@ -117809,7 +118102,23 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "モンプチ ジェムズ チキン ムース仕立て とろける贅沢ジュレソース 57ｇｘ2食 キャットフード ウェット",
+      "triageScore": -15,
+      "triageTags": [
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        45,
+        64,
+        123
+      ],
+      "keepaPackageWeightG": 130,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0G6KGZNTF",
@@ -117817,7 +118126,23 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
+      "keepaTitle": "モンプチ ジェムズ ビーフ ムース仕立て とろける贅沢ジュレソース 57ｇｘ2食 キャットフード ウェット",
+      "triageScore": -15,
+      "triageTags": [
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        45,
+        64,
+        122
+      ],
+      "keepaPackageWeightG": 130,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0G6K24L8C",
@@ -117825,7 +118150,23 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:12.512661+09:00",
+      "keepaTitle": "モンプチ ジェムズ ツナ ムース仕立て とろける贅沢ジュレソース 57ｇｘ2食 キャットフード ウェット",
+      "triageScore": -15,
+      "triageTags": [
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        46,
+        63,
+        121
+      ],
+      "keepaPackageWeightG": 130,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CCTL3MYN",
@@ -117833,7 +118174,22 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:12.512661+09:00",
+      "keepaTitle": "アサヒペン 充填材 コーキング材 床用ひび割れ補修材 コンクリート用 200ml W111 ブラック 手絞りパウチ ヘラ付き 水混ぜ不要 日本製",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        37,
+        92,
+        209
+      ],
+      "keepaPackageWeightG": 340,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CX5B89ST",
@@ -117841,7 +118197,22 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:12.512661+09:00",
+      "keepaTitle": "アサヒペン 充填材 コーキング材 床用ひび割れ補修材 コンクリート用 350ml W112 グレー 手絞りパウチ ヘラ付き 水混ぜ不要 日本製",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        55,
+        112,
+        235
+      ],
+      "keepaPackageWeightG": 570,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CX4ZWSPT",
@@ -117849,7 +118220,22 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:12.512661+09:00",
+      "keepaTitle": "アサヒペン 充填材 コーキング材 床用ひび割れ補修材 コンクリート用 350ml W113 ブラック 手絞りパウチ ヘラ付き 水混ぜ不要 日本製",
+      "triageScore": 8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        44,
+        111,
+        235
+      ],
+      "keepaPackageWeightG": 560,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DYNQNPPQ",
@@ -117857,7 +118243,25 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa title=パウチ"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T20:30:12.512661+09:00",
+      "keepaTitle": "モンプチ プチリュクス パウチ ジュレ 2種のアソート まぐろとかつお&まぐろとかつおのささみ添え 35ｇｘ8袋 キャットフード",
+      "triageScore": -16,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "対象外用途の可能性",
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        82,
+        84,
+        118
+      ],
+      "keepaPackageWeightG": 360,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DYNSKXZ4",
@@ -551974,7 +552378,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 761,
+  "fetchedProductPageCount": 769,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -556497,6 +556901,23 @@
       "pagesChecked": 2,
       "added": 0,
       "unverifiedRange": "アストロの布製収納袋2件はAmazon現行ページで3辺寸法を確認できず保留。Keepa梱包値だけでは主一覧登録条件を満たさない。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=パウチ由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0HC7P32KL",
+        "B0CH9WRNZH",
+        "B0BGG3TV2K",
+        "B09QWCHM28",
+        "B0F12KJ5TT",
+        "B0G4DFSGRY",
+        "B0DBGTTJBG",
+        "B0DBGVRZ5X"
+      ],
+      "pagesChecked": 8,
+      "added": 3,
+      "unverifiedRange": "8件の主画像・掲載寸法・販売単位を個別判定。追加3件は梱包後最大厚・外寸・重量が未測定。1件は実物の袋面と厚み待ち。未確認の発見ASINは継続。"
     }
   ],
   "searchStops": [

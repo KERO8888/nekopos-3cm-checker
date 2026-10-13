@@ -79012,6 +79012,113 @@
               "source": "Yahoo search card; product/JAN/stock/shipping not verified"
             }
           ]
+        },
+        "rakuten:4971617015007": {
+          "market": "rakuten",
+          "query": "4971617015007",
+          "checkedAt": "2026-10-13T11:31:09.034839+00:00",
+          "status": "error",
+          "error": "HTTPError",
+          "firstPageHits": []
+        },
+        "yahoo:4971617015007": {
+          "market": "yahoo",
+          "query": "4971617015007",
+          "checkedAt": "2026-10-13T11:31:10.283698+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4971617015007",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "国太楼　有機粉末緑茶カテキン生活　５０ｇ　１袋",
+              "url": "https://store.shopping.yahoo.co.jp/tanomail/1624258.html",
+              "priceYen": 410,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 902,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 2649,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 1785,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "お茶 緑茶 粉末緑茶 粉末茶 有機粉末緑茶カテキン生活 50g 機能性表示食品 国太楼 体脂肪を減らすのを助ける カテキン",
+              "url": "https://store.shopping.yahoo.co.jp/kusurino-iq/4971617015007-n.html",
+              "priceYen": 1099,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "国太楼 有機粉末緑茶 カテキン生活 ( 50g )/ 国太楼 ( 機能性表示食品 鹿児島県産茶葉使用 )",
+              "url": "https://store.shopping.yahoo.co.jp/soukai/4971617015007.html",
+              "priceYen": 1202,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "国太楼 有機粉末緑茶カテキン生活 50g",
+              "url": "https://store.shopping.yahoo.co.jp/amairodou/2022yr12mt18daywq069ic0cwkdclg7.html",
+              "priceYen": 639,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "国太楼 有機粉末茶 カテキン生活 50g",
+              "url": "https://store.shopping.yahoo.co.jp/jetprice/bj5220.html",
+              "priceYen": 966,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "国太楼 有機粉末茶 カテキン生活 50g",
+              "url": "https://store.shopping.yahoo.co.jp/cocodecow/yf1981.html",
+              "priceYen": 1156,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "国太楼 有機粉末緑茶カテキン生活 50g",
+              "url": "https://store.shopping.yahoo.co.jp/smartplus-store/b0cwkdclg7.html",
+              "priceYen": 1332,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
         }
       }
     },
@@ -90359,6 +90466,492 @@
               "source": "Yahoo search card; product/JAN/stock/shipping not verified"
             }
           ]
+        },
+        "rakuten:4582469491521": {
+          "market": "rakuten",
+          "query": "4582469491521",
+          "checkedAt": "2026-10-13T11:31:16.202722+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4582469491521/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "【最大P10倍】ラボン 柔軟剤 シャイニームーン 詰め替え 480ml | 詰替用 詰め替え用 詰め替え 詰替え 液体 植物由来 オーガニック 防臭 抗菌 花粉対策 天然 部屋干し 植物エキス 赤ちゃん フレグランス",
+              "url": "https://item.rakuten.co.jp/naturelab/4582469491521/",
+              "priceYen": 657,
+              "displayShippingYen": 660,
+              "displayPoints": 25,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン 柔軟剤 シャイニームーンの香り 詰め替え(480ml)【ラボン(LAVONS)】",
+              "url": "https://item.rakuten.co.jp/rakuten24/e425495h/",
+              "priceYen": 657,
+              "displayShippingYen": 770,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/s4gshop/20250214105342_95/",
+              "priceYen": 806,
+              "displayShippingYen": 0,
+              "displayPoints": 7,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/jackknife/aj47379544a23d59/",
+              "priceYen": 814,
+              "displayShippingYen": 0,
+              "displayPoints": 7,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) 柔軟剤 シャイニームーンフローラルグリーンの香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/lifeforest/20260926214842_187_2484/",
+              "priceYen": 1000,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "「ポイント10倍 10月5日」 ラボン ルランジェ ラボン 柔軟剤 シャイニームーン 詰替 つめかえ用 480ml 柔軟剤 アットコスメ 正規品",
+              "url": "https://item.rakuten.co.jp/cosmecomonline/1000049681/",
+              "priceYen": 657,
+              "displayShippingYen": 550,
+              "displayPoints": 50,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【LAVONS ラボン】柔軟剤詰め替え シャイニームーンの香り [ラ・ボン ラボン 柔軟剤]",
+              "url": "https://item.rakuten.co.jp/witch-bazar/4582469491521-1-1/",
+              "priceYen": 657,
+              "displayShippingYen": 550,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml 送料無料",
+              "url": "https://item.rakuten.co.jp/gr-online/oo79221ca46d/",
+              "priceYen": 841,
+              "displayShippingYen": 0,
+              "displayPoints": 7,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン Lavons 柔軟剤 大容量 シャイニームーン フローラルグリーン の香り 480ml/600ml/960ml/1440ml 詰め替え / 本体 特大 3倍サイズ 液体",
+              "url": "https://item.rakuten.co.jp/gramsky/b0fnqqt21l/",
+              "priceYen": 790,
+              "displayShippingYen": 600,
+              "displayPoints": 14,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン　柔軟剤 シャイニームーンの香り 480ml（詰替え）◆追跡番号あり",
+              "url": "https://item.rakuten.co.jp/gotouphm/4582469491521/",
+              "priceYen": 880,
+              "displayShippingYen": 0,
+              "displayPoints": 8,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン ルランジェ ラ・ボン 柔軟剤 シャイニームーンの香り つめかえ用 (480mL) 詰め替え用",
+              "url": "https://item.rakuten.co.jp/tsuruha/10092470/",
+              "priceYen": 657,
+              "displayShippingYen": 590,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/morro/20241103223636_94/",
+              "priceYen": 813,
+              "displayShippingYen": 0,
+              "displayPoints": 7,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/actonlineshop/acton2652e300de7a/",
+              "priceYen": 928,
+              "displayShippingYen": 0,
+              "displayPoints": 8,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml 送料無料",
+              "url": "https://item.rakuten.co.jp/sootune/hino597a1d8c35/",
+              "priceYen": 858,
+              "displayShippingYen": 0,
+              "displayPoints": 7,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン 柔軟剤 詰め替え シャイニームーンの香り 480ml",
+              "url": "https://item.rakuten.co.jp/sundrug/4582469491521/",
+              "priceYen": 657,
+              "displayShippingYen": 600,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ネイチャーラボ ラボン 柔軟剤 シャイニームーンの香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/matsukiyo/4582469491521/",
+              "priceYen": 657,
+              "displayShippingYen": 550,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) 柔軟剤 シャイニームーンフロ ーラルグリーンの香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/kokodemart/20250615014925_190/",
+              "priceYen": 1036,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/wonder-depo/wd015cj81x6/",
+              "priceYen": 1190,
+              "displayShippingYen": 0,
+              "displayPoints": 10,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/miyarabi10513/gr-e9upr6tu3j/",
+              "priceYen": 1813,
+              "displayShippingYen": 0,
+              "displayPoints": 16,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/plays23/b015cj81x6/",
+              "priceYen": 1262,
+              "displayShippingYen": 0,
+              "displayPoints": 11,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/slife/b015cj81x6/",
+              "priceYen": 1062,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/zakkabenrikuishinbou/b015cj81x6/",
+              "priceYen": 1162,
+              "displayShippingYen": 0,
+              "displayPoints": 10,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/donzstore/b015cj81x6/",
+              "priceYen": 1062,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン ルランジェ ラ・ボン 柔軟剤 シャイニームーンの香り つめかえ用 (480mL) 詰め替え用",
+              "url": "https://item.rakuten.co.jp/wellness-web/10092470/",
+              "priceYen": 657,
+              "displayShippingYen": 590,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン　柔軟剤　シャイニームーン　つめかえ用　480ml※取り寄せ商品　返品不可",
+              "url": "https://item.rakuten.co.jp/ladydrug/4582469491521/",
+              "priceYen": 658,
+              "displayShippingYen": 598,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ネイチャーラボ 一般 ラ・ボン柔軟剤シャンパン 詰替480ml",
+              "url": "https://item.rakuten.co.jp/nafco/n20659813/",
+              "priceYen": 658,
+              "displayShippingYen": 500,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/sugarlight/gr-e9upr6tu3j/",
+              "priceYen": 1807,
+              "displayShippingYen": 0,
+              "displayPoints": 16,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ネイチャーラボ｜NatureLab LAVONS(ラボン)柔軟剤 つめかえ用 480mL シャイニームーン",
+              "url": "https://item.rakuten.co.jp/biccamera/4582469491521/",
+              "priceYen": 658,
+              "displayShippingYen": 550,
+              "displayPoints": 10,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/hellodear/b015cj81x6/",
+              "priceYen": 1262,
+              "displayShippingYen": 0,
+              "displayPoints": 11,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/scintitur/b015cj81x6/",
+              "priceYen": 1262,
+              "displayShippingYen": 0,
+              "displayPoints": 11,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/whitewings/b015cj81x6/",
+              "priceYen": 1262,
+              "displayShippingYen": 0,
+              "displayPoints": 11,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://item.rakuten.co.jp/vlookupstore/gr-e9upr6tu3j/",
+              "priceYen": 1943,
+              "displayShippingYen": 0,
+              "displayPoints": 17,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン ルランジェ ラ・ボン 柔軟剤 シャイニームーンの香り つめかえ用 (480mL) 詰め替え用",
+              "url": "https://item.rakuten.co.jp/kusurinofukutaro/10092470/",
+              "priceYen": 657,
+              "displayShippingYen": 590,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【3980円以上で送料無料（沖縄を除く）】ラボン 柔軟剤 シャンパンムーン つめかえ用 480ml [ストーリア]",
+              "url": "https://item.rakuten.co.jp/soukaikenbi/ncl-4582469491521/",
+              "priceYen": 688,
+              "displayShippingYen": 880,
+              "displayPoints": 6,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4582469491521": {
+          "market": "yahoo",
+          "query": "4582469491521",
+          "checkedAt": "2026-10-13T11:31:17.484954+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4582469491521",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 657,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "柔軟剤 ラボン シャイニームーン 詰め替え 480ml | 詰替用 つめかえ用 液体 無添加 オーガニック 部屋干し 匂い 衣類 花粉対策",
+              "url": "https://store.shopping.yahoo.co.jp/naturelab-store/4582469491521.html",
+              "priceYen": 657,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://store.shopping.yahoo.co.jp/hatuki/hbk0097441.html",
+              "priceYen": 999,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン 柔軟剤 シャイニームーンフローラルグリーンの香り 詰め替え 480ml",
+              "url": "https://store.shopping.yahoo.co.jp/worldglobal/20250405005432-00339.html",
+              "priceYen": 645,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン 柔軟剤 詰め替え シャイニームーンの香り 480ml",
+              "url": "https://store.shopping.yahoo.co.jp/sundrugec/4582469491521.html",
+              "priceYen": 657,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://store.shopping.yahoo.co.jp/rokorokoshop/1769566980-83.html",
+              "priceYen": 720,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "「ポイント10%バック 10月15日」ラボン ルランジェ ラボン 柔軟剤 シャイニームーン 詰替(つめかえ用) 480ml",
+              "url": "https://store.shopping.yahoo.co.jp/cosmecom/1000049681.html",
+              "priceYen": 657,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン 柔軟剤 シャイニームーンの香り 詰め替え ( 480ml )/ ラボン(LAVONS)",
+              "url": "https://store.shopping.yahoo.co.jp/soukai/4582469491521.html",
+              "priceYen": 657,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン　柔軟剤　シャイニームーン　つめかえ用　480ml※取り寄せ商品　返品不可",
+              "url": "https://store.shopping.yahoo.co.jp/ladydrugheartshop/4582469491521.html",
+              "priceYen": 658,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) 柔軟剤 シャイニームーンフローラルグリーンの香り 詰め替え 480ml",
+              "url": "https://store.shopping.yahoo.co.jp/store-hana/20260416150659-00141.html",
+              "priceYen": 723,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン ルランジェ ラ・ボン 柔軟剤 シャイニームーンの香り つめかえ用 (480mL) 詰め替え用",
+              "url": "https://store.shopping.yahoo.co.jp/tsuruha/10092470.html",
+              "priceYen": 657,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://store.shopping.yahoo.co.jp/amairodou/2022yr12mt18daywq069ic015cj81x6.html",
+              "priceYen": 789,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://store.shopping.yahoo.co.jp/rokusyoudo/2022yr12mt18daywq069ic015cj81x6.html",
+              "priceYen": 789,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン ルランジェ ラ・ボン 柔軟剤 シャイニームーンの香り つめかえ用 (480mL) 詰め替え用",
+              "url": "https://store.shopping.yahoo.co.jp/kusurinofukutaro/10092470.html",
+              "priceYen": 657,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン ルランジェ ラ・ボン 柔軟剤 シャイニームーンの香り つめかえ用 (480mL) 詰め替え用",
+              "url": "https://store.shopping.yahoo.co.jp/wellness-web/10092470.html",
+              "priceYen": 657,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://store.shopping.yahoo.co.jp/jun-shoten/3j7kzacymqjvc2omym4piun5he.html",
+              "priceYen": 1702,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+              "url": "https://store.shopping.yahoo.co.jp/hoshitomori/hoshimori3424f9bef6.html",
+              "priceYen": 849,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ネイチャーラボ 一般 ラ・ボン柔軟剤シャンパン 詰替480ml",
+              "url": "https://store.shopping.yahoo.co.jp/nafco-online/n20659813.html",
+              "priceYen": 658,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
         }
       }
     },
@@ -98086,7 +98679,2281 @@
           ]
         }
       }
+    },
+    "B0043TYE7Y": {
+      "title": "スリムアップスリム コーンスープ 360g アサヒグループ食品",
+      "queries": {
+        "rakuten:スリムアップスリム コーンスープ 360g アサヒグループ食品": {
+          "market": "rakuten",
+          "query": "スリムアップスリム コーンスープ 360g アサヒグループ食品",
+          "checkedAt": "2026-10-13T11:30:20.303385+00:00",
+          "status": "error",
+          "error": "HTTPError",
+          "firstPageHits": []
+        },
+        "rakuten:4946842635726": {
+          "market": "rakuten",
+          "query": "4946842635726",
+          "checkedAt": "2026-10-13T11:30:26.074153+00:00",
+          "status": "error",
+          "error": "HTTPError",
+          "firstPageHits": []
+        },
+        "yahoo:スリムアップスリム コーンスープ 360g アサヒグループ食品": {
+          "market": "yahoo",
+          "query": "スリムアップスリム コーンスープ 360g アサヒグループ食品",
+          "checkedAt": "2026-10-13T11:30:27.601861+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=%E3%82%B9%E3%83%AA%E3%83%A0%E3%82%A2%E3%83%83%E3%83%97%E3%82%B9%E3%83%AA%E3%83%A0+%E3%82%B3%E3%83%BC%E3%83%B3%E3%82%B9%E3%83%BC%E3%83%97+360g+%E3%82%A2%E3%82%B5%E3%83%92%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E9%A3%9F%E5%93%81",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "アサヒグループ食品 スリムアップスリム コーンスープ 360g",
+              "url": "https://store.shopping.yahoo.co.jp/bestone1/yk2372-a2602.html",
+              "priceYen": 1944,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "スリムアップスリム コーンスープ 360g アサヒグループ食品 コラーゲン プロテイン ビタミン ミネラル 食物繊維",
+              "url": "https://store.shopping.yahoo.co.jp/shopearisu/es6b79a35ed7.html",
+              "priceYen": 1906,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "アサヒグループ食品　スリムアップスリム コーンスープ 360g",
+              "url": "https://store.shopping.yahoo.co.jp/y-kojima/4946842635726.html",
+              "priceYen": 1800,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "スリムアップスリム コーンスープ 360g アサヒグループ食品 コラーゲン プロテイン ビタミン ミネラル 食物繊維",
+              "url": "https://store.shopping.yahoo.co.jp/nishimashop/ns0535e4b449.html",
+              "priceYen": 1905,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "アサヒグループ食品　スリムアップスリム　コーンスープ　360g※取り寄せ商品　返品不可",
+              "url": "https://store.shopping.yahoo.co.jp/ladydrugheartshop/4946842635726.html",
+              "priceYen": 1727,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "アサヒグループ食品 スリムアップスリム コーンスープ 360g  カロリー 糖質コントロール おきかえ ダイエット コラーゲン プロテイン ビタミン ミネラル",
+              "url": "https://store.shopping.yahoo.co.jp/maidora/4946842635726.html",
+              "priceYen": 3278,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "アサヒグループ食品 スリムアップスリム コーンスープ 360g",
+              "url": "https://store.shopping.yahoo.co.jp/largo1991/fk2372-a2602.html",
+              "priceYen": 1987,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "アサヒグループ食品 スリムアップスリム スープ コーンスープ 360g 1袋 送料無料 ゆうパケット/箱なし/代引不可",
+              "url": "https://store.shopping.yahoo.co.jp/d-felicity/hb-asg0046.html",
+              "priceYen": 2446,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "アサヒグループ食品　スリムアップスリム　コーンスープ　360g※取り寄せ商品　返品不可",
+              "url": "https://store.shopping.yahoo.co.jp/ladydrugheartshop-ni/4946842635726.html",
+              "priceYen": 2660,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "スリムアップスリム コーンスープ 360g アサヒグループ食品 コラーゲン プロテイン ビタミン ミネラル 食物繊維",
+              "url": "https://store.shopping.yahoo.co.jp/eight-cat-store/s-b0043tye7y-20260709.html",
+              "priceYen": 2428,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "アサヒグループ食品 スリムアップスリム スープ コーンスープ 360g 1袋 送料無料 ゆうパケット/箱なし/代引不可",
+              "url": "https://store.shopping.yahoo.co.jp/felicity-02/hb-asg0046.html",
+              "priceYen": 2392,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【※】スリムアップスリム コーンスープ (360g) 食事におきかえてダイエット",
+              "url": "https://store.shopping.yahoo.co.jp/scbmitsuokun1972/4946842635726.html",
+              "priceYen": 1980,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "アサヒグループ食品　スリムアップスリム　コーンスープ　360g※取り寄せ商品　返品不可",
+              "url": "https://store.shopping.yahoo.co.jp/ladydrugheartshop-pl/4946842635726.html",
+              "priceYen": 2660,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "スリムアップスリム コーンスープ 360g 078909473",
+              "url": "https://store.shopping.yahoo.co.jp/rcmdse/d4-4946842635726.html",
+              "priceYen": 3081,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "スリムアップスリム コーンスープ 360g 078909473",
+              "url": "https://store.shopping.yahoo.co.jp/recommendo/d4-4946842635726.html",
+              "priceYen": 2464,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【スリムアップスリム コーンスープ 360g】",
+              "url": "https://store.shopping.yahoo.co.jp/life-navi/a0263431.html",
+              "priceYen": 2711,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4946842635726": {
+          "market": "yahoo",
+          "query": "4946842635726",
+          "checkedAt": "2026-10-13T11:30:28.808835+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4946842635726",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "アサヒグループ食品　スリムアップスリム コーンスープ 360g",
+              "url": "https://store.shopping.yahoo.co.jp/y-kojima/4946842635726.html",
+              "priceYen": 1800,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "アサヒグループ食品 スリムアップスリム コーンスープ 360g",
+              "url": "https://store.shopping.yahoo.co.jp/bestone1/yk2372-a2602.html",
+              "priceYen": 1944,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "アサヒグループ食品　スリムアップスリム　コーンスープ　360g※取り寄せ商品　返品不可",
+              "url": "https://store.shopping.yahoo.co.jp/ladydrugheartshop/4946842635726.html",
+              "priceYen": 1727,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 2590,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 4700,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "スリムアップスリム コーンスープ 360g アサヒグループ食品 コラーゲン プロテイン ビタミン ミネラル 食物繊維",
+              "url": "https://store.shopping.yahoo.co.jp/nishimashop/ns0535e4b449.html",
+              "priceYen": 1905,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "スリムアップスリム コーンスープ 360g アサヒグループ食品 コラーゲン プロテイン ビタミン ミネラル 食物繊維",
+              "url": "https://store.shopping.yahoo.co.jp/shopearisu/es6b79a35ed7.html",
+              "priceYen": 1906,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "スリムアップスリム コーンスープ 360g (1個)",
+              "url": "https://store.shopping.yahoo.co.jp/minoku-value/1758907360-1-e.html",
+              "priceYen": 1725,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "アサヒグループ食品 スリムアップスリム コーンスープ 360g  カロリー 糖質コントロール おきかえ ダイエット コラーゲン プロテイン ビタミン ミネラル",
+              "url": "https://store.shopping.yahoo.co.jp/maidora/4946842635726.html",
+              "priceYen": 3278,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【※】スリムアップスリム コーンスープ (360g) 食事におきかえてダイエット",
+              "url": "https://store.shopping.yahoo.co.jp/scbmitsuokun1972/4946842635726.html",
+              "priceYen": 1980,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "アサヒグループ食品 スリムアップスリム コーンスープ 360g",
+              "url": "https://store.shopping.yahoo.co.jp/largo1991/fk2372-a2602.html",
+              "priceYen": 1987,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "2980円以上で注文可能  スリムアップスリム コーンスープ 360g (1個)",
+              "url": "https://store.shopping.yahoo.co.jp/minoku-max/1758907360-1-b.html",
+              "priceYen": 2213,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "スリムアップスリム コーンスープ 360g  (1個)",
+              "url": "https://store.shopping.yahoo.co.jp/tsuhan-okusuri/1758907360-1-d.html",
+              "priceYen": 2272,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "スリムアップスリム コーンスープ 360g (1個)",
+              "url": "https://store.shopping.yahoo.co.jp/minoku-premium/1758907360-1-a.html",
+              "priceYen": 1904,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        }
+      }
+    },
+    "B0DC9LQ1GB": {
+      "title": "味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋",
+      "queries": {
+        "rakuten:味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋": {
+          "market": "rakuten",
+          "query": "味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋",
+          "checkedAt": "2026-10-13T11:30:34.603213+00:00",
+          "status": "error",
+          "error": "HTTPError",
+          "firstPageHits": []
+        },
+        "rakuten:4901001509294": {
+          "market": "rakuten",
+          "query": "4901001509294",
+          "checkedAt": "2026-10-13T11:30:40.384032+00:00",
+          "status": "error",
+          "error": "HTTPError",
+          "firstPageHits": []
+        },
+        "yahoo:味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋": {
+          "market": "yahoo",
+          "query": "味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋",
+          "checkedAt": "2026-10-13T11:30:41.976217+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=%E5%91%B3%E3%81%AE%E7%B4%A0+%E4%B8%B8%E9%B6%8F%E3%81%8C%E3%82%89%E3%82%B9%E3%83%BC%E3%83%97+%E5%A1%A9%E5%88%86%E3%81%B2%E3%81%8B%E3%81%88%E3%82%81+%E6%A5%AD%E5%8B%99%E7%94%A8+500g%E8%A2%8B",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/amairodou/2022yr12mt18daywq069ic0dc9lq1gb.html",
+              "priceYen": 1930,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/kichibei-0318/kitibeiy9oj-k7t-j8l.html",
+              "priceYen": 1921,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/r-street/rstc13fe3ebbc.html",
+              "priceYen": 2093,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/tamari-do/li77f160782b.html",
+              "priceYen": 1981,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/kichibei0510/kitiy9oj-k7t-j8l.html",
+              "priceYen": 1964,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/free-store78/f0c6c497269.html",
+              "priceYen": 1999,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/rokusyoudo/2022yr12mt18daywq069ic0dc9lq1gb.html",
+              "priceYen": 1930,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/goodlifemedia/tg4bfd077606.html",
+              "priceYen": 1998,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/kichibei-2255/kichibei7dfb25cc65.html",
+              "priceYen": 2000,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ガラスープ 減塩 味の素 丸鶏 がら スープ 塩分ひかえめ 500g 袋 顆粒 中華だし 料理のベース",
+              "url": "https://store.shopping.yahoo.co.jp/cafe-fadie/038503.html",
+              "priceYen": 1830,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "味の素　丸鶏がらスープ塩分ひかえめ　500g●",
+              "url": "https://store.shopping.yahoo.co.jp/amicashop/x00173198006.html",
+              "priceYen": 1725,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 業務用 500g袋 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/life-select-easyshop/ls00a027b7ff.html",
+              "priceYen": 1587,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 2570,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 1305,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 業務用 500g袋 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/kichibei0510/kiti2fgb-55t-j86.html",
+              "priceYen": 1601,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "味の素 丸鶏がらスープ 業務用 500g袋 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/hinaharu/20240426194643-01897.html",
+              "priceYen": 1631,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "味の素 丸鶏がらスープ 業務用 500g袋 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/mrh-store/20240426190659-02002.html",
+              "priceYen": 1618,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "味の素 丸鶏がらスープ 業務用 500g袋 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/tecy/20250120-48611.html",
+              "priceYen": 1681,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 業務用 500g袋 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/free-store78/f81ddd925dc.html",
+              "priceYen": 1631,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 業務用 500g袋 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/eight-cat-store/s-b0877l4xyt-20260707.html",
+              "priceYen": 1966,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "味の素 丸鶏がらスープ（業務用） 500g×1袋",
+              "url": "https://store.shopping.yahoo.co.jp/ikkomon-marche/t04901001364275.html",
+              "priceYen": 2326,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "味の素　丸鶏使用がらスープ(袋)　500g",
+              "url": "https://store.shopping.yahoo.co.jp/amicashop/x00172032006.html",
+              "priceYen": 1398,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 190,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 1790,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 374,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "味の素 丸鶏がらスープ 500g ( 鶏ガラ / がらスープ )  [ 500150 ]",
+              "url": "https://store.shopping.yahoo.co.jp/apos/4901001364275.html",
+              "priceYen": 1760,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4901001509294": {
+          "market": "yahoo",
+          "query": "4901001509294",
+          "checkedAt": "2026-10-13T11:30:43.382874+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4901001509294",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "味の素　丸鶏がらスープ塩分ひかえめ　500g●",
+              "url": "https://store.shopping.yahoo.co.jp/amicashop/x00173198006.html",
+              "priceYen": 1725,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/amairodou/2022yr12mt18daywq069ic0dc9lq1gb.html",
+              "priceYen": 1930,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "味の素 丸鶏 がら スープ 500g ( 塩分 控えめ / 鶏ガラ / 出汁 / 顆粒タイプ )  [ 500180 ]",
+              "url": "https://store.shopping.yahoo.co.jp/apos/4901001509294.html",
+              "priceYen": 1970,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ガラスープ 減塩 味の素 丸鶏 がら スープ 塩分ひかえめ 500g 袋 顆粒 中華だし 料理のベース",
+              "url": "https://store.shopping.yahoo.co.jp/cafe-fadie/038503.html",
+              "priceYen": 1830,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/r-street/rstc13fe3ebbc.html",
+              "priceYen": 2093,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/tamari-do/li77f160782b.html",
+              "priceYen": 1981,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/free-store78/f0c6c497269.html",
+              "priceYen": 1999,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/rokusyoudo/2022yr12mt18daywq069ic0dc9lq1gb.html",
+              "priceYen": 1930,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/goodlifemedia/tg4bfd077606.html",
+              "priceYen": 1998,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/kichibei-2255/kichibei7dfb25cc65.html",
+              "priceYen": 2000,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/pinus-copia/pi47de67a32f.html",
+              "priceYen": 1977,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "Ajinomoto 味の素 丸鶏がらスープ 塩分ひかえめ 業務用 500g袋 減塩 大容量 中華だし 鶏がらスープの素",
+              "url": "https://store.shopping.yahoo.co.jp/pure1-shop/20260211004418-00457.html",
+              "priceYen": 1925,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        }
+      }
+    },
+    "B0FTYRZGWR": {
+      "title": "ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+      "queries": {
+        "rakuten:ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml": {
+          "market": "rakuten",
+          "query": "ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+          "checkedAt": "2026-10-13T11:30:49.156464+00:00",
+          "status": "error",
+          "error": "HTTPError",
+          "firstPageHits": []
+        },
+        "rakuten:4580632125280": {
+          "market": "rakuten",
+          "query": "4580632125280",
+          "checkedAt": "2026-10-13T11:30:55.388268+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4580632125280/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "ラボン トゥザムーン シャレボン オシャレ着用洗剤 グリーンヘブンの香り 詰め替え用 400ml | 柔軟剤 液体洗剤 詰替 シトラス アロマ 部屋干し 植物由来 オーガニック 防臭 抗菌 部屋干し シワ防止 色あせ防止 時短 赤ちゃん オシャレ着 おしゃれ着",
+              "url": "https://item.rakuten.co.jp/naturelab/4580632125280/",
+              "priceYen": 580,
+              "displayShippingYen": 660,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン トゥザムーン シャレボン オシャレ着洗剤 グリーンヘブン 詰め替え(400ml)【ラボン(LAVONS)】",
+              "url": "https://item.rakuten.co.jp/rakuten24/4580632125280/",
+              "priceYen": 580,
+              "displayShippingYen": 770,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/hokkaido-kaori/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/marisannnoshop/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/plus-market/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/daily-store/gr-e9z8acfdkc/",
+              "priceYen": 1928,
+              "displayShippingYen": 0,
+              "displayPoints": 17,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ネイチャーラボ ラボン　トゥザムーン　シャレボン　オシャレ着洗剤詰替　グリーンヘブン 400ml",
+              "url": "https://item.rakuten.co.jp/matsukiyo/4580632125280/",
+              "priceYen": 580,
+              "displayShippingYen": 550,
+              "displayPoints": 5,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/sinasahismile/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/myr2026/gr-e9z8acfdkc/",
+              "priceYen": 1109,
+              "displayShippingYen": 0,
+              "displayPoints": 10,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/hakuei8981/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/happynight/gr-e9z8acfdkc/",
+              "priceYen": 1938,
+              "displayShippingYen": 0,
+              "displayPoints": 17,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/housing-reformfair/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/wonder-depo/wd0ftyrzgwr/",
+              "priceYen": 1230,
+              "displayShippingYen": 0,
+              "displayPoints": 11,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/asahi-abe/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/vicsystore/gr-e9z8acfdkc/",
+              "priceYen": 1978,
+              "displayShippingYen": 0,
+              "displayPoints": 17,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/slife/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/hosket/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/angel-wings2025/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/fleurette01/gr-e9z8acfdkc/",
+              "priceYen": 1928,
+              "displayShippingYen": 0,
+              "displayPoints": 17,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/sallierjapan/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/fordear-nizimusubi/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/donzstore/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/actonlineshop/acton26f59a535d7c/",
+              "priceYen": 964,
+              "displayShippingYen": 0,
+              "displayPoints": 8,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/clickworks/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/plays23/b0ftyrzgwr/",
+              "priceYen": 1297,
+              "displayShippingYen": 0,
+              "displayPoints": 11,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/hellodear/b0ftyrzgwr/",
+              "priceYen": 1297,
+              "displayShippingYen": 0,
+              "displayPoints": 11,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/goodfindstore/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/hakuei2/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/mahy1/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/bousai-outdoor/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/sunnynook/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/scintitur/b0ftyrzgwr/",
+              "priceYen": 1297,
+              "displayShippingYen": 0,
+              "displayPoints": 11,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/windaruma/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/zakkabenrikuishinbou/b0ftyrzgwr/",
+              "priceYen": 1197,
+              "displayShippingYen": 0,
+              "displayPoints": 10,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/whitewings/b0ftyrzgwr/",
+              "priceYen": 1297,
+              "displayShippingYen": 0,
+              "displayPoints": 11,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://item.rakuten.co.jp/shopaz/b0ftyrzgwr/",
+              "priceYen": 1097,
+              "displayShippingYen": 0,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml": {
+          "market": "yahoo",
+          "query": "ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+          "checkedAt": "2026-10-13T11:30:56.934710+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=%E3%83%A9%E3%83%9C%E3%83%B3%28Lavons%29+%E3%83%88%E3%82%A5%E3%82%B6%E3%83%A0%E3%83%BC%E3%83%B3+%E3%82%B7%E3%83%A3%E3%83%AC%E3%83%9C%E3%83%B3+%E3%81%8A%E3%81%97%E3%82%83%E3%82%8C%E7%9D%80%E6%B4%97%E5%89%A4+%E6%B4%97%E6%BF%AF%E6%B4%97%E5%89%A4+%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%98%E3%83%96%E3%83%B3%E3%81%AE%E9%A6%99%E3%82%8A+%E8%A9%B0%E3%82%81%E6%9B%BF%E3%81%88+400ml",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "ラボン Lavons トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://store.shopping.yahoo.co.jp/hatuki/hb00021550.html",
+              "priceYen": 1018,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 580,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "洗濯洗剤 ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://store.shopping.yahoo.co.jp/shopmi/20260915012015-01284.html",
+              "priceYen": 897,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "洗濯洗剤 ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://store.shopping.yahoo.co.jp/muraizakkaten/20260917012742-01694.html",
+              "priceYen": 952,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "洗濯洗剤 ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://store.shopping.yahoo.co.jp/maya-to/20260917004711-00231.html",
+              "priceYen": 875,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "洗濯洗剤 ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://store.shopping.yahoo.co.jp/oasiszakkaten/20260917022322-01909.html",
+              "priceYen": 923,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "洗濯洗剤 ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://store.shopping.yahoo.co.jp/suzuberu/20260917002126-01072.html",
+              "priceYen": 783,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン トゥザムーン シャレボン オシャレ着用洗剤 グリーンヘブンの香り 詰め替え用 400ml | 柔軟剤  詰め替え シトラス アロマ 植物由来  液体洗剤",
+              "url": "https://store.shopping.yahoo.co.jp/naturelab-store/4580632125280.html",
+              "priceYen": 580,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://store.shopping.yahoo.co.jp/hoshitomori/hoshimoria37bb167ee.html",
+              "priceYen": 887,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4580632125280": {
+          "market": "yahoo",
+          "query": "4580632125280",
+          "checkedAt": "2026-10-13T11:30:58.079867+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4580632125280",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 580,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン Lavons トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://store.shopping.yahoo.co.jp/hatuki/hb00021550.html",
+              "priceYen": 1018,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン トゥザムーン シャレボン オシャレ着用洗剤 グリーンヘブンの香り 詰め替え用 400ml | 柔軟剤  詰め替え シトラス アロマ 植物由来  液体洗剤",
+              "url": "https://store.shopping.yahoo.co.jp/naturelab-store/4580632125280.html",
+              "priceYen": 580,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン トゥザムーン シャレボン オシャレ着洗剤 グリーンヘブン 詰め替え ( 400ml )/ ラボン(LAVONS)",
+              "url": "https://store.shopping.yahoo.co.jp/soukai/4580632125280.html",
+              "priceYen": 580,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラボン(Lavons) トゥザムーン シャレボン おしゃれ着洗剤 洗濯洗剤 グリーンヘブンの香り 詰め替え 400ml",
+              "url": "https://store.shopping.yahoo.co.jp/hoshitomori/hoshimoria37bb167ee.html",
+              "priceYen": 887,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        }
+      }
+    },
+    "B0CH9WRNZH": {
+      "title": "RISHIRIA Furel (リシリアフレル) カラーケアコンディショナー 詰め替え用 パウチ 240g",
+      "queries": {
+        "rakuten:RISHIRIA Furel (リシリアフレル) カラーケアコンディショナー 詰め替え用 パウチ 240g": {
+          "market": "rakuten",
+          "query": "RISHIRIA Furel (リシリアフレル) カラーケアコンディショナー 詰め替え用 パウチ 240g",
+          "checkedAt": "2026-10-13T11:36:26.831353+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/RISHIRIA%20Furel%20%28%E3%83%AA%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%95%E3%83%AC%E3%83%AB%29%20%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%B1%E3%82%A2%E3%82%B3%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%BC%20%E8%A9%B0%E3%82%81%E6%9B%BF%E3%81%88%E7%94%A8%20%E3%83%91%E3%82%A6%E3%83%81%20240g/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "リシリアフレル RISHIRIA Furel カラーケアコンディショナー 詰め替え用パウチ 無添加 植物由来 低刺激 敏感肌 ノンシリコン 白髪染め ヘアカラー カラーシャンプー 色持ち カラーリング 補修 ヘア ケア 正規品",
+              "url": "https://item.rakuten.co.jp/blondie-blond/ris1030/",
+              "priceYen": 3080,
+              "displayShippingYen": 770,
+              "displayPoints": 28,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:RISHIRIA Furel (リシリアフレル) カラーケアコンディショナー 詰め替え用 パウチ 240g": {
+          "market": "yahoo",
+          "query": "RISHIRIA Furel (リシリアフレル) カラーケアコンディショナー 詰め替え用 パウチ 240g",
+          "checkedAt": "2026-10-13T11:36:28.197667+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=RISHIRIA+Furel+%28%E3%83%AA%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%95%E3%83%AC%E3%83%AB%29+%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%B1%E3%82%A2%E3%82%B3%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%BC+%E8%A9%B0%E3%82%81%E6%9B%BF%E3%81%88%E7%94%A8+%E3%83%91%E3%82%A6%E3%83%81+240g",
+          "status": "searched",
+          "firstPageHits": []
+        }
+      }
+    },
+    "B0DBGTTJBG": {
+      "title": "ロッテ キシリトールガム<ライムミント>大容量パウチ 266g",
+      "queries": {
+        "rakuten:ロッテ キシリトールガム<ライムミント>大容量パウチ 266g": {
+          "market": "rakuten",
+          "query": "ロッテ キシリトールガム<ライムミント>大容量パウチ 266g",
+          "checkedAt": "2026-10-13T11:36:39.648044+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/%E3%83%AD%E3%83%83%E3%83%86%20%E3%82%AD%E3%82%B7%E3%83%AA%E3%83%88%E3%83%BC%E3%83%AB%E3%82%AC%E3%83%A0%3C%E3%83%A9%E3%82%A4%E3%83%A0%E3%83%9F%E3%83%B3%E3%83%88%3E%E5%A4%A7%E5%AE%B9%E9%87%8F%E3%83%91%E3%82%A6%E3%83%81%20266g/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "キシリトールガム ライムミント 大容量パウチ(266g)",
+              "url": "https://item.rakuten.co.jp/rakuten24/4903333265169/",
+              "priceYen": 2028,
+              "displayShippingYen": 0,
+              "displayPoints": 18,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム(ライムミント)大容量パウチ 266g 送料無料",
+              "url": "https://item.rakuten.co.jp/easylifeshop/mu2c461392e0/",
+              "priceYen": 2233,
+              "displayShippingYen": 0,
+              "displayPoints": 20,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガムライムミント大容量パウチ 266g",
+              "url": "https://item.rakuten.co.jp/gramsky2nd/2nd0dbgttjbg/",
+              "priceYen": 3050,
+              "displayShippingYen": 300,
+              "displayPoints": 28,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "モンデリーズ クロレッツ ライムミント スタンドパウチ 250g",
+              "url": "https://item.rakuten.co.jp/exicoast02/b0gswgldnc/",
+              "priceYen": 1380,
+              "displayShippingYen": 0,
+              "displayPoints": 12,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム ライムミント お徳用 メガボトル 290g入り",
+              "url": "https://item.rakuten.co.jp/sskikaku/4903333173785/",
+              "priceYen": 1680,
+              "displayShippingYen": 0,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム ライムミント お徳用 メガボトル 290g入り",
+              "url": "https://item.rakuten.co.jp/hanamaruryohin/20260824195600_240/",
+              "priceYen": 2103,
+              "displayShippingYen": 0,
+              "displayPoints": 19,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "コストコ キシリトール ライムミント ガム 290g 1個 健康 手軽 お徳用 大容量 1つからお届け",
+              "url": "https://item.rakuten.co.jp/ysmarket/ys725/",
+              "priceYen": 2000,
+              "displayShippingYen": 0,
+              "displayPoints": 18,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "（ロッテ キシリトール メガボトル ライムミント ガム 290g）XYLITOL 特定保健用食品 特保 歯 LOTTE コストコ 574225",
+              "url": "https://item.rakuten.co.jp/i-temp/i-co946/",
+              "priceYen": 1770,
+              "displayShippingYen": 0,
+              "displayPoints": 16,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "キシリトール ライムミント ガム 290g 1個 健康 手軽 お徳用 大容量",
+              "url": "https://item.rakuten.co.jp/osdmarket/ny0100727/",
+              "priceYen": 2000,
+              "displayShippingYen": 0,
+              "displayPoints": 18,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "キシリトール ライムミント ガム 290g リフレッシュ 口腔 さっぱり 爽快 味 フレーバー 歯科 専用 健康な歯 食後 子供 大人 ストック 買い置き 職場 学校 家庭 持ち歩き 携帯 噛み捨て 紙 大容量 お得 長持ち 収納 保存 賞味期限 オリジナル コストコ【Costco コストコ】",
+              "url": "https://item.rakuten.co.jp/happydelica/574225/",
+              "priceYen": 2080,
+              "displayShippingYen": 0,
+              "displayPoints": 19,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "（ロッテ）キシリトール ライムミント ガム 290g【送料無料】",
+              "url": "https://item.rakuten.co.jp/fabuleux/574225/",
+              "priceYen": 2388,
+              "displayShippingYen": 0,
+              "displayPoints": 22,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOTTE★キシリトール ガム★ライムミント★シリーズ最大 大容量290g メガボトル★ロッテ XYLITOL LIME MINT MEGABOTTLE チューインガム",
+              "url": "https://item.rakuten.co.jp/blueplanet-colore/ks-1060/",
+              "priceYen": 1990,
+              "displayShippingYen": 750,
+              "displayPoints": 18,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム ライムミント お徳用 メガボトル 290g入り",
+              "url": "https://item.rakuten.co.jp/wonder-depo/wd07rv8rsh3/",
+              "priceYen": 2480,
+              "displayShippingYen": 0,
+              "displayPoints": 22,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "キシリトール ライムミント ガム 290g cost574225",
+              "url": "https://item.rakuten.co.jp/clair-kobe/cost574225/",
+              "priceYen": 2480,
+              "displayShippingYen": 0,
+              "displayPoints": 22,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム ライムミント お徳用 メガボトル 290g入り",
+              "url": "https://item.rakuten.co.jp/kanedestore/ka87a3c106cf/",
+              "priceYen": 2089,
+              "displayShippingYen": 0,
+              "displayPoints": 19,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム(ライムミント)ファミリーボトル 133g",
+              "url": "https://item.rakuten.co.jp/wonder-depo/wd0dggbcwpc/",
+              "priceYen": 1270,
+              "displayShippingYen": 0,
+              "displayPoints": 11,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム　ライムミント　133g",
+              "url": "https://item.rakuten.co.jp/kaumall/50246021/",
+              "priceYen": 840,
+              "displayShippingYen": 550,
+              "displayPoints": 7,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "キシリトール ライムミント ガム 290g 大容量 歯科 口臭ケア 粒 シュガーレス",
+              "url": "https://item.rakuten.co.jp/utopia-style/xylitollimemint/",
+              "priceYen": 1665,
+              "displayShippingYen": 0,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム ライムミント お徳用 メガボトル 290g入り 送料無料",
+              "url": "https://item.rakuten.co.jp/easylifeshop/mue40fccc045/",
+              "priceYen": 1911,
+              "displayShippingYen": 0,
+              "displayPoints": 17,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ ＃キシリトールガム　ライムミント　133g 274239",
+              "url": "https://item.rakuten.co.jp/papyruscompany/2056-4575/",
+              "priceYen": 1047,
+              "displayShippingYen": 550,
+              "displayPoints": 9,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:ロッテ キシリトールガム<ライムミント>大容量パウチ 266g": {
+          "market": "yahoo",
+          "query": "ロッテ キシリトールガム<ライムミント>大容量パウチ 266g",
+          "checkedAt": "2026-10-13T11:36:41.228078+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=%E3%83%AD%E3%83%83%E3%83%86+%E3%82%AD%E3%82%B7%E3%83%AA%E3%83%88%E3%83%BC%E3%83%AB%E3%82%AC%E3%83%A0%3C%E3%83%A9%E3%82%A4%E3%83%A0%E3%83%9F%E3%83%B3%E3%83%88%3E%E5%A4%A7%E5%AE%B9%E9%87%8F%E3%83%91%E3%82%A6%E3%83%81+266g",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "キシリトールガム ライムミント 大容量パウチ ( 266g )",
+              "url": "https://store.shopping.yahoo.co.jp/soukai/4903333265169.html",
+              "priceYen": 2028,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 1780,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム(ライムミント)大容量パウチ 266g",
+              "url": "https://store.shopping.yahoo.co.jp/otogizakka/mea0c6034728.html",
+              "priceYen": 2447,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム<ライムミント>大容量パウチ 266g",
+              "url": "https://store.shopping.yahoo.co.jp/kichibei0510/kitibrjo-job-j8l.html",
+              "priceYen": 2145,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 5244,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム<ライムミント>大容量パウチ 266g",
+              "url": "https://store.shopping.yahoo.co.jp/shopmi/20260915001535-01122.html",
+              "priceYen": 2385,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム<ライムミント>大容量パウチ 266g",
+              "url": "https://store.shopping.yahoo.co.jp/oasiszakkaten/20260917021340-02425.html",
+              "priceYen": 2405,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム<ライムミント>大容量パウチ 266g",
+              "url": "https://store.shopping.yahoo.co.jp/suzuberu/20260917012755-00490.html",
+              "priceYen": 2405,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム<ライムミント>大容量パウチ 266g",
+              "url": "https://store.shopping.yahoo.co.jp/maya-to/20260917023928-01394.html",
+              "priceYen": 2385,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム(ライムミント)大容量パウチ 266g",
+              "url": "https://store.shopping.yahoo.co.jp/kichibei-2255/kichibei97b7529525.html",
+              "priceYen": 2200,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム<ライムミント>大容量パウチ 266g",
+              "url": "https://store.shopping.yahoo.co.jp/pocchi/1768624761-05.html",
+              "priceYen": 2340,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム<ライムミント>大容量パウチ 266g",
+              "url": "https://store.shopping.yahoo.co.jp/muraizakkaten/20260917012742-00461.html",
+              "priceYen": 2444,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム<ライムミント>大容量パウチ 266g",
+              "url": "https://store.shopping.yahoo.co.jp/kichibei-0318/kitibeibrjo-job-j8l.html",
+              "priceYen": 2102,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 999,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 2790,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム ライムミント 290g ボトルタイプ 特定保健用食品 大容量 LOTTE ガム お口リフレッシュ 爆買",
+              "url": "https://store.shopping.yahoo.co.jp/rento-store/4903333173785a01.html",
+              "priceYen": 1880,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "rakuten:4903333265169": {
+          "market": "rakuten",
+          "query": "4903333265169",
+          "checkedAt": "2026-10-13T11:38:42.511570+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4903333265169/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "キシリトールガム ライムミント 大容量パウチ(266g)",
+              "url": "https://item.rakuten.co.jp/rakuten24/4903333265169/",
+              "priceYen": 2028,
+              "displayShippingYen": 0,
+              "displayPoints": 18,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテキシリトールボトルシリーズ サイズ：266g (x 1)",
+              "url": "https://item.rakuten.co.jp/dragondash/b0dbgttjbg/",
+              "priceYen": 2638,
+              "displayShippingYen": 0,
+              "displayPoints": 23,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム(ライムミント)大容量パウチ 266g 送料無料",
+              "url": "https://item.rakuten.co.jp/easylifeshop/mu2c461392e0/",
+              "priceYen": 2233,
+              "displayShippingYen": 0,
+              "displayPoints": 20,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテキシリトールボトルシリーズ サイズ：266g (x 1)",
+              "url": "https://item.rakuten.co.jp/scintitur/b0dbgttjbg/",
+              "priceYen": 2838,
+              "displayShippingYen": 0,
+              "displayPoints": 25,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテキシリトールボトルシリーズ サイズ：266g (x 1)",
+              "url": "https://item.rakuten.co.jp/slife/b0dbgttjbg/",
+              "priceYen": 2638,
+              "displayShippingYen": 0,
+              "displayPoints": 23,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテキシリトールボトルシリーズ サイズ：266g (x 1)",
+              "url": "https://item.rakuten.co.jp/zakkabenrikuishinbou/b0dbgttjbg/",
+              "priceYen": 2738,
+              "displayShippingYen": 0,
+              "displayPoints": 24,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテキシリトールボトルシリーズ サイズ：266g (x 1)",
+              "url": "https://item.rakuten.co.jp/hellodear/b0dbgttjbg/",
+              "priceYen": 2838,
+              "displayShippingYen": 0,
+              "displayPoints": 25,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4903333265169": {
+          "market": "yahoo",
+          "query": "4903333265169",
+          "checkedAt": "2026-10-13T11:38:43.772142+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4903333265169",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 1780,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "キシリトールガム ライムミント 大容量パウチ ( 266g )",
+              "url": "https://store.shopping.yahoo.co.jp/soukai/4903333265169.html",
+              "priceYen": 2028,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 5244,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム(ライムミント)大容量パウチ 266g",
+              "url": "https://store.shopping.yahoo.co.jp/otogizakka/mea0c6034728.html",
+              "priceYen": 2447,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム(ライムミント)大容量パウチ 266g",
+              "url": "https://store.shopping.yahoo.co.jp/kichibei-2255/kichibei97b7529525.html",
+              "priceYen": 2200,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム大容量パウチ 266g",
+              "url": "https://store.shopping.yahoo.co.jp/eight-cat-store/s-b0dbgttjbg-20260717.html",
+              "priceYen": 2644,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトールガム<ライムミント>大容量パウチ 266g",
+              "url": "https://store.shopping.yahoo.co.jp/pure1-shop/20260117061622-00467.html",
+              "priceYen": 2120,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        }
+      }
+    },
+    "B0DBGVRZ5X": {
+      "title": "ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g",
+      "queries": {
+        "rakuten:ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g": {
+          "market": "rakuten",
+          "query": "ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g",
+          "checkedAt": "2026-10-13T11:36:52.728872+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/%E3%83%AD%E3%83%83%E3%83%86%20%E3%82%AD%E3%82%B7%E3%83%AA%E3%83%88%E3%83%BC%E3%83%AB%20%E3%82%AA%E3%83%BC%E3%83%A9%E3%83%86%E3%82%AF%E3%83%88%E3%82%AC%E3%83%A0%3C%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%9F%E3%83%B3%E3%83%88%3E%E5%A4%A7%E5%AE%B9%E9%87%8F%E3%83%91%E3%82%A6%E3%83%81%20250g/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "キシリトール オーラテクトガム クリアミント 大容量パウチ(250g)",
+              "url": "https://item.rakuten.co.jp/rakuten24/4903333204083/",
+              "priceYen": 1972,
+              "displayShippingYen": 0,
+              "displayPoints": 18,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテ キシリトール オーラテクトガムクリアミント大容量パウチ 250g",
+              "url": "https://item.rakuten.co.jp/asahi-abe/b0dbgvrz5x/",
+              "priceYen": 2463,
+              "displayShippingYen": 0,
+              "displayPoints": 22,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテ キシリトール オーラテクトガムクリアミント大容量パウチ 250g",
+              "url": "https://item.rakuten.co.jp/donzstore/b0dbgvrz5x/",
+              "priceYen": 2463,
+              "displayShippingYen": 0,
+              "displayPoints": 22,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテ キシリトール オーラテクトガムクリアミント大容量パウチ 250g",
+              "url": "https://item.rakuten.co.jp/zakkabenrikuishinbou/b0dbgvrz5x/",
+              "priceYen": 2563,
+              "displayShippingYen": 0,
+              "displayPoints": 23,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテ キシリトール オーラテクトガムクリアミント大容量パウチ 250g",
+              "url": "https://item.rakuten.co.jp/sallierjapan/b0dbgvrz5x/",
+              "priceYen": 2463,
+              "displayShippingYen": 0,
+              "displayPoints": 22,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテ キシリトール オーラテクトガムクリアミント大容量パウチ 250g",
+              "url": "https://item.rakuten.co.jp/scintitur/b0dbgvrz5x/",
+              "priceYen": 2663,
+              "displayShippingYen": 0,
+              "displayPoints": 24,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテ キシリトール オーラテクトガムクリアミント大容量パウチ 250g",
+              "url": "https://item.rakuten.co.jp/bousai-outdoor/b0dbgvrz5x/",
+              "priceYen": 2458,
+              "displayShippingYen": 0,
+              "displayPoints": 22,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラミネートフィルム a4 50枚 250μ 250ミクロン 超厚手 アイリスオーヤマ LZ-25A450 ラミネーター フィルム パウチ メニュー表 パンフレット",
+              "url": "https://item.rakuten.co.jp/k-home/539614/",
+              "priceYen": 3060,
+              "displayShippingYen": 0,
+              "displayPoints": 27,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "個スパウトパウチつや消し密封保存袋多サイズ50ミリリットル500ミリリットル大口径ジュース・飲料用漏斗・計量カップ付き食品用業務用持ち運び便利飲み物作りに便利パウチ容器 (250 大口径)",
+              "url": "https://item.rakuten.co.jp/startline/qq0630605048392a6/",
+              "priceYen": 6490,
+              "displayShippingYen": 0,
+              "displayPoints": 59,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "カクケイ クリアパック 40ミクロン シール付 A4大 100枚入 オー230 OPP袋",
+              "url": "https://item.rakuten.co.jp/onestep/b12578/",
+              "priceYen": 1190,
+              "displayShippingYen": 699,
+              "displayPoints": 10,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラミネートフィルム A3 100枚 250ミクロン 303×426mm ラミネーターフィルム パウチフィルム 厚め 250μ",
+              "url": "https://item.rakuten.co.jp/trybest-biz/tbla3-250100/",
+              "priceYen": 7722,
+              "displayShippingYen": 0,
+              "displayPoints": 70,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "エントリーでP10倍★14日20:00〜17日9:59まで 超大型ポリ袋 (マチ付き) 透明 2500x2500 0.050mm厚 10枚x3冊 LN-2525/ポリ袋 ゴミ袋 ごみ袋 袋 大型カバー袋 大型収納袋 保護用 大きいサイズ 特大 サンキョウプラテック 送料無料 即納",
+              "url": "https://item.rakuten.co.jp/poly-stadium/ln-2525/",
+              "priceYen": 13590,
+              "displayShippingYen": 0,
+              "displayPoints": 123,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【レジ袋】HDPE 半透明レジ袋 大【半透明】 100枚入",
+              "url": "https://item.rakuten.co.jp/yatushokai/as3052/",
+              "priceYen": 1177,
+              "displayShippingYen": 880,
+              "displayPoints": 10,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラミネートパウチ A4サイズ 220×307 250μ　50枚入り",
+              "url": "https://item.rakuten.co.jp/onesto/lp-a4-250l/",
+              "priceYen": 1650,
+              "displayShippingYen": 660,
+              "displayPoints": 15,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラミネートフィルム a4 50枚 250μ250ミクロン 超厚手 アイリスオーヤマ LZ-25A450 ラミネーター フィルム パウチ メニュー表 パンフレット[RNG]",
+              "url": "https://item.rakuten.co.jp/bunbo-goo/539614/",
+              "priceYen": 2101,
+              "displayShippingYen": 0,
+              "displayPoints": 19,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】KAMMAK 宅配ビニール袋 A4サイズ 幅250mmx深さ325mm＋フタ50mm(100枚入り) 白 薄手 軽量 防水 耐久 強粘着テープ付き 大ボリューム 梱包資材 梱包袋 A4書類 DVD文庫本文具など小中物入れ発送用品 クロネコDM便ネコポス ゆうパケット クリックポスト ポスパケッ",
+              "url": "https://item.rakuten.co.jp/whitewings/01-20250506-160329/",
+              "priceYen": 2596,
+              "displayShippingYen": 0,
+              "displayPoints": 23,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【50枚入】ラミネートフィルム（超厚手タイプ） A4サイズ 250μm LZ-25A450 アイリスオーヤマ（IRISOHYAMA） 〔ラミネーターフィルム パウチフィルム〕 掲示物 ラミネート 業務用 写真 家庭用",
+              "url": "https://item.rakuten.co.jp/kadenrand/539614/",
+              "priceYen": 3060,
+              "displayShippingYen": 0,
+              "displayPoints": 27,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【FDC】プロ仕様パウチラミネートフィルム A4サイズ 50枚入 250μFDC 剥離防止 糊漏防止 静電気防止 カール防止 国産糊使用",
+              "url": "https://item.rakuten.co.jp/laminatingpouch/ple216303/",
+              "priceYen": 4243,
+              "displayShippingYen": 0,
+              "displayPoints": 38,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】KAMMAK 宅配ビニール袋 A4サイズ 幅250mmx深さ325mm＋フタ50mm(100枚入り) 白 薄手 軽量 防水 耐久 強粘着テープ付き 大ボリューム 梱包資材 梱包袋 A4書類 DVD文庫本文具など小中物入れ発送用品 クロネコDM便ネコポス ゆうパケット クリックポスト ポスパケッ",
+              "url": "https://item.rakuten.co.jp/hellodear/01-20250506-160329/",
+              "priceYen": 2596,
+              "displayShippingYen": 0,
+              "displayPoints": 23,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "OPP袋 オ-250 100入 透明袋 クリアパック テープ付 ラッピング 保管 業務用",
+              "url": "https://item.rakuten.co.jp/modern-pro-2/4960369472503/",
+              "priceYen": 1576,
+              "displayShippingYen": 968,
+              "displayPoints": 14,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【医療機器】 滅菌パック大量使用の医院向け ステラパック ロールパウチ 4L250(内寸230)mm 200m BSAサクライ",
+              "url": "https://item.rakuten.co.jp/yuzawakikaku/y087004-000-000/",
+              "priceYen": 12210,
+              "displayShippingYen": 0,
+              "displayPoints": 111,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "OPP袋 オ-250 100入 透明袋 クリアパック テープ付 ラッピング 保管 業務用",
+              "url": "https://item.rakuten.co.jp/modern-pro/4960369472503/",
+              "priceYen": 1576,
+              "displayShippingYen": 968,
+              "displayPoints": 14,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ラミネートパウチ　A4サイズ　220×307　300μ　50枚入り",
+              "url": "https://item.rakuten.co.jp/onesto/lp-a4-300l/",
+              "priceYen": 2750,
+              "displayShippingYen": 660,
+              "displayPoints": 25,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "パウチラミネートフィルム A3サイズ 50枚入 250μFDC 剥離防止 糊漏防止 静電気防止 カール防止 国産糊使用",
+              "url": "https://item.rakuten.co.jp/laminatingpouch/ple303426/",
+              "priceYen": 4942,
+              "displayShippingYen": 0,
+              "displayPoints": 44,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g": {
+          "market": "yahoo",
+          "query": "ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g",
+          "checkedAt": "2026-10-13T11:36:54.180220+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=%E3%83%AD%E3%83%83%E3%83%86+%E3%82%AD%E3%82%B7%E3%83%AA%E3%83%88%E3%83%BC%E3%83%AB+%E3%82%AA%E3%83%BC%E3%83%A9%E3%83%86%E3%82%AF%E3%83%88%E3%82%AC%E3%83%A0%3C%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%9F%E3%83%B3%E3%83%88%3E%E5%A4%A7%E5%AE%B9%E9%87%8F%E3%83%91%E3%82%A6%E3%83%81+250g",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "ロッテ キシリトール オーラテクトガム(クリアミント)大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/kichibei-2255/kichibei844e0dd482.html",
+              "priceYen": 2022,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/kichibei-0318/kitibeizh3f-jod-j8l.html",
+              "priceYen": 1941,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/kichibei0510/kitizh3f-jod-j8l.html",
+              "priceYen": 1984,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトール オーラテクトガム(クリアミント)大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/otogizakka/me86e1d223c1.html",
+              "priceYen": 2254,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "キシリトール ロッテ オーラテクトガム<クリアミント>大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/shopmi/20260915001535-00515.html",
+              "priceYen": 2189,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "キシリトール ロッテ オーラテクトガム<クリアミント>大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/oasiszakkaten/20260917021340-02424.html",
+              "priceYen": 2207,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "キシリトール オーラテクトガム クリアミント 大容量パウチ ( 250g )",
+              "url": "https://store.shopping.yahoo.co.jp/soukai/4903333204083.html",
+              "priceYen": 1972,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "キシリトール ロッテ オーラテクトガム<クリアミント>大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/maya-to/20260917023928-01393.html",
+              "priceYen": 2189,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "キシリトール ロッテ オーラテクトガム<クリアミント>大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/suzuberu/20260917012755-00489.html",
+              "priceYen": 2207,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "キシリトール ロッテ オーラテクトガム<クリアミント>大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/muraizakkaten/20260917012742-00460.html",
+              "priceYen": 2253,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/pocchi/1770088813-97.html",
+              "priceYen": 2150,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/rokorokoshop/1768882363-954.html",
+              "priceYen": 2130,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/azukipalette/jlzkhawnmudntajqxzxhzoihom.html",
+              "priceYen": 2184,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 999,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトール　オーラテクトガム　クリアミント",
+              "url": "https://store.shopping.yahoo.co.jp/kaumall/30665958.html",
+              "priceYen": 916,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 5279,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "LOHACO by アスクル",
+              "url": "https://store.shopping.yahoo.co.jp/rd-lohaco/",
+              "priceYen": 2790,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ　キシリトール　オーラテクトガム　クリアミント　ファミリーボトル　125g",
+              "url": "https://store.shopping.yahoo.co.jp/ladykouda/4903333242597.html",
+              "priceYen": 792,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "rakuten:4903333204083": {
+          "market": "rakuten",
+          "query": "4903333204083",
+          "checkedAt": "2026-10-13T11:38:49.878830+00:00",
+          "url": "https://search.rakuten.co.jp/search/mall/4903333204083/",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "キシリトール オーラテクトガム クリアミント 大容量パウチ(250g)",
+              "url": "https://item.rakuten.co.jp/rakuten24/4903333204083/",
+              "priceYen": 1972,
+              "displayShippingYen": 0,
+              "displayPoints": 18,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトール オーラテクトガム(クリアミント)大容量パウチ 250g",
+              "url": "https://item.rakuten.co.jp/izuka/aj400984a32bcaf0/",
+              "priceYen": 1947,
+              "displayShippingYen": 0,
+              "displayPoints": 17,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテ キシリトール オーラテクトガムクリアミント大容量パウチ 250g",
+              "url": "https://item.rakuten.co.jp/asahi-abe/b0dbgvrz5x/",
+              "priceYen": 2463,
+              "displayShippingYen": 0,
+              "displayPoints": 22,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテ キシリトール オーラテクトガムクリアミント大容量パウチ 250g",
+              "url": "https://item.rakuten.co.jp/zakkabenrikuishinbou/b0dbgvrz5x/",
+              "priceYen": 2563,
+              "displayShippingYen": 0,
+              "displayPoints": 23,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテ キシリトール オーラテクトガムクリアミント大容量パウチ 250g",
+              "url": "https://item.rakuten.co.jp/donzstore/b0dbgvrz5x/",
+              "priceYen": 2463,
+              "displayShippingYen": 0,
+              "displayPoints": 22,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテ キシリトール オーラテクトガムクリアミント大容量パウチ 250g",
+              "url": "https://item.rakuten.co.jp/sallierjapan/b0dbgvrz5x/",
+              "priceYen": 2463,
+              "displayShippingYen": 0,
+              "displayPoints": 22,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテ キシリトール オーラテクトガムクリアミント大容量パウチ 250g",
+              "url": "https://item.rakuten.co.jp/slife/b0dbgvrz5x/",
+              "priceYen": 2463,
+              "displayShippingYen": 0,
+              "displayPoints": 22,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテ キシリトール オーラテクトガムクリアミント大容量パウチ 250g",
+              "url": "https://item.rakuten.co.jp/bousai-outdoor/b0dbgvrz5x/",
+              "priceYen": 2458,
+              "displayShippingYen": 0,
+              "displayPoints": 22,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "【送料無料】ロッテ キシリトール オーラテクトガムクリアミント大容量パウチ 250g",
+              "url": "https://item.rakuten.co.jp/scintitur/b0dbgvrz5x/",
+              "priceYen": 2663,
+              "displayShippingYen": 0,
+              "displayPoints": 24,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトール オーラテクトガム(クリアミント)大容量パウチ 250g 送料無料",
+              "url": "https://item.rakuten.co.jp/easylifeshop/mu192c044fde/",
+              "priceYen": 2062,
+              "displayShippingYen": 0,
+              "displayPoints": 18,
+              "couponMentioned": false,
+              "source": "Rakuten search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        },
+        "yahoo:4903333204083": {
+          "market": "yahoo",
+          "query": "4903333204083",
+          "checkedAt": "2026-10-13T11:38:51.109446+00:00",
+          "url": "https://shopping.yahoo.co.jp/search?p=4903333204083",
+          "status": "searched",
+          "firstPageHits": [
+            {
+              "title": "ロッテ キシリトール オーラテクトガム(クリアミント)大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/kichibei-2255/kichibei844e0dd482.html",
+              "priceYen": 2022,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトール オーラテクトガム(クリアミント)大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/otogizakka/me86e1d223c1.html",
+              "priceYen": 2254,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "キシリトール オーラテクトガム クリアミント 大容量パウチ ( 250g )",
+              "url": "https://store.shopping.yahoo.co.jp/soukai/4903333204083.html",
+              "priceYen": 1972,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/pocchi/1770088813-97.html",
+              "priceYen": 2150,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/azukipalette/jlzkhawnmudntajqxzxhzoihom.html",
+              "priceYen": 2184,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/rokorokoshop/1768882363-954.html",
+              "priceYen": 2130,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            },
+            {
+              "title": "ロッテ キシリトール オーラテクトガム<クリアミント>大容量パウチ 250g",
+              "url": "https://store.shopping.yahoo.co.jp/pure1-shop/20260117061622-00458.html",
+              "priceYen": 1946,
+              "displayShippingYen": null,
+              "displayPoints": null,
+              "couponMentioned": false,
+              "source": "Yahoo search card; product/JAN/stock/shipping not verified"
+            }
+          ]
+        }
+      }
     }
   },
-  "checkedAt": "2026-10-13T10:36:17.976604+00:00"
+  "checkedAt": "2026-10-13T11:38:51.109456+00:00"
 }
