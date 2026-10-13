@@ -5064,6 +5064,153 @@
       "decisionReason": "Amazon現行ページで250g単品、掲載最小辺3.5cm。メーカーの同容量単品と写真の柔らかいチャック袋を照合。粉末を平らにならすと3cm以下となる可能性がある。底マチ・発送外装を含む最大厚と重量は未実測。",
       "manufacturerSource": "https://yanagiya-charaku.jp/?pid=190292478",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0CHMPT2VL",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0CHMPT2VL",
+      "title": "傘カバー 折りたたみ傘用 吸水 ケース 大きい 小さめ スリム 4サイズ 傘ケース 傘袋 日傘 軽量 防水 コンパクト 携帯便利 秒速収納 車 電車",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/91DllDIcuQL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "decisionReason": "Amazon現行ページで商品名と写真は取得できたが、掲載3辺の寸法を確認できない。Keepaの梱包寸法だけで登録条件の最小辺3cm超を確定しない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0DQD561HM",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0DQD561HM",
+      "title": "ふきん 　マイクロファイバー布巾 強力吸水　速乾 雑巾　 食器 拭きガラス 窓鏡 キッチンタオル　台拭き 掃除用品 ワッフル調　キッチンクロス (大寸中グレー３枚)",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81hJJpg-nrL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "decisionReason": "Amazon現行ページで商品名と写真は取得できたが、掲載3辺の寸法を確認できない。Keepaの梱包寸法だけで登録条件の最小辺3cm超を確定しない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B083RCR4VC",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B083RCR4VC",
+      "title": "ふきん マイクロファイバー布巾 強力吸水 速乾 雑巾 食器 拭きガラス 窓鏡 キッチンタオル 台拭き 掃除用品 ワッフル調 キッチンクロス (シンドレイラ)",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/712gCj7G8uL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "decisionReason": "Amazon現行ページで商品名と写真は取得できたが、掲載3辺の寸法を確認できない。Keepaの梱包寸法だけで登録条件の最小辺3cm超を確定しない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B082F32KCY",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B082F32KCY",
+      "title": "ふきん マイクロファイバー布巾 強力吸水 速乾 雑巾 食器 拭きガラス 窓鏡 キッチンタオル 台拭き 掃除用品 ワッフル調 キッチンクロス (お空)",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71TEqa++qeL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "decisionReason": "Amazon現行ページで商品名と写真は取得できたが、掲載3辺の寸法を確認できない。Keepaの梱包寸法だけで登録条件の最小辺3cm超を確定しない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0FGD763Y6",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0FGD763Y6",
+      "title": "レノア【最高級の香りビーズ】オードリュクス 奥深い香りがさらに長続き Innocent リリー&ジャスミンの香り 詰め替え 920mL",
+      "dimensions": [
+        {
+          "value": "26 x 17.5 x 5.2 cm",
+          "context": "       :\n                                            ‎ 26 x 17.5 x 5.2 cm; 420 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81PUsONeD6L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行ページの商品写真で単品袋のねじ式硬質キャップを確認。内容物を均してもキャップ部分が局所的に残るため除外。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0HDXSDLCH",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0HDXSDLCH",
+      "title": "レノア【最高級の香りビーズ】オードリュクス 奥深い香りがさらに長続き Calm アールグレイ＆ネロリの香り 詰め替え 920mL",
+      "dimensions": [
+        {
+          "value": "24.9 x 17.8 x 7.6 cm",
+          "context": "       :\n                                            ‎ 24.9 x 17.8 x 7.6 cm; 360 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81JrxvpiMCL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行ページの商品写真で単品袋のねじ式硬質キャップを確認。内容物を均してもキャップ部分が局所的に残るため除外。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0FGDC29SL",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0FGDC29SL",
+      "title": "レノア【最高級の香りビーズ】オードリュクス 奥深い香りがさらに長続き Eternal ホワイトムスク&アプリコットの香り 詰め替え 920mL",
+      "dimensions": [
+        {
+          "value": "26.3 x 16.8 x 6.2 cm",
+          "context": "       :\n                                            ‎ 26.3 x 16.8 x 6.2 cm; 430 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81GHB9tofuL._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行ページの商品写真で単品袋のねじ式硬質キャップを確認。内容物を均してもキャップ部分が局所的に残るため除外。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B072HGRGRP",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B072HGRGRP",
+      "title": "傘カバー 折りたたみ傘用 吸水 ケース 大きい 小さめ スリム 4サイズ 傘ケース 傘袋 日傘 軽量 防水 コンパクト 携帯便利 秒速収納 車 電車",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/91DllDIcuQL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "decisionReason": "Amazon現行ページで商品名と写真は取得できたが、掲載3辺の寸法を確認できない。Keepaの梱包寸法だけで登録条件の最小辺3cm超を確定しない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B072NZXGFK",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B072NZXGFK",
+      "title": "傘カバー 折りたたみ傘用 吸水 ケース 大きい 小さめ スリム 4サイズ 傘ケース 傘袋 日傘 軽量 防水 コンパクト 携帯便利 秒速収納 車 電車",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/91DllDIcuQL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "decisionReason": "Amazon現行ページで商品名と写真は取得できたが、掲載3辺の寸法を確認できない。Keepaの梱包寸法だけで登録条件の最小辺3cm超を確定しない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0F8Q2C365",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F8Q2C365",
+      "title": "傘カバー 折りたたみ傘 ケース 【Poco'ce掲載・3倍の吸水力・13色展開・3サイズ】 傘カバー 折り畳み傘 おりたたみ傘 カバー ケース 傘袋",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81dxpJ5MC-L._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "decisionReason": "Amazon現行ページで商品名と写真は取得できたが、掲載3辺の寸法を確認できない。Keepaの梱包寸法だけで登録条件の最小辺3cm超を確定しない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B07CXJN2X8",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B07CXJN2X8",
+      "title": "アストロ 収納ケース バッグ用 グレー 活性炭消臭 脱臭 カバン 収納ボックス 収納袋 保管ケース 通気性の良い不織布製 仕切り2か所付き 鞄をホコリから守り保管 中身が見える透明窓付き 持ち手付き クローゼット 押入れ 171-47",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71kvxQfbDGL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "decisionReason": "Amazon現行ページで商品名と写真は取得できたが、掲載3辺の寸法を確認できない。Keepaの梱包寸法だけで最小辺3cm超を確定しない。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B07CXHBRQX",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B07CXHBRQX",
+      "title": "アストロ 活性炭消臭 羽毛布団収納袋 円柱形 シングル用 活性炭のチカラで消臭保管 立てて収納できるのでスッキリコンパクト 持ち手付きで持ち運びや移動がしやすい 通気性の良い不織布がホコリなどの汚れをガード 布団収納 布団袋 収納ケース 圧縮袋 グレー 171-43",
+      "dimensions": [],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/614ZOEVwhwL._AC_SL1500_.jpg",
+      "reviewStatus": "hold_missing_three_dimensions",
+      "decisionReason": "Amazon現行ページで商品名と写真は取得できたが、掲載3辺の寸法を確認できない。Keepaの梱包寸法だけで最小辺3cm超を確定しない。",
+      "decidedOn": "2026-10-13"
     }
   ]
 }

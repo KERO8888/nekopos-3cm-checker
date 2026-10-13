@@ -48105,7 +48105,7 @@
     {
       "asin": "B0FGD763Y6",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
@@ -48130,7 +48130,7 @@
     {
       "asin": "B0HDXSDLCH",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
@@ -48180,7 +48180,7 @@
     {
       "asin": "B0FGDC29SL",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=詰め替え",
         "Keepa title=詰め替え root=160384011 side>=0mm",
@@ -245860,7 +245860,7 @@
     {
       "asin": "B07CXJN2X8",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=3828871 weight=0-700g side>=0mm",
         "Keepa title=収納袋 root=3828871 side>=0mm",
@@ -245886,7 +245886,7 @@
     {
       "asin": "B07CXHBRQX",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=3828871 weight=0-700g side>=0mm",
         "Keepa title=収納袋 root=3828871 side>=0mm",
@@ -259708,7 +259708,7 @@
     {
       "asin": "B072HGRGRP",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=3828871 weight=0-700g side>=0mm",
         "Keepa title=圧縮袋 root=3828871 side>=0mm"
@@ -259732,7 +259732,7 @@
     {
       "asin": "B0CHMPT2VL",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=3828871 weight=0-700g side>=0mm",
         "Keepa title=圧縮袋 root=3828871 side>=0mm"
@@ -259756,7 +259756,7 @@
     {
       "asin": "B072NZXGFK",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=3828871 weight=0-700g side>=0mm",
         "Keepa title=圧縮袋 root=3828871 side>=0mm"
@@ -263553,7 +263553,22 @@
       "discoverySources": [
         "Keepa root=3828871 weight=0-700g side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "ストリックスデザイン 紙皿 スクエアペーパープレート 50枚 ホワイト 18×18cm 使い捨て 食器 角皿 環境に優しい エコ アウトドア SD-708",
+      "triageScore": -3,
+      "triageTags": [
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        54,
+        186,
+        190
+      ],
+      "keepaPackageWeightG": 540,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07NVM6HR8",
@@ -263562,7 +263577,22 @@
       "discoverySources": [
         "Keepa root=3828871 weight=0-700g side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "ストリックスデザイン 紙皿 使い捨て スクエアプレート 8枚 18cm ホワイト 食器 角皿 環境に優しい エコ アウトドア SD-138",
+      "triageScore": -5,
+      "triageTags": [
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        24,
+        190,
+        192
+      ],
+      "keepaPackageWeightG": 80,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B00JUHKJXM",
@@ -277606,7 +277636,23 @@
       "discoverySources": [
         "Keepa root=3828871 weight=0-700g side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "オイルポット 活性炭 節約 エコ 1200ml 油がきれいになる 揚げ物 約10回繰り返し使える驚異の濾過力 カートリッジ1個付 白 保存ポット簡単 液だれしにくい注ぎ口 お手入れラク H-OP1200 アイリスオーヤマ",
+      "triageScore": -3,
+      "triageTags": [
+        "単品を示す語",
+        "硬い容器の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        167,
+        185,
+        199
+      ],
+      "keepaPackageWeightG": 630,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FJWTLCZW",
@@ -278931,7 +278977,7 @@
     {
       "asin": "B0F8Q2C365",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa root=3828871 weight=0-700g side>=0mm",
         "Keepa title=圧縮袋 root=3828871 side>=0mm"
@@ -280533,7 +280579,23 @@
       "discoverySources": [
         "Keepa root=3828871 weight=0-700g side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "オイルポット 活性炭 節約 エコ 800ml 油がきれいになる 揚げ物 約10回繰り返し使える驚異のろ過力 カートリッジ1個付 ブラック 保存ポット 液だれしにくい注ぎ口 お手入れラク H-OP800 アイリスオーヤマ",
+      "triageScore": -3,
+      "triageTags": [
+        "単品を示す語",
+        "硬い容器の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        144,
+        149,
+        171
+      ],
+      "keepaPackageWeightG": 480,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CVQGTHZ1",
@@ -280542,7 +280604,23 @@
       "discoverySources": [
         "Keepa root=3828871 weight=0-700g side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "オイルポット 活性炭 節約 エコ 800ml 油がきれいになる 揚げ物 約10回繰り返し使える驚異のろ過力 カートリッジ1個付 グレー 保存ポット 液だれしにくい注ぎ口 お手入れラク H-OP800 アイリスオーヤマ",
+      "triageScore": -3,
+      "triageTags": [
+        "単品を示す語",
+        "硬い容器の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        143,
+        149,
+        172
+      ],
+      "keepaPackageWeightG": 480,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0D9XY6QLS",
@@ -471609,7 +471687,7 @@
     {
       "asin": "B0DQD561HM",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=キッチンシート root=3828871 side>=0mm",
@@ -471634,7 +471712,7 @@
     {
       "asin": "B083RCR4VC",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=キッチンシート root=3828871 side>=0mm",
@@ -471659,7 +471737,7 @@
     {
       "asin": "B082F32KCY",
       "queries": [],
-      "status": "not_fetched",
+      "status": "page_fetched_not_added",
       "discoverySources": [
         "Keepa title=タオル root=3828871 side>=0mm",
         "Keepa title=キッチンシート root=3828871 side>=0mm",
@@ -486315,7 +486393,22 @@
       "discoverySources": [
         "Keepa title=収納袋 root=3828871 side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "X XUNTAO 収納ボックス 折り畳み 5面開閉 衣装ケース 収納ケース 蓋付き コンテナ ボックス(M,5個セット,ホワイト,半透明)",
+      "triageScore": -7,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        382,
+        393,
+        515
+      ],
+      "keepaPackageWeightG": 8920,
+      "keepaNumberOfItems": 5
     },
     {
       "asin": "B0CLHYRBJC",
@@ -486324,7 +486417,22 @@
       "discoverySources": [
         "Keepa title=収納袋 root=3828871 side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "X XUNTAO 収納ボックス 折り畳み 5面開閉 両開き扉 衣装ケース 収納ケース 蓋付き(XL,3個セット,ミックスカラー,半透明)",
+      "triageScore": -7,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        285,
+        444,
+        649
+      ],
+      "keepaPackageWeightG": 9470,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0B28SSR1Y",
@@ -486333,7 +486441,23 @@
       "discoverySources": [
         "Keepa title=収納袋 root=3828871 side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "X XUNTAO 収納ボックス 折り畳み 5面開閉 衣装ケース 収納ケース 蓋付き コンテナ ボックス(XL,単品,グリーン,半透明)",
+      "triageScore": 1,
+      "triageTags": [
+        "単品を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        88,
+        446,
+        643
+      ],
+      "keepaPackageWeightG": 3060,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0B28WWNB6",
@@ -486342,7 +486466,23 @@
       "discoverySources": [
         "Keepa title=収納袋 root=3828871 side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "X XUNTAO 収納ボックス 折り畳み 5面開閉 衣装ケース 収納ケース 蓋付き コンテナ ボックス(XL,単品,ブルー,半透明)",
+      "triageScore": 1,
+      "triageTags": [
+        "単品を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        87,
+        443,
+        635
+      ],
+      "keepaPackageWeightG": 3140,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0D35922NT",
@@ -486351,7 +486491,22 @@
       "discoverySources": [
         "Keepa title=収納袋 root=3828871 side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "X XUNTAO 収納ボックス 折り畳み 5面開閉 衣装ケース 収納ケース 蓋付き コンテナ ボックス(XXL,5個セット,マルチカラー,半透明)",
+      "triageScore": -7,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        390,
+        500,
+        690
+      ],
+      "keepaPackageWeightG": 19120,
+      "keepaNumberOfItems": 5
     },
     {
       "asin": "B0D35848RX",
@@ -486360,7 +486515,22 @@
       "discoverySources": [
         "Keepa title=収納袋 root=3828871 side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "X XUNTAO 収納ボックス 折り畳み 5面開閉 衣装ケース 収納ケース 蓋付き コンテナ ボックス(S,5個セット,マルチカラー,半透明)",
+      "triageScore": -7,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        355,
+        382,
+        443
+      ],
+      "keepaPackageWeightG": 7440,
+      "keepaNumberOfItems": 5
     },
     {
       "asin": "B0GCW6DVFV",
@@ -486369,7 +486539,22 @@
       "discoverySources": [
         "Keepa title=収納袋 root=3828871 side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "X XUNTAO 収納ボックス 折り畳み 5面開閉 衣装ケース 収納ケース 蓋付き コンテナ ボックス(M,3個セット,クリーム色,半透明)",
+      "triageScore": -7,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        231,
+        368,
+        487
+      ],
+      "keepaPackageWeightG": 5300,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0B28TZYXP",
@@ -486378,7 +486563,23 @@
       "discoverySources": [
         "Keepa title=収納袋 root=3828871 side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "X XUNTAO 収納ボックス 折り畳み 5面開閉 衣装ケース 収納ケース 蓋付き コンテナ ボックス(XXL,単品,イエロー,半透明)",
+      "triageScore": 1,
+      "triageTags": [
+        "単品を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        91,
+        490,
+        708
+      ],
+      "keepaPackageWeightG": 4220,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0BHJGF57F",
@@ -486387,7 +486588,22 @@
       "discoverySources": [
         "Keepa title=収納袋 root=3828871 side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "X XUNTAO 収納ボックス 折り畳み 5面開閉 衣装ケース 収納ケース 蓋付き コンテナ ボックス(S,3個セット,イエロー,半透明)",
+      "triageScore": -7,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        226,
+        311,
+        428
+      ],
+      "keepaPackageWeightG": 4500,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0BG8G52T3",
@@ -486396,7 +486612,22 @@
       "discoverySources": [
         "Keepa title=収納袋 root=3828871 side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "X XUNTAO 収納ボックス 折り畳み 5面開閉 衣装ケース 収納ケース 蓋付き コンテナ ボックス(XXL,3個セット,グリーン,半透明)",
+      "triageScore": -7,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        270,
+        520,
+        690
+      ],
+      "keepaPackageWeightG": 11980,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0CLHYWCWQ",
@@ -486405,7 +486636,22 @@
       "discoverySources": [
         "Keepa title=収納袋 root=3828871 side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "X XUNTAO 収納ボックス 折り畳み 5面開閉 両開き扉 衣装ケース 収納ケース 蓋付き(XL,3個セット,パールホワイト,半透明)",
+      "triageScore": -7,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        250,
+        440,
+        620
+      ],
+      "keepaPackageWeightG": 9600,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0BG8D72PG",
@@ -486414,7 +486660,23 @@
       "discoverySources": [
         "Keepa title=収納袋 root=3828871 side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "X XUNTAO 収納ボックス 折り畳み 5面開閉 衣装ケース 収納ケース 蓋付き コンテナ ボックス(XXL,単品,ホワイト,半透明)",
+      "triageScore": 1,
+      "triageTags": [
+        "単品を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        88,
+        487,
+        685
+      ],
+      "keepaPackageWeightG": 4010,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0BG8GJ9PK",
@@ -486423,7 +486685,23 @@
       "discoverySources": [
         "Keepa title=収納袋 root=3828871 side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "X XUNTAO 収納ボックス 折り畳み 5面開閉 衣装ケース 収納ケース 蓋付き コンテナ ボックス(XXXL,単品,ホワイト,半透明)",
+      "triageScore": 1,
+      "triageTags": [
+        "単品を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        84,
+        503,
+        750
+      ],
+      "keepaPackageWeightG": 4770,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0B28WWNB7",
@@ -486432,7 +486710,23 @@
       "discoverySources": [
         "Keepa title=収納袋 root=3828871 side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "X XUNTAO 収納ボックス 折り畳み 5面開閉 衣装ケース 収納ケース 蓋付き コンテナ ボックス(S,単品,グリーン,半透明)",
+      "triageScore": 1,
+      "triageTags": [
+        "単品を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        85,
+        300,
+        427
+      ],
+      "keepaPackageWeightG": 1550,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GX6S366L",
@@ -486884,7 +487178,23 @@
       "discoverySources": [
         "Keepa title=収納袋 root=3828871 side>=0mm",
         "Keepa title=エコバッグ root=3828871 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
+      "keepaTitle": "X XUNTAO 収納ボックス 折り畳み 5面開閉 衣装ケース 収納ケース 蓋付き コンテナ ボックス(XL,単品,イエロー,半透明)",
+      "triageScore": 1,
+      "triageTags": [
+        "単品を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        85,
+        437,
+        637
+      ],
+      "keepaPackageWeightG": 3180,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CP644L9M",
@@ -551664,7 +551974,7 @@
       ]
     }
   ],
-  "fetchedProductPageCount": 749,
+  "fetchedProductPageCount": 761,
   "accessLimitedSearches": {
     "attemptedOn": "2026-10-05",
     "queries": [
@@ -556130,6 +556440,63 @@
       "pagesChecked": 2,
       "added": 2,
       "unverifiedRange": "2件を写真・メーカー単品ページ・掲載3辺から候補登録。商品袋と梱包後の最大厚・重量は未実測。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: root=3828871由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0CHMPT2VL",
+        "B0DQD561HM",
+        "B083RCR4VC",
+        "B082F32KCY"
+      ],
+      "pagesChecked": 4,
+      "added": 0,
+      "unverifiedRange": "硬いキャップ3件は除外。布製品7件はAmazon現行ページで3辺寸法を確認できず保留。梱包後厚さ・重量も未実測。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=詰め替え由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0FGD763Y6",
+        "B0HDXSDLCH",
+        "B0FGDC29SL"
+      ],
+      "pagesChecked": 3,
+      "added": 0,
+      "unverifiedRange": "硬いキャップ3件は除外。布製品7件はAmazon現行ページで3辺寸法を確認できず保留。梱包後厚さ・重量も未実測。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=圧縮袋由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B072HGRGRP",
+        "B072NZXGFK"
+      ],
+      "pagesChecked": 2,
+      "added": 0,
+      "unverifiedRange": "硬いキャップ3件は除外。布製品7件はAmazon現行ページで3辺寸法を確認できず保留。梱包後厚さ・重量も未実測。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=圧縮袋由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B0F8Q2C365"
+      ],
+      "pagesChecked": 1,
+      "added": 0,
+      "unverifiedRange": "硬いキャップ3件は除外。布製品7件はAmazon現行ページで3辺寸法を確認できず保留。梱包後厚さ・重量も未実測。"
+    },
+    {
+      "reviewedOn": "2026-10-13",
+      "scope": "Amazon.co.jp商品ページ: title=収納袋由来の未確認ASINのタイトル・掲載寸法・主画像URLを取得",
+      "asinsChecked": [
+        "B07CXJN2X8",
+        "B07CXHBRQX"
+      ],
+      "pagesChecked": 2,
+      "added": 0,
+      "unverifiedRange": "アストロの布製収納袋2件はAmazon現行ページで3辺寸法を確認できず保留。Keepa梱包値だけでは主一覧登録条件を満たさない。"
     }
   ],
   "searchStops": [

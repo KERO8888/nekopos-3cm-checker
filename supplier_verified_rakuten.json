@@ -2383,7 +2383,136 @@
         "identifier_unconfirmed": 0
       },
       "suppliers": []
+    },
+    "B0FH6NSZP1": {
+      "expectedEans": [
+        "4902806134766"
+      ],
+      "checkedPages": 5,
+      "cumulativeCheckedPages": 5,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 32,
+      "rejected": {
+        "HTTPError": 1,
+        "jan_missing": 1,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "マンダム ルシードエル アールイー リペア トリートメント つめかえ用 300g",
+          "storeName": "姫路流通センター",
+          "jan": "4902806134766",
+          "priceYen": 898,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T10:41:01.678970+00:00",
+          "url": "https://item.rakuten.co.jp/at-life/4902806134766/",
+          "store": "姫路流通センター",
+          "inboundShippingYen": 399,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ルシードエル アールイー リペアトリートメント つめかえ用 300g",
+          "storeName": "クスリのアオキ2号店楽天市場店",
+          "jan": "4902806134766",
+          "priceYen": 943,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T10:40:29.935309+00:00",
+          "url": "https://item.rakuten.co.jp/kusuriaoki-r-2/4902806134766/",
+          "store": "クスリのアオキ2号店楽天市場店",
+          "inboundShippingYen": 490,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ルシードエル アールイー リペアトリートメント つめかえ用 300g 再整美容 つやストレート キンモクセイ×グレープフルーツの香り 詰め替え LUCIDO-L マンダム(mandom)",
+          "storeName": "コスメボックス",
+          "jan": "4902806134766",
+          "priceYen": 990,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T10:40:19.392912+00:00",
+          "url": "https://item.rakuten.co.jp/cosmebox/j4902806134766/",
+          "store": "コスメボックス",
+          "inboundShippingYen": 800,
+          "displayPoints": 9,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
+    },
+    "B0DRFTKKVV": {
+      "expectedEans": [
+        "4902111778846"
+      ],
+      "checkedPages": 5,
+      "cumulativeCheckedPages": 5,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 46,
+      "rejected": {
+        "HTTPError": 1,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "ユニリーバ ラックス スーパーリッチクリスタル マルチダメージリペア トリートメント つめかえ用 300g",
+          "storeName": "姫路流通センター",
+          "jan": "4902111778846",
+          "priceYen": 658,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T10:41:50.723793+00:00",
+          "url": "https://item.rakuten.co.jp/at-life/4902111778846/",
+          "store": "姫路流通センター",
+          "inboundShippingYen": 399,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ラックス スーパーリッチクリスタル マルチダメージリペア トリートメント つめかえ用 300g",
+          "storeName": "くすりの勉強堂 アネックス",
+          "jan": "4902111778846",
+          "priceYen": 541,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T10:41:19.414716+00:00",
+          "url": "https://item.rakuten.co.jp/k-benkyo/4902111778846/",
+          "store": "くすりの勉強堂 アネックス",
+          "inboundShippingYen": 600,
+          "displayPoints": 4,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ユニリーバ ラックス スーパーリッチクリスタル マルチダメージリペア トリートメント つめかえ用 300g",
+          "storeName": "マイレピ　P＆Gストア",
+          "jan": "4902111778846",
+          "priceYen": 658,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T10:41:40.099287+00:00",
+          "url": "https://item.rakuten.co.jp/myrepi-2/4902111778846r/",
+          "store": "マイレピ　P＆Gストア",
+          "inboundShippingYen": 599,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ユニリーバ ラックス スーパーリッチクリスタル マルチダメージリペア トリートメント つめかえ用 300g",
+          "storeName": "ケンコウlife",
+          "jan": "4902111778846",
+          "priceYen": 658,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T10:42:01.331038+00:00",
+          "url": "https://item.rakuten.co.jp/yoikenkou/4902111778846/",
+          "store": "ケンコウlife",
+          "inboundShippingYen": 599,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-13T09:38:04.689094+00:00"
+  "checkedAt": "2026-10-13T10:42:01.643762+00:00"
 }
