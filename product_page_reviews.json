@@ -4978,6 +4978,58 @@
       "reviewStatus": "excluded_listed_minimum_side_not_over_3cm",
       "decisionReason": "現行Amazonページ掲載3辺17×11×1cmの最小辺が3cm以下で、登録条件に一致しない。",
       "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0H35DDLX6",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0H35DDLX6",
+      "title": "リングスモイストリペアシャンプー＆トリートメント、うねり補修・天然由来成分配合、ボトル本体／詰め替えパウチ (シャンプーつめかえ)",
+      "dimensions": [
+        {
+          "value": "6.5 x 12.5 x 21 cm",
+          "context": "       :\n                                            ‎ 6.5 x 12.5 x 21 cm; 360 g Amazon.co.jp での取り扱い開始日\n    "
+        },
+        {
+          "value": "6.5 x 12.5 x 21 cm",
+          "context": "補給, 天然由来成分配合, 羊毛由来加水分解ケラチンによる毛髪補修 サイズ 商品の入り数 1 商品本体サイズ 6.5 x 12.5 x 21 cm ユニット数 400.0 グラム パッケージサイズ名 本体400ml "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/51pWum7KImL._AC_SL1200_.jpg",
+      "reviewStatus": "hold_current_page_variant_differs_from_keepa",
+      "decisionReason": "Amazonページの選択表示は詰め替えパウチだが寸法欄に「本体400ml」と記載され、掲載6.5×12.5×21cmを詰替え袋の寸法と確定できない。写真は柔らかい袋でも、寸法の対応を確認できるまで保留。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B015CJ81X6",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B015CJ81X6",
+      "title": "ラボン(Lavons) 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+      "dimensions": [
+        {
+          "value": "24 x 12.7 x 6.3 cm",
+          "context": "       :\n                                            ‎ 24 x 12.7 x 6.3 cm; 490 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/71mQF6cRXwL._AC_SL1200_.jpg",
+      "reviewStatus": "added_after_manual_photo_and_dimensions_review",
+      "decisionReason": "Amazon現行ページ掲載24×12.7×6.3cm、480mL単品。メーカー公式で同容量の詰替えを確認し、商品写真で切り取り式の柔らかい袋・硬いキャップなしを確認。袋内で液体を広げれば3cm以下の具体的可能性があるが、袋面・局所最大厚・外装と重量は未実測。",
+      "decidedOn": "2026-10-13"
+    },
+    {
+      "asin": "B0F4JW773L",
+      "checkedOn": "2026-10-13",
+      "source": "https://www.amazon.co.jp/dp/B0F4JW773L",
+      "title": "レノア【最高級の香り】オードリュクス 柔軟剤 リリー&ジャスミンの香り 詰め替え 680mL",
+      "dimensions": [
+        {
+          "value": "26.7 x 18.6 x 6 cm",
+          "context": "       :\n                                            ‎ 26.7 x 18.6 x 6 cm; 710 g メーカー\n                      "
+        }
+      ],
+      "primaryImageUrl": "https://m.media-amazon.com/images/I/81S6GH0BB8L._AC_SL1500_.jpg",
+      "reviewStatus": "excluded_rigid_screw_cap",
+      "decisionReason": "Amazon現行ページの主画像に硬いねじ式キャップ付きの注ぎ口が写っており、内容液をならしても局所的な厚みを減らせない。",
+      "decidedOn": "2026-10-13"
     }
   ]
 }

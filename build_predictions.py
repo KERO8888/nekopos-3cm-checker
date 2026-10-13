@@ -32,6 +32,7 @@ SOURCES = {
 }
 
 FORM_SOURCES = {
+    'B015CJ81X6': 'https://www.lavons.jp/laundry-softner/',
     'B0BTSDRMZY': 'https://shop.kaneka.co.jp/item/E2844/',
     'B0B5MLNGH8': 'https://www.andwell.shop/products/mulberry-leaf-tea',
     'B0CWKDCLG7': 'https://www.kunitaro.co.jp/items/%E6%9C%89%E6%A9%9F%E7%B2%89%E6%9C%AB%E7%B7%91%E8%8C%B6/',
@@ -119,6 +120,7 @@ GEOMETRY_OVERRIDES = {
 }
 
 SPECIAL = {
+    'B015CJ81X6': ('borderline', 'メーカーは同じ香りの480mL詰替えを掲載。Amazon写真は切り取り式の柔らかい単品袋で、硬いキャップは見えない。掲載24×12.7cmに480mLを均す計算は約2.3cmだが、有効な袋面・封かん・発送外装は未実測。', '低'),
     'B0BTSDRMZY': ('borderline', 'メーカーは同一500gチャック袋をネコポス対象と表示。ただし現行Amazonの袋面・外装最大厚は未測定で、500g粉末の局所的な厚みが残る。', '低'),
     'B0CWKDCLG7': ('borderline', 'メーカー公称の商品奥行は3.0cmで上限と同じ。粉末を均した計算値は局所的な袋の厚みや発送外装を含まないため、梱包後最大厚と重量の実測が必要。', '低'),
     'B08YFFNJ9L': ('borderline', '90粒の重なりと袋の縁が最大厚を決めるため、質量だけの体積計算より広い範囲を仮置き。', '低'),
@@ -241,13 +243,15 @@ for item in products:
         thin, thick = 1.0, 3.0  # tea bags and wrappers cannot be modeled as loose leaves
     if asin == 'B077PTNJ29':
         thin, thick = 2.1, 3.4  # the rigid pour spout is not captured by liquid volume
+    if asin == 'B015CJ81X6':
+        thin, thick = 2.2, 3.3  # pouch face and seal thickness are unmeasured
     if asin in ('B0CBHB12LV', 'B0FWQXZVTF'):
         thick = 3.5  # unknown peak of included measuring spoon
     if asin == 'B08YFFNJ9L':
         thin, thick = 1.0, 2.5  # tablet peak and seal are not represented by bulk density
     thickness_override = asin in {
         'B079L4T8BS', 'B079L56FM7', 'B07ND8DBVG', 'B0H8MNXGKP',
-        'B077PTNJ29', 'B0CBHB12LV', 'B0FWQXZVTF', 'B08YFFNJ9L',
+        'B077PTNJ29', 'B015CJ81X6', 'B0CBHB12LV', 'B0FWQXZVTF', 'B08YFFNJ9L',
     }
     if asin == 'B0CVKL9BVN':
         confidence = '中'  # matching manufacturer's package dimensions were found

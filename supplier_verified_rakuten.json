@@ -2288,7 +2288,91 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B015CJ81X6": {
+      "expectedEans": [
+        "4582469491521"
+      ],
+      "checkedPages": 5,
+      "cumulativeCheckedPages": 5,
+      "identifierSource": "Two independent Rakuten product pages, matching title and size",
+      "eligibleLeads": 27,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "ラボン 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+          "storeName": "S4Gオンラインショップ",
+          "jan": "4582469491521",
+          "priceYen": 806,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T08:34:59.430153+00:00",
+          "url": "https://item.rakuten.co.jp/s4gshop/20250214105342_95/",
+          "store": "S4Gオンラインショップ",
+          "inboundShippingYen": 0,
+          "displayPoints": 7,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ラボン 柔軟剤 シャイニームーン[フローラルグリーン]の香り 詰め替え 480ml",
+          "storeName": "morro",
+          "jan": "4582469491521",
+          "priceYen": 812,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T08:35:09.878093+00:00",
+          "url": "https://item.rakuten.co.jp/morro/20241103223636_94/",
+          "store": "morro",
+          "inboundShippingYen": 0,
+          "displayPoints": 7,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ネイチャーラボ ラボン 柔軟剤 シャイニームーンの香り 詰め替え ４８０ｍｌ",
+          "storeName": "マツモトキヨシ楽天市場店",
+          "jan": "4582469491521",
+          "priceYen": 657,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T08:34:38.350425+00:00",
+          "url": "https://item.rakuten.co.jp/matsukiyo/4582469491521/",
+          "store": "マツモトキヨシ楽天市場店",
+          "inboundShippingYen": 550,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ラボン  柔軟剤  詰め替え  シャイニームーンの香り    480ml",
+          "storeName": "サンドラッグe-shop",
+          "jan": "4582469491521",
+          "priceYen": 657,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T08:34:48.872203+00:00",
+          "url": "https://item.rakuten.co.jp/sundrug/4582469491521/",
+          "store": "サンドラッグe-shop",
+          "inboundShippingYen": 600,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ラボン 柔軟剤 シャイニームーンの香り 詰め替え(480ml)【ラボン(LAVONS)】",
+          "storeName": "楽天24",
+          "jan": "4582469491521",
+          "priceYen": 657,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T08:35:20.520828+00:00",
+          "url": "https://item.rakuten.co.jp/rakuten24/e425495h/",
+          "store": "楽天24",
+          "inboundShippingYen": 770,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-13T07:33:05.841256+00:00"
+  "checkedAt": "2026-10-13T08:35:20.832587+00:00"
 }

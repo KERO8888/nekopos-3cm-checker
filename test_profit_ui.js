@@ -60,6 +60,17 @@ const counts = products.reduce((out, product) => {
 }, {});
 assert.strictEqual(Object.values(counts).reduce((a, b) => a + b, 0), products.length);
 const candidates = products.filter(product => test.profitStateFor(product) === 'candidate');
+const lavons = products.find(item => item.asin === 'B015CJ81X6');
+assert.strictEqual(test.profitStateFor(lavons), 'price_risk');
+test.setProfitFilter('all');
+test.setSelectedAsin(lavons.asin);
+test.render();
+assert(element('#featured').innerHTML.includes('参考試算 · おすすめ出品より高く、販売成立は未確認'));
+assert(element('#featured').innerHTML.includes('おすすめ出品¥552'));
+assert(element('#featured').innerHTML.includes('参考 +¥154'));
+assert(!candidates.includes(lavons));
+test.setProfitFilter('candidate');
+test.setSelectedAsin(candidates[0]?.asin || '');
 const caramel = products.find(item => item.asin === 'B0GL6TYSJR');
 const freeShippingProfit = test.profitFor(caramel, 'clickpost');
 const singleOrderProfit = test.profitFor(caramel, 'clickpost', { buyShipping: 440 });
