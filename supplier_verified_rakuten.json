@@ -2967,7 +2967,65 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B0CCXZFZQ2": {
+      "expectedEans": [
+        "4548514158603"
+      ],
+      "checkedPages": 6,
+      "cumulativeCheckedPages": 12,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 27,
+      "rejected": {
+        "price_changed": 1,
+        "jan_missing": 2,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "ポッピンアロマ　気分ごきげんフローラル　つめかえ（４２０ｇ）",
+          "storeName": "ゴダイ　楽天市場店",
+          "jan": "4548514158603",
+          "priceYen": 671,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T21:30:39.636921+00:00",
+          "url": "https://item.rakuten.co.jp/e-godai/4548514158603/",
+          "store": "ゴダイ　楽天市場店",
+          "inboundShippingYen": 555,
+          "displayPoints": 6,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "きき湯 ポッピンアロマ 気分ごきげんフロ ーラルの香り つめかえ用 420g(約14回分) バスクリン 炭酸入浴剤 発泡",
+          "storeName": "hanatomori楽天市場店",
+          "jan": "4548514158603",
+          "priceYen": 1448,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T21:31:00.615774+00:00",
+          "url": "https://item.rakuten.co.jp/hanatomori/20250702020240_161/",
+          "store": "hanatomori楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 13,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "バスクリン ポッピンアロマ 気分ごきげんフローラル 詰め替え 詰め替え用 420g 炭酸入浴剤 炭酸 入浴剤 つめかえ つめかえ用",
+          "storeName": "ママパパ子どもの生活用品 OK shop",
+          "jan": "4548514158603",
+          "priceYen": 806,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-13T21:30:50.163427+00:00",
+          "url": "https://item.rakuten.co.jp/okshop-02/4548514158603/",
+          "store": "ママパパ子どもの生活用品 OK shop",
+          "inboundShippingYen": 650,
+          "displayPoints": 7,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-13T18:34:47.679035+00:00"
+  "checkedAt": "2026-10-13T21:31:32.362378+00:00"
 }

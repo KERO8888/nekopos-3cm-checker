@@ -41,6 +41,10 @@ def url_jan_conflicts(url, page_jan):
     return bool(match and page_jan and match.group(1) != page_jan)
 
 
+def is_condition_unconfirmed(title):
+    return bool(re.search(r"訳あり|ワケあり|わけあり|アウトレット|箱(?:つぶれ|潰れ)|賞味期限間近", title or ""))
+
+
 def page_details(url, session):
     response = session.get(url, headers=HEADERS, timeout=30)
     response.raise_for_status()
@@ -72,6 +76,8 @@ def leads_for(item, expected_eans):
             if not lead.get("url", "").startswith("https://item.rakuten.co.jp/"):
                 continue
             if is_multi_unit(lead["title"]):
+                continue
+            if is_condition_unconfirmed(lead["title"]):
                 continue
             all_leads[lead["url"]] = lead
     filtered = [lead for lead in all_leads.values() if sizes_match(item.get("title", ""), lead["title"])]
@@ -121,7 +127,9 @@ def main():
                 rejected[type(exc).__name__] = rejected.get(type(exc).__name__, 0) + 1
                 continue
             reason = None
-            if is_multi_unit(detail["name"]):
+            if is_condition_unconfirmed(detail["name"]):
+                reason = "condition_unconfirmed"
+            elif is_multi_unit(detail["name"]):
                 reason = "multi_unit"
             elif not detail["jan"] or not re.fullmatch(r"\d{13}", detail["jan"]):
                 reason = "jan_missing"

@@ -15,7 +15,7 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 from supplier_rules import is_multi_unit
-from verify_rakuten_suppliers import sizes
+from verify_rakuten_suppliers import is_condition_unconfirmed, sizes
 
 
 ROOT = Path(__file__).resolve().parent
@@ -97,7 +97,8 @@ def main():
                          if re.fullmatch(r"\d{13}", query.get("query", ""))] if args.discovery else []
         eans = list(dict.fromkeys((identifiers.get(asin, {}).get("eanList") or [])
                                   + (learned.get(asin, {}).get("expectedEans") or []) + searched_eans))
-        previous = [value for value in items.get(asin, {}).get("suppliers", []) if not is_multi_unit(value.get("name"))] if args.discovery else []
+        previous = [value for value in items.get(asin, {}).get("suppliers", [])
+                    if not is_multi_unit(value.get("name")) and not is_condition_unconfirmed(value.get("name"))] if args.discovery else []
         verified = list(previous)
         checked = []
         if args.discovery:
@@ -114,6 +115,8 @@ def main():
                 continue
             if is_multi_unit(lead["title"]):
                 continue
+            if is_condition_unconfirmed(lead["title"]):
+                continue
             if lead["url"] in checked:
                 continue
             if any(value["url"] == lead["url"] for value in previous):
@@ -123,7 +126,7 @@ def main():
                 detail = page_details(lead["url"])
             except (requests.RequestException, ValueError, TypeError, AttributeError):
                 continue
-            if not eans or detail["jan"] not in eans or is_multi_unit(detail["name"]):
+            if not eans or detail["jan"] not in eans or is_multi_unit(detail["name"]) or is_condition_unconfirmed(detail["name"]):
                 continue
             if not detail["availability"].endswith("/InStock") or detail["priceYen"] is None:
                 continue

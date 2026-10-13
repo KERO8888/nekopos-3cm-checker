@@ -2,7 +2,7 @@ import unittest
 
 from discover_supplier_leads import rakuten_hits
 from supplier_rules import is_multi_unit
-from verify_rakuten_suppliers import leads_for, sizes, sizes_match, url_jan_conflicts
+from verify_rakuten_suppliers import is_condition_unconfirmed, leads_for, sizes, sizes_match, url_jan_conflicts
 
 
 class SupplierPipelineTests(unittest.TestCase):
@@ -45,6 +45,16 @@ class SupplierPipelineTests(unittest.TestCase):
                 {"title": "入浴剤 500g", "url": "https://item.rakuten.co.jp/shop/low/", "priceYen": 700, "displayShippingYen": 800},
             ]}}}
         self.assertEqual(leads_for(item, [])[0]["priceYen"], 700)
+
+    def test_condition_uncertain_offer_is_not_verified_as_new_stock(self):
+        item = {"title": "入浴剤 420g", "queries": {"rakuten:jan": {
+            "market": "rakuten", "firstPageHits": [
+                {"title": "【訳あり】入浴剤 420g", "url": "https://item.rakuten.co.jp/shop/damaged/", "priceYen": 408, "displayShippingYen": 0},
+                {"title": "入浴剤 420g", "url": "https://item.rakuten.co.jp/shop/normal/", "priceYen": 671, "displayShippingYen": 0},
+            ]}}}
+        self.assertEqual([lead["priceYen"] for lead in leads_for(item, [])], [671])
+        self.assertTrue(is_condition_unconfirmed("箱潰れ 入浴剤 420g"))
+        self.assertFalse(is_condition_unconfirmed("入浴剤 420g"))
 
 
 if __name__ == "__main__":
