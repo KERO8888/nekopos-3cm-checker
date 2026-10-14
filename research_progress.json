@@ -409918,7 +409918,22 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "NaTruly（ナトゥリー） サンザシ 濃縮エキス 250g 3個セット さんざしドリンク パウチ 果汁100% 砂糖・甘味料不使用",
+      "triageScore": 1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        50,
+        172,
+        210
+      ],
+      "keepaPackageWeightG": 850,
+      "keepaNumberOfItems": 3
     },
     {
       "asin": "B0FHGF3DJ4",
@@ -409927,7 +409942,21 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "NaTruly（ナトゥリー） 有機 タルトチェリー 濃縮エキス 650g 希釈タイプ タルトチェリージュース 栄養機能食品 鉄 オーガニック パウチ",
+      "triageScore": 5,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm以下"
+      ],
+      "keepaPackageMm": [
+        27,
+        150,
+        298
+      ],
+      "keepaPackageWeightG": 680,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0CWGRSPTF",
@@ -409936,7 +409965,23 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "NaTruly（ナトゥリー） 有機 レッドビーツ 濃縮エキス 250g×3個 希釈タイプ オーガニック ビーツジュース ビートルート 無農薬 パウチ",
+      "triageScore": 2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        40,
+        189,
+        215
+      ],
+      "keepaPackageWeightG": 850,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GT441FJK",
@@ -409945,7 +409990,23 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "吉野家 牛丼の具 30袋セット (120g 30食) 並盛 冷凍パウチ どんぶり おかず レンジ・湯せん調理OK まとめ買い 大容量 公式ショップ",
+      "triageScore": -9,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        145,
+        175,
+        200
+      ],
+      "keepaPackageWeightG": 3600,
+      "keepaNumberOfItems": 30
     },
     {
       "asin": "B08N6F22XV",
@@ -409954,7 +410015,23 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "ユウキ食品 甜面醤(中華甘みそ) 16kg(業務用・パウチBOX)",
+      "triageScore": -2,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        233,
+        279,
+        345
+      ],
+      "keepaPackageWeightG": 16790,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GXCQL4KH",
@@ -409963,7 +410040,24 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "吉野家 冷凍牛丼の具 10袋＋ミニ1袋 (並盛120g×10食＋ミニ80g×1食) 冷凍パウチ 並盛 どんぶり お試し 仕送り",
+      "triageScore": -8,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "単品を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        86,
+        175,
+        276
+      ],
+      "keepaPackageWeightG": 1300,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B09S5R7RQ9",
@@ -409972,7 +410066,22 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "吉野家 牛丼の具 7袋セット (120g 7食) 冷凍パウチ 並盛 どんぶり おかず レンジ・湯せん調理OK お試し",
+      "triageScore": 1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        100,
+        130,
+        170
+      ],
+      "keepaPackageWeightG": 1000,
+      "keepaNumberOfItems": 7
     },
     {
       "asin": "B00ODVC690",
@@ -409981,7 +410090,23 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "コカ・コーラ ミニッツ メイド 朝リンゴ ゼリー 180gパウチ×24個",
+      "triageScore": -9,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        157,
+        258,
+        361
+      ],
+      "keepaPackageWeightG": 5100,
+      "keepaNumberOfItems": 24
     },
     {
       "asin": "B0DNTLQJM4",
@@ -409990,7 +410115,21 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "コカ・コーラ ミニッツメイド 朝リンゴ ゼリー 180gパウチ",
+      "triageScore": 7,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        56,
+        84,
+        134
+      ],
+      "keepaPackageWeightG": 190,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B003N17RJK",
@@ -409999,7 +410138,23 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "コカ・コーラ ミニッツメイド 朝リンゴ ゼリー 180mlパウチ×6個",
+      "triageScore": -9,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        88,
+        141,
+        246
+      ],
+      "keepaPackageWeightG": 1190,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B00KG7TQEI",
@@ -410008,7 +410163,23 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "コカ・コーラ ミニッツ メイド 朝マンゴ ゼリー 180gパウチ×24個",
+      "triageScore": -9,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        154,
+        260,
+        369
+      ],
+      "keepaPackageWeightG": 5040,
+      "keepaNumberOfItems": 24
     },
     {
       "asin": "B003N17RJ0",
@@ -410017,7 +410188,23 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "コカ・コーラ ミニッツメイド 朝マンゴ ゼリー 180mlパウチ×6個",
+      "triageScore": -9,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        89,
+        140,
+        249
+      ],
+      "keepaPackageWeightG": 1210,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B07DY7K2RB",
@@ -410026,7 +410213,22 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "PERFECTVITAMIN ハウスウェルネスフーズ ＰＥＲＦＥＣＴ ＶＩＴＡＭＩＮ １日分のビタミンゼリー マスカット味 １８０ｇパウチ ６本パック ビタミン全１３種類を１袋で手軽に補給",
+      "triageScore": -3,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        87,
+        134,
+        248
+      ],
+      "keepaPackageWeightG": 1200,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B08XH2H9XN",
@@ -410035,7 +410237,23 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "はごろも さばで健康 ハーブ&ソルト(パウチ) 90g (1422) ×12個",
+      "triageScore": -9,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        118,
+        172,
+        200
+      ],
+      "keepaPackageWeightG": 1480,
+      "keepaNumberOfItems": 12
     },
     {
       "asin": "B008ZX405U",
@@ -410044,7 +410262,22 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "コカ・コーラ ミニッツ メイド ぷるんぷるんQoo ぶどう 125gパウチ×6袋",
+      "triageScore": 1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        86,
+        165,
+        183
+      ],
+      "keepaPackageWeightG": 860,
+      "keepaNumberOfItems": 6
     },
     {
       "asin": "B076BJ3BKD",
@@ -410053,7 +410286,23 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "コカ・コーラ ミニッツ メイド ぷるんぷるんQoo ぶどう 125gパウチ×30袋",
+      "triageScore": -9,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        182,
+        195,
+        446
+      ],
+      "keepaPackageWeightG": 4510,
+      "keepaNumberOfItems": 30
     },
     {
       "asin": "B0BKG18SN1",
@@ -410062,7 +410311,21 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "龍角散 龍角散ののどすっきり飴 88g×8個",
+      "triageScore": -4,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        52,
+        181,
+        327
+      ],
+      "keepaPackageWeightG": 760,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B09VSMK94F",
@@ -410071,7 +410334,23 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "森永 はぐくみ 液体ミルク エコらくパウチ 100ml×20袋 [ 赤ちゃん ミルク 新生児 0ヶ月~1歳頃 常温で飲める液体ミルク ケース販売 ]",
+      "triageScore": -9,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "掲載重量1kg超"
+      ],
+      "keepaPackageMm": [
+        124,
+        204,
+        205
+      ],
+      "keepaPackageWeightG": 2470,
+      "keepaNumberOfItems": 20
     },
     {
       "asin": "B09VSN77Y8",
@@ -410080,7 +410359,22 @@
       "discoverySources": [
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "森永 はぐくみ 液体ミルク エコらくパウチ 100ml×5袋 [ 赤ちゃん ミルク 新生児 0ヶ月~1歳頃 常温で飲める液体ミルク ]",
+      "triageScore": 1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超"
+      ],
+      "keepaPackageMm": [
+        56,
+        98,
+        193
+      ],
+      "keepaPackageWeightG": 570,
+      "keepaNumberOfItems": 5
     },
     {
       "asin": "B0FPF2CCQ3",
@@ -410090,7 +410384,21 @@
         "Keepa title=パウチ root=57239051 side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm",
         "Keepa title=\"パウチ\" root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T20:27:00.009340+09:00",
+      "keepaTitle": "ミヤモトオレンジガーデン ゼリー みかん 愛媛産 寒天 100g 飲むゼリー パウチ 詰め合わせ 無着色 無香料 国産 ご家庭用 フルーツ ジュレ 化学添加物不使用 (【通常ギフト】7本)",
+      "triageScore": -1,
+      "triageTags": [
+        "柔らかい袋を示す語",
+        "複数単位の可能性"
+      ],
+      "keepaPackageMm": [
+        -1,
+        -1,
+        -1
+      ],
+      "keepaPackageWeightG": 100,
+      "keepaNumberOfItems": -1
     },
     {
       "asin": "B0HDNRWLJL",
@@ -567447,6 +567755,14 @@
       "tokensLeft": 235,
       "scope": "商品名・梱包3辺・入り数の一次選別。良品計画公式で商品番号と平型・丸型、ファスナーを照合。Amazon現行ページと梱包後厚みは未確認。",
       "unverifiedRange": "B0F6CJNY8F・B0F6CKTX3QほかはKeepaの梱包寸法のみ。Amazon現行ページの単品・掲載3辺、未開封折り畳み時のファスナー込み最大厚・外寸は未確認。発見済みASINの大半も未確認。"
+    },
+    {
+      "checkedOn": "2026-10-14",
+      "source": "Keepa title=\"パウチ\" の未確認ASIN（続き）",
+      "asinsChecked": 20,
+      "tokensLeft": 280,
+      "scope": "商品名・梱包3辺・入り数による一次選別。メーカー公式で朝リンゴ180gがキャップ付きと確認したため除外。Amazon現行ページ取得は停止中。",
+      "unverifiedRange": "20件は単品でも硬いキャップ付き、掲載最小辺3cm以下、3個以上のセット、冷凍品や16kg業務用等が中心。その他の発見済みASINの大半は未確認。"
     }
   ]
 }
