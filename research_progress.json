@@ -1,5 +1,5 @@
 {
-  "searchedOn": "2026-10-14",
+  "searchedOn": "2026-10-15",
   "marketplace": "Amazon.co.jp",
   "method": "Amazon.co.jp検索結果とKeepa Product Finderから未確認ASINを収集し、商品ページは別途個別照合。",
   "coverageNote": "Keepaデータベースと確認済みAmazon検索語・ページ以外のASINは残る。Amazon全商品を網羅していない。",
@@ -223621,7 +223621,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "フルーツティー ティートリコ ティート フレスカ 50g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        39,
+        61,
+        117
+      ],
+      "keepaPackageWeightG": 60,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C4PF854Q",
@@ -223630,7 +223644,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "フルーツティー ティートリコ ティート フレスカ 200g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        49,
+        93,
+        233
+      ],
+      "keepaPackageWeightG": 220,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C4PJ9PXR",
@@ -223647,7 +223675,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "フルーツティー ティートリコ ティート チェリーアマレット 50g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        41,
+        62,
+        169
+      ],
+      "keepaPackageWeightG": 60,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C4PD1BJS",
@@ -223656,7 +223698,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "フルーツティー ティートリコ ティート ヨーグルトミックス 50g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        38,
+        59,
+        167
+      ],
+      "keepaPackageWeightG": 60,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C4PG2J8K",
@@ -223665,7 +223721,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "フルーツティー ティートリコ ティート シャルドネスイート 200g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        61,
+        91,
+        232
+      ],
+      "keepaPackageWeightG": 210,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FZT2K6Y7",
@@ -223674,7 +223744,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "フルーツティー ティートリコ ティート ペアー 200g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        60,
+        95,
+        240
+      ],
+      "keepaPackageWeightG": 210,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C4PDM65P",
@@ -223683,7 +223767,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "フルーツティー ティートリコ ティート アプリコット 50g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        38,
+        60,
+        168
+      ],
+      "keepaPackageWeightG": 60,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C4PFK8QW",
@@ -224372,7 +224470,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "NaTruly（ナトゥリー） 楼蘭 なつめ ドライ 種なし 500g しっとり 棗 無農薬 添加物不使用",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        63,
+        229,
+        297
+      ],
+      "keepaPackageWeightG": 530,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B08K2QMXHB",
@@ -224846,7 +224958,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "NaTruly（ナトゥリー） 楼蘭 大なつめ ドライ 種あり 100g 特大粒 ナツメ フカフカ食感 無農薬 添加物不使用 棗",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        52,
+        140,
+        174
+      ],
+      "keepaPackageWeightG": 110,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CG141DX5",
@@ -224895,7 +225021,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "マコーミック バジル (ドライハーブ) 140g",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        74,
+        91,
+        207
+      ],
+      "keepaPackageWeightG": 210,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DWD1JWR8",
@@ -224960,7 +225100,22 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "meito スティックメイト 4種の選べるフルーツティー 24本入",
+      "triageScore": -3,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        67,
+        106,
+        165
+      ],
+      "keepaPackageWeightG": 200,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0G6YX4893",
@@ -225194,7 +225349,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "NaTruly（ナトゥリー）楼蘭 大なつめ ドライ 種あり 300g 特大粒 ナツメ フカフカ食感 無農薬 添加物不使用 棗",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        38,
+        241,
+        301
+      ],
+      "keepaPackageWeightG": 340,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C5R37BR5",
@@ -225203,7 +225372,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "NaTruly（ナトゥリー） 楼蘭 なつめ ドライ 種なし 250g しっとり 棗 無農薬 添加物不使用",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        38,
+        233,
+        302
+      ],
+      "keepaPackageWeightG": 280,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C5QZX158",
@@ -225212,7 +225395,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "NaTruly（ナトゥリー） 楼蘭 なつめ ドライ 種なし 70g しっとり 棗 無農薬 添加物不使用",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        31,
+        134,
+        216
+      ],
+      "keepaPackageWeightG": 80,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C5QYS68S",
@@ -225229,7 +225426,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "NaTruly（ナトゥリー）楼蘭 大なつめ ドライ 種あり 500g 特大粒 ナツメ フカフカ食感 無農薬 添加物不使用 棗",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        70,
+        230,
+        300
+      ],
+      "keepaPackageWeightG": 540,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0C5QYXJ21",
@@ -225318,7 +225529,22 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "銀座千疋屋 銀座ゼリーA(6個) ギフト お菓子 フルーツ ゼリー 詰合せ",
+      "triageScore": -3,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        48,
+        166,
+        262
+      ],
+      "keepaPackageWeightG": 620,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CLNFHM82",
@@ -226115,7 +226341,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "ママパン 酵母 サフ インスタント・ドライイースト金 500g 乾燥酵母",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        69,
+        92,
+        125
+      ],
+      "keepaPackageWeightG": 550,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B019H28756",
@@ -226214,7 +226454,22 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "シロカ×ニップン 毎日おいしい 糖質76%オフ 食パンミックス(250g×2入) SHB-MIX3000｜ドライイースト付 食物繊維4倍 水を加えるだけでOK",
+      "triageScore": -3,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        64,
+        141,
+        191
+      ],
+      "keepaPackageWeightG": 590,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B095K9JZZX",
@@ -226457,7 +226712,22 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "【10袋セット】サフ インスタント ドライイースト 金 3g 個包装 まとめ買い 糖分5％以上の生地に使用可能 金サフ 低糖生地 高糖生地 パン用",
+      "triageScore": -5,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        12,
+        157,
+        203
+      ],
+      "keepaPackageWeightG": 40,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B09TZT16NY",
@@ -226514,7 +226784,21 @@
       "discoverySources": [
         "Keepa root=57239051 weight=0-700g side>=0mm",
         "Keepa title=ドライフルーツ root=57239051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-15T00:27:01.009801+09:00",
+      "keepaTitle": "ギフト お菓子 和菓子 羊羹 詰合せ パティスリー銀座千疋屋 銀座フルーツ羊羹",
+      "triageScore": 1,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm以下",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        24,
+        106,
+        168
+      ],
+      "keepaPackageWeightG": 310,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0D946L8XZ",
@@ -568577,6 +568861,14 @@
       "tokensLeft": 290,
       "scope": "商品名・梱包3辺・入り数による一次選別。実際の商品名は柔軟剤・洗濯洗剤・芳香剤で、入浴剤は0件。1.15～1.9Lの大容量袋や複数袋セット等。Amazon現行ページは未確認。",
       "unverifiedRange": "検索経路と商品名が一致しない10件を確認。同検索経路の1,000件中、商品情報を未取得の837件には入浴剤候補が残る可能性があるが、この抽出条件の精度は低い。発見済みASINの大半も未確認。"
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "source": "Keepa title=ドライフルーツ root=57239051 の未確認ASIN",
+      "asinsChecked": 20,
+      "tokensLeft": 280,
+      "scope": "商品名・梱包3辺・入り数で一次選別。TEAtriCO公式の商品容量と果実原料を照合したが、同一Amazon商品の未開封形状・寸法・果実片の最大厚は未確認。",
+      "unverifiedRange": "B0C4PHPG3Zなど50gフルーツティーはKeepa梱包最小辺3.8～4.1cmで単品候補。Amazon現行ページ、商品袋の厚み・果実片の局所厚・外装後厚さは未確認。大粒ナツメは局所厚が不明で保留、複数品セットは条件外。発見済みASINの大半も未確認。"
     }
   ]
 }
