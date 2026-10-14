@@ -7104,9 +7104,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T16:29:47.794194+09:00",
       "keepaTitle": "カリー屋 ハウス チキンカレー 中辛 180g×10個 【レンジ調理対応】【レトルト食品】【非常食】",
-      "triageScore": 4,
+      "triageScore": -2,
       "triageTags": [
         "柔らかい袋を示す語",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "掲載重量1kg超"
       ],
@@ -7265,9 +7266,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T16:29:47.794194+09:00",
       "keepaTitle": "House ハウス 温めずにおいしいカレー まろやか野菜カレー200g×10個【レトルト食品】【非常食・保存食・加熱不要・備蓄・ローリングストック】",
-      "triageScore": 4,
+      "triageScore": -2,
       "triageTags": [
         "柔らかい袋を示す語",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "掲載重量1kg超"
       ],
@@ -18259,8 +18261,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T18:30:13.273410+09:00",
       "keepaTitle": "アミュード 中華スープ インスタント (4.2g×100食入) 小袋",
-      "triageScore": 2,
+      "triageScore": -4,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -45546,8 +45549,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T18:30:13.273410+09:00",
       "keepaTitle": "アミュード インスタントスープ100食 (オニオン100食)",
-      "triageScore": 2,
+      "triageScore": -4,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -47680,9 +47684,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T19:31:44.958134+09:00",
       "keepaTitle": "ボールド ジェルボール 柔軟剤入り【大容量】100個 フレッシュサボンの香り 洗濯洗剤 詰め替え",
-      "triageScore": 4,
+      "triageScore": -2,
       "triageTags": [
         "詰め替えを示す語",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1",
         "掲載重量1kg超"
@@ -47766,9 +47771,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T19:31:44.958134+09:00",
       "keepaTitle": "ボールド ジェルボール 柔軟剤入り【大容量】100個 プレミアムブロッサムの香り 洗濯洗剤 詰め替え",
-      "triageScore": 4,
+      "triageScore": -2,
       "triageTags": [
         "詰め替えを示す語",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1",
         "掲載重量1kg超"
@@ -60257,11 +60263,12 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T19:32:27.662678+09:00",
       "keepaTitle": "by Amazon お掃除用 使い捨てウェットシート 銀イオン配合 無香料 (詰め替え用 100枚×2個セット)",
-      "triageScore": 0,
+      "triageScore": -6,
       "triageTags": [
         "詰め替えを示す語",
         "薄く並べられる可能性のある品目",
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "掲載重量1kg超"
       ],
@@ -103178,10 +103185,11 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T20:30:11.909710+09:00",
       "keepaTitle": "[OKスパウト] センタースパウト パウチ (200ml×15枚) 食品衛生法適合 日本製 詰め替え キャップ付き 飲料 ジャム ジュース ドリンク",
-      "triageScore": -1,
+      "triageScore": -7,
       "triageTags": [
         "柔らかい袋を示す語",
         "詰め替えを示す語",
+        "複数単位の可能性",
         "複数枚・詰め合わせの可能性",
         "硬い部材・注ぎ口の可能性",
         "Keepa掲載の最小辺が3cm超",
@@ -121799,9 +121807,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T22:38:28.743041+09:00",
       "keepaTitle": "チョコレート効果 明治 カカオ72%パウチ 40g×10袋",
-      "triageScore": 8,
+      "triageScore": 2,
       "triageTags": [
         "柔らかい袋を示す語",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -123746,9 +123755,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T22:38:30.145077+09:00",
       "keepaTitle": "銀のスプーン 三ツ星グルメ パウチ スープ まぐろ・かつおにしらすとかつお節入り 35g×16コ",
-      "triageScore": 8,
+      "triageScore": 2,
       "triageTags": [
         "柔らかい袋を示す語",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -128175,7 +128185,23 @@
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g",
         "Keepa category=1153734051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "ナカバヤシ ピーナッツ フラットファイルJ A4S 3柄(P+V+N) 3冊パック FF-J8031-3PB",
+      "triageScore": 0,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        41,
+        237,
+        312
+      ],
+      "keepaPackageWeightG": 210,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0BPHK9885",
@@ -128184,7 +128210,23 @@
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g",
         "Keepa category=1153734051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "ナカバヤシ ピーナッツ フラットファイルJ A4S 3柄(LG+SB+OR) 3冊パック FF-J8031-3PC",
+      "triageScore": 0,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        41,
+        236,
+        317
+      ],
+      "keepaPackageWeightG": 210,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0BPHFY77D",
@@ -128193,7 +128235,23 @@
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g",
         "Keepa category=1153734051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "ナカバヤシ ピーナッツ フラットファイルJ A4S 3柄(B+Y+G) 3冊パック FF-J8031-3PA",
+      "triageScore": 0,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        39,
+        236,
+        310
+      ],
+      "keepaPackageWeightG": 210,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B003VUT4XK",
@@ -128202,7 +128260,21 @@
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g",
         "Keepa category=1153734051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "リヒトラブ マガジンファイル A4L ブラック F1403",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        69,
+        253,
+        314
+      ],
+      "keepaPackageWeightG": 430,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B002G1Y4V2",
@@ -128211,7 +128283,21 @@
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g",
         "Keepa category=1153734051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "ステーショナリー メッシュひき出し B5 イエロー",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        80,
+        234,
+        330
+      ],
+      "keepaPackageWeightG": 150,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0FZ56MRSH",
@@ -128220,7 +128306,25 @@
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g",
         "Keepa category=1153734051 side>=0mm"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "[Vibrly] シール帳 透明 M5 【リフィル10枚付き】 5穴 クリアバインダー PPシート 推し活 グッズ コレクション 収納 ファイル 持ち運び 手帳デコ ステッカー",
+      "triageScore": -2,
+      "triageTags": [
+        "詰め替えを示す語",
+        "薄く並べられる可能性のある品目",
+        "複数枚・詰め合わせの可能性",
+        "厚い留め具・硬い部材の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        32,
+        143,
+        144
+      ],
+      "keepaPackageWeightG": 90,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0859RZ8BT",
@@ -128228,7 +128332,22 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "コクヨ(KOKUYO) クリヤーブック<グラッセル>40P LG ラ-GL40LG",
+      "triageScore": -3,
+      "triageTags": [
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        200,
+        200,
+        300
+      ],
+      "keepaPackageWeightG": 500,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B002DBXVVO",
@@ -128236,7 +128355,21 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "セキセイ のび~るラック A4 クリア NR-2265",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        179,
+        225,
+        262
+      ],
+      "keepaPackageWeightG": 640,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B08FX2BWN8",
@@ -128244,7 +128377,22 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "コクヨ(KOKUYO) クリヤーブック<グラッセル>40P W ラ-GL40W",
+      "triageScore": -3,
+      "triageTags": [
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        200,
+        200,
+        300
+      ],
+      "keepaPackageWeightG": 500,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0D95BXZWZ",
@@ -128252,7 +128400,21 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "ハタヤリミテッド マッキュリィ オリーブグリーン MY-3-OG",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        61,
+        123,
+        136
+      ],
+      "keepaPackageWeightG": 420,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B002D7NZ64",
@@ -128260,7 +128422,27 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "セキセイ ファイル のび~るファイル 左右抜差可 2穴 A4 タテ ブルー AE-50FW-10",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        32,
+        229,
+        409
+      ],
+      "keepaPackageWeightG": 178,
+      "keepaNumberOfItems": 1,
+      "manualTriage": {
+        "checkedOn": "2026-10-14",
+        "status": "exclude_rigid_fastener",
+        "source": "https://www.sedia.co.jp/product/ae50fw/",
+        "reason": "メーカー公式にABS・PP・PP+EVA製のワンタッチ式とじ具と二重表紙を明記。硬い部材を含む。"
+      }
     },
     {
       "asin": "B0012P8YZ0",
@@ -128268,7 +128450,22 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "コクヨ パッチファイル 綴り紐タイプ 2穴 A4 250枚収容 フ-240",
+      "triageScore": -3,
+      "triageTags": [
+        "複数枚・詰め合わせの可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        33,
+        228,
+        307
+      ],
+      "keepaPackageWeightG": 183,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B08FX846LL",
@@ -128276,7 +128473,23 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "プラス タイトル印刷済みフラットファイル 決算報告BL×10 No.021HA×10",
+      "triageScore": 0,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        42,
+        311,
+        329
+      ],
+      "keepaPackageWeightG": 660,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B07P2HK5RK",
@@ -128284,7 +128497,22 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "FAMS 持ち出しフォルダーカラー A4 ヨコ イエロー 10冊 219319",
+      "triageScore": -3,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        50,
+        200,
+        300
+      ],
+      "keepaPackageWeightG": 500,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B01LXFBIK0",
@@ -128292,7 +128520,21 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "キングジム(Kingjim) フラットFクイックインPP GX グレー グレー 4432GXクレ",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        200,
+        200,
+        300
+      ],
+      "keepaPackageWeightG": 500,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GF1K1Z4W",
@@ -128300,7 +128542,24 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "ULOVEJOY パイプ式ファイル A4 両開き 300枚収容 2穴 3穴 パンチ付き 6パック 書類整理 オフィス用品 (2穴クランプ,ブラック(6個）)",
+      "triageScore": -15,
+      "triageTags": [
+        "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
+        "厚い留め具・硬い部材の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        60,
+        200,
+        230
+      ],
+      "keepaPackageWeightG": 550,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DG31NWDX",
@@ -128308,7 +128567,22 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "ボール紙リングバインダー, ポータブル A4 ワイド バインダー 2 リング バインダー フォルダー,肥厚したA4ペーパーフォルダーオフィス強力なbi",
+      "triageScore": -3,
+      "triageTags": [
+        "厚い留め具・硬い部材の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        43,
+        246,
+        315
+      ],
+      "keepaPackageWeightG": 288,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0CFC4Z5YC",
@@ -128316,7 +128590,22 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "木製ペン 万年筆 ボールペン 2本セット 事務用 学校用 玫瑰木",
+      "triageScore": -3,
+      "triageTags": [
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        32,
+        85,
+        210
+      ],
+      "keepaPackageWeightG": 190,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0GT666Y6Y",
@@ -128324,7 +128613,21 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "myfa 推し活 4穴リング コレクションファイル ワイド A4 ジェットブラック F3301-24",
+      "triageScore": 3,
+      "triageTags": [
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        70,
+        293,
+        321
+      ],
+      "keepaPackageWeightG": 490,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B004OSGG20",
@@ -128332,7 +128635,23 @@
       "status": "not_fetched",
       "discoverySources": [
         "Keepa category=1153734051 weight=0-700g"
-      ]
+      ],
+      "keepaMetadataCheckedAt": "2026-10-14T11:34:06.710443+09:00",
+      "keepaTitle": "エスコ(Esco) Ａ４ フラットファイル(桃/10冊) EA762CD-56A",
+      "triageScore": 0,
+      "triageTags": [
+        "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
+        "Keepa掲載の最小辺が3cm超",
+        "Keepaの商品入り数1"
+      ],
+      "keepaPackageMm": [
+        80,
+        270,
+        307
+      ],
+      "keepaPackageWeightG": 700,
+      "keepaNumberOfItems": 1
     },
     {
       "asin": "B0DG2RDZTZ",
@@ -128878,8 +129197,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-14T03:36:06.187032+09:00",
       "keepaTitle": "アスザックフーズ 国産長芋とろろ 6.8g ×10個",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -161821,8 +162141,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T13:36:06.059352+09:00",
       "keepaTitle": "リヒトラブ myfa 推し活 写真 厚み0.1mm 10枚入り コレクションポケット 2ポケット A4 N3302",
-      "triageScore": -2,
+      "triageScore": -8,
       "triageTags": [
+        "複数枚・詰め合わせの可能性",
         "複数仕切りや硬い留め具の可能性",
         "Keepa掲載の最小辺が3cm以下",
         "Keepaの商品入り数1"
@@ -161846,8 +162167,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T13:36:06.059352+09:00",
       "keepaTitle": "リヒトラブ myfa 推し活 パンフレット 厚み0.1mm 10枚入り コレクションポケット A4 N3300",
-      "triageScore": 1,
+      "triageScore": -5,
       "triageTags": [
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm以下",
         "Keepaの商品入り数1"
       ],
@@ -161872,9 +162194,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T13:35:56.912362+09:00",
       "keepaTitle": "リヒトラブ myfa 推し活 クリアファイル 厚み0.1mm 10枚入り コレクションポケット ワイド A4 N3301",
-      "triageScore": 4,
+      "triageScore": -2,
       "triageTags": [
         "薄く並べられる可能性のある品目",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm以下",
         "Keepaの商品入り数1"
       ],
@@ -161898,8 +162221,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T13:36:06.059352+09:00",
       "keepaTitle": "リヒトラブ myfa 推し活 シール ステッカー 厚み0.1mm 10枚入り コレクションポケット 12ポケット A4 N3307",
-      "triageScore": -2,
+      "triageScore": -8,
       "triageTags": [
+        "複数枚・詰め合わせの可能性",
         "複数仕切りや硬い留め具の可能性",
         "Keepa掲載の最小辺が3cm以下",
         "Keepaの商品入り数1"
@@ -161923,8 +162247,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T13:36:06.059352+09:00",
       "keepaTitle": "リヒトラブ myfa 推し活 はがき 厚み0.1mm 10枚入り コレクションポケット 4ポケット A4 N3304",
-      "triageScore": -2,
+      "triageScore": -8,
       "triageTags": [
+        "複数枚・詰め合わせの可能性",
         "複数仕切りや硬い留め具の可能性",
         "Keepa掲載の最小辺が3cm以下",
         "Keepaの商品入り数1"
@@ -161948,8 +162273,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T13:36:06.059352+09:00",
       "keepaTitle": "リヒトラブ myfa 推し活 チケット 厚み0.1mm 10枚入り コレクションポケット 3ポケット A4 N3303",
-      "triageScore": -2,
+      "triageScore": -8,
       "triageTags": [
+        "複数枚・詰め合わせの可能性",
         "複数仕切りや硬い留め具の可能性",
         "Keepa掲載の最小辺が3cm以下",
         "Keepaの商品入り数1"
@@ -161973,8 +162299,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T13:36:06.059352+09:00",
       "keepaTitle": "リヒトラブ myfa 推し活 コースター ステッカー 厚み0.1mm 10枚入り コレクションポケット 6ポケット A4 N3305",
-      "triageScore": -2,
+      "triageScore": -8,
       "triageTags": [
+        "複数枚・詰め合わせの可能性",
         "複数仕切りや硬い留め具の可能性",
         "Keepa掲載の最小辺が3cm以下",
         "Keepaの商品入り数1"
@@ -163910,8 +164237,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T13:36:06.059352+09:00",
       "keepaTitle": "リヒトラブ D型 リングファイル 5×11E 青 G2239-8",
-      "triageScore": -3,
+      "triageScore": -9,
       "triageTags": [
+        "複数単位の可能性",
         "厚い留め具・硬い部材の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
@@ -196146,8 +196474,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T18:30:27.461098+09:00",
       "keepaTitle": "ネスカフェ ゴールドブレンド コク深め スティック ブラック 100本 < スティックコーヒー >",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -199372,8 +199701,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T18:30:13.273410+09:00",
       "keepaTitle": "無印良品 大袋 食べるスープ オクラ入りねばねば野菜のスープ 10個入り TDB29A4S",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -199403,8 +199733,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T18:30:13.273410+09:00",
       "keepaTitle": "無印良品 大袋 食べるスープ コムタンスープ 10食入り TDZ07A4A",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -200281,8 +200612,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T02:51:16.824827+09:00",
       "keepaTitle": "AGF(エージーエフ) 新茶人 早溶け旨茶 ほうじ茶スティック 100本 【 お茶 スティック 】【 ほうじ茶 粉末 】【 ティーバッグ不要 】 0.8グラム (x 100)",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -200304,8 +200636,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T02:51:16.824827+09:00",
       "keepaTitle": "AGF(エージーエフ) 新茶人 早溶け旨茶 むぎ茶 スティック 100本 【 お茶 スティック 】【 麦茶 粉末 】【 ティーバッグ不要 】 0.9グラム (x 100)",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -200327,8 +200660,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T02:51:16.824827+09:00",
       "keepaTitle": "AGF(エージーエフ) 新茶人 早溶け旨茶 宇治抹茶入り上煎茶 スティック 100本 【 お茶 スティック 】【 粉末緑茶 】【 ティーバッグ不要 】 0.8グラム (x 100)",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -204918,8 +205252,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T02:51:17.430309+09:00",
       "keepaTitle": "ファイン スポーツドリンク パウダー 粉末 400g(40g×10袋) ビタミンC マグネシウム カルシウム 配合 ハイポトニック飲料 国内生産",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -208976,8 +209311,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T18:34:10.036257+09:00",
       "keepaTitle": "[今井ファーム] たまねぎ スープ #たまねぎスープ10本#個包装 オニオンスープ 淡路島 玉ねぎ 100% 簡単 カップスープ インスタント オニオン (おためし)",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -211003,8 +211339,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T18:34:10.036257+09:00",
       "keepaTitle": "永谷園 業務用わかめスープ 2.3g×100袋入",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -211886,8 +212223,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T18:29:59.174351+09:00",
       "keepaTitle": "養命酒製造 養生シリーズ 養生スープ 鶏白湯 11g×10個 / 生姜 じんわり/フリーズドライ 簡単調理 満足感/和漢素材 食物繊維",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -211936,8 +212274,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T18:29:59.879301+09:00",
       "keepaTitle": "養命酒製造 養生シリーズ 養生スープ 麻辣湯 9.5g×10個 / スパイス 香る/フリーズドライ 簡単調理 満足感/和漢素材 食物繊維",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -211960,8 +212299,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T18:29:59.879301+09:00",
       "keepaTitle": "養命酒製造 養生シリーズ 養生スープ 酸辣湯 9g×10個 / 黒酢 すっきり/フリーズドライ 簡単調理 満足感/和漢素材 食物繊維",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -212311,8 +212651,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T18:34:10.554795+09:00",
       "keepaTitle": "無印良品 大袋 食べるスープ 5種野菜のミネストローネ 10食入り TDB28A4S",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -212872,9 +213213,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
       "keepaTitle": "パウティー ストレート紅茶 無糖 250g 500mLペットボトル約100本分 粉末茶 紅茶パウダー 水に溶ける インスタントティー ティーバッグ不要 ブラックティー 製菓材料 お菓子作り",
-      "triageScore": -9,
+      "triageScore": -15,
       "triageTags": [
         "対象外用途の可能性",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -213293,9 +213635,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
       "keepaTitle": "パウティー オリジナルブレンド紅茶 無糖 250g 500mLペットボトル約100本分 粉末 紅茶パウダー 水に溶ける インスタントティー ティーバッグ不要 砂糖不使用 お菓子作り",
-      "triageScore": -9,
+      "triageScore": -15,
       "triageTags": [
         "対象外用途の可能性",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -213390,9 +213733,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
       "keepaTitle": "パウティー アールグレイ紅茶 無糖 250g 500mLペットボトル約100本分 粉末茶 紅茶パウダー アールグレイパウダー 水に溶ける インスタントティー ティーバッグ不要 製菓材料 お菓子作り",
-      "triageScore": -11,
+      "triageScore": -17,
       "triageTags": [
         "対象外用途の可能性",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm以下",
         "Keepaの商品入り数1"
       ],
@@ -213439,9 +213783,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
       "keepaTitle": "パウティー レモンティー 無糖 レモン果汁パウダー入り 250g 500mLペットボトル約100本分 粉末茶 水に溶ける インスタントティー ティーバッグ不要 お菓子作り 給茶機対応",
-      "triageScore": -11,
+      "triageScore": -17,
       "triageTags": [
         "対象外用途の可能性",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm以下",
         "Keepaの商品入り数1"
       ],
@@ -213463,9 +213808,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T12:33:25.168396+09:00",
       "keepaTitle": "パウティー オレンジティー 無糖 250g 500mLペットボトル約100本分 粉末茶 水に溶ける オレンジ果汁パウダー入り 紅茶パウダー インスタントティー ティーバッグ不要 お菓子作り",
-      "triageScore": -11,
+      "triageScore": -17,
       "triageTags": [
         "対象外用途の可能性",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm以下",
         "Keepaの商品入り数1"
       ],
@@ -216955,8 +217301,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T21:27:38.321590+09:00",
       "keepaTitle": "AGF プロフェッショナル さわやかりんご 500ml用 10本 【 業務用 】【 フルーツ 】【 アップル 】",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -250466,8 +250813,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T22:34:17.741771+09:00",
       "keepaTitle": "ティファール 取っ手のとれる 玉子焼き器 13×19cm ガス火専用 「インジニオ･ネオ ロイヤルブルー･インテンス エッグロースター」 L43718",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -252784,8 +253132,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T00:28:52.165392+09:00",
       "keepaTitle": "オーエ 洗濯 物干し ハンガー HOS ミニパラソルハンガー ホワイト 10本掛け 縦44×横44×高さ25cm",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -255896,10 +256245,11 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T21:31:25.089459+09:00",
       "keepaTitle": "クモリ(Kumori) [しっかり吸水] ハンドタオル 10枚セット 綿100% 柔らか ホテル仕様 耐久性 適度な厚み ふかふか 34×35cm",
-      "triageScore": 0,
+      "triageScore": -6,
       "triageTags": [
         "薄く並べられる可能性のある品目",
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -256103,10 +256453,11 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T21:31:25.089459+09:00",
       "keepaTitle": "クモリ(Kumori) [しっかり吸水] ハンドタオル 10枚セット 綿100% 柔らか ホテル仕様 耐久性 適度な厚み ふかふか 34×35cm",
-      "triageScore": 0,
+      "triageScore": -6,
       "triageTags": [
         "薄く並べられる可能性のある品目",
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -256292,10 +256643,11 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T21:31:25.601571+09:00",
       "keepaTitle": "クモリ(Kumori) [しっかり吸水] ハンドタオル 10枚セット 綿100% 柔らか ホテル仕様 耐久性 適度な厚み ふかふか 34×35cm",
-      "triageScore": 0,
+      "triageScore": -6,
       "triageTags": [
         "薄く並べられる可能性のある品目",
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -256557,10 +256909,11 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T21:31:25.601571+09:00",
       "keepaTitle": "クモリ(Kumori) [しっかり吸水] ハンドタオル 10枚セット 綿100% 柔らか ホテル仕様 耐久性 適度な厚み ふかふか 34×35cm",
-      "triageScore": 0,
+      "triageScore": -6,
       "triageTags": [
         "薄く並べられる可能性のある品目",
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -256892,10 +257245,11 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T21:31:25.601571+09:00",
       "keepaTitle": "クモリ(Kumori) [しっかり吸水] ハンドタオル 10枚セット 綿100% 柔らか ホテル仕様 耐久性 適度な厚み ふかふか 34×35cm",
-      "triageScore": 0,
+      "triageScore": -6,
       "triageTags": [
         "薄く並べられる可能性のある品目",
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -258575,8 +258929,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T23:28:52.038178+09:00",
       "keepaTitle": "ダイヤ (Daiya) 洗濯ネット ブラネットシェル型 ブラジャー 優しく洗うマシュマロ生地 下着 最大6枚まとめ洗い 糸クズ・型崩れ・傷み防止 ランドリーネット 057338 約29×12×18cm",
-      "triageScore": -3,
+      "triageScore": -9,
       "triageTags": [
+        "複数単位の可能性",
         "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
@@ -259211,10 +259566,11 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T21:31:26.107844+09:00",
       "keepaTitle": "クモリ(Kumori) [しっかり吸水] ハンドタオル 10枚セット 綿100% 柔らか ホテル仕様 耐久性 適度な厚み ふかふか 34×35cm",
-      "triageScore": 0,
+      "triageScore": -6,
       "triageTags": [
         "薄く並べられる可能性のある品目",
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -262265,9 +262621,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T21:31:26.107844+09:00",
       "keepaTitle": "AIFY シティタオル バスタオル 1枚 大判 厚手 ふわふわ 速乾 吸水 耐久性 綿 ホテル仕様 抗菌 防臭 無地 肌にやさしい エステ サロン 一人暮らし 新生活 ギフト 60×120cm ブルー",
-      "triageScore": 6,
+      "triageScore": 0,
       "triageTags": [
         "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -262289,9 +262646,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T21:31:26.107844+09:00",
       "keepaTitle": "AIFY シティタオル バスタオル 1枚 大判 厚手 ふわふわ 速乾 吸水 耐久性 綿 ホテル仕様 抗菌 防臭 無地 肌にやさしい エステ サロン 一人暮らし 新生活 ギフト 60×120cm ライトグレー",
-      "triageScore": 6,
+      "triageScore": 0,
       "triageTags": [
         "薄く並べられる可能性のある品目",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -263857,9 +264215,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T22:33:21.649019+09:00",
       "keepaTitle": "ZWILLING ツヴィリング 「 フレッシュ & セーブ 真空保存バッグ Sサイズ 10枚セット 」 パック 袋 【日本正規販売品】Fresh Save 36800-120",
-      "triageScore": -3,
+      "triageScore": -9,
       "triageTags": [
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -263923,9 +264282,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T22:33:21.649019+09:00",
       "keepaTitle": "ZWILLING ツヴィリング 「 フレッシュ & セーブ 真空保存バッグ Mサイズ 10枚セット 」 パック 袋 【日本正規販売品】Fresh Save 36800-220",
-      "triageScore": -3,
+      "triageScore": -9,
       "triageTags": [
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -267040,8 +267400,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T19:37:22.971230+09:00",
       "keepaTitle": "ストリックスデザイン 紙皿 スクエアペーパープレート 50枚 ホワイト 18×18cm 使い捨て 食器 角皿 環境に優しい エコ アウトドア SD-708",
-      "triageScore": -3,
+      "triageScore": -9,
       "triageTags": [
+        "複数単位の可能性",
         "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
@@ -268329,8 +268690,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T22:33:22.268884+09:00",
       "keepaTitle": "ストリックスデザイン 使い捨てスプーン 透明袋入り フォークスプーン 100本 アイボリー 16cm 日本製 業務用 大容量 個包装 袋入り 衛生的 使い捨てカトラリー 先割れスプーン F-599",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -268360,8 +268722,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T22:33:22.268884+09:00",
       "keepaTitle": "ストリックスデザイン 透明袋入り 先割れスプーン 10本 ホワイト 14cm 日本製 個包装 フォークスプーン MA-026",
-      "triageScore": 1,
+      "triageScore": -5,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm以下",
         "Keepaの商品入り数1"
       ],
@@ -272404,9 +272767,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T22:33:22.268884+09:00",
       "keepaTitle": "ZWILLING ツヴィリング 「 フレッシュ & セーブ 真空保存バッグ S/M/Lサイズ 10枚セット 」 パック 袋 【日本正規販売品】Fresh Save 36800-011",
-      "triageScore": -3,
+      "triageScore": -9,
       "triageTags": [
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -274373,9 +274737,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T00:28:31.930451+09:00",
       "keepaTitle": "大和物産(Daiwa Bussan) カウンタークロス 100枚 ホワイト 約60×30cm 使い捨て 不織布 ふきん テーブルダスター 業務用",
-      "triageScore": -3,
+      "triageScore": -9,
       "triageTags": [
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -274397,9 +274762,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T00:28:31.930451+09:00",
       "keepaTitle": "大和物産(Daiwa Bussan) カウンタークロス 100枚 ピンク 約60×30cm 使い捨て 不織布 ふきん テーブルダスター 業務用",
-      "triageScore": -3,
+      "triageScore": -9,
       "triageTags": [
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -277233,9 +277599,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T00:28:31.930451+09:00",
       "keepaTitle": "大和物産(Daiwa Bussan) カウンタークロス 100枚 グリーン 約60×30cm 使い捨て 不織布 ふきん テーブルダスター 業務用",
-      "triageScore": -3,
+      "triageScore": -9,
       "triageTags": [
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -279530,8 +279897,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T22:33:22.268884+09:00",
       "keepaTitle": "スケーター(Skater) 子供用 コップ袋 21×15cm 日本製 パンどろぼう KB62",
-      "triageScore": 1,
+      "triageScore": -5,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm以下",
         "Keepaの商品入り数1"
       ],
@@ -284370,8 +284738,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T22:33:22.268884+09:00",
       "keepaTitle": "アーテック(artec) カラービニール袋10枚組 45531 桃",
-      "triageScore": 1,
+      "triageScore": -5,
       "triageTags": [
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm以下",
         "Keepaの商品入り数1"
       ],
@@ -284393,9 +284762,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T22:33:22.268884+09:00",
       "keepaTitle": "アーテック(Artec) カラービニール袋10枚組 800×650mm グリーン 衣装製作 ゴミ袋 コスチューム 運動会 学芸会 45533",
-      "triageScore": -5,
+      "triageScore": -11,
       "triageTags": [
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm以下",
         "Keepaの商品入り数1"
       ],
@@ -284417,9 +284787,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T22:33:22.268884+09:00",
       "keepaTitle": "アーテック(Artec) カラービニール袋10枚組 800×650mm レッド 衣装製作 ゴミ袋 コスチューム 運動会 学芸会 45530",
-      "triageScore": -5,
+      "triageScore": -11,
       "triageTags": [
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm以下",
         "Keepaの商品入り数1"
       ],
@@ -318266,9 +318637,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T16:29:48.778495+09:00",
       "keepaTitle": "宮崎名物 鶏の炭火焼 100g×10パック レトルト おつまみ 保存食 常温(めちゃ辛ファイヤー味)",
-      "triageScore": 4,
+      "triageScore": -2,
       "triageTags": [
         "柔らかい袋を示す語",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "掲載重量1kg超"
       ],
@@ -318413,9 +318785,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T16:31:59.280294+09:00",
       "keepaTitle": "宮崎名物 鶏の炭火焼 100g×10パック レトルト おつまみ 保存食 常温(たれ味)",
-      "triageScore": 4,
+      "triageScore": -2,
       "triageTags": [
         "柔らかい袋を示す語",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "掲載重量1kg超"
       ],
@@ -318437,9 +318810,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T16:31:59.280294+09:00",
       "keepaTitle": "宮崎名物 鶏の炭火焼 100g×10パック レトルト 2年保存 おつまみ 保存食 常温(塩味)",
-      "triageScore": 4,
+      "triageScore": -2,
       "triageTags": [
         "柔らかい袋を示す語",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "掲載重量1kg超"
       ],
@@ -318461,9 +318835,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T16:31:59.280294+09:00",
       "keepaTitle": "宮崎名物 鶏の炭火焼 100g×10パック レトルト おつまみ 保存食 常温(ガーリックペッパー味)",
-      "triageScore": 4,
+      "triageScore": -2,
       "triageTags": [
         "柔らかい袋を示す語",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "掲載重量1kg超"
       ],
@@ -318485,9 +318860,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T16:31:59.280294+09:00",
       "keepaTitle": "宮崎名物 鶏の炭火焼 100g×10パック レトルト おつまみ 保存食 常温(塩分25％カットうす塩味)",
-      "triageScore": 4,
+      "triageScore": -2,
       "triageTags": [
         "柔らかい袋を示す語",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "掲載重量1kg超"
       ],
@@ -318509,9 +318885,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T16:31:59.280294+09:00",
       "keepaTitle": "宮崎名物 鶏の炭火焼 100g×10パック レトルト おつまみ 保存食 常温(ミックス 塩4P たれ3P ガリペパ3P)",
-      "triageScore": -2,
+      "triageScore": -8,
       "triageTags": [
         "柔らかい袋を示す語",
+        "複数単位の可能性",
         "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "掲載重量1kg超"
@@ -318534,9 +318911,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T16:31:59.280294+09:00",
       "keepaTitle": "宮崎名物 鶏の炭火焼 100g×10パック レトルト おつまみ 保存食 常温(にんにくガツン！味)",
-      "triageScore": 4,
+      "triageScore": -2,
       "triageTags": [
         "柔らかい袋を示す語",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "掲載重量1kg超"
       ],
@@ -318558,9 +318936,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T16:31:59.280294+09:00",
       "keepaTitle": "宮崎名物 鶏の炭火焼 100g×10パック レトルト おつまみ 保存食 常温(チキンカチャトーラ風)",
-      "triageScore": 4,
+      "triageScore": -2,
       "triageTags": [
         "柔らかい袋を示す語",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "掲載重量1kg超"
       ],
@@ -319071,9 +319450,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T16:31:59.805577+09:00",
       "keepaTitle": "[ 極うま冷食まーけっと ] 冷凍ハンバーグ 120g×10個入り （ ハンバーグ レトルト 冷凍 詰め合わせ お取り寄せグルメ ）",
-      "triageScore": 5,
+      "triageScore": -1,
       "triageTags": [
-        "柔らかい袋を示す語"
+        "柔らかい袋を示す語",
+        "複数単位の可能性"
       ],
       "keepaPackageMm": [
         0,
@@ -319142,9 +319522,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T16:31:59.805577+09:00",
       "keepaTitle": "[ 極うま冷食まーけっと ] チーズイン 冷凍ハンバーグ 10個入り（ チーズインハンバーグ レトルト 冷凍 詰め合わせ お取り寄せグルメ ）",
-      "triageScore": 5,
+      "triageScore": -1,
       "triageTags": [
         "柔らかい袋を示す語",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm以下"
       ],
       "keepaPackageMm": [
@@ -322014,9 +322395,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T23:28:49.290412+09:00",
       "keepaTitle": "沖縄 ハム コンビーフハッシュパウチ 65ｇ×10袋 常備食 大容量 沖縄定番 常備 パウチ (65g, 10袋)",
-      "triageScore": 5,
+      "triageScore": -1,
       "triageTags": [
         "柔らかい袋を示す語",
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm以下"
       ],
       "keepaPackageMm": [
@@ -392831,8 +393213,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T02:49:47.514881+09:00",
       "keepaTitle": "三島食品 しげき (わさびふりかけ) 12g×10個",
-      "triageScore": 2,
+      "triageScore": -4,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -392984,8 +393367,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T02:49:47.514881+09:00",
       "keepaTitle": "丸美屋 ソフトふりかけ 牛肉しぐれ煮 28g ×10袋",
-      "triageScore": 2,
+      "triageScore": -4,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -393005,8 +393389,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T02:49:47.514881+09:00",
       "keepaTitle": "丸美屋 ソフトふりかけ豚しょうが焼き味 28g×10個",
-      "triageScore": 2,
+      "triageScore": -4,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -393026,8 +393411,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T09:28:41.508505+09:00",
       "keepaTitle": "丸美屋食品工業 ソフトふりかけ 豚みそそぼろ 28g ×10袋",
-      "triageScore": 2,
+      "triageScore": -4,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -393180,8 +393566,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T09:28:41.508505+09:00",
       "keepaTitle": "Nagatanien 永谷園 おとなのふりかけ 辛子明太子 6.8g ×10個",
-      "triageScore": 2,
+      "triageScore": -4,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -393245,8 +393632,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T09:28:41.508505+09:00",
       "keepaTitle": "Nagatanien 永谷園 おとなのふりかけ 牛しぐれ 12.8g ×10個",
-      "triageScore": 2,
+      "triageScore": -4,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -393288,8 +393676,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T09:28:41.508505+09:00",
       "keepaTitle": "Nagatanien 永谷園 おとなのふりかけ 本かつお 9.2g ×10個",
-      "triageScore": 2,
+      "triageScore": -4,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -393887,8 +394276,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T09:29:15.600715+09:00",
       "keepaTitle": "丸美屋 ふりかけ屋さんの 簡単!おにぎりの具 たらこ 14g×10個",
-      "triageScore": 2,
+      "triageScore": -4,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -394063,8 +394453,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T09:29:16.548098+09:00",
       "keepaTitle": "丸美屋 ソフトふりかけ とり&たまごそぼろ 28g×10袋",
-      "triageScore": 2,
+      "triageScore": -4,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -394084,8 +394475,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T09:29:16.548098+09:00",
       "keepaTitle": "丸美屋食品工業 ソフトふりかけ さけ 28g×10袋",
-      "triageScore": 2,
+      "triageScore": -4,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -394105,8 +394497,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T09:29:16.548098+09:00",
       "keepaTitle": "丸美屋 ソフトふりかけ ちりめん山椒 28g×10袋",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -394171,8 +394564,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T09:29:16.548098+09:00",
       "keepaTitle": "Nagatanien 永谷園 おとなのふりかけ 紅鮭 8.4g ×10個",
-      "triageScore": 2,
+      "triageScore": -4,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -394192,8 +394586,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T09:29:16.548098+09:00",
       "keepaTitle": "Nagatanien 永谷園 おとなのふりかけ わさび 8.4g ×10個",
-      "triageScore": 2,
+      "triageScore": -4,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -394213,8 +394608,9 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-13T09:29:16.548098+09:00",
       "keepaTitle": "Nagatanien 永谷園 おとなのふりかけ 梅しそ 6.8g ×10個",
-      "triageScore": 2,
+      "triageScore": -4,
       "triageTags": [
+        "複数単位の可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -449163,10 +449559,11 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T19:32:29.480698+09:00",
       "keepaTitle": "レック(LEC) 女性用 デリケート ウェットシート Femia 10枚入ミニ×3個 (サボンの香り) トイレに流せる 日本製 赤ちゃんのおしりふきから生まれた",
-      "triageScore": -3,
+      "triageScore": -9,
       "triageTags": [
         "薄く並べられる可能性のある品目",
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm以下"
       ],
       "keepaPackageMm": [
@@ -478426,9 +478823,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
       "keepaTitle": "マイクロファイバークロス 使い捨て ディッシュクロス キッチンタオル ふきん 台拭き キッチンクロス 雑巾 使い捨て雑巾 20*20cm 10枚入り 吸水性 台所 速乾 防臭 北欧 衛生 抗菌 ブルー",
-      "triageScore": 3,
+      "triageScore": -3,
       "triageTags": [
         "薄く並べられる可能性のある品目",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm以下"
       ],
       "keepaPackageMm": [
@@ -478650,9 +479048,10 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-14T00:34:32.269927+09:00",
       "keepaTitle": "マイクロファイバークロス 使い捨て ディッシュクロス キッチンタオル ふきん 台拭き キッチンクロス 雑巾 使い捨て雑巾 20*20cm 10枚入り 吸水性 台所 速乾 防臭 北欧 衛生 抗菌 ピンク",
-      "triageScore": 5,
+      "triageScore": -1,
       "triageTags": [
         "薄く並べられる可能性のある品目",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -480553,10 +480952,11 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T21:31:02.600388+09:00",
       "keepaTitle": "imaa(アイマ) 今治タオル タオルハンカチ ハンドタオル メンズ ビジネス 10枚セット 綿100% 日本製 個包装 リバーシブルネイビー",
-      "triageScore": -1,
+      "triageScore": -7,
       "triageTags": [
         "薄く並べられる可能性のある品目",
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超"
       ],
       "keepaPackageMm": [
@@ -483462,10 +483862,11 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T21:33:51.273261+09:00",
       "keepaTitle": "オルタ(oruTa) 今治 ハンドタオル 10枚セット 自然派 日本製 薄手 吸水 速乾 綿100% 30x31cm ネイビー",
-      "triageScore": 0,
+      "triageScore": -6,
       "triageTags": [
         "薄く並べられる可能性のある品目",
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -483511,10 +483912,11 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T21:33:51.273261+09:00",
       "keepaTitle": "オルタ(oruTa) 今治 ハンドタオル 10枚セット 自然派 日本製 薄手 吸水 速乾 綿100% 30x31cm ピンク",
-      "triageScore": 0,
+      "triageScore": -6,
       "triageTags": [
         "薄く並べられる可能性のある品目",
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -483633,10 +484035,11 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T21:33:51.273261+09:00",
       "keepaTitle": "オルタ(oruTa) 今治 ハンドタオル 10枚セット 自然派 日本製 薄手 吸水 速乾 綿100% 30x31cm ホワイト",
-      "triageScore": 0,
+      "triageScore": -6,
       "triageTags": [
         "薄く並べられる可能性のある品目",
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -483995,10 +484398,11 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T21:33:51.811625+09:00",
       "keepaTitle": "オルタ(oruTa) 今治 ハンドタオル 10枚セット 自然派 日本製 薄手 吸水 速乾 綿100% 30x31cm イエロー",
-      "triageScore": 0,
+      "triageScore": -6,
       "triageTags": [
         "薄く並べられる可能性のある品目",
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -484019,10 +484423,11 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T21:33:51.811625+09:00",
       "keepaTitle": "オルタ(oruTa) 今治 ハンドタオル 10枚セット 自然派 日本製 薄手 吸水 速乾 綿100% 30x31cm グレー",
-      "triageScore": 0,
+      "triageScore": -6,
       "triageTags": [
         "薄く並べられる可能性のある品目",
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -484043,10 +484448,11 @@
       ],
       "keepaMetadataCheckedAt": "2026-10-12T21:33:51.811625+09:00",
       "keepaTitle": "オルタ(oruTa) 今治 ハンドタオル 10枚セット 自然派 日本製 薄手 吸水 速乾 綿100% 30x31cm カーキ",
-      "triageScore": 0,
+      "triageScore": -6,
       "triageTags": [
         "薄く並べられる可能性のある品目",
         "複数単位の可能性",
+        "複数枚・詰め合わせの可能性",
         "Keepa掲載の最小辺が3cm超",
         "Keepaの商品入り数1"
       ],
@@ -564448,6 +564854,14 @@
       "tokensLeft": 245,
       "scope": "商品名・梱包3辺・入り数を取得し、メーカー公式で一部の詰め替え品を照合。Amazon現行ページと梱包後厚みは未確認。",
       "unverifiedRange": "アスタリフト コンディショナー300mL B07X7X8LZ3 は掲載最小辺5.4cmの詰め替え候補。入り数はKeepa上不明。ほか19件はセット・硬い本体・重い大容量が中心。現行Amazonページを確認できず登録適合は未確定。"
+    },
+    {
+      "checkedOn": "2026-10-14",
+      "source": "Keepa category=1153734051 フラットファイルの未確認ASIN",
+      "asinsChecked": 20,
+      "tokensLeft": 275,
+      "scope": "商品名・梱包3辺・入り数を取得し、メーカー公式でとじ具の素材を確認。Amazon現行ページと梱包後厚みは未確認。",
+      "unverifiedRange": "3冊・10冊の紙ファイル、硬いリング・とじ具・引き出し類が中心。AE-50FW-10はABS/PPのとじ具付きで除外。ほかの発見済み文房具も未確認。"
     }
   ]
 }
