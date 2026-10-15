@@ -22,6 +22,7 @@
     .requested-status { flex:none; padding:5px 9px; border-radius:99px; font-size:12px; font-weight:800; }
     .requested-status.excluded { color:#8a3e25; background:#fff0e8; }
     .requested-status.hold { color:#765607; background:#fff6d7; }
+    .requested-status.shipping_hold { color:#0a6656; background:#def5ec; }
     .requested-asin { margin:8px 0 14px; color:#657d8d; font-size:13px; }
     .requested-facts { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin:14px 0; }
     .requested-facts div { padding:12px; border-radius:10px; background:#f1f6f7; }
@@ -41,9 +42,9 @@
     <div class="requested-search"><input id="asinSearch" type="search" placeholder="例 B00SM995GQ" autocomplete="off"></div>
     <p id="resultCount" class="requested-count"></p>
     <section id="requestedList" class="requested-list" aria-live="polite"></section>
-    <p class="requested-note">商品名・3辺・重量はKeepaの掲載値で、発送用外装の実測ではありません。Amazonへの自動取得は確認画面で停止したため、商品本文は確認していません。ムシューダはメーカー公式の内容量で別途判定しました。売価はSP-API Pricingの新規出品、手数料は同じ自己発送価格でのProduct Fees見積もりです。FBA配送代行手数料は含めていません。仕入価格・在庫が未確認のため利益は算出していません。価格・出品状況は変わります。</p>
+    <p class="requested-note">商品名・3辺・重量はKeepaの掲載値で、発送用外装の実測ではありません。Amazonへの自動取得は確認画面で停止したため、商品本文は確認していません。ムシューダの内容量と指紋コロコロの単品・本体寸法は各メーカー公式で別途確認しました。売価はSP-API Pricingの新規出品、手数料は同じ自己発送価格でのProduct Fees見積もりです。FBA配送代行手数料は含めていません。仕入価格・在庫が未確認のため利益は算出していません。価格・出品状況は変わります。</p>
   </main>
-  <script src="requested_reviews.js?v=2"></script>
+  <script src="requested_reviews.js?v=3"></script>
   <script>
     (() => {
       const items = window.NEKOPOST_REQUESTED_REVIEWS?.items || [];
@@ -53,15 +54,16 @@
       const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
       const yen = value => `¥${Number(value).toLocaleString('ja-JP')}`;
       const offer = value => value ? `${yen(value.listingYen)} ＋購入者送料 ${yen(value.shippingYen)}${value.points ? `・付与 ${value.points}pt` : ''}` : '出品取得なし';
+      const statusLabel = item => item.status === 'shipping_hold' ? '小型発送見込み・要実測' : item.status === 'hold' ? '形状確認待ち' : '主一覧対象外';
       const card = item => {
         const dims = item.packageCm.map(value => Number(value).toFixed(1));
         const reference = !item.merchant;
-        return `<article class="requested-card" id="${item.asin}"><div class="requested-title"><h2>${escape(item.title)}</h2><span class="requested-status ${item.status}">${item.status === 'hold' ? '形状確認待ち' : '主一覧対象外'}</span></div><p class="requested-asin">ASIN ${item.asin} · JAN ${escape(item.eanList.join(' / ') || '未確認')}</p><div class="requested-facts"><div><small>Keepa掲載の梱包3辺・重量</small><strong>${dims.join(' × ')}cm / ${escape(item.packageWeightG)}g</strong></div><div><small>Amazon自己発送の新規出品</small><strong>${offer(item.merchant)}</strong></div><div><small>自己発送手数料見積もり</small><strong>${yen(item.merchantFeeYen)}（税込概算 ${yen(Math.ceil(item.merchantFeeYen * 1.1))}）${reference ? '・FBA売価で参考算出' : ''}</strong></div></div><p class="requested-reason">${escape(item.reason)}</p><p class="requested-asin">FBA出品：${offer(item.amazonFulfilled)}。${escape(item.feeBasis)}。実測値・仕入価格は未取得。</p><footer><a href="https://www.amazon.co.jp/dp/${item.asin}" target="_blank" rel="noopener noreferrer">Amazon商品ページ ↗</a><a href="https://keepa.com/#!product/5-${item.asin}" target="_blank" rel="noopener noreferrer">Keepa ↗</a>${item.evidenceUrl ? `<a href="${escape(item.evidenceUrl)}" target="_blank" rel="noopener noreferrer">${escape(item.evidenceLabel || '判定根拠')} ↗</a>` : ''}</footer></article>`;
+        return `<article class="requested-card" id="${item.asin}"><div class="requested-title"><h2>${escape(item.title)}</h2><span class="requested-status ${item.status}">${statusLabel(item)}</span></div><p class="requested-asin">ASIN ${item.asin} · JAN ${escape(item.eanList.join(' / ') || '未確認')}</p><div class="requested-facts"><div><small>Keepa掲載の梱包3辺・重量</small><strong>${dims.join(' × ')}cm / ${escape(item.packageWeightG)}g</strong></div><div><small>Amazon自己発送の新規出品</small><strong>${offer(item.merchant)}</strong></div><div><small>自己発送手数料見積もり</small><strong>${yen(item.merchantFeeYen)}（税込概算 ${yen(Math.ceil(item.merchantFeeYen * 1.1))}）${reference ? '・FBA売価で参考算出' : ''}</strong></div></div><p class="requested-reason">${escape(item.reason)}</p><p class="requested-asin">FBA出品：${offer(item.amazonFulfilled)}。${escape(item.feeBasis)}。実測値・仕入価格は未取得。${item.sourcingNote ? escape(item.sourcingNote) : ''}</p><footer><a href="https://www.amazon.co.jp/dp/${item.asin}" target="_blank" rel="noopener noreferrer">Amazon商品ページ ↗</a><a href="https://keepa.com/#!product/5-${item.asin}" target="_blank" rel="noopener noreferrer">Keepa ↗</a>${item.evidenceUrl ? `<a href="${escape(item.evidenceUrl)}" target="_blank" rel="noopener noreferrer">${escape(item.evidenceLabel || '判定根拠')} ↗</a>` : ''}</footer></article>`;
       };
       const render = () => {
         const query = input.value.trim().toLowerCase();
         const found = items.filter(item => !query || `${item.asin} ${item.title}`.toLowerCase().includes(query));
-        count.textContent = `${found.length} / ${items.length}件 · 主一覧登録 0件 · 対象外 ${items.filter(item => item.status === 'excluded').length}件 · 形状確認待ち ${items.filter(item => item.status === 'hold').length}件`;
+        count.textContent = `${found.length} / ${items.length}件 · 小型発送見込み ${items.filter(item => item.status === 'shipping_hold').length}件 · 対象外 ${items.filter(item => item.status === 'excluded').length}件`;
         list.innerHTML = found.length ? found.map(card).join('') : '<p>一致するASINはありません。</p>';
       };
       const requested = new URLSearchParams(location.search).get('asin');

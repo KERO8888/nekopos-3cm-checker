@@ -34,6 +34,7 @@ const products = context.window.NEKOPOST_PRODUCTS;
 const test = context.window.__profitTest;
 assert.strictEqual(context.window.NEKOPOST_REQUESTED_REVIEWS.items.length, 9);
 assert(context.window.NEKOPOST_REQUESTED_REVIEWS.items.every(item => !products.some(product => product.asin === item.asin)));
+assert.strictEqual(context.window.NEKOPOST_REQUESTED_REVIEWS.items.find(item => item.asin === 'B00TI64YHW').status, 'shipping_hold');
 test.setProfitFilter('candidate');
 element('#search').value = 'B0DVSBJMXM';
 element('#search').listeners.input();

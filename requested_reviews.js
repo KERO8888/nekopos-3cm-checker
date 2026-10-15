@@ -1,6 +1,6 @@
 window.NEKOPOST_REQUESTED_REVIEWS = {
   "checkedOn": "2026-10-15",
-  "scope": "User supplied ASINs; Keepa metadata and SP-API Pricing/Fees checked. Amazon current product pages unavailable; not registered shipping candidates. Fees are MFN estimates; no FBA fulfillment fees.",
+  "scope": "User supplied ASINs; Keepa metadata and SP-API Pricing/Fees checked. Amazon current product pages unavailable. One item has a conditional small-parcel shipping outlook; none is registered in the main product list. Fees are MFN estimates; no FBA fulfillment fees.",
   "items": [
     {
       "asin": "B081N2S4Y1",
@@ -95,8 +95,11 @@ window.NEKOPOST_REQUESTED_REVIEWS = {
         14.0
       ],
       "packageWeightG": 24,
-      "status": "excluded",
-      "reason": "指紋用粘着ローラー。硬い巻き芯を含み、掲載梱包の最小辺も2.4cm。",
+      "status": "shipping_hold",
+      "reason": "1個入り。本体はニトムズ公式で6.8×2.03×2.55cm、Keepa掲載梱包は14.0×8.1×2.4cm・24g。既に薄い向きで梱包されている可能性が高く、規定以上の宛名面を持つ外装に入れても厚さ3cm以内となる見込み。発送用外装を含む最大厚・重量は未実測。",
+      "evidenceUrl": "https://colocolo.nitoms.com/lineup/detail-5084/",
+      "evidenceLabel": "メーカー公式の単品・本体寸法",
+      "sourcingNote": "2024年5月に製造終了。自己発送の着地970円、手数料税込概算164円、クリックポスト240円、梱包20円、仕入送料0円の仮定では仕入上限546円。JAN一致の現行仕入価格・在庫は未確認。",
       "merchant": {
         "listingYen": 770,
         "shippingYen": 200,
