@@ -42,7 +42,7 @@
     return `<article class="requested-card" id="${item.asin}">
       <div class="requested-title"><h2>${escape(item.title)}</h2><span class="requested-status ${item.status}">${statusLabel(item)}</span></div>
       <p class="requested-asin">ASIN ${item.asin} · JAN ${escape(item.eanList.join(' / ') || '未確認')}</p>
-      <div class="requested-facts"><div><small>Keepa掲載の梱包3辺・重量</small><strong>${dims.join(' × ')}cm / ${escape(item.packageWeightG)}g</strong></div><div><small>Amazon自己発送の新規出品</small><strong>${offer(item.merchant)}</strong></div><div><small>自己発送手数料見積もり</small><strong>${yen(item.merchantFeeYen)}（税込概算 ${yen(Math.ceil(item.merchantFeeYen * 1.1))}）${reference ? '・FBA売価で参考算出' : ''}</strong></div></div>
+      <div class="requested-facts"><div><small>Keepa掲載の梱包3辺・重量</small><strong>${dims.join(' × ')}cm / ${escape(item.packageWeightG)}g</strong></div><div><small>Amazon自己発送の新規出品</small><strong>${offer(item.merchant)}</strong></div><div><small>自己発送手数料見積もり</small><strong>${yen(item.merchantFeeYen)}（税込概算 ${yen(Math.ceil(item.merchantFeeYen * 11 / 10))}）${reference ? '・FBA売価で参考算出' : ''}</strong></div></div>
       <p class="requested-reason">${escape(item.reason)}</p>
       <p class="requested-asin">FBA出品：${offer(item.amazonFulfilled)}。${escape(item.feeBasis)}。調査記録に発送用外装の実測は未登録。${item.sourcingNote ? escape(item.sourcingNote) : '仕入価格は未確認。'}</p>
       ${feedbackPanel(item, saved)}

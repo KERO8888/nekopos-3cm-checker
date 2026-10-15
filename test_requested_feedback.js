@@ -26,6 +26,9 @@ for (const file of ['requested_reviews.js', 'requested_feedback.js', 'requested_
 
 const feedback = context.window.NEKOPOST_REQUESTED_FEEDBACK;
 const items = context.window.NEKOPOST_REQUESTED_REVIEWS.items;
+assert.strictEqual(items.length, 19);
+assert.strictEqual(items.find(item => item.asin === 'B09221FFRT').packageCm[0], 1.5);
+assert.strictEqual(items.find(item => item.asin === 'B07HX446KB').packageCm[0], 9.9);
 assert(element('#requestedList').innerHTML.includes('B08123FNFK'));
 assert(!element('#requestedList').innerHTML.includes('B0976PJ6K9'), 'ASIN query should isolate the matching card');
 assert(element('#requestedList').innerHTML.includes('予測へのフィードバック'));
@@ -87,4 +90,7 @@ element('#asinSearch').value = 'B0976PJ6K9';
 element('#asinSearch').listeners.input();
 assert(!element('#requestedList').innerHTML.includes('<script>alert(1)</script>'), 'comments must be escaped in card HTML');
 assert(element('#requestedList').innerHTML.includes('&lt;script&gt;alert(1)&lt;/script&gt;'));
+element('#asinSearch').value = 'B07HX446KB';
+element('#asinSearch').listeners.input();
+assert(element('#requestedList').innerHTML.includes('税込概算 ¥110'), '¥100 fee must not round to ¥111');
 console.log('requested feedback storage, calibration summary, copy report and UI rendering: ok');

@@ -1,6 +1,6 @@
 window.NEKOPOST_REQUESTED_REVIEWS = {
   "checkedOn": "2026-10-15",
-  "scope": "User supplied 17 ASINs; Keepa metadata and SP-API Pricing/Fees checked. Amazon current product pages unavailable. One item has a conditional small-parcel shipping outlook; the other 16 do not meet the current small-parcel candidate criteria. None is registered in the main product list. Fees are MFN estimates; no FBA fulfillment fees.",
+  "scope": "User supplied 19 ASINs; Keepa metadata and SP-API Pricing/Fees checked. Amazon current product pages unavailable. One item has a conditional small-parcel shipping outlook; the other 18 do not meet the current small-parcel candidate criteria. None is registered in the main product list. Fees are MFN estimates; no FBA fulfillment fees.",
   "items": [
     {
       "asin": "B081N2S4Y1",
@@ -456,6 +456,38 @@ window.NEKOPOST_REQUESTED_REVIEWS = {
       "merchant": {"listingYen": 1780, "shippingYen": 0, "points": 0},
       "amazonFulfilled": {"listingYen": 1800, "shippingYen": 0, "points": 0},
       "merchantFeeYen": 185,
+      "feeBasis": "実際の自己発送最安出品で見積もり",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "asin": "B09221FFRT",
+      "title": "エーザイ イータック抗菌化ウエットシート（アルコールタイプ）10枚入×10個",
+      "eanList": ["4987028179207"],
+      "packageCm": [1.5, 15.0, 20.0],
+      "packageWeightG": 400,
+      "status": "excluded",
+      "reason": "10枚入を10個まとめた販売単位。Keepa掲載の梱包最小辺1.5cmは複数パック全体の発送外装寸法と確認できず、各パックを重ねたまま3cm以下になる根拠がない。JANは10枚入り単品の識別子で、10個セットの単品JANではない。発送用外装込みの最大厚・重量は未実測。",
+      "evidenceUrl": "https://www.e-fujiyakuhin.jp/SHOP/4987028179207-10.html",
+      "evidenceLabel": "10枚入×10個の販売単位",
+      "merchant": {"listingYen": 1978, "shippingYen": 0, "points": 0},
+      "amazonFulfilled": null,
+      "merchantFeeYen": 206,
+      "feeBasis": "実際の自己発送最安出品で見積もり",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "asin": "B07HX446KB",
+      "title": "【まとめ買い】リンレイ つやピカワックスシート 無香料 10枚×4個",
+      "eanList": ["4903339987799"],
+      "packageCm": [9.9, 12.9, 21.1],
+      "packageWeightG": 850,
+      "status": "excluded",
+      "reason": "10枚入りを4個まとめた販売単位。Keepa掲載梱包は最小辺9.9cmで、4包を重ねたまま発送外装込み3cm以下にする具体的根拠がない。JANは10枚入り単品の識別子で、4個セットの単品JANではない。発送用外装込みの最大厚・重量は未実測。",
+      "evidenceUrl": "https://www.rinrei.co.jp/home_care/wax/01/tsuyapika_waxsheet.html",
+      "evidenceLabel": "メーカー公式の10枚入り単品",
+      "merchant": {"listingYen": 1190, "shippingYen": 0, "points": 0},
+      "amazonFulfilled": {"listingYen": 1278, "shippingYen": 0, "points": 0},
+      "merchantFeeYen": 100,
       "feeBasis": "実際の自己発送最安出品で見積もり",
       "checkedOn": "2026-10-15"
     }
