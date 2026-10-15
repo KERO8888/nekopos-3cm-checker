@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>指定ASINの確認結果｜発送サイズ研究所</title>
+  <link rel="stylesheet" href="ui.css?v=20">
+  <style>
+    .requested-page { max-width:1100px; margin:0 auto; padding:24px 18px 72px; }
+    .requested-head { display:flex; justify-content:space-between; align-items:start; gap:16px; margin-bottom:22px; }
+    .requested-head h1 { margin:8px 0; font-size:clamp(24px,4vw,34px); }
+    .requested-head p, .requested-note { color:#5e7283; line-height:1.65; }
+    .requested-head a { color:#087684; font-weight:750; white-space:nowrap; }
+    .requested-search { display:flex; align-items:center; gap:12px; width:min(100%,520px); margin:20px 0 12px; }
+    .requested-search input { width:100%; padding:13px 15px; border:1px solid #b7cad2; border-radius:10px; background:#fff; color:#12314e; font-size:16px; }
+    .requested-count { margin:0 0 16px; color:#546c7d; font-size:14px; }
+    .requested-list { display:grid; gap:14px; }
+    .requested-card { padding:20px; border:1px solid #d8e4e9; border-radius:16px; background:#fff; box-shadow:0 4px 16px #14314e0a; }
+    .requested-card:target { outline:3px solid #0b828b; outline-offset:2px; }
+    .requested-title { display:flex; gap:12px; align-items:flex-start; justify-content:space-between; }
+    .requested-title h2 { margin:0; font-size:18px; line-height:1.45; }
+    .requested-status { flex:none; padding:5px 9px; border-radius:99px; font-size:12px; font-weight:800; }
+    .requested-status.excluded { color:#8a3e25; background:#fff0e8; }
+    .requested-status.hold { color:#765607; background:#fff6d7; }
+    .requested-asin { margin:8px 0 14px; color:#657d8d; font-size:13px; }
+    .requested-facts { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin:14px 0; }
+    .requested-facts div { padding:12px; border-radius:10px; background:#f1f6f7; }
+    .requested-facts small { display:block; color:#657d8d; }
+    .requested-facts strong { display:block; margin-top:4px; color:#16364f; font-size:16px; }
+    .requested-reason { margin:12px 0; line-height:1.6; }
+    .requested-card footer { display:flex; flex-wrap:wrap; gap:16px; padding-top:12px; border-top:1px solid #e3eaed; }
+    .requested-card footer a { color:#087684; font-weight:750; }
+    .requested-note { margin-top:22px; font-size:13px; }
+    @media(max-width:690px) { .requested-head { display:block; } .requested-facts { grid-template-columns:1fr; } .requested-title { display:block; } .requested-status { display:inline-block; margin-top:8px; } }
+  </style>
+</head>
+<body>
+  <main class="requested-page">
+    <div class="requested-head"><div><a href="index.html">← 商品分析へ戻る</a><h1>指定ASINの確認結果</h1><p>ご指定の9件を確認しました。主一覧の登録数には含めていません。</p></div><span>確認日 2026年10月15日</span></div>
+    <label for="asinSearch"><strong>ASIN・商品名で検索</strong></label>
+    <div class="requested-search"><input id="asinSearch" type="search" placeholder="例 B00SM995GQ" autocomplete="off"></div>
+    <p id="resultCount" class="requested-count"></p>
+    <section id="requestedList" class="requested-list" aria-live="polite"></section>
+    <p class="requested-note">商品名・3辺・重量はKeepaの掲載値で、発送用外装の実測ではありません。Amazonの現行商品ページは取得できず、販売単位と梱包後の厚さを確定できていません。売価はSP-API Pricingの新規出品、手数料は同じ自己発送価格でのProduct Fees見積もりです。FBA配送代行手数料は含めていません。仕入価格・在庫が未確認のため利益は算出していません。価格・出品状況は変わります。</p>
+  </main>
+  <script src="requested_reviews.js?v=1"></script>
+  <script>
+    (() => {
+      const items = window.NEKOPOST_REQUESTED_REVIEWS?.items || [];
+      const input = document.querySelector('#asinSearch');
+      const list = document.querySelector('#requestedList');
+      const count = document.querySelector('#resultCount');
+      const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+      const yen = value => `¥${Number(value).toLocaleString('ja-JP')}`;
+      const offer = value => value ? `${yen(value.listingYen)} ＋購入者送料 ${yen(value.shippingYen)}${value.points ? `・付与 ${value.points}pt` : ''}` : '出品取得なし';
+      const card = item => {
+        const dims = item.packageCm.map(value => Number(value).toFixed(1));
+        const reference = !item.merchant;
+        return `<article class="requested-card" id="${item.asin}"><div class="requested-title"><h2>${escape(item.title)}</h2><span class="requested-status ${item.status}">${item.status === 'hold' ? '形状確認待ち' : '主一覧対象外'}</span></div><p class="requested-asin">ASIN ${item.asin} · JAN ${escape(item.eanList.join(' / ') || '未確認')}</p><div class="requested-facts"><div><small>Keepa掲載の梱包3辺・重量</small><strong>${dims.join(' × ')}cm / ${escape(item.packageWeightG)}g</strong></div><div><small>Amazon自己発送の新規出品</small><strong>${offer(item.merchant)}</strong></div><div><small>自己発送手数料見積もり</small><strong>${yen(item.merchantFeeYen)}（税込概算 ${yen(Math.ceil(item.merchantFeeYen * 1.1))}）${reference ? '・FBA売価で参考算出' : ''}</strong></div></div><p class="requested-reason">${escape(item.reason)}</p><p class="requested-asin">FBA出品：${offer(item.amazonFulfilled)}。${escape(item.feeBasis)}。実測値・仕入価格は未取得。</p><footer><a href="https://www.amazon.co.jp/dp/${item.asin}" target="_blank" rel="noopener noreferrer">Amazon商品ページ ↗</a><a href="https://keepa.com/#!product/5-${item.asin}" target="_blank" rel="noopener noreferrer">Keepa ↗</a></footer></article>`;
+      };
+      const render = () => {
+        const query = input.value.trim().toLowerCase();
+        const found = items.filter(item => !query || `${item.asin} ${item.title}`.toLowerCase().includes(query));
+        count.textContent = `${found.length} / ${items.length}件 · 主一覧登録 0件 · 対象外 ${items.filter(item => item.status === 'excluded').length}件 · 形状確認待ち ${items.filter(item => item.status === 'hold').length}件`;
+        list.innerHTML = found.length ? found.map(card).join('') : '<p>一致するASINはありません。</p>';
+      };
+      const requested = new URLSearchParams(location.search).get('asin');
+      if (requested) input.value = requested.toUpperCase();
+      input.addEventListener('input', render);
+      render();
+    })();
+  </script>
+</body>
+</html>

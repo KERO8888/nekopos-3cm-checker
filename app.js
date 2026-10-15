@@ -15,6 +15,7 @@
   const demoByAsin = new Map(demoMeasurements.map((sample, index) => [sample.asin, { ...sample, order: index }]));
   const trialProducts = window.NEKOPOST_TRIAL_PRODUCTS || [];
   const trialByAsin = new Map(trialProducts.map((trial, index) => [trial.asin, { ...trial, order: index }]));
+  const requestedByAsin = new Map((window.NEKOPOST_REQUESTED_REVIEWS?.items || []).map(item => [item.asin, item]));
   const storageKey = 'nekopos-candidates-v1';
   let visibleLimit = 20;
   let selectedAsin = products.some(item => item.asin === 'B0DQDTBXJ7') ? 'B0DQDTBXJ7' : '';
@@ -71,7 +72,7 @@
     selectedAsin = trialProducts[0]?.asin || '';
   }
   const requestedAsin = pageParams.get('asin');
-  if (requestedAsin && products.some(item => item.asin === requestedAsin)) {
+  if (requestedAsin && (products.some(item => item.asin === requestedAsin) || requestedByAsin.has(requestedAsin))) {
     selectedAsin = requestedAsin;
     profitFilter = 'all';
     $('#search').value = requestedAsin;
@@ -684,6 +685,12 @@
   }
 
   function render() {
+    const requestedMatch = requestedByAsin.get($('#search').value.trim().toUpperCase());
+    const requestedBox = $('#requestedMatch');
+    if (requestedBox) {
+      requestedBox.hidden = !requestedMatch;
+      requestedBox.innerHTML = requestedMatch ? `指定ASINの確認結果：${escapeHtml(requestedMatch.title)}<a href="requested.html?asin=${requestedMatch.asin}">価格・手数料・掲載寸法を見る →</a>` : '';
+    }
     $('#demoSidebar').hidden = trialOnly;
     const advancedAsin = $('#featured .advanced[open]')?.closest('[data-asin]')?.dataset.asin;
     const matched = filteredProducts();
@@ -693,7 +700,9 @@
     if (selected && !visible.some(item => item.asin === selectedAsin)) visible.unshift(selected);
     $('#visibleCount').textContent = `${visible.length} / ${matched.length}件（${trialOnly ? '実測待ちリスト' : measuredOnly ? '実測入力あり' : demoOnly ? '検証用表示例' : $('#sortMode').value === 'profit' ? '利益順' : '発送見込み順'}）`;
     $('#list').innerHTML = visible.length ? visible.map(candidateRow).join('') : '<div class="empty">該当する候補がありません。検索・絞り込みを変更してください。</div>';
-    $('#featured').innerHTML = selected ? trialDetail(selected) + demoDetail(selected) + profitSpotlight(selected) + supplierQuick(selected) + card(selected) : '<div class="empty">該当商品がありません。検索・絞り込みを変更してください。</div>';
+    $('#featured').innerHTML = selected ? trialDetail(selected) + demoDetail(selected) + profitSpotlight(selected) + supplierQuick(selected) + card(selected) : requestedMatch
+      ? `<div class="empty">${requestedMatch.asin}は主一覧の適合商品ではありません。<a href="requested.html?asin=${requestedMatch.asin}">確認結果を見る →</a></div>`
+      : '<div class="empty">該当商品がありません。検索・絞り込みを変更してください。</div>';
     if (selected && advancedAsin === selected.asin) $('#featured .advanced').open = true;
     $('#more').hidden = visible.length >= matched.length;
   }
@@ -778,7 +787,23 @@
     if (fallback) fallback.hidden = false;
   }, true);
   ['search', 'category', 'dimension', 'forecast', 'shippingFilter'].forEach(id => {
-    $(`#${id}`).addEventListener(id === 'search' ? 'input' : 'change', () => { visibleLimit = 20; render(); });
+    $(`#${id}`).addEventListener(id === 'search' ? 'input' : 'change', () => {
+      const query = $('#search').value.trim().toUpperCase();
+      if (id === 'search' && /^B[0-9A-Z]{9}$/.test(query) && products.some(item => item.asin === query)) {
+        selectedAsin = query;
+        profitFilter = 'all';
+        demoOnly = false;
+        trialOnly = false;
+        measuredOnly = false;
+        ['category', 'dimension', 'forecast', 'shippingFilter'].forEach(filter => { $(`#${filter}`).value = 'all'; });
+        syncProfitButtons();
+        syncDemoButton();
+        syncTrialButton();
+        syncMeasuredButton();
+      }
+      visibleLimit = 20;
+      render();
+    });
   });
   function syncProfitButtons() {
     document.querySelectorAll('[data-profit-filter]').forEach(button => {
@@ -888,7 +913,11 @@
     $('#featured .advanced').open = true;
   });
   $('#more').addEventListener('click', () => { visibleLimit += 20; render(); });
-  $('#searchGo').addEventListener('click', () => $('#candidates').scrollIntoView({ behavior: 'smooth', block: 'start' }));
+  $('#searchGo').addEventListener('click', () => {
+    const requested = requestedByAsin.get($('#search').value.trim().toUpperCase());
+    if (requested) window.location.href = `requested.html?asin=${requested.asin}`;
+    else $('#candidates').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
   $('#export').addEventListener('click', () => {
     $('#csvText').value = createCsv();
     $('#csvDialog').showModal();

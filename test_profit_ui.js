@@ -7,7 +7,7 @@ const element = key => {
   if (!elements.has(key)) elements.set(key, {
     value: key === '#sortMode' ? 'profit' : key === '#category' || key === '#dimension' || key === '#forecast' || key === '#shippingFilter' ? 'all' : '',
     options: [], replaceChildren(...options) { this.options = options; },
-    addEventListener() {}, setAttribute() {}, classList: { toggle() {} },
+    listeners: {}, addEventListener(type, handler) { this.listeners[type] = handler; }, setAttribute() {}, classList: { toggle() {} },
     textContent: '', innerHTML: '', dataset: {},
   });
   return elements.get(key);
@@ -22,7 +22,7 @@ const context = {
   console,
 };
 vm.createContext(context);
-for (const file of ['data.js', 'predictions.js', 'shipping_fit.js', 'demo_measurements.js', 'trial_products.js', 'sourcing.js', 'market_data.js', 'finance.js']) {
+for (const file of ['data.js', 'predictions.js', 'shipping_fit.js', 'demo_measurements.js', 'trial_products.js', 'sourcing.js', 'market_data.js', 'finance.js', 'requested_reviews.js']) {
   vm.runInContext(fs.readFileSync(file, 'utf8'), context, { filename: file });
 }
 const app = fs.readFileSync('app.js', 'utf8');
@@ -32,6 +32,17 @@ vm.runInContext(app.replace(ending, '  window.__profitTest = { profitStateFor, p
 
 const products = context.window.NEKOPOST_PRODUCTS;
 const test = context.window.__profitTest;
+assert.strictEqual(context.window.NEKOPOST_REQUESTED_REVIEWS.items.length, 9);
+assert(context.window.NEKOPOST_REQUESTED_REVIEWS.items.every(item => !products.some(product => product.asin === item.asin)));
+test.setProfitFilter('candidate');
+element('#search').value = 'B0DVSBJMXM';
+element('#search').listeners.input();
+assert(element('#featured').innerHTML.includes('B0DVSBJMXM'), 'exact registered ASIN must be found across profit filters');
+element('#search').value = 'B00SM995GQ';
+element('#search').listeners.input();
+assert(element('#requestedMatch').innerHTML.includes('requested.html?asin=B00SM995GQ'), 'requested ASIN must link to its review');
+element('#search').value = '';
+test.setProfitFilter('candidate');
 const demos = context.window.NEKOPOST_DEMO_MEASUREMENTS;
 const trials = context.window.NEKOPOST_TRIAL_PRODUCTS;
 assert.strictEqual(trials.length, 10);

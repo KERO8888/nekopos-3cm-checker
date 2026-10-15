@@ -459,6 +459,11 @@ main { display:flex; flex-direction:column; max-width:1900px; padding:14px clamp
 .sidebar-search > span { color:#264c63; font-size:24px; line-height:1; }
 .sidebar-search input { width:100%; min-width:0; border:0; outline:0; background:transparent; color:#182c42; font-size:13px; }
 .sidebar-search button { flex:none; border:0; background:transparent; color:#0b747c; font-size:23px; cursor:pointer; }
+.requested-match { margin:8px 2px; padding:10px 12px; border:1px solid #93c8cf; border-radius:10px; background:#eaf8f8; color:#194254; font-size:12px; line-height:1.5; }
+.requested-match[hidden] { display:none; }
+.requested-match a, .requested-list-link { color:#087684; font-weight:800; text-decoration:none; }
+.requested-match a { display:block; margin-top:4px; }
+.requested-list-link { display:block; margin:8px 4px 10px; font-size:12px; }
 .sidebar-shortcuts { display:flex; gap:6px; margin:10px 0 13px; }
 .sidebar-shortcuts button { flex:1; min-width:0; padding:8px 4px; border:0; border-radius:7px; background:#eef1f3; color:#647286; font-size:11px; font-weight:800; cursor:pointer; }
 .sidebar-shortcuts button.active { background:#087684; color:#fff; }
