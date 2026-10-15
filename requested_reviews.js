@@ -151,8 +151,10 @@ window.NEKOPOST_REQUESTED_REVIEWS = {
         15.2
       ],
       "packageWeightG": 30,
-      "status": "hold",
-      "reason": "防虫剤8個入り。個包装の厚み・並び方、未開封外装の形と最大厚が未確認。",
+      "status": "excluded",
+      "reason": "エステー公式が8個（2個×4包）と明記。複数包の販売単位で、単品の平らな袋という主一覧の条件に合わない。",
+      "evidenceUrl": "https://products.st-c.co.jp/detail/389/",
+      "evidenceLabel": "メーカー公式の内容量",
       "merchant": {
         "listingYen": 529,
         "shippingYen": 0,
