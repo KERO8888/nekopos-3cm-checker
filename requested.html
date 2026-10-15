@@ -37,14 +37,14 @@
 </head>
 <body>
   <main class="requested-page">
-    <div class="requested-head"><div><a href="index.html">← 商品分析へ戻る</a><h1>指定ASINの確認結果</h1><p>ご指定の16件を確認しました。主一覧の登録数には含めていません。</p></div><span>確認日 2026年10月15日</span></div>
+    <div class="requested-head"><div><a href="index.html">← 商品分析へ戻る</a><h1>指定ASINの確認結果</h1><p>ご指定の17件を確認しました。主一覧の登録数には含めていません。</p></div><span>確認日 2026年10月15日</span></div>
     <label for="asinSearch"><strong>ASIN・商品名で検索</strong></label>
     <div class="requested-search"><input id="asinSearch" type="search" placeholder="例 B00SM995GQ" autocomplete="off"></div>
     <p id="resultCount" class="requested-count"></p>
     <section id="requestedList" class="requested-list" aria-live="polite"></section>
-    <p class="requested-note">商品名・3辺・重量はKeepaの掲載値で、発送用外装の実測ではありません。Amazonへの自動取得は確認画面で停止したため、商品本文は確認していません。販売単位・付属品などは各商品の根拠リンクでも照合しています。売価はSP-API Pricingの新規出品、手数料は同じ自己発送価格でのProduct Fees見積もりです。FBA配送代行手数料は含めていません。仕入価格・在庫が未確認のため利益は算出していません。価格・出品状況は変わります。</p>
+    <p class="requested-note">商品名・3辺・重量はKeepaの掲載値で、発送用外装の実測ではありません。Amazonへの自動取得は確認画面で停止したため、商品本文は確認していません。販売単位・付属品などは各商品の根拠リンクでも照合しています。売価はSP-API Pricingの新規出品、手数料は同じ自己発送価格でのProduct Fees見積もりです。FBA配送代行手数料は含めていません。一部商品の仕入価格は個別に注記していますが、発送適合を含む確定利益ではありません。価格・出品状況は変わります。</p>
   </main>
-  <script src="requested_reviews.js?v=4"></script>
+  <script src="requested_reviews.js?v=5"></script>
   <script>
     (() => {
       const items = window.NEKOPOST_REQUESTED_REVIEWS?.items || [];
@@ -58,7 +58,7 @@
       const card = item => {
         const dims = item.packageCm.map(value => Number(value).toFixed(1));
         const reference = !item.merchant;
-        return `<article class="requested-card" id="${item.asin}"><div class="requested-title"><h2>${escape(item.title)}</h2><span class="requested-status ${item.status}">${statusLabel(item)}</span></div><p class="requested-asin">ASIN ${item.asin} · JAN ${escape(item.eanList.join(' / ') || '未確認')}</p><div class="requested-facts"><div><small>Keepa掲載の梱包3辺・重量</small><strong>${dims.join(' × ')}cm / ${escape(item.packageWeightG)}g</strong></div><div><small>Amazon自己発送の新規出品</small><strong>${offer(item.merchant)}</strong></div><div><small>自己発送手数料見積もり</small><strong>${yen(item.merchantFeeYen)}（税込概算 ${yen(Math.ceil(item.merchantFeeYen * 1.1))}）${reference ? '・FBA売価で参考算出' : ''}</strong></div></div><p class="requested-reason">${escape(item.reason)}</p><p class="requested-asin">FBA出品：${offer(item.amazonFulfilled)}。${escape(item.feeBasis)}。実測値・仕入価格は未取得。${item.sourcingNote ? escape(item.sourcingNote) : ''}</p><footer><a href="https://www.amazon.co.jp/dp/${item.asin}" target="_blank" rel="noopener noreferrer">Amazon商品ページ ↗</a><a href="https://keepa.com/#!product/5-${item.asin}" target="_blank" rel="noopener noreferrer">Keepa ↗</a>${item.evidenceUrl ? `<a href="${escape(item.evidenceUrl)}" target="_blank" rel="noopener noreferrer">${escape(item.evidenceLabel || '判定根拠')} ↗</a>` : ''}</footer></article>`;
+        return `<article class="requested-card" id="${item.asin}"><div class="requested-title"><h2>${escape(item.title)}</h2><span class="requested-status ${item.status}">${statusLabel(item)}</span></div><p class="requested-asin">ASIN ${item.asin} · JAN ${escape(item.eanList.join(' / ') || '未確認')}</p><div class="requested-facts"><div><small>Keepa掲載の梱包3辺・重量</small><strong>${dims.join(' × ')}cm / ${escape(item.packageWeightG)}g</strong></div><div><small>Amazon自己発送の新規出品</small><strong>${offer(item.merchant)}</strong></div><div><small>自己発送手数料見積もり</small><strong>${yen(item.merchantFeeYen)}（税込概算 ${yen(Math.ceil(item.merchantFeeYen * 1.1))}）${reference ? '・FBA売価で参考算出' : ''}</strong></div></div><p class="requested-reason">${escape(item.reason)}</p><p class="requested-asin">FBA出品：${offer(item.amazonFulfilled)}。${escape(item.feeBasis)}。発送用外装の実測は未取得。${item.sourcingNote ? escape(item.sourcingNote) : '仕入価格は未確認。'}</p><footer><a href="https://www.amazon.co.jp/dp/${item.asin}" target="_blank" rel="noopener noreferrer">Amazon商品ページ ↗</a><a href="https://keepa.com/#!product/5-${item.asin}" target="_blank" rel="noopener noreferrer">Keepa ↗</a>${item.evidenceUrl ? `<a href="${escape(item.evidenceUrl)}" target="_blank" rel="noopener noreferrer">${escape(item.evidenceLabel || '判定根拠')} ↗</a>` : ''}</footer></article>`;
       };
       const render = () => {
         const query = input.value.trim().toLowerCase();

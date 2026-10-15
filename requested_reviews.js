@@ -1,6 +1,6 @@
 window.NEKOPOST_REQUESTED_REVIEWS = {
   "checkedOn": "2026-10-15",
-  "scope": "User supplied 16 ASINs; Keepa metadata and SP-API Pricing/Fees checked. Amazon current product pages unavailable. One earlier item has a conditional small-parcel shipping outlook; the 7 newly supplied items do not meet the current small-parcel candidate criteria. None is registered in the main product list. Fees are MFN estimates; no FBA fulfillment fees.",
+  "scope": "User supplied 17 ASINs; Keepa metadata and SP-API Pricing/Fees checked. Amazon current product pages unavailable. One item has a conditional small-parcel shipping outlook; the other 16 do not meet the current small-parcel candidate criteria. None is registered in the main product list. Fees are MFN estimates; no FBA fulfillment fees.",
   "items": [
     {
       "asin": "B081N2S4Y1",
@@ -439,6 +439,23 @@ window.NEKOPOST_REQUESTED_REVIEWS = {
       },
       "amazonFulfilled": null,
       "merchantFeeYen": 30,
+      "feeBasis": "実際の自己発送最安出品で見積もり",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "asin": "B08123FNFK",
+      "title": "Finish 食洗機 洗剤 フィニッシュ タブレット パワーキューブ L 100個（100回分）",
+      "eanList": ["4906156500776"],
+      "packageCm": [5.4, 17.6, 21.6],
+      "packageWeightG": 540,
+      "status": "excluded",
+      "reason": "100錠入り1袋で、以前の100錠×4とは別の販売単位。個々の錠剤は固形で、Keepa掲載梱包の最小辺は5.4cm。同一JANの商品説明はジッパー付き袋だが、未開封のまま錠剤を広げ、発送外装込みで最大厚3cm以下にできる根拠がない。発送用外装込みの厚さ・重量は未実測。",
+      "evidenceUrl": "https://tomods-ap.com/shop/g/g4906156500776/",
+      "evidenceLabel": "同一JANの単品・袋形状・価格",
+      "sourcingNote": "トモズの同一JAN・単品は在庫あり税込1,738円、単品注文の送料550円、税込5,500円以上で送料無料。仮にクリックポスト発送可能として自己発送着地1,780円、手数料税込概算204円、運賃240円、梱包20円、仕入送料0円なら、仕入上限1,316円で収支は約422円の赤字。発送適合と販売成立は未確認。",
+      "merchant": {"listingYen": 1780, "shippingYen": 0, "points": 0},
+      "amazonFulfilled": {"listingYen": 1800, "shippingYen": 0, "points": 0},
+      "merchantFeeYen": 185,
       "feeBasis": "実際の自己発送最安出品で見積もり",
       "checkedOn": "2026-10-15"
     }
