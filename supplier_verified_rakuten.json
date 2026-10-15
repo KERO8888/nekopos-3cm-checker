@@ -3025,7 +3025,79 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B0983G1QTC": {
+      "expectedEans": [
+        "0819385023432"
+      ],
+      "checkedPages": 3,
+      "cumulativeCheckedPages": 3,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 28,
+      "rejected": {
+        "price_changed": 2,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "マウ ント ハーゲン マウ ントハーゲン オーガニック フェアトレード インスタントコーヒー 詰め替え用 ジップバッグ 200g",
+          "storeName": "スイートミューズ",
+          "jan": "0819385023432",
+          "priceYen": 3600,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T01:31:33.024602+00:00",
+          "url": "https://item.rakuten.co.jp/sweetshopegami/20261003044142_236/",
+          "store": "スイートミューズ",
+          "inboundShippingYen": 0,
+          "displayPoints": 32,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
+    },
+    "B08VT9LBLW": {
+      "expectedEans": [
+        "4901372402750"
+      ],
+      "checkedPages": 3,
+      "cumulativeCheckedPages": 3,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 22,
+      "rejected": {
+        "jan_missing": 1,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "【送料無料】【限定】 キーコーヒー インスタントコーヒー スペシャルブレンド 300g インスタント(大容量150杯分・袋・詰替・粉)",
+          "storeName": "北海道の香りショップ楽天市場店",
+          "jan": "4901372402750",
+          "priceYen": 3859,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T01:32:15.211807+00:00",
+          "url": "https://item.rakuten.co.jp/hokkaido-kaori/b08vt9lblw/",
+          "store": "北海道の香りショップ楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 35,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【送料無料】【限定】 キーコーヒー インスタントコーヒー スペシャルブレンド 300g インスタント(大容量150杯分・袋・詰替・粉)",
+          "storeName": "シンアサヒスマイル楽天市場店",
+          "jan": "4901372402750",
+          "priceYen": 3859,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T01:32:25.735032+00:00",
+          "url": "https://item.rakuten.co.jp/sinasahismile/b08vt9lblw/",
+          "store": "シンアサヒスマイル楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 35,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-13T21:31:32.362378+00:00"
+  "checkedAt": "2026-10-15T01:32:26.042252+00:00"
 }
