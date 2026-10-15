@@ -29,6 +29,7 @@ const items = context.window.NEKOPOST_REQUESTED_REVIEWS.items;
 assert.strictEqual(items.length, 19);
 assert.strictEqual(items.find(item => item.asin === 'B09221FFRT').packageCm[0], 1.5);
 assert.strictEqual(items.find(item => item.asin === 'B07HX446KB').packageCm[0], 9.9);
+assert(items.find(item => item.asin === 'B07HX446KB').reason.includes('小型発送自体の可否は未判定'));
 assert(element('#requestedList').innerHTML.includes('B08123FNFK'));
 assert(!element('#requestedList').innerHTML.includes('B0976PJ6K9'), 'ASIN query should isolate the matching card');
 assert(element('#requestedList').innerHTML.includes('予測へのフィードバック'));

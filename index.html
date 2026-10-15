@@ -22,7 +22,7 @@
         <div class="field"><label for="forecast">平置き3cm予測</label><select id="forecast"><option value="all">すべて</option><option value="likely">収まりそう</option><option value="borderline">境界・情報不足</option><option value="unlikely">難しい</option></select></div>
         <div class="field"><label for="shippingFilter">配送規格の判定</label><select id="shippingFilter"><option value="all">すべて</option><option value="both">両方とも規格内見込み</option><option value="nekopos">ネコポス規格内見込み</option><option value="clickpost">クリックポスト規格内見込み</option><option value="check">要実測</option><option value="over">両方とも規格外</option></select></div>
       </div>
-      <details id="method" class="method"><summary>推定方法と注意点</summary><p>同一商品のメーカー公表「個装・単品寸法」を最優先します。それ以外はAmazon・Keepaの「商品寸法」、同系品の袋、画像、カタログの「パッケージ寸法」を個別に照合し、仮定として表示します。パッケージ寸法はFBA納品用の大箱を意味するとは限らず、販売単位の包装寸法ですが、商品袋の実寸と一致する保証はありません。出典の弱い寸法だけで「入る」とは判定しません。</p><p>粉・粒は内容量を仮定のかさ密度で体積に直し、袋の有効面積に広げて厚さを概算します。液体のmL表示はすでに体積なので密度では割りません。縦横は商品袋に対して外装余白を各0〜2cm、重量は梱包材100gを仮に加えて確認します。複数個セット、マチ、硬い注ぎ口やスプーンは誤差要因です。ネコポスは宛名面23×11.5cm以上、クリックポストは14×9cm以上の外装が必要です。クリックポストは投函口の実寸にも左右されます。</p><p>参考：<a href="https://agf.ajinomoto.co.jp/product/detail/88489" target="_blank" rel="noopener noreferrer">AGF 60gの単品寸法</a>、<a href="https://business.kuronekoyamato.co.jp/service/lineup/nekoposu/index.html" target="_blank" rel="noopener noreferrer">ネコポス規格</a>、<a href="https://www.post.japanpost.jp/service/send/domestic/delivery/clickpost/" target="_blank" rel="noopener noreferrer">クリックポスト規格</a>。</p></details>
+      <details id="method" class="method"><summary>推定方法と注意点</summary><p>同一商品のメーカー公表「個装・単品寸法」を最優先します。それ以外はAmazon・Keepaの「商品寸法」、同系品の袋、画像、カタログの「パッケージ寸法」を個別に照合し、仮定として表示します。Amazon・Keepa掲載のパッケージ寸法は梱包込みの値で、商品本体や個装の実寸と同じではありません。販売単位が複数なら、そのまとまりや梱包材を含む可能性もあります。掲載最小辺が3cmを超えたことだけで商品自体が厚いと断定せず、発送用外装込みの実測値で確認します。</p><p>粉・粒は内容量を仮定のかさ密度で体積に直し、袋の有効面積に広げて厚さを概算します。液体のmL表示はすでに体積なので密度では割りません。縦横は商品袋に対して外装余白を各0〜2cm、重量は梱包材100gを仮に加えて確認します。複数個セット、マチ、硬い注ぎ口やスプーンは誤差要因です。ネコポスは宛名面23×11.5cm以上、クリックポストは14×9cm以上の外装が必要です。クリックポストは投函口の実寸にも左右されます。</p><p>参考：<a href="https://agf.ajinomoto.co.jp/product/detail/88489" target="_blank" rel="noopener noreferrer">AGF 60gの単品寸法</a>、<a href="https://business.kuronekoyamato.co.jp/service/lineup/nekoposu/index.html" target="_blank" rel="noopener noreferrer">ネコポス規格</a>、<a href="https://www.post.japanpost.jp/service/send/domestic/delivery/clickpost/" target="_blank" rel="noopener noreferrer">クリックポスト規格</a>。</p></details>
     </details>
     <div class="workspace">
       <aside class="candidate-picker" aria-label="商品候補">
@@ -60,7 +60,7 @@
   <script src="market_data.js?v=20261014d"></script>
   <script src="acquisition_status.js?v=20261014e"></script>
   <script src="finance.js?v=2"></script>
-  <script src="requested_reviews.js?v=6"></script>
+  <script src="requested_reviews.js?v=7"></script>
   <script src="app.js?v=49"></script>
 </body>
 </html>
