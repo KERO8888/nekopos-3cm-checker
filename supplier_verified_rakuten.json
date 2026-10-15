@@ -3097,7 +3097,119 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B0DVSBJMXM": {
+      "expectedEans": [
+        "4901111552333"
+      ],
+      "checkedPages": 3,
+      "cumulativeCheckedPages": 3,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 16,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "AGF マキシム 袋 80g 【 インスタントコーヒー 】 【 詰め替え エコパック 】",
+          "storeName": "hanatomori楽天市場店",
+          "jan": "4901111552333",
+          "priceYen": 1346,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T02:29:54.433649+00:00",
+          "url": "https://item.rakuten.co.jp/hanatomori/20250513230931_161/",
+          "store": "hanatomori楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 12,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "AGF マキシム 袋 80g 【 インスタントコーヒー 】 【 詰め替え エコパック 】",
+          "storeName": "ナナイロショップ　楽天市場店",
+          "jan": "4901111552333",
+          "priceYen": 1451,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T02:30:04.941534+00:00",
+          "url": "https://item.rakuten.co.jp/nanairoshop/20250612234903_114/",
+          "store": "ナナイロショップ　楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 13,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "AGF マキシム インスタントコーヒー 袋 詰め替え (80g) インスタントコーヒー",
+          "storeName": "大将もビックリ！ＳＣＢ",
+          "jan": "4901111552333",
+          "priceYen": 1243,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T02:29:43.982170+00:00",
+          "url": "https://item.rakuten.co.jp/scbmitsuokun1972/4901111552333/",
+          "store": "大将もビックリ！ＳＣＢ",
+          "inboundShippingYen": 660,
+          "displayPoints": 11,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
+    },
+    "B0DWD4994X": {
+      "expectedEans": [
+        "4902201444422"
+      ],
+      "checkedPages": 3,
+      "cumulativeCheckedPages": 3,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 21,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "ネスカフェ 香味焙煎 ひとときの贅沢(50g)【ネスカフェ(NESCAFE)】[インスタントコーヒー 詰め替え ブラックコーヒー]",
+          "storeName": "楽天24",
+          "jan": "4902201444422",
+          "priceYen": 597,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T02:30:26.057502+00:00",
+          "url": "https://item.rakuten.co.jp/rakuten24/4902201444422/",
+          "store": "楽天24",
+          "inboundShippingYen": 770,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【エントリーで最大P10倍！12/31 9:59迄】ネスカフェ 香味焙煎 ひとときの贅沢 50g | つめかえ インスタントコーヒー レギュラー ソリュブルコーヒー 約25杯 ポリフェノール ホット アイス 簡単 おうちカフェ オフィス",
+          "storeName": "ベイシア楽天市場店",
+          "jan": "4902201444422",
+          "priceYen": 675,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T02:30:36.776533+00:00",
+          "url": "https://item.rakuten.co.jp/beisia/4902201444422-1/",
+          "store": "ベイシア楽天市場店",
+          "inboundShippingYen": 750,
+          "displayPoints": 6,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ネスレ ネスカフェ 香味焙煎 ひとときの贅沢 50g",
+          "storeName": "ニシムタ　楽天市場店",
+          "jan": "4902201444422",
+          "priceYen": 717,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T02:30:15.579317+00:00",
+          "url": "https://item.rakuten.co.jp/nishimuta/4902201444422/",
+          "store": "ニシムタ　楽天市場店",
+          "inboundShippingYen": 980,
+          "displayPoints": 6,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-15T01:32:26.042252+00:00"
+  "checkedAt": "2026-10-15T02:30:37.086263+00:00"
 }
