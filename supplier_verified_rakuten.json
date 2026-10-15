@@ -3308,7 +3308,119 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B093DGHBXC": {
+      "expectedEans": [
+        "4548514154483"
+      ],
+      "checkedPages": 7,
+      "cumulativeCheckedPages": 7,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 48,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "【合算3150円で送料無料】【医薬部外品】きき湯ファインヒート スマートモデル　つめかえ用 500ｇ",
+          "storeName": "サポートショップ",
+          "jan": "4548514154483",
+          "priceYen": 1151,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T04:28:42.815564+00:00",
+          "url": "https://item.rakuten.co.jp/sapoot/4548514154483/",
+          "store": "サポートショップ",
+          "inboundShippingYen": 0,
+          "displayPoints": 10,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "バスクリン 薬用 きき湯 ファインヒート スマートモデル ホットシトラスの香り 詰替え用 500g",
+          "storeName": "姫路流通センター",
+          "jan": "4548514154483",
+          "priceYen": 1001,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T04:28:32.171970+00:00",
+          "url": "https://item.rakuten.co.jp/at-life/4548514154483/",
+          "store": "姫路流通センター",
+          "inboundShippingYen": 399,
+          "displayPoints": 9,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "きき湯ファインヒート スマートモデル つめかえ用 500g",
+          "storeName": "クスリのアオキ2号店楽天市場店",
+          "jan": "4548514154483",
+          "priceYen": 925,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T04:28:53.372646+00:00",
+          "url": "https://item.rakuten.co.jp/kusuriaoki-r-2/4548514154483/",
+          "store": "クスリのアオキ2号店楽天市場店",
+          "inboundShippingYen": 490,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【医薬部外品】きき湯 ファインヒートスマートモデル ホット シトラスの香り つめかえ用 500g入浴剤 バスクリン",
+          "storeName": "グッドワン薬店",
+          "jan": "4548514154483",
+          "priceYen": 968,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T04:28:00.467306+00:00",
+          "url": "https://item.rakuten.co.jp/fuseyakuten/g-4548514154483-t/",
+          "store": "グッドワン薬店",
+          "inboundShippingYen": 660,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【医薬部外品】きき湯 ファインヒートスマートモデル ホット シトラスの香り つめかえ用 500g入浴剤 バスクリン",
+          "storeName": "ブンブンドラッグ",
+          "jan": "4548514154483",
+          "priceYen": 968,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T04:28:10.984515+00:00",
+          "url": "https://item.rakuten.co.jp/bbdrag/g-4548514154483-t/",
+          "store": "ブンブンドラッグ",
+          "inboundShippingYen": 660,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "きき湯 ファインヒート スマートモデル つめかえ用 500g",
+          "storeName": "くすりの勉強堂 アネックス",
+          "jan": "4548514154483",
+          "priceYen": 1057,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T04:29:03.909346+00:00",
+          "url": "https://item.rakuten.co.jp/k-benkyo/4548514154483/",
+          "store": "くすりの勉強堂 アネックス",
+          "inboundShippingYen": 600,
+          "displayPoints": 9,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "【医薬部外品】アース製薬　きき湯　ファインヒート　スマートモデル　つめかえ　500g　入浴剤",
+          "storeName": "ニシムタ　楽天市場店",
+          "jan": "4548514154483",
+          "priceYen": 932,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T04:28:21.595985+00:00",
+          "url": "https://item.rakuten.co.jp/nishimuta/4548514154483/",
+          "store": "ニシムタ　楽天市場店",
+          "inboundShippingYen": 980,
+          "displayPoints": 8,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-15T03:33:49.781603+00:00"
+  "checkedAt": "2026-10-15T04:29:04.219734+00:00"
 }
