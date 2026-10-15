@@ -32,9 +32,13 @@ vm.runInContext(app.replace(ending, '  window.__profitTest = { profitStateFor, p
 
 const products = context.window.NEKOPOST_PRODUCTS;
 const test = context.window.__profitTest;
-assert.strictEqual(context.window.NEKOPOST_REQUESTED_REVIEWS.items.length, 9);
+assert.strictEqual(context.window.NEKOPOST_REQUESTED_REVIEWS.items.length, 16);
 assert(context.window.NEKOPOST_REQUESTED_REVIEWS.items.every(item => !products.some(product => product.asin === item.asin)));
 assert.strictEqual(context.window.NEKOPOST_REQUESTED_REVIEWS.items.find(item => item.asin === 'B00TI64YHW').status, 'shipping_hold');
+for (const asin of ['B06XMY6WNV', 'B0DBSKWCD5', 'B0845WFMNH', 'B077RYF9GM', 'B0CXCL68DL', 'B0CXCQSSSW', 'B0976PJ6K9']) {
+  const item = context.window.NEKOPOST_REQUESTED_REVIEWS.items.find(row => row.asin === asin);
+  assert(item && item.status === 'excluded' && item.merchant && item.merchantFeeYen > 0, `requested ASIN data missing: ${asin}`);
+}
 test.setProfitFilter('candidate');
 element('#search').value = 'B0DVSBJMXM';
 element('#search').listeners.input();

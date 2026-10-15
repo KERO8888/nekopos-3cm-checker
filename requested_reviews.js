@@ -1,6 +1,6 @@
 window.NEKOPOST_REQUESTED_REVIEWS = {
   "checkedOn": "2026-10-15",
-  "scope": "User supplied ASINs; Keepa metadata and SP-API Pricing/Fees checked. Amazon current product pages unavailable. One item has a conditional small-parcel shipping outlook; none is registered in the main product list. Fees are MFN estimates; no FBA fulfillment fees.",
+  "scope": "User supplied 16 ASINs; Keepa metadata and SP-API Pricing/Fees checked. Amazon current product pages unavailable. One earlier item has a conditional small-parcel shipping outlook; the 7 newly supplied items do not meet the current small-parcel candidate criteria. None is registered in the main product list. Fees are MFN estimates; no FBA fulfillment fees.",
   "items": [
     {
       "asin": "B081N2S4Y1",
@@ -245,6 +245,200 @@ window.NEKOPOST_REQUESTED_REVIEWS = {
         "points": 444
       },
       "merchantFeeYen": 444,
+      "feeBasis": "実際の自己発送最安出品で見積もり",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "asin": "B06XMY6WNV",
+      "title": "レック インソールも干せる シューズハンガー W-479 ブルー",
+      "eanList": [
+        "4903320454705"
+      ],
+      "packageCm": [
+        27.4,
+        19.6,
+        6.0
+      ],
+      "packageWeightG": 90,
+      "status": "excluded",
+      "reason": "硬いシューズハンガー1個。Keepaの梱包最小辺は6.0cm、本体寸法の最小辺も3.0cmで、宛名面を確保する外装を加えた3cm以内の見込みがない。",
+      "evidenceUrl": "https://www.askul.co.jp/p/AW73084/",
+      "evidenceLabel": "同一JANの販売単位",
+      "merchant": {
+        "listingYen": 248,
+        "shippingYen": 490,
+        "points": 0
+      },
+      "amazonFulfilled": null,
+      "merchantFeeYen": 37,
+      "feeBasis": "実際の自己発送最安出品で見積もり",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "asin": "B0DBSKWCD5",
+      "title": "LUX(ラックス) バスグロウ ストレートアンドシャイン シャンプー つめかえ用 700g",
+      "eanList": [
+        "4902111777993"
+      ],
+      "packageCm": [
+        24.3,
+        17.0,
+        6.4
+      ],
+      "packageWeightG": 720,
+      "status": "excluded",
+      "reason": "700gの詰替1袋だが、同一JANの商品説明に回して開ける硬いキャップと注ぎ口が明記されている。Keepa梱包最小辺6.4cmで、未開封のまま外装込み3cm以下にできる根拠がない。",
+      "evidenceUrl": "https://www.cainz.com/g/4902111777993.html",
+      "evidenceLabel": "同一JANのキャップ付き説明",
+      "merchant": {
+        "listingYen": 1140,
+        "shippingYen": 0,
+        "points": 0
+      },
+      "amazonFulfilled": {
+        "listingYen": 1180,
+        "shippingYen": 0,
+        "points": 0
+      },
+      "merchantFeeYen": 96,
+      "feeBasis": "実際の自己発送最安出品で見積もり",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "asin": "B0845WFMNH",
+      "title": "食洗機 洗剤 フィニッシュ タブレット パワーキューブ L 100個×4(400回分)",
+      "eanList": [
+        "4906156500776"
+      ],
+      "packageCm": [
+        34.0,
+        23.0,
+        8.0
+      ],
+      "packageWeightG": 2200,
+      "status": "excluded",
+      "reason": "100個入りを4個まとめた販売単位。Keepa掲載梱包重量2,200gでクリックポスト2kg・ネコポス1kgを超え、梱包最小辺も8.0cm。",
+      "merchant": {
+        "listingYen": 6488,
+        "shippingYen": 650,
+        "points": 0
+      },
+      "amazonFulfilled": null,
+      "merchantFeeYen": 742,
+      "feeBasis": "実際の自己発送最安出品で見積もり",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "asin": "B077RYF9GM",
+      "title": "ユンケルローヤル錠 2錠×30袋セット(計60錠)",
+      "eanList": [
+        "4573349484122"
+      ],
+      "packageCm": [
+        17.9,
+        16.5,
+        9.2
+      ],
+      "packageWeightG": 120,
+      "status": "excluded",
+      "reason": "2錠入り30袋のセット。複数袋を重ねた販売単位で、Keepa梱包最小辺9.2cm。未開封のまま外装込み3cm以下にできる根拠がない。",
+      "merchant": {
+        "listingYen": 1781,
+        "shippingYen": 0,
+        "points": 0
+      },
+      "amazonFulfilled": {
+        "listingYen": 3025,
+        "shippingYen": 0,
+        "points": 0
+      },
+      "merchantFeeYen": 185,
+      "feeBasis": "実際の自己発送最安出品で見積もり",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "asin": "B0CXCL68DL",
+      "title": "POWER PRODUCTION パワープロダクション マックスロードウエイトアップ チョコレート味 850g 増量時 食事代替",
+      "eanList": [
+        "4901005760790"
+      ],
+      "packageCm": [
+        24.3,
+        19.9,
+        9.5
+      ],
+      "packageWeightG": 890,
+      "status": "excluded",
+      "reason": "850gのプロテイン袋。Keepa梱包最小辺9.5cmで、同一JANの商品説明には付属スプーンの記載もある。未開封のままスプーン等の硬い部分を含め外装込み3cm以下にする見込みを示せない。",
+      "evidenceUrl": "https://www.yamada-denkiweb.com/7606971017/",
+      "evidenceLabel": "同一JANの付属スプーン記載",
+      "merchant": {
+        "listingYen": 4878,
+        "shippingYen": 0,
+        "points": 0
+      },
+      "amazonFulfilled": {
+        "listingYen": 4737,
+        "shippingYen": 0,
+        "points": 0
+      },
+      "merchantFeeYen": 507,
+      "feeBasis": "実際の自己発送最安出品で見積もり",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "asin": "B0CXCQSSSW",
+      "title": "ホエイプロテインプレーン味 680g 高たんぱく低糖質 WPI たんぱく質含有率95%(無水物換算値)",
+      "eanList": [
+        "4901005761131"
+      ],
+      "packageCm": [
+        24.9,
+        20.3,
+        9.3
+      ],
+      "packageWeightG": 720,
+      "status": "excluded",
+      "reason": "680gのプロテイン袋。Keepa梱包最小辺9.3cmで、同一JANの商品説明には付属スプーンの記載もある。未開封の外装込み3cm以下は見込めず、自己発送最安7,090円はFBA最安6,609円より高い。",
+      "evidenceUrl": "https://www.sofmap.com/product_detail.aspx?sku=101491285",
+      "evidenceLabel": "同一JANの付属スプーン記載",
+      "merchant": {
+        "listingYen": 7090,
+        "shippingYen": 0,
+        "points": 0
+      },
+      "amazonFulfilled": {
+        "listingYen": 6609,
+        "shippingYen": 0,
+        "points": 66
+      },
+      "merchantFeeYen": 737,
+      "feeBasis": "実際の自己発送最安出品で見積もり",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "asin": "B0976PJ6K9",
+      "title": "ハウスホールドジャパン ロールレジ袋 丸底シールタイプ 携帯 持ち運び 白 20L RR20 20枚入",
+      "eanList": [
+        "4580287322577"
+      ],
+      "packageCm": [
+        13.8,
+        4.4,
+        4.2
+      ],
+      "packageWeightG": 140,
+      "status": "excluded",
+      "reason": "20枚のごみ袋を巻いた1ロール。Keepa梱包4.2×4.4×13.8cmで、未開封のロールを平らにできない。硬い巻き芯の有無は未確認だが、現状の巻き形状だけで外装込み3cm以下の見込みがない。",
+      "evidenceUrl": "https://shimojima.jp/shop/g/g4580287322577/",
+      "evidenceLabel": "同一JANのロール20枚",
+      "merchant": {
+        "listingYen": 449,
+        "shippingYen": 0,
+        "points": 0
+      },
+      "amazonFulfilled": null,
+      "merchantFeeYen": 30,
       "feeBasis": "実際の自己発送最安出品で見積もり",
       "checkedOn": "2026-10-15"
     }
