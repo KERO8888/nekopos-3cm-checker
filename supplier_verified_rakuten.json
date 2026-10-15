@@ -3209,7 +3209,106 @@
           "shippingSource": "Rakuten search card for Tokyo"
         }
       ]
+    },
+    "B0DWCX87GS": {
+      "expectedEans": [
+        "4902201444194"
+      ],
+      "checkedPages": 3,
+      "cumulativeCheckedPages": 3,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 27,
+      "rejected": {
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "ネスカフェ アイスブレンド(50g)【ネスカフェ(NESCAFE)】[インスタントコーヒー 詰め替え 無糖 ブラック]",
+          "storeName": "楽天24",
+          "jan": "4902201444194",
+          "priceYen": 599,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T03:33:17.920779+00:00",
+          "url": "https://item.rakuten.co.jp/rakuten24/4902201444194/",
+          "store": "楽天24",
+          "inboundShippingYen": 770,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ネスレ ネスカフェ アイスブレンド 詰替用 50g 1袋(444194) 取り寄せ商品",
+          "storeName": "コンプモト　楽天市場店",
+          "jan": "4902201444194",
+          "priceYen": 1430,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T03:33:07.387963+00:00",
+          "url": "https://item.rakuten.co.jp/compmoto-r/4902201444194/",
+          "store": "コンプモト　楽天市場店",
+          "inboundShippingYen": 0,
+          "displayPoints": 13,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ネスレ ネスカフェ アイスブレンド 50g",
+          "storeName": "ニシムタ　楽天市場店",
+          "jan": "4902201444194",
+          "priceYen": 717,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T03:32:56.887500+00:00",
+          "url": "https://item.rakuten.co.jp/nishimuta/4902201444194/",
+          "store": "ニシムタ　楽天市場店",
+          "inboundShippingYen": 980,
+          "displayPoints": 6,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
+    },
+    "B0DWD6ZBM7": {
+      "expectedEans": [
+        "4902201444231"
+      ],
+      "checkedPages": 3,
+      "cumulativeCheckedPages": 3,
+      "identifierSource": "Keepa",
+      "eligibleLeads": 21,
+      "rejected": {
+        "jan_missing": 1,
+        "identifier_unconfirmed": 0
+      },
+      "suppliers": [
+        {
+          "name": "ネスカフェ ゴールドブレンド カフェインハーフ(50g)【ネスカフェ(NESCAFE)】[インスタントコーヒー 詰め替え カフェインレス 無糖]",
+          "storeName": "楽天24",
+          "jan": "4902201444231",
+          "priceYen": 599,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T03:33:38.990601+00:00",
+          "url": "https://item.rakuten.co.jp/rakuten24/4902201444231/",
+          "store": "楽天24",
+          "inboundShippingYen": 770,
+          "displayPoints": 5,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        },
+        {
+          "name": "ネスレ ゴールドブレンド カフェインハーフ 50g",
+          "storeName": "ニシムタ　楽天市場店",
+          "jan": "4902201444231",
+          "priceYen": 717,
+          "availability": "http://schema.org/InStock",
+          "checkedAt": "2026-10-15T03:33:28.510297+00:00",
+          "url": "https://item.rakuten.co.jp/nishimuta/4902201444231/",
+          "store": "ニシムタ　楽天市場店",
+          "inboundShippingYen": 980,
+          "displayPoints": 6,
+          "couponMentioned": false,
+          "shippingSource": "Rakuten search card for Tokyo"
+        }
+      ]
     }
   },
-  "checkedAt": "2026-10-15T02:30:37.086263+00:00"
+  "checkedAt": "2026-10-15T03:33:49.781603+00:00"
 }
