@@ -135,6 +135,10 @@
     $('#trialProgress').textContent = `厚さ ${measuredThicknesses.length}/${trialProducts.length}件入力`;
     $('#trialThicknessStatus').textContent = measuredThicknesses.length ? `厚さ3cm以下 ${within3cm}件・超 ${measuredThicknesses.length - within3cm}件` : '厚さの入力待ち';
     $('#trialShippingStatus').textContent = `外装4項目 ${trialProducts.filter(trial => hasRealMeasurements(recordFor(trial.asin))).length}/${trialProducts.length}件入力済み`;
+    const ratedTrials = trialProducts.filter(trial => ['correct', 'wrong'].includes(recordFor(trial.asin).feedbackVerdict));
+    const correctTrials = ratedTrials.filter(trial => recordFor(trial.asin).feedbackVerdict === 'correct').length;
+    $('#trialFeedbackStatus').textContent = `予測評価 ${ratedTrials.length}/${trialProducts.length}件 · 一致 ${correctTrials}件 · 違い ${ratedTrials.length - correctTrials}件`;
+    $('#copyProductFeedback').disabled = feedbackReport().split('\n').length <= 2;
     $('#trialPredictionStatus').hidden = measuredThicknesses.length === 0;
     $('#trialPredictionStatus').textContent = `実測が予測上限より厚い ${forecastExceeded}/${measuredThicknesses.length}件`;
     const registeredDemos = demoMeasurements.filter(sample => products.some(item => item.asin === sample.asin));
@@ -515,7 +519,7 @@
         <section class="decision-profit"><div class="profit-title"><span class="yen-mark">¥</span><span class="rail-eyebrow">仕入・利益</span><a href="#profit-editor">編集する</a></div>${quickBreakdown}<div data-quick-profit>${profitResult(item, 'clickpost', record)}</div><small>${quickSupplier ? `仕入先：<a href="${escapeHtml(quickSupplier.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(quickSupplier.name)} ↗</a> · ${escapeHtml(quickSupplier.checkedOn)}確認` : '仕入価格は未確認です。詳細で入力できます。'}</small></section>
         <p class="decision-warning">${outcomeDetail}</p>
       </aside>
-      <details class="advanced"><summary>利益の内訳・実測入力・判定根拠を見る <span>実測値を入力できます</span></summary><div class="advanced-body">
+      <details class="advanced"><summary>利益の内訳・実測入力・予測評価を見る <span>実測値とコメントを入力できます</span></summary><div class="advanced-body">
       <div class="product-main">
         <div class="product-photo-panel">
           <a class="product-photo" href="${amazonUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(item.title)}をAmazonで開く">${photo}</a>
@@ -578,6 +582,12 @@
               <label>梱包後の重量 g<input data-measure="shipWeight" type="number" min="0" max="9999" step="1" inputmode="decimal" value="${escapeHtml(record.shipWeight)}" placeholder="例 240"></label>
             </div>
             <p>入力済みの項目は実測として反映します。発送可否の確定には、外装の長辺・短辺・最大厚・重量をすべて測ってください。このブラウザに保存します。</p>
+            <div class="prediction-feedback"><h5>この予測へのフィードバック</h5><div class="prediction-feedback-fields">
+              <label>判定は合っていた？<select data-measure="feedbackVerdict"><option value="">まだ判断できない</option><option value="correct"${record.feedbackVerdict === 'correct' ? ' selected' : ''}>合っていた</option><option value="wrong"${record.feedbackVerdict === 'wrong' ? ' selected' : ''}>違った</option></select></label>
+              <label>確認した根拠<select data-measure="feedbackEvidence"><option value="">未選択</option><option value="packed_measurement"${record.feedbackEvidence === 'packed_measurement' ? ' selected' : ''}${!hasRealMeasurements(record) ? ' disabled' : ''}>発送外装の4項目を実測</option><option value="physical_check"${record.feedbackEvidence === 'physical_check' ? ' selected' : ''}>現物を確認</option><option value="listing_check"${record.feedbackEvidence === 'listing_check' ? ' selected' : ''}>掲載情報で確認</option></select></label>
+              <label>判定とズレた点<select data-measure="feedbackReason"><option value="">未選択</option><option value="sales_unit"${record.feedbackReason === 'sales_unit' ? ' selected' : ''}>販売単位</option><option value="package_shape"${record.feedbackReason === 'package_shape' ? ' selected' : ''}>袋・硬い部分</option><option value="thickness"${record.feedbackReason === 'thickness' ? ' selected' : ''}>厚さ</option><option value="weight"${record.feedbackReason === 'weight' ? ' selected' : ''}>重量</option><option value="listing_data"${record.feedbackReason === 'listing_data' ? ' selected' : ''}>掲載寸法・商品情報</option><option value="price"${record.feedbackReason === 'price' ? ' selected' : ''}>価格・仕入れ</option><option value="other"${record.feedbackReason === 'other' ? ' selected' : ''}>その他</option></select></label>
+              <label class="feedback-comment">コメント<textarea data-measure="feedbackComment" maxlength="2000" placeholder="例：未開封袋の底マチが厚く、外装込みで3.4cm">${escapeHtml(record.feedbackComment)}</textarea></label>
+            </div><p>「合っていた／違った」はこの画面の予測判定への評価です。入力内容はこのブラウザに保存します。評価だけで実測扱いにはせず、予測は自動変更しません。CSVに書き出してチャットへ送ると、判定基準の見直しに使えます。</p></div>
           </section>
         </div>
       </div>
@@ -681,7 +691,7 @@
       ['shipLength', '外装の長辺', 'cm', '0.1'], ['shipWidth', '外装の短辺', 'cm', '0.1'],
       ['thickness', '梱包後の最大厚', 'cm', '0.1'], ['shipWeight', '梱包後の重量', 'g', '1'],
     ];
-    return `<section class="trial-detail" data-asin="${item.asin}" aria-label="実測待ちリストの入力欄"><div class="trial-detail-head"><div><small>実測待ちリスト ${trial.order + 1} / ${trialProducts.length}</small><h2>${escapeHtml(item.title)}</h2></div><strong>${measurementCount(record)}/6項目入力</strong></div><p>画像の参考価格 ${yen(trial.referencePriceYen)}。購入・梱包の事実は登録していません。入力済みの値だけを実測として扱い、空欄は未測定です。数値を入れると、このブラウザに保存して下の判定へ反映します。</p><div class="trial-fields">${fields.map(([key, label, unit, step]) => `<label>${label} ${unit}<input data-measure="${key}" type="number" min="0" step="${step}" inputmode="decimal" value="${escapeHtml(record[key] ?? '')}" placeholder="未測定"></label>`).join('')}</div></section>`;
+    return `<section class="trial-detail" data-asin="${item.asin}" aria-label="実測待ちリストの入力欄"><div class="trial-detail-head"><div><small>実測待ちリスト ${trial.order + 1} / ${trialProducts.length}</small><h2>${escapeHtml(item.title)}</h2></div><strong>${measurementCount(record)}/6項目入力</strong></div><p>画像の参考価格 ${yen(trial.referencePriceYen)}。購入・梱包の事実は登録していません。入力済みの値だけを実測として扱い、空欄は未測定です。数値を入れると、このブラウザに保存して下の判定へ反映します。</p><div class="trial-fields">${fields.map(([key, label, unit, step]) => `<label>${label} ${unit}<input data-measure="${key}" type="number" min="0" step="${step}" inputmode="decimal" value="${escapeHtml(record[key] ?? '')}" placeholder="未測定"></label>`).join('')}</div><div class="prediction-feedback"><h3>予測は合っていた？</h3><div class="prediction-feedback-fields"><label>評価<select data-measure="feedbackVerdict"><option value="">まだ判断できない</option><option value="correct"${record.feedbackVerdict === 'correct' ? ' selected' : ''}>合っていた</option><option value="wrong"${record.feedbackVerdict === 'wrong' ? ' selected' : ''}>違った</option></select></label><label>確認した根拠<select data-measure="feedbackEvidence"><option value="">未選択</option><option value="packed_measurement"${record.feedbackEvidence === 'packed_measurement' ? ' selected' : ''}${!hasRealMeasurements(record) ? ' disabled' : ''}>発送外装の4項目を実測</option><option value="physical_check"${record.feedbackEvidence === 'physical_check' ? ' selected' : ''}>現物を確認</option><option value="listing_check"${record.feedbackEvidence === 'listing_check' ? ' selected' : ''}>掲載情報で確認</option></select></label><label>判定とズレた点<select data-measure="feedbackReason"><option value="">未選択</option><option value="sales_unit"${record.feedbackReason === 'sales_unit' ? ' selected' : ''}>販売単位</option><option value="package_shape"${record.feedbackReason === 'package_shape' ? ' selected' : ''}>袋・硬い部分</option><option value="thickness"${record.feedbackReason === 'thickness' ? ' selected' : ''}>厚さ</option><option value="weight"${record.feedbackReason === 'weight' ? ' selected' : ''}>重量</option><option value="listing_data"${record.feedbackReason === 'listing_data' ? ' selected' : ''}>掲載寸法・商品情報</option><option value="price"${record.feedbackReason === 'price' ? ' selected' : ''}>価格・仕入れ</option><option value="other"${record.feedbackReason === 'other' ? ' selected' : ''}>その他</option></select></label><label class="feedback-comment">コメント<textarea data-measure="feedbackComment" maxlength="2000" placeholder="例：底のマチが硬く、外装込み最大厚は3.4cm">${escapeHtml(record.feedbackComment)}</textarea></label></div><p>4項目を揃えたときだけ「発送外装を実測」を選べます。評価は予測を自動変更せず、このブラウザに保存します。</p></div></section>`;
   }
 
   function render() {
@@ -689,7 +699,7 @@
     const requestedBox = $('#requestedMatch');
     if (requestedBox) {
       requestedBox.hidden = !requestedMatch;
-      requestedBox.innerHTML = requestedMatch ? `指定ASINの確認結果：${escapeHtml(requestedMatch.title)}<a href="requested.html?asin=${requestedMatch.asin}">価格・手数料・掲載寸法を見る →</a>` : '';
+      requestedBox.innerHTML = requestedMatch ? `指定ASINの確認結果：${escapeHtml(requestedMatch.title)}<a href="requested.html?asin=${requestedMatch.asin}">判定・価格・フィードバックを見る →</a>` : '';
     }
     $('#demoSidebar').hidden = trialOnly;
     const advancedAsin = $('#featured .advanced[open]')?.closest('[data-asin]')?.dataset.asin;
@@ -709,8 +719,28 @@
 
   function csvCell(value) { return `"${String(value ?? '').replace(/"/g, '""')}"`; }
 
+  function feedbackReport() {
+    const evidenceLabels = { packed_measurement: '発送外装の4項目を実測', physical_check: '現物を確認', listing_check: '掲載情報で確認' };
+    const reasonLabels = { sales_unit: '販売単位', package_shape: '袋・硬い部分', thickness: '厚さ', weight: '重量', listing_data: '掲載寸法・商品情報', price: '価格・仕入れ', other: 'その他' };
+    const lines = ['発送サイズ研究所｜登録商品のフィードバック', '※ユーザー入力。空欄や掲載寸法を実測として扱わない。'];
+    for (const item of products) {
+      const record = recordFor(item.asin);
+      if (!record.feedbackVerdict && !record.feedbackEvidence && !record.feedbackReason && !record.feedbackComment && !measurementCount(record)) continue;
+      const parts = [item.asin, item.title, `予測: ${verdictLabels[predictions[item.asin].verdict]}`,
+        `評価: ${{ correct: '合っていた', wrong: '違った' }[record.feedbackVerdict] || '未確認'}`,
+        `根拠: ${record.feedbackEvidence === 'packed_measurement' && !hasRealMeasurements(record) ? '外装4項目未完' : evidenceLabels[record.feedbackEvidence] || '未選択'}`];
+      for (const [key, label, unit] of [['shipLength', '外装長辺', 'cm'], ['shipWidth', '外装短辺', 'cm'], ['thickness', '外装最大厚', 'cm'], ['shipWeight', '外装重量', 'g']]) {
+        if (isMeasured(record, key)) parts.push(`${label}: ${record[key]}${unit}`);
+      }
+      if (record.feedbackReason) parts.push(`ズレた点: ${reasonLabels[record.feedbackReason] || record.feedbackReason}`);
+      if (record.feedbackComment) parts.push(`コメント: ${String(record.feedbackComment).replace(/\s+/g, ' ')}`);
+      lines.push(parts.join(' / '));
+    }
+    return lines.join('\n');
+  }
+
   function createCsv(items = sortedProducts()) {
-    const header = ['ASIN', '商品名', '分類', '厚さ予測', '概算厚さ下限cm', '概算厚さ上限cm', '確信度', '理由', '計算に使った量', '中身', '仮定袋幅cm', '仮定袋長cm', '袋寸法の根拠', '袋寸法の根拠区分', 'メーカー公表の単品重量g', 'かさ密度下限g/mL', 'かさ密度上限g/mL', 'Amazon寸法確認', '掲載最小辺cm', '掲載寸法', '寸法種別', 'Keepa API商品寸法cm', 'Keepa APIパッケージ寸法cm', 'ネコポス判定', 'ネコポス理由', 'クリックポスト判定', 'クリックポスト理由', '外装の想定長辺上限cm', '外装の想定短辺上限cm', '想定3辺合計上限cm', '実測袋幅cm', '実測袋長cm', '実測外装長辺cm', '実測外装短辺cm', '実測最大厚cm', '実測梱包後重量g', '仕入先', '仕入先URL', '仕入先確認日', 'Amazon自己発送出品価格円', '購入者負担の配送料円', '付与ポイント数', '仕入価格円', '仕入先の単品注文時表示送料円', '利益計算に入れた仕入送料円', '梱包資材費円', 'クリックポスト概算利益円', 'ネコポス概算利益円', '利益区分', '売価の根拠', '仕入価格＋入力した仕入送料の収支ゼロ上限円', 'おすすめ出品の購入者総額円', 'おすすめ出品との価格差円', '補足', '出典URL'];
+    const header = ['ASIN', '商品名', '分類', '厚さ予測', '概算厚さ下限cm', '概算厚さ上限cm', '確信度', '理由', '計算に使った量', '中身', '仮定袋幅cm', '仮定袋長cm', '袋寸法の根拠', '袋寸法の根拠区分', 'メーカー公表の単品重量g', 'かさ密度下限g/mL', 'かさ密度上限g/mL', 'Amazon寸法確認', '掲載最小辺cm', '掲載寸法', '寸法種別', 'Keepa API商品寸法cm', 'Keepa APIパッケージ寸法cm', 'ネコポス判定', 'ネコポス理由', 'クリックポスト判定', 'クリックポスト理由', '外装の想定長辺上限cm', '外装の想定短辺上限cm', '想定3辺合計上限cm', '実測袋幅cm', '実測袋長cm', '実測外装長辺cm', '実測外装短辺cm', '実測最大厚cm', '実測梱包後重量g', '予測評価', '評価の根拠', '判定とズレた点', '評価コメント', '仕入先', '仕入先URL', '仕入先確認日', 'Amazon自己発送出品価格円', '購入者負担の配送料円', '付与ポイント数', '仕入価格円', '仕入先の単品注文時表示送料円', '利益計算に入れた仕入送料円', '梱包資材費円', 'クリックポスト概算利益円', 'ネコポス概算利益円', '利益区分', '売価の根拠', '仕入価格＋入力した仕入送料の収支ゼロ上限円', 'おすすめ出品の購入者総額円', 'おすすめ出品との価格差円', '補足', '出典URL'];
     const rows = items.map(item => {
       const p = predictions[item.asin];
       const record = recordFor(item.asin);
@@ -719,7 +749,7 @@
       const apiCell = dims => Array.isArray(dims?.cm) ? dims.cm.join(' × ') : '';
       const supplier = suppliersFor(item.asin)[0];
       const sale = saleInputsFor(item, record);
-      return [item.asin, item.title, item.category, verdictLabels[p.verdict], ...p.roughThicknessCm, p.confidence, p.reason, p.amountText || `${p.massG}g`, p.material, ...p.assumedPouchCm, p.geometryNote, p.footprintSource, p.manufacturerGrossWeightG, ...p.densityRangeGml, item.sizeConfirmed ? '3cm超' : '未確認', item.listedMinCm, item.listedDimensions, item.dimensionType, apiCell(api.keepa?.item), apiCell(api.keepa?.package), shippingLabels[fit.nekopos.status], fit.nekopos.reasons.join(' / '), shippingLabels[fit.clickpost.status], fit.clickpost.reasons.join(' / '), fit.nekopos.projected.longMax, fit.nekopos.projected.shortMax, fit.nekopos.projected.sumMax, record.pouchWidth, record.pouchHeight, record.shipLength, record.shipWidth, record.thickness, record.shipWeight, supplier?.name, supplier?.url, supplier?.checkedOn, sale.listing, sale.shipping, sale.points, inputValue(record, 'buyPrice', supplier?.priceYen ?? ''), supplier?.inboundShippingYen, inputValue(record, 'buyShipping', 0), inputValue(record, 'packagingCost', 20), fit.clickpost.status === 'over' ? '' : profitFor(item, 'clickpost', record)?.profit, fit.nekopos.status === 'over' ? '' : profitFor(item, 'nekopos', record)?.profit, profitStateFor(item, record), sale.basis, purchaseCeilingFor(item, record), market.offers?.[item.asin]?.featuredOffer?.landedYen, priceGapFor(item, record), item.caution, p.sources.join(' | ')];
+      return [item.asin, item.title, item.category, verdictLabels[p.verdict], ...p.roughThicknessCm, p.confidence, p.reason, p.amountText || `${p.massG}g`, p.material, ...p.assumedPouchCm, p.geometryNote, p.footprintSource, p.manufacturerGrossWeightG, ...p.densityRangeGml, item.sizeConfirmed ? '3cm超' : '未確認', item.listedMinCm, item.listedDimensions, item.dimensionType, apiCell(api.keepa?.item), apiCell(api.keepa?.package), shippingLabels[fit.nekopos.status], fit.nekopos.reasons.join(' / '), shippingLabels[fit.clickpost.status], fit.clickpost.reasons.join(' / '), fit.nekopos.projected.longMax, fit.nekopos.projected.shortMax, fit.nekopos.projected.sumMax, record.pouchWidth, record.pouchHeight, record.shipLength, record.shipWidth, record.thickness, record.shipWeight, record.feedbackVerdict, record.feedbackEvidence, record.feedbackReason, record.feedbackComment, supplier?.name, supplier?.url, supplier?.checkedOn, sale.listing, sale.shipping, sale.points, inputValue(record, 'buyPrice', supplier?.priceYen ?? ''), supplier?.inboundShippingYen, inputValue(record, 'buyShipping', 0), inputValue(record, 'packagingCost', 20), fit.clickpost.status === 'over' ? '' : profitFor(item, 'clickpost', record)?.profit, fit.nekopos.status === 'over' ? '' : profitFor(item, 'nekopos', record)?.profit, profitStateFor(item, record), sale.basis, purchaseCeilingFor(item, record), market.offers?.[item.asin]?.featuredOffer?.landedYen, priceGapFor(item, record), item.caution, p.sources.join(' | ')];
     });
     return [header, ...rows].map(row => row.map(csvCell).join(',')).join('\r\n');
   }
@@ -753,7 +783,10 @@
     const field = event.target.dataset.measure;
     const asin = event.target.closest('[data-asin]')?.dataset.asin;
     if (!field || !asin) return;
-    records[asin] = { ...recordFor(asin), [field]: event.target.value };
+    const next = { ...recordFor(asin), [field]: event.target.value };
+    if (['shipLength', 'shipWidth', 'thickness', 'shipWeight'].includes(field)
+      && !hasRealMeasurements(next) && next.feedbackEvidence === 'packed_measurement') next.feedbackEvidence = '';
+    records[asin] = next;
     saveRecords();
   });
   $('#featured').addEventListener('change', event => {
@@ -925,6 +958,21 @@
   $('#closeCsv').addEventListener('click', () => $('#csvDialog').close());
   $('#saveCsv').addEventListener('click', () => exportCsv());
   $('#exportProfitCandidates').addEventListener('click', () => exportCsv(sortedProducts().filter(item => profitStateFor(item) === 'candidate'), 'profit-candidates'));
+  $('#copyProductFeedback').addEventListener('click', async () => {
+    const report = feedbackReport();
+    const fallback = $('#productFeedbackCopyText');
+    try {
+      await navigator.clipboard.writeText(report);
+      fallback.hidden = true;
+      $('#productFeedbackMessage').textContent = '入力した評価・実測をコピーしました。このチャットへ貼ると判定基準の見直しに使えます。';
+    } catch {
+      fallback.value = report;
+      fallback.hidden = false;
+      fallback.focus();
+      fallback.select();
+      $('#productFeedbackMessage').textContent = '自動コピーできなかったため、表示した文章を選択してコピーしてください。';
+    }
+  });
   $('#sideExport')?.addEventListener('click', () => $('#export').click());
   document.querySelector('.side-nav a[href="#method"]')?.addEventListener('click', () => { $('#method').open = true; });
   renderStats();

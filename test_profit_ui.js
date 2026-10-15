@@ -28,7 +28,7 @@ for (const file of ['data.js', 'predictions.js', 'shipping_fit.js', 'demo_measur
 const app = fs.readFileSync('app.js', 'utf8');
 const ending = /  renderStats\(\);\s*syncProfitButtons\(\);\s*syncDemoButton\(\);\s*syncMeasuredButton\(\);\s*syncTrialButton\(\);\s*render\(\);\s*\}\)\(\);\s*$/;
 assert(ending.test(app), 'app bootstrap changed; inspect test harness');
-vm.runInContext(app.replace(ending, '  window.__profitTest = { profitStateFor, profitFor, purchaseCeilingFor, suppliersFor, supplierBadge, supplierDisplayName, supplierQuick, createCsv, renderStats, render, recordFor, demoWithin3Cm, shippingLabelFor, setRecord(asin, record) { records[asin] = record; }, setSelectedAsin(asin) { selectedAsin = asin; }, setProfitFilter(value) { profitFilter = value; }, setDemoOnly(value) { demoOnly = value; profitFilter = value ? "all" : "candidate"; selectedAsin = demoMeasurements[0]?.asin || ""; }, setTrialOnly(value) { trialOnly = value; demoOnly = false; profitFilter = value ? "all" : "candidate"; selectedAsin = trialProducts[0]?.asin || ""; } };\n})();'), context, { filename: 'app.js' });
+vm.runInContext(app.replace(ending, '  window.__profitTest = { profitStateFor, profitFor, purchaseCeilingFor, suppliersFor, supplierBadge, supplierDisplayName, supplierQuick, createCsv, feedbackReport, renderStats, render, recordFor, demoWithin3Cm, shippingLabelFor, setRecord(asin, record) { records[asin] = record; }, setSelectedAsin(asin) { selectedAsin = asin; }, setProfitFilter(value) { profitFilter = value; }, setDemoOnly(value) { demoOnly = value; profitFilter = value ? "all" : "candidate"; selectedAsin = demoMeasurements[0]?.asin || ""; }, setTrialOnly(value) { trialOnly = value; demoOnly = false; profitFilter = value ? "all" : "candidate"; selectedAsin = trialProducts[0]?.asin || ""; } };\n})();'), context, { filename: 'app.js' });
 
 const products = context.window.NEKOPOST_PRODUCTS;
 const test = context.window.__profitTest;
@@ -65,6 +65,19 @@ assert(demos.every(demo => products.some(item => item.asin === demo.asin)));
 assert.strictEqual(demos.filter(test.demoWithin3Cm).length, 7);
 assert.strictEqual(demos.filter(demo => !test.demoWithin3Cm(demo)).length, 3);
 assert.strictEqual(Object.keys(test.recordFor(demos[0].asin)).length, 0, 'sample dimensions must not populate real measurements');
+test.setRecord(trials[0].asin, { feedbackVerdict: 'wrong', feedbackEvidence: 'physical_check', feedbackReason: 'package_shape', feedbackComment: '未開封袋に硬い注ぎ口' });
+test.setTrialOnly(true);
+test.renderStats();
+test.render();
+assert(element('#trialFeedbackStatus').textContent.includes('予測評価 1/10件 · 一致 0件 · 違い 1件'));
+assert(element('#featured').innerHTML.includes('未開封袋に硬い注ぎ口'));
+assert(element('#featured').innerHTML.includes('予測は合っていた？'));
+assert(!element('#copyProductFeedback').disabled);
+assert(test.feedbackReport().includes('コメント: 未開封袋に硬い注ぎ口'));
+assert(test.createCsv([products.find(item => item.asin === trials[0].asin)]).includes('"評価コメント"'));
+assert(test.createCsv([products.find(item => item.asin === trials[0].asin)]).includes('"package_shape","未開封袋に硬い注ぎ口"'));
+test.setRecord(trials[0].asin, {});
+test.setTrialOnly(false);
 for (const [url, key] of [
   ['https://item.rakuten.co.jp/shop/product/', 'rakuten'],
   ['https://store.shopping.yahoo.co.jp/shop/product.html', 'yahoo'],

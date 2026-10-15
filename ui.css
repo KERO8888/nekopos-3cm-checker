@@ -147,6 +147,18 @@ main { width:100%; max-width:1700px; margin:auto; padding:22px 24px 56px; }
 .measurement-fields input { display:block; width:100%; min-height:32px; margin-top:3px; padding:5px 6px; border:1px solid #d4e0e7; border-radius:7px; background:#fff; color:var(--ink); font-size:13px; }
 .measurement-fields input:focus { outline:0; border-color:#73ad92; box-shadow:0 0 0 3px #73ad9233; }
 .measurement p { margin:6px 0 0; color:#738695; font-size:11px; line-height:1.4; }
+.prediction-feedback { margin-top:12px; padding-top:12px; border-top:1px solid #dce7e9; }
+.prediction-feedback h3,.prediction-feedback h5 { margin:0 0 9px; color:#183850; font-size:14px; }
+.prediction-feedback-fields { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; }
+.prediction-feedback-fields label { display:grid; gap:4px; min-width:0; color:#516c7c; font-size:12px; font-weight:750; }
+.prediction-feedback-fields select,.prediction-feedback-fields textarea { width:100%; min-height:34px; padding:7px 8px; border:1px solid #d4e0e7; border-radius:7px; background:#fff; color:var(--ink); font:inherit; }
+.prediction-feedback-fields textarea { min-height:70px; resize:vertical; }
+.prediction-feedback-fields .feedback-comment { grid-column:1/-1; }
+@media(max-width:600px) { .prediction-feedback-fields { grid-template-columns:1fr; } }
+.feedback-copy-button { display:block; width:100%; margin-top:8px; padding:9px 10px; border:1px solid #65b8bb; border-radius:8px; background:#e7fbf8; color:#0c6670; font:inherit; font-weight:750; cursor:pointer; }
+.feedback-copy-button:disabled { opacity:.5; cursor:default; }
+#productFeedbackCopyText { display:block; width:100%; min-height:100px; margin-top:8px; }
+#productFeedbackCopyText[hidden] { display:none; }
 .stats { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; margin:16px 0 0; }
 .stat { position:relative; min-height:86px; padding:15px 17px; border:1px solid var(--line); border-radius:11px; background:#fff; box-shadow:none; }
 .stat strong { display:block; color:var(--ink); font-size:27px; line-height:1.1; }

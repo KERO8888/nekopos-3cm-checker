@@ -32,7 +32,23 @@
     .requested-card footer { display:flex; flex-wrap:wrap; gap:16px; padding-top:12px; border-top:1px solid #e3eaed; }
     .requested-card footer a { color:#087684; font-weight:750; }
     .requested-note { margin-top:22px; font-size:13px; }
-    @media(max-width:690px) { .requested-head { display:block; } .requested-facts { grid-template-columns:1fr; } .requested-title { display:block; } .requested-status { display:inline-block; margin-top:8px; } }
+    .feedback-summary { margin:20px 0; padding:18px; border:1px solid #badbdc; border-radius:14px; background:#eaf7f5; }
+    .feedback-summary h2 { margin:0 0 8px; font-size:19px; }
+    .feedback-summary p { margin:8px 0; line-height:1.6; }
+    .feedback-summary button, .feedback-form button { padding:9px 14px; border:0; border-radius:8px; background:#087684; color:white; font:inherit; font-weight:700; cursor:pointer; }
+    .feedback-summary button:disabled { opacity:.5; cursor:default; }
+    .feedback-summary textarea { display:block; width:100%; min-height:100px; margin-top:10px; }
+    .feedback-summary textarea[hidden] { display:none; }
+    .requested-feedback { margin:18px 0 14px; padding:12px 14px; border:1px solid #cadde0; border-radius:10px; }
+    .requested-feedback summary { color:#0b6471; font-weight:750; cursor:pointer; }
+    .feedback-form { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-top:14px; }
+    .feedback-form label { display:grid; gap:5px; color:#304d5c; font-size:14px; font-weight:650; }
+    .feedback-form input, .feedback-form select, .feedback-form textarea { width:100%; padding:9px 10px; border:1px solid #b7cad2; border-radius:8px; background:white; color:#12314e; font:inherit; }
+    .feedback-form textarea { min-height:82px; resize:vertical; }
+    .feedback-form .wide { grid-column:1/-1; }
+    .feedback-form button { justify-self:start; }
+    .feedback-help { margin:10px 0 0; color:#5e7283; font-size:13px; line-height:1.55; }
+    @media(max-width:690px) { .requested-head { display:block; } .requested-facts, .feedback-form { grid-template-columns:1fr; } .requested-title { display:block; } .requested-status { display:inline-block; margin-top:8px; } }
   </style>
 </head>
 <body>
@@ -40,37 +56,13 @@
     <div class="requested-head"><div><a href="index.html">← 商品分析へ戻る</a><h1>指定ASINの確認結果</h1><p>ご指定の17件を確認しました。主一覧の登録数には含めていません。</p></div><span>確認日 2026年10月15日</span></div>
     <label for="asinSearch"><strong>ASIN・商品名で検索</strong></label>
     <div class="requested-search"><input id="asinSearch" type="search" placeholder="例 B00SM995GQ" autocomplete="off"></div>
+    <section class="feedback-summary" aria-label="フィードバックの集計"><h2>予測へのフィードバック</h2><p id="feedbackStats">評価の入力待ち</p><p id="feedbackAdvice">間違いが出たら、ズレた理由を記録すると見直す条件を絞れます。</p><button id="copyFeedback" type="button" disabled>入力内容をコピー</button><p class="feedback-help">入力はこのブラウザに保存します。ローカルファイルと公開URLの記録は自動同期しません。こちらの調査に反映するには、コピーした内容をチャットに貼ってください。実測していない数値は空欄で大丈夫です。「発送外装を実測」を選ぶときは外装の長辺・短辺・最大厚・重量を揃えてください。</p><textarea id="feedbackCopyText" readonly hidden aria-label="コピー用フィードバック"></textarea><p id="feedbackMessage" role="status" aria-live="polite"></p></section>
     <p id="resultCount" class="requested-count"></p>
     <section id="requestedList" class="requested-list" aria-live="polite"></section>
     <p class="requested-note">商品名・3辺・重量はKeepaの掲載値で、発送用外装の実測ではありません。Amazonへの自動取得は確認画面で停止したため、商品本文は確認していません。販売単位・付属品などは各商品の根拠リンクでも照合しています。売価はSP-API Pricingの新規出品、手数料は同じ自己発送価格でのProduct Fees見積もりです。FBA配送代行手数料は含めていません。一部商品の仕入価格は個別に注記していますが、発送適合を含む確定利益ではありません。価格・出品状況は変わります。</p>
   </main>
   <script src="requested_reviews.js?v=5"></script>
-  <script>
-    (() => {
-      const items = window.NEKOPOST_REQUESTED_REVIEWS?.items || [];
-      const input = document.querySelector('#asinSearch');
-      const list = document.querySelector('#requestedList');
-      const count = document.querySelector('#resultCount');
-      const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-      const yen = value => `¥${Number(value).toLocaleString('ja-JP')}`;
-      const offer = value => value ? `${yen(value.listingYen)} ＋購入者送料 ${yen(value.shippingYen)}${value.points ? `・付与 ${value.points}pt` : ''}` : '出品取得なし';
-      const statusLabel = item => item.status === 'shipping_hold' ? '小型発送見込み・要実測' : item.status === 'hold' ? '形状確認待ち' : '主一覧対象外';
-      const card = item => {
-        const dims = item.packageCm.map(value => Number(value).toFixed(1));
-        const reference = !item.merchant;
-        return `<article class="requested-card" id="${item.asin}"><div class="requested-title"><h2>${escape(item.title)}</h2><span class="requested-status ${item.status}">${statusLabel(item)}</span></div><p class="requested-asin">ASIN ${item.asin} · JAN ${escape(item.eanList.join(' / ') || '未確認')}</p><div class="requested-facts"><div><small>Keepa掲載の梱包3辺・重量</small><strong>${dims.join(' × ')}cm / ${escape(item.packageWeightG)}g</strong></div><div><small>Amazon自己発送の新規出品</small><strong>${offer(item.merchant)}</strong></div><div><small>自己発送手数料見積もり</small><strong>${yen(item.merchantFeeYen)}（税込概算 ${yen(Math.ceil(item.merchantFeeYen * 1.1))}）${reference ? '・FBA売価で参考算出' : ''}</strong></div></div><p class="requested-reason">${escape(item.reason)}</p><p class="requested-asin">FBA出品：${offer(item.amazonFulfilled)}。${escape(item.feeBasis)}。発送用外装の実測は未取得。${item.sourcingNote ? escape(item.sourcingNote) : '仕入価格は未確認。'}</p><footer><a href="https://www.amazon.co.jp/dp/${item.asin}" target="_blank" rel="noopener noreferrer">Amazon商品ページ ↗</a><a href="https://keepa.com/#!product/5-${item.asin}" target="_blank" rel="noopener noreferrer">Keepa ↗</a>${item.evidenceUrl ? `<a href="${escape(item.evidenceUrl)}" target="_blank" rel="noopener noreferrer">${escape(item.evidenceLabel || '判定根拠')} ↗</a>` : ''}</footer></article>`;
-      };
-      const render = () => {
-        const query = input.value.trim().toLowerCase();
-        const found = items.filter(item => !query || `${item.asin} ${item.title}`.toLowerCase().includes(query));
-        count.textContent = `${found.length} / ${items.length}件 · 小型発送見込み ${items.filter(item => item.status === 'shipping_hold').length}件 · 対象外 ${items.filter(item => item.status === 'excluded').length}件`;
-        list.innerHTML = found.length ? found.map(card).join('') : '<p>一致するASINはありません。</p>';
-      };
-      const requested = new URLSearchParams(location.search).get('asin');
-      if (requested) input.value = requested.toUpperCase();
-      input.addEventListener('input', render);
-      render();
-    })();
-  </script>
+  <script src="requested_feedback.js?v=1"></script>
+  <script src="requested_page.js?v=1"></script>
 </body>
 </html>
